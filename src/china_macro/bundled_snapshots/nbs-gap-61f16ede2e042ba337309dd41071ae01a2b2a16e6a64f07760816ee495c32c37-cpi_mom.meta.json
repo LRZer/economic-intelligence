@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:05+00:00",
+  "sha256": "61f16ede2e042ba337309dd41071ae01a2b2a16e6a64f07760816ee495c32c37",
+  "key": "cpi_mom",
+  "period": "2025-10",
+  "value": 0.2,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961826.html",
+  "source_title": "2025年10月份居民消费价格同比上涨0.2%",
+  "published": "2025-11-09",
+  "original_sha256": "8d82737c1747885f57aaf63c065b79c9f63524d8b441d91b06538d5b2aff69e5",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

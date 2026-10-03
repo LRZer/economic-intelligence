@@ -1,0 +1,93 @@
+{
+  "provider": "CEPII BACI",
+  "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+  "release": "202601",
+  "revision": "HS17",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "build_id": "20260926T212327788688Z",
+  "downloaded_at_utc": "2026-09-26T21:23:27.788688+00:00",
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "raw_rows": 89207221,
+  "audit_by_year": [
+    {
+      "year": 2017,
+      "raw_rows": 9948845,
+      "total_usd": 17034895051622.455,
+      "missing_quantity_rows": 222933,
+      "partner_pairs": 26469,
+      "country_chapters": 39711
+    },
+    {
+      "year": 2018,
+      "raw_rows": 10802500,
+      "total_usd": 19040248976198.8,
+      "missing_quantity_rows": 246857,
+      "partner_pairs": 29225,
+      "country_chapters": 40235
+    },
+    {
+      "year": 2019,
+      "raw_rows": 11210131,
+      "total_usd": 18503756735483.83,
+      "missing_quantity_rows": 257132,
+      "partner_pairs": 30445,
+      "country_chapters": 40254
+    },
+    {
+      "year": 2020,
+      "raw_rows": 10985158,
+      "total_usd": 17160716192193.324,
+      "missing_quantity_rows": 277234,
+      "partner_pairs": 30558,
+      "country_chapters": 40087
+    },
+    {
+      "year": 2021,
+      "raw_rows": 11598685,
+      "total_usd": 21531492371408.18,
+      "missing_quantity_rows": 304603,
+      "partner_pairs": 31608,
+      "country_chapters": 40523
+    },
+    {
+      "year": 2022,
+      "raw_rows": 11703117,
+      "total_usd": 24184090264294.11,
+      "missing_quantity_rows": 347933,
+      "partner_pairs": 31648,
+      "country_chapters": 40640
+    },
+    {
+      "year": 2023,
+      "raw_rows": 11781215,
+      "total_usd": 22937839746482.56,
+      "missing_quantity_rows": 416272,
+      "partner_pairs": 31676,
+      "country_chapters": 40812
+    },
+    {
+      "year": 2024,
+      "raw_rows": 11177570,
+      "total_usd": 22859231618681.375,
+      "missing_quantity_rows": 364576,
+      "partner_pairs": 29542,
+      "country_chapters": 40485
+    }
+  ],
+  "value_unit": "USD, current (BACI v × 1000)",
+  "method": "BACI reconciled directional flows; imports are the reverse view of the same flows",
+  "scope": "HS17 商品级全球双边流；应用快照聚合至伙伴与 HS2 商品章",
+  "citation": "Gaulier, G. and Zignago, S. (2010), CEPII Working Paper 2010-23",
+  "granularity": "year × reporter × flow × HS2",
+  "rows": 322747,
+  "parquet_sha256": "c72bc71c3f9af0bb38ec1fdbf2333e9e6d2a53d365c241be83cf94fed87ffb42"
+}

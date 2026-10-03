@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:43+00:00",
+  "sha256": "927c917651e5f9ac2346e66107dd9f46c934fc5f993b64caa96d80e8dd3b6e75",
+  "key": "cpi_mom",
+  "period": "2022-04",
+  "value": 0.4,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901456.html",
+  "source_title": "2022年4月份居民消费价格同比上涨2.1% 环比上涨0.4%",
+  "published": "2022-05-11",
+  "original_sha256": "fdfde738830be5b0a8a915cd30014383c62ac488031bc8752f59939a7abbb213",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

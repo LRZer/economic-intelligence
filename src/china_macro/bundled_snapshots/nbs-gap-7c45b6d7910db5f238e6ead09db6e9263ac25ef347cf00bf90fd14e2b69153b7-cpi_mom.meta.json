@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:44+00:00",
+  "sha256": "7c45b6d7910db5f238e6ead09db6e9263ac25ef347cf00bf90fd14e2b69153b7",
+  "key": "cpi_mom",
+  "period": "2022-06",
+  "value": 0.0,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901504.html",
+  "source_title": "2022年6月份居民消费价格同比上涨2.5% 环比持平",
+  "published": "2022-07-09",
+  "original_sha256": "7127f51d879357cefaaf20a2e3acf2b920a5e9e258065ab2b24c3d2d97f1374f",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

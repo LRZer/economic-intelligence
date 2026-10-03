@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:39+00:00",
+  "sha256": "0c3d02884b2bd71a6c2fc14d6823b1fed8ffcd258b28a87d94437b37fa5687fb",
+  "key": "ppi_mom",
+  "period": "2026-06",
+  "value": -0.3,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html",
+  "source_title": "2026年6月份工业生产者出厂价格同比上涨4.1% 环比下降0.3%",
+  "published": "2026-07-09",
+  "original_sha256": "abc018326fbd23f3194c6ba3c6e82d6d14b5689ea1ccd3770009968fea583c98",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

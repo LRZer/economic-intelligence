@@ -1,0 +1,11 @@
+{
+  "year": 2017,
+  "rows": 772799,
+  "raw_rows": 9948845,
+  "raw_total_usd": 17034895051621.707,
+  "included_total_usd": 17034895051623.0,
+  "excluded_nonstandard_hs_usd": -1.29296875,
+  "sha256": "0351cacb090d5beb44e388d118feddc65895a9525f12f060d73ed9661e8a0f58",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "file": "sector_partner_2017.parquet"
+}

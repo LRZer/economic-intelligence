@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "1ad811d6c422f56f28cc88c6eb10be06b5fdffa03abaa32ecce9fe58c81d1d14",
+  "key": "retail_yoy",
+  "period": "2021-12",
+  "value": 1.7,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901341.html",
+  "source_title": "2021年社会消费品零售总额增长12.5%",
+  "published": "2022-01-17",
+  "original_sha256": "ddb03dcd7c45915e289135b0202e3810a281e151b9f2f834e4e3fa9eb7887657",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

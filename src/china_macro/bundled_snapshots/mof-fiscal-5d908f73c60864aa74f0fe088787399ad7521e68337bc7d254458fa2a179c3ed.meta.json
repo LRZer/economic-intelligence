@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:51+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202201/t20220128_3785692.htm",
+  "source_title": "2021年财政收支情况",
+  "period": "2021-12",
+  "published": "2022-01-28",
+  "sha256": "5d908f73c60864aa74f0fe088787399ad7521e68337bc7d254458fa2a179c3ed",
+  "observation_count": 10,
+  "original_sha256": "0f4921f527a956dcc4fca966252d17ddf85313c2716793934cec5b5bb820c27c",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

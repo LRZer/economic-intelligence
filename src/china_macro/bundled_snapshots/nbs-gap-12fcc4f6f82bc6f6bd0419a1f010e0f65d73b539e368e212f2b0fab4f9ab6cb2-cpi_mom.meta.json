@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:55+00:00",
+  "sha256": "12fcc4f6f82bc6f6bd0419a1f010e0f65d73b539e368e212f2b0fab4f9ab6cb2",
+  "key": "cpi_mom",
+  "period": "2023-12",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946465.html",
+  "source_title": "2023年12月份居民消费价格同比下降0.3% 环比上涨0.1%",
+  "published": "2024-01-12",
+  "original_sha256": "4d46be21f4bbaa038b0d2f619b10a1c27200eb9485e50afd1ea1cdee23fff580",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

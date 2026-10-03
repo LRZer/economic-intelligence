@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:59+00:00",
+  "sha256": "4cb070be9d16d1b9e3103c3fc3771954a98dc9dc2299fde7617a42054603b98f",
+  "key": "cpi_mom",
+  "period": "2024-10",
+  "value": -0.3,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957353.html",
+  "source_title": "2024年10月份居民消费价格同比上涨0.3%",
+  "published": "2024-11-09",
+  "original_sha256": "4b07216eb304753f497f9a1c2e97996fce6887e2196b1674b17d26ef30de1a71",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

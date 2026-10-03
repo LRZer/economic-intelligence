@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/d3af357ad35b4fb78426c435987af0aa/index.html",
+  "source_title": "2021年上半年金融统计数据报告",
+  "published": "2021-07-09",
+  "kind": "financial_report",
+  "sha256": "b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb",
+  "file": "pbc-b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb-financial_report.html",
+  "record_count": 3,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_legacy_yoy",
+      "period": "2021-06",
+      "value": 5.5
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2021-06",
+      "value": 8.6
+    },
+    {
+      "key": "loans_ytd",
+      "period": "2021-06",
+      "value": 12.76
+    }
+  ],
+  "original_sha256": "7ebf31bf81d02207f730e4684cf241ea02d18b5e1fefe9ded5bec3fc70bcf598",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

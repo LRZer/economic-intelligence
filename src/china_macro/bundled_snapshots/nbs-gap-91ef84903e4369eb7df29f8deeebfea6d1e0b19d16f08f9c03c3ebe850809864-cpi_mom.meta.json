@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:04+00:00",
+  "sha256": "91ef84903e4369eb7df29f8deeebfea6d1e0b19d16f08f9c03c3ebe850809864",
+  "key": "cpi_mom",
+  "period": "2025-08",
+  "value": 0.0,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961112.html",
+  "source_title": "2025年8月份居民消费价格同比下降0.4% 环比持平",
+  "published": "2025-09-10",
+  "original_sha256": "5154bd8ba3ab89bf8f6016fea15c710f37d3d93556504bd0d052781b2ba8ab12",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

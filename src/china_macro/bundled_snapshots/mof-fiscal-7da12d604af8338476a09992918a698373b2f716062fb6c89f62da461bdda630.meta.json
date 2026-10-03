@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:41+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202409/t20240920_3944086.htm",
+  "source_title": "2024年8月财政收支情况",
+  "period": "2024-08",
+  "published": "2024-09-20",
+  "sha256": "7da12d604af8338476a09992918a698373b2f716062fb6c89f62da461bdda630",
+  "observation_count": 10,
+  "original_sha256": "7cf61cbef67d321c0d1c423e42505a92dab4ff64463c8dfd55eb26a617c2f566",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

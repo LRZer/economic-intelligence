@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:02+00:00",
+  "sha256": "c5433af7168f31219343728a95eee19f691c3c5c93ed76fd9b5dd7c4d9488d43",
+  "key": "cpi_mom",
+  "period": "2025-03",
+  "value": -0.4,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959261.html",
+  "source_title": "2025年3月份居民消费价格同比下降0.1%",
+  "published": "2025-04-10",
+  "original_sha256": "d31158d5ab3632f2e42aedcaf44225c258d6a9bcad84c0f9ddf5a4ac39de7cc6",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

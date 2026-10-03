@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:52+00:00",
+  "sha256": "6618ef2465d0b86f7148de52cd4427b27498591ca1d51c9eb433a200161f0a53",
+  "key": "housing_sales_area_ytd_yoy",
+  "period": "2022-08",
+  "value": -23.0,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901582.html",
+  "source_title": "2022年1—8月份全国房地产开发投资下降7.4%",
+  "published": "2022-09-16",
+  "original_sha256": "4b40612785c85bc854c8f752fe0fdf5212cbbb986ae51d9fa9c5e0ec593168f0",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,11 @@
+{
+  "year": 2024,
+  "rows": 882807,
+  "raw_rows": 11177570,
+  "raw_total_usd": 22859231618697.23,
+  "included_total_usd": 22859231618696.0,
+  "excluded_nonstandard_hs_usd": 1.23046875,
+  "sha256": "38323b7c67d7c5e0d42e3cf77d47a5780a9cee0e6d8c76e46a0ad274e09ef697",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "file": "sector_partner_2024.parquet"
+}

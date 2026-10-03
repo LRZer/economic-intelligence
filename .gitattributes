@@ -1,0 +1,15 @@
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.example text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.parquet binary
+
+*.part[0-9][0-9][0-9] binary
+*.zip binary
+*.png binary
+
+# Preserve the exact bytes of the two pre-evaluation protocol fingerprints.
+docs/SECTOR_RISK_PROTOCOL.md -text
+docs/validation/sector-protocol-initial.md -text

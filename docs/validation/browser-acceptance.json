@@ -1,0 +1,60 @@
+{
+  "pages": [
+    {
+      "name": "ai-china",
+      "view": "intelligence",
+      "charts": 2,
+      "errors": [],
+      "screenshot": "assets/screenshots/ai-china.png"
+    },
+    {
+      "name": "ai-sector",
+      "view": "intelligence",
+      "charts": 4,
+      "errors": [],
+      "screenshot": "assets/screenshots/ai-sector.png"
+    },
+    {
+      "name": "ai-global",
+      "view": "intelligence",
+      "charts": 1,
+      "errors": [],
+      "screenshot": "assets/screenshots/ai-global.png"
+    },
+    {
+      "name": "ai-us",
+      "view": "intelligence",
+      "charts": 1,
+      "errors": [],
+      "screenshot": "assets/screenshots/ai-us.png"
+    },
+    {
+      "name": "china-observation",
+      "view": "china",
+      "charts": 1,
+      "errors": [],
+      "screenshot": "assets/screenshots/china-observation.png"
+    },
+    {
+      "name": "global-overview",
+      "view": "overview",
+      "charts": 2,
+      "errors": [],
+      "screenshot": "assets/screenshots/global-overview.png"
+    },
+    {
+      "name": "trade-structure",
+      "view": "trade",
+      "charts": 3,
+      "errors": [],
+      "screenshot": "assets/screenshots/trade-structure.png"
+    }
+  ],
+  "console_errors": [],
+  "paid_api_requests": [],
+  "sector_exports_verified": true,
+  "horizontal_overflow_px": 0,
+  "sector_mobile_overflow_px": 0,
+  "offline_report_mobile_overflow_px": 0,
+  "offline_report_rendered": true
+}

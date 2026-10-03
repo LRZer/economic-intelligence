@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:55+00:00",
+  "sha256": "83bdb6cd0d6144d076d4f61d9bc630bddda93efcc2acb11cbc1a650f260d0c75",
+  "key": "cpi_mom",
+  "period": "2024-02",
+  "value": 1.0,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948077.html",
+  "source_title": "2024年2月份居民消费价格同比上涨0.7% 环比上涨1.0%",
+  "published": "2024-03-09",
+  "original_sha256": "878c33461e6063cbc1558eb2625276868c81182e5304ce9337d80537c5d3d927",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:40+00:00",
+  "sha256": "4df0704bcc6d84c0987ff75478c06dd568ae698f851bf140e158989cbfd8c567",
+  "key": "ppi_mom",
+  "period": "2026-07",
+  "value": -0.7,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965007.html",
+  "source_title": "2026年7月份工业生产者出厂价格同比上涨3.5%",
+  "published": "2026-08-09",
+  "original_sha256": "07d7a6481da921871e5397a3927c72c1ec6cc0b04d5217cc8536ebb2791de72c",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

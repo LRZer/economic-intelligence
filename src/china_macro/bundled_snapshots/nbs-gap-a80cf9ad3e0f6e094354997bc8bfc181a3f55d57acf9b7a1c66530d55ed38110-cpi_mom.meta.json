@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:05+00:00",
+  "sha256": "a80cf9ad3e0f6e094354997bc8bfc181a3f55d57acf9b7a1c66530d55ed38110",
+  "key": "cpi_mom",
+  "period": "2025-09",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961521.html",
+  "source_title": "2025年9月份居民消费价格同比下降0.3% 环比上涨0.1%",
+  "published": "2025-10-15",
+  "original_sha256": "d74a7bb9ac35d4f9dc6a414ca4655c2e1eae3f597449d6175a2d87890d83cf31",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

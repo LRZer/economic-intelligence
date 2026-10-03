@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:56+00:00",
+  "sha256": "b2c5a8bdf55dd4793b5b8b5db29f49f6965dcba7f7d33efca0ac036c6e8de488",
+  "key": "cpi_mom",
+  "period": "2024-04",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950302.html",
+  "source_title": "2024年4月份居民消费价格同比上涨0.3%",
+  "published": "2024-05-11",
+  "original_sha256": "3c927a63a6fd47a4ae89fc213b13ca3e7b38145e6d4035f771c595948240daa6",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

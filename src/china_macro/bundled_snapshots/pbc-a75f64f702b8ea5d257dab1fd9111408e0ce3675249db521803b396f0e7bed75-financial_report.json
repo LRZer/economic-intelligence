@@ -1,0 +1,25 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/e8f0ed951dcb44aca265fb31ff7eeff6/index.html",
+  "source_title": "2021年2月金融统计数据报告",
+  "published": "2021-03-10",
+  "kind": "financial_report",
+  "sha256": "a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75",
+  "file": "pbc-a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75-financial_report.html",
+  "record_count": 2,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_legacy_yoy",
+      "period": "2021-02",
+      "value": 7.4
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2021-02",
+      "value": 10.1
+    }
+  ],
+  "original_sha256": "ec188bfeff3b263c1dd55a573b8dd3cc5682fc7b4b195a443e985a3a1f616630",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

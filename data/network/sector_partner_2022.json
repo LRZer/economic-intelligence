@@ -1,0 +1,11 @@
+{
+  "year": 2022,
+  "rows": 927576,
+  "raw_rows": 11703117,
+  "raw_total_usd": 24184090264301.652,
+  "included_total_usd": 24184090264300.0,
+  "excluded_nonstandard_hs_usd": 1.65234375,
+  "sha256": "30bbdd3cf4255764b7f1ff4d88471fd904ecbed828882759f4c6540bd0fd976f",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "file": "sector_partner_2022.parquet"
+}

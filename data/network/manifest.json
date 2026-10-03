@@ -1,0 +1,103 @@
+{
+  "version": "baci-sector-network-v1",
+  "provider": "CEPII BACI",
+  "release": "HS17 V202601",
+  "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+  "license_url": "https://www.cepii.fr/CEPII/fr/bdd_modele/bdd_modele_item.asp?id=37",
+  "license": "Etalab 2.0",
+  "citation": "Gaulier and Zignago (2010), CEPII Working Paper 2010-23",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "partitions": [
+    {
+      "year": 2017,
+      "rows": 772799,
+      "raw_rows": 9948845,
+      "raw_total_usd": 17034895051621.707,
+      "included_total_usd": 17034895051623.0,
+      "excluded_nonstandard_hs_usd": -1.29296875,
+      "sha256": "0351cacb090d5beb44e388d118feddc65895a9525f12f060d73ed9661e8a0f58",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2017.parquet"
+    },
+    {
+      "year": 2018,
+      "rows": 845660,
+      "raw_rows": 10802500,
+      "raw_total_usd": 19040248976204.566,
+      "included_total_usd": 19040248976205.0,
+      "excluded_nonstandard_hs_usd": -0.43359375,
+      "sha256": "1aeb9449efeabf16d34fc4c18a57aa5ec1660ba1d86a83d749b55ed1bc1fe2a9",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2018.parquet"
+    },
+    {
+      "year": 2019,
+      "rows": 882057,
+      "raw_rows": 11210131,
+      "raw_total_usd": 18503756735484.863,
+      "included_total_usd": 18503756735484.0,
+      "excluded_nonstandard_hs_usd": 0.86328125,
+      "sha256": "9d3e157b0ae47db5c41db1827b3dad17bf0ca4132605628a43df1bd4f5181790",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2019.parquet"
+    },
+    {
+      "year": 2020,
+      "rows": 874154,
+      "raw_rows": 10985158,
+      "raw_total_usd": 17160716192204.11,
+      "included_total_usd": 17160716192199.0,
+      "excluded_nonstandard_hs_usd": 5.109375,
+      "sha256": "1044efb7306c4cabe848b0868e540a07b2c95935709933d6acbdc72a1713628f",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2020.parquet"
+    },
+    {
+      "year": 2021,
+      "rows": 919889,
+      "raw_rows": 11598685,
+      "raw_total_usd": 21531492371408.38,
+      "included_total_usd": 21531492371413.0,
+      "excluded_nonstandard_hs_usd": -4.62109375,
+      "sha256": "018db3e60bd82fd02e986b18b4aeea17b03218abe1f11ca0fee04edad7f9ccc5",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2021.parquet"
+    },
+    {
+      "year": 2022,
+      "rows": 927576,
+      "raw_rows": 11703117,
+      "raw_total_usd": 24184090264301.652,
+      "included_total_usd": 24184090264300.0,
+      "excluded_nonstandard_hs_usd": 1.65234375,
+      "sha256": "30bbdd3cf4255764b7f1ff4d88471fd904ecbed828882759f4c6540bd0fd976f",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2022.parquet"
+    },
+    {
+      "year": 2023,
+      "rows": 933019,
+      "raw_rows": 11781215,
+      "raw_total_usd": 22937839746491.996,
+      "included_total_usd": 22937839746496.0,
+      "excluded_nonstandard_hs_usd": -4.00390625,
+      "sha256": "d48374b9eba792f8c456e0f07757448ed7d40e4a95d888b027a52718f7e030e3",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2023.parquet"
+    },
+    {
+      "year": 2024,
+      "rows": 882807,
+      "raw_rows": 11177570,
+      "raw_total_usd": 22859231618697.23,
+      "included_total_usd": 22859231618696.0,
+      "excluded_nonstandard_hs_usd": 1.23046875,
+      "sha256": "38323b7c67d7c5e0d42e3cf77d47a5780a9cee0e6d8c76e46a0ad274e09ef697",
+      "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+      "file": "sector_partner_2024.parquet"
+    }
+  ],
+  "method": "HS6金额按出口国、进口国、HS2、年聚合；v×1000转换美元；未做因果推断",
+  "built_at_utc": "2026-10-03T20:57:08.882204+00:00",
+  "original_archive_download_date": "原始本地官方包未提供下载日，不能用聚合构建时间冒充下载日"
+}

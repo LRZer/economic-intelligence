@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b",
+  "key": "import_yoy",
+  "period": "2024-03",
+  "value": 2.0,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202404/t20240416_1948561.html",
+  "source_title": "一季度国民经济实现良好开局",
+  "published": "2024-04-16",
+  "original_sha256": "4e8b8e53b3ebc272ae04d6f927bc93eb2f2f22b4fcaf8e36df3468e874147fb8",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

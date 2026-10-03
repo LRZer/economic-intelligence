@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:48+00:00",
+  "sha256": "e8e17724e8037b7bf980a0c066da16757d64ec6884b0d37a305cf652bcfd843b",
+  "key": "housing_sales_area_ytd_yoy",
+  "period": "2021-11",
+  "value": 4.8,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901307.html",
+  "source_title": "2021年1—11月份全国房地产开发投资增长6.0%",
+  "published": "2021-12-15",
+  "original_sha256": "86d15fd7951d064052ee90e4b1c8ef12d6a356c261c40e73c94973ef83e76674",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

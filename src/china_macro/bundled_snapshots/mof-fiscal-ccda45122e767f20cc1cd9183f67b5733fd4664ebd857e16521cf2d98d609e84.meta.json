@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:37+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202507/t20250725_3968635.htm",
+  "source_title": "2025年上半年财政收支情况",
+  "period": "2025-06",
+  "published": "2025-07-25",
+  "sha256": "ccda45122e767f20cc1cd9183f67b5733fd4664ebd857e16521cf2d98d609e84",
+  "observation_count": 10,
+  "original_sha256": "4d1882cdb74d0f0c0142f93bd663cbbf423121a1cac31b11645571722388ea30",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:58+00:00",
+  "sha256": "79b044e9699158a0872a8287806b9825f7bc2e667fe473c5065ebf5088dc548a",
+  "key": "cpi_mom",
+  "period": "2024-08",
+  "value": 0.4,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956311.html",
+  "source_title": "2024年8月份居民消费价格同比上涨0.6%",
+  "published": "2024-09-09",
+  "original_sha256": "9587e91211a8e4bd49fb3ad06f6de713d147fe989fd90c985947c2adf628405e",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

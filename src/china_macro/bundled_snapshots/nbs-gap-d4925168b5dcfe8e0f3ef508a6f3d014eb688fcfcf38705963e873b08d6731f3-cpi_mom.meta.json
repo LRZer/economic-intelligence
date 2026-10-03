@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:09+00:00",
+  "sha256": "d4925168b5dcfe8e0f3ef508a6f3d014eb688fcfcf38705963e873b08d6731f3",
+  "key": "cpi_mom",
+  "period": "2026-06",
+  "value": -0.3,
+  "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202607/t20260709_1964084.html",
+  "source_title": "2026年6月份居民消费价格同比上涨1.0%",
+  "published": "2026-07-09",
+  "original_sha256": "4aa015544d25d9bd05f1a5ab8a30121ac24f7973d32ae411a17c1f5d9233ca2e",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

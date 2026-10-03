@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "e3a911be9398e28e18351425949c5222198ee9b74152eae9ca6a1d18e4fd60bc",
+  "key": "unemployment",
+  "period": "2022-04",
+  "value": 6.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901460.html",
+  "source_title": "经济下行压力加大 高质量发展大势未变",
+  "published": "2022-05-16",
+  "original_sha256": "7255030afe2521a31ff04ee0b2e1d8845880359c3d70a1c7869bc1abfdbabd78",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07",
+  "key": "import_yoy",
+  "period": "2022-03",
+  "value": -1.7,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901427.html",
+  "source_title": "一季度国民经济开局总体平稳",
+  "published": "2022-04-18",
+  "original_sha256": "f1cc1efd7e654b5085609f308bbb8bf11534b78973de63c17d4f90245bb0980d",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

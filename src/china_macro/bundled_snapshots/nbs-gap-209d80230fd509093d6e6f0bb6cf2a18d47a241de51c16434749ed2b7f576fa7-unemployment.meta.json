@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7",
+  "key": "unemployment",
+  "period": "2023-12",
+  "value": 5.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240117_1946624.html",
+  "source_title": "2023年国民经济回升向好 高质量发展扎实推进",
+  "published": "2024-01-17",
+  "original_sha256": "9ca2a1a7edc683e0011444db2249bd8487ae9ecf590153d4a6c4abd4854bfbbe",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

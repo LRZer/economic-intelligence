@@ -1,0 +1,124 @@
+{
+  "recorded_at_utc": "2026-10-03T22:03:11.173785+00:00",
+  "local_status": "passed_with_documented_model_limitations",
+  "tests": {
+    "passed": 161,
+    "subtests_passed": 10,
+    "duration_seconds": 56.03
+  },
+  "typecheck": {
+    "passed": true,
+    "files": 5,
+    "scope": "forecast, sector_network, sector_risk, sector_report, sector UI"
+  },
+  "lint": {
+    "passed": true,
+    "rules": [
+      "E9",
+      "F63",
+      "F7",
+      "F82"
+    ]
+  },
+  "bandit": {
+    "medium": 0,
+    "high": 0,
+    "low": 2,
+    "reviewed_low": [
+      "B404",
+      "B603"
+    ]
+  },
+  "dependency_audit": {
+    "known_vulnerabilities": 0,
+    "local_project_not_in_PyPI": true
+  },
+  "browser": {
+    "pages": [
+      {
+        "name": "ai-china",
+        "view": "intelligence",
+        "charts": 2,
+        "errors": [],
+        "screenshot": "assets/screenshots/ai-china.png"
+      },
+      {
+        "name": "ai-sector",
+        "view": "intelligence",
+        "charts": 4,
+        "errors": [],
+        "screenshot": "assets/screenshots/ai-sector.png"
+      },
+      {
+        "name": "ai-global",
+        "view": "intelligence",
+        "charts": 1,
+        "errors": [],
+        "screenshot": "assets/screenshots/ai-global.png"
+      },
+      {
+        "name": "ai-us",
+        "view": "intelligence",
+        "charts": 1,
+        "errors": [],
+        "screenshot": "assets/screenshots/ai-us.png"
+      },
+      {
+        "name": "china-observation",
+        "view": "china",
+        "charts": 1,
+        "errors": [],
+        "screenshot": "assets/screenshots/china-observation.png"
+      },
+      {
+        "name": "global-overview",
+        "view": "overview",
+        "charts": 2,
+        "errors": [],
+        "screenshot": "assets/screenshots/global-overview.png"
+      },
+      {
+        "name": "trade-structure",
+        "view": "trade",
+        "charts": 3,
+        "errors": [],
+        "screenshot": "assets/screenshots/trade-structure.png"
+      }
+    ],
+    "console_errors": [],
+    "paid_api_requests": [],
+    "sector_exports_verified": true,
+    "horizontal_overflow_px": 0,
+    "sector_mobile_overflow_px": 0,
+    "offline_report_mobile_overflow_px": 0,
+    "offline_report_rendered": true
+  },
+  "build": {
+    "status": "passed",
+    "statistical_excerpts_in_wheel": 342,
+    "sdist_matches": true,
+    "wheel_install_and_import": "wheel imports and packaged evidence OK",
+    "files": [
+      {
+        "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+        "bytes": 1767994,
+        "sha256": "7f5e72d99facb667cc403bc386cb5cd1df09c2c0b82538578eb58486f6254a9e"
+      },
+      {
+        "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+        "bytes": 1072485,
+        "sha256": "5cab958208caa7ba60183c1e4beaf6ac0513f13267abaccaccaeaaca127cc913"
+      }
+    ]
+  },
+  "platform_verified": "Windows, Python 3.11.7, independent virtualenv, Edge headless",
+  "live_paid_api_calls": 0,
+  "remote": {
+    "repository": "LRZer/guanlan-economic-intelligence",
+    "required_visibility": "private",
+    "published": false,
+    "commit_verified": false,
+    "ci_verified": false,
+    "blocker": "Awaiting creation/access to the authorized empty private repository. No new credentials requested or read."
+  }
+}

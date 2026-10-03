@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:21:06+00:00",
+  "sha256": "9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374",
+  "key": "ppi_mom",
+  "period": "2026-03",
+  "value": 1.0,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963263.html",
+  "source_title": "2026年3月份工业生产者出厂价格同比由降转涨 环比涨幅扩大",
+  "published": "2026-04-10",
+  "original_sha256": "bba5cd965fcfcc208f0d0de5878a9856c09ce64e2233829328b142d7c9723583",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,40 @@
+{
+  "provider": "Guanlan / direct official US retrospective backtest",
+  "source_snapshot_utc": "2026-10-03T20:02:44.524068+00:00",
+  "downloaded_at_utc": "2026-10-03T20:02:44.524068+00:00",
+  "signal": {
+    "as_of": "2026-08-01",
+    "risk": 0.4431818181818182,
+    "baseline": 0.36464088397790057,
+    "state": "较高历史收缩关联",
+    "state_probability": 1.0,
+    "training_count": 179,
+    "training_last_month": "2026-01-01"
+  },
+  "metrics": {
+    "months": 295,
+    "events": 92,
+    "first_month": "2001-07-01",
+    "last_month": "2026-02-01",
+    "model_brier": 0.23786219247315146,
+    "baseline_brier": 0.21874194853553028,
+    "roc_auc": 0.5023024202184622,
+    "horizon_months": 6,
+    "lookback_months": 180
+  },
+  "uncertainty": {
+    "method": "paired circular moving-block bootstrap",
+    "brier_difference_model_minus_baseline": 0.019120243937621184,
+    "ci_95_lower": -0.009822840792964546,
+    "ci_95_upper": 0.05069997854533048,
+    "block_observations": 12,
+    "replications": 4000,
+    "seed": 20260927,
+    "evaluated_months": 295,
+    "missing_calendar_months": 1
+  },
+  "validated_for_decision": false,
+  "method": "3-component Gaussian mixture; 180-month rolling window; six-month label purge",
+  "model_limit": "当前版本的修订后历史数据；不是实时版本回测；不能推断资产回报",
+  "parquet_sha256": "5c35ed3a35d1c24718ed9bd83d4c0b06bc654d2bb58fb40ce7d215c92f1ca5e9"
+}

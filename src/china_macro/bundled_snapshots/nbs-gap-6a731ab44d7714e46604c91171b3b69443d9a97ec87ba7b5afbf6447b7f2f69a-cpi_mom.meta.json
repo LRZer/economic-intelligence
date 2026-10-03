@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:03+00:00",
+  "sha256": "6a731ab44d7714e46604c91171b3b69443d9a97ec87ba7b5afbf6447b7f2f69a",
+  "key": "cpi_mom",
+  "period": "2025-05",
+  "value": -0.2,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960094.html",
+  "source_title": "2025年5月份居民消费价格同比下降0.1%",
+  "published": "2025-06-09",
+  "original_sha256": "9953f374e3ca411b0ba4c97c5d1385b66090fc266b26080ad3eb77cfa6bb920c",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

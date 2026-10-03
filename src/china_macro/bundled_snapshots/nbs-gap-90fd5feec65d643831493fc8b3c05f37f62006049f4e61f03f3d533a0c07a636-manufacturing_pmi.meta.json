@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "90fd5feec65d643831493fc8b3c05f37f62006049f4e61f03f3d533a0c07a636",
+  "key": "manufacturing_pmi",
+  "period": "2022-01",
+  "value": 50.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901362.html",
+  "source_title": "2022年1月中国采购经理指数运行情况",
+  "published": "2022-01-30",
+  "original_sha256": "de36ee7e2a638f3898955cc9f3afc44986284c21989d0d5ccc838557cc4cbc17",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:50+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202206/t20220616_3818568.htm",
+  "source_title": "2022年5月财政收支情况",
+  "period": "2022-05",
+  "published": "2022-06-16",
+  "sha256": "8f91a6b5093fc054c16958cb8d8b82d765d45d86d3ecddd1d4c75f6755e52c90",
+  "observation_count": 10,
+  "original_sha256": "eafb3c11e146e5128fd202ba129e80da76fc429c7ad97b0994d20bfeb6d6355b",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

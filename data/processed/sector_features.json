@@ -1,0 +1,30 @@
+{
+  "provider": "CEPII BACI × World Bank WDI",
+  "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+  "source_last_updated": "BACI V202601 / 固定WDI快照",
+  "protocol_sha256": "d72de5a2729a3985340771453179e1a27ff256af821ed241520c5d319f5787f1",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "dataset_hash": "5e873ed2b6d1c66a5142407607211367af62571920ff07ca0402e5edec0d492e",
+  "rows": 56527,
+  "quality": {
+    "candidate_rows": 153994,
+    "eligible_rows": 56527,
+    "excluded_rows": 97467,
+    "exclusion_rules": "上年出口≥1000万美元；前两年有该行业观测；伙伴GDP覆盖≥80%",
+    "target_sector_unreported_rows": 9,
+    "own_macro_missing_rows": 5674,
+    "year_counts": {
+      "2019": 7938,
+      "2020": 7954,
+      "2021": 7846,
+      "2022": 8158,
+      "2023": 8290,
+      "2024": 8248,
+      "2025": 8093
+    },
+    "countries": 217,
+    "hs2_count": 96,
+    "weighted_partner_gdp_mean_coverage": 0.9924615789479826
+  },
+  "parquet_sha256": "b902d2be7ff7f72e74ef3afe702f4c4412691f62497c4106f4eb22e06be8fced"
+}

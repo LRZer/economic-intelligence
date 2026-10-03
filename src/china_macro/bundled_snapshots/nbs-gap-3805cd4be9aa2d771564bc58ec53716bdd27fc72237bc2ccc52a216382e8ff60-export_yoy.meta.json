@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60",
+  "key": "export_yoy",
+  "period": "2024-12",
+  "value": 10.9,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250117_1958332.html",
+  "source_title": "2024年经济运行稳中有进 主要发展目标顺利实现",
+  "published": "2025-01-17",
+  "original_sha256": "42bc6d66a8da059871e0961c8b0533bac25fad02a3030eeb503a1803eb6682be",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

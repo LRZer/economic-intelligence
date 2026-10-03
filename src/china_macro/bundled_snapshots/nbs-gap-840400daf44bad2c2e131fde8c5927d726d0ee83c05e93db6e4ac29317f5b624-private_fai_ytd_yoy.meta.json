@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:44+00:00",
+  "sha256": "840400daf44bad2c2e131fde8c5927d726d0ee83c05e93db6e4ac29317f5b624",
+  "key": "private_fai_ytd_yoy",
+  "period": "2024-08",
+  "value": -0.2,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240914_1956483.html",
+  "source_title": "2024年1—8月份全国固定资产投资增长3.4%",
+  "published": "2024-09-14",
+  "original_sha256": "52f8f1a2aa63b139e5fc59ab3007e2f71526492c59bf58a8054f113c9289c0d3",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

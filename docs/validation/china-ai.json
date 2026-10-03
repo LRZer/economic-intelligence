@@ -1,0 +1,2757 @@
+{
+  "python": "3.11.7",
+  "packages": {
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "pandas": "2.3.3"
+  },
+  "data_snapshot_hash": "a9a4a162fac5b42b",
+  "captured_at": "2026-10-03T19:08:02+00:00",
+  "indicators": {
+    "cpi_yoy": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc",
+        "status": "evaluated",
+        "observation_count": 60,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": 0.4,
+            "ridge": 0.7644013953456406,
+            "persistence": 0.6,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": 0.3,
+            "ridge": 0.7873383197203858,
+            "persistence": 0.4,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": 0.2,
+            "ridge": 0.6866792781509783,
+            "persistence": 0.3,
+            "seasonal": -0.5,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": 0.1,
+            "ridge": 0.4608154658460587,
+            "persistence": 0.2,
+            "seasonal": -0.3,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": 0.5,
+            "ridge": 0.35688202226162924,
+            "persistence": 0.1,
+            "seasonal": -0.8,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": -0.7,
+            "ridge": 0.2621419008317722,
+            "persistence": 0.5,
+            "seasonal": 0.7,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": -0.1,
+            "ridge": -0.026556658202469385,
+            "persistence": -0.7,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": -0.1,
+            "ridge": -0.10826291932995818,
+            "persistence": -0.1,
+            "seasonal": 0.3,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": -0.1,
+            "ridge": -0.14286052951925282,
+            "persistence": -0.1,
+            "seasonal": 0.3,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": 0.1,
+            "ridge": 0.0328005902864546,
+            "persistence": -0.1,
+            "seasonal": 0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": 0.0,
+            "ridge": 0.11015397169391261,
+            "persistence": 0.1,
+            "seasonal": 0.5,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": -0.4,
+            "ridge": 0.14719212357602293,
+            "persistence": 0.0,
+            "seasonal": 0.6,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": -0.3,
+            "ridge": 0.03662112867625217,
+            "persistence": -0.4,
+            "seasonal": 0.4,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "test"
+          },
+          {
+            "period": "2025-10",
+            "actual": 0.2,
+            "ridge": -0.0808372889767785,
+            "persistence": -0.3,
+            "seasonal": 0.3,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": 0.7,
+            "ridge": 0.032401868917777354,
+            "persistence": 0.2,
+            "seasonal": 0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": 0.8,
+            "ridge": 0.36510509239305416,
+            "persistence": 0.7,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": 0.2,
+            "ridge": 0.5476717862275432,
+            "persistence": 0.8,
+            "seasonal": 0.5,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": 1.3,
+            "ridge": 0.5219643129260959,
+            "persistence": 0.2,
+            "seasonal": -0.7,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": 1.0,
+            "ridge": 0.6866868353978297,
+            "persistence": 1.3,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 1.2,
+            "ridge": 0.7626364357311479,
+            "persistence": 1.0,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": 1.2,
+            "ridge": 0.9792991861890159,
+            "persistence": 1.2,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": 1.0,
+            "ridge": 0.9866830585827504,
+            "persistence": 1.2,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": 0.5,
+            "ridge": 0.9942331152777879,
+            "persistence": 1.0,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 0.8,
+            "ridge": 0.8250208419646539,
+            "persistence": 0.5,
+            "seasonal": -0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-09",
+        "validation_n": 12,
+        "test_n": 12,
+        "baseline": "persistence",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.3044672194386191,
+              "rmse": 0.4089518544799869
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.2833333333333334,
+              "rmse": 0.43204937989385733
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.6083333333333334,
+              "rmse": 0.7262919523166975
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.3624672809154454,
+              "rmse": 0.4219449060714338
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.3666666666666667,
+              "rmse": 0.4654746681256314
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.8833333333333334,
+              "rmse": 1.0173494974687902
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          -0.10203802043999284,
+          0.09347600352212254
+        ],
+        "interval_radius": 0.9621419008317722,
+        "test_interval_coverage": 1.0,
+        "interval_calibration_n": 12,
+        "forecast": {
+          "period": "2026-09",
+          "ridge": 0.7809719792998313,
+          "baseline": 0.8,
+          "lower": -0.1811699215319409,
+          "upper": 1.7431138801316035,
+          "train_end": "2026-08",
+          "train_n": 48,
+          "intercept": 0.45624999999999993,
+          "contributions": {
+            "上月读数": 0.09992669569327049,
+            "前两月读数": -0.009130463349449511,
+            "前三月读数": 0.06654555093734778,
+            "去年同月读数": 0.14326481088126072,
+            "月份正弦": 0.04021856384072742,
+            "月份余弦": -0.01610317870332563
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-08",
+        "flag": false,
+        "score": 0.13964029562588426,
+        "train_n": 47,
+        "train_end": "2026-07",
+        "inputs": {
+          "本期读数": 0.8,
+          "较上月差": 0.30000000000000004,
+          "较去年同月差": 1.2000000000000002
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    },
+    "ppi_yoy": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "a4478910e61188b297afba4ecfe37df5505bdd7f71d15acf3df3bd8acfc55606",
+        "status": "evaluated",
+        "observation_count": 60,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": -2.8,
+            "ridge": -1.654605179669978,
+            "persistence": -1.8,
+            "seasonal": -2.5,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": -2.9,
+            "ridge": -2.221587145160328,
+            "persistence": -2.8,
+            "seasonal": -2.6,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": -2.5,
+            "ridge": -2.417420443083334,
+            "persistence": -2.9,
+            "seasonal": -3.0,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": -2.3,
+            "ridge": -2.297005622716337,
+            "persistence": -2.5,
+            "seasonal": -2.7,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": -2.3,
+            "ridge": -2.2384878460873,
+            "persistence": -2.3,
+            "seasonal": -2.5,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": -2.2,
+            "ridge": -2.302102835677803,
+            "persistence": -2.3,
+            "seasonal": -2.7,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": -2.5,
+            "ridge": -2.3298117939379868,
+            "persistence": -2.2,
+            "seasonal": -2.8,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": -2.7,
+            "ridge": -2.5610788933144875,
+            "persistence": -2.5,
+            "seasonal": -2.5,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": -3.3,
+            "ridge": -2.7484074763994446,
+            "persistence": -2.7,
+            "seasonal": -1.4,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": -3.6,
+            "ridge": -3.1031758291841127,
+            "persistence": -3.3,
+            "seasonal": -0.8,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": -3.6,
+            "ridge": -3.265732797407562,
+            "persistence": -3.6,
+            "seasonal": -0.8,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": -2.9,
+            "ridge": -3.189618803523821,
+            "persistence": -3.6,
+            "seasonal": -1.8,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": -2.3,
+            "ridge": -2.674454755485507,
+            "persistence": -2.9,
+            "seasonal": -2.8,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "test"
+          },
+          {
+            "period": "2025-10",
+            "actual": -2.1,
+            "ridge": -2.2001125799819174,
+            "persistence": -2.3,
+            "seasonal": -2.9,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": -2.2,
+            "ridge": -2.016016060645937,
+            "persistence": -2.1,
+            "seasonal": -2.5,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": -1.9,
+            "ridge": -2.090199888884008,
+            "persistence": -2.2,
+            "seasonal": -2.3,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": -1.4,
+            "ridge": -2.0017606865282738,
+            "persistence": -1.9,
+            "seasonal": -2.3,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": -0.9,
+            "ridge": -1.8022569930629018,
+            "persistence": -1.4,
+            "seasonal": -2.2,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": 0.5,
+            "ridge": -1.5577669402440115,
+            "persistence": -0.9,
+            "seasonal": -2.5,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 2.8,
+            "ridge": -0.6253832142290443,
+            "persistence": 0.5,
+            "seasonal": -2.7,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": 3.9,
+            "ridge": 1.5236575537807937,
+            "persistence": 2.8,
+            "seasonal": -3.3,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": 4.1,
+            "ridge": 2.934220232097406,
+            "persistence": 3.9,
+            "seasonal": -3.6,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": 3.5,
+            "ridge": 3.272268401853524,
+            "persistence": 4.1,
+            "seasonal": -3.6,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 3.8,
+            "ridge": 2.7619743061221183,
+            "persistence": 3.5,
+            "seasonal": -2.9,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-09",
+        "validation_n": 12,
+        "test_n": 12,
+        "baseline": "persistence",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.3378673843533961,
+              "rmse": 0.46441501392851336
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.325,
+              "rmse": 0.4368447474027052
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.9416666666666665,
+              "rmse": 1.3388427838995882
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 1.0536498753263235,
+              "rmse": 1.457723923370848
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.6749999999999998,
+              "rmse": 0.9105858919765156
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 3.4499999999999993,
+              "rmse": 4.558142896692321
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          0.015471063324720591,
+          0.7884164098269401
+        ],
+        "interval_radius": 1.1453948203300217,
+        "test_interval_coverage": 0.6666666666666666,
+        "interval_calibration_n": 12,
+        "forecast": {
+          "period": "2026-09",
+          "ridge": 2.9795258025973803,
+          "baseline": 3.8,
+          "lower": 1.8341309822673586,
+          "upper": 4.124920622927402,
+          "train_end": "2026-08",
+          "train_n": 48,
+          "intercept": -1.6666666666666667,
+          "contributions": {
+            "上月读数": 3.5906025648689655,
+            "前两月读数": 0.9294705658098552,
+            "前三月读数": 0.04904636087757937,
+            "去年同月读数": 0.1874712539172888,
+            "月份正弦": -0.09640854594990914,
+            "月份余弦": -0.013989730259731676
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-08",
+        "flag": false,
+        "score": 0.015238997749444039,
+        "train_n": 47,
+        "train_end": "2026-07",
+        "inputs": {
+          "本期读数": 3.8,
+          "较上月差": 0.2999999999999998,
+          "较去年同月差": 6.699999999999999
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    },
+    "cpi_mom": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "8cb6630703e42e5422deb94e9b1dcdf4f772d982acd32aefb82352bfcae6d4c0",
+        "status": "evaluated",
+        "observation_count": 60,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": 0.0,
+            "ridge": -0.0049234296365077285,
+            "persistence": 0.4,
+            "seasonal": 0.2,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": -0.3,
+            "ridge": -0.007953593272004775,
+            "persistence": 0.0,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": -0.6,
+            "ridge": 0.06209647150872194,
+            "persistence": -0.3,
+            "seasonal": -0.5,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": 0.0,
+            "ridge": 0.20392956810747134,
+            "persistence": -0.6,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": 0.7,
+            "ridge": 0.17815181935026206,
+            "persistence": 0.0,
+            "seasonal": 0.3,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": -0.2,
+            "ridge": 0.20689267175015225,
+            "persistence": 0.7,
+            "seasonal": 1.0,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": -0.4,
+            "ridge": -0.3156510677398963,
+            "persistence": -0.2,
+            "seasonal": -1.0,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": 0.1,
+            "ridge": -0.07308059112422803,
+            "persistence": -0.4,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": -0.2,
+            "ridge": 0.049921927661729294,
+            "persistence": 0.1,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": -0.1,
+            "ridge": 0.025449005898172845,
+            "persistence": -0.2,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": 0.4,
+            "ridge": 0.12202101498764546,
+            "persistence": -0.1,
+            "seasonal": 0.5,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": 0.0,
+            "ridge": 0.08911515797211988,
+            "persistence": 0.4,
+            "seasonal": 0.4,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": 0.1,
+            "ridge": -0.007220745273709231,
+            "persistence": 0.0,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "test"
+          },
+          {
+            "period": "2025-10",
+            "actual": 0.2,
+            "ridge": -0.068848477339709,
+            "persistence": 0.1,
+            "seasonal": -0.3,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": -0.1,
+            "ridge": -0.08672978081284044,
+            "persistence": 0.2,
+            "seasonal": -0.6,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": 0.2,
+            "ridge": 1.922253381012734e-05,
+            "persistence": -0.1,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": 0.2,
+            "ridge": 0.06435053409405073,
+            "persistence": 0.2,
+            "seasonal": 0.7,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": 1.0,
+            "ridge": -0.13859589490983487,
+            "persistence": 0.2,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": -0.7,
+            "ridge": -0.3071880028056945,
+            "persistence": 1.0,
+            "seasonal": -0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 0.3,
+            "ridge": -0.11925873125934544,
+            "persistence": -0.7,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": -0.1,
+            "ridge": -0.2048437544895637,
+            "persistence": 0.3,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": -0.3,
+            "ridge": 0.06410605489760406,
+            "persistence": -0.1,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": -0.1,
+            "ridge": 0.11893510889353663,
+            "persistence": -0.3,
+            "seasonal": 0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 0.4,
+            "ridge": 0.11157686247771402,
+            "persistence": -0.1,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-09",
+        "validation_n": 12,
+        "test_n": 12,
+        "baseline": "seasonal",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.2576359440257745,
+              "rmse": 0.3167077259398059
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.4333333333333333,
+              "rmse": 0.48304589153964794
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.2916666666666667,
+              "rmse": 0.4330127018922193
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.30432869702826604,
+              "rmse": 0.4126651851758122
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.46666666666666673,
+              "rmse": 0.6595452979136459
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.39166666666666666,
+              "rmse": 0.4856267428111155
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          -0.21103228168339427,
+          0.04620354248229383
+        ],
+        "interval_radius": 0.6620964715087219,
+        "test_interval_coverage": 0.9166666666666666,
+        "interval_calibration_n": 12,
+        "forecast": {
+          "period": "2026-09",
+          "ridge": 0.05893575482654047,
+          "baseline": 0.1,
+          "lower": -0.6031607166821814,
+          "upper": 0.7210322263352623,
+          "train_end": "2026-08",
+          "train_n": 48,
+          "intercept": 0.029166666666666653,
+          "contributions": {
+            "上月读数": -0.0936610298553074,
+            "前两月读数": 0.0240298679719728,
+            "前三月读数": 0.05018483135022306,
+            "去年同月读数": 0.007207812198793379,
+            "月份正弦": 0.060158117060188865,
+            "月份余弦": -0.018150510565996886
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-08",
+        "flag": false,
+        "score": 0.16054375959466344,
+        "train_n": 47,
+        "train_end": "2026-07",
+        "inputs": {
+          "本期读数": 0.4,
+          "较上月差": 0.5,
+          "较去年同月差": 0.4
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    },
+    "ppi_mom": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad",
+        "status": "evaluated",
+        "observation_count": 60,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": -0.6,
+            "ridge": -0.3012947562053715,
+            "persistence": -0.7,
+            "seasonal": 0.4,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": -0.1,
+            "ridge": -0.18099077013223897,
+            "persistence": -0.6,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": 0.1,
+            "ridge": 0.07163515995947081,
+            "persistence": -0.1,
+            "seasonal": -0.3,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": -0.1,
+            "ridge": -0.002767943407888912,
+            "persistence": 0.1,
+            "seasonal": -0.3,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": -0.2,
+            "ridge": -0.23674972797571853,
+            "persistence": -0.1,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": -0.1,
+            "ridge": -0.2887610324483222,
+            "persistence": -0.2,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": -0.4,
+            "ridge": -0.21972664153194013,
+            "persistence": -0.1,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": -0.4,
+            "ridge": -0.34012918911414214,
+            "persistence": -0.4,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": -0.4,
+            "ridge": -0.3331516575151959,
+            "persistence": -0.4,
+            "seasonal": 0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": -0.4,
+            "ridge": -0.26237690389923585,
+            "persistence": -0.4,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": -0.2,
+            "ridge": -0.2549169531965439,
+            "persistence": -0.4,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": 0.0,
+            "ridge": -0.1450506362180411,
+            "persistence": -0.2,
+            "seasonal": -0.7,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": 0.0,
+            "ridge": -0.08754961990510102,
+            "persistence": 0.0,
+            "seasonal": -0.6,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "test"
+          },
+          {
+            "period": "2025-10",
+            "actual": 0.1,
+            "ridge": -0.1567965903239818,
+            "persistence": 0.0,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": 0.1,
+            "ridge": -0.1408658274188644,
+            "persistence": 0.1,
+            "seasonal": 0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": 0.2,
+            "ridge": -0.14289756111048332,
+            "persistence": 0.1,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": 0.4,
+            "ridge": -0.13153634878667675,
+            "persistence": 0.2,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": 0.4,
+            "ridge": -0.08825871557731019,
+            "persistence": 0.4,
+            "seasonal": -0.1,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": 1.0,
+            "ridge": -0.13559163521866002,
+            "persistence": 0.4,
+            "seasonal": -0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 1.7,
+            "ridge": 0.2761045269805725,
+            "persistence": 1.0,
+            "seasonal": -0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": 0.5,
+            "ridge": 1.0333456276098854,
+            "persistence": 1.7,
+            "seasonal": -0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": -0.3,
+            "ridge": -0.10666583609200397,
+            "persistence": 0.5,
+            "seasonal": -0.4,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": -0.7,
+            "ridge": -0.3755215524216149,
+            "persistence": -0.3,
+            "seasonal": -0.2,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 0.4,
+            "ridge": -0.49912409535290775,
+            "persistence": -0.7,
+            "seasonal": 0.0,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-09",
+        "validation_n": 12,
+        "test_n": 12,
+        "baseline": "persistence",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.1146155723614683,
+              "rmse": 0.1374080324048244
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.15833333333333333,
+              "rmse": 0.21015867021530824
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.3166666666666667,
+              "rmse": 0.43204937989385733
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.5381395088174733,
+              "rmse": 0.666003297769324
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.4333333333333333,
+              "rmse": 0.6027713773341709
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.6333333333333333,
+              "rmse": 0.8514693182963201
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          -0.18934817042203425,
+          0.38516733351598154
+        ],
+        "interval_radius": 0.2987052437946285,
+        "test_interval_coverage": 0.3333333333333333,
+        "interval_calibration_n": 12,
+        "forecast": {
+          "period": "2026-09",
+          "ridge": 0.3304666272273443,
+          "baseline": 0.4,
+          "lower": 0.03176138343271584,
+          "upper": 0.6291718710219728,
+          "train_end": "2026-08",
+          "train_n": 48,
+          "intercept": -0.07708333333333332,
+          "contributions": {
+            "上月读数": 0.28949638756598656,
+            "前两月读数": 0.1296031391922323,
+            "前三月读数": -0.0021500332411708276,
+            "去年同月读数": -0.003217967167293029,
+            "月份正弦": 0.017017064739203665,
+            "月份余弦": -0.02319863052828095
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-08",
+        "flag": false,
+        "score": 0.02403452239274184,
+        "train_n": 47,
+        "train_end": "2026-07",
+        "inputs": {
+          "本期读数": 0.4,
+          "较上月差": 1.1,
+          "较去年同月差": 0.4
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    },
+    "manufacturing_pmi": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "b531fada64e50940f74bb23e8f954291b1889b291b6ce01cd8fa5bef48c86d45",
+        "status": "evaluated",
+        "observation_count": 61,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": 49.8,
+            "ridge": 49.224845204177306,
+            "persistence": 49.1,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": 50.1,
+            "ridge": 49.51109972752486,
+            "persistence": 49.8,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": 50.3,
+            "ridge": 49.51185496304225,
+            "persistence": 50.1,
+            "seasonal": 49.4,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": 50.1,
+            "ridge": 49.44824782485338,
+            "persistence": 50.3,
+            "seasonal": 49.0,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": 49.1,
+            "ridge": 49.452382194794986,
+            "persistence": 50.1,
+            "seasonal": 49.2,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": 50.2,
+            "ridge": 49.241183208470545,
+            "persistence": 49.1,
+            "seasonal": 49.1,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": 50.5,
+            "ridge": 50.17121060719251,
+            "persistence": 50.2,
+            "seasonal": 50.8,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": 49.0,
+            "ridge": 50.22140144883717,
+            "persistence": 50.5,
+            "seasonal": 50.4,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": 49.5,
+            "ridge": 49.229123845609365,
+            "persistence": 49.0,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": 49.7,
+            "ridge": 49.77350695477976,
+            "persistence": 49.5,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": 49.3,
+            "ridge": 49.84983207850761,
+            "persistence": 49.7,
+            "seasonal": 49.4,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": 49.4,
+            "ridge": 49.366380682589764,
+            "persistence": 49.3,
+            "seasonal": 49.1,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": 49.8,
+            "ridge": 49.406496194848685,
+            "persistence": 49.4,
+            "seasonal": 49.8,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "validation"
+          },
+          {
+            "period": "2025-10",
+            "actual": 49.0,
+            "ridge": 49.58999507508956,
+            "persistence": 49.8,
+            "seasonal": 50.1,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": 49.2,
+            "ridge": 49.170068401388654,
+            "persistence": 49.0,
+            "seasonal": 50.3,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": 50.1,
+            "ridge": 49.578249638452235,
+            "persistence": 49.2,
+            "seasonal": 50.1,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": 49.3,
+            "ridge": 50.159274272575544,
+            "persistence": 50.1,
+            "seasonal": 49.1,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": 49.0,
+            "ridge": 49.579904618395524,
+            "persistence": 49.3,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": 50.4,
+            "ridge": 49.663745045943294,
+            "persistence": 49.0,
+            "seasonal": 50.5,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 50.3,
+            "ridge": 50.48145792795749,
+            "persistence": 50.4,
+            "seasonal": 49.0,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": 50.0,
+            "ridge": 49.87491348330048,
+            "persistence": 50.3,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": 50.3,
+            "ridge": 49.47289092732117,
+            "persistence": 50.0,
+            "seasonal": 49.7,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": 49.2,
+            "ridge": 49.62565051285894,
+            "persistence": 50.3,
+            "seasonal": 49.3,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 49.8,
+            "ridge": 49.023725864592194,
+            "persistence": 49.2,
+            "seasonal": 49.4,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          },
+          {
+            "period": "2026-09",
+            "actual": 50.1,
+            "ridge": 49.519461962890375,
+            "persistence": 49.8,
+            "seasonal": 49.8,
+            "train_start": "2022-09",
+            "train_end": "2026-08",
+            "latest_feature_period": "2026-08",
+            "train_n": 48,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-10",
+        "validation_n": 13,
+        "test_n": 12,
+        "baseline": "seasonal",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 13,
+              "mae": 0.5220523398931423,
+              "rmse": 0.6141945860096523
+            },
+            "persistence": {
+              "n": 13,
+              "mae": 0.5307692307692307,
+              "rmse": 0.6696727099572883
+            },
+            "seasonal": {
+              "n": 13,
+              "mae": 0.5000000000000006,
+              "rmse": 0.6765296059244621
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.5194355902490552,
+              "rmse": 0.5839102290904765
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.5916666666666656,
+              "rmse": 0.7088723439378898
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.5749999999999987,
+              "rmse": 0.734279692397022
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          -0.35611515166486524,
+          0.22482387367369996
+        ],
+        "interval_radius": 1.2214014488371703,
+        "test_interval_coverage": 1.0,
+        "interval_calibration_n": 13,
+        "forecast": {
+          "period": "2026-10",
+          "ridge": 49.56115937936385,
+          "baseline": 49.0,
+          "lower": 48.33975793052668,
+          "upper": 50.78256082820102,
+          "train_end": "2026-09",
+          "train_n": 49,
+          "intercept": 49.66326530612244,
+          "contributions": {
+            "上月读数": 0.14980916188721907,
+            "前两月读数": -0.06469379034907154,
+            "前三月读数": 0.07150211396345205,
+            "去年同月读数": -0.006015180714021926,
+            "月份正弦": -0.25246704122160496,
+            "月份余弦": -0.00024119032456165139
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-09",
+        "flag": false,
+        "score": 0.21225387600813472,
+        "train_n": 48,
+        "train_end": "2026-08",
+        "inputs": {
+          "本期读数": 50.1,
+          "较上月差": 0.30000000000000426,
+          "较去年同月差": 0.30000000000000426
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    },
+    "manufacturing_new_orders_pmi": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "454789ce20db8a619eb59a87de622eb6ca788397f42c868ef828329249579719",
+        "status": "evaluated",
+        "observation_count": 61,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": 49.9,
+            "ridge": 48.99375449998905,
+            "persistence": 48.9,
+            "seasonal": 50.5,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": 50.0,
+            "ridge": 49.19812704635136,
+            "persistence": 49.9,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": 50.8,
+            "ridge": 49.17497453264498,
+            "persistence": 50.0,
+            "seasonal": 49.4,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": 51.0,
+            "ridge": 49.34467439291823,
+            "persistence": 50.8,
+            "seasonal": 48.7,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": 49.2,
+            "ridge": 49.70213469355704,
+            "persistence": 51.0,
+            "seasonal": 49.0,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": 51.1,
+            "ridge": 49.14284806648891,
+            "persistence": 49.2,
+            "seasonal": 49.0,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": 51.8,
+            "ridge": 50.79001782487234,
+            "persistence": 51.1,
+            "seasonal": 53.0,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": 49.2,
+            "ridge": 51.131327144825995,
+            "persistence": 51.8,
+            "seasonal": 51.1,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": 49.8,
+            "ridge": 49.32091087086753,
+            "persistence": 49.2,
+            "seasonal": 49.6,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": 50.2,
+            "ridge": 49.70101161279447,
+            "persistence": 49.8,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": 49.4,
+            "ridge": 50.029217157919476,
+            "persistence": 50.2,
+            "seasonal": 49.3,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": 49.5,
+            "ridge": 49.18232591605055,
+            "persistence": 49.4,
+            "seasonal": 48.9,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": 49.7,
+            "ridge": 49.19537828124676,
+            "persistence": 49.5,
+            "seasonal": 49.9,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "validation"
+          },
+          {
+            "period": "2025-10",
+            "actual": 48.8,
+            "ridge": 49.38301997518368,
+            "persistence": 49.7,
+            "seasonal": 50.0,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": 49.2,
+            "ridge": 49.155583917021296,
+            "persistence": 48.8,
+            "seasonal": 50.8,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": 50.8,
+            "ridge": 49.674280400450755,
+            "persistence": 49.2,
+            "seasonal": 51.0,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": 49.2,
+            "ridge": 50.464928759325666,
+            "persistence": 50.8,
+            "seasonal": 49.2,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": 48.6,
+            "ridge": 49.93099944686769,
+            "persistence": 49.2,
+            "seasonal": 51.1,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": 51.6,
+            "ridge": 49.96178417737348,
+            "persistence": 48.6,
+            "seasonal": 51.8,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 50.6,
+            "ridge": 51.31974172133025,
+            "persistence": 51.6,
+            "seasonal": 49.2,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": 49.9,
+            "ridge": 50.33217161726267,
+            "persistence": 50.6,
+            "seasonal": 49.8,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": 51.2,
+            "ridge": 49.59206451992861,
+            "persistence": 49.9,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": 48.5,
+            "ridge": 50.082160214694554,
+            "persistence": 51.2,
+            "seasonal": 49.4,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 50.6,
+            "ridge": 48.73213151856035,
+            "persistence": 48.5,
+            "seasonal": 49.5,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          },
+          {
+            "period": "2026-09",
+            "actual": 50.5,
+            "ridge": 49.54589965089455,
+            "persistence": 50.6,
+            "seasonal": 49.7,
+            "train_start": "2022-09",
+            "train_end": "2026-08",
+            "latest_feature_period": "2026-08",
+            "train_n": 48,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-10",
+        "validation_n": 13,
+        "test_n": 12,
+        "baseline": "persistence",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 13,
+              "mae": 0.9860504578521787,
+              "rmse": 1.1404369334575637
+            },
+            "persistence": {
+              "n": 13,
+              "mae": 0.8615384615384613,
+              "rmse": 1.1435437497937297
+            },
+            "seasonal": {
+              "n": 13,
+              "mae": 0.9230769230769231,
+              "rmse": 1.1864620970314677
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 1.0959397958696222,
+              "rmse": 1.2198774910238321
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 1.3333333333333346,
+              "rmse": 1.5900733735690735
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.9166666666666661,
+              "rmse": 1.1532562594670788
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          -0.43540617480454596,
+          -0.04190583253636149
+        ],
+        "interval_radius": 1.957151933511092,
+        "test_interval_coverage": 1.0,
+        "interval_calibration_n": 13,
+        "forecast": {
+          "period": "2026-10",
+          "ridge": 49.44297952871003,
+          "baseline": 50.5,
+          "lower": 47.48582759519894,
+          "upper": 51.400131462221125,
+          "train_end": "2026-09",
+          "train_n": 49,
+          "intercept": 49.81224489795919,
+          "contributions": {
+            "上月读数": 0.1950274572082778,
+            "前两月读数": -0.19590279109229933,
+            "前三月读数": 0.24336366971318726,
+            "去年同月读数": -0.08626033469479148,
+            "月份正弦": -0.5247425540737265,
+            "月份余弦": -0.0007508163098059125
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-09",
+        "flag": false,
+        "score": 0.19592413105702533,
+        "train_n": 48,
+        "train_end": "2026-08",
+        "inputs": {
+          "本期读数": 50.5,
+          "较上月差": -0.10000000000000142,
+          "较去年同月差": 0.7999999999999972
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    },
+    "nonmanufacturing_pmi": {
+      "model": {
+        "version": "china-monthly-v1",
+        "snapshot_hash": "f6d8dfdf0fd9ff22a365dd443a7a844a805edb6233357bebe83a2d2dcc779df7",
+        "status": "evaluated",
+        "observation_count": 61,
+        "feature_names": [
+          "上月读数",
+          "前两月读数",
+          "前三月读数",
+          "去年同月读数",
+          "月份正弦",
+          "月份余弦"
+        ],
+        "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+        "backtest": [
+          {
+            "period": "2024-09",
+            "actual": 50.0,
+            "ridge": 50.1092098259476,
+            "persistence": 50.3,
+            "seasonal": 51.7,
+            "train_start": "2022-09",
+            "train_end": "2024-08",
+            "latest_feature_period": "2024-08",
+            "train_n": 24,
+            "split": "validation"
+          },
+          {
+            "period": "2024-10",
+            "actual": 50.2,
+            "ridge": 49.93249890904361,
+            "persistence": 50.0,
+            "seasonal": 50.6,
+            "train_start": "2022-09",
+            "train_end": "2024-09",
+            "latest_feature_period": "2024-09",
+            "train_n": 25,
+            "split": "validation"
+          },
+          {
+            "period": "2024-11",
+            "actual": 50.0,
+            "ridge": 50.165599626017645,
+            "persistence": 50.2,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2024-10",
+            "latest_feature_period": "2024-10",
+            "train_n": 26,
+            "split": "validation"
+          },
+          {
+            "period": "2024-12",
+            "actual": 52.2,
+            "ridge": 50.591756534289594,
+            "persistence": 50.0,
+            "seasonal": 50.4,
+            "train_start": "2022-09",
+            "train_end": "2024-11",
+            "latest_feature_period": "2024-11",
+            "train_n": 27,
+            "split": "validation"
+          },
+          {
+            "period": "2025-01",
+            "actual": 50.2,
+            "ridge": 51.956972098692816,
+            "persistence": 52.2,
+            "seasonal": 50.7,
+            "train_start": "2022-09",
+            "train_end": "2024-12",
+            "latest_feature_period": "2024-12",
+            "train_n": 28,
+            "split": "validation"
+          },
+          {
+            "period": "2025-02",
+            "actual": 50.4,
+            "ridge": 51.96668345158347,
+            "persistence": 50.2,
+            "seasonal": 51.4,
+            "train_start": "2022-09",
+            "train_end": "2025-01",
+            "latest_feature_period": "2025-01",
+            "train_n": 29,
+            "split": "validation"
+          },
+          {
+            "period": "2025-03",
+            "actual": 50.8,
+            "ridge": 51.876790283121004,
+            "persistence": 50.4,
+            "seasonal": 53.0,
+            "train_start": "2022-09",
+            "train_end": "2025-02",
+            "latest_feature_period": "2025-02",
+            "train_n": 30,
+            "split": "validation"
+          },
+          {
+            "period": "2025-04",
+            "actual": 50.4,
+            "ridge": 52.82844883192777,
+            "persistence": 50.8,
+            "seasonal": 51.2,
+            "train_start": "2022-09",
+            "train_end": "2025-03",
+            "latest_feature_period": "2025-03",
+            "train_n": 31,
+            "split": "validation"
+          },
+          {
+            "period": "2025-05",
+            "actual": 50.3,
+            "ridge": 52.377726381019045,
+            "persistence": 50.4,
+            "seasonal": 51.1,
+            "train_start": "2022-09",
+            "train_end": "2025-04",
+            "latest_feature_period": "2025-04",
+            "train_n": 32,
+            "split": "validation"
+          },
+          {
+            "period": "2025-06",
+            "actual": 50.5,
+            "ridge": 51.75003116637193,
+            "persistence": 50.3,
+            "seasonal": 50.5,
+            "train_start": "2022-09",
+            "train_end": "2025-05",
+            "latest_feature_period": "2025-05",
+            "train_n": 33,
+            "split": "validation"
+          },
+          {
+            "period": "2025-07",
+            "actual": 50.1,
+            "ridge": 51.26674967013995,
+            "persistence": 50.5,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2025-06",
+            "latest_feature_period": "2025-06",
+            "train_n": 34,
+            "split": "validation"
+          },
+          {
+            "period": "2025-08",
+            "actual": 50.3,
+            "ridge": 50.50131417664458,
+            "persistence": 50.1,
+            "seasonal": 50.3,
+            "train_start": "2022-09",
+            "train_end": "2025-07",
+            "latest_feature_period": "2025-07",
+            "train_n": 35,
+            "split": "validation"
+          },
+          {
+            "period": "2025-09",
+            "actual": 50.0,
+            "ridge": 50.17780736961805,
+            "persistence": 50.3,
+            "seasonal": 50.0,
+            "train_start": "2022-09",
+            "train_end": "2025-08",
+            "latest_feature_period": "2025-08",
+            "train_n": 36,
+            "split": "validation"
+          },
+          {
+            "period": "2025-10",
+            "actual": 50.1,
+            "ridge": 49.99804474661481,
+            "persistence": 50.0,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2025-09",
+            "latest_feature_period": "2025-09",
+            "train_n": 37,
+            "split": "test"
+          },
+          {
+            "period": "2025-11",
+            "actual": 49.5,
+            "ridge": 50.17843540702065,
+            "persistence": 50.1,
+            "seasonal": 50.0,
+            "train_start": "2022-09",
+            "train_end": "2025-10",
+            "latest_feature_period": "2025-10",
+            "train_n": 38,
+            "split": "test"
+          },
+          {
+            "period": "2025-12",
+            "actual": 50.2,
+            "ridge": 50.127795143046356,
+            "persistence": 49.5,
+            "seasonal": 52.2,
+            "train_start": "2022-09",
+            "train_end": "2025-11",
+            "latest_feature_period": "2025-11",
+            "train_n": 39,
+            "split": "test"
+          },
+          {
+            "period": "2026-01",
+            "actual": 49.4,
+            "ridge": 51.0783733764811,
+            "persistence": 50.2,
+            "seasonal": 50.2,
+            "train_start": "2022-09",
+            "train_end": "2025-12",
+            "latest_feature_period": "2025-12",
+            "train_n": 40,
+            "split": "test"
+          },
+          {
+            "period": "2026-02",
+            "actual": 49.5,
+            "ridge": 51.305724595946394,
+            "persistence": 49.4,
+            "seasonal": 50.4,
+            "train_start": "2022-09",
+            "train_end": "2026-01",
+            "latest_feature_period": "2026-01",
+            "train_n": 41,
+            "split": "test"
+          },
+          {
+            "period": "2026-03",
+            "actual": 50.1,
+            "ridge": 51.40529562316009,
+            "persistence": 49.5,
+            "seasonal": 50.8,
+            "train_start": "2022-09",
+            "train_end": "2026-02",
+            "latest_feature_period": "2026-02",
+            "train_n": 42,
+            "split": "test"
+          },
+          {
+            "period": "2026-04",
+            "actual": 49.4,
+            "ridge": 51.87564585251064,
+            "persistence": 50.1,
+            "seasonal": 50.4,
+            "train_start": "2022-09",
+            "train_end": "2026-03",
+            "latest_feature_period": "2026-03",
+            "train_n": 43,
+            "split": "test"
+          },
+          {
+            "period": "2026-05",
+            "actual": 50.1,
+            "ridge": 51.304657350094,
+            "persistence": 49.4,
+            "seasonal": 50.3,
+            "train_start": "2022-09",
+            "train_end": "2026-04",
+            "latest_feature_period": "2026-04",
+            "train_n": 44,
+            "split": "test"
+          },
+          {
+            "period": "2026-06",
+            "actual": 50.2,
+            "ridge": 51.04705627044885,
+            "persistence": 50.1,
+            "seasonal": 50.5,
+            "train_start": "2022-09",
+            "train_end": "2026-05",
+            "latest_feature_period": "2026-05",
+            "train_n": 45,
+            "split": "test"
+          },
+          {
+            "period": "2026-07",
+            "actual": 49.0,
+            "ridge": 50.835074479860644,
+            "persistence": 50.2,
+            "seasonal": 50.1,
+            "train_start": "2022-09",
+            "train_end": "2026-06",
+            "latest_feature_period": "2026-06",
+            "train_n": 46,
+            "split": "test"
+          },
+          {
+            "period": "2026-08",
+            "actual": 49.0,
+            "ridge": 49.705588294002965,
+            "persistence": 49.0,
+            "seasonal": 50.3,
+            "train_start": "2022-09",
+            "train_end": "2026-07",
+            "latest_feature_period": "2026-07",
+            "train_n": 47,
+            "split": "test"
+          },
+          {
+            "period": "2026-09",
+            "actual": 50.2,
+            "ridge": 49.38837659663665,
+            "persistence": 49.0,
+            "seasonal": 50.0,
+            "train_start": "2022-09",
+            "train_end": "2026-08",
+            "latest_feature_period": "2026-08",
+            "train_n": 48,
+            "split": "test"
+          }
+        ],
+        "test_start": "2025-10",
+        "validation_n": 13,
+        "test_n": 12,
+        "baseline": "persistence",
+        "metrics": {
+          "validation": {
+            "ridge": {
+              "n": 13,
+              "mae": 1.0656213413654367,
+              "rmse": 1.318758606811533
+            },
+            "persistence": {
+              "n": 13,
+              "mae": 0.5461538461538458,
+              "rmse": 0.864247115657945
+            },
+            "seasonal": {
+              "n": 13,
+              "mae": 0.7307692307692324,
+              "rmse": 1.026944684301637
+            }
+          },
+          "test": {
+            "ridge": {
+              "n": 12,
+              "mae": 1.126802896935627,
+              "rmse": 1.3253574979145348
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.5666666666666688,
+              "rmse": 0.6916164640415499
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.7583333333333329,
+              "rmse": 0.9251126057585274
+            }
+          }
+        },
+        "passes_research_gate": false,
+        "paired_mae_difference_95": [
+          0.09838840123763444,
+          1.0383101641366093
+        ],
+        "interval_radius": 2.428448831927774,
+        "test_interval_coverage": 0.9166666666666666,
+        "interval_calibration_n": 13,
+        "forecast": {
+          "period": "2026-10",
+          "ridge": 50.11567617492617,
+          "baseline": 50.2,
+          "lower": 47.6872273429984,
+          "upper": 52.544125006853946,
+          "train_end": "2026-09",
+          "train_n": 49,
+          "intercept": 50.744897959183675,
+          "contributions": {
+            "上月读数": -0.25145643693450875,
+            "前两月读数": -0.08933084167227759,
+            "前三月读数": 0.32513247016232155,
+            "去年同月读数": 0.06984030491926525,
+            "月份正弦": -0.6847989749025395,
+            "月份余弦": 0.0013916941702380786
+          }
+        }
+      },
+      "anomaly": {
+        "status": "scored",
+        "period": "2026-09",
+        "flag": false,
+        "score": 0.16817217774683108,
+        "train_n": 48,
+        "train_end": "2026-08",
+        "inputs": {
+          "本期读数": 50.2,
+          "较上月差": 1.2000000000000028,
+          "较去年同月差": 0.20000000000000284
+        },
+        "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+      }
+    }
+  }
+}

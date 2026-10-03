@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:36+00:00",
+  "sha256": "ba1ff8b6a57fc0832b40fb7eb93423fc0b7e1a3d4d058af93b02ae6a7223cb81",
+  "key": "ppi_mom",
+  "period": "2025-10",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961822.html",
+  "source_title": "2025年10月份工业生产者出厂价格同比降幅继续收窄 环比由平转涨",
+  "published": "2025-11-09",
+  "original_sha256": "8a4e77f3066952a378cabefd9c0f5d11f887c7e6297fd86840c3bed91ce11255",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

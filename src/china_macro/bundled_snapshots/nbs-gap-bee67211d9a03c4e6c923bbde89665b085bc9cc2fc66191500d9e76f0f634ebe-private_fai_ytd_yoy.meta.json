@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:39+00:00",
+  "sha256": "bee67211d9a03c4e6c923bbde89665b085bc9cc2fc66191500d9e76f0f634ebe",
+  "key": "private_fai_ytd_yoy",
+  "period": "2023-08",
+  "value": -0.7,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230915_1942846.html",
+  "source_title": "2023年1—8月份全国固定资产投资增长3.2%",
+  "published": "2023-09-15",
+  "original_sha256": "cbd8746fcb1901ee0b9ff98026694030f5213a0c01d1f5acb23756b6aec674f3",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

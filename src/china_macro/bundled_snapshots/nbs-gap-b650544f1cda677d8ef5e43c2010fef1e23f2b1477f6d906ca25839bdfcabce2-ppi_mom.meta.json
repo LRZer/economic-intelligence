@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:15+00:00",
+  "sha256": "b650544f1cda677d8ef5e43c2010fef1e23f2b1477f6d906ca25839bdfcabce2",
+  "key": "ppi_mom",
+  "period": "2022-05",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901483.html",
+  "source_title": "2022年5月份工业生产者出厂价格同比上涨6.4% 环比上涨0.1%",
+  "published": "2022-06-10",
+  "original_sha256": "716b58b227945dc86c65bc606456a0cba1e09939d2d8ac949efcaabed2250154",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

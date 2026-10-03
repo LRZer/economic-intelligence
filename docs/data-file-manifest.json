@@ -1,0 +1,4012 @@
+[
+  {
+    "file": "data/network/country_codes.csv",
+    "bytes": 4853,
+    "sha256": "bdb0cfc88aeedce51bc8b412975546563be9bac071f6e9e3bc98cf6b5d47dd14"
+  },
+  {
+    "file": "data/network/manifest.json",
+    "bytes": 4399,
+    "sha256": "c385315efdc77d952ff27f472f84af7d28ee200880e515cfe2ff780a0aa760cf"
+  },
+  {
+    "file": "data/network/sector_partner_2017.json",
+    "bytes": 405,
+    "sha256": "348a036d3dbe77afff2ad14a929831fc42671e856ab66ff0aa72845045e1cac7"
+  },
+  {
+    "file": "data/network/sector_partner_2017.parquet",
+    "bytes": 4963095,
+    "sha256": "0351cacb090d5beb44e388d118feddc65895a9525f12f060d73ed9661e8a0f58"
+  },
+  {
+    "file": "data/network/sector_partner_2018.json",
+    "bytes": 406,
+    "sha256": "08e4e3ec6abf24c0d44c70b68d673b86ba0972bc80bd71939ae7e1b569ec0efe"
+  },
+  {
+    "file": "data/network/sector_partner_2018.parquet",
+    "bytes": 5402088,
+    "sha256": "1aeb9449efeabf16d34fc4c18a57aa5ec1660ba1d86a83d749b55ed1bc1fe2a9"
+  },
+  {
+    "file": "data/network/sector_partner_2019.json",
+    "bytes": 405,
+    "sha256": "d21b6afb3a3667999b52fbf2d6ac9e9c8afff4209c82c62ca1b13737400aa566"
+  },
+  {
+    "file": "data/network/sector_partner_2019.parquet",
+    "bytes": 5589951,
+    "sha256": "9d3e157b0ae47db5c41db1827b3dad17bf0ca4132605628a43df1bd4f5181790"
+  },
+  {
+    "file": "data/network/sector_partner_2020.json",
+    "bytes": 402,
+    "sha256": "8700c70e71817e47b072a80b607d0b109681680ce4b977468e391d0b2671279c"
+  },
+  {
+    "file": "data/network/sector_partner_2020.parquet",
+    "bytes": 5521760,
+    "sha256": "1044efb7306c4cabe848b0868e540a07b2c95935709933d6acbdc72a1713628f"
+  },
+  {
+    "file": "data/network/sector_partner_2021.json",
+    "bytes": 405,
+    "sha256": "c00e56ea4092fc897bb05af2eeb6b3753ad7b76025b8e53c27380053fc0d9dcd"
+  },
+  {
+    "file": "data/network/sector_partner_2021.parquet",
+    "bytes": 5798005,
+    "sha256": "018db3e60bd82fd02e986b18b4aeea17b03218abe1f11ca0fee04edad7f9ccc5"
+  },
+  {
+    "file": "data/network/sector_partner_2022.json",
+    "bytes": 405,
+    "sha256": "4adae7203890c01c01acbd6d6f9688bc0a5fa2528898f71738a81c0fb7078555"
+  },
+  {
+    "file": "data/network/sector_partner_2022.parquet",
+    "bytes": 5859187,
+    "sha256": "30bbdd3cf4255764b7f1ff4d88471fd904ecbed828882759f4c6540bd0fd976f"
+  },
+  {
+    "file": "data/network/sector_partner_2023.json",
+    "bytes": 406,
+    "sha256": "c5ddac2da9d5eeb991995a758e11525b96bf0003ab9721c35800864d01409bc6"
+  },
+  {
+    "file": "data/network/sector_partner_2023.parquet",
+    "bytes": 5883393,
+    "sha256": "d48374b9eba792f8c456e0f07757448ed7d40e4a95d888b027a52718f7e030e3"
+  },
+  {
+    "file": "data/network/sector_partner_2024.json",
+    "bytes": 404,
+    "sha256": "3fa48d0df36e51549f4fe10c7a0b98e024061a8e168b7000dd9fc9f7c82ed5dc"
+  },
+  {
+    "file": "data/network/sector_partner_2024.parquet",
+    "bytes": 5584783,
+    "sha256": "38323b7c67d7c5e0d42e3cf77d47a5780a9cee0e6d8c76e46a0ad274e09ef697"
+  },
+  {
+    "file": "data/processed/baci_chapter.json",
+    "bytes": 2663,
+    "sha256": "81acbc3d770d8caa1ffca849d371d61daf8fb7b4a6e7f0e42b84eaa14142a054"
+  },
+  {
+    "file": "data/processed/baci_chapter.parquet",
+    "bytes": 3378797,
+    "sha256": "c72bc71c3f9af0bb38ec1fdbf2333e9e6d2a53d365c241be83cf94fed87ffb42"
+  },
+  {
+    "file": "data/processed/baci_partner.json",
+    "bytes": 2667,
+    "sha256": "f78f83790ea0d8e3297b2bf4279a90a5a6eec5eb17fe2558f8c3f903655b7a40"
+  },
+  {
+    "file": "data/processed/baci_partner.parquet",
+    "bytes": 4812990,
+    "sha256": "00731856fe1db269cd8f88226288712135a708d38825c45cc9f6b88114a35800"
+  },
+  {
+    "file": "data/processed/bis_credit.json",
+    "bytes": 1449,
+    "sha256": "ed2f5efc4da6e158d119c5b22b3dac0d6c5dc619c0c22c24f4ce5f884e95e827"
+  },
+  {
+    "file": "data/processed/bis_credit.parquet",
+    "bytes": 269850,
+    "sha256": "723229c88b98a913c2ffff58dd75f888e026b0ebc24872eb874cbc8ed47415b9"
+  },
+  {
+    "file": "data/processed/bis_eer.json",
+    "bytes": 1322,
+    "sha256": "66250b64e937f52eaf3db73bf4e9f2412478b879f276e3b4fda21eac0691194a"
+  },
+  {
+    "file": "data/processed/bis_eer.parquet",
+    "bytes": 152073,
+    "sha256": "3f9130c87f56e3a9fe54ae247d3079a16a69bf4c0a663191151e4b1be70c5893"
+  },
+  {
+    "file": "data/processed/bis_policy.json",
+    "bytes": 15630,
+    "sha256": "d535163d675eb909885a5412f912b9ad7d14557401518775dea8d65812bec836"
+  },
+  {
+    "file": "data/processed/bis_policy.parquet",
+    "bytes": 52477,
+    "sha256": "f2c3ca3af3fdc4af127a783376d76ae4024da301b3169b1b018d62d6d773d748"
+  },
+  {
+    "file": "data/processed/macro.json",
+    "bytes": 408,
+    "sha256": "af18f5d697b3c450786e4f97e423bb1ac790f36e083b26d467c1a5f3d5c0a056"
+  },
+  {
+    "file": "data/processed/macro.parquet",
+    "bytes": 637904,
+    "sha256": "357dc277373c51cb2136a1d04c771d51163860479e30c345feb634b94f94837a"
+  },
+  {
+    "file": "data/processed/sector_backtest.json",
+    "bytes": 487740,
+    "sha256": "8c8a3e5b23f4bd001018afca8a9f8c2df4e78f4216a135a16a5975b7026f7c42"
+  },
+  {
+    "file": "data/processed/sector_backtest.parquet",
+    "bytes": 3808759,
+    "sha256": "0a3a8b7ef185ca8cb8fd401b2bbbeecd7bd184ee54a42ad63f313cf13c0b269f"
+  },
+  {
+    "file": "data/processed/sector_features.json",
+    "bytes": 1152,
+    "sha256": "68141bd8c2a4f75b6d6bdb817d7be4c0d5c57f9fe3f6854c17c24e78a5a1b777"
+  },
+  {
+    "file": "data/processed/sector_features.parquet",
+    "bytes": 4855484,
+    "sha256": "b902d2be7ff7f72e74ef3afe702f4c4412691f62497c4106f4eb22e06be8fced"
+  },
+  {
+    "file": "data/processed/sector_latest.json",
+    "bytes": 487823,
+    "sha256": "ebc1b41e12b8b83b5ac33f03b1e6f1cadf16ba1f601062846f874d324a35f747"
+  },
+  {
+    "file": "data/processed/sector_latest.parquet",
+    "bytes": 870202,
+    "sha256": "5b5d6a8ba634691506d64c47306da8183ce887848e3fdeb72aeb5a0bc55a3675"
+  },
+  {
+    "file": "data/processed/us_cycle_backtest.json",
+    "bytes": 1471,
+    "sha256": "2966dd4a7c583110374d3bab41fb3748982885bacbd48c2b91af567847c49166"
+  },
+  {
+    "file": "data/processed/us_cycle_backtest.parquet",
+    "bytes": 16876,
+    "sha256": "5c35ed3a35d1c24718ed9bd83d4c0b06bc654d2bb58fb40ce7d215c92f1ca5e9"
+  },
+  {
+    "file": "data/processed/us_monthly.json",
+    "bytes": 7642,
+    "sha256": "9731f48607d6dd4e11665f3765b9c4a70f2aab90e6a2ce2f917ab2ff315b1790"
+  },
+  {
+    "file": "data/processed/us_monthly.parquet",
+    "bytes": 19405,
+    "sha256": "94121403ce39d5e250e349a422b119786da8f678028b7b085d71e3a2f52d0b51"
+  },
+  {
+    "file": "data/processed/weo.json",
+    "bytes": 4039,
+    "sha256": "7fd86cc907c42255b33c75e89170ab2a1ed12834358ac23c01a610411fa8eca4"
+  },
+  {
+    "file": "data/processed/weo.parquet",
+    "bytes": 86485,
+    "sha256": "39fd7be70d30854f46ac96987de8dc9bd3c3137b027264feaac5500b12e04050"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part001",
+    "bytes": 47185920,
+    "sha256": "712dd41a89c53e1f165c3ca7a8b1efadd656c3ead9de48e31864e57e430bb755"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part002",
+    "bytes": 47185920,
+    "sha256": "100f844db8822f472dee3c347e99e301e2127807317a988211a030bbb735f972"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part003",
+    "bytes": 47185920,
+    "sha256": "7d9181e6cc85521f3b940dc20aa4b00949f4a9bec6ff206706e255990510ba70"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part004",
+    "bytes": 47185920,
+    "sha256": "8bfd67fde0330741ccf2798bf2e53508edbefebaf53ab81de0fab6c2aabc9d25"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part005",
+    "bytes": 47185920,
+    "sha256": "7d9cf131f948dc7d2e2906e05930a5f84b844bb606e4b41d6d2fa64d21528036"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part006",
+    "bytes": 47185920,
+    "sha256": "1de2b2d3f3fe64f5397027a9c91529fb952766ed7e5e950a486d6bc13522eecc"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part007",
+    "bytes": 47185920,
+    "sha256": "6aa94b9e5797331ae4c94a0b5de9692b6fb59f9ff896d3f699f2d0851734f107"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part008",
+    "bytes": 47185920,
+    "sha256": "fb961a7cf71b4034c6c4accb3367688f8a2833eeaec94138d0ec80b2c6f52242"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part009",
+    "bytes": 47185920,
+    "sha256": "dd5762a8e56de34b7584319de14f79592ad5ad24b4d23930175577211f86f6a2"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part010",
+    "bytes": 47185920,
+    "sha256": "5b7b0c55d8d5f44a9889756b1304ba9b4244f00efac5837ce508a7b8ef5e30f2"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part011",
+    "bytes": 47185920,
+    "sha256": "bfcb9be507bd796e727e1bd603446b76678aa9a4ed345439047354d2674c0e04"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part012",
+    "bytes": 47185920,
+    "sha256": "bf7689e7f432058084f303bbcc57a8c2fc42af50768ff8f9896d910959171e77"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part013",
+    "bytes": 47185920,
+    "sha256": "59e2ca333c4016cefa76859a8a903034f883c122a5c7b882412f54728b8e0afc"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part014",
+    "bytes": 47185920,
+    "sha256": "addc95b49d2bdd0bc4709e6dfbd55a5c0ce92d1a27914bd936fcf2964b7db474"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part015",
+    "bytes": 47185920,
+    "sha256": "fba42de8c1d5d5ed45edd05323df7857475aea7fec9446becb6efcfd16129e19"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part016",
+    "bytes": 47185920,
+    "sha256": "62710b4682388921a0e94c95adc0c7d90974d3ea3e4acfff07cae977c903066e"
+  },
+  {
+    "file": "data/raw/baci/BACI_HS17_V202601.zip.part017",
+    "bytes": 39608820,
+    "sha256": "1cef3908b2eb920405187297fb97e771657c6015a4e0bc34c37681272da2f6f4"
+  },
+  {
+    "file": "data/raw/baci/manifest.json",
+    "bytes": 3470,
+    "sha256": "e26fd5cf3afbd666a4a5c15237e46a9eeb66c27c4a124574f36f03d229d5e81c"
+  },
+  {
+    "file": "data/raw/bis/WS_CBPOL_csv_flat.zip",
+    "bytes": 4135361,
+    "sha256": "74c91ec036c342c1c645df841e067e7dfc833fb75b6e67052beee79aed272065"
+  },
+  {
+    "file": "data/raw/bis/WS_CREDIT_GAP_csv_flat.zip",
+    "bytes": 254119,
+    "sha256": "859c8ea587dbbcc9bcdfdb7ad03dba6a845e0deb9cf19db5209c4413a9af5e29"
+  },
+  {
+    "file": "data/raw/bis/WS_EER_csv_flat.zip",
+    "bytes": 6608837,
+    "sha256": "0e7175770d94e1bec446821f304448c54c40d12646159ee94d27fec66b729f47"
+  },
+  {
+    "file": "data/raw/us_official/bls-1990-1999.json",
+    "bytes": 20721,
+    "sha256": "2fba48a1fe4a9bb7dfba6fd44003c9cfa33d1da80a1de3c73f0f280ea2852e4f"
+  },
+  {
+    "file": "data/raw/us_official/bls-2000-2009.json",
+    "bytes": 20698,
+    "sha256": "7d76a590eaed643e4c221f44914a2513a93958d79bd2b6b0f3f8b9be6652f018"
+  },
+  {
+    "file": "data/raw/us_official/bls-2010-2019.json",
+    "bytes": 20840,
+    "sha256": "5c130c193cccb419dbcfa772965b70ea32f51b5d1e8637e01fd9d4aabdba17fe"
+  },
+  {
+    "file": "data/raw/us_official/bls-2020-2026.json",
+    "bytes": 14365,
+    "sha256": "fcce2dc8d03a328822e2413ac13f3d3411d02ed9771eeccfa3018e61dd9b761b"
+  },
+  {
+    "file": "data/raw/us_official/g17-ip-sa.txt",
+    "bytes": 2749546,
+    "sha256": "637cb682c1ffc0de6a9dd9e51f3dc5ee8320741d2235cfba9e04bc473756167d"
+  },
+  {
+    "file": "data/raw/us_official/g17-series-documentation.txt",
+    "bytes": 17813,
+    "sha256": "974f37d31a72fbd0fc4716fa10bfc78f583aa634dc960e62382b5ce979df20d7"
+  },
+  {
+    "file": "data/raw/us_official/h15-monthly.csv",
+    "bytes": 110460,
+    "sha256": "1710bb8ad3071e28f94eb2480438b67e8fd2d5ba2d78c8f5149767a1648e86a3"
+  },
+  {
+    "file": "data/raw/us_official/manifest.json",
+    "bytes": 7553,
+    "sha256": "dbf94e6098164e57109d7cc1523bbf6a6bc3a1c9029dc1ab81883c39cd061a2d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-0a993e6029a8841f33008aaf878e8a21a4a6ccfc90b5e178c00b1950ae36602b.html",
+    "bytes": 4243,
+    "sha256": "0a993e6029a8841f33008aaf878e8a21a4a6ccfc90b5e178c00b1950ae36602b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-0a993e6029a8841f33008aaf878e8a21a4a6ccfc90b5e178c00b1950ae36602b.meta.json",
+    "bytes": 652,
+    "sha256": "f76270fa9f9d3c9b7b6b112e916d169461c54afe6b7373ca7bfdd258bab9fa1a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-0ee9fbabf2ad93e2f02ed8ba644f2cea80da4a6c391c9f9169f5a5501a3347a7.html",
+    "bytes": 4243,
+    "sha256": "0ee9fbabf2ad93e2f02ed8ba644f2cea80da4a6c391c9f9169f5a5501a3347a7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-0ee9fbabf2ad93e2f02ed8ba644f2cea80da4a6c391c9f9169f5a5501a3347a7.meta.json",
+    "bytes": 645,
+    "sha256": "e0ececda3c299e4a2c6673ab1946385f63606847597c52328502ee5249ccf9f8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-179d793d8daf784976a76d41b88eb3354cac47734832bcdbe2fa06fd0cace9a9.html",
+    "bytes": 4179,
+    "sha256": "179d793d8daf784976a76d41b88eb3354cac47734832bcdbe2fa06fd0cace9a9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-179d793d8daf784976a76d41b88eb3354cac47734832bcdbe2fa06fd0cace9a9.meta.json",
+    "bytes": 645,
+    "sha256": "22fb0ce098198c4fa045c5cd4e0ab377b76cb25adf41272bd7684099f6c460bf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-1908610d5cb4238181c78f2509603a1edb79e948cecb76af8fcf2e285455dad6.html",
+    "bytes": 8386,
+    "sha256": "1908610d5cb4238181c78f2509603a1edb79e948cecb76af8fcf2e285455dad6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-1908610d5cb4238181c78f2509603a1edb79e948cecb76af8fcf2e285455dad6.meta.json",
+    "bytes": 649,
+    "sha256": "b2bb140147ebee9a2ee8214c5683e00410e1a1453bf38b966fd18f64ccedad24"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-240270fd8f3b31fbe1f6f5537fadc55b99248bea603ce77b6e7fc19f9bea82b7.html",
+    "bytes": 8573,
+    "sha256": "240270fd8f3b31fbe1f6f5537fadc55b99248bea603ce77b6e7fc19f9bea82b7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-240270fd8f3b31fbe1f6f5537fadc55b99248bea603ce77b6e7fc19f9bea82b7.meta.json",
+    "bytes": 644,
+    "sha256": "de01ac65c94fba053655513f0565c91b9c5dc34118b5e50ea63a464b3a4da8ab"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-2ab120c859e5e7bc6d32133d7e0b45d2c3f47a1f749b00b3f27916f83504829d.html",
+    "bytes": 7816,
+    "sha256": "2ab120c859e5e7bc6d32133d7e0b45d2c3f47a1f749b00b3f27916f83504829d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-2ab120c859e5e7bc6d32133d7e0b45d2c3f47a1f749b00b3f27916f83504829d.meta.json",
+    "bytes": 644,
+    "sha256": "0ea8a474d1f4c55ed0d6183bde206a3190c80a4989801e62fb768d9924df380b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-33a848918519d9b42a3e6675fc136984d60cc137a6d7bd723a2c5dc8f4eac057.html",
+    "bytes": 8772,
+    "sha256": "33a848918519d9b42a3e6675fc136984d60cc137a6d7bd723a2c5dc8f4eac057"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-33a848918519d9b42a3e6675fc136984d60cc137a6d7bd723a2c5dc8f4eac057.meta.json",
+    "bytes": 645,
+    "sha256": "ee9cbdd82d714276c53d3771ba22689d44c905b5d9f056ac555b4eebe18c6662"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-3c2a79b00675f22d80bb40aba1ae6c98fcf9b0a43e78fc07365f079cf0c955bc.html",
+    "bytes": 4210,
+    "sha256": "3c2a79b00675f22d80bb40aba1ae6c98fcf9b0a43e78fc07365f079cf0c955bc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-3c2a79b00675f22d80bb40aba1ae6c98fcf9b0a43e78fc07365f079cf0c955bc.meta.json",
+    "bytes": 647,
+    "sha256": "f1947758e9fab2844ff4ab559707fc477e2a79a3892687c1d1ab63587adc191d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-40a9fc06d6124d10e2ec340ecbf784e55cc145822f50cd8dbc92c4dc6003927b.html",
+    "bytes": 4226,
+    "sha256": "40a9fc06d6124d10e2ec340ecbf784e55cc145822f50cd8dbc92c4dc6003927b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-40a9fc06d6124d10e2ec340ecbf784e55cc145822f50cd8dbc92c4dc6003927b.meta.json",
+    "bytes": 646,
+    "sha256": "ee734db872d9a14531f6926dd9340024cdbfbb46157606c0eadb4c1d7862a2e8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-489cac1dadb3bcdab6639052c8f74c4e2edcdfcb616da6c71cd72c0ff73125af.html",
+    "bytes": 8000,
+    "sha256": "489cac1dadb3bcdab6639052c8f74c4e2edcdfcb616da6c71cd72c0ff73125af"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-489cac1dadb3bcdab6639052c8f74c4e2edcdfcb616da6c71cd72c0ff73125af.meta.json",
+    "bytes": 644,
+    "sha256": "71f9eb339fdcdb9f48b1314ab166c6d6ec2404490aa37602e46710c1c34a0c92"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-4bd085588dbeb6181f7e3e1b8bbd33a5059a9be6c258e9db4cbb2fefe06f4311.html",
+    "bytes": 7091,
+    "sha256": "4bd085588dbeb6181f7e3e1b8bbd33a5059a9be6c258e9db4cbb2fefe06f4311"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-4bd085588dbeb6181f7e3e1b8bbd33a5059a9be6c258e9db4cbb2fefe06f4311.meta.json",
+    "bytes": 644,
+    "sha256": "95e2c198c8e78b249ca7930a2d0e0da690c4681802745a9af22a2f3df3a0667c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-4d0c8f587724e27cba1c47ec9e0c1885e40ef36504820aca6492a5cee7e0e4b8.html",
+    "bytes": 4193,
+    "sha256": "4d0c8f587724e27cba1c47ec9e0c1885e40ef36504820aca6492a5cee7e0e4b8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-4d0c8f587724e27cba1c47ec9e0c1885e40ef36504820aca6492a5cee7e0e4b8.meta.json",
+    "bytes": 646,
+    "sha256": "7c9f0951f9b7a5e99e707cbee841768d83c974a1d3238bb3803fed78f54e4c8f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-4fb395e8ad474bc1b0e625f5d365b838bb1693c1f745f25aeced69eba52fe7f3.html",
+    "bytes": 4837,
+    "sha256": "4fb395e8ad474bc1b0e625f5d365b838bb1693c1f745f25aeced69eba52fe7f3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-4fb395e8ad474bc1b0e625f5d365b838bb1693c1f745f25aeced69eba52fe7f3.meta.json",
+    "bytes": 644,
+    "sha256": "944c43199315ef8ecb154c59abf6654a8b492ca20700db239aee4b86c4d399cd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-53900017e47fd5dba49f3ca1be0f91a322380b21ffdb1dfdc2ebb69a8ccea9ca.html",
+    "bytes": 9464,
+    "sha256": "53900017e47fd5dba49f3ca1be0f91a322380b21ffdb1dfdc2ebb69a8ccea9ca"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-53900017e47fd5dba49f3ca1be0f91a322380b21ffdb1dfdc2ebb69a8ccea9ca.meta.json",
+    "bytes": 652,
+    "sha256": "b645e215090bb63558225ad19d2b0815b4139edfdf29952974362a8a9241fc2a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-55fd8dc6d142f252b5c23175610b7a2e15ab695c308c3d81794870356112069c.html",
+    "bytes": 8595,
+    "sha256": "55fd8dc6d142f252b5c23175610b7a2e15ab695c308c3d81794870356112069c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-55fd8dc6d142f252b5c23175610b7a2e15ab695c308c3d81794870356112069c.meta.json",
+    "bytes": 649,
+    "sha256": "8fa3a1f7e9cb8a45868ea1b018eed5bd583bc52ef77f0763d4dec75187da6e8c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-586b97d2ae7f28c66d258c204de368cc4929b159dc363a899c864a5c84132641.html",
+    "bytes": 4097,
+    "sha256": "586b97d2ae7f28c66d258c204de368cc4929b159dc363a899c864a5c84132641"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-586b97d2ae7f28c66d258c204de368cc4929b159dc363a899c864a5c84132641.meta.json",
+    "bytes": 644,
+    "sha256": "8820bc88ad977bc69db9966243333853c37f10b0d72ab3bee409bd928fb1375d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-59abc8e4b721de74a76074ec0aae514770dbf96edfaa8891aadd502835ec7d54.html",
+    "bytes": 5038,
+    "sha256": "59abc8e4b721de74a76074ec0aae514770dbf96edfaa8891aadd502835ec7d54"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-59abc8e4b721de74a76074ec0aae514770dbf96edfaa8891aadd502835ec7d54.meta.json",
+    "bytes": 640,
+    "sha256": "53886b7b69624e8c450694759ef6a28932f4313574b0dae000d519407ac7b029"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-5d47e31b9a3290cc673c7da2fcf37afc07a7ccc2173ec064bab3a1055f30b082.html",
+    "bytes": 4186,
+    "sha256": "5d47e31b9a3290cc673c7da2fcf37afc07a7ccc2173ec064bab3a1055f30b082"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-5d47e31b9a3290cc673c7da2fcf37afc07a7ccc2173ec064bab3a1055f30b082.meta.json",
+    "bytes": 646,
+    "sha256": "208bcfaadb5b52aeabaa8a0bc5435f226fc99093982acdfb09aa9214312385ea"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-5d908f73c60864aa74f0fe088787399ad7521e68337bc7d254458fa2a179c3ed.html",
+    "bytes": 9152,
+    "sha256": "5d908f73c60864aa74f0fe088787399ad7521e68337bc7d254458fa2a179c3ed"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-5d908f73c60864aa74f0fe088787399ad7521e68337bc7d254458fa2a179c3ed.meta.json",
+    "bytes": 640,
+    "sha256": "63fb7ec99652c5158737d91bbd905aa48100baf9d2a3b42d71a14d4aa65d49f7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-6126e25bf7320923dd90fb3755016a832b0885701755a7242d0a4ba2f3e21302.html",
+    "bytes": 4161,
+    "sha256": "6126e25bf7320923dd90fb3755016a832b0885701755a7242d0a4ba2f3e21302"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-6126e25bf7320923dd90fb3755016a832b0885701755a7242d0a4ba2f3e21302.meta.json",
+    "bytes": 645,
+    "sha256": "af4527acefb729fa40000bc42991712ffac3d5271a6bcccbfc6b64130d46c6aa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-6320a6f11cdfbed9fa97dcde82c6ae24c13f4fd32839ff79b99739670d7c85f1.html",
+    "bytes": 4120,
+    "sha256": "6320a6f11cdfbed9fa97dcde82c6ae24c13f4fd32839ff79b99739670d7c85f1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-6320a6f11cdfbed9fa97dcde82c6ae24c13f4fd32839ff79b99739670d7c85f1.meta.json",
+    "bytes": 644,
+    "sha256": "b2659857445918ff45e1838bebe30eb3c8ab05c2e254dfefb7b1f06ba9deaf2e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-65070e0a82a017968a097da84e0d51fda1ba504ce136a1b839934305c3ab3319.html",
+    "bytes": 4187,
+    "sha256": "65070e0a82a017968a097da84e0d51fda1ba504ce136a1b839934305c3ab3319"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-65070e0a82a017968a097da84e0d51fda1ba504ce136a1b839934305c3ab3319.meta.json",
+    "bytes": 646,
+    "sha256": "1a42b78aa2181f14fbf54d11607da254e1cda8080ac4d577d451971462230d04"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-670e0511f014dcfeaabcebf7d93444b71f60c3b2a1eefffa7c157616b0e25b9d.html",
+    "bytes": 4182,
+    "sha256": "670e0511f014dcfeaabcebf7d93444b71f60c3b2a1eefffa7c157616b0e25b9d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-670e0511f014dcfeaabcebf7d93444b71f60c3b2a1eefffa7c157616b0e25b9d.meta.json",
+    "bytes": 646,
+    "sha256": "04f416d08116ea20a644d2f97001fecafec97b08cfa3f8b34c19ac0ae9beb647"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-74b6e7d96f679a3062bb830e6ef3f3de8a1d0d009fc4e665ac9be664e0a2e19b.html",
+    "bytes": 4185,
+    "sha256": "74b6e7d96f679a3062bb830e6ef3f3de8a1d0d009fc4e665ac9be664e0a2e19b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-74b6e7d96f679a3062bb830e6ef3f3de8a1d0d009fc4e665ac9be664e0a2e19b.meta.json",
+    "bytes": 646,
+    "sha256": "15631c7bbdee0c9b2c61f501f74e77cfd80ef57283313fef69ea7b42f8bdc118"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-75163ed652ad2dbe9f93225be1af6c38e9c22e5ef3d7e93be1a6aaf695736046.html",
+    "bytes": 7911,
+    "sha256": "75163ed652ad2dbe9f93225be1af6c38e9c22e5ef3d7e93be1a6aaf695736046"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-75163ed652ad2dbe9f93225be1af6c38e9c22e5ef3d7e93be1a6aaf695736046.meta.json",
+    "bytes": 646,
+    "sha256": "e8140b3f201cce6722c8ec04d8f506fa4e2525e1478acbf9a8c64abf64217dc8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7da12d604af8338476a09992918a698373b2f716062fb6c89f62da461bdda630.html",
+    "bytes": 8452,
+    "sha256": "7da12d604af8338476a09992918a698373b2f716062fb6c89f62da461bdda630"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7da12d604af8338476a09992918a698373b2f716062fb6c89f62da461bdda630.meta.json",
+    "bytes": 644,
+    "sha256": "fff6580f35642aa73184991bc3b79dc01cc90f8e9b2f1566c43945374f961032"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7daa8cbdd57c0d9029717eb76764a094f22e893df118eaa99cd019f4abbf69a0.html",
+    "bytes": 4089,
+    "sha256": "7daa8cbdd57c0d9029717eb76764a094f22e893df118eaa99cd019f4abbf69a0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7daa8cbdd57c0d9029717eb76764a094f22e893df118eaa99cd019f4abbf69a0.meta.json",
+    "bytes": 644,
+    "sha256": "a86600c0ad0c06050db43ad8963a503117ac0778e8b2b2ef7382a4477aa7a002"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7e755b839bba8f966f45ec9b1d1486b752dcfe662861fc30e47b3235070fb80e.html",
+    "bytes": 4382,
+    "sha256": "7e755b839bba8f966f45ec9b1d1486b752dcfe662861fc30e47b3235070fb80e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7e755b839bba8f966f45ec9b1d1486b752dcfe662861fc30e47b3235070fb80e.meta.json",
+    "bytes": 649,
+    "sha256": "bf7304ce7e43c10a5ec238486dc967ee5a94faa043f027eae701474609c39833"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7e9d7ba75586baa3fabb5707ded38655df7bb260a725a8fc40be2d43b3cdc3eb.html",
+    "bytes": 4142,
+    "sha256": "7e9d7ba75586baa3fabb5707ded38655df7bb260a725a8fc40be2d43b3cdc3eb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-7e9d7ba75586baa3fabb5707ded38655df7bb260a725a8fc40be2d43b3cdc3eb.meta.json",
+    "bytes": 646,
+    "sha256": "d3b60263598b9cbe2c7903dde8efc21f14f67b4ae39726604f82dfbc444c2029"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-80c1b0d092abaa248b4327325813b6f31a5368151026707b4ef7321c9235180e.html",
+    "bytes": 8342,
+    "sha256": "80c1b0d092abaa248b4327325813b6f31a5368151026707b4ef7321c9235180e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-80c1b0d092abaa248b4327325813b6f31a5368151026707b4ef7321c9235180e.meta.json",
+    "bytes": 646,
+    "sha256": "4b56289c285fe4eb600ffd617914d359725df5e965804072ef69003e2f10a853"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-834aaf7eb5d662b429d938438adb1c438dcbec0b1146d79c6ccd2e51c704919a.html",
+    "bytes": 8528,
+    "sha256": "834aaf7eb5d662b429d938438adb1c438dcbec0b1146d79c6ccd2e51c704919a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-834aaf7eb5d662b429d938438adb1c438dcbec0b1146d79c6ccd2e51c704919a.meta.json",
+    "bytes": 644,
+    "sha256": "a8fb75b98b06657cb95843a6924fda434076f931f3123e1c93931ad62f8d66ed"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-83f975b97209e69c243c9bfd0f7b9256938336085d27e41904291d3531841403.html",
+    "bytes": 4166,
+    "sha256": "83f975b97209e69c243c9bfd0f7b9256938336085d27e41904291d3531841403"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-83f975b97209e69c243c9bfd0f7b9256938336085d27e41904291d3531841403.meta.json",
+    "bytes": 649,
+    "sha256": "2146ec1a3f3f8b515a13c6d8434611c9ae602e31b789273e2c9ea0bb2f8c024b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-87f4ebef68fdca21128c5fe8a65d794b09033e2464419c6fbdd0385a4435585d.html",
+    "bytes": 4098,
+    "sha256": "87f4ebef68fdca21128c5fe8a65d794b09033e2464419c6fbdd0385a4435585d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-87f4ebef68fdca21128c5fe8a65d794b09033e2464419c6fbdd0385a4435585d.meta.json",
+    "bytes": 646,
+    "sha256": "27fde474fc2211e0ee0b1e78d2ca20a712820692ac0aa34f343f42589b51bead"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-8854ba097d3a233003c68530252a982b4ab585852aae8d2fd7c6f38bbc327026.html",
+    "bytes": 5328,
+    "sha256": "8854ba097d3a233003c68530252a982b4ab585852aae8d2fd7c6f38bbc327026"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-8854ba097d3a233003c68530252a982b4ab585852aae8d2fd7c6f38bbc327026.meta.json",
+    "bytes": 649,
+    "sha256": "2a62a1e12c25f971d34591ef1cd40e0f8f2687165da0b58ce3d66951b8c13917"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-8f91a6b5093fc054c16958cb8d8b82d765d45d86d3ecddd1d4c75f6755e52c90.html",
+    "bytes": 7382,
+    "sha256": "8f91a6b5093fc054c16958cb8d8b82d765d45d86d3ecddd1d4c75f6755e52c90"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-8f91a6b5093fc054c16958cb8d8b82d765d45d86d3ecddd1d4c75f6755e52c90.meta.json",
+    "bytes": 644,
+    "sha256": "78ff2d263241b2ca4706a6a4b1f17f2619ad40fc49ef07697386af3cbfd2b530"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-909840052b8f67479fae2ebf12832b78c260ff1ff3d004e54c2681e5c99a3ad3.html",
+    "bytes": 7849,
+    "sha256": "909840052b8f67479fae2ebf12832b78c260ff1ff3d004e54c2681e5c99a3ad3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-909840052b8f67479fae2ebf12832b78c260ff1ff3d004e54c2681e5c99a3ad3.meta.json",
+    "bytes": 645,
+    "sha256": "e5ddc702173e2ec41ee792704f1effcf62d7a70e82ca9186ae1524664a3369a1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-9213fd9cd6e3731c9d338479f650a507678d9e5982d7dce882be2c79cc8083b3.html",
+    "bytes": 4395,
+    "sha256": "9213fd9cd6e3731c9d338479f650a507678d9e5982d7dce882be2c79cc8083b3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-9213fd9cd6e3731c9d338479f650a507678d9e5982d7dce882be2c79cc8083b3.meta.json",
+    "bytes": 644,
+    "sha256": "ade3f7b53817d2edfa2b307daec51a15c54122b7b4319280cef9e9ddaae5d838"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-9f0934389bd16cd1bf517c34854545d1299d18394b905b3bc42bec31cf2d533b.html",
+    "bytes": 8268,
+    "sha256": "9f0934389bd16cd1bf517c34854545d1299d18394b905b3bc42bec31cf2d533b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-9f0934389bd16cd1bf517c34854545d1299d18394b905b3bc42bec31cf2d533b.meta.json",
+    "bytes": 646,
+    "sha256": "2bd58b5088334c0dbce3f35083838641b967a409837f3297158c6707c53c46e0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-a37692a3c6233cd6266f2ae1b5df52cf131fbb0f39c8919172c7500f806df066.html",
+    "bytes": 4417,
+    "sha256": "a37692a3c6233cd6266f2ae1b5df52cf131fbb0f39c8919172c7500f806df066"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-a37692a3c6233cd6266f2ae1b5df52cf131fbb0f39c8919172c7500f806df066.meta.json",
+    "bytes": 644,
+    "sha256": "8f35f9caad509f3cc3465d448641750a67a9e9f541f1de9e504207f70d452278"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-a86003111d728c0099effaa43086e4bbab37573d1c384e5671f8c1dd6985bba7.html",
+    "bytes": 7967,
+    "sha256": "a86003111d728c0099effaa43086e4bbab37573d1c384e5671f8c1dd6985bba7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-a86003111d728c0099effaa43086e4bbab37573d1c384e5671f8c1dd6985bba7.meta.json",
+    "bytes": 649,
+    "sha256": "d2243367c700ae1ed40ab41c404566e840a33a737e4186d3c19ec5e77bc9ad39"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ab88ea449c8017b24c91c2452c547ba4ff5509fb05e5746e66ff898969e290a2.html",
+    "bytes": 9734,
+    "sha256": "ab88ea449c8017b24c91c2452c547ba4ff5509fb05e5746e66ff898969e290a2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ab88ea449c8017b24c91c2452c547ba4ff5509fb05e5746e66ff898969e290a2.meta.json",
+    "bytes": 640,
+    "sha256": "5be36164ff29ddf4bfa490a690b0326f0a1b6abc6a0b3c0bdbafdcf9077994c8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-b66bafcab4b98425cc90cdcb8b0413eeb5e31415c7c79d72e8a63c3a566d102c.html",
+    "bytes": 4164,
+    "sha256": "b66bafcab4b98425cc90cdcb8b0413eeb5e31415c7c79d72e8a63c3a566d102c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-b66bafcab4b98425cc90cdcb8b0413eeb5e31415c7c79d72e8a63c3a566d102c.meta.json",
+    "bytes": 645,
+    "sha256": "53a3c6b21bd21f1cb23ad979622ac06f2dba951c9b8ee18c9593f030b8c91c7a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-bd78cdd8a5ef36da5d0025139649f64a6a6e2a92d05877716f83459bba2c9e76.html",
+    "bytes": 4186,
+    "sha256": "bd78cdd8a5ef36da5d0025139649f64a6a6e2a92d05877716f83459bba2c9e76"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-bd78cdd8a5ef36da5d0025139649f64a6a6e2a92d05877716f83459bba2c9e76.meta.json",
+    "bytes": 646,
+    "sha256": "e8f11ece5b72a780eb99a05c2c6cd63b7d5f9512c4878447df4ba1bfdaa3c5e2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-bf73f319f3873c0eded38691cb774f99bf910c6f38d51292408263783c9ff6a8.html",
+    "bytes": 4815,
+    "sha256": "bf73f319f3873c0eded38691cb774f99bf910c6f38d51292408263783c9ff6a8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-bf73f319f3873c0eded38691cb774f99bf910c6f38d51292408263783c9ff6a8.meta.json",
+    "bytes": 644,
+    "sha256": "31836af9f21bebe1f4fa9245bc4c4073bec0c92c9fafc324263013afea0b906e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-c20009dab678cb92a21f0d08f40d5e3fe65c8224abf7ef57fe82e785fc9fa0e6.html",
+    "bytes": 4193,
+    "sha256": "c20009dab678cb92a21f0d08f40d5e3fe65c8224abf7ef57fe82e785fc9fa0e6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-c20009dab678cb92a21f0d08f40d5e3fe65c8224abf7ef57fe82e785fc9fa0e6.meta.json",
+    "bytes": 649,
+    "sha256": "e71e3a9da8e091287b98106414f3723a5f471c09d9c102d9141cee8119e3e303"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-cc5280e401eddbf1a6e1e4503fe25ff515c1587a815d05184b41559ed27c3e7f.html",
+    "bytes": 4111,
+    "sha256": "cc5280e401eddbf1a6e1e4503fe25ff515c1587a815d05184b41559ed27c3e7f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-cc5280e401eddbf1a6e1e4503fe25ff515c1587a815d05184b41559ed27c3e7f.meta.json",
+    "bytes": 644,
+    "sha256": "2f64245af9668154bd688c2ca2cc17be44b1051a9a253fd4d39b2a17d914d4a6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ccda45122e767f20cc1cd9183f67b5733fd4664ebd857e16521cf2d98d609e84.html",
+    "bytes": 4205,
+    "sha256": "ccda45122e767f20cc1cd9183f67b5733fd4664ebd857e16521cf2d98d609e84"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ccda45122e767f20cc1cd9183f67b5733fd4664ebd857e16521cf2d98d609e84.meta.json",
+    "bytes": 649,
+    "sha256": "96e099d64f108da167c33adca92c8d2932dc83a9aed864605dc9dc392f7e1e3b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d353832306f5468b9a3cb7e9e0430187902136c648f4afbdc2c4c2d24f12cea1.html",
+    "bytes": 5301,
+    "sha256": "d353832306f5468b9a3cb7e9e0430187902136c648f4afbdc2c4c2d24f12cea1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d353832306f5468b9a3cb7e9e0430187902136c648f4afbdc2c4c2d24f12cea1.meta.json",
+    "bytes": 640,
+    "sha256": "53669805741874610b2bca5cbf5f7d147ab222f4773fad72d4055376da159732"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d48b40d236e09571d65018666e9bedb707d675d46587dd92ddff66e87c6ae548.html",
+    "bytes": 4448,
+    "sha256": "d48b40d236e09571d65018666e9bedb707d675d46587dd92ddff66e87c6ae548"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d48b40d236e09571d65018666e9bedb707d675d46587dd92ddff66e87c6ae548.meta.json",
+    "bytes": 644,
+    "sha256": "200d9eb6aab59ba722f2b3f5a06dd454a5d0530419d44bbfdbc6f52985eacfdd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d86e394123c680f494e72d97a39b38b19d17724098e10a464ff2d32eca7b9ccd.html",
+    "bytes": 6573,
+    "sha256": "d86e394123c680f494e72d97a39b38b19d17724098e10a464ff2d32eca7b9ccd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d86e394123c680f494e72d97a39b38b19d17724098e10a464ff2d32eca7b9ccd.meta.json",
+    "bytes": 649,
+    "sha256": "be1055adaa1be2edfad0502381a09fa86a7b322512f9019d5a7bdf8b2741dd2c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d8ac9939b1503cf5fe341d80fd5d0dbf57bc3474d1282769c83f3a2fd288624f.html",
+    "bytes": 8486,
+    "sha256": "d8ac9939b1503cf5fe341d80fd5d0dbf57bc3474d1282769c83f3a2fd288624f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d8ac9939b1503cf5fe341d80fd5d0dbf57bc3474d1282769c83f3a2fd288624f.meta.json",
+    "bytes": 646,
+    "sha256": "9962cf82d7275a34daff4feca9f336b62a3c62db2243f48a28327fc146a57be5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d8aec1c7504024d903affcf63b5279bccbdf42845f8a94b8ec0daed97d50dc28.html",
+    "bytes": 7827,
+    "sha256": "d8aec1c7504024d903affcf63b5279bccbdf42845f8a94b8ec0daed97d50dc28"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-d8aec1c7504024d903affcf63b5279bccbdf42845f8a94b8ec0daed97d50dc28.meta.json",
+    "bytes": 652,
+    "sha256": "0e46d6facfa6a1041fd446fb84ba4f74d83dc9b36192ffe9198fa00ea8ee5d9c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ddb2ad22f12e94c6b8bb71dd6171c82d28ab4f8c3acfaf704265c73b4b906bfe.html",
+    "bytes": 4177,
+    "sha256": "ddb2ad22f12e94c6b8bb71dd6171c82d28ab4f8c3acfaf704265c73b4b906bfe"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ddb2ad22f12e94c6b8bb71dd6171c82d28ab4f8c3acfaf704265c73b4b906bfe.meta.json",
+    "bytes": 652,
+    "sha256": "a45489269321601457384ca4aab6122876ee4746c141989a63ed3f6bd2d83ce9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e414e33ee81ef8f741e9e40dc0a94efe93b68d1fde5bdbf4b4a100b6e7c67389.html",
+    "bytes": 4932,
+    "sha256": "e414e33ee81ef8f741e9e40dc0a94efe93b68d1fde5bdbf4b4a100b6e7c67389"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e414e33ee81ef8f741e9e40dc0a94efe93b68d1fde5bdbf4b4a100b6e7c67389.meta.json",
+    "bytes": 640,
+    "sha256": "cc61e0b218a1a41a3512bcd301d5f35df0cafd3892e83041c8a05009b548aa27"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e63ab58bc839d338f66fbce9a42b9fa3114b4ba6433049d31b0579965fb255be.html",
+    "bytes": 4737,
+    "sha256": "e63ab58bc839d338f66fbce9a42b9fa3114b4ba6433049d31b0579965fb255be"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e63ab58bc839d338f66fbce9a42b9fa3114b4ba6433049d31b0579965fb255be.meta.json",
+    "bytes": 645,
+    "sha256": "edb168537674210cc19f379781338e4f174b98aa6bf3772c3f52a94b88cf9816"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e66776efe05d5ee15dd81c3395ba807fe051ccfa994fb381444e1c9a52344c5b.html",
+    "bytes": 4363,
+    "sha256": "e66776efe05d5ee15dd81c3395ba807fe051ccfa994fb381444e1c9a52344c5b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e66776efe05d5ee15dd81c3395ba807fe051ccfa994fb381444e1c9a52344c5b.meta.json",
+    "bytes": 646,
+    "sha256": "e3272b74590ad66895bb1ec7a04076f9a4ad5f5bf871a91e1d75478922bb7fb3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e7630688bf167742265658d24e1e316bbabf5dce21f9461b7efcc72806df99ff.html",
+    "bytes": 4236,
+    "sha256": "e7630688bf167742265658d24e1e316bbabf5dce21f9461b7efcc72806df99ff"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e7630688bf167742265658d24e1e316bbabf5dce21f9461b7efcc72806df99ff.meta.json",
+    "bytes": 645,
+    "sha256": "ba36896887394a2796483f3936bf3a5fc0f24dd6e713c4d3b1144f62d86f399e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e820f27759dc5896b31bfea1ea8bbccd99a780ba68498fab9a9d3e5fc273c04c.html",
+    "bytes": 7441,
+    "sha256": "e820f27759dc5896b31bfea1ea8bbccd99a780ba68498fab9a9d3e5fc273c04c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-e820f27759dc5896b31bfea1ea8bbccd99a780ba68498fab9a9d3e5fc273c04c.meta.json",
+    "bytes": 649,
+    "sha256": "5b2c1793a8c421b8907a6a4cf3fc0309134015a304f877847c3049ab211e40f2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-eadb08a6da85984f4d02c9215e39cf50c49f47974ef954a17def18c8edb3feb4.html",
+    "bytes": 4386,
+    "sha256": "eadb08a6da85984f4d02c9215e39cf50c49f47974ef954a17def18c8edb3feb4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-eadb08a6da85984f4d02c9215e39cf50c49f47974ef954a17def18c8edb3feb4.meta.json",
+    "bytes": 649,
+    "sha256": "d18f1687570ccd75ede9af9f494aa0319517297bb4b535047edec94d6269e79d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ebb7d7999dd408d04c5a97aa5d6a291dd03abb8073f8e2338d95c39d46c7d05c.html",
+    "bytes": 8385,
+    "sha256": "ebb7d7999dd408d04c5a97aa5d6a291dd03abb8073f8e2338d95c39d46c7d05c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-ebb7d7999dd408d04c5a97aa5d6a291dd03abb8073f8e2338d95c39d46c7d05c.meta.json",
+    "bytes": 647,
+    "sha256": "581b99837387ab5f5d419fd60f5e62bc66403fa3c0551ba521b615f6110504d8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-f8502749b3c8cf9073f530c49a8ccf1520af02196c53161c23eb9ab8d1f16e35.html",
+    "bytes": 8403,
+    "sha256": "f8502749b3c8cf9073f530c49a8ccf1520af02196c53161c23eb9ab8d1f16e35"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-f8502749b3c8cf9073f530c49a8ccf1520af02196c53161c23eb9ab8d1f16e35.meta.json",
+    "bytes": 652,
+    "sha256": "b2a8781b6e664763290009b4e5e3f590dcc7a6c652e0e0b84b4cf5b808f57460"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-fadfec601b85c7026039db727d97ac5a3635160cb8e412841a859db7b55bb5db.html",
+    "bytes": 8422,
+    "sha256": "fadfec601b85c7026039db727d97ac5a3635160cb8e412841a859db7b55bb5db"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mof-fiscal-fadfec601b85c7026039db727d97ac5a3635160cb8e412841a859db7b55bb5db.meta.json",
+    "bytes": 649,
+    "sha256": "35ead70f1d43d2b4d230b699b60b682a939864df2de2f0714c2cd250a5c0f85c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mofcom-cny-11f7ea21e5d340fa8c129dc25e78d6486729f8c06dc99783564489b36c03e5ee.json",
+    "bytes": 6042,
+    "sha256": "11f7ea21e5d340fa8c129dc25e78d6486729f8c06dc99783564489b36c03e5ee"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mofcom-cny-11f7ea21e5d340fa8c129dc25e78d6486729f8c06dc99783564489b36c03e5ee.meta.json",
+    "bytes": 327,
+    "sha256": "084acefe526af8d53bff8aeb63c4fc1833edd47c2a6101fc70505f56bbfab1de"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mofcom-cny-470069dd5016d7c59a97515935ee432f9c43571126112d8126bfaf737df561b2.json",
+    "bytes": 6026,
+    "sha256": "470069dd5016d7c59a97515935ee432f9c43571126112d8126bfaf737df561b2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mofcom-cny-470069dd5016d7c59a97515935ee432f9c43571126112d8126bfaf737df561b2.meta.json",
+    "bytes": 327,
+    "sha256": "d7213948b2272533afe8bb2ac068ff36df6d3001e94b561ce282960d64d539ca"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mofcom-trade-2df0c6a4f4b2d24a20f3451aaccd00da0309ea3f017aec4658d6fb4a77c3bd41.json",
+    "bytes": 29610,
+    "sha256": "2df0c6a4f4b2d24a20f3451aaccd00da0309ea3f017aec4658d6fb4a77c3bd41"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/mofcom-trade-2df0c6a4f4b2d24a20f3451aaccd00da0309ea3f017aec4658d6fb4a77c3bd41.meta.json",
+    "bytes": 614,
+    "sha256": "9f954830058f0cf7f8ada0291da2bbc8873d6dc1a753290deca9169c9b4feea3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-025ea14d2f85e2789596d64f12c550fa29200fe217fc26334d92e91413d1b066-ppi_mom.meta.json",
+    "bytes": 713,
+    "sha256": "e70b7e6d9cf2a6b7318e8f99ce22ed86c9eb10a3430fbfb69dfa33e792b01272"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-025ea14d2f85e2789596d64f12c550fa29200fe217fc26334d92e91413d1b066.html",
+    "bytes": 15462,
+    "sha256": "025ea14d2f85e2789596d64f12c550fa29200fe217fc26334d92e91413d1b066"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-077ebeea5156f907666306c33310eb239a86490101d40f77f66994c2c9c4c7e1-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "a49532312030aecf429011e80ebb4c643386a7de93a7f8b83f4bbcd7fce36590"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-077ebeea5156f907666306c33310eb239a86490101d40f77f66994c2c9c4c7e1.html",
+    "bytes": 16945,
+    "sha256": "077ebeea5156f907666306c33310eb239a86490101d40f77f66994c2c9c4c7e1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-097c870435718f03cdd2f9f5bbd32f0fff7432f748794b4fd7cad9336e21f28e-cpi_mom.meta.json",
+    "bytes": 691,
+    "sha256": "72207ff8cb652143757078ccd036e2887417e48c88cda195cfed6a8c3f6eeb5a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-097c870435718f03cdd2f9f5bbd32f0fff7432f748794b4fd7cad9336e21f28e.html",
+    "bytes": 16109,
+    "sha256": "097c870435718f03cdd2f9f5bbd32f0fff7432f748794b4fd7cad9336e21f28e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0a3f1815277e6feb4ac0d105e6e1f51081de88d11420349a837041ed6e672259-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "e31e033ab1a36628b0e0b065fc54f7904c97ace4f24886e3442ec508d4cff8c4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0a3f1815277e6feb4ac0d105e6e1f51081de88d11420349a837041ed6e672259.html",
+    "bytes": 15034,
+    "sha256": "0a3f1815277e6feb4ac0d105e6e1f51081de88d11420349a837041ed6e672259"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0c3d02884b2bd71a6c2fc14d6823b1fed8ffcd258b28a87d94437b37fa5687fb-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "ca8d61067b52477d705bd17811078b85cf1ef24215b54ff846f9fe5674c9e470"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0c3d02884b2bd71a6c2fc14d6823b1fed8ffcd258b28a87d94437b37fa5687fb.html",
+    "bytes": 16414,
+    "sha256": "0c3d02884b2bd71a6c2fc14d6823b1fed8ffcd258b28a87d94437b37fa5687fb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc-manufacturing_new_orders_pmi.meta.json",
+    "bytes": 693,
+    "sha256": "79daaf7e8a5719d1c65ea5795b5511ef91d208223eaa339a2375e4bf80a2c771"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc-manufacturing_pmi.meta.json",
+    "bytes": 682,
+    "sha256": "bc6335a9f3b3d2082ceea5a2de7de7fcbabea62572a98b0d5fb2f084ba076bd6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc-nonmanufacturing_pmi.meta.json",
+    "bytes": 685,
+    "sha256": "16e5ca4afb6d97662fb47435e6c8a9a13f8cd9f689f599864f3c85b978f63eab"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc.html",
+    "bytes": 30961,
+    "sha256": "0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-10fbc0931887fce6c78591a2d4e30b7c3f9639100757de326a92ca3fe22ed69d-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "b436d9a96c2424e6f7d30c4e705ec592d07bff0d5c6a1c3176aacfeaa3429d09"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-10fbc0931887fce6c78591a2d4e30b7c3f9639100757de326a92ca3fe22ed69d.html",
+    "bytes": 14226,
+    "sha256": "10fbc0931887fce6c78591a2d4e30b7c3f9639100757de326a92ca3fe22ed69d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-12fcc4f6f82bc6f6bd0419a1f010e0f65d73b539e368e212f2b0fab4f9ab6cb2-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "83b20b68298bd24f67a1e0423c35cdfddd5b42cee8b4e5d3b05e76f8cd056d3b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-12fcc4f6f82bc6f6bd0419a1f010e0f65d73b539e368e212f2b0fab4f9ab6cb2.html",
+    "bytes": 16040,
+    "sha256": "12fcc4f6f82bc6f6bd0419a1f010e0f65d73b539e368e212f2b0fab4f9ab6cb2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1393d44298ce7e1e1d6d45b7368965ce970f169245b49b7ed2ef24bae4b15a72-ppi_mom.meta.json",
+    "bytes": 714,
+    "sha256": "a921d6e2453d84fd42676debe1588dec906e4ef8387cdaeee4625e71e7d4686b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1393d44298ce7e1e1d6d45b7368965ce970f169245b49b7ed2ef24bae4b15a72.html",
+    "bytes": 15342,
+    "sha256": "1393d44298ce7e1e1d6d45b7368965ce970f169245b49b7ed2ef24bae4b15a72"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-142f8729ac13a87611d2d1cb07ba6326ab9410198aeeb9197c3b4403a142b093-ppi_mom.meta.json",
+    "bytes": 695,
+    "sha256": "8a64f5e996e76aedff4304698fa4b5daf1c24c5834688eb87f6bdf7e6ee8c454"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-142f8729ac13a87611d2d1cb07ba6326ab9410198aeeb9197c3b4403a142b093.html",
+    "bytes": 16091,
+    "sha256": "142f8729ac13a87611d2d1cb07ba6326ab9410198aeeb9197c3b4403a142b093"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b-export_yoy.meta.json",
+    "bytes": 672,
+    "sha256": "8ca6038c388918c9d2cdfb8454aac4320aa578674747489b7fe886e2a43a2585"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b-import_yoy.meta.json",
+    "bytes": 672,
+    "sha256": "610b7dbd31a28cea2dcc1d16a48b425bee0b32fcf631da8fe60eeae410f8e1ce"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b-unemployment.meta.json",
+    "bytes": 673,
+    "sha256": "160e70b38c9835b0d872ff31e9b2bf274f9417de05f874957f3a4cc1662394b6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b.html",
+    "bytes": 48863,
+    "sha256": "146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-15ae3ba01eac25dc786e9da92f23641b79d2febec206f33f3ef844e6e40f9a31-ppi_mom.meta.json",
+    "bytes": 709,
+    "sha256": "6e7f1d6cfb0832e0ab3fcac86a78e1cbb411c1a4ea465ec954dc911fc38b564a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-15ae3ba01eac25dc786e9da92f23641b79d2febec206f33f3ef844e6e40f9a31.html",
+    "bytes": 16279,
+    "sha256": "15ae3ba01eac25dc786e9da92f23641b79d2febec206f33f3ef844e6e40f9a31"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-16260fb9d7d68b2e6e6ae7c962272341fde20c541990fefb44a9b609f1a43ff3-private_fai_ytd_yoy.meta.json",
+    "bytes": 690,
+    "sha256": "7ff1bbed5b2a6cb8219ba501c1e5844e01bcd9e7b5347b27326cbd5b5e2c94b4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-16260fb9d7d68b2e6e6ae7c962272341fde20c541990fefb44a9b609f1a43ff3.html",
+    "bytes": 15669,
+    "sha256": "16260fb9d7d68b2e6e6ae7c962272341fde20c541990fefb44a9b609f1a43ff3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-168053ef91ac8b2494d683c572830035e6929ba1edd09e3e14f34ab154970bac-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "d5c52d19cced9211b32987fc37281707495755af15cb007db5458be58d3d955b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-168053ef91ac8b2494d683c572830035e6929ba1edd09e3e14f34ab154970bac.html",
+    "bytes": 19307,
+    "sha256": "168053ef91ac8b2494d683c572830035e6929ba1edd09e3e14f34ab154970bac"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1690bc6f55ff645e7adc0f3185f767a622c950cbfbcd904b7901cbd10ab0e003-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "7a267fdcd775be86b10f24019a644db3bd5987d3ece2e8001f08ccd4e50fa500"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1690bc6f55ff645e7adc0f3185f767a622c950cbfbcd904b7901cbd10ab0e003.html",
+    "bytes": 16260,
+    "sha256": "1690bc6f55ff645e7adc0f3185f767a622c950cbfbcd904b7901cbd10ab0e003"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-18718e5da3c629f2b646a77ab272e67e3995647e428fce61b824239739997164-export_yoy.meta.json",
+    "bytes": 686,
+    "sha256": "6ee8d6f368f7fc82a55f57769f5fa7a4b416454e92ccf266903563ffa62c7920"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-18718e5da3c629f2b646a77ab272e67e3995647e428fce61b824239739997164-import_yoy.meta.json",
+    "bytes": 686,
+    "sha256": "7e0b42d7a70d0ee0cce95aadfdb86af8185e0bf46593d2b59fc9a1731c76c797"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-18718e5da3c629f2b646a77ab272e67e3995647e428fce61b824239739997164.html",
+    "bytes": 47934,
+    "sha256": "18718e5da3c629f2b646a77ab272e67e3995647e428fce61b824239739997164"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1a316965c3a3c214e87294f035235c9df8337f0ee221ddd3db5b9537283d2bcd-ppi_mom.meta.json",
+    "bytes": 713,
+    "sha256": "acd93a8c6aaadce6d240899271f43450e6b09e64ac09cdec1f7b69e1d2338829"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1a316965c3a3c214e87294f035235c9df8337f0ee221ddd3db5b9537283d2bcd.html",
+    "bytes": 16381,
+    "sha256": "1a316965c3a3c214e87294f035235c9df8337f0ee221ddd3db5b9537283d2bcd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1ad811d6c422f56f28cc88c6eb10be06b5fdffa03abaa32ecce9fe58c81d1d14-retail_yoy.meta.json",
+    "bytes": 672,
+    "sha256": "6b60578d1d1918a0abb005d9146de5b280f4981e5441641f910306ec063f8e80"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1ad811d6c422f56f28cc88c6eb10be06b5fdffa03abaa32ecce9fe58c81d1d14.html",
+    "bytes": 15613,
+    "sha256": "1ad811d6c422f56f28cc88c6eb10be06b5fdffa03abaa32ecce9fe58c81d1d14"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1bb1e7cafb0d7a70c4d6d80b8d17eda2a47dc025529eed4be56c2fa9d62dfb88-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 696,
+    "sha256": "bcff0ef1197c79d0965c03f4eb8d22094b1b4699fd4c81cdbec69a202546a87a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1bb1e7cafb0d7a70c4d6d80b8d17eda2a47dc025529eed4be56c2fa9d62dfb88.html",
+    "bytes": 19156,
+    "sha256": "1bb1e7cafb0d7a70c4d6d80b8d17eda2a47dc025529eed4be56c2fa9d62dfb88"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1c84aa287c41ae9a57948641d7ad6e7ec5312ca3f0d52e667aa305df9b803e61-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "85f828a54b221603b6bb0daa2228308565bf53a9788eecae4c2526ce8927e962"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1c84aa287c41ae9a57948641d7ad6e7ec5312ca3f0d52e667aa305df9b803e61.html",
+    "bytes": 19326,
+    "sha256": "1c84aa287c41ae9a57948641d7ad6e7ec5312ca3f0d52e667aa305df9b803e61"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1e1645430409ed8ffbefe8dcc74f65706f30caf4697ea25cd197056e06c4fc98-ppi_mom.meta.json",
+    "bytes": 695,
+    "sha256": "ff8c2ec0f900d7e21c638f0c45ee5170b941298852374eebdbe73d70ca349680"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1e1645430409ed8ffbefe8dcc74f65706f30caf4697ea25cd197056e06c4fc98.html",
+    "bytes": 15060,
+    "sha256": "1e1645430409ed8ffbefe8dcc74f65706f30caf4697ea25cd197056e06c4fc98"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1ff7e268fd69a5c1cfea50f773e8e07cd68c183e4076c7fd8946fa6a131db541-ppi_mom.meta.json",
+    "bytes": 694,
+    "sha256": "26ab3f1707dc1f53f4033b24badb9e5ba08306e7200e65eddcd63025bea22c6c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-1ff7e268fd69a5c1cfea50f773e8e07cd68c183e4076c7fd8946fa6a131db541.html",
+    "bytes": 15812,
+    "sha256": "1ff7e268fd69a5c1cfea50f773e8e07cd68c183e4076c7fd8946fa6a131db541"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7-export_yoy.meta.json",
+    "bytes": 686,
+    "sha256": "e5249f8717fe6174b50e962e38bc556c2713b8ae598e6b4b53f1bafd3797bd1a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7-import_yoy.meta.json",
+    "bytes": 686,
+    "sha256": "36022d08f78a86a81d07c9bc240db8e747a8d142ef7eda3fbd148ba62eb95f61"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7-unemployment.meta.json",
+    "bytes": 688,
+    "sha256": "f237ad131855dd492823bc881fd5a12609465f588b955a638d42c3ec68e1c976"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7.html",
+    "bytes": 80132,
+    "sha256": "209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2104a5e89798dab81dfece96f1173dd89fe9a760ecb38575b6a5bad3590de814-private_fai_ytd_yoy.meta.json",
+    "bytes": 688,
+    "sha256": "41120ee5925c6e66af790e7a877358169bf2925be2e46bdb8610fb778298d61c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2104a5e89798dab81dfece96f1173dd89fe9a760ecb38575b6a5bad3590de814.html",
+    "bytes": 14874,
+    "sha256": "2104a5e89798dab81dfece96f1173dd89fe9a760ecb38575b6a5bad3590de814"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b-export_yoy.meta.json",
+    "bytes": 678,
+    "sha256": "75729e42efbf1e36bfef44c106de9ec7f6a5d46b6d3651e4b5a51c7abf507b50"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b-import_yoy.meta.json",
+    "bytes": 677,
+    "sha256": "633263a23f11e3815e0e3c185addfd949a7f31830ba6b348b698f1e5c8031af2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b.html",
+    "bytes": 47050,
+    "sha256": "21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2381249cd290c12a61ff7652edd30acafa1b49cfa418259b51b4bec1486e8299-ppi_mom.meta.json",
+    "bytes": 701,
+    "sha256": "fe3ebfd35683598039065619a7911fcae4595aa2a0c80cef42ab64e422de172f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2381249cd290c12a61ff7652edd30acafa1b49cfa418259b51b4bec1486e8299.html",
+    "bytes": 15893,
+    "sha256": "2381249cd290c12a61ff7652edd30acafa1b49cfa418259b51b4bec1486e8299"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85-export_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "666b2a8e3421b46a04ed9fe16245a6c61c7d2593680d19836419b2b24bc544a1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85-import_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "a87db74a9bb2967d9f9874675ef03344afcb5e3afb589e28795ab9210309591d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85.html",
+    "bytes": 69955,
+    "sha256": "23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-272b79d3796cdd4e0dc2c2b336551b168bc9bf44136fd22aa811d0e22a2fcd20-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "201760035ad91b1ff861af32980c2dd36fc40883d0241a573ebbbbfc22a75aa8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-272b79d3796cdd4e0dc2c2b336551b168bc9bf44136fd22aa811d0e22a2fcd20.html",
+    "bytes": 14921,
+    "sha256": "272b79d3796cdd4e0dc2c2b336551b168bc9bf44136fd22aa811d0e22a2fcd20"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef-export_yoy.meta.json",
+    "bytes": 697,
+    "sha256": "13ad86e71e90153bdee62d0b0efce7b6f77654b7064d1ff7d385501c53775993"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef-import_yoy.meta.json",
+    "bytes": 697,
+    "sha256": "645bb9f0d9bf228828a27dd41182502cfad5ef597fc39646ba840db918cc4bfd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef.html",
+    "bytes": 48476,
+    "sha256": "27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-288c23b3f59bf6b12fe9c8e41e356a620950977094394d1a39c2f10c01a4679a-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "f97fea7ee963ae6f04ab67b9740535b89a0e345672f8cd2a7235a64a11c27f46"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-288c23b3f59bf6b12fe9c8e41e356a620950977094394d1a39c2f10c01a4679a.html",
+    "bytes": 19320,
+    "sha256": "288c23b3f59bf6b12fe9c8e41e356a620950977094394d1a39c2f10c01a4679a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-294fb4ef456b50aab7ed735a89a89ed165fda2fdd10ea22e9efc6b1ac57d0636-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "89b5d62ebcbd3a686b0700fd10023e47e5409b44cf7de66ad6c2df297904df02"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-294fb4ef456b50aab7ed735a89a89ed165fda2fdd10ea22e9efc6b1ac57d0636.html",
+    "bytes": 16019,
+    "sha256": "294fb4ef456b50aab7ed735a89a89ed165fda2fdd10ea22e9efc6b1ac57d0636"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-29946972e7abc9a64ca88931a54dbfa2b3e2d96b825a6a0d49bfad4a9e7193d4-ppi_mom.meta.json",
+    "bytes": 700,
+    "sha256": "6ff016b512703062201196127ebb4d39c4e6cfbcd66655dfbf8f46df275c87e3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-29946972e7abc9a64ca88931a54dbfa2b3e2d96b825a6a0d49bfad4a9e7193d4.html",
+    "bytes": 16035,
+    "sha256": "29946972e7abc9a64ca88931a54dbfa2b3e2d96b825a6a0d49bfad4a9e7193d4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2aea9b9e4e6e31937782eb1e945598fbbfe7b9e113d134361aa14ddd73e4d9fb-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "3ddcbab80a973c23fd7ae9d56d622cbadaa1affe2736395304c40087cc385d76"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2aea9b9e4e6e31937782eb1e945598fbbfe7b9e113d134361aa14ddd73e4d9fb.html",
+    "bytes": 15080,
+    "sha256": "2aea9b9e4e6e31937782eb1e945598fbbfe7b9e113d134361aa14ddd73e4d9fb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2b4fc099a4c5d144bdb8877ddd10f8a45958785206cbeb8a49f873c14e37ea04-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "74986f8a3eca4b8e4d81970fb2ba8f8def098ee429402a0dc5588def2ddc403a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2b4fc099a4c5d144bdb8877ddd10f8a45958785206cbeb8a49f873c14e37ea04.html",
+    "bytes": 14855,
+    "sha256": "2b4fc099a4c5d144bdb8877ddd10f8a45958785206cbeb8a49f873c14e37ea04"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2d02b7bbe43daf65b2432fe13b9a55a8a08b908d6531253de15836ac778d2d7b-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "48115ddf842a24c835f03d9b8b1346e57560aaf424ec340149b5f89b7a6a82cb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-2d02b7bbe43daf65b2432fe13b9a55a8a08b908d6531253de15836ac778d2d7b.html",
+    "bytes": 16342,
+    "sha256": "2d02b7bbe43daf65b2432fe13b9a55a8a08b908d6531253de15836ac778d2d7b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-305b4c3517b230ccbbc4cc722963f79f080b680613907a0ca9fd7c93712ae789-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "aa1b65bdc561a36e7b43dccdf5c8f7f611e51da56bda18573fb034e253daf3ac"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-305b4c3517b230ccbbc4cc722963f79f080b680613907a0ca9fd7c93712ae789.html",
+    "bytes": 14752,
+    "sha256": "305b4c3517b230ccbbc4cc722963f79f080b680613907a0ca9fd7c93712ae789"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-329c661980dab904afaddacbdb10b92ed607b36c1eb4313771e4a9eafb669afb-ppi_mom.meta.json",
+    "bytes": 702,
+    "sha256": "c49c377f10b346ae2d7ed71f9af3b7ce2ff4e6923cf124d401a4f947e263a861"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-329c661980dab904afaddacbdb10b92ed607b36c1eb4313771e4a9eafb669afb.html",
+    "bytes": 16184,
+    "sha256": "329c661980dab904afaddacbdb10b92ed607b36c1eb4313771e4a9eafb669afb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60-export_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "02a1a351d6a05464a194e93d7e56ebc59be969a4436f796c905cbfad8982ec1a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60-import_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "168411b46f2210a6924e8209a8adcf983ef7f5cb7641b87f737b10f77117cfe1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60-unemployment.meta.json",
+    "bytes": 702,
+    "sha256": "07f6415a11e56945d716560afdc3ca7486318839612842c2b341c0cfe6da35a4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60.html",
+    "bytes": 55399,
+    "sha256": "3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-398716764c7379beedd7afca0b7284bdc55ca6b4c42c161ba9103e69d8e2513d-private_fai_ytd_yoy.meta.json",
+    "bytes": 689,
+    "sha256": "dc9b6f81722a06c7b80c55c1437d1d4eed199a3b0d24bb07131ba651d3ee19fd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-398716764c7379beedd7afca0b7284bdc55ca6b4c42c161ba9103e69d8e2513d.html",
+    "bytes": 15862,
+    "sha256": "398716764c7379beedd7afca0b7284bdc55ca6b4c42c161ba9103e69d8e2513d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-39b38fe4818d3f2455c5e50e6723fda717d3274f587555d1d013cd99b2e12880-ppi_mom.meta.json",
+    "bytes": 709,
+    "sha256": "f7ec5758d8ad6bffa88f791c75fc6d7e895e4d1a5c05cee01c4316ae7a7cc146"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-39b38fe4818d3f2455c5e50e6723fda717d3274f587555d1d013cd99b2e12880.html",
+    "bytes": 16448,
+    "sha256": "39b38fe4818d3f2455c5e50e6723fda717d3274f587555d1d013cd99b2e12880"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3b3935a9024e9618f990e9f97bdea577230a82766aadceb5dec9ab3b892fdb84-ppi_mom.meta.json",
+    "bytes": 701,
+    "sha256": "742898a34cc487f7034bcd3650443411d71a6247417622fc6baf2f67f4a6805c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3b3935a9024e9618f990e9f97bdea577230a82766aadceb5dec9ab3b892fdb84.html",
+    "bytes": 15408,
+    "sha256": "3b3935a9024e9618f990e9f97bdea577230a82766aadceb5dec9ab3b892fdb84"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3c0e9fb96eb20f9b9395660cca46cb8be9604055aa1dd8951e48ed32b19aab3b-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "fd8ec8b5232e012a368481ca62ec4c5313935f0172ec8b15f645648e24023061"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-3c0e9fb96eb20f9b9395660cca46cb8be9604055aa1dd8951e48ed32b19aab3b.html",
+    "bytes": 14965,
+    "sha256": "3c0e9fb96eb20f9b9395660cca46cb8be9604055aa1dd8951e48ed32b19aab3b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-40efdde31b31f3c64aff7c307e88b7d982cb7172bb86051f26f2da5bc975c0ee-private_fai_ytd_yoy.meta.json",
+    "bytes": 707,
+    "sha256": "8de341775e9190d7788f60ff9d17f508a9bdc5ea9e6e5f8db09262255baa0ead"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-40efdde31b31f3c64aff7c307e88b7d982cb7172bb86051f26f2da5bc975c0ee.html",
+    "bytes": 15468,
+    "sha256": "40efdde31b31f3c64aff7c307e88b7d982cb7172bb86051f26f2da5bc975c0ee"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4312006ab4e73881786464702b1f4c676153a76d19a266c8ad135d07f128d7a5-ppi_mom.meta.json",
+    "bytes": 682,
+    "sha256": "458b77491d2eb022d85c7ad11fb5cf5437f3e408f048be758ad030897a323944"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4312006ab4e73881786464702b1f4c676153a76d19a266c8ad135d07f128d7a5.html",
+    "bytes": 14856,
+    "sha256": "4312006ab4e73881786464702b1f4c676153a76d19a266c8ad135d07f128d7a5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4412efe2035657f52455e924f75d093ab3edf19e8d09c50f38324fa27da5e47f-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 695,
+    "sha256": "6e2c4e4d5de65e8a13cf9798d4120a8ba9a46479f3bb4d5ac9193529753197c6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4412efe2035657f52455e924f75d093ab3edf19e8d09c50f38324fa27da5e47f.html",
+    "bytes": 19014,
+    "sha256": "4412efe2035657f52455e924f75d093ab3edf19e8d09c50f38324fa27da5e47f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-46388d86b80b1f8721fa6556d25f4a6d3d33478c43daaecee8405d85651ef1ad-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "2e4ec55ce95f6cb0b8fff9a4c84039ef8d4e74469a9011288011d88b0a75317d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-46388d86b80b1f8721fa6556d25f4a6d3d33478c43daaecee8405d85651ef1ad.html",
+    "bytes": 15825,
+    "sha256": "46388d86b80b1f8721fa6556d25f4a6d3d33478c43daaecee8405d85651ef1ad"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-468ad5031fe12a0857ea7cc1c65ff96ec95a0295a11d6c7a8876093db8011a1c-private_fai_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "693825b4ae0745d6191a85e4eac4a8a026feea3da67b6bbd0794becfc45f193e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-468ad5031fe12a0857ea7cc1c65ff96ec95a0295a11d6c7a8876093db8011a1c.html",
+    "bytes": 13557,
+    "sha256": "468ad5031fe12a0857ea7cc1c65ff96ec95a0295a11d6c7a8876093db8011a1c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-474b36cc833316e516019fe38ed0196f36d8677c82e0995ae063beaa12b5f657-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "3ce2830fa18c0631b35daafa11652b72eb4966c41d365e2008c26b831f92ff96"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-474b36cc833316e516019fe38ed0196f36d8677c82e0995ae063beaa12b5f657.html",
+    "bytes": 14683,
+    "sha256": "474b36cc833316e516019fe38ed0196f36d8677c82e0995ae063beaa12b5f657"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-484cc3caa38667db12eee6fdf8d54a1594f5441b6221b7d79c99f8df8baa4c8c-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "4610302f86486e92a076f9d4d9a718eb2e05b340be7ec98c532cc4c5983ccb1f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-484cc3caa38667db12eee6fdf8d54a1594f5441b6221b7d79c99f8df8baa4c8c.html",
+    "bytes": 14980,
+    "sha256": "484cc3caa38667db12eee6fdf8d54a1594f5441b6221b7d79c99f8df8baa4c8c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4b1355d50e8526af82fbd33e202198c94c52755b6d99e95f3473ae704d8bcf14-cpi_mom.meta.json",
+    "bytes": 677,
+    "sha256": "b556a524070fc75c2a5bc4add2627aee07baf8584ac67311ada3b77788b732bf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4b1355d50e8526af82fbd33e202198c94c52755b6d99e95f3473ae704d8bcf14.html",
+    "bytes": 14890,
+    "sha256": "4b1355d50e8526af82fbd33e202198c94c52755b6d99e95f3473ae704d8bcf14"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4cb070be9d16d1b9e3103c3fc3771954a98dc9dc2299fde7617a42054603b98f-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "e2e022d2fc07416e76c48078fcc2236bd6ab3cea36885df99824af36eb602594"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4cb070be9d16d1b9e3103c3fc3771954a98dc9dc2299fde7617a42054603b98f.html",
+    "bytes": 14918,
+    "sha256": "4cb070be9d16d1b9e3103c3fc3771954a98dc9dc2299fde7617a42054603b98f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07-export_yoy.meta.json",
+    "bytes": 667,
+    "sha256": "136201a42aa7dd864210ea63a02b6c9f552d499b6bef97ab2b627620bf410169"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07-import_yoy.meta.json",
+    "bytes": 667,
+    "sha256": "313795161ad8f9cd85932f5e9108c575d0f41755c6c22cc07e29168193e46ab6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07.html",
+    "bytes": 66801,
+    "sha256": "4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4dad50577dfd4c46b4a0dc47338301b4f388b0e95088a2f3db9a3ac1a95a6f8b-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "9bf8fc1d95c43a4a2fa4fd0b8274d6e5f3df063762fac1adfed833655ab1bd26"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4dad50577dfd4c46b4a0dc47338301b4f388b0e95088a2f3db9a3ac1a95a6f8b.html",
+    "bytes": 16117,
+    "sha256": "4dad50577dfd4c46b4a0dc47338301b4f388b0e95088a2f3db9a3ac1a95a6f8b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4df0704bcc6d84c0987ff75478c06dd568ae698f851bf140e158989cbfd8c567-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "b114015801cc38d0aff094dc40ee67e488c187e1fc0a88607311c5976cee8a1c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4df0704bcc6d84c0987ff75478c06dd568ae698f851bf140e158989cbfd8c567.html",
+    "bytes": 16132,
+    "sha256": "4df0704bcc6d84c0987ff75478c06dd568ae698f851bf140e158989cbfd8c567"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4e3fc77a8b610d9e678df0fc79dfc7e3311af59742eaf239ea48f448ec38ca4b-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "26f53c5becccd0a10d8d341f391a8427b462f8812ad771873a50cdac0d9b9a53"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4e3fc77a8b610d9e678df0fc79dfc7e3311af59742eaf239ea48f448ec38ca4b.html",
+    "bytes": 14601,
+    "sha256": "4e3fc77a8b610d9e678df0fc79dfc7e3311af59742eaf239ea48f448ec38ca4b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4ec4da39bd51e4e683a50876fb2df367edaf72e8b0e9b4c8308263b2b054c74a-private_fai_ytd_yoy.meta.json",
+    "bytes": 690,
+    "sha256": "4277ad7e5882877b17191ee110890625e439a78af0f1c91f8803770213267bb7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-4ec4da39bd51e4e683a50876fb2df367edaf72e8b0e9b4c8308263b2b054c74a.html",
+    "bytes": 15825,
+    "sha256": "4ec4da39bd51e4e683a50876fb2df367edaf72e8b0e9b4c8308263b2b054c74a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-500295d1a5f81164b9dac5c6a926d1402c78b1225278536136df3c1baca8de5e-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "5ba95dc688a3a3006da400672a08029cfee5bd9f4baa6b163ef0814e82c7a7d4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-500295d1a5f81164b9dac5c6a926d1402c78b1225278536136df3c1baca8de5e.html",
+    "bytes": 16168,
+    "sha256": "500295d1a5f81164b9dac5c6a926d1402c78b1225278536136df3c1baca8de5e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-508b72e9a05f0e06d8326b390c5e92538c00d281c1446130d153774da48c0032-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "1e2bbda14375c828447cfd82842f5818b976a24c16d5d2e5f1e092c9f8719fa5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-508b72e9a05f0e06d8326b390c5e92538c00d281c1446130d153774da48c0032.html",
+    "bytes": 22062,
+    "sha256": "508b72e9a05f0e06d8326b390c5e92538c00d281c1446130d153774da48c0032"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5245f0fbe8c1df342e517d9e5839b329265a8c10818af62108343f05f0e8a22a-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "ee22039cae82db914b1a4be3e3fc9c3e7c4a7d0cdb3e3c6652fa745f71cd81c9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5245f0fbe8c1df342e517d9e5839b329265a8c10818af62108343f05f0e8a22a.html",
+    "bytes": 13842,
+    "sha256": "5245f0fbe8c1df342e517d9e5839b329265a8c10818af62108343f05f0e8a22a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-527b372dbd2591a57deeacaf2cd178e00332a6bbbf821df640acda1cbc1cf140-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "39384c3c83511464f34566b016e467c53f9b4c03415d81cbdebb2206f2de4578"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-527b372dbd2591a57deeacaf2cd178e00332a6bbbf821df640acda1cbc1cf140.html",
+    "bytes": 15277,
+    "sha256": "527b372dbd2591a57deeacaf2cd178e00332a6bbbf821df640acda1cbc1cf140"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-53b7ab3fbb19b5c938ab5596fa122defacb9d63709b061237c8ca54923f9d4d8-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "90aecb3138a48e4d47fbde2dea05922080f92a58ef4049e7eeacc7a1cbd1a541"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-53b7ab3fbb19b5c938ab5596fa122defacb9d63709b061237c8ca54923f9d4d8-ppi_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "2c730e5b3db485391d0e2ac1c24a3bf700940ef914c5627cdaae8df6b48fb676"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-53b7ab3fbb19b5c938ab5596fa122defacb9d63709b061237c8ca54923f9d4d8.html",
+    "bytes": 15700,
+    "sha256": "53b7ab3fbb19b5c938ab5596fa122defacb9d63709b061237c8ca54923f9d4d8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5413888f4f24488f84bc7f0159119fff831bea5648a6171fd24a51191cca283b-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "62139f396aa9c7017f55e5bbc0605442b6db13d62bc160545519397df83eb885"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5413888f4f24488f84bc7f0159119fff831bea5648a6171fd24a51191cca283b.html",
+    "bytes": 14855,
+    "sha256": "5413888f4f24488f84bc7f0159119fff831bea5648a6171fd24a51191cca283b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-54650edb95286cb8045b0d883cd07b5b158b1309380f420e8fbab8b28ef7a22c-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "00d6591220e5c6e88b7357234eb24555bd524e96d0763cf892c01ffdf860c176"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-54650edb95286cb8045b0d883cd07b5b158b1309380f420e8fbab8b28ef7a22c.html",
+    "bytes": 15548,
+    "sha256": "54650edb95286cb8045b0d883cd07b5b158b1309380f420e8fbab8b28ef7a22c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-56c8b0b616cd8844064cdf10d23e2bc33a1f7dc9e5227c3696b36aa18d2e3aff-ppi_mom.meta.json",
+    "bytes": 709,
+    "sha256": "9465d9b7b20924abf01b3a77d3219eb72a4d19b27590c127a00cdecb6a0a428f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-56c8b0b616cd8844064cdf10d23e2bc33a1f7dc9e5227c3696b36aa18d2e3aff.html",
+    "bytes": 16031,
+    "sha256": "56c8b0b616cd8844064cdf10d23e2bc33a1f7dc9e5227c3696b36aa18d2e3aff"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-56f2c850b454d0033212d2d972684858d02428b83ddacd4893d0cacb5763e875-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "c2987d1b5dcef451b25d8134793aac29b6f0dfeb86da87e87773d0f658f59729"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-56f2c850b454d0033212d2d972684858d02428b83ddacd4893d0cacb5763e875.html",
+    "bytes": 15155,
+    "sha256": "56f2c850b454d0033212d2d972684858d02428b83ddacd4893d0cacb5763e875"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-59ba392fc124ea10d1783db0ac8467e4b545032d349d0b5dec0759e21e4addbe-ppi_mom.meta.json",
+    "bytes": 700,
+    "sha256": "8992d0d5ee5e0dea650607b028079cb1a93c8b410fd2ba3799fd4472c05cd5fa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-59ba392fc124ea10d1783db0ac8467e4b545032d349d0b5dec0759e21e4addbe.html",
+    "bytes": 15888,
+    "sha256": "59ba392fc124ea10d1783db0ac8467e4b545032d349d0b5dec0759e21e4addbe"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0-export_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "13e4104af34b0515f74dd387338673dfd80b7444dd76028ac1c3acda53c75bad"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0-import_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "e170ccf5395bab9b4041a0a42f4f8edfec2831809426861d2a195ce7a7768687"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0-unemployment.meta.json",
+    "bytes": 703,
+    "sha256": "37061ecd46cce36e04a8e2c87a9bad185334cd47c397924efe953bdb2d8ef21d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0.html",
+    "bytes": 50121,
+    "sha256": "59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5a3c7def9c0dd38be65b64ef8e435828981bf9f1d8b118a454e4aeeabe65ec4d-infrastructure_ex_utilities_ytd_yoy.meta.json",
+    "bytes": 715,
+    "sha256": "d857f4fc537dbf22ab51fa3109b15d52c6d2d6768fb57da11422f51c8ecebfa8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5a3c7def9c0dd38be65b64ef8e435828981bf9f1d8b118a454e4aeeabe65ec4d-private_fai_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "460d9b98005d94a0cba1bc489afde33aba96b8d71d80e535416a4a12ce9ac262"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5a3c7def9c0dd38be65b64ef8e435828981bf9f1d8b118a454e4aeeabe65ec4d.html",
+    "bytes": 13760,
+    "sha256": "5a3c7def9c0dd38be65b64ef8e435828981bf9f1d8b118a454e4aeeabe65ec4d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196-export_yoy.meta.json",
+    "bytes": 676,
+    "sha256": "8a669aa5afce5565895bc49416c1a4fb5161218fa01a4568f366a51a7343de49"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196-import_yoy.meta.json",
+    "bytes": 676,
+    "sha256": "b20ec2e48902bc6aa168213d7a0ffa0a6143e64894de47616582527626320b93"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196.html",
+    "bytes": 71776,
+    "sha256": "5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5be3741e09b69abe085a90cbb05cb7ee7489dedeaf7f6f4e549898d370e05e46-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "bdd65241d6a817850faf7788228ade6b33b7ebb2e91e57b9c8a00a9e755f9fe8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5be3741e09b69abe085a90cbb05cb7ee7489dedeaf7f6f4e549898d370e05e46.html",
+    "bytes": 19177,
+    "sha256": "5be3741e09b69abe085a90cbb05cb7ee7489dedeaf7f6f4e549898d370e05e46"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5c7885f61b5256d413ca6284f18fc24136957b1dd1a5343d97a8884986a07caf-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "b1188bf9625d64e8b5c55f9ff871d36a32036a9944e4ebf014aec066e0b1188c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5c7885f61b5256d413ca6284f18fc24136957b1dd1a5343d97a8884986a07caf.html",
+    "bytes": 19167,
+    "sha256": "5c7885f61b5256d413ca6284f18fc24136957b1dd1a5343d97a8884986a07caf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5cd49796f2f771dcf00c1ad854a9d9dbe83e4f7528901e6b750c6f10d044e4b2-manufacturing_pmi.meta.json",
+    "bytes": 683,
+    "sha256": "36c45c77ac1e6ebeaecdd2d0dd9745131dd11c76c972b6eab95d09816ab8a3a1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5cd49796f2f771dcf00c1ad854a9d9dbe83e4f7528901e6b750c6f10d044e4b2.html",
+    "bytes": 30999,
+    "sha256": "5cd49796f2f771dcf00c1ad854a9d9dbe83e4f7528901e6b750c6f10d044e4b2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5d76635164d8e078dd71e877940b6bda6c0171f3cf88c5c10130de195fe52653-ppi_mom.meta.json",
+    "bytes": 698,
+    "sha256": "9c5fd2558b2eb0342b0ed8c9dbb42773185cdcd1ff94ec2f862d5de0568c58d3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-5d76635164d8e078dd71e877940b6bda6c0171f3cf88c5c10130de195fe52653.html",
+    "bytes": 15528,
+    "sha256": "5d76635164d8e078dd71e877940b6bda6c0171f3cf88c5c10130de195fe52653"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-60cc243b2878059bdbbf6b0d2bd21e4841e177dd38d19802398c74f3261dc5cf-ppi_mom.meta.json",
+    "bytes": 700,
+    "sha256": "91203a9640267fe824779059958fec00da0179297944182d6287aa7c1b315886"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-60cc243b2878059bdbbf6b0d2bd21e4841e177dd38d19802398c74f3261dc5cf.html",
+    "bytes": 16139,
+    "sha256": "60cc243b2878059bdbbf6b0d2bd21e4841e177dd38d19802398c74f3261dc5cf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-60e74347515549eaa70b46a64b66ec948dead4d3b92f414125fc60138774034e-ppi_mom.meta.json",
+    "bytes": 714,
+    "sha256": "75b9ffa309ffe9b60e047a4149843ebae5ffdb27694ce1524e4dce82b465ccb9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-60e74347515549eaa70b46a64b66ec948dead4d3b92f414125fc60138774034e.html",
+    "bytes": 15417,
+    "sha256": "60e74347515549eaa70b46a64b66ec948dead4d3b92f414125fc60138774034e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94-export_yoy.meta.json",
+    "bytes": 683,
+    "sha256": "b72bca4148f84e695b4feb48faa603e50c0f1fcfcbd23d5868776899a8836563"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94-import_yoy.meta.json",
+    "bytes": 683,
+    "sha256": "9c9e34572654f26e9787906bb9bb65c6c914d0bf37b9133baa9e21b1d55a028e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94-unemployment.meta.json",
+    "bytes": 685,
+    "sha256": "dfcf888f46bf5cf92f1b46815dcaae3c2cf0e5094d320e857f7576cf3eba9857"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94.html",
+    "bytes": 54998,
+    "sha256": "618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-61f16ede2e042ba337309dd41071ae01a2b2a16e6a64f07760816ee495c32c37-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "693bc1fe061690753bb0a9cee5ef9cba61b9d43cc5a6f8ea90faec4901aa3960"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-61f16ede2e042ba337309dd41071ae01a2b2a16e6a64f07760816ee495c32c37.html",
+    "bytes": 15111,
+    "sha256": "61f16ede2e042ba337309dd41071ae01a2b2a16e6a64f07760816ee495c32c37"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6618ef2465d0b86f7148de52cd4427b27498591ca1d51c9eb433a200161f0a53-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "390c53a963eb031ce887f0479840ed1063702a22d1e1cb887847e657e2931953"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6618ef2465d0b86f7148de52cd4427b27498591ca1d51c9eb433a200161f0a53.html",
+    "bytes": 19301,
+    "sha256": "6618ef2465d0b86f7148de52cd4427b27498591ca1d51c9eb433a200161f0a53"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6782e6ecde507390e1536e056073177096d758bf88665f639f1ce520ea1f640c-private_fai_ytd_yoy.meta.json",
+    "bytes": 687,
+    "sha256": "4caea05c691c160bae2bf5562c739b0a0b7da065d0efd1d39a5ea94e4b6b61c4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6782e6ecde507390e1536e056073177096d758bf88665f639f1ce520ea1f640c.html",
+    "bytes": 15485,
+    "sha256": "6782e6ecde507390e1536e056073177096d758bf88665f639f1ce520ea1f640c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4-cpi_mom.meta.json",
+    "bytes": 672,
+    "sha256": "349e05a68c72866c2064e1c901013e9ce77fcf526d39402307b41f367994d6de"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4-cpi_yoy.meta.json",
+    "bytes": 673,
+    "sha256": "716c5720a746a09c753c3f10eacd172cb4d5b3573d6bfc0ff546323c31f3e6a6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4.html",
+    "bytes": 15478,
+    "sha256": "68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-68eaa68f643f53d8100f2dc5ed34e94190c040c43bde3a00f15367e88f79a923-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 696,
+    "sha256": "adcfd6ce397dd1c662ab04c4cbe1157a3820f084c8bc7561177f2855085132de"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-68eaa68f643f53d8100f2dc5ed34e94190c040c43bde3a00f15367e88f79a923.html",
+    "bytes": 18977,
+    "sha256": "68eaa68f643f53d8100f2dc5ed34e94190c040c43bde3a00f15367e88f79a923"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-69cebe942584481e63aadbb0a3ac16ecfb64f531b0817725b18fe5e858e50c66-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "170c1c3cdf1b954330c3bb749916fb8a06ec57fbceb768650f021b85f540d5e5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-69cebe942584481e63aadbb0a3ac16ecfb64f531b0817725b18fe5e858e50c66.html",
+    "bytes": 14677,
+    "sha256": "69cebe942584481e63aadbb0a3ac16ecfb64f531b0817725b18fe5e858e50c66"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13-export_yoy.meta.json",
+    "bytes": 705,
+    "sha256": "91ddc98f6b29b1dd4732f6f2b0d8b9478286870cc4f5e50519aee4817730da04"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13-import_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "fc9e8ed52cb7419cc95691dd7304da31da90a783bf525bd5a76c17e321095b68"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13.html",
+    "bytes": 49218,
+    "sha256": "6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6a731ab44d7714e46604c91171b3b69443d9a97ec87ba7b5afbf6447b7f2f69a-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "82f4158149f1f7a1a8dfcafbb57d8de28c21608d656385b3bc094eae403967a0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6a731ab44d7714e46604c91171b3b69443d9a97ec87ba7b5afbf6447b7f2f69a.html",
+    "bytes": 15003,
+    "sha256": "6a731ab44d7714e46604c91171b3b69443d9a97ec87ba7b5afbf6447b7f2f69a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6d95111f4869a7b1d638f14e607026695911e84952af714d4302f397bd4834bd-ppi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "a08acb6a2e0658fa59f4e895f6f2653b8cd3a4b093969a12c84df967ff6326c7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6d95111f4869a7b1d638f14e607026695911e84952af714d4302f397bd4834bd.html",
+    "bytes": 15629,
+    "sha256": "6d95111f4869a7b1d638f14e607026695911e84952af714d4302f397bd4834bd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6dbc5f07532eb7eca18cd3e16140d45b7143e5b2c0c41f221689cbcc978ded87-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "cae8dcdbc4128a249548526a05e75afc44f65819441ba4e1e90ea0a312e95d75"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6dbc5f07532eb7eca18cd3e16140d45b7143e5b2c0c41f221689cbcc978ded87.html",
+    "bytes": 15886,
+    "sha256": "6dbc5f07532eb7eca18cd3e16140d45b7143e5b2c0c41f221689cbcc978ded87"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6fa282de7af87dcce4a538b372172f54e568b61b19852b96189c972fe7931e0f-cpi_mom.meta.json",
+    "bytes": 691,
+    "sha256": "6bd6371aa9444e5e8f7eba3af06251d9561eacc8e1920aa6fe26e5f12ed64a7f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-6fa282de7af87dcce4a538b372172f54e568b61b19852b96189c972fe7931e0f.html",
+    "bytes": 15847,
+    "sha256": "6fa282de7af87dcce4a538b372172f54e568b61b19852b96189c972fe7931e0f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7014c7cf34dfd7cf43c075e540f8b3a411f7f8f8262baad7d15a227eddb67c62-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 695,
+    "sha256": "76bce69e43de7eae98cbb2dbe70e04861d19fd4e3349a08098a03c3aedef834d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7014c7cf34dfd7cf43c075e540f8b3a411f7f8f8262baad7d15a227eddb67c62.html",
+    "bytes": 18905,
+    "sha256": "7014c7cf34dfd7cf43c075e540f8b3a411f7f8f8262baad7d15a227eddb67c62"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-70c3d68f7305268f739e4be6423b35a9b35f6933e8d4de396540047cec0bbebe-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "d604b982378907d67b7ea89b7f0a19ab438c458b3e23849305f1a46f7b89e4b5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-70c3d68f7305268f739e4be6423b35a9b35f6933e8d4de396540047cec0bbebe.html",
+    "bytes": 16816,
+    "sha256": "70c3d68f7305268f739e4be6423b35a9b35f6933e8d4de396540047cec0bbebe"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-71d1d75f953b9577f08b634fd47ef5ed8bb59b57cd481ed9e37165d33c5b395d-cpi_mom.meta.json",
+    "bytes": 691,
+    "sha256": "4fdad54c4af1591930b821c7af2c494f4506fffb7ce3443c9759276119db3732"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-71d1d75f953b9577f08b634fd47ef5ed8bb59b57cd481ed9e37165d33c5b395d.html",
+    "bytes": 16351,
+    "sha256": "71d1d75f953b9577f08b634fd47ef5ed8bb59b57cd481ed9e37165d33c5b395d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-773d0a3de59ea8a38d7b076092fd80313386ddd65d99c38751f77b6f235ca104-ppi_mom.meta.json",
+    "bytes": 713,
+    "sha256": "9238efd8cc4ca35ad9c691a3b0ad4524ead0a1ac7492d20bb667fda89200a07d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-773d0a3de59ea8a38d7b076092fd80313386ddd65d99c38751f77b6f235ca104.html",
+    "bytes": 15292,
+    "sha256": "773d0a3de59ea8a38d7b076092fd80313386ddd65d99c38751f77b6f235ca104"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-77ff4e454929930d3677bf35e272fabab7823fa07edf1d643c6aaab0356d5a7f-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "3482078bc40698db7c9ece120ca2a145d18a9c9afcf5ffd25f193bede84a9426"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-77ff4e454929930d3677bf35e272fabab7823fa07edf1d643c6aaab0356d5a7f.html",
+    "bytes": 14846,
+    "sha256": "77ff4e454929930d3677bf35e272fabab7823fa07edf1d643c6aaab0356d5a7f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7969c251a2b72f61c05623683ecc2b8880e53b3e3fbca15e215d45a00b67f9f9-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "33db03494eeedd4adf8dacb32c2d6e9dcc1286862a87cdc93e6563b91da84670"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7969c251a2b72f61c05623683ecc2b8880e53b3e3fbca15e215d45a00b67f9f9.html",
+    "bytes": 13396,
+    "sha256": "7969c251a2b72f61c05623683ecc2b8880e53b3e3fbca15e215d45a00b67f9f9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-79b044e9699158a0872a8287806b9825f7bc2e667fe473c5065ebf5088dc548a-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "54b69bd1ac0c067f549bd39f0c76c1ea4812c46f31827f75ca84c77ac09ef3f5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-79b044e9699158a0872a8287806b9825f7bc2e667fe473c5065ebf5088dc548a.html",
+    "bytes": 14755,
+    "sha256": "79b044e9699158a0872a8287806b9825f7bc2e667fe473c5065ebf5088dc548a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7af733be65db367eaa1802b8bba0066c0eb7806ef446398a147fbd4f9f5fd8f2-ppi_mom.meta.json",
+    "bytes": 695,
+    "sha256": "f0e52bab6f9c576cf798b3916ca56a41ea0866f67e0b00898f63f872056451df"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7af733be65db367eaa1802b8bba0066c0eb7806ef446398a147fbd4f9f5fd8f2.html",
+    "bytes": 15346,
+    "sha256": "7af733be65db367eaa1802b8bba0066c0eb7806ef446398a147fbd4f9f5fd8f2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7b8ee058beae9e07602b1459cfb3a9d31d4d702cf0f8acca9ec3bde4782bb4d8-ppi_mom.meta.json",
+    "bytes": 678,
+    "sha256": "ee0dfb8f40eb64762213306cfa50d7764a4447af2c0fa504cf21d2631d63a781"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7b8ee058beae9e07602b1459cfb3a9d31d4d702cf0f8acca9ec3bde4782bb4d8-ppi_yoy.meta.json",
+    "bytes": 678,
+    "sha256": "1684815768ad5bef04d54a3ce34ad3fb14a4e8048e99d2a585b6cd939d75cdaa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7b8ee058beae9e07602b1459cfb3a9d31d4d702cf0f8acca9ec3bde4782bb4d8.html",
+    "bytes": 14275,
+    "sha256": "7b8ee058beae9e07602b1459cfb3a9d31d4d702cf0f8acca9ec3bde4782bb4d8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7c45b6d7910db5f238e6ead09db6e9263ac25ef347cf00bf90fd14e2b69153b7-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "b8a0a929ec186418ec27ee2c5974489b58edc7791548d64dc7bbc8ffacc7e531"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7c45b6d7910db5f238e6ead09db6e9263ac25ef347cf00bf90fd14e2b69153b7.html",
+    "bytes": 16165,
+    "sha256": "7c45b6d7910db5f238e6ead09db6e9263ac25ef347cf00bf90fd14e2b69153b7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7c7343546cca455840783c412cb884b06e7480fc8f3f276ff6b6ebffc3b69efa-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "101d50e243f7cc63fa4830f8d05b7fafaaf4db2b37cf5a906bbc02b7876b52d7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7c7343546cca455840783c412cb884b06e7480fc8f3f276ff6b6ebffc3b69efa.html",
+    "bytes": 16171,
+    "sha256": "7c7343546cca455840783c412cb884b06e7480fc8f3f276ff6b6ebffc3b69efa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7ceb9e52fe838c9f7766f85909fc63edac1781a64cee83a28d72b306669bfe98-private_fai_ytd_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "d4e4edecfb26f86714571d5c73b5a857b4a68a8b0a8e4ba1c2cea3dec09c0e61"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7ceb9e52fe838c9f7766f85909fc63edac1781a64cee83a28d72b306669bfe98.html",
+    "bytes": 13582,
+    "sha256": "7ceb9e52fe838c9f7766f85909fc63edac1781a64cee83a28d72b306669bfe98"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7fad744692f91297ed6a01748dd46451e512322cb98327ac119a85d5ef324e39-private_fai_ytd_yoy.meta.json",
+    "bytes": 707,
+    "sha256": "ce756a04b15d65667abac4a0d6c838dd28ce6ea99ef2a8cc56a27ec87fa70188"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-7fad744692f91297ed6a01748dd46451e512322cb98327ac119a85d5ef324e39.html",
+    "bytes": 14878,
+    "sha256": "7fad744692f91297ed6a01748dd46451e512322cb98327ac119a85d5ef324e39"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-81dc867ef01134f5bdbe89c8180c978a09867e7c0027e4a6ac5f05a120fc0338-private_fai_ytd_yoy.meta.json",
+    "bytes": 707,
+    "sha256": "28684c194830484c0851ee15c6e445b86ed834b0dd0bcbd67cbf8f7b71829a0a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-81dc867ef01134f5bdbe89c8180c978a09867e7c0027e4a6ac5f05a120fc0338.html",
+    "bytes": 14839,
+    "sha256": "81dc867ef01134f5bdbe89c8180c978a09867e7c0027e4a6ac5f05a120fc0338"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490-export_yoy.meta.json",
+    "bytes": 693,
+    "sha256": "700e072a2347abb2f5fcc23a02dbc8359f71ccea15f8350d01b8960dd1a49623"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490-import_yoy.meta.json",
+    "bytes": 693,
+    "sha256": "d3a5d3831ed3b1e578f599c1877c13b2050c42a2f972dd4e12c1c2c58ae0af82"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490.html",
+    "bytes": 48236,
+    "sha256": "81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8256ee2a3c53c470eb683308f57ef790c7c4286a0c0cda242ed25a9960a8f68a-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "afe7d846a0d9e452e3b55f41d2ded8a5f8094eff7af93faaa1aad12b9dc8ea34"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8256ee2a3c53c470eb683308f57ef790c7c4286a0c0cda242ed25a9960a8f68a.html",
+    "bytes": 14059,
+    "sha256": "8256ee2a3c53c470eb683308f57ef790c7c4286a0c0cda242ed25a9960a8f68a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-83bdb6cd0d6144d076d4f61d9bc630bddda93efcc2acb11cbc1a650f260d0c75-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "1ac28ef43b0ffc9d24cff8b03f21e8407be32d7afd78f6d827a0919e93199ce7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-83bdb6cd0d6144d076d4f61d9bc630bddda93efcc2acb11cbc1a650f260d0c75.html",
+    "bytes": 14521,
+    "sha256": "83bdb6cd0d6144d076d4f61d9bc630bddda93efcc2acb11cbc1a650f260d0c75"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-840400daf44bad2c2e131fde8c5927d726d0ee83c05e93db6e4ac29317f5b624-private_fai_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "4926e7436ee0508ff80c1be25378bf1eec1596b6b0c19e7267aecd3db2752603"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-840400daf44bad2c2e131fde8c5927d726d0ee83c05e93db6e4ac29317f5b624.html",
+    "bytes": 13563,
+    "sha256": "840400daf44bad2c2e131fde8c5927d726d0ee83c05e93db6e4ac29317f5b624"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-86b2d259a5c4c2c6d0710697b4bdbcd94352faf3ca2246c0a5692125a8285bcc-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "37535a174e36db333be84ab90c133cc077e912fd9c40b5fd6c291f24397e4b4f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-86b2d259a5c4c2c6d0710697b4bdbcd94352faf3ca2246c0a5692125a8285bcc.html",
+    "bytes": 16518,
+    "sha256": "86b2d259a5c4c2c6d0710697b4bdbcd94352faf3ca2246c0a5692125a8285bcc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8745aee98f5114f9022609d71cd15eed3955e5b88423782cf2e5134f4ab59da3-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "a84e1df3f3976a2e6699e7ad16c961cae467524a82f80b9fa6216966de180d9a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8745aee98f5114f9022609d71cd15eed3955e5b88423782cf2e5134f4ab59da3.html",
+    "bytes": 16188,
+    "sha256": "8745aee98f5114f9022609d71cd15eed3955e5b88423782cf2e5134f4ab59da3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-89bfca7908c5c486b6967b211ac1906b17d69b755ad6cfbfac2d13b5e52d1a46-ppi_mom.meta.json",
+    "bytes": 714,
+    "sha256": "b1214708b772ba0039dd48d9e90bfa0c59c123a3aec2e2656b0fade88a10d9bd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-89bfca7908c5c486b6967b211ac1906b17d69b755ad6cfbfac2d13b5e52d1a46.html",
+    "bytes": 15517,
+    "sha256": "89bfca7908c5c486b6967b211ac1906b17d69b755ad6cfbfac2d13b5e52d1a46"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8a296c74fa627d507eb4234c5ef52d0b1b56540340375b68c075e2ea746fb316-ppi_mom.meta.json",
+    "bytes": 694,
+    "sha256": "c94ed87675841888d72cb84f0dae116a1c6399112b64b0acd36c27a760ab18e6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8a296c74fa627d507eb4234c5ef52d0b1b56540340375b68c075e2ea746fb316.html",
+    "bytes": 15995,
+    "sha256": "8a296c74fa627d507eb4234c5ef52d0b1b56540340375b68c075e2ea746fb316"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8bd16971d21217955ef1f33d9c294be472172e5682789ddd94279969cee05a4e-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "6787cf03bfe283e96fb4f5b2a5d0543aa70760d7ce30b0c0072e371a4baf70c8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8bd16971d21217955ef1f33d9c294be472172e5682789ddd94279969cee05a4e.html",
+    "bytes": 15695,
+    "sha256": "8bd16971d21217955ef1f33d9c294be472172e5682789ddd94279969cee05a4e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414-export_yoy.meta.json",
+    "bytes": 697,
+    "sha256": "9d79f7facb224f1fa995570f546037af96689605d2a31cd37768777e27472a84"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414-import_yoy.meta.json",
+    "bytes": 697,
+    "sha256": "fdb4ee4738287ccbff567ecabe81d7877b7b1874130d0cd4ab9a665e40f05a12"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414-unemployment.meta.json",
+    "bytes": 698,
+    "sha256": "d25349b139f01aeca49b6d4725ae129a583d38cbd1f798f602d4641b12317d49"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414.html",
+    "bytes": 78158,
+    "sha256": "8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742-manufacturing_new_orders_pmi.meta.json",
+    "bytes": 693,
+    "sha256": "25601aa1862de0ba2156c9740cb9312c4b854576c5037a175e8656a2e86a36f5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742-manufacturing_pmi.meta.json",
+    "bytes": 682,
+    "sha256": "51dba5a2f1c1582b7dfb9159c4157f4bed916164bc4c0f5b8b594e5eb967a753"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742-nonmanufacturing_pmi.meta.json",
+    "bytes": 685,
+    "sha256": "70544cab128bc760475c73831ed12866d9d8a17a77fe9996f7ed1f0ba6d3350d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742.html",
+    "bytes": 30607,
+    "sha256": "8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8f992aa480110975b4aef32a9244ba67a44f4028a98c8a862a5bbb3fb2c0d98e-cpi_mom.meta.json",
+    "bytes": 679,
+    "sha256": "d92d01da510357ede3839b8a791eccc2716f03cb8cc3e878fb439104ee053d4e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8f992aa480110975b4aef32a9244ba67a44f4028a98c8a862a5bbb3fb2c0d98e.html",
+    "bytes": 14939,
+    "sha256": "8f992aa480110975b4aef32a9244ba67a44f4028a98c8a862a5bbb3fb2c0d98e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8fdf84f1b05083965acd42908cec4819fa05769d86d4939dd4643c212f06dfee-private_fai_ytd_yoy.meta.json",
+    "bytes": 688,
+    "sha256": "2354eb486fe43ced4115fa368a229da6181cd092f7a49a675fd978b249c78f3b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-8fdf84f1b05083965acd42908cec4819fa05769d86d4939dd4643c212f06dfee.html",
+    "bytes": 15564,
+    "sha256": "8fdf84f1b05083965acd42908cec4819fa05769d86d4939dd4643c212f06dfee"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-90fd5feec65d643831493fc8b3c05f37f62006049f4e61f03f3d533a0c07a636-manufacturing_pmi.meta.json",
+    "bytes": 682,
+    "sha256": "b6dcfdad46ae0770d6c6b300e2e742a4c7637239e05e5238d878911088214e99"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-90fd5feec65d643831493fc8b3c05f37f62006049f4e61f03f3d533a0c07a636.html",
+    "bytes": 31360,
+    "sha256": "90fd5feec65d643831493fc8b3c05f37f62006049f4e61f03f3d533a0c07a636"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-914739daebc922f1694769b1aa9f27fb6f6129745ab8164a7b5f98f597105452-infrastructure_ex_utilities_ytd_yoy.meta.json",
+    "bytes": 704,
+    "sha256": "72ffc5500ebd2ffad9efe96bb100ebef12361ceaebcb0291ae68e74b18fb4cb4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-914739daebc922f1694769b1aa9f27fb6f6129745ab8164a7b5f98f597105452-private_fai_ytd_yoy.meta.json",
+    "bytes": 688,
+    "sha256": "471c1f22e7b48573766339385c18e80dd48274046a7fad1da098a02d495fb491"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-914739daebc922f1694769b1aa9f27fb6f6129745ab8164a7b5f98f597105452.html",
+    "bytes": 13870,
+    "sha256": "914739daebc922f1694769b1aa9f27fb6f6129745ab8164a7b5f98f597105452"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-91ef84903e4369eb7df29f8deeebfea6d1e0b19d16f08f9c03c3ebe850809864-cpi_mom.meta.json",
+    "bytes": 696,
+    "sha256": "23033769293ce461ca1dde34debc34b99ab3a603e0436272fec22d436d68bf3f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-91ef84903e4369eb7df29f8deeebfea6d1e0b19d16f08f9c03c3ebe850809864.html",
+    "bytes": 14733,
+    "sha256": "91ef84903e4369eb7df29f8deeebfea6d1e0b19d16f08f9c03c3ebe850809864"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-927c917651e5f9ac2346e66107dd9f46c934fc5f993b64caa96d80e8dd3b6e75-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "406a5e0bb4e0feec3a78647bf4f9dbc129c8c980de755a39b9ef3c6d21651981"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-927c917651e5f9ac2346e66107dd9f46c934fc5f993b64caa96d80e8dd3b6e75.html",
+    "bytes": 16384,
+    "sha256": "927c917651e5f9ac2346e66107dd9f46c934fc5f993b64caa96d80e8dd3b6e75"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374-ppi_mom.meta.json",
+    "bytes": 702,
+    "sha256": "6c494c2fe184dcc2919530228a525ce895f13cc73440774ce25f457b466e4d69"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374-ppi_yoy.meta.json",
+    "bytes": 702,
+    "sha256": "dcf3487a769a803ca4c5fa0170d4b8fc303de81f0b80662a252806813b5820e0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374.html",
+    "bytes": 16591,
+    "sha256": "9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-94180d8e07afdf8f466d39d0f7bfe7b6f7fdb4ff6199c16b23fe4d2257936a53-private_fai_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "1cd86b25a468f13f93d423579141b2500e3934e318bbe9fdc855a8660e9f4a7f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-94180d8e07afdf8f466d39d0f7bfe7b6f7fdb4ff6199c16b23fe4d2257936a53.html",
+    "bytes": 13658,
+    "sha256": "94180d8e07afdf8f466d39d0f7bfe7b6f7fdb4ff6199c16b23fe4d2257936a53"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9459bfc7573ce65374ed96f0abd7c4b33b625c76dc281daf5d815bade591117f-private_fai_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "7375bc4cc4c8b922f573b03e70f9ba38e0d9a72d74ad62ed91d46ac3e2dbda48"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9459bfc7573ce65374ed96f0abd7c4b33b625c76dc281daf5d815bade591117f.html",
+    "bytes": 13651,
+    "sha256": "9459bfc7573ce65374ed96f0abd7c4b33b625c76dc281daf5d815bade591117f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-954a69c788bd5b0485aaed83c2ea0228ebc35266e3c4b668df53f761ebf07522-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "86d69a467cc5573d12e266ca3a96720885d906a06be3a8b2acbcbba2fe931cde"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-954a69c788bd5b0485aaed83c2ea0228ebc35266e3c4b668df53f761ebf07522.html",
+    "bytes": 19297,
+    "sha256": "954a69c788bd5b0485aaed83c2ea0228ebc35266e3c4b668df53f761ebf07522"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-98641e7f8fcf3ab50f566ab4d69b0a158a46f011e8fc7011875b3f2f1bec2683-ppi_mom.meta.json",
+    "bytes": 698,
+    "sha256": "2c69de89b8adcb9cbd6f6e8e3d4099fb0c2be1b66b13e898f342b7cfc538f643"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-98641e7f8fcf3ab50f566ab4d69b0a158a46f011e8fc7011875b3f2f1bec2683.html",
+    "bytes": 15215,
+    "sha256": "98641e7f8fcf3ab50f566ab4d69b0a158a46f011e8fc7011875b3f2f1bec2683"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-98d722fe64db3e669f93e6d5fbe36444a67f674c8764b97b9794e1b5e9a02ade-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "6bc6f618fb73c794be2b3cb0e6c877e82598e9f5150f33cd3af980d3078bec41"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-98d722fe64db3e669f93e6d5fbe36444a67f674c8764b97b9794e1b5e9a02ade.html",
+    "bytes": 16086,
+    "sha256": "98d722fe64db3e669f93e6d5fbe36444a67f674c8764b97b9794e1b5e9a02ade"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-98fcc639a51eea089a80879ea81178df720c944a5e4d5522af787ce5cda3c5df-ppi_mom.meta.json",
+    "bytes": 694,
+    "sha256": "f86bd93c5b4f75f47a7726f8e51b73e9bf842f54b810f2b633530a020f0f4dfe"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-98fcc639a51eea089a80879ea81178df720c944a5e4d5522af787ce5cda3c5df.html",
+    "bytes": 15542,
+    "sha256": "98fcc639a51eea089a80879ea81178df720c944a5e4d5522af787ce5cda3c5df"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9911e0a93cc7f323c2f0477c249bdaf0240fc9a6d093783ad940b874bdc18e91-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "c65d4a32175f7a611f99c21c411e976a011b5e5feeb7fcf0ba559da690210f5f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-9911e0a93cc7f323c2f0477c249bdaf0240fc9a6d093783ad940b874bdc18e91.html",
+    "bytes": 15783,
+    "sha256": "9911e0a93cc7f323c2f0477c249bdaf0240fc9a6d093783ad940b874bdc18e91"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a4717723b3dcb18367d77ae9ff70ed89b9d91910c7bb495d7274868dc4aba401-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 695,
+    "sha256": "e24f3e80e9d107db6db28e8c93c7b30c88ac5eb899daa7eb4427156854336fb7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a4717723b3dcb18367d77ae9ff70ed89b9d91910c7bb495d7274868dc4aba401.html",
+    "bytes": 19012,
+    "sha256": "a4717723b3dcb18367d77ae9ff70ed89b9d91910c7bb495d7274868dc4aba401"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a4ebaf483006b7ae7aef72f7bd69af205d964f64f52f6f1a7689cca2b0dcc5b5-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "4b7490a4dc5a89e8c7f172a72f6395c1e1f8ab9913419e89b9c2d2177d6228f8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a4ebaf483006b7ae7aef72f7bd69af205d964f64f52f6f1a7689cca2b0dcc5b5.html",
+    "bytes": 15236,
+    "sha256": "a4ebaf483006b7ae7aef72f7bd69af205d964f64f52f6f1a7689cca2b0dcc5b5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31-export_yoy.meta.json",
+    "bytes": 686,
+    "sha256": "c349580321767d13734dbe78336e87069bcfbcd2f51206d96239f379fd1ea9c5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31-import_yoy.meta.json",
+    "bytes": 685,
+    "sha256": "0e10ededdbc983f0ff3c766de3ce6fa6cdd992cdf3cc32efccc23abceb71a9f7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31-unemployment.meta.json",
+    "bytes": 687,
+    "sha256": "1643132de77c0356534199c51b10c0b9b7ed0e1f135c42e2fc3c31d59b1dffb3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31.html",
+    "bytes": 95242,
+    "sha256": "a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a80cf9ad3e0f6e094354997bc8bfc181a3f55d57acf9b7a1c66530d55ed38110-cpi_mom.meta.json",
+    "bytes": 700,
+    "sha256": "f1a74bf898fbf195fa3a8d48c87a03ef31fd5f5e13fd5e0b75cbde556f5b03ef"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a80cf9ad3e0f6e094354997bc8bfc181a3f55d57acf9b7a1c66530d55ed38110.html",
+    "bytes": 14933,
+    "sha256": "a80cf9ad3e0f6e094354997bc8bfc181a3f55d57acf9b7a1c66530d55ed38110"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a8e7beaf9319ccce835ec1f212f3bc1bdbe71c9dc4f36926ef048b2663aed38d-ppi_mom.meta.json",
+    "bytes": 700,
+    "sha256": "87c92bcf8c0bae05720f2f73a03e5bf19edb7a585201ed5fe18d9b70ac397eeb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-a8e7beaf9319ccce835ec1f212f3bc1bdbe71c9dc4f36926ef048b2663aed38d.html",
+    "bytes": 16211,
+    "sha256": "a8e7beaf9319ccce835ec1f212f3bc1bdbe71c9dc4f36926ef048b2663aed38d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-aa05d63bb237c3e6a34fcfb81ba9a9ebc5f71e554f9f13585ec456b8311ea44b-ppi_mom.meta.json",
+    "bytes": 696,
+    "sha256": "3eb4068d03978025ebd8a8c6eecee1d1dc30343ca9b361340985790b7ee321b5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-aa05d63bb237c3e6a34fcfb81ba9a9ebc5f71e554f9f13585ec456b8311ea44b.html",
+    "bytes": 16094,
+    "sha256": "aa05d63bb237c3e6a34fcfb81ba9a9ebc5f71e554f9f13585ec456b8311ea44b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-abf5045df862d005aba9beb55052d2c9b7135a20e597ff23b3f133bf7c1d6b15-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "0c8a713b06c1461cef94873016ca348417ad2430183fb2d8fb204e8907580b57"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-abf5045df862d005aba9beb55052d2c9b7135a20e597ff23b3f133bf7c1d6b15.html",
+    "bytes": 16093,
+    "sha256": "abf5045df862d005aba9beb55052d2c9b7135a20e597ff23b3f133bf7c1d6b15"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ac957a282c170fb7521c794637c99ecadcc464ec54111dbfe39dd7f2dc3a2c45-ppi_mom.meta.json",
+    "bytes": 707,
+    "sha256": "e0ba0d3ba429755a8b873ebb12abb3b1e52b078fff19257bf805fc955de1a812"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ac957a282c170fb7521c794637c99ecadcc464ec54111dbfe39dd7f2dc3a2c45.html",
+    "bytes": 15309,
+    "sha256": "ac957a282c170fb7521c794637c99ecadcc464ec54111dbfe39dd7f2dc3a2c45"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-adab7a293b2e49d35b5e9c10925193ceadd1dcc3f15c928d8c0f7f76026db67e-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "dfb6aad81e8f4e5d840c5f54b2e5dd5ac84e1734807b859e43c6279ab3a5b259"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-adab7a293b2e49d35b5e9c10925193ceadd1dcc3f15c928d8c0f7f76026db67e.html",
+    "bytes": 12749,
+    "sha256": "adab7a293b2e49d35b5e9c10925193ceadd1dcc3f15c928d8c0f7f76026db67e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b1d8eaa35028459dc6c69f05cb1a19a975dee6692b55b09ae5a687b744b49463-private_fai_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "307dcb6cd52f90e37e6e5edc3baab1b0178682b829cbc5ae00526bdc3d4a0bd0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b1d8eaa35028459dc6c69f05cb1a19a975dee6692b55b09ae5a687b744b49463.html",
+    "bytes": 13540,
+    "sha256": "b1d8eaa35028459dc6c69f05cb1a19a975dee6692b55b09ae5a687b744b49463"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b2c5a8bdf55dd4793b5b8b5db29f49f6965dcba7f7d33efca0ac036c6e8de488-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "9f1146eb156d566eccc5dd92768ebd52a602421c9cb169eca862273a869e7112"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b2c5a8bdf55dd4793b5b8b5db29f49f6965dcba7f7d33efca0ac036c6e8de488.html",
+    "bytes": 14277,
+    "sha256": "b2c5a8bdf55dd4793b5b8b5db29f49f6965dcba7f7d33efca0ac036c6e8de488"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b2dcd92600ab2224b3c72e2a614ae3a69e723c432937df2e18e473e929de325b-cpi_mom.meta.json",
+    "bytes": 691,
+    "sha256": "b2b63998ab90c8a6c485db6c803a4a7d607451e9b35821cf57c7b97ee0a2cb6b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b2dcd92600ab2224b3c72e2a614ae3a69e723c432937df2e18e473e929de325b.html",
+    "bytes": 16924,
+    "sha256": "b2dcd92600ab2224b3c72e2a614ae3a69e723c432937df2e18e473e929de325b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b47f1c647a912b0ddf71324901e768355b655e0ffdec76421a7b871391a4d807-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "da9c62c18c7e120e1894750f0e7c90f6efc0d655326eec9391622462629f3c28"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b47f1c647a912b0ddf71324901e768355b655e0ffdec76421a7b871391a4d807.html",
+    "bytes": 14872,
+    "sha256": "b47f1c647a912b0ddf71324901e768355b655e0ffdec76421a7b871391a4d807"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b4cd56157c428b84374cdb95b0f014c41ea0c889551f1b67e5f714eccd290254-cpi_mom.meta.json",
+    "bytes": 686,
+    "sha256": "7a8b3a943550139c022dd5e0195b750ae3e20e10288917c995971c4141807195"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b4cd56157c428b84374cdb95b0f014c41ea0c889551f1b67e5f714eccd290254.html",
+    "bytes": 16063,
+    "sha256": "b4cd56157c428b84374cdb95b0f014c41ea0c889551f1b67e5f714eccd290254"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b650544f1cda677d8ef5e43c2010fef1e23f2b1477f6d906ca25839bdfcabce2-ppi_mom.meta.json",
+    "bytes": 698,
+    "sha256": "ea9ea58b9c3c95212966aded9d10858e6cf5a56a61a8ae7c4f811dd88eef198c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b650544f1cda677d8ef5e43c2010fef1e23f2b1477f6d906ca25839bdfcabce2.html",
+    "bytes": 15677,
+    "sha256": "b650544f1cda677d8ef5e43c2010fef1e23f2b1477f6d906ca25839bdfcabce2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "dfe5ceb59d88f9fc1bea43482aa9a068ca9c06b522d56c03153d748bfe6e25b7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39-ppi_yoy.meta.json",
+    "bytes": 693,
+    "sha256": "512d2271338ea978dfc8ac8125ba047bedacfd6ff3cfaf134a868a6db2c2d90d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39.html",
+    "bytes": 12981,
+    "sha256": "b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b95226bb1885729814dfe59955707fa306b2a68fa934d1ae8497b12871787add-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "6e7ca88d0f1e4f0507080e9354828ff8002c56621ed6b6e0342df4e9785a4404"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-b95226bb1885729814dfe59955707fa306b2a68fa934d1ae8497b12871787add.html",
+    "bytes": 16188,
+    "sha256": "b95226bb1885729814dfe59955707fa306b2a68fa934d1ae8497b12871787add"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ba1ff8b6a57fc0832b40fb7eb93423fc0b7e1a3d4d058af93b02ae6a7223cb81-ppi_mom.meta.json",
+    "bytes": 720,
+    "sha256": "1c7b2b4ff4ae8b2b5594f271b31d2f88dabba35b7e4e801be9a3647d09f7f208"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ba1ff8b6a57fc0832b40fb7eb93423fc0b7e1a3d4d058af93b02ae6a7223cb81.html",
+    "bytes": 15404,
+    "sha256": "ba1ff8b6a57fc0832b40fb7eb93423fc0b7e1a3d4d058af93b02ae6a7223cb81"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-baa0f0a9306dc8d539fef4957f55580fec0d14738e4f5a453de506cd6d07896f-ppi_mom.meta.json",
+    "bytes": 700,
+    "sha256": "8e410442d22f8fda3d400060771e884fdfc58b0bcde89422735324eff20267c4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-baa0f0a9306dc8d539fef4957f55580fec0d14738e4f5a453de506cd6d07896f.html",
+    "bytes": 15415,
+    "sha256": "baa0f0a9306dc8d539fef4957f55580fec0d14738e4f5a453de506cd6d07896f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bcde793538ed7c582dcc010a4ee50ea875fe0941a2ab7ad58fb1595540242b84-ppi_mom.meta.json",
+    "bytes": 698,
+    "sha256": "646ae739a514b182daaa9604c55fba8e1dd67548b383f2e5bd4d1fe7f6ee82f9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bcde793538ed7c582dcc010a4ee50ea875fe0941a2ab7ad58fb1595540242b84.html",
+    "bytes": 15533,
+    "sha256": "bcde793538ed7c582dcc010a4ee50ea875fe0941a2ab7ad58fb1595540242b84"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bebd0e2a4d2eacb46d29778a9dd4d3dc930f9d434be1356b0a93eebd7778123d-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 695,
+    "sha256": "c5b62f39b945d8812301f5d5a53ef5e6e2243441921ebdfb14c423fb409d8b78"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bebd0e2a4d2eacb46d29778a9dd4d3dc930f9d434be1356b0a93eebd7778123d.html",
+    "bytes": 18202,
+    "sha256": "bebd0e2a4d2eacb46d29778a9dd4d3dc930f9d434be1356b0a93eebd7778123d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bee67211d9a03c4e6c923bbde89665b085bc9cc2fc66191500d9e76f0f634ebe-private_fai_ytd_yoy.meta.json",
+    "bytes": 689,
+    "sha256": "51d7c776633969b89e16e76203a26edb022d79e12d7973f0ff469c8176e79951"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bee67211d9a03c4e6c923bbde89665b085bc9cc2fc66191500d9e76f0f634ebe.html",
+    "bytes": 15792,
+    "sha256": "bee67211d9a03c4e6c923bbde89665b085bc9cc2fc66191500d9e76f0f634ebe"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bfe48b95ccc54e4ec343b5d079ce6f865dbec3375b9da59da1722b07505e7851-ppi_mom.meta.json",
+    "bytes": 698,
+    "sha256": "615c8acf65c0ab843029f144d75ad0e2b5d1419a50d02b305badf9f873383108"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-bfe48b95ccc54e4ec343b5d079ce6f865dbec3375b9da59da1722b07505e7851.html",
+    "bytes": 15688,
+    "sha256": "bfe48b95ccc54e4ec343b5d079ce6f865dbec3375b9da59da1722b07505e7851"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c318cd1b2b92893a481c006be5ee9c0dcebde6db76b7be7f248ced59895d23c6-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "94fd33655cd9a6fbcd31697eb9ca87972a542f40d39c7cbf35729fd4fd11f94e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c318cd1b2b92893a481c006be5ee9c0dcebde6db76b7be7f248ced59895d23c6.html",
+    "bytes": 13939,
+    "sha256": "c318cd1b2b92893a481c006be5ee9c0dcebde6db76b7be7f248ced59895d23c6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c426822100953ac0bab41f096d0b160c2e0dbfe24742a0f1d199b361bb8310ea-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "905b555c4e71158d72f90d3f8704a2f38811a14fd9e08652ea72ce0fde960624"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c426822100953ac0bab41f096d0b160c2e0dbfe24742a0f1d199b361bb8310ea.html",
+    "bytes": 14523,
+    "sha256": "c426822100953ac0bab41f096d0b160c2e0dbfe24742a0f1d199b361bb8310ea"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c5433af7168f31219343728a95eee19f691c3c5c93ed76fd9b5dd7c4d9488d43-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "d76c16c74f5a396be1a825004fbb5169a567dce835090caf9efa554e62a6e08c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c5433af7168f31219343728a95eee19f691c3c5c93ed76fd9b5dd7c4d9488d43.html",
+    "bytes": 14642,
+    "sha256": "c5433af7168f31219343728a95eee19f691c3c5c93ed76fd9b5dd7c4d9488d43"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c56edc5cd33393b36ad88146b5d55986664c17030978254d46b162593ba08cc5-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "591e4f02304cd623068945c471e169482ec07bb94c2beede8eafbb7d9d20f923"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c56edc5cd33393b36ad88146b5d55986664c17030978254d46b162593ba08cc5.html",
+    "bytes": 18336,
+    "sha256": "c56edc5cd33393b36ad88146b5d55986664c17030978254d46b162593ba08cc5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c663a203c999a870cf88b1ca2169328e3015460a98373ff038afbffabd55df53-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "fb1b4c44192bfce1b9ab59e07c018cfcb9b1faed7cdcb17a1b3b92ef3e4e4fbd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c663a203c999a870cf88b1ca2169328e3015460a98373ff038afbffabd55df53.html",
+    "bytes": 19206,
+    "sha256": "c663a203c999a870cf88b1ca2169328e3015460a98373ff038afbffabd55df53"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c913f374e1fc7ed87289139f96c5a08d0a59ad8a14f65971dca586916669ef8c-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "5d8a4c59e9807a311ad1a7e31965ecc432f5554c3264347bc519c160ba4ed914"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c913f374e1fc7ed87289139f96c5a08d0a59ad8a14f65971dca586916669ef8c.html",
+    "bytes": 14346,
+    "sha256": "c913f374e1fc7ed87289139f96c5a08d0a59ad8a14f65971dca586916669ef8c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c94ac3ac597cc0faf57ea799a0d480c18d137a57270eba842035b65c34157a9f-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "107d6e1e3ff3b1552f99b602944f9843db2607dd90194bf47e74996c9cb30522"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-c94ac3ac597cc0faf57ea799a0d480c18d137a57270eba842035b65c34157a9f.html",
+    "bytes": 14634,
+    "sha256": "c94ac3ac597cc0faf57ea799a0d480c18d137a57270eba842035b65c34157a9f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-cc9ecea4f083f779084482a06bee4e6b47934e038355ecf79c33138c8fc7eed1-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "2194d0768087f258c1fd3ff53339d8c58aa37792d2e49cc1a45f457a0a237a11"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-cc9ecea4f083f779084482a06bee4e6b47934e038355ecf79c33138c8fc7eed1.html",
+    "bytes": 15397,
+    "sha256": "cc9ecea4f083f779084482a06bee4e6b47934e038355ecf79c33138c8fc7eed1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ccef6f4ed69d0166c538cd2ce557338ad4bf3219e87af15d53ab0b16d22b44f5-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "7b9597d0ef7121e6583e7c9f99c720356e8b7259dbcc26377ed743368dd5eeb7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ccef6f4ed69d0166c538cd2ce557338ad4bf3219e87af15d53ab0b16d22b44f5.html",
+    "bytes": 15366,
+    "sha256": "ccef6f4ed69d0166c538cd2ce557338ad4bf3219e87af15d53ab0b16d22b44f5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-cd2ffa9071586379f0048fff44fed3e3e7ca976f34bef0971e4a077fcf9add7a-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "3c2875ba521e90655d39740fae7aecfc52410c022d1be1066b88c69917a80bc4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-cd2ffa9071586379f0048fff44fed3e3e7ca976f34bef0971e4a077fcf9add7a.html",
+    "bytes": 19363,
+    "sha256": "cd2ffa9071586379f0048fff44fed3e3e7ca976f34bef0971e4a077fcf9add7a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-cdd37439eb87c4cb2c5fd310fef381ae72cddbce5ad7b017e329d7be075904e2-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "a90becd5ba087a89ab633e46da3f572e5ae4b14bb980807988a07a54090ab543"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-cdd37439eb87c4cb2c5fd310fef381ae72cddbce5ad7b017e329d7be075904e2.html",
+    "bytes": 16962,
+    "sha256": "cdd37439eb87c4cb2c5fd310fef381ae72cddbce5ad7b017e329d7be075904e2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ce0f1e80b1da910e15f998bfe8af45bc96b252a7be97b255c3014f0822933aac-export_yoy.meta.json",
+    "bytes": 672,
+    "sha256": "97475df7f73d9f8dfedb2f434e41fbb7415386a7c09e7af6d6699da029ccd0b6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ce0f1e80b1da910e15f998bfe8af45bc96b252a7be97b255c3014f0822933aac-import_yoy.meta.json",
+    "bytes": 672,
+    "sha256": "2e7c622ae9fc039238545842096ea42175f52cf279ddcc8d633c20fc1ab59755"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ce0f1e80b1da910e15f998bfe8af45bc96b252a7be97b255c3014f0822933aac.html",
+    "bytes": 47861,
+    "sha256": "ce0f1e80b1da910e15f998bfe8af45bc96b252a7be97b255c3014f0822933aac"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d30897a47afbb32717c22d00c2e4968911ce67b83773a1ff92932ab9f5ad5768-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "3cc2094d425e521586c2ae316d8c2363cd817c6e246c2f7939d1fd6b37424aa2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d30897a47afbb32717c22d00c2e4968911ce67b83773a1ff92932ab9f5ad5768.html",
+    "bytes": 16269,
+    "sha256": "d30897a47afbb32717c22d00c2e4968911ce67b83773a1ff92932ab9f5ad5768"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d31d624fad542c6bdedd1f5bb6de05b8c2d17f7ee2dae3ca84c25728cb7f7913-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "517a07fc8a2f6927f1ba0d69dea9a192b34e5dd815bd625c533d3d77e9aeeac9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d31d624fad542c6bdedd1f5bb6de05b8c2d17f7ee2dae3ca84c25728cb7f7913.html",
+    "bytes": 22331,
+    "sha256": "d31d624fad542c6bdedd1f5bb6de05b8c2d17f7ee2dae3ca84c25728cb7f7913"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a-export_yoy.meta.json",
+    "bytes": 671,
+    "sha256": "1328a90b9d35d14c6acb05b2c5b106226d11248c0ab26d8a58305b1ea0133368"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a-import_yoy.meta.json",
+    "bytes": 670,
+    "sha256": "515fcab2bb1fe28d4a7d4d4bb12edf59649163c511e5153205f079e6f182e534"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a.html",
+    "bytes": 52580,
+    "sha256": "d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d417d6560ffdf375615576bc1b6c495a05d43165c17b5dc1220831c65f4c1b61-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 695,
+    "sha256": "596028495ad6cf1f85fec16164790b5385f9748466698df9d1657e86036bf3cd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d417d6560ffdf375615576bc1b6c495a05d43165c17b5dc1220831c65f4c1b61.html",
+    "bytes": 18963,
+    "sha256": "d417d6560ffdf375615576bc1b6c495a05d43165c17b5dc1220831c65f4c1b61"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d4925168b5dcfe8e0f3ef508a6f3d014eb688fcfcf38705963e873b08d6731f3-cpi_mom.meta.json",
+    "bytes": 677,
+    "sha256": "fb408cda7c2cbe0aebeb4c83a688e6ffe47bc3c5c58561b3b74fdaa39f3dc7b1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d4925168b5dcfe8e0f3ef508a6f3d014eb688fcfcf38705963e873b08d6731f3.html",
+    "bytes": 15489,
+    "sha256": "d4925168b5dcfe8e0f3ef508a6f3d014eb688fcfcf38705963e873b08d6731f3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d52c2e9d65c850c2bd2964a693555402f7e2fafe744315105fded11e59a87685-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "a8bd799ffbc41cd4f1efcd5eecb188012dbcb01dafd46919747e47a8b849a3c7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d52c2e9d65c850c2bd2964a693555402f7e2fafe744315105fded11e59a87685.html",
+    "bytes": 16234,
+    "sha256": "d52c2e9d65c850c2bd2964a693555402f7e2fafe744315105fded11e59a87685"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d7888bf4fc647cbb0061984b2c781ac1cec9ab4120ba77f20391c4ca8f4f7508-ppi_mom.meta.json",
+    "bytes": 693,
+    "sha256": "633acd4ca544f379587f8bab34416695798e624eaf32f2c34012b912414023f3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d7888bf4fc647cbb0061984b2c781ac1cec9ab4120ba77f20391c4ca8f4f7508.html",
+    "bytes": 15423,
+    "sha256": "d7888bf4fc647cbb0061984b2c781ac1cec9ab4120ba77f20391c4ca8f4f7508"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d9412abdde270c1bebb08381b904a76881ff98a7cff786606d82b39ad08d2f3d-private_fai_ytd_yoy.meta.json",
+    "bytes": 689,
+    "sha256": "80e853270a93f48e3b89686ff27cb772f3f9ed1ac1b6c2df95b9aa984a7d5cef"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d9412abdde270c1bebb08381b904a76881ff98a7cff786606d82b39ad08d2f3d.html",
+    "bytes": 15586,
+    "sha256": "d9412abdde270c1bebb08381b904a76881ff98a7cff786606d82b39ad08d2f3d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d9f0269987f25d7cc6175166d7d8ea2867584f9863da75a58a21c67af3761731-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "efb23cd909f1e5c3671c74d20e42cdcc53647543f6166ae2e1039381e3346559"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-d9f0269987f25d7cc6175166d7d8ea2867584f9863da75a58a21c67af3761731.html",
+    "bytes": 16266,
+    "sha256": "d9f0269987f25d7cc6175166d7d8ea2867584f9863da75a58a21c67af3761731"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-da47a0f23165a27c0d90e5bf58327d541d66286e86f6b45e8a689867e781462d-export_yoy.meta.json",
+    "bytes": 661,
+    "sha256": "3c96336a8b390a8e446b79edb06b50684c0a84f0ea1f8204c910fccc68fbfd25"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-da47a0f23165a27c0d90e5bf58327d541d66286e86f6b45e8a689867e781462d-import_yoy.meta.json",
+    "bytes": 661,
+    "sha256": "812adca04d82528d8bf6ded50445f74b6ade887ae1e57ebd1977e13dec1817bb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-da47a0f23165a27c0d90e5bf58327d541d66286e86f6b45e8a689867e781462d.html",
+    "bytes": 68532,
+    "sha256": "da47a0f23165a27c0d90e5bf58327d541d66286e86f6b45e8a689867e781462d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-da65789411b9b78e35da09ea7a0b5c6745e0cbaf1d67a0ae232b3a0771a7ca44-private_fai_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "53b114e219a1bfdf17fcaaba0b9f5d406216ddb7929671ea494b459366e612fc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-da65789411b9b78e35da09ea7a0b5c6745e0cbaf1d67a0ae232b3a0771a7ca44.html",
+    "bytes": 13430,
+    "sha256": "da65789411b9b78e35da09ea7a0b5c6745e0cbaf1d67a0ae232b3a0771a7ca44"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-db1642be4e2a4059df19e059f7bcd7f8acaa299d7b5183412d2691e0a97222a6-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "46dab513651e7a591d9a03cb6c2e8c62af4e52ecd444e7a352faf596725467a4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-db1642be4e2a4059df19e059f7bcd7f8acaa299d7b5183412d2691e0a97222a6.html",
+    "bytes": 15939,
+    "sha256": "db1642be4e2a4059df19e059f7bcd7f8acaa299d7b5183412d2691e0a97222a6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dbd3858589f503f336a9fbf15c4d167729625e488875baf90a82ea91f59f7da3-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "8c2ebe191f8979c33096688404770c592d8d7c74c7d47c8ef343f8add0c488a7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dbd3858589f503f336a9fbf15c4d167729625e488875baf90a82ea91f59f7da3.html",
+    "bytes": 14810,
+    "sha256": "dbd3858589f503f336a9fbf15c4d167729625e488875baf90a82ea91f59f7da3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dc586911d6bca967fcb7656537ab679b03ce5c48c1000d566c085fb115093394-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "3f0205fb5a8bf540637a1d18235fca28a9d62b71765bee8914224ae03637e4ec"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dc586911d6bca967fcb7656537ab679b03ce5c48c1000d566c085fb115093394.html",
+    "bytes": 15367,
+    "sha256": "dc586911d6bca967fcb7656537ab679b03ce5c48c1000d566c085fb115093394"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dca5eb7017bbddcef570939b98978256abcf242ad42fba00dd876e57e54cba2c-cpi_mom.meta.json",
+    "bytes": 691,
+    "sha256": "68c9727630d4e23ff13a394c9400b755d7e6b73142e00e9292e0088ecac813a9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dca5eb7017bbddcef570939b98978256abcf242ad42fba00dd876e57e54cba2c.html",
+    "bytes": 16224,
+    "sha256": "dca5eb7017bbddcef570939b98978256abcf242ad42fba00dd876e57e54cba2c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dd0ce6aa65a518a842b1b7f814207dff752f0270c996510d825a0e519113e558-ppi_mom.meta.json",
+    "bytes": 696,
+    "sha256": "26625dc140bad930e2502a6a48304a3288871e417c5756d9492828f8ab8c97b7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dd0ce6aa65a518a842b1b7f814207dff752f0270c996510d825a0e519113e558.html",
+    "bytes": 15471,
+    "sha256": "dd0ce6aa65a518a842b1b7f814207dff752f0270c996510d825a0e519113e558"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dfb9181b5ba4f51d8c1206ca7e9bf860303a6eb909194de09d6c1289cdd65305-private_fai_ytd_yoy.meta.json",
+    "bytes": 689,
+    "sha256": "544bd0ead9239e0c55e964f20b313ba830ad5c5f620307310e2393d6bb612f78"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-dfb9181b5ba4f51d8c1206ca7e9bf860303a6eb909194de09d6c1289cdd65305.html",
+    "bytes": 15660,
+    "sha256": "dfb9181b5ba4f51d8c1206ca7e9bf860303a6eb909194de09d6c1289cdd65305"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e03f9458f497759ac453ed429ac59c1e420b064ab36d346611d583765dbcf62d-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "8c8bf7434ff743debb1dce617f86fab59e821600ee4b644ed20a3745e6bc09a9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e03f9458f497759ac453ed429ac59c1e420b064ab36d346611d583765dbcf62d.html",
+    "bytes": 16236,
+    "sha256": "e03f9458f497759ac453ed429ac59c1e420b064ab36d346611d583765dbcf62d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e3a911be9398e28e18351425949c5222198ee9b74152eae9ca6a1d18e4fd60bc-unemployment.meta.json",
+    "bytes": 681,
+    "sha256": "f5878b25b8054db4f19d352f047f564f51b9db294ef267e0eb10e66cf6713e5c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e3a911be9398e28e18351425949c5222198ee9b74152eae9ca6a1d18e4fd60bc.html",
+    "bytes": 47296,
+    "sha256": "e3a911be9398e28e18351425949c5222198ee9b74152eae9ca6a1d18e4fd60bc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49-export_yoy.meta.json",
+    "bytes": 685,
+    "sha256": "ec6d9e2aa1aeb7d578b5561c7e722e90f838959737922a710c5c846720bc49d5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49-import_yoy.meta.json",
+    "bytes": 684,
+    "sha256": "61ced0bc10fb893c8c7dfe220443fc1a1cfc87f6ad088de07582d86707b1cf8c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49-unemployment.meta.json",
+    "bytes": 686,
+    "sha256": "a0e4a676e5ec3c9e6c8689d6a20eb34ec1122c775b58c544452b6984b14cba8d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49.html",
+    "bytes": 78768,
+    "sha256": "e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e55dd289541626280046586632df2310e2f5928089624e45d1903c4e681fc3af-private_fai_ytd_yoy.meta.json",
+    "bytes": 707,
+    "sha256": "5dfddabeaf55e2b2b7d8ea4ad1eb9215f31be8032e27515869c314c72718687a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e55dd289541626280046586632df2310e2f5928089624e45d1903c4e681fc3af.html",
+    "bytes": 15427,
+    "sha256": "e55dd289541626280046586632df2310e2f5928089624e45d1903c4e681fc3af"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e63ad68190c42f9419a042a838b198ce97642703f17ec5ebe5f8b19a7faf41e5-unemployment.meta.json",
+    "bytes": 668,
+    "sha256": "7daf02d8c3647c2c642cb2e5b23f210367783f82f950f32cf25b9d1c60bcb112"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e63ad68190c42f9419a042a838b198ce97642703f17ec5ebe5f8b19a7faf41e5.html",
+    "bytes": 47277,
+    "sha256": "e63ad68190c42f9419a042a838b198ce97642703f17ec5ebe5f8b19a7faf41e5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e689804afec4c57e0ffa465f0c26179d94de2416f95c43e57ca9eebdbae75bcf-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 695,
+    "sha256": "605e2a1302375534989809e260712c414797920f142948c2bbd9ef0a10e45414"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e689804afec4c57e0ffa465f0c26179d94de2416f95c43e57ca9eebdbae75bcf.html",
+    "bytes": 19032,
+    "sha256": "e689804afec4c57e0ffa465f0c26179d94de2416f95c43e57ca9eebdbae75bcf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e8e17724e8037b7bf980a0c066da16757d64ec6884b0d37a305cf652bcfd843b-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "8bde0116cafc6b625c2be58a013993910ec47f23b8a2f79b0f0c039b86001352"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e8e17724e8037b7bf980a0c066da16757d64ec6884b0d37a305cf652bcfd843b.html",
+    "bytes": 22358,
+    "sha256": "e8e17724e8037b7bf980a0c066da16757d64ec6884b0d37a305cf652bcfd843b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e9bc3628831870059fab0839c879c148dcb51fbcc955946bceac87f7bb35fe73-cpi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "15369e5e9c81c3513af9b528acd5ffd2dfd91c2d30dc931545e9f712ecbba741"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-e9bc3628831870059fab0839c879c148dcb51fbcc955946bceac87f7bb35fe73.html",
+    "bytes": 15061,
+    "sha256": "e9bc3628831870059fab0839c879c148dcb51fbcc955946bceac87f7bb35fe73"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-eb27fdb069deb466eef49db59713a1fe1383d3b1dbf2d6b982d5ad86719be879-manufacturing_pmi.meta.json",
+    "bytes": 683,
+    "sha256": "b46279577bf79ede3af878c0cd068edad2eef109bb6be98c830b138cb8432788"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-eb27fdb069deb466eef49db59713a1fe1383d3b1dbf2d6b982d5ad86719be879.html",
+    "bytes": 30514,
+    "sha256": "eb27fdb069deb466eef49db59713a1fe1383d3b1dbf2d6b982d5ad86719be879"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-eb996218251fad718541f9d560227830130e55f88f780b3172365eb35cd37eaf-cpi_mom.meta.json",
+    "bytes": 690,
+    "sha256": "138e1c375a3d08dc55b33768f537570249656911b6cf571c8d2c0e32bc1714f8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-eb996218251fad718541f9d560227830130e55f88f780b3172365eb35cd37eaf.html",
+    "bytes": 16038,
+    "sha256": "eb996218251fad718541f9d560227830130e55f88f780b3172365eb35cd37eaf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f0dab40489e9dd8cab18fc9442579a90885c67af168d19b4ac8adfd380fcea61-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "3e412eb73943217cf9bead6bea77e2b57b1e06f98ab23a6706b195a30bb74d70"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f0dab40489e9dd8cab18fc9442579a90885c67af168d19b4ac8adfd380fcea61.html",
+    "bytes": 14885,
+    "sha256": "f0dab40489e9dd8cab18fc9442579a90885c67af168d19b4ac8adfd380fcea61"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f12d925cb5c41cbdca8445b7a6cf793d8ab479aadcb99468da820a8a787e6e7a-ppi_mom.meta.json",
+    "bytes": 698,
+    "sha256": "ee99ff1f31beb2e7d5e1eedbf0bcc23cb116d9822b60bcd75a8109bff14df2e6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f12d925cb5c41cbdca8445b7a6cf793d8ab479aadcb99468da820a8a787e6e7a.html",
+    "bytes": 16069,
+    "sha256": "f12d925cb5c41cbdca8445b7a6cf793d8ab479aadcb99468da820a8a787e6e7a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f1e9705f21ab8e0b94beee05bceb9ea17ea0a2cc159bc82dc2e737de2ae7d876-private_fai_ytd_yoy.meta.json",
+    "bytes": 708,
+    "sha256": "975098dca09e5bc05d3f66bb87859e18333a71eba0bcae34d8c73b95e8901bd9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f1e9705f21ab8e0b94beee05bceb9ea17ea0a2cc159bc82dc2e737de2ae7d876.html",
+    "bytes": 14964,
+    "sha256": "f1e9705f21ab8e0b94beee05bceb9ea17ea0a2cc159bc82dc2e737de2ae7d876"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f4b172994e5c78c79baab810e103267cb6e9dba2830ce5049f8bc45b5d674a92-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "e73c2a9147f8b895a87801587ba284e4189c7012ae248098df5c56a24ec3a19d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f4b172994e5c78c79baab810e103267cb6e9dba2830ce5049f8bc45b5d674a92.html",
+    "bytes": 15426,
+    "sha256": "f4b172994e5c78c79baab810e103267cb6e9dba2830ce5049f8bc45b5d674a92"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa-export_yoy.meta.json",
+    "bytes": 672,
+    "sha256": "6424a3f2739a23a6ead6d64b5cd36c25641ec270e755bea0714660a00cf0ffd5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa-import_yoy.meta.json",
+    "bytes": 671,
+    "sha256": "c34d08dde77a18a9ed73dc1354b386781cc45b98d3bcd7e110387c8d2b081560"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa-unemployment.meta.json",
+    "bytes": 673,
+    "sha256": "fd93a90c5f5e69c08f472f2a6e49e7fa2380eea4503975359cab4140faa67d07"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa.html",
+    "bytes": 72204,
+    "sha256": "f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f54e2a4521c2df4446a6e77a9a29ddab9258ca6b08eda0cf32fd030f10c62f98-cpi_mom.meta.json",
+    "bytes": 684,
+    "sha256": "e1234ca60885805796a2a8dcd260885c605a4577d54ac6b2f66c0629245ce59d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f54e2a4521c2df4446a6e77a9a29ddab9258ca6b08eda0cf32fd030f10c62f98.html",
+    "bytes": 15842,
+    "sha256": "f54e2a4521c2df4446a6e77a9a29ddab9258ca6b08eda0cf32fd030f10c62f98"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f7ea6f7862ce5499d7f2c75c757aa9b819bf3571a250088b9b29cf1544349890-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 693,
+    "sha256": "513ec0fa50a026702b3a2cc876bd0706b6ced9aa40e488aa00697be1b514c840"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-f7ea6f7862ce5499d7f2c75c757aa9b819bf3571a250088b9b29cf1544349890.html",
+    "bytes": 18685,
+    "sha256": "f7ea6f7862ce5499d7f2c75c757aa9b819bf3571a250088b9b29cf1544349890"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fa9753d63c02c414ca5a2306ee94e6a773477ce1c1550988429af10cd625285c-cpi_mom.meta.json",
+    "bytes": 689,
+    "sha256": "0d2ef3f30eba405617ec0fe8a345e80ce8ae37c4b8a918ad87dfb1225e16e9f3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fa9753d63c02c414ca5a2306ee94e6a773477ce1c1550988429af10cd625285c.html",
+    "bytes": 16265,
+    "sha256": "fa9753d63c02c414ca5a2306ee94e6a773477ce1c1550988429af10cd625285c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fc450175a3c7c2f17ff88f45172f7a6e2bf434ba28024482b43b1269a953f32e-housing_sales_area_ytd_yoy.meta.json",
+    "bytes": 700,
+    "sha256": "2501c385e3e82880e417e4a180fd71001eb27e830aa4381b9da35aa84e863ed2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fc450175a3c7c2f17ff88f45172f7a6e2bf434ba28024482b43b1269a953f32e.html",
+    "bytes": 19282,
+    "sha256": "fc450175a3c7c2f17ff88f45172f7a6e2bf434ba28024482b43b1269a953f32e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fcf4581721c470f0ee4d70faceb9072eea81aefd43373aec8f0f9d12d0bbc499-cpi_mom.meta.json",
+    "bytes": 686,
+    "sha256": "d0d14151e92e871adb02411cf3f0bd26e09d319cd95ce0e78fc918a8ba9d5a0b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fcf4581721c470f0ee4d70faceb9072eea81aefd43373aec8f0f9d12d0bbc499.html",
+    "bytes": 16110,
+    "sha256": "fcf4581721c470f0ee4d70faceb9072eea81aefd43373aec8f0f9d12d0bbc499"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fd498e1336427d6958dfc6ef341ea25c463d12697a2582b0ac75ab3e11110e0a-ppi_mom.meta.json",
+    "bytes": 699,
+    "sha256": "3f23fa63cf7ffd1c42d615dc8bbdf1f675e26ecbc9a41d08527616fe52924e8d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fd498e1336427d6958dfc6ef341ea25c463d12697a2582b0ac75ab3e11110e0a.html",
+    "bytes": 15831,
+    "sha256": "fd498e1336427d6958dfc6ef341ea25c463d12697a2582b0ac75ab3e11110e0a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fd4e61bf35ad1fd2a95bad41e18bb252dc86599ec1564247133bca480764fb9c-cpi_mom.meta.json",
+    "bytes": 683,
+    "sha256": "770b4d4a57dc80328a8988f2a47ad2858395948e2e4a508cc4373bf14fabeeff"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fd4e61bf35ad1fd2a95bad41e18bb252dc86599ec1564247133bca480764fb9c.html",
+    "bytes": 15736,
+    "sha256": "fd4e61bf35ad1fd2a95bad41e18bb252dc86599ec1564247133bca480764fb9c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fea451db5f4c7fd9fefe310e077aee4ebcf3a3e6a0bea001f793cac0ff673687-private_fai_ytd_yoy.meta.json",
+    "bytes": 699,
+    "sha256": "15a60d39afb121666d3d96f68732198e44fb048602503699533462a820619b3e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-fea451db5f4c7fd9fefe310e077aee4ebcf3a3e6a0bea001f793cac0ff673687.html",
+    "bytes": 13658,
+    "sha256": "fea451db5f4c7fd9fefe310e077aee4ebcf3a3e6a0bea001f793cac0ff673687"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff06ff64de5742d4a553054a1a440d4a3d3af9028da9ef96880018e8c4aa561c-private_fai_ytd_yoy.meta.json",
+    "bytes": 706,
+    "sha256": "5652406a6e9889eab9a124039d498b0d9c9406c637b8943b2a5d111b250a6303"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff06ff64de5742d4a553054a1a440d4a3d3af9028da9ef96880018e8c4aa561c.html",
+    "bytes": 14938,
+    "sha256": "ff06ff64de5742d4a553054a1a440d4a3d3af9028da9ef96880018e8c4aa561c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6-ppi_mom.meta.json",
+    "bytes": 685,
+    "sha256": "4d6294f9dda6d99393a9b04468de5de26af01056b66652d30620eeb939740f4c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6-ppi_yoy.meta.json",
+    "bytes": 685,
+    "sha256": "d884f9025d01a095e1fae20c666f90417b17e7ba7cff37019c1b6dd6ed20fced"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6.html",
+    "bytes": 15200,
+    "sha256": "ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff7ffb7bbeb5d6ada4899d260009748dd4ee8b72079be45b7610acb9cd35ef11-ppi_mom.meta.json",
+    "bytes": 713,
+    "sha256": "4fe223e8a32bac31fd3c73f801d58f76c083c21f797183fca9e181d789b08432"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ff7ffb7bbeb5d6ada4899d260009748dd4ee8b72079be45b7610acb9cd35ef11.html",
+    "bytes": 14319,
+    "sha256": "ff7ffb7bbeb5d6ada4899d260009748dd4ee8b72079be45b7610acb9cd35ef11"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ffbcc3a53bf0cade410e90ef7ec6c97a9e4ef9b22fa54d632244c4c89d8ace16-private_fai_ytd_yoy.meta.json",
+    "bytes": 701,
+    "sha256": "d8fc4f3cb499103ee4c7772bf12ff639b6afba0fe7b3abaee67eb7388205344f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/nbs-gap-ffbcc3a53bf0cade410e90ef7ec6c97a9e4ef9b22fa54d632244c4c89d8ace16.html",
+    "bytes": 13599,
+    "sha256": "ffbcc3a53bf0cade410e90ef7ec6c97a9e4ef9b22fa54d632244c4c89d8ace16"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-019b0e07729200dac43501f987591ca1f2e76642f2604b4008f92bf197406bab-financial_report.html",
+    "bytes": 5156,
+    "sha256": "019b0e07729200dac43501f987591ca1f2e76642f2604b4008f92bf197406bab"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-019b0e07729200dac43501f987591ca1f2e76642f2604b4008f92bf197406bab-financial_report.json",
+    "bytes": 1073,
+    "sha256": "28ae4e5ec30fa69b9109afd73e8147f694c3644282ec5d2aff8df7378601bd9a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-032aa0e744c2b153d5ef96a671ebfcb3d31ec910116306a897d1cf843b7ee1a2-financial_report.html",
+    "bytes": 4390,
+    "sha256": "032aa0e744c2b153d5ef96a671ebfcb3d31ec910116306a897d1cf843b7ee1a2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-032aa0e744c2b153d5ef96a671ebfcb3d31ec910116306a897d1cf843b7ee1a2-financial_report.json",
+    "bytes": 1076,
+    "sha256": "92378417eff6526619edfb8765876e541b8f9837938d32bc9b55261dc7fde477"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0740b88c53186aac44e18b3ab66fea7183f4a3540ca321897a30caabc08f3a2a-tsf_table.html",
+    "bytes": 18191,
+    "sha256": "0740b88c53186aac44e18b3ab66fea7183f4a3540ca321897a30caabc08f3a2a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0740b88c53186aac44e18b3ab66fea7183f4a3540ca321897a30caabc08f3a2a-tsf_table.json",
+    "bytes": 1930,
+    "sha256": "255d2524d157ef316b52d63cdcdc112aa9b2f7bcfe930a3da1be2f440540d2ee"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-08d273c3282c2f7d57b7b1fd44dd3e952990a81291c3e8f1ab80a561314cd790-financial_report.html",
+    "bytes": 5847,
+    "sha256": "08d273c3282c2f7d57b7b1fd44dd3e952990a81291c3e8f1ab80a561314cd790"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-08d273c3282c2f7d57b7b1fd44dd3e952990a81291c3e8f1ab80a561314cd790-financial_report.json",
+    "bytes": 1085,
+    "sha256": "92d3e79756baf6a9b9060ef667e348968c7fbbe1b1780f4b0fa02b0051d25019"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0953bb3cd289e7768abd8c8d27cf94fd3544a0020d886e1db09cfc2a0e38dd7a-financial_report.html",
+    "bytes": 8067,
+    "sha256": "0953bb3cd289e7768abd8c8d27cf94fd3544a0020d886e1db09cfc2a0e38dd7a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0953bb3cd289e7768abd8c8d27cf94fd3544a0020d886e1db09cfc2a0e38dd7a-financial_report.json",
+    "bytes": 1175,
+    "sha256": "878ce9f3f1f4d70eb4ab960148fa1e28a07a9865c0fc1c285c2993628de18ee4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0d46fac235cbb00e525dfe12c16a2257aff09d2c3d8d90bcc1eb492719c40865-financial_report.html",
+    "bytes": 5241,
+    "sha256": "0d46fac235cbb00e525dfe12c16a2257aff09d2c3d8d90bcc1eb492719c40865"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0d46fac235cbb00e525dfe12c16a2257aff09d2c3d8d90bcc1eb492719c40865-financial_report.json",
+    "bytes": 989,
+    "sha256": "c7ea3418dabf1701aae6cc36794c95e24ae87075e24aab5e15ce1bef15e39d66"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0dec43fc839ae4d82638a49d6abe81d2df4aba654dfde6995103ae415ca6317e-financial_report.html",
+    "bytes": 3849,
+    "sha256": "0dec43fc839ae4d82638a49d6abe81d2df4aba654dfde6995103ae415ca6317e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0dec43fc839ae4d82638a49d6abe81d2df4aba654dfde6995103ae415ca6317e-financial_report.json",
+    "bytes": 989,
+    "sha256": "c5c23f6b89c0e3ad90461d389faf964c80767abb38d5e658e1f63d9d8acf605a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0ec483e09d797c24a2c012a5d5f094cacd15948268bdcacdc13f3e3150e64a98-financial_report.html",
+    "bytes": 4976,
+    "sha256": "0ec483e09d797c24a2c012a5d5f094cacd15948268bdcacdc13f3e3150e64a98"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-0ec483e09d797c24a2c012a5d5f094cacd15948268bdcacdc13f3e3150e64a98-financial_report.json",
+    "bytes": 1081,
+    "sha256": "80dc5c35203351d63082409beed71b0db0fcedbe22b2672fa56e169205e8b90e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-10eef62b5a4aff2e5476554f2db6038fc7207c4ddf51fc9d92a8e73dee0fde69-financial_report.html",
+    "bytes": 7754,
+    "sha256": "10eef62b5a4aff2e5476554f2db6038fc7207c4ddf51fc9d92a8e73dee0fde69"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-10eef62b5a4aff2e5476554f2db6038fc7207c4ddf51fc9d92a8e73dee0fde69-financial_report.json",
+    "bytes": 1153,
+    "sha256": "304da314cc55c0ec793cd7b42fdb97d17d2020ee6f72b322369889c38603148d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-1b6bd086c0608f6ef63a3ca61030fa2273dca622ff53d9da572d51fc30aac0a1-financial_report.html",
+    "bytes": 4012,
+    "sha256": "1b6bd086c0608f6ef63a3ca61030fa2273dca622ff53d9da572d51fc30aac0a1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-1b6bd086c0608f6ef63a3ca61030fa2273dca622ff53d9da572d51fc30aac0a1-financial_report.json",
+    "bytes": 1081,
+    "sha256": "9020f128ab63b9b27f774313b93aab8d4b527d14f39e73c1dd9ae8ddbb7ea234"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-1dac6bc9b25a2911a52e7325763f8c16915e7245073a153576040d9b2c1f4052-financial_report.html",
+    "bytes": 4170,
+    "sha256": "1dac6bc9b25a2911a52e7325763f8c16915e7245073a153576040d9b2c1f4052"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-1dac6bc9b25a2911a52e7325763f8c16915e7245073a153576040d9b2c1f4052-financial_report.json",
+    "bytes": 1080,
+    "sha256": "ccfeac0a4ae35a327626f13fb9f0581a55309b322960b4c9f00a170aeac4af77"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-2443fb871328153f577935ce33a256d51858ac544fe4c52e7b25d6d75b38eb53-financial_report.html",
+    "bytes": 5480,
+    "sha256": "2443fb871328153f577935ce33a256d51858ac544fe4c52e7b25d6d75b38eb53"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-2443fb871328153f577935ce33a256d51858ac544fe4c52e7b25d6d75b38eb53-financial_report.json",
+    "bytes": 1077,
+    "sha256": "7234e07f02631beb5df98d49f372371345273ff012997f7ccd553de808423c8d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63-financial_report.html",
+    "bytes": 4581,
+    "sha256": "249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63-financial_report.json",
+    "bytes": 989,
+    "sha256": "92602c87a09f4a213ce450692e09eef5b7f050ef624a3d0b4762a0df6e195757"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-2c0065f36f4d3d508929769dd59aab5b5b2c943904c13746f815c39e139dd99f-financial_report.html",
+    "bytes": 3865,
+    "sha256": "2c0065f36f4d3d508929769dd59aab5b5b2c943904c13746f815c39e139dd99f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-2c0065f36f4d3d508929769dd59aab5b5b2c943904c13746f815c39e139dd99f-financial_report.json",
+    "bytes": 989,
+    "sha256": "0a0b5b16a45f59c0421b94241d9e1dddf7eb2675f342604eed634aedc9e66f82"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-2fcd0340fa0eb2df1c3c1d57a946fb532993d1b1f93a440d924eb593a2a28342-tsf_table.html",
+    "bytes": 9968,
+    "sha256": "2fcd0340fa0eb2df1c3c1d57a946fb532993d1b1f93a440d924eb593a2a28342"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-2fcd0340fa0eb2df1c3c1d57a946fb532993d1b1f93a440d924eb593a2a28342-tsf_table.json",
+    "bytes": 1918,
+    "sha256": "426ba8f912109b927d0b54c2ad258c2c6042cfefa5452554c1c7892bd2ac3b5b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-30421be4ad1c528586c110def1ca2f14ca742ef23f7861de5de97f37440b3cdb-financial_report.html",
+    "bytes": 4884,
+    "sha256": "30421be4ad1c528586c110def1ca2f14ca742ef23f7861de5de97f37440b3cdb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-30421be4ad1c528586c110def1ca2f14ca742ef23f7861de5de97f37440b3cdb-financial_report.json",
+    "bytes": 1079,
+    "sha256": "e601c1f6d8e49ead3da0cfff832f016aa890516b043a667cf7ddb66d57830f5e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3410e93565a5af9ab5564aca7370abcf61679aae0f4129cb7ef239c89153c4c7-financial_report.html",
+    "bytes": 7829,
+    "sha256": "3410e93565a5af9ab5564aca7370abcf61679aae0f4129cb7ef239c89153c4c7"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3410e93565a5af9ab5564aca7370abcf61679aae0f4129cb7ef239c89153c4c7-financial_report.json",
+    "bytes": 1168,
+    "sha256": "77b698c284475ba1691f1e2c53e137164008baed051f5cd494fa1705ce6d6863"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-34d9c7808bc38e09c21117bbc0374619615da3afdaeeb724ca95c9aaeebf2920-financial_report.html",
+    "bytes": 5223,
+    "sha256": "34d9c7808bc38e09c21117bbc0374619615da3afdaeeb724ca95c9aaeebf2920"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-34d9c7808bc38e09c21117bbc0374619615da3afdaeeb724ca95c9aaeebf2920-financial_report.json",
+    "bytes": 1079,
+    "sha256": "308600ca4d9a88d44b0c74b66b0562aa9ea3ce3e07973fe2cc98a6a9604b43aa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3699c174cd2d98747e84a204963bc3dd39adad3f1acb4fac0f01cbe827874423-financial_report.html",
+    "bytes": 5071,
+    "sha256": "3699c174cd2d98747e84a204963bc3dd39adad3f1acb4fac0f01cbe827874423"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3699c174cd2d98747e84a204963bc3dd39adad3f1acb4fac0f01cbe827874423-financial_report.json",
+    "bytes": 1079,
+    "sha256": "221688de8b600d695c8576bf36b80b556a242041bfb78a5d0f790f43109b2d89"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3929040c90692641f27f6d86eb4afb5da96cd2522ae7111aeab1a8bbcb43acc1-financial_report.html",
+    "bytes": 4383,
+    "sha256": "3929040c90692641f27f6d86eb4afb5da96cd2522ae7111aeab1a8bbcb43acc1"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3929040c90692641f27f6d86eb4afb5da96cd2522ae7111aeab1a8bbcb43acc1-financial_report.json",
+    "bytes": 1084,
+    "sha256": "b168ca44163b9ffb6fe6114f4e11e0406a1910f8eda8d3371604d3d19e91d8bc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3a75440d0d1aff4c9a51562c760672213c2e1bb839304edcfe64b65082d0e2f6-financial_report.html",
+    "bytes": 5161,
+    "sha256": "3a75440d0d1aff4c9a51562c760672213c2e1bb839304edcfe64b65082d0e2f6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3a75440d0d1aff4c9a51562c760672213c2e1bb839304edcfe64b65082d0e2f6-financial_report.json",
+    "bytes": 1089,
+    "sha256": "19d4c88ecfcb3acfadd3cab4919ffe04d52bfe826012bc2a3ab3974864ecd797"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3bc6024569f49cb765e36b1048d56f71013013ac35c4e78d2b612471b45bd0f2-financial_report.html",
+    "bytes": 5321,
+    "sha256": "3bc6024569f49cb765e36b1048d56f71013013ac35c4e78d2b612471b45bd0f2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-3bc6024569f49cb765e36b1048d56f71013013ac35c4e78d2b612471b45bd0f2-financial_report.json",
+    "bytes": 1065,
+    "sha256": "4c32ad459cd456a2241b9691c56a5a375f9c6d12adcd3b594c7ff08b195e3892"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-4093a62d5aa02dab7a53a5dd1ebffb7d22714c3b91edef276a9189cae3e30cd6-financial_report.html",
+    "bytes": 7786,
+    "sha256": "4093a62d5aa02dab7a53a5dd1ebffb7d22714c3b91edef276a9189cae3e30cd6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-4093a62d5aa02dab7a53a5dd1ebffb7d22714c3b91edef276a9189cae3e30cd6-financial_report.json",
+    "bytes": 1153,
+    "sha256": "758228c12f6a78ea1d9ba90510e2ae7520324092f64d899012e6166c185fc210"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-420785e04990e3cdeaded2da30bbfbd2c7fb173b09cd07917fb7f15bc1511653-financial_report.html",
+    "bytes": 5547,
+    "sha256": "420785e04990e3cdeaded2da30bbfbd2c7fb173b09cd07917fb7f15bc1511653"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-420785e04990e3cdeaded2da30bbfbd2c7fb173b09cd07917fb7f15bc1511653-financial_report.json",
+    "bytes": 1082,
+    "sha256": "ac7e65115bde1301578c79a26aa9dabdf7d88e4690e3ba6b6e3372e17f8b2f3b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-42b9cda893d70fff043c17d2ce3c9a0f754955382d92bdec7f9f266b72d6c349-financial_report.html",
+    "bytes": 3806,
+    "sha256": "42b9cda893d70fff043c17d2ce3c9a0f754955382d92bdec7f9f266b72d6c349"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-42b9cda893d70fff043c17d2ce3c9a0f754955382d92bdec7f9f266b72d6c349-financial_report.json",
+    "bytes": 988,
+    "sha256": "17722ccc88aa1a0a37751e5bd078053579d1e6555088295e7aeb78646aed66f0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-47a7c8a90834fabeb95176e7303635f28fd05ddcfd81c90ee183a197546c4698-financial_report.html",
+    "bytes": 4976,
+    "sha256": "47a7c8a90834fabeb95176e7303635f28fd05ddcfd81c90ee183a197546c4698"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-47a7c8a90834fabeb95176e7303635f28fd05ddcfd81c90ee183a197546c4698-financial_report.json",
+    "bytes": 1081,
+    "sha256": "d74586d76a3eac50b206a824b292f374c0ed3b246740a339cca1df0c1131397b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-4f85ba9389ed31f75fece03f8830c0d37b442e5b0409ef668c9baf84a8900014-financial_report.html",
+    "bytes": 7972,
+    "sha256": "4f85ba9389ed31f75fece03f8830c0d37b442e5b0409ef668c9baf84a8900014"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-4f85ba9389ed31f75fece03f8830c0d37b442e5b0409ef668c9baf84a8900014-financial_report.json",
+    "bytes": 1159,
+    "sha256": "a102f93c2959bf8144aea027a035d56957c1a5c58f44277079c341d28d1f2046"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-52c0880f22e7c1528058027263f844bffe0ea45030930c5461a6907abe227d1c-financial_report.html",
+    "bytes": 3908,
+    "sha256": "52c0880f22e7c1528058027263f844bffe0ea45030930c5461a6907abe227d1c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-52c0880f22e7c1528058027263f844bffe0ea45030930c5461a6907abe227d1c-financial_report.json",
+    "bytes": 1080,
+    "sha256": "e3b8459b1021cb743e27303c004a16b070e5564b127a06e1b3c00ff3c9518405"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-536d706c99be2f30fcc2bf9d71d3354c7bd741c8f61249f9e4d84a9911a3fa09-financial_report.html",
+    "bytes": 3812,
+    "sha256": "536d706c99be2f30fcc2bf9d71d3354c7bd741c8f61249f9e4d84a9911a3fa09"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-536d706c99be2f30fcc2bf9d71d3354c7bd741c8f61249f9e4d84a9911a3fa09-financial_report.json",
+    "bytes": 988,
+    "sha256": "cd1d509166b5b9af0bcd010c3193a1180502245ecebac63880abc4e73e053ec5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-5536dc08675bb6e49fb92875769870267e04285ce62bf4170c953b38c01a53db-financial_report.html",
+    "bytes": 5206,
+    "sha256": "5536dc08675bb6e49fb92875769870267e04285ce62bf4170c953b38c01a53db"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-5536dc08675bb6e49fb92875769870267e04285ce62bf4170c953b38c01a53db-financial_report.json",
+    "bytes": 989,
+    "sha256": "f22d25586766bd96e331ea5f01c4189eb8680fe7a34320e34966e1afc026091e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-55b47bf3467ed2c6abb6824e2d1ff015c33ee182adbb061fc5958dc657e3d1b0-financial_report.html",
+    "bytes": 4414,
+    "sha256": "55b47bf3467ed2c6abb6824e2d1ff015c33ee182adbb061fc5958dc657e3d1b0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-55b47bf3467ed2c6abb6824e2d1ff015c33ee182adbb061fc5958dc657e3d1b0-financial_report.json",
+    "bytes": 1084,
+    "sha256": "fdc441b73e768dc050dcf781cb53d16f0ad9a6522734b02ff7c87e1bb2b2f0f0"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-57b91e3c0eaf4675b80c830e9597a7f39f8b310cb8dfc836f3aab433bcd4a211-financial_report.html",
+    "bytes": 3868,
+    "sha256": "57b91e3c0eaf4675b80c830e9597a7f39f8b310cb8dfc836f3aab433bcd4a211"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-57b91e3c0eaf4675b80c830e9597a7f39f8b310cb8dfc836f3aab433bcd4a211-financial_report.json",
+    "bytes": 988,
+    "sha256": "3aef3e667d9ee182940cbed4d433664aa32bf1da62017ca252d5bb64f4d9b140"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-5b3a2469c80afa1f588d6f199effaac6d9c9dd919c989517b9af666cd020fd9f-financial_report.html",
+    "bytes": 4443,
+    "sha256": "5b3a2469c80afa1f588d6f199effaac6d9c9dd919c989517b9af666cd020fd9f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-5b3a2469c80afa1f588d6f199effaac6d9c9dd919c989517b9af666cd020fd9f-financial_report.json",
+    "bytes": 1081,
+    "sha256": "705ae98076258e019779fe4f020d3de1618ed1bd35bbdddb9298bec454a1ee60"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-5b3b2a73259d442d1ff7a5da1d54f833eb2f4e03f03e88a65f9a6618ae294e62-financial_report.html",
+    "bytes": 4959,
+    "sha256": "5b3b2a73259d442d1ff7a5da1d54f833eb2f4e03f03e88a65f9a6618ae294e62"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-5b3b2a73259d442d1ff7a5da1d54f833eb2f4e03f03e88a65f9a6618ae294e62-financial_report.json",
+    "bytes": 1081,
+    "sha256": "632a1b3f4b9db4ade57e7b0d4cc8ae4eec0478fabf06a7bb195fd90aec47f235"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-62ce9e635a26d459d6146cb6b9e981b7659fab74baf8f40857519c0ae03ae486-financial_report.html",
+    "bytes": 5164,
+    "sha256": "62ce9e635a26d459d6146cb6b9e981b7659fab74baf8f40857519c0ae03ae486"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-62ce9e635a26d459d6146cb6b9e981b7659fab74baf8f40857519c0ae03ae486-financial_report.json",
+    "bytes": 1073,
+    "sha256": "6e61ebc367e5a1717cb5174309b7d366404b99b4dc76506cd68138386e4da011"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-649d3cb234b0dd891df4a2308d5fac69c23650c4ea01a729e41e96177b70f4cf-financial_report.html",
+    "bytes": 4976,
+    "sha256": "649d3cb234b0dd891df4a2308d5fac69c23650c4ea01a729e41e96177b70f4cf"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-649d3cb234b0dd891df4a2308d5fac69c23650c4ea01a729e41e96177b70f4cf-financial_report.json",
+    "bytes": 1081,
+    "sha256": "266fa7101974ec047b9d10548b9199bd9a7b01524a8e56cf14e9a481eebbf7bb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-66a4923abf09580922297e0d1915d5f3035aec75b62ea4f46f36b1a41c90d552-financial_report.html",
+    "bytes": 3880,
+    "sha256": "66a4923abf09580922297e0d1915d5f3035aec75b62ea4f46f36b1a41c90d552"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-66a4923abf09580922297e0d1915d5f3035aec75b62ea4f46f36b1a41c90d552-financial_report.json",
+    "bytes": 988,
+    "sha256": "fef2e8c542a3567c8b750338a287cb4a6828c5bdd920f306d00d91187421099b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-742ddf99cc9d677851e5ffeba1d910a8e098899b7e49928f157a4524b80c8fd4-financial_report.html",
+    "bytes": 5191,
+    "sha256": "742ddf99cc9d677851e5ffeba1d910a8e098899b7e49928f157a4524b80c8fd4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-742ddf99cc9d677851e5ffeba1d910a8e098899b7e49928f157a4524b80c8fd4-financial_report.json",
+    "bytes": 989,
+    "sha256": "5d2272bf2e55c13b259448508213337ece36e3e565676b488a2cee382ecebe65"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-74cfa3a51e505dacea80ee118f98c16ebb4e71e2b107f6711db3612d4d445a17-financial_report.html",
+    "bytes": 4429,
+    "sha256": "74cfa3a51e505dacea80ee118f98c16ebb4e71e2b107f6711db3612d4d445a17"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-74cfa3a51e505dacea80ee118f98c16ebb4e71e2b107f6711db3612d4d445a17-financial_report.json",
+    "bytes": 1086,
+    "sha256": "aec356214e308eecfd73190740f17a0816ed99cf21add4d3c23cb205aca4f6d4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-7631a63eca40797a201d809583202365103ad1fbf312d9ee9c831c22f5f3a2ff-financial_report.html",
+    "bytes": 5788,
+    "sha256": "7631a63eca40797a201d809583202365103ad1fbf312d9ee9c831c22f5f3a2ff"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-7631a63eca40797a201d809583202365103ad1fbf312d9ee9c831c22f5f3a2ff-financial_report.json",
+    "bytes": 1089,
+    "sha256": "9f5553665f1ded6bf2554b56f75b8ac9bd92c3c022833bb9d7ff57525f012f30"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8435ed81c0feb8fd84cab2be0f7f4b25cd9c3790afcf8edefa5fd86140eaf55b-financial_report.html",
+    "bytes": 4939,
+    "sha256": "8435ed81c0feb8fd84cab2be0f7f4b25cd9c3790afcf8edefa5fd86140eaf55b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8435ed81c0feb8fd84cab2be0f7f4b25cd9c3790afcf8edefa5fd86140eaf55b-financial_report.json",
+    "bytes": 1082,
+    "sha256": "7a5fc31080185c58100900e0dc0a097c2a833a8223b7abe31c992f5a83b73e08"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8a582bf32758440fc3a0d63dc7c43513678c8db6803c5ddd0ef8e4a9c9989fa8-financial_report.html",
+    "bytes": 7836,
+    "sha256": "8a582bf32758440fc3a0d63dc7c43513678c8db6803c5ddd0ef8e4a9c9989fa8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8a582bf32758440fc3a0d63dc7c43513678c8db6803c5ddd0ef8e4a9c9989fa8-financial_report.json",
+    "bytes": 1154,
+    "sha256": "d905acf7f93ac32f4b162e2649be26efca16554750f2e47209bc04898c6f14a9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8e32b927153eef1d30d2a012d8b8bdba2b26476db5585080774052327a16554e-financial_report.html",
+    "bytes": 5471,
+    "sha256": "8e32b927153eef1d30d2a012d8b8bdba2b26476db5585080774052327a16554e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8e32b927153eef1d30d2a012d8b8bdba2b26476db5585080774052327a16554e-financial_report.json",
+    "bytes": 1081,
+    "sha256": "15b3b1a663ac0e8a2f6a44f9d590b3c79308bd2ee5288c8fe0621a4eb214d661"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8fc3818c7f912cccbbb5d93ae85f470cc2edff0ab7b67a0c17a8b05f203468df-financial_report.html",
+    "bytes": 7946,
+    "sha256": "8fc3818c7f912cccbbb5d93ae85f470cc2edff0ab7b67a0c17a8b05f203468df"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-8fc3818c7f912cccbbb5d93ae85f470cc2edff0ab7b67a0c17a8b05f203468df-financial_report.json",
+    "bytes": 1157,
+    "sha256": "f57f4aa777bd1521755c43c240140e2472ef22e369570559b22789bce972ac05"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-91a0dd6b0ab7c2bdfbbf16643a2cb769267171db4f88154c8db776439087a4b5-financial_report.html",
+    "bytes": 8925,
+    "sha256": "91a0dd6b0ab7c2bdfbbf16643a2cb769267171db4f88154c8db776439087a4b5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-91a0dd6b0ab7c2bdfbbf16643a2cb769267171db4f88154c8db776439087a4b5-financial_report.json",
+    "bytes": 1155,
+    "sha256": "7ced077c93d1447af6dadb20d031e61359752ad7bb51252c895f845fe1ea3463"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329-m1_backcast.html",
+    "bytes": 5807,
+    "sha256": "92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329-m1_backcast.json",
+    "bytes": 1866,
+    "sha256": "a22ded8f976b46aa1504f34ff1f707d1b4aa82a619a25ecbdeb048484f1a1f99"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-9356a9520db76d48054ec5a03d8770a78a539a2ea16dbdbddd3ca80d578fa168-financial_report.html",
+    "bytes": 9060,
+    "sha256": "9356a9520db76d48054ec5a03d8770a78a539a2ea16dbdbddd3ca80d578fa168"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-9356a9520db76d48054ec5a03d8770a78a539a2ea16dbdbddd3ca80d578fa168-financial_report.json",
+    "bytes": 1150,
+    "sha256": "574c4dc5bb6854cc12c944f6f124dbdfb4feeb62c65dd4e34423dcacb7c94714"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-939a7b092a119d09319dd6c87ba4e34e669272549344a2d71f44afd93f2f73ac-financial_report.html",
+    "bytes": 5119,
+    "sha256": "939a7b092a119d09319dd6c87ba4e34e669272549344a2d71f44afd93f2f73ac"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-939a7b092a119d09319dd6c87ba4e34e669272549344a2d71f44afd93f2f73ac-financial_report.json",
+    "bytes": 1060,
+    "sha256": "3bb0dcfadd7f4dfe3f1fb6df9f335f8a4f1486752e60837dc7b5c20cf837780b"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-9b31e920ba603c044a41791a8178b2c65dae86d7c17ea13cf435e9586866832d-financial_report.html",
+    "bytes": 3896,
+    "sha256": "9b31e920ba603c044a41791a8178b2c65dae86d7c17ea13cf435e9586866832d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-9b31e920ba603c044a41791a8178b2c65dae86d7c17ea13cf435e9586866832d-financial_report.json",
+    "bytes": 988,
+    "sha256": "17989b94275b324a1a063b6100220c6f0b181773ed0c188f79ae10cda0817a8f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75-financial_report.html",
+    "bytes": 3874,
+    "sha256": "a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75-financial_report.json",
+    "bytes": 989,
+    "sha256": "5de2db36308b5da6f2a528e26f2916582bb3de434080ccf4c39c5f753453b961"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-a7bb6f41d3eab7bb8373395c4427f4c1f48e884e789abdd82bac6c898109fdb5-financial_report.html",
+    "bytes": 4444,
+    "sha256": "a7bb6f41d3eab7bb8373395c4427f4c1f48e884e789abdd82bac6c898109fdb5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-a7bb6f41d3eab7bb8373395c4427f4c1f48e884e789abdd82bac6c898109fdb5-financial_report.json",
+    "bytes": 1088,
+    "sha256": "63107e88f3d25de3c7dd29f46a817bf907855f6abea8b3cc17886c70bb0ce0c3"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-aa5cae229382abd19c5555ae8ba2b356c254b5e6e82c8fbe3672edc3be64f58e-financial_report.html",
+    "bytes": 5502,
+    "sha256": "aa5cae229382abd19c5555ae8ba2b356c254b5e6e82c8fbe3672edc3be64f58e"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-aa5cae229382abd19c5555ae8ba2b356c254b5e6e82c8fbe3672edc3be64f58e-financial_report.json",
+    "bytes": 1082,
+    "sha256": "f9e4f220220989b83cf07096d80be07548a48137a259ebbd9690df26be38a8fd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd-tsf_table.html",
+    "bytes": 9756,
+    "sha256": "aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd-tsf_table.json",
+    "bytes": 1541,
+    "sha256": "9dc9da3ca8f52fa51e103066774e960a0e06a341d773897898ccdc7d0854db1a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-aa92cb0513cfa9bb12f7b1dce93460d508b1921b48b86931bbb693cbe0ea68e5-financial_report.html",
+    "bytes": 5458,
+    "sha256": "aa92cb0513cfa9bb12f7b1dce93460d508b1921b48b86931bbb693cbe0ea68e5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-aa92cb0513cfa9bb12f7b1dce93460d508b1921b48b86931bbb693cbe0ea68e5-financial_report.json",
+    "bytes": 1076,
+    "sha256": "2eddacf92e0a1063cbfa1da55de9e20c0518b8d07d7f4f6bb0bc9a26ac96a349"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995-financial_report.html",
+    "bytes": 4102,
+    "sha256": "adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995-financial_report.json",
+    "bytes": 1081,
+    "sha256": "a8b865507b93de7d2c65d949f474512f37f687e631f6491369fe5f7f7ecfbaf2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb-financial_report.html",
+    "bytes": 4703,
+    "sha256": "b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb-financial_report.json",
+    "bytes": 1085,
+    "sha256": "75d5704fe895a24a6e29c5ff5309961b86acfa903610c2745bf7d85cca64f281"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-bd60d88c1c7198d3d26a90d9643b0b96e7ef9f39f8255759dc9e8d6aa5b3b9a9-financial_report.html",
+    "bytes": 5512,
+    "sha256": "bd60d88c1c7198d3d26a90d9643b0b96e7ef9f39f8255759dc9e8d6aa5b3b9a9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-bd60d88c1c7198d3d26a90d9643b0b96e7ef9f39f8255759dc9e8d6aa5b3b9a9-financial_report.json",
+    "bytes": 1081,
+    "sha256": "d1c7a9ee1b3508897cd767c9dcf053c9dde04a3190814a83de003bdb97c66727"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025-financial_report.html",
+    "bytes": 4949,
+    "sha256": "be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025-financial_report.json",
+    "bytes": 1079,
+    "sha256": "e461c63c72af04d2069e11586093ce910c539cd41a1a931f8b1a9a14b673b267"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-c4970cf0cab1098910da8873667dc6a76b9fb1779d3e3a545fc46b4fa8c3e98c-financial_report.html",
+    "bytes": 3587,
+    "sha256": "c4970cf0cab1098910da8873667dc6a76b9fb1779d3e3a545fc46b4fa8c3e98c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-c4970cf0cab1098910da8873667dc6a76b9fb1779d3e3a545fc46b4fa8c3e98c-financial_report.json",
+    "bytes": 1082,
+    "sha256": "9b8c8b952e5a9e3915f8dcaaa271cbb76b134989a02875267afd37749fd16bb8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-c58eda84ab08835bb7b8b5473468765a632f03910c10f0e4b7e6af4be168a598-financial_report.html",
+    "bytes": 5103,
+    "sha256": "c58eda84ab08835bb7b8b5473468765a632f03910c10f0e4b7e6af4be168a598"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-c58eda84ab08835bb7b8b5473468765a632f03910c10f0e4b7e6af4be168a598-financial_report.json",
+    "bytes": 1077,
+    "sha256": "6ae9ca7b952266ae657f6ef0323f3035f9e7013452159d081929bee76c1991cb"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8-tsf_table.html",
+    "bytes": 17257,
+    "sha256": "cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8-tsf_table.json",
+    "bytes": 1929,
+    "sha256": "9bc09edd94c9dee5b453cf6663ded55281d7734e06acc38c6451c0a88c06acb6"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d0c86af1805ef9e1d5ba9dda39a26b290b95879a30e7e21b79109de00b6023e8-financial_report.html",
+    "bytes": 7793,
+    "sha256": "d0c86af1805ef9e1d5ba9dda39a26b290b95879a30e7e21b79109de00b6023e8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d0c86af1805ef9e1d5ba9dda39a26b290b95879a30e7e21b79109de00b6023e8-financial_report.json",
+    "bytes": 1153,
+    "sha256": "ebe4ea40b906d94a5b30e5380822eb8af65e1df45c7db7c9dd1da3d19d8b1674"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d2d86e17404daff41b2a97b3864a8a19453c62e945633f92c0db06a9743dbe59-financial_report.html",
+    "bytes": 7793,
+    "sha256": "d2d86e17404daff41b2a97b3864a8a19453c62e945633f92c0db06a9743dbe59"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d2d86e17404daff41b2a97b3864a8a19453c62e945633f92c0db06a9743dbe59-financial_report.json",
+    "bytes": 1153,
+    "sha256": "621458cc386fc9aa86cf7a43964f55d847d53df74c8049704527d00f53983b0f"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d6268a75d89177bf130b3054484cf882110c666bd8898f6da5fdd0dedce636e4-financial_report.html",
+    "bytes": 4072,
+    "sha256": "d6268a75d89177bf130b3054484cf882110c666bd8898f6da5fdd0dedce636e4"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d6268a75d89177bf130b3054484cf882110c666bd8898f6da5fdd0dedce636e4-financial_report.json",
+    "bytes": 1089,
+    "sha256": "422471418a30c9ffe1983f653b8cf285da628905b746fbf626be4338ac796068"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5-financial_report.html",
+    "bytes": 5289,
+    "sha256": "d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5-financial_report.json",
+    "bytes": 1059,
+    "sha256": "f9bc05387d60bead4abc3b9cc817d116b2827ce71ea1b999b3fa9ea30e21107a"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d724414b8b0d70a68805b66ccb7a441d4e281e82828b1b1b036cc0034b99e416-tsf_table.html",
+    "bytes": 11374,
+    "sha256": "d724414b8b0d70a68805b66ccb7a441d4e281e82828b1b1b036cc0034b99e416"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d724414b8b0d70a68805b66ccb7a441d4e281e82828b1b1b036cc0034b99e416-tsf_table.json",
+    "bytes": 1918,
+    "sha256": "9de2b3d57a594da6e74433c0f808664231f27a09e8c4def3b91477e483aeb6aa"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d7d36759e7ec21b83a572656808e2837d85ba321764ebd3a887f1beab2f1b706-financial_report.html",
+    "bytes": 5105,
+    "sha256": "d7d36759e7ec21b83a572656808e2837d85ba321764ebd3a887f1beab2f1b706"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d7d36759e7ec21b83a572656808e2837d85ba321764ebd3a887f1beab2f1b706-financial_report.json",
+    "bytes": 1059,
+    "sha256": "90c23b288626625c8cb0b0fbabd8e0b6127ebf287085252cde94f41adf85d847"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d8fcc25eb3341e05b682ef727b40d7e5d46257cced44f43f0b7c07701a6eda29-financial_report.html",
+    "bytes": 7818,
+    "sha256": "d8fcc25eb3341e05b682ef727b40d7e5d46257cced44f43f0b7c07701a6eda29"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-d8fcc25eb3341e05b682ef727b40d7e5d46257cced44f43f0b7c07701a6eda29-financial_report.json",
+    "bytes": 1154,
+    "sha256": "a1d52fe06a32edff2e778613a735191b995d5df1e416e3bea21279b26deff11d"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702-financial_report.html",
+    "bytes": 5072,
+    "sha256": "e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702-financial_report.json",
+    "bytes": 1058,
+    "sha256": "aa14b93bc24778022665c9c4f09d6babdd1ab1918a58ddc407ad0b78e2b01a04"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-e6b46a3fb9b0da31910cdfecdc49630f4a9c7aa7b2815739b716f99e0d53bde8-financial_report.html",
+    "bytes": 3980,
+    "sha256": "e6b46a3fb9b0da31910cdfecdc49630f4a9c7aa7b2815739b716f99e0d53bde8"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-e6b46a3fb9b0da31910cdfecdc49630f4a9c7aa7b2815739b716f99e0d53bde8-financial_report.json",
+    "bytes": 1081,
+    "sha256": "a51ff63f93d3c3f81475bedf47646b3b92eed91ed808fe67ef04e9931595f1c9"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-e6c7b656eca64f5af16e278cc9ffb80197b2656211755104fc6724ea257d083c-financial_report.html",
+    "bytes": 5110,
+    "sha256": "e6c7b656eca64f5af16e278cc9ffb80197b2656211755104fc6724ea257d083c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-e6c7b656eca64f5af16e278cc9ffb80197b2656211755104fc6724ea257d083c-financial_report.json",
+    "bytes": 1060,
+    "sha256": "d0cc18726ffc86912e3e07860de19c728b5f160e7852ab52efeb5b875139d1f2"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-ed6cb4c216f1a9a866c922cbc9ca128c90e89da7eb21c2275c146ee73800da85-financial_report.html",
+    "bytes": 4005,
+    "sha256": "ed6cb4c216f1a9a866c922cbc9ca128c90e89da7eb21c2275c146ee73800da85"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-ed6cb4c216f1a9a866c922cbc9ca128c90e89da7eb21c2275c146ee73800da85-financial_report.json",
+    "bytes": 1081,
+    "sha256": "f6c6790629b30ecd49d9fd253886b6a88bbdbed84ceda2ac80b392fe9068817c"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-f5e0a374a43acbd5de46e7d3d20a8f1c347f2a9797466954233fc10571d15011-financial_report.html",
+    "bytes": 5140,
+    "sha256": "f5e0a374a43acbd5de46e7d3d20a8f1c347f2a9797466954233fc10571d15011"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-f5e0a374a43acbd5de46e7d3d20a8f1c347f2a9797466954233fc10571d15011-financial_report.json",
+    "bytes": 1086,
+    "sha256": "21f7ac7bc0462d8b540ad433527df9cb7b69322b06424b26849d23102721bccc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488-tsf_table.html",
+    "bytes": 20678,
+    "sha256": "f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488-tsf_table.json",
+    "bytes": 1920,
+    "sha256": "ec1f5146a751bac7df6c2ee7dacf2d4917d57134966965927d54f51bb1148fcc"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-fd4afc17919def96561f6c2fd282e1686cbb6707e207f3e0f558c17afdb22564-financial_report.html",
+    "bytes": 5758,
+    "sha256": "fd4afc17919def96561f6c2fd282e1686cbb6707e207f3e0f558c17afdb22564"
+  },
+  {
+    "file": "src/china_macro/bundled_snapshots/pbc-fd4afc17919def96561f6c2fd282e1686cbb6707e207f3e0f558c17afdb22564-financial_report.json",
+    "bytes": 1086,
+    "sha256": "4c7ee40a18b2557862c001bd166e4c2837be04f91be8ac15ba7641f560f0530b"
+  }
+]

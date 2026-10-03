@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:00+00:00",
+  "sha256": "c913f374e1fc7ed87289139f96c5a08d0a59ad8a14f65971dca586916669ef8c",
+  "key": "cpi_mom",
+  "period": "2024-12",
+  "value": 0.0,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250109_1958170.html",
+  "source_title": "2024年12月份居民消费价格同比上涨0.1%",
+  "published": "2025-01-09",
+  "original_sha256": "c2030edc0ed49efcb9e924b1ce24c1f423577209367ef784c3c6d282f4fa3d95",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:51+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202203/t20220318_3796233.htm",
+  "source_title": "2022年1-2月财政收支情况",
+  "period": "2022-02",
+  "published": "2022-03-18",
+  "sha256": "75163ed652ad2dbe9f93225be1af6c38e9c22e5ef3d7e93be1a6aaf695736046",
+  "observation_count": 10,
+  "original_sha256": "d7d2734f48c74ff7089f78a6f5314ed463ca32dd518dfa21c4f3e3b27e028377",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:21+00:00",
+  "sha256": "1ff7e268fd69a5c1cfea50f773e8e07cd68c183e4076c7fd8946fa6a131db541",
+  "key": "ppi_mom",
+  "period": "2023-03",
+  "value": 0.0,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938508.html",
+  "source_title": "2023年3月份工业生产者出厂价格同比下降2.5% 环比持平",
+  "published": "2023-04-11",
+  "original_sha256": "385a0d06868e721741f8357d396e45553d1bd414bf98edef729c1342487101ac",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

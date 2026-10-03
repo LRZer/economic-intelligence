@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196",
+  "key": "export_yoy",
+  "period": "2021-09",
+  "value": 19.9,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901240.html",
+  "source_title": "前三季度国民经济总体保持恢复态势",
+  "published": "2021-10-18",
+  "original_sha256": "785b7105b09d6f2f9683ff0aaec77396f2881e7d17c3ffd8db510ad332e161d1",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

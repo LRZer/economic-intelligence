@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:21:03+00:00",
+  "sha256": "68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4",
+  "key": "cpi_yoy",
+  "period": "2024-01",
+  "value": -0.8,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947623.html",
+  "source_title": "2024年1月份居民消费价格环比上涨0.3%",
+  "published": "2024-02-08",
+  "original_sha256": "e42c30e7c6ee1b407940f8f9bc40b7bef111f8a91b796c5bac428320feaad44a",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

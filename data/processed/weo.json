@@ -1,0 +1,114 @@
+{
+  "provider": "IMF WEO DataMapper",
+  "source_url": "https://data.imf.org/Datasets/WEO",
+  "api_url": "https://www.imf.org/external/datamapper/api/v2",
+  "vintage": "April 2026",
+  "downloaded_at_utc": "2026-09-26T21:46:43.451917+00:00",
+  "years": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031
+  ],
+  "countries": 191,
+  "indicators": 15,
+  "rows": 17190,
+  "available_values": 16455,
+  "indicator_catalog": {
+    "NGDP_RPCH": {
+      "name_zh": "实际 GDP 增长率",
+      "label_en": "Real GDP growth",
+      "unit": "Annual percent change",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "NGDPD": {
+      "name_zh": "现价 GDP（美元）",
+      "label_en": "GDP, current prices",
+      "unit": "Billions of U.S. dollars",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "NGDPDPC": {
+      "name_zh": "人均现价 GDP（美元）",
+      "label_en": "GDP per capita, current prices\n",
+      "unit": "U.S. dollars per capita",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "PPPGDP": {
+      "name_zh": "购买力平价 GDP",
+      "label_en": "GDP, current prices",
+      "unit": "Purchasing power parity; billions of international dollars",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "PPPPC": {
+      "name_zh": "人均购买力平价 GDP",
+      "label_en": "GDP per capita, current prices",
+      "unit": "Purchasing power parity; international dollars per capita",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "PPPSH": {
+      "name_zh": "全球购买力平价 GDP 份额",
+      "label_en": "GDP based on PPP, share of world",
+      "unit": "Percent of World",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "PPPEX": {
+      "name_zh": "购买力平价换算率",
+      "label_en": "Implied PPP conversion rate",
+      "unit": "National currency per international dollar",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "PCPIPCH": {
+      "name_zh": "平均消费者价格涨幅",
+      "label_en": "Inflation rate, average consumer prices",
+      "unit": "Annual percent change",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "PCPIEPCH": {
+      "name_zh": "期末消费者价格涨幅",
+      "label_en": "Inflation rate, end of period consumer prices",
+      "unit": "Annual percent change",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "LP": {
+      "name_zh": "人口",
+      "label_en": "Population",
+      "unit": "Millions of people",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "BCA": {
+      "name_zh": "经常账户余额（美元）",
+      "label_en": "Current account balance\nU.S. dollars",
+      "unit": "Billions of U.S. dollars",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "BCA_NGDPD": {
+      "name_zh": "经常账户余额占 GDP",
+      "label_en": "Current account balance, percent of GDP",
+      "unit": "Percent of GDP",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "LUR": {
+      "name_zh": "失业率",
+      "label_en": "Unemployment rate",
+      "unit": "Percent",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "GGXCNL_NGDP": {
+      "name_zh": "广义政府净借贷占 GDP",
+      "label_en": "General government net lending/borrowing",
+      "unit": "Percent of GDP",
+      "source": "World Economic Outlook (April 2026)"
+    },
+    "GGXWDG_NGDP": {
+      "name_zh": "广义政府总债务占 GDP",
+      "label_en": "General government gross debt",
+      "unit": "Percent of GDP",
+      "source": "World Economic Outlook (April 2026)"
+    }
+  },
+  "status": "IMF staff projection; not observed WDI data",
+  "coverage_note": "DataMapper WEO subset, not the full WEO database; July 2026 partial WEO Update is not included",
+  "parquet_sha256": "39fd7be70d30854f46ac96987de8dc9bd3c3137b027264feaac5500b12e04050"
+}

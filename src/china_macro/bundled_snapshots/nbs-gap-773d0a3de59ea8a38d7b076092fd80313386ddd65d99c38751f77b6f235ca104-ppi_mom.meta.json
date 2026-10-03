@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:35+00:00",
+  "sha256": "773d0a3de59ea8a38d7b076092fd80313386ddd65d99c38751f77b6f235ca104",
+  "key": "ppi_mom",
+  "period": "2025-08",
+  "value": 0.0,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961108.html",
+  "source_title": "2025年8月份工业生产者出厂价格同比降幅收窄 环比由降转平",
+  "published": "2025-09-10",
+  "original_sha256": "bfee1562912c4df1f439cf2e9dc1790c718a5f6113b16586c63415083f25d881",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

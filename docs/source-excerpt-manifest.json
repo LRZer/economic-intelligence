@@ -1,0 +1,3083 @@
+{
+  "method": "statistical-excerpt-v1",
+  "records": [
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202411/t20241118_3947753.htm",
+      "original_sha256": "04d6f7d293044be74788a33aeb7f3e7db07d9b55cd21e7b23c0efe5a631f4a26",
+      "excerpt_sha256": "6126e25bf7320923dd90fb3755016a832b0885701755a7242d0a4ba2f3e21302",
+      "excerpt_file": "mof-fiscal-6126e25bf7320923dd90fb3755016a832b0885701755a7242d0a4ba2f3e21302.html",
+      "original_bytes": 19061,
+      "excerpt_bytes": 4161,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202304/t20230417_3879297.htm",
+      "original_sha256": "065a2ce27f5d1f4a30efb505ccf23711ea6cd73fb25664c5f292be07d4ab08d1",
+      "excerpt_sha256": "a86003111d728c0099effaa43086e4bbab37573d1c384e5671f8c1dd6985bba7",
+      "excerpt_file": "mof-fiscal-a86003111d728c0099effaa43086e4bbab37573d1c384e5671f8c1dd6985bba7.html",
+      "original_bytes": 32543,
+      "excerpt_bytes": 7967,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202408/t20240826_3942479.htm",
+      "original_sha256": "067ec27d8f5f251291dd25352f2f292733c9c9e74403d140a9b5a30ba652c489",
+      "excerpt_sha256": "d48b40d236e09571d65018666e9bedb707d675d46587dd92ddff66e87c6ae548",
+      "excerpt_file": "mof-fiscal-d48b40d236e09571d65018666e9bedb707d675d46587dd92ddff66e87c6ae548.html",
+      "original_bytes": 19682,
+      "excerpt_bytes": 4448,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202604/t20260424_3988324.htm",
+      "original_sha256": "0c4652ea0de48d8d45491192a1ebdc28e860868ee347dd15ba719492c0fbce7e",
+      "excerpt_sha256": "fadfec601b85c7026039db727d97ac5a3635160cb8e412841a859db7b55bb5db",
+      "excerpt_file": "mof-fiscal-fadfec601b85c7026039db727d97ac5a3635160cb8e412841a859db7b55bb5db.html",
+      "original_bytes": 34179,
+      "excerpt_bytes": 8422,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202201/t20220128_3785692.htm",
+      "original_sha256": "0f4921f527a956dcc4fca966252d17ddf85313c2716793934cec5b5bb820c27c",
+      "excerpt_sha256": "5d908f73c60864aa74f0fe088787399ad7521e68337bc7d254458fa2a179c3ed",
+      "excerpt_file": "mof-fiscal-5d908f73c60864aa74f0fe088787399ad7521e68337bc7d254458fa2a179c3ed.html",
+      "original_bytes": 35084,
+      "excerpt_bytes": 9152,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202505/t20250520_3964136.htm",
+      "original_sha256": "13a41dd78924854705e37471ab2517f144bcafaf611f9ff8a446650b48e1b0b8",
+      "excerpt_sha256": "bd78cdd8a5ef36da5d0025139649f64a6a6e2a92d05877716f83459bba2c9e76",
+      "excerpt_file": "mof-fiscal-bd78cdd8a5ef36da5d0025139649f64a6a6e2a92d05877716f83459bba2c9e76.html",
+      "original_bytes": 19230,
+      "excerpt_bytes": 4186,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202405/t20240517_3935136.htm",
+      "original_sha256": "18bf5ea6a74fb4525454076cca1032a08077445ccbd024f8b14c07f499997391",
+      "excerpt_sha256": "834aaf7eb5d662b429d938438adb1c438dcbec0b1146d79c6ccd2e51c704919a",
+      "excerpt_file": "mof-fiscal-834aaf7eb5d662b429d938438adb1c438dcbec0b1146d79c6ccd2e51c704919a.html",
+      "original_bytes": 34312,
+      "excerpt_bytes": 8528,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202303/t20230317_3873328.htm",
+      "original_sha256": "1c09f915d4d0e383d3b949e30b91d7ea3dd0c05fc526ade5897047803fee853e",
+      "excerpt_sha256": "7e9d7ba75586baa3fabb5707ded38655df7bb260a725a8fc40be2d43b3cdc3eb",
+      "excerpt_file": "mof-fiscal-7e9d7ba75586baa3fabb5707ded38655df7bb260a725a8fc40be2d43b3cdc3eb.html",
+      "original_bytes": 19092,
+      "excerpt_bytes": 4142,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202501/t20250124_3955083.htm",
+      "original_sha256": "1e108a6ec893fc0e694938381df2afdc58a518933563fb3f3a62599b26931c99",
+      "excerpt_sha256": "59abc8e4b721de74a76074ec0aae514770dbf96edfaa8891aadd502835ec7d54",
+      "excerpt_file": "mof-fiscal-59abc8e4b721de74a76074ec0aae514770dbf96edfaa8891aadd502835ec7d54.html",
+      "original_bytes": 20090,
+      "excerpt_bytes": 5038,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202312/t20231215_3922522.htm",
+      "original_sha256": "1e6201ece3bde97b6a7db7f9d0ede2d473355a47042294fd0d3d1ce8597b405b",
+      "excerpt_sha256": "e7630688bf167742265658d24e1e316bbabf5dce21f9461b7efcc72806df99ff",
+      "excerpt_file": "mof-fiscal-e7630688bf167742265658d24e1e316bbabf5dce21f9461b7efcc72806df99ff.html",
+      "original_bytes": 19083,
+      "excerpt_bytes": 4236,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202508/t20250819_3970405.htm",
+      "original_sha256": "1ebdf9ca1b2a50a3e06f4ee7c8faf8817b8bdfeabef9441ff03a4b6ba3c8245c",
+      "excerpt_sha256": "670e0511f014dcfeaabcebf7d93444b71f60c3b2a1eefffa7c157616b0e25b9d",
+      "excerpt_file": "mof-fiscal-670e0511f014dcfeaabcebf7d93444b71f60c3b2a1eefffa7c157616b0e25b9d.html",
+      "original_bytes": 19201,
+      "excerpt_bytes": 4182,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202305/t20230518_3885232.htm",
+      "original_sha256": "2a9a9d7d6abcde2d0231cf5d9106a742745262283684780b03fda4cfe1deba12",
+      "excerpt_sha256": "489cac1dadb3bcdab6639052c8f74c4e2edcdfcb616da6c71cd72c0ff73125af",
+      "excerpt_file": "mof-fiscal-489cac1dadb3bcdab6639052c8f74c4e2edcdfcb616da6c71cd72c0ff73125af.html",
+      "original_bytes": 32519,
+      "excerpt_bytes": 8000,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202404/t20240422_3933193.htm",
+      "original_sha256": "2cefe0ab50612ee7359d14c464ee2157d54f92e7b35d959d24ea39f18140b501",
+      "excerpt_sha256": "7e755b839bba8f966f45ec9b1d1486b752dcfe662861fc30e47b3235070fb80e",
+      "excerpt_file": "mof-fiscal-7e755b839bba8f966f45ec9b1d1486b752dcfe662861fc30e47b3235070fb80e.html",
+      "original_bytes": 19302,
+      "excerpt_bytes": 4382,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202207/t20220714_3827010.htm",
+      "original_sha256": "3e62b97171e1a427a1bdef1e05cb40382792918bee3d59ef7c5a734e8de72b8d",
+      "excerpt_sha256": "d86e394123c680f494e72d97a39b38b19d17724098e10a464ff2d32eca7b9ccd",
+      "excerpt_file": "mof-fiscal-d86e394123c680f494e72d97a39b38b19d17724098e10a464ff2d32eca7b9ccd.html",
+      "original_bytes": 21443,
+      "excerpt_bytes": 6573,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202104/t20210421_3689433.htm",
+      "original_sha256": "46bf642718f01ddb7b874a87171dfbb0de914298c24b06b088559e73c96d6137",
+      "excerpt_sha256": "83f975b97209e69c243c9bfd0f7b9256938336085d27e41904291d3531841403",
+      "excerpt_file": "mof-fiscal-83f975b97209e69c243c9bfd0f7b9256938336085d27e41904291d3531841403.html",
+      "original_bytes": 19732,
+      "excerpt_bytes": 4166,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202512/t20251217_3979392.htm",
+      "original_sha256": "4c5abd0f15da058c4444ca80702bd51cae75ae054b985b177c1abfb74f93e6f6",
+      "excerpt_sha256": "3c2a79b00675f22d80bb40aba1ae6c98fcf9b0a43e78fc07365f079cf0c955bc",
+      "excerpt_file": "mof-fiscal-3c2a79b00675f22d80bb40aba1ae6c98fcf9b0a43e78fc07365f079cf0c955bc.html",
+      "original_bytes": 19277,
+      "excerpt_bytes": 4210,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202507/t20250725_3968635.htm",
+      "original_sha256": "4d1882cdb74d0f0c0142f93bd663cbbf423121a1cac31b11645571722388ea30",
+      "excerpt_sha256": "ccda45122e767f20cc1cd9183f67b5733fd4664ebd857e16521cf2d98d609e84",
+      "excerpt_file": "mof-fiscal-ccda45122e767f20cc1cd9183f67b5733fd4664ebd857e16521cf2d98d609e84.html",
+      "original_bytes": 19276,
+      "excerpt_bytes": 4205,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202306/t20230616_3891062.htm",
+      "original_sha256": "4fe77a663dd1674dddc7fea59278dafc5dbb7846fcd9e70199653cf67a000d4b",
+      "excerpt_sha256": "6320a6f11cdfbed9fa97dcde82c6ae24c13f4fd32839ff79b99739670d7c85f1",
+      "excerpt_file": "mof-fiscal-6320a6f11cdfbed9fa97dcde82c6ae24c13f4fd32839ff79b99739670d7c85f1.html",
+      "original_bytes": 18984,
+      "excerpt_bytes": 4120,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202211/t20221116_3851724.htm",
+      "original_sha256": "5218db78d3f405c89af3feca13f1d4d99493fa86210170c32897505a4af19318",
+      "excerpt_sha256": "33a848918519d9b42a3e6675fc136984d60cc137a6d7bd723a2c5dc8f4eac057",
+      "excerpt_file": "mof-fiscal-33a848918519d9b42a3e6675fc136984d60cc137a6d7bd723a2c5dc8f4eac057.html",
+      "original_bytes": 35212,
+      "excerpt_bytes": 8772,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202110/t20211022_3760014.htm",
+      "original_sha256": "53a3da5700985a8c87b183dc91859531702896d3ff0827136132d8ef422bdc86",
+      "excerpt_sha256": "d8aec1c7504024d903affcf63b5279bccbdf42845f8a94b8ec0daed97d50dc28",
+      "excerpt_file": "mof-fiscal-d8aec1c7504024d903affcf63b5279bccbdf42845f8a94b8ec0daed97d50dc28.html",
+      "original_bytes": 37884,
+      "excerpt_bytes": 7827,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202208/t20220817_3834300.htm",
+      "original_sha256": "54a35b78dd234ac51bd07084ba828f091642738c41302bbdbe70e89650f2b573",
+      "excerpt_sha256": "bf73f319f3873c0eded38691cb774f99bf910c6f38d51292408263783c9ff6a8",
+      "excerpt_file": "mof-fiscal-bf73f319f3873c0eded38691cb774f99bf910c6f38d51292408263783c9ff6a8.html",
+      "original_bytes": 20014,
+      "excerpt_bytes": 4815,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202402/t20240201_3928009.htm",
+      "original_sha256": "5b003151d788da18bcdcb73f8bc93cf01efdbb53ae492894df5a6e2a9f63c9c6",
+      "excerpt_sha256": "e414e33ee81ef8f741e9e40dc0a94efe93b68d1fde5bdbf4b4a100b6e7c67389",
+      "excerpt_file": "mof-fiscal-e414e33ee81ef8f741e9e40dc0a94efe93b68d1fde5bdbf4b4a100b6e7c67389.html",
+      "original_bytes": 19191,
+      "excerpt_bytes": 4932,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202210/t20221025_3847842.htm",
+      "original_sha256": "5c2abcb64f55c99537499fbfc0bab2fe2dee6a67afa75490a12761e8d65c289d",
+      "excerpt_sha256": "53900017e47fd5dba49f3ca1be0f91a322380b21ffdb1dfdc2ebb69a8ccea9ca",
+      "excerpt_file": "mof-fiscal-53900017e47fd5dba49f3ca1be0f91a322380b21ffdb1dfdc2ebb69a8ccea9ca.html",
+      "original_bytes": 35712,
+      "excerpt_bytes": 9464,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202406/t20240624_3937803.htm",
+      "original_sha256": "5d38906c4e13a18dfd7e82c59b4a4d3f23d61555b49e36c6652403881439118c",
+      "excerpt_sha256": "9213fd9cd6e3731c9d338479f650a507678d9e5982d7dce882be2c79cc8083b3",
+      "excerpt_file": "mof-fiscal-9213fd9cd6e3731c9d338479f650a507678d9e5982d7dce882be2c79cc8083b3.html",
+      "original_bytes": 19259,
+      "excerpt_bytes": 4395,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202609/t20260918_3997709.htm",
+      "original_sha256": "5e47ce002478d8985d251cde0d2f11da89c48dab4a754aebf4dadf768c4f8e21",
+      "excerpt_sha256": "d8ac9939b1503cf5fe341d80fd5d0dbf57bc3474d1282769c83f3a2fd288624f",
+      "excerpt_file": "mof-fiscal-d8ac9939b1503cf5fe341d80fd5d0dbf57bc3474d1282769c83f3a2fd288624f.html",
+      "original_bytes": 33626,
+      "excerpt_bytes": 8486,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202209/t20220916_3840932.htm",
+      "original_sha256": "5fa1917a8255800e656e121ea17650bf733b8f3014b1572ae7a53d7bad4e1396",
+      "excerpt_sha256": "4fb395e8ad474bc1b0e625f5d365b838bb1693c1f745f25aeced69eba52fe7f3",
+      "excerpt_file": "mof-fiscal-4fb395e8ad474bc1b0e625f5d365b838bb1693c1f745f25aeced69eba52fe7f3.html",
+      "original_bytes": 19267,
+      "excerpt_bytes": 4837,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202205/t20220517_3810958.htm",
+      "original_sha256": "6fd22d038128774171b3fe4121a45c0b39fe0fa71d2e59b10a5c6dd62872de90",
+      "excerpt_sha256": "4bd085588dbeb6181f7e3e1b8bbd33a5059a9be6c258e9db4cbb2fefe06f4311",
+      "excerpt_file": "mof-fiscal-4bd085588dbeb6181f7e3e1b8bbd33a5059a9be6c258e9db4cbb2fefe06f4311.html",
+      "original_bytes": 21963,
+      "excerpt_bytes": 7091,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202606/t20260622_3992033.htm",
+      "original_sha256": "728da7419df86e9b88957bc444fa6583d4705304737434772fee7690e309db7e",
+      "excerpt_sha256": "9f0934389bd16cd1bf517c34854545d1299d18394b905b3bc42bec31cf2d533b",
+      "excerpt_file": "mof-fiscal-9f0934389bd16cd1bf517c34854545d1299d18394b905b3bc42bec31cf2d533b.html",
+      "original_bytes": 34288,
+      "excerpt_bytes": 8268,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202308/t20230821_3903162.htm",
+      "original_sha256": "74e05518001bb970efe56bad0d823d884ef3a5e29df802d9ec1ede4ed5bf9767",
+      "excerpt_sha256": "240270fd8f3b31fbe1f6f5537fadc55b99248bea603ce77b6e7fc19f9bea82b7",
+      "excerpt_file": "mof-fiscal-240270fd8f3b31fbe1f6f5537fadc55b99248bea603ce77b6e7fc19f9bea82b7.html",
+      "original_bytes": 33797,
+      "excerpt_bytes": 8573,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202506/t20250620_3966204.htm",
+      "original_sha256": "796370728b8b620f6823cb65afc0de884afc02e150e0ede3f79c3d4868100e26",
+      "excerpt_sha256": "80c1b0d092abaa248b4327325813b6f31a5368151026707b4ef7321c9235180e",
+      "excerpt_file": "mof-fiscal-80c1b0d092abaa248b4327325813b6f31a5368151026707b4ef7321c9235180e.html",
+      "original_bytes": 33849,
+      "excerpt_bytes": 8342,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202407/t20240722_3939942.htm",
+      "original_sha256": "799590d7c8c9754fb760be7e7b35ee68d3e6f2a29a200c76fca88edf36f3b712",
+      "excerpt_sha256": "eadb08a6da85984f4d02c9215e39cf50c49f47974ef954a17def18c8edb3feb4",
+      "excerpt_file": "mof-fiscal-eadb08a6da85984f4d02c9215e39cf50c49f47974ef954a17def18c8edb3feb4.html",
+      "original_bytes": 19303,
+      "excerpt_bytes": 4386,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202409/t20240920_3944086.htm",
+      "original_sha256": "7cf61cbef67d321c0d1c423e42505a92dab4ff64463c8dfd55eb26a617c2f566",
+      "excerpt_sha256": "7da12d604af8338476a09992918a698373b2f716062fb6c89f62da461bdda630",
+      "excerpt_file": "mof-fiscal-7da12d604af8338476a09992918a698373b2f716062fb6c89f62da461bdda630.html",
+      "original_bytes": 34203,
+      "excerpt_bytes": 8452,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202503/t20250324_3960418.htm",
+      "original_sha256": "7e5593cec26175337890d934d4be1f87935b68e0b080066c740cb526e69abab6",
+      "excerpt_sha256": "4d0c8f587724e27cba1c47ec9e0c1885e40ef36504820aca6492a5cee7e0e4b8",
+      "excerpt_file": "mof-fiscal-4d0c8f587724e27cba1c47ec9e0c1885e40ef36504820aca6492a5cee7e0e4b8.html",
+      "original_bytes": 19308,
+      "excerpt_bytes": 4193,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202603/t20260319_3985695.htm",
+      "original_sha256": "7f0fd00b88f2aeb828a849e266bb2db89440408cd38d2568a9ffc8ceb52a1496",
+      "excerpt_sha256": "65070e0a82a017968a097da84e0d51fda1ba504ce136a1b839934305c3ab3319",
+      "excerpt_file": "mof-fiscal-65070e0a82a017968a097da84e0d51fda1ba504ce136a1b839934305c3ab3319.html",
+      "original_bytes": 19252,
+      "excerpt_bytes": 4187,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202204/t20220420_3804357.htm",
+      "original_sha256": "81a24b473ba4adf3369849378e153e9a43012697e4fe567da97f0f91b7ff33f8",
+      "excerpt_sha256": "8854ba097d3a233003c68530252a982b4ab585852aae8d2fd7c6f38bbc327026",
+      "excerpt_file": "mof-fiscal-8854ba097d3a233003c68530252a982b4ab585852aae8d2fd7c6f38bbc327026.html",
+      "original_bytes": 20491,
+      "excerpt_bytes": 5328,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202510/t20251017_3974400.htm",
+      "original_sha256": "886ca22571cbcde991b967a6882e60df727cf57a06e949fcebb979a839286757",
+      "excerpt_sha256": "f8502749b3c8cf9073f530c49a8ccf1520af02196c53161c23eb9ab8d1f16e35",
+      "excerpt_file": "mof-fiscal-f8502749b3c8cf9073f530c49a8ccf1520af02196c53161c23eb9ab8d1f16e35.html",
+      "original_bytes": 33897,
+      "excerpt_bytes": 8403,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202310/t20231024_3912883.htm",
+      "original_sha256": "8886cfc400e5006b857c0384c6687c80f12483d48a497535bfc1a2c532052fd0",
+      "excerpt_sha256": "0a993e6029a8841f33008aaf878e8a21a4a6ccfc90b5e178c00b1950ae36602b",
+      "excerpt_file": "mof-fiscal-0a993e6029a8841f33008aaf878e8a21a4a6ccfc90b5e178c00b1950ae36602b.html",
+      "original_bytes": 19199,
+      "excerpt_bytes": 4243,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202412/t20241216_3949757.htm",
+      "original_sha256": "8ae6980c5105c86eb73b8b2706725c4c09ca09ba72700e972753a7fe37f89ea1",
+      "excerpt_sha256": "179d793d8daf784976a76d41b88eb3354cac47734832bcdbe2fa06fd0cace9a9",
+      "excerpt_file": "mof-fiscal-179d793d8daf784976a76d41b88eb3354cac47734832bcdbe2fa06fd0cace9a9.html",
+      "original_bytes": 19134,
+      "excerpt_bytes": 4179,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202106/t20210617_3720863.htm",
+      "original_sha256": "9cfe2b50932fd6a0bae4e9f827bd6229249a8074a1982a8f66b7a9fc7634a943",
+      "excerpt_sha256": "7daa8cbdd57c0d9029717eb76764a094f22e893df118eaa99cd019f4abbf69a0",
+      "excerpt_file": "mof-fiscal-7daa8cbdd57c0d9029717eb76764a094f22e893df118eaa99cd019f4abbf69a0.html",
+      "original_bytes": 17654,
+      "excerpt_bytes": 4089,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202511/t20251117_3976517.htm",
+      "original_sha256": "a43c7e2284323a8ba2971215f2fcb707814484bb95c2085cf1f2ccf07c01f6a2",
+      "excerpt_sha256": "ebb7d7999dd408d04c5a97aa5d6a291dd03abb8073f8e2338d95c39d46c7d05c",
+      "excerpt_file": "mof-fiscal-ebb7d7999dd408d04c5a97aa5d6a291dd03abb8073f8e2338d95c39d46c7d05c.html",
+      "original_bytes": 35035,
+      "excerpt_bytes": 8385,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202403/t20240321_3931078.htm",
+      "original_sha256": "afdb13273a20284c4efcc60fe04de0d35513f4720dc099ca4c99356825cfd63e",
+      "excerpt_sha256": "e66776efe05d5ee15dd81c3395ba807fe051ccfa994fb381444e1c9a52344c5b",
+      "excerpt_file": "mof-fiscal-e66776efe05d5ee15dd81c3395ba807fe051ccfa994fb381444e1c9a52344c5b.html",
+      "original_bytes": 19276,
+      "excerpt_bytes": 4363,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202212/t20221220_3858837.htm",
+      "original_sha256": "b34260cd14236c31769d11a172ed6a45b9a726d0f5475971f9c498361255bc93",
+      "excerpt_sha256": "e63ab58bc839d338f66fbce9a42b9fa3114b4ba6433049d31b0579965fb255be",
+      "excerpt_file": "mof-fiscal-e63ab58bc839d338f66fbce9a42b9fa3114b4ba6433049d31b0579965fb255be.html",
+      "original_bytes": 18288,
+      "excerpt_bytes": 4737,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202504/t20250418_3962244.htm",
+      "original_sha256": "b4c4108112b48184565f2ef49d9ca5863023f4f47cdfbc4f25e6ee80bbb8a687",
+      "excerpt_sha256": "c20009dab678cb92a21f0d08f40d5e3fe65c8224abf7ef57fe82e785fc9fa0e6",
+      "excerpt_file": "mof-fiscal-c20009dab678cb92a21f0d08f40d5e3fe65c8224abf7ef57fe82e785fc9fa0e6.html",
+      "original_bytes": 19248,
+      "excerpt_bytes": 4193,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm",
+      "original_sha256": "bae0004667b3392febc60a83b241b9f07c813834c3ab0f6be150553a06976a9f",
+      "excerpt_sha256": "5d47e31b9a3290cc673c7da2fcf37afc07a7ccc2173ec064bab3a1055f30b082",
+      "excerpt_file": "mof-fiscal-5d47e31b9a3290cc673c7da2fcf37afc07a7ccc2173ec064bab3a1055f30b082.html",
+      "original_bytes": 19191,
+      "excerpt_bytes": 4186,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202307/t20230719_3897130.htm",
+      "original_sha256": "bebe179d6ecac8985fa86939ce1dca46bbcf04039519dd562559fa97a640c4d9",
+      "excerpt_sha256": "1908610d5cb4238181c78f2509603a1edb79e948cecb76af8fcf2e285455dad6",
+      "excerpt_file": "mof-fiscal-1908610d5cb4238181c78f2509603a1edb79e948cecb76af8fcf2e285455dad6.html",
+      "original_bytes": 33153,
+      "excerpt_bytes": 8386,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202410/t20241025_3946291.htm",
+      "original_sha256": "cfad920c16abd90808f1f2bd8db9ca0ebb1814527c0214242ecc10edfc51fc10",
+      "excerpt_sha256": "ddb2ad22f12e94c6b8bb71dd6171c82d28ab4f8c3acfaf704265c73b4b906bfe",
+      "excerpt_file": "mof-fiscal-ddb2ad22f12e94c6b8bb71dd6171c82d28ab4f8c3acfaf704265c73b4b906bfe.html",
+      "original_bytes": 19173,
+      "excerpt_bytes": 4177,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202112/t20211217_3775786.htm",
+      "original_sha256": "d34618f9229e0e6a407495e0c80eac59f52af515c8680a2ada9a507bd7327dff",
+      "excerpt_sha256": "b66bafcab4b98425cc90cdcb8b0413eeb5e31415c7c79d72e8a63c3a566d102c",
+      "excerpt_file": "mof-fiscal-b66bafcab4b98425cc90cdcb8b0413eeb5e31415c7c79d72e8a63c3a566d102c.html",
+      "original_bytes": 19018,
+      "excerpt_bytes": 4164,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202605/t20260515_3989956.htm",
+      "original_sha256": "d6f57226dc9ab47927b54ee43354d2cdbae0526f5187ee10784a125fd2bfbfb3",
+      "excerpt_sha256": "40a9fc06d6124d10e2ec340ecbf784e55cc145822f50cd8dbc92c4dc6003927b",
+      "excerpt_file": "mof-fiscal-40a9fc06d6124d10e2ec340ecbf784e55cc145822f50cd8dbc92c4dc6003927b.html",
+      "original_bytes": 18568,
+      "excerpt_bytes": 4226,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202203/t20220318_3796233.htm",
+      "original_sha256": "d7d2734f48c74ff7089f78a6f5314ed463ca32dd518dfa21c4f3e3b27e028377",
+      "excerpt_sha256": "75163ed652ad2dbe9f93225be1af6c38e9c22e5ef3d7e93be1a6aaf695736046",
+      "excerpt_file": "mof-fiscal-75163ed652ad2dbe9f93225be1af6c38e9c22e5ef3d7e93be1a6aaf695736046.html",
+      "original_bytes": 32624,
+      "excerpt_bytes": 7911,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202601/t20260130_3982923.htm",
+      "original_sha256": "e0e4fd9e4f9571b98197a857dd5cd2c07836970556e373c03e09fb89c8f9af82",
+      "excerpt_sha256": "ab88ea449c8017b24c91c2452c547ba4ff5509fb05e5746e66ff898969e290a2",
+      "excerpt_file": "mof-fiscal-ab88ea449c8017b24c91c2452c547ba4ff5509fb05e5746e66ff898969e290a2.html",
+      "original_bytes": 36942,
+      "excerpt_bytes": 9734,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202309/t20230915_3907507.htm",
+      "original_sha256": "e3c6a66ddff959b9cd4fa9de8264da359840bc7b5cd4dd22e337d6c69c5eb0f4",
+      "excerpt_sha256": "a37692a3c6233cd6266f2ae1b5df52cf131fbb0f39c8919172c7500f806df066",
+      "excerpt_file": "mof-fiscal-a37692a3c6233cd6266f2ae1b5df52cf131fbb0f39c8919172c7500f806df066.html",
+      "original_bytes": 19311,
+      "excerpt_bytes": 4417,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202206/t20220616_3818568.htm",
+      "original_sha256": "eafb3c11e146e5128fd202ba129e80da76fc429c7ad97b0994d20bfeb6d6355b",
+      "excerpt_sha256": "8f91a6b5093fc054c16958cb8d8b82d765d45d86d3ecddd1d4c75f6755e52c90",
+      "excerpt_file": "mof-fiscal-8f91a6b5093fc054c16958cb8d8b82d765d45d86d3ecddd1d4c75f6755e52c90.html",
+      "original_bytes": 22250,
+      "excerpt_bytes": 7382,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202509/t20250917_3972555.htm",
+      "original_sha256": "ed94fcc5e954dcaa4727b0b79e02fc45c96d1340a53f395a2e3052cd32d3da5c",
+      "excerpt_sha256": "74b6e7d96f679a3062bb830e6ef3f3de8a1d0d009fc4e665ac9be664e0a2e19b",
+      "excerpt_file": "mof-fiscal-74b6e7d96f679a3062bb830e6ef3f3de8a1d0d009fc4e665ac9be664e0a2e19b.html",
+      "original_bytes": 19219,
+      "excerpt_bytes": 4185,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202107/t20210720_3739108.htm",
+      "original_sha256": "eda52c8b40fbc72ae930234c3f96aedd3dd30664d801ce7e2b22ef60c0fa6c87",
+      "excerpt_sha256": "e820f27759dc5896b31bfea1ea8bbccd99a780ba68498fab9a9d3e5fc273c04c",
+      "excerpt_file": "mof-fiscal-e820f27759dc5896b31bfea1ea8bbccd99a780ba68498fab9a9d3e5fc273c04c.html",
+      "original_bytes": 33652,
+      "excerpt_bytes": 7441,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202103/t20210318_3672268.htm",
+      "original_sha256": "f01283e2201f04f6cde62e6e71c91f3daa0f8b040c78ccd284e28026b2e08d18",
+      "excerpt_sha256": "87f4ebef68fdca21128c5fe8a65d794b09033e2464419c6fbdd0385a4435585d",
+      "excerpt_file": "mof-fiscal-87f4ebef68fdca21128c5fe8a65d794b09033e2464419c6fbdd0385a4435585d.html",
+      "original_bytes": 17662,
+      "excerpt_bytes": 4098,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202105/t20210521_3706159.htm",
+      "original_sha256": "f108429d112124b6f1a92ed8f52ecc5f6edf6dc9fa780ffee9da60c316cb01f2",
+      "excerpt_sha256": "586b97d2ae7f28c66d258c204de368cc4929b159dc363a899c864a5c84132641",
+      "excerpt_file": "mof-fiscal-586b97d2ae7f28c66d258c204de368cc4929b159dc363a899c864a5c84132641.html",
+      "original_bytes": 17674,
+      "excerpt_bytes": 4097,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202311/t20231115_3916710.htm",
+      "original_sha256": "f10ede40905341c2cfc15ba40e0968e37b648e2e480c8aa2154ff07aabd32b01",
+      "excerpt_sha256": "0ee9fbabf2ad93e2f02ed8ba644f2cea80da4a6c391c9f9169f5a5501a3347a7",
+      "excerpt_file": "mof-fiscal-0ee9fbabf2ad93e2f02ed8ba644f2cea80da4a6c391c9f9169f5a5501a3347a7.html",
+      "original_bytes": 19111,
+      "excerpt_bytes": 4243,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202109/t20210917_3753521.htm",
+      "original_sha256": "f27dea68e737c976ece30bee0673781f9fecf6b555aad3055d120b26760ff51a",
+      "excerpt_sha256": "cc5280e401eddbf1a6e1e4503fe25ff515c1587a815d05184b41559ed27c3e7f",
+      "excerpt_file": "mof-fiscal-cc5280e401eddbf1a6e1e4503fe25ff515c1587a815d05184b41559ed27c3e7f.html",
+      "original_bytes": 18457,
+      "excerpt_bytes": 4111,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202607/t20260722_3993943.htm",
+      "original_sha256": "f65e8101cac19b13c21d03d0f8150481531c32507361871461587bedc7a9c023",
+      "excerpt_sha256": "55fd8dc6d142f252b5c23175610b7a2e15ab695c308c3d81794870356112069c",
+      "excerpt_file": "mof-fiscal-55fd8dc6d142f252b5c23175610b7a2e15ab695c308c3d81794870356112069c.html",
+      "original_bytes": 34838,
+      "excerpt_bytes": 8595,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202108/t20210819_3746445.htm",
+      "original_sha256": "fcc5b9c969d6e14535901d3008fb72069811abbff68811bd6c0ba1965e4ecb66",
+      "excerpt_sha256": "2ab120c859e5e7bc6d32133d7e0b45d2c3f47a1f749b00b3f27916f83504829d",
+      "excerpt_file": "mof-fiscal-2ab120c859e5e7bc6d32133d7e0b45d2c3f47a1f749b00b3f27916f83504829d.html",
+      "original_bytes": 36097,
+      "excerpt_bytes": 7816,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202301/t20230130_3864368.htm",
+      "original_sha256": "fcdb81f8ad4d21dd45f677abe443ded51d35685458d36e6ef043f8f5f4fd42fe",
+      "excerpt_sha256": "d353832306f5468b9a3cb7e9e0430187902136c648f4afbdc2c4c2d24f12cea1",
+      "excerpt_file": "mof-fiscal-d353832306f5468b9a3cb7e9e0430187902136c648f4afbdc2c4c2d24f12cea1.html",
+      "original_bytes": 19591,
+      "excerpt_bytes": 5301,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://gks.mof.gov.cn/tongjishuju/202111/t20211119_3767219.htm",
+      "original_sha256": "ff9828a0c4e1f0329c61456479f4c4c628867657cc11661f007d84552ef786f2",
+      "excerpt_sha256": "909840052b8f67479fae2ebf12832b78c260ff1ff3d004e54c2681e5c99a3ad3",
+      "excerpt_file": "mof-fiscal-909840052b8f67479fae2ebf12832b78c260ff1ff3d004e54c2681e5c99a3ad3.html",
+      "original_bytes": 31357,
+      "excerpt_bytes": 7849,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943549.html",
+      "original_sha256": "03fed769baed68253cae65d63b9ca6e11522efddc5b2fd08b6142397b214a21a",
+      "excerpt_sha256": "f12d925cb5c41cbdca8445b7a6cf793d8ab479aadcb99468da820a8a787e6e7a",
+      "excerpt_file": "nbs-gap-f12d925cb5c41cbdca8445b7a6cf793d8ab479aadcb99468da820a8a787e6e7a.html",
+      "original_bytes": 319884,
+      "excerpt_bytes": 16069,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901462.html",
+      "original_sha256": "05a309391004cf1bcb8930cecad830b9e0d9d6e8e818321b3c587fd9c02ac130",
+      "excerpt_sha256": "474b36cc833316e516019fe38ed0196f36d8677c82e0995ae063beaa12b5f657",
+      "excerpt_file": "nbs-gap-474b36cc833316e516019fe38ed0196f36d8677c82e0995ae063beaa12b5f657.html",
+      "original_bytes": 236228,
+      "excerpt_bytes": 14683,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230315_1937194.html",
+      "original_sha256": "06bb885c81ef3d6cef3860e7ee88fa13c6665c2f083761d2a8a2247d9710a7d0",
+      "excerpt_sha256": "ff06ff64de5742d4a553054a1a440d4a3d3af9028da9ef96880018e8c4aa561c",
+      "excerpt_file": "nbs-gap-ff06ff64de5742d4a553054a1a440d4a3d3af9028da9ef96880018e8c4aa561c.html",
+      "original_bytes": 240326,
+      "excerpt_bytes": 14938,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901430.html",
+      "original_sha256": "0734a8fdf3c982ec8f9fe029bf7d28b62b11a59a3d442deb6cd263de7ef019f3",
+      "excerpt_sha256": "c663a203c999a870cf88b1ca2169328e3015460a98373ff038afbffabd55df53",
+      "excerpt_file": "nbs-gap-c663a203c999a870cf88b1ca2169328e3015460a98373ff038afbffabd55df53.html",
+      "original_bytes": 310339,
+      "excerpt_bytes": 19206,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901618.html",
+      "original_sha256": "077fcd5e819ae183355a761fe4eeb75f917727dd6adedbb726ab2db6bfd1630f",
+      "excerpt_sha256": "1c84aa287c41ae9a57948641d7ad6e7ec5312ca3f0d52e667aa305df9b803e61",
+      "excerpt_file": "nbs-gap-1c84aa287c41ae9a57948641d7ad6e7ec5312ca3f0d52e667aa305df9b803e61.html",
+      "original_bytes": 311673,
+      "excerpt_bytes": 19326,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965007.html",
+      "original_sha256": "07d7a6481da921871e5397a3927c72c1ec6cc0b04d5217cc8536ebb2791de72c",
+      "excerpt_sha256": "4df0704bcc6d84c0987ff75478c06dd568ae698f851bf140e158989cbfd8c567",
+      "excerpt_file": "nbs-gap-4df0704bcc6d84c0987ff75478c06dd568ae698f851bf140e158989cbfd8c567.html",
+      "original_bytes": 101896,
+      "excerpt_bytes": 16132,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202404/t20240416_1948569.html",
+      "original_sha256": "08866d55b75cc250ceba37de8c3c4c04c530b6308dfad8dc5c0fc4e08c2d1eb2",
+      "excerpt_sha256": "5a3c7def9c0dd38be65b64ef8e435828981bf9f1d8b118a454e4aeeabe65ec4d",
+      "excerpt_file": "nbs-gap-5a3c7def9c0dd38be65b64ef8e435828981bf9f1d8b118a454e4aeeabe65ec4d.html",
+      "original_bytes": 72310,
+      "excerpt_bytes": 13760,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241216_1957763.html",
+      "original_sha256": "0b58f5ebbc13845d6fa2699207520e862f4f4d15646b050eb56c38e2d2966690",
+      "excerpt_sha256": "ffbcc3a53bf0cade410e90ef7ec6c97a9e4ef9b22fa54d632244c4c89d8ace16",
+      "excerpt_file": "nbs-gap-ffbcc3a53bf0cade410e90ef7ec6c97a9e4ef9b22fa54d632244c4c89d8ace16.html",
+      "original_bytes": 79085,
+      "excerpt_bytes": 13599,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963922.html",
+      "original_sha256": "0d3a9603396d14d29ea7ebd19aebfde6a715bed109ec8d76d464b7fcf8bfbd00",
+      "excerpt_sha256": "56c8b0b616cd8844064cdf10d23e2bc33a1f7dc9e5227c3696b36aa18d2e3aff",
+      "excerpt_file": "nbs-gap-56c8b0b616cd8844064cdf10d23e2bc33a1f7dc9e5227c3696b36aa18d2e3aff.html",
+      "original_bytes": 107470,
+      "excerpt_bytes": 16031,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959260.html",
+      "original_sha256": "0f7da66f9f10e2d974d554cf231c11ae5155998305705efd6fc1ce4ea0b865a7",
+      "excerpt_sha256": "527b372dbd2591a57deeacaf2cd178e00332a6bbbf821df640acda1cbc1cf140",
+      "excerpt_file": "nbs-gap-527b372dbd2591a57deeacaf2cd178e00332a6bbbf821df640acda1cbc1cf140.html",
+      "original_bytes": 89886,
+      "excerpt_bytes": 15277,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230915_1942847.html",
+      "original_sha256": "0fb7cd5ebc70fda62089f8415b1d3aafb5380f9e37ac6c121756422eff069379",
+      "excerpt_sha256": "e689804afec4c57e0ffa465f0c26179d94de2416f95c43e57ca9eebdbae75bcf",
+      "excerpt_file": "nbs-gap-e689804afec4c57e0ffa465f0c26179d94de2416f95c43e57ca9eebdbae75bcf.html",
+      "original_bytes": 326515,
+      "excerpt_bytes": 19032,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901281.html",
+      "original_sha256": "12225f9c2ed570106c7830c8e38129dc2e3dcfda1431800b19de25c91f34d91b",
+      "excerpt_sha256": "508b72e9a05f0e06d8326b390c5e92538c00d281c1446130d153774da48c0032",
+      "excerpt_file": "nbs-gap-508b72e9a05f0e06d8326b390c5e92538c00d281c1446130d153774da48c0032.html",
+      "original_bytes": 327824,
+      "excerpt_bytes": 22062,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901238.html",
+      "original_sha256": "13e333c19b156b36140cdbf7018d4158959160c1f84773a441868ee4fb122208",
+      "excerpt_sha256": "53b7ab3fbb19b5c938ab5596fa122defacb9d63709b061237c8ca54923f9d4d8",
+      "excerpt_file": "nbs-gap-53b7ab3fbb19b5c938ab5596fa122defacb9d63709b061237c8ca54923f9d4d8.html",
+      "original_bytes": 309957,
+      "excerpt_bytes": 15700,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962330.html",
+      "original_sha256": "13edb6f7dbc08cfddc86119715c7a867e36229e51ead5028f6d8e94b9d1cdc77",
+      "excerpt_sha256": "618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94",
+      "excerpt_file": "nbs-gap-618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94.html",
+      "original_bytes": 629358,
+      "excerpt_bytes": 54998,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241115_1957429.html",
+      "original_sha256": "1495ebc03f54630f90946a84916066e879444e3d7937a0f0317a9cad98c98d75",
+      "excerpt_sha256": "7ceb9e52fe838c9f7766f85909fc63edac1781a64cee83a28d72b306669bfe98",
+      "excerpt_file": "nbs-gap-7ceb9e52fe838c9f7766f85909fc63edac1781a64cee83a28d72b306669bfe98.html",
+      "original_bytes": 79219,
+      "excerpt_bytes": 13582,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901328.html",
+      "original_sha256": "15935b37f25fc2a8282b40f5c6104c1f2fcc5f9e312a3a8131cd8b3d642724b6",
+      "excerpt_sha256": "b2dcd92600ab2224b3c72e2a614ae3a69e723c432937df2e18e473e929de325b",
+      "excerpt_file": "nbs-gap-b2dcd92600ab2224b3c72e2a614ae3a69e723c432937df2e18e473e929de325b.html",
+      "original_bytes": 318030,
+      "excerpt_bytes": 16924,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230715_1941273.html",
+      "original_sha256": "15a573a41b2d3c7d091f6d894c5d3c24c31b9588f29e7e12023da37b1211fa53",
+      "excerpt_sha256": "f7ea6f7862ce5499d7f2c75c757aa9b819bf3571a250088b9b29cf1544349890",
+      "excerpt_file": "nbs-gap-f7ea6f7862ce5499d7f2c75c757aa9b819bf3571a250088b9b29cf1544349890.html",
+      "original_bytes": 318651,
+      "excerpt_bytes": 18685,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901242.html",
+      "original_sha256": "18a85e8a681a0a7b447f949083eab4aa6549bdd88091df603d89919eb2f6e218",
+      "excerpt_sha256": "f4b172994e5c78c79baab810e103267cb6e9dba2830ce5049f8bc45b5d674a92",
+      "excerpt_file": "nbs-gap-f4b172994e5c78c79baab810e103267cb6e9dba2830ce5049f8bc45b5d674a92.html",
+      "original_bytes": 238958,
+      "excerpt_bytes": 15426,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901648.html",
+      "original_sha256": "1abfa3e31f96d38d2e3538c24ebd52fcba8fe2aaea8773c21f6f74d9070d2376",
+      "excerpt_sha256": "9911e0a93cc7f323c2f0477c249bdaf0240fc9a6d093783ad940b874bdc18e91",
+      "excerpt_file": "nbs-gap-9911e0a93cc7f323c2f0477c249bdaf0240fc9a6d093783ad940b874bdc18e91.html",
+      "original_bytes": 310863,
+      "excerpt_bytes": 15783,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250109_1958169.html",
+      "original_sha256": "1b1fb7ae10098104837a35e26e74a7b36ee3ac8abe1ce33583046f200e21956f",
+      "excerpt_sha256": "ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6",
+      "excerpt_file": "nbs-gap-ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6.html",
+      "original_bytes": 262716,
+      "excerpt_bytes": 15200,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948095.html",
+      "original_sha256": "1bea344433224cf9eeb4680b25993e2d012124ff4336e166cec6ee605a2f7d2f",
+      "excerpt_sha256": "305b4c3517b230ccbbc4cc722963f79f080b680613907a0ca9fd7c93712ae789",
+      "excerpt_file": "nbs-gap-305b4c3517b230ccbbc4cc722963f79f080b680613907a0ca9fd7c93712ae789.html",
+      "original_bytes": 260900,
+      "excerpt_bytes": 14752,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250309_1958915.html",
+      "original_sha256": "1da083a24b7c50be40f5f169bf5a8d0aea614d32bf414d3cae6c696191c60358",
+      "excerpt_sha256": "272b79d3796cdd4e0dc2c2b336551b168bc9bf44136fd22aa811d0e22a2fcd20",
+      "excerpt_file": "nbs-gap-272b79d3796cdd4e0dc2c2b336551b168bc9bf44136fd22aa811d0e22a2fcd20.html",
+      "original_bytes": 80412,
+      "excerpt_bytes": 14921,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958645.html",
+      "original_sha256": "1fb9457f1074ec380189857fba2e4bfd05ae80ac00f227501c29ce5434531d7f",
+      "excerpt_sha256": "b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39",
+      "excerpt_file": "nbs-gap-b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39.html",
+      "original_bytes": 70296,
+      "excerpt_bytes": 12981,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250309_1958914.html",
+      "original_sha256": "223110d637d3deab899bee47d45e981faeb58706f81dd76572d6b050747e18e7",
+      "excerpt_sha256": "ac957a282c170fb7521c794637c99ecadcc464ec54111dbfe39dd7f2dc3a2c45",
+      "excerpt_file": "nbs-gap-ac957a282c170fb7521c794637c99ecadcc464ec54111dbfe39dd7f2dc3a2c45.html",
+      "original_bytes": 89858,
+      "excerpt_bytes": 15309,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901570.html",
+      "original_sha256": "230624f7883153715f55d787377c2ff4d035a20c35fe0337c85605a5975259ed",
+      "excerpt_sha256": "98d722fe64db3e669f93e6d5fbe36444a67f674c8764b97b9794e1b5e9a02ade",
+      "excerpt_file": "nbs-gap-98d722fe64db3e669f93e6d5fbe36444a67f674c8764b97b9794e1b5e9a02ade.html",
+      "original_bytes": 315463,
+      "excerpt_bytes": 16086,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944383.html",
+      "original_sha256": "2387989887f13d68a85dfc4983cc1f9d17871b1c818834ce14158b49f1fea807",
+      "excerpt_sha256": "142f8729ac13a87611d2d1cb07ba6326ab9410198aeeb9197c3b4403a142b093",
+      "excerpt_file": "nbs-gap-142f8729ac13a87611d2d1cb07ba6326ab9410198aeeb9197c3b4403a142b093.html",
+      "original_bytes": 320079,
+      "excerpt_bytes": 16091,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230815_1941960.html",
+      "original_sha256": "2509170f423cf3476e1b2fcd4f298393351a94815e10b26d7be4e9d9954c8fa7",
+      "excerpt_sha256": "dfb9181b5ba4f51d8c1206ca7e9bf860303a6eb909194de09d6c1289cdd65305",
+      "excerpt_file": "nbs-gap-dfb9181b5ba4f51d8c1206ca7e9bf860303a6eb909194de09d6c1289cdd65305.html",
+      "original_bytes": 251050,
+      "excerpt_bytes": 15660,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241013_1956898.html",
+      "original_sha256": "2683d2ee0693bc86813d1a8ed1341b6fa542acf9c3fe982de365a71605d2aa21",
+      "excerpt_sha256": "1393d44298ce7e1e1d6d45b7368965ce970f169245b49b7ed2ef24bae4b15a72",
+      "excerpt_file": "nbs-gap-1393d44298ce7e1e1d6d45b7368965ce970f169245b49b7ed2ef24bae4b15a72.html",
+      "original_bytes": 118286,
+      "excerpt_bytes": 15342,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231215_1945573.html",
+      "original_sha256": "272ebd3d76d69b4ef18b5897c2c7218655851f0b01872d36c22be1cf3d953b51",
+      "excerpt_sha256": "4ec4da39bd51e4e683a50876fb2df367edaf72e8b0e9b4c8308263b2b054c74a",
+      "excerpt_file": "nbs-gap-4ec4da39bd51e4e683a50876fb2df367edaf72e8b0e9b4c8308263b2b054c74a.html",
+      "original_bytes": 251177,
+      "excerpt_bytes": 15825,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901457.html",
+      "original_sha256": "2911b42e270d94f51c8bb47fc4fef957a4da0421694128d9b580eb94bd5aafc4",
+      "excerpt_sha256": "bcde793538ed7c582dcc010a4ee50ea875fe0941a2ab7ad58fb1595540242b84",
+      "excerpt_file": "nbs-gap-bcde793538ed7c582dcc010a4ee50ea875fe0941a2ab7ad58fb1595540242b84.html",
+      "original_bytes": 307018,
+      "excerpt_bytes": 15533,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963658.html",
+      "original_sha256": "294646b962a087dce9526c7b28e96a0a340333387b9c7d3f965927aca7c17822",
+      "excerpt_sha256": "15ae3ba01eac25dc786e9da92f23641b79d2febec206f33f3ef844e6e40f9a31",
+      "excerpt_file": "nbs-gap-15ae3ba01eac25dc786e9da92f23641b79d2febec206f33f3ef844e6e40f9a31.html",
+      "original_bytes": 102456,
+      "excerpt_bytes": 16279,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202604/t20260410_1963264.html",
+      "original_sha256": "2a62e9d1496329d16f373115945557a14e57b8e7d3a3e3d20c13c808020341a9",
+      "excerpt_sha256": "db1642be4e2a4059df19e059f7bcd7f8acaa299d7b5183412d2691e0a97222a6",
+      "excerpt_file": "nbs-gap-db1642be4e2a4059df19e059f7bcd7f8acaa299d7b5183412d2691e0a97222a6.html",
+      "original_bytes": 99202,
+      "excerpt_bytes": 15939,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961520.html",
+      "original_sha256": "2f5562d443c396701a4e1494962b2ea443a1c54b0cc5a78abcca48deeabfdac6",
+      "excerpt_sha256": "baa0f0a9306dc8d539fef4957f55580fec0d14738e4f5a453de506cd6d07896f",
+      "excerpt_file": "nbs-gap-baa0f0a9306dc8d539fef4957f55580fec0d14738e4f5a453de506cd6d07896f.html",
+      "original_bytes": 91637,
+      "excerpt_bytes": 15415,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957352.html",
+      "original_sha256": "2f71fa819c55e26d0debc3dd47f292edc2f7bd3afb67baad1e66bbcf6088c3a3",
+      "excerpt_sha256": "dd0ce6aa65a518a842b1b7f814207dff752f0270c996510d825a0e519113e558",
+      "excerpt_file": "nbs-gap-dd0ce6aa65a518a842b1b7f814207dff752f0270c996510d825a0e519113e558.html",
+      "original_bytes": 98502,
+      "excerpt_bytes": 15471,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241018_1957044.html",
+      "original_sha256": "3237df1a86dc4c913a200b86f82a16e96f51744947bbd15da66359850a9776e7",
+      "excerpt_sha256": "6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13",
+      "excerpt_file": "nbs-gap-6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13.html",
+      "original_bytes": 307341,
+      "excerpt_bytes": 49218,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962015.html",
+      "original_sha256": "338bb3d22d4a9a97b09c3d37445c1a9bc089d9d44b4799721f93135703b53003",
+      "excerpt_sha256": "e9bc3628831870059fab0839c879c148dcb51fbcc955946bceac87f7bb35fe73",
+      "excerpt_file": "nbs-gap-e9bc3628831870059fab0839c879c148dcb51fbcc955946bceac87f7bb35fe73.html",
+      "original_bytes": 83244,
+      "excerpt_bytes": 15061,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231215_1945574.html",
+      "original_sha256": "34383e49ba9e9f81306ff03c02202a436e4520c15d1191f42370f6a2f125dfa4",
+      "excerpt_sha256": "1bb1e7cafb0d7a70c4d6d80b8d17eda2a47dc025529eed4be56c2fa9d62dfb88",
+      "excerpt_file": "nbs-gap-1bb1e7cafb0d7a70c4d6d80b8d17eda2a47dc025529eed4be56c2fa9d62dfb88.html",
+      "original_bytes": 324494,
+      "excerpt_bytes": 19156,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942696.html",
+      "original_sha256": "34399dcc0a4e7148dd536bbd85ddd54c736707153ead9343fe1eb210339d46b3",
+      "excerpt_sha256": "a8e7beaf9319ccce835ec1f212f3bc1bdbe71c9dc4f36926ef048b2663aed38d",
+      "excerpt_file": "nbs-gap-a8e7beaf9319ccce835ec1f212f3bc1bdbe71c9dc4f36926ef048b2663aed38d.html",
+      "original_bytes": 323858,
+      "excerpt_bytes": 16211,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230309_1936952.html",
+      "original_sha256": "350d5dfa85055262f5d1e27b0a24f3ba596fa601025756c3f9c62f5036942fea",
+      "excerpt_sha256": "b95226bb1885729814dfe59955707fa306b2a68fa934d1ae8497b12871787add",
+      "excerpt_file": "nbs-gap-b95226bb1885729814dfe59955707fa306b2a68fa934d1ae8497b12871787add.html",
+      "original_bytes": 316625,
+      "excerpt_bytes": 16188,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901505.html",
+      "original_sha256": "354ff6bb01f4156cc006c9f3ff448f62f2d90f61b28d8fd159b2d9e6493fb03b",
+      "excerpt_sha256": "98fcc639a51eea089a80879ea81178df720c944a5e4d5522af787ce5cda3c5df",
+      "excerpt_file": "nbs-gap-98fcc639a51eea089a80879ea81178df720c944a5e4d5522af787ce5cda3c5df.html",
+      "original_bytes": 306946,
+      "excerpt_bytes": 15542,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938508.html",
+      "original_sha256": "385a0d06868e721741f8357d396e45553d1bd414bf98edef729c1342487101ac",
+      "excerpt_sha256": "1ff7e268fd69a5c1cfea50f773e8e07cd68c183e4076c7fd8946fa6a131db541",
+      "excerpt_file": "nbs-gap-1ff7e268fd69a5c1cfea50f773e8e07cd68c183e4076c7fd8946fa6a131db541.html",
+      "original_bytes": 325924,
+      "excerpt_bytes": 15812,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901272.html",
+      "original_sha256": "386583705663bd93625282211d5898303eec91728fcdc2c3b74fa5335d704f45",
+      "excerpt_sha256": "077ebeea5156f907666306c33310eb239a86490101d40f77f66994c2c9c4c7e1",
+      "excerpt_file": "nbs-gap-077ebeea5156f907666306c33310eb239a86490101d40f77f66994c2c9c4c7e1.html",
+      "original_bytes": 317674,
+      "excerpt_bytes": 16945,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230710_1941148.html",
+      "original_sha256": "388b5c5f4452ae2e153852b9fd6321735793dde903f95422dec8f683636296d8",
+      "excerpt_sha256": "1690bc6f55ff645e7adc0f3185f767a622c950cbfbcd904b7901cbd10ab0e003",
+      "excerpt_file": "nbs-gap-1690bc6f55ff645e7adc0f3185f767a622c950cbfbcd904b7901cbd10ab0e003.html",
+      "original_bytes": 328888,
+      "excerpt_bytes": 16260,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901325.html",
+      "original_sha256": "38e47bca6be33730f0ea489e59ab8ccd2d9af95684fc0aa7d81f3763fa607312",
+      "excerpt_sha256": "5cd49796f2f771dcf00c1ad854a9d9dbe83e4f7528901e6b750c6f10d044e4b2",
+      "excerpt_file": "nbs-gap-5cd49796f2f771dcf00c1ad854a9d9dbe83e4f7528901e6b750c6f10d044e4b2.html",
+      "original_bytes": 556216,
+      "excerpt_bytes": 30999,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901269.html",
+      "original_sha256": "3963d19332cdb0d1616ac50d01f631599c654ba96f7dd012fa2b8dbd22b2423f",
+      "excerpt_sha256": "eb27fdb069deb466eef49db59713a1fe1383d3b1dbf2d6b982d5ad86719be879",
+      "excerpt_file": "nbs-gap-eb27fdb069deb466eef49db59713a1fe1383d3b1dbf2d6b982d5ad86719be879.html",
+      "original_bytes": 559546,
+      "excerpt_bytes": 30514,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950302.html",
+      "original_sha256": "3c927a63a6fd47a4ae89fc213b13ca3e7b38145e6d4035f771c595948240daa6",
+      "excerpt_sha256": "b2c5a8bdf55dd4793b5b8b5db29f49f6965dcba7f7d33efca0ac036c6e8de488",
+      "excerpt_file": "nbs-gap-b2c5a8bdf55dd4793b5b8b5db29f49f6965dcba7f7d33efca0ac036c6e8de488.html",
+      "original_bytes": 81387,
+      "excerpt_bytes": 14277,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960093.html",
+      "original_sha256": "3d58d782cebae8b8ad17e050e41e7fdd76f6c9f9d0a2df82978f6f8e4df12c46",
+      "excerpt_sha256": "a4ebaf483006b7ae7aef72f7bd69af205d964f64f52f6f1a7689cca2b0dcc5b5",
+      "excerpt_file": "nbs-gap-a4ebaf483006b7ae7aef72f7bd69af205d964f64f52f6f1a7689cca2b0dcc5b5.html",
+      "original_bytes": 109429,
+      "excerpt_bytes": 15236,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959770.html",
+      "original_sha256": "3fcd81244da3b0c441f1090cc69580ab259d16e4767796b557758d9187fb5b2f",
+      "excerpt_sha256": "cc9ecea4f083f779084482a06bee4e6b47934e038355ecf79c33138c8fc7eed1",
+      "excerpt_file": "nbs-gap-cc9ecea4f083f779084482a06bee4e6b47934e038355ecf79c33138c8fc7eed1.html",
+      "original_bytes": 98433,
+      "excerpt_bytes": 15397,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947624.html",
+      "original_sha256": "3fe87cc1df3e0db6f8f9e13cf03c0c77cb8ffd26888a2df03adf075d937912c5",
+      "excerpt_sha256": "7b8ee058beae9e07602b1459cfb3a9d31d4d702cf0f8acca9ec3bde4782bb4d8",
+      "excerpt_file": "nbs-gap-7b8ee058beae9e07602b1459cfb3a9d31d4d702cf0f8acca9ec3bde4782bb4d8.html",
+      "original_bytes": 271567,
+      "excerpt_bytes": 14275,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230809_1941863.html",
+      "original_sha256": "402364c852fbc3efa7023b7f2f34f2acb49a39c67ce23816d7ad79aaea256475",
+      "excerpt_sha256": "8745aee98f5114f9022609d71cd15eed3955e5b88423782cf2e5134f4ab59da3",
+      "excerpt_file": "nbs-gap-8745aee98f5114f9022609d71cd15eed3955e5b88423782cf2e5134f4ab59da3.html",
+      "original_bytes": 323653,
+      "excerpt_bytes": 16188,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231018_1943654.html",
+      "original_sha256": "414cd23c475f282dd24d55f3e337e9c24c0aee0e978fe42de768855032fb4a77",
+      "excerpt_sha256": "23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85",
+      "excerpt_file": "nbs-gap-23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85.html",
+      "original_bytes": 1245048,
+      "excerpt_bytes": 69955,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231018_1943656.html",
+      "original_sha256": "418497e7d4a05a8fd94ae8aed69d7d88ae9232540b007d0a3c5fe5ae49fc0234",
+      "excerpt_sha256": "d417d6560ffdf375615576bc1b6c495a05d43165c17b5dc1220831c65f4c1b61",
+      "excerpt_file": "nbs-gap-d417d6560ffdf375615576bc1b6c495a05d43165c17b5dc1220831c65f4c1b61.html",
+      "original_bytes": 322393,
+      "excerpt_bytes": 18963,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901543.html",
+      "original_sha256": "41c79ad5386694e246d1de716ea08388dc889c43e170014ea8502cc556e61d14",
+      "excerpt_sha256": "54650edb95286cb8045b0d883cd07b5b158b1309380f420e8fbab8b28ef7a22c",
+      "excerpt_file": "nbs-gap-54650edb95286cb8045b0d883cd07b5b158b1309380f420e8fbab8b28ef7a22c.html",
+      "original_bytes": 312846,
+      "excerpt_bytes": 15548,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945395.html",
+      "original_sha256": "41e8a58f253c0914fb85152458e7ab324234d32b03af61776c91663304372f87",
+      "excerpt_sha256": "329c661980dab904afaddacbdb10b92ed607b36c1eb4313771e4a9eafb669afb",
+      "excerpt_file": "nbs-gap-329c661980dab904afaddacbdb10b92ed607b36c1eb4313771e4a9eafb669afb.html",
+      "original_bytes": 321283,
+      "excerpt_bytes": 16184,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250117_1958332.html",
+      "original_sha256": "42bc6d66a8da059871e0961c8b0533bac25fad02a3030eeb503a1803eb6682be",
+      "excerpt_sha256": "3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60",
+      "excerpt_file": "nbs-gap-3805cd4be9aa2d771564bc58ec53716bdd27fc72237bc2ccc52a216382e8ff60.html",
+      "original_bytes": 346946,
+      "excerpt_bytes": 55399,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231115_1944528.html",
+      "original_sha256": "436b79f25b1af1f84c0ec752b2107b0140b777f41252d66b84c82e6d1528d7f8",
+      "excerpt_sha256": "16260fb9d7d68b2e6e6ae7c962272341fde20c541990fefb44a9b609f1a43ff3",
+      "excerpt_file": "nbs-gap-16260fb9d7d68b2e6e6ae7c962272341fde20c541990fefb44a9b609f1a43ff3.html",
+      "original_bytes": 249193,
+      "excerpt_bytes": 15669,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901421.html",
+      "original_sha256": "43e950d630810554678fa7bd6ba93c1c6509bd88bcecf68e73d686e5662083cf",
+      "excerpt_sha256": "d30897a47afbb32717c22d00c2e4968911ce67b83773a1ff92932ab9f5ad5768",
+      "excerpt_file": "nbs-gap-d30897a47afbb32717c22d00c2e4968911ce67b83773a1ff92932ab9f5ad5768.html",
+      "original_bytes": 315729,
+      "excerpt_bytes": 16269,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950304.html",
+      "original_sha256": "441bf0e0acbbc017f0ff7ae397420423d7e21813bc1be15e3ae567d08718bd56",
+      "excerpt_sha256": "1e1645430409ed8ffbefe8dcc74f65706f30caf4697ea25cd197056e06c4fc98",
+      "excerpt_file": "nbs-gap-1e1645430409ed8ffbefe8dcc74f65706f30caf4697ea25cd197056e06c4fc98.html",
+      "original_bytes": 89623,
+      "excerpt_bytes": 15060,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939347.html",
+      "original_sha256": "456ecd4a5e60a67767b4d70ece8b7361ae208286a86d77ee65fa906c7f28ef2b",
+      "excerpt_sha256": "7c7343546cca455840783c412cb884b06e7480fc8f3f276ff6b6ebffc3b69efa",
+      "excerpt_file": "nbs-gap-7c7343546cca455840783c412cb884b06e7480fc8f3f276ff6b6ebffc3b69efa.html",
+      "original_bytes": 334311,
+      "excerpt_bytes": 16171,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901671.html",
+      "original_sha256": "478da3029fda8911f9d9fd35e492539df5b2e953f809d10f8a8d8487e5ab3486",
+      "excerpt_sha256": "fd498e1336427d6958dfc6ef341ea25c463d12697a2582b0ac75ab3e11110e0a",
+      "excerpt_file": "nbs-gap-fd498e1336427d6958dfc6ef341ea25c463d12697a2582b0ac75ab3e11110e0a.html",
+      "original_bytes": 312171,
+      "excerpt_bytes": 15831,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939348.html",
+      "original_sha256": "4859a5fd193c701437ca372b1502899b122d52a053d3692378e15d1e0ac4589f",
+      "excerpt_sha256": "500295d1a5f81164b9dac5c6a926d1402c78b1225278536136df3c1baca8de5e",
+      "excerpt_file": "nbs-gap-500295d1a5f81164b9dac5c6a926d1402c78b1225278536136df3c1baca8de5e.html",
+      "original_bytes": 326312,
+      "excerpt_bytes": 16168,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901482.html",
+      "original_sha256": "48f599d283e3be12636d5f9ab4a29bd6507836e0ff155c305efeb6e2c7a50639",
+      "excerpt_sha256": "2d02b7bbe43daf65b2432fe13b9a55a8a08b908d6531253de15836ac778d2d7b",
+      "excerpt_file": "nbs-gap-2d02b7bbe43daf65b2432fe13b9a55a8a08b908d6531253de15836ac778d2d7b.html",
+      "original_bytes": 316841,
+      "excerpt_bytes": 16342,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241018_1957041.html",
+      "original_sha256": "4a182387f57d71dfc4889e306d7bf0a7d61ce1edc29aac53e1798207a0329822",
+      "excerpt_sha256": "468ad5031fe12a0857ea7cc1c65ff96ec95a0295a11d6c7a8876093db8011a1c",
+      "excerpt_file": "nbs-gap-468ad5031fe12a0857ea7cc1c65ff96ec95a0295a11d6c7a8876093db8011a1c.html",
+      "original_bytes": 79036,
+      "excerpt_bytes": 13557,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202607/t20260709_1964084.html",
+      "original_sha256": "4aa015544d25d9bd05f1a5ab8a30121ac24f7973d32ae411a17c1f5d9233ca2e",
+      "excerpt_sha256": "d4925168b5dcfe8e0f3ef508a6f3d014eb688fcfcf38705963e873b08d6731f3",
+      "excerpt_file": "nbs-gap-d4925168b5dcfe8e0f3ef508a6f3d014eb688fcfcf38705963e873b08d6731f3.html",
+      "original_bytes": 92185,
+      "excerpt_bytes": 15489,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957353.html",
+      "original_sha256": "4b07216eb304753f497f9a1c2e97996fce6887e2196b1674b17d26ef30de1a71",
+      "excerpt_sha256": "4cb070be9d16d1b9e3103c3fc3771954a98dc9dc2299fde7617a42054603b98f",
+      "excerpt_file": "nbs-gap-4cb070be9d16d1b9e3103c3fc3771954a98dc9dc2299fde7617a42054603b98f.html",
+      "original_bytes": 99581,
+      "excerpt_bytes": 14918,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901582.html",
+      "original_sha256": "4b40612785c85bc854c8f752fe0fdf5212cbbb986ae51d9fa9c5e0ec593168f0",
+      "excerpt_sha256": "6618ef2465d0b86f7148de52cd4427b27498591ca1d51c9eb433a200161f0a53",
+      "excerpt_file": "nbs-gap-6618ef2465d0b86f7148de52cd4427b27498591ca1d51c9eb433a200161f0a53.html",
+      "original_bytes": 312231,
+      "excerpt_bytes": 19301,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202510/t20251020_1961612.html",
+      "original_sha256": "4c86aaee59ee2ca43a45e8c2c632572d89a06193309bdffc45b31a2439773f0e",
+      "excerpt_sha256": "59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0",
+      "excerpt_file": "nbs-gap-59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0.html",
+      "original_bytes": 274739,
+      "excerpt_bytes": 50121,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901617.html",
+      "original_sha256": "4c981192d7791cf7860b2e9a03b4de324a6ea7d2792c7ad202c15ab9e6c04387",
+      "excerpt_sha256": "77ff4e454929930d3677bf35e272fabab7823fa07edf1d643c6aaab0356d5a7f",
+      "excerpt_file": "nbs-gap-77ff4e454929930d3677bf35e272fabab7823fa07edf1d643c6aaab0356d5a7f.html",
+      "original_bytes": 238362,
+      "excerpt_bytes": 14846,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946465.html",
+      "original_sha256": "4d46be21f4bbaa038b0d2f619b10a1c27200eb9485e50afd1ea1cdee23fff580",
+      "excerpt_sha256": "12fcc4f6f82bc6f6bd0419a1f010e0f65d73b539e368e212f2b0fab4f9ab6cb2",
+      "excerpt_file": "nbs-gap-12fcc4f6f82bc6f6bd0419a1f010e0f65d73b539e368e212f2b0fab4f9ab6cb2.html",
+      "original_bytes": 323644,
+      "excerpt_bytes": 16040,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901550.html",
+      "original_sha256": "4da9ca0e471afa436edfbb372fac792f2124ac16bf3a47558e84aa3898f07992",
+      "excerpt_sha256": "0a3f1815277e6feb4ac0d105e6e1f51081de88d11420349a837041ed6e672259",
+      "excerpt_file": "nbs-gap-0a3f1815277e6feb4ac0d105e6e1f51081de88d11420349a837041ed6e672259.html",
+      "original_bytes": 239218,
+      "excerpt_bytes": 15034,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943548.html",
+      "original_sha256": "4e552baca76bfb856a8e282e21f8e1f17d2f2baeb9b891e24ffb06d32808afcc",
+      "excerpt_sha256": "e03f9458f497759ac453ed429ac59c1e420b064ab36d346611d583765dbcf62d",
+      "excerpt_file": "nbs-gap-e03f9458f497759ac453ed429ac59c1e420b064ab36d346611d583765dbcf62d.html",
+      "original_bytes": 325485,
+      "excerpt_bytes": 16236,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202404/t20240416_1948561.html",
+      "original_sha256": "4e8b8e53b3ebc272ae04d6f927bc93eb2f2f22b4fcaf8e36df3468e874147fb8",
+      "excerpt_sha256": "21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b",
+      "excerpt_file": "nbs-gap-21c2129fe2c1e32293fd384afc6596804603af1262f8089b6a7f13d94a1c386b.html",
+      "original_bytes": 248790,
+      "excerpt_bytes": 47050,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901516.html",
+      "original_sha256": "4f8c738967746c5e5c3af63a681bc33efd7b3f45178b4f25adf5e97bf2f6eb02",
+      "excerpt_sha256": "cd2ffa9071586379f0048fff44fed3e3e7ca976f34bef0971e4a077fcf9add7a",
+      "excerpt_file": "nbs-gap-cd2ffa9071586379f0048fff44fed3e3e7ca976f34bef0971e4a077fcf9add7a.html",
+      "original_bytes": 312515,
+      "excerpt_bytes": 19363,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961112.html",
+      "original_sha256": "5154bd8ba3ab89bf8f6016fea15c710f37d3d93556504bd0d052781b2ba8ab12",
+      "excerpt_sha256": "91ef84903e4369eb7df29f8deeebfea6d1e0b19d16f08f9c03c3ebe850809864",
+      "excerpt_file": "nbs-gap-91ef84903e4369eb7df29f8deeebfea6d1e0b19d16f08f9c03c3ebe850809864.html",
+      "original_bytes": 82318,
+      "excerpt_bytes": 14733,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965263.html",
+      "original_sha256": "51ae21ecf7bf4d7289034c15fb4da05c7a764d8e5ecbe71c12b57b3bc1bd5105",
+      "excerpt_sha256": "fd4e61bf35ad1fd2a95bad41e18bb252dc86599ec1564247133bca480764fb9c",
+      "excerpt_file": "nbs-gap-fd4e61bf35ad1fd2a95bad41e18bb252dc86599ec1564247133bca480764fb9c.html",
+      "original_bytes": 98919,
+      "excerpt_bytes": 15736,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240914_1956483.html",
+      "original_sha256": "52f8f1a2aa63b139e5fc59ab3007e2f71526492c59bf58a8054f113c9289c0d3",
+      "excerpt_sha256": "840400daf44bad2c2e131fde8c5927d726d0ee83c05e93db6e4ac29317f5b624",
+      "excerpt_file": "nbs-gap-840400daf44bad2c2e131fde8c5927d726d0ee83c05e93db6e4ac29317f5b624.html",
+      "original_bytes": 78222,
+      "excerpt_bytes": 13563,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250715_1960414.html",
+      "original_sha256": "54dec4e6adee8a943a7c08b83dda5d86c58c59239296906d1f724b0365c65e04",
+      "excerpt_sha256": "18718e5da3c629f2b646a77ab272e67e3995647e428fce61b824239739997164",
+      "excerpt_file": "nbs-gap-18718e5da3c629f2b646a77ab272e67e3995647e428fce61b824239739997164.html",
+      "original_bytes": 247378,
+      "excerpt_bytes": 47934,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202404/t20240411_1948465.html",
+      "original_sha256": "55495bfc410ab827837c91dfdbb26e034e05419428e8c7b2f11445b0c0f2ea3b",
+      "excerpt_sha256": "4312006ab4e73881786464702b1f4c676153a76d19a266c8ad135d07f128d7a5",
+      "excerpt_file": "nbs-gap-4312006ab4e73881786464702b1f4c676153a76d19a266c8ad135d07f128d7a5.html",
+      "original_bytes": 234675,
+      "excerpt_bytes": 14856,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954520.html",
+      "original_sha256": "55c0ae06cab30c1a60ccf25d609ba4a03b352ed5594dcb558fabcc7898de03ec",
+      "excerpt_sha256": "025ea14d2f85e2789596d64f12c550fa29200fe217fc26334d92e91413d1b066",
+      "excerpt_file": "nbs-gap-025ea14d2f85e2789596d64f12c550fa29200fe217fc26334d92e91413d1b066.html",
+      "original_bytes": 88278,
+      "excerpt_bytes": 15462,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955949.html",
+      "original_sha256": "5a98724211b296a9df74423c50aa4362cbd0c2112ad4a4eb27f476259dcd9d1d",
+      "excerpt_sha256": "98641e7f8fcf3ab50f566ab4d69b0a158a46f011e8fc7011875b3f2f1bec2683",
+      "excerpt_file": "nbs-gap-98641e7f8fcf3ab50f566ab4d69b0a158a46f011e8fc7011875b3f2f1bec2683.html",
+      "original_bytes": 88052,
+      "excerpt_bytes": 15215,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202508/t20250809_1960634.html",
+      "original_sha256": "5aeda800af796ffdb7726a75f91fadb2d0af4bdd3fec7e265b686ea449397fd1",
+      "excerpt_sha256": "6d95111f4869a7b1d638f14e607026695911e84952af714d4302f397bd4834bd",
+      "excerpt_file": "nbs-gap-6d95111f4869a7b1d638f14e607026695911e84952af714d4302f397bd4834bd.html",
+      "original_bytes": 227012,
+      "excerpt_bytes": 15629,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956310.html",
+      "original_sha256": "5fdfbe8965b4fcc3fd0d7ecde0c9b4b5132080b33aa54bb3fd81935a6ff58437",
+      "excerpt_sha256": "56f2c850b454d0033212d2d972684858d02428b83ddacd4893d0cacb5763e875",
+      "excerpt_file": "nbs-gap-56f2c850b454d0033212d2d972684858d02428b83ddacd4893d0cacb5763e875.html",
+      "original_bytes": 107213,
+      "excerpt_bytes": 15155,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230315_1937196.html",
+      "original_sha256": "61ceb0de3ed8316e7578843bf5d0e1d6a6e238228d157d2b9881e05b011c77d7",
+      "excerpt_sha256": "c56edc5cd33393b36ad88146b5d55986664c17030978254d46b162593ba08cc5",
+      "excerpt_file": "nbs-gap-c56edc5cd33393b36ad88146b5d55986664c17030978254d46b162593ba08cc5.html",
+      "original_bytes": 303605,
+      "excerpt_bytes": 18336,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962273.html",
+      "original_sha256": "629199781ea675cc04ba109a98dd5576b312a0e9148999663c76867bf75d7c88",
+      "excerpt_sha256": "69cebe942584481e63aadbb0a3ac16ecfb64f531b0817725b18fe5e858e50c66",
+      "excerpt_file": "nbs-gap-69cebe942584481e63aadbb0a3ac16ecfb64f531b0817725b18fe5e858e50c66.html",
+      "original_bytes": 86349,
+      "excerpt_bytes": 14677,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901237.html",
+      "original_sha256": "64830b49d56731fdeb911888d5c568bcda079b2fadff13bddeef8d3aad33f5f3",
+      "excerpt_sha256": "70c3d68f7305268f739e4be6423b35a9b35f6933e8d4de396540047cec0bbebe",
+      "excerpt_file": "nbs-gap-70c3d68f7305268f739e4be6423b35a9b35f6933e8d4de396540047cec0bbebe.html",
+      "original_bytes": 313343,
+      "excerpt_bytes": 16816,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901306.html",
+      "original_sha256": "64c60754e86e4a8d142f2dcbfc66e8e76d799beaa9be2dfa001baeb4056cc896",
+      "excerpt_sha256": "40efdde31b31f3c64aff7c307e88b7d982cb7172bb86051f26f2da5bc975c0ee",
+      "excerpt_file": "nbs-gap-40efdde31b31f3c64aff7c307e88b7d982cb7172bb86051f26f2da5bc975c0ee.html",
+      "original_bytes": 240909,
+      "excerpt_bytes": 15468,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202603/t20260309_1962732.html",
+      "original_sha256": "68ac41626195b81438523b91508664104ca4f99057cf1c18cfcd07f2b66e7581",
+      "excerpt_sha256": "46388d86b80b1f8721fa6556d25f4a6d3d33478c43daaecee8405d85651ef1ad",
+      "excerpt_file": "nbs-gap-46388d86b80b1f8721fa6556d25f4a6d3d33478c43daaecee8405d85651ef1ad.html",
+      "original_bytes": 99071,
+      "excerpt_bytes": 15825,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230815_1941961.html",
+      "original_sha256": "693b838eccebb7e85c4832c0496c924a8f98b2c2d09489444fa9824e9ce33472",
+      "excerpt_sha256": "7014c7cf34dfd7cf43c075e540f8b3a411f7f8f8262baad7d15a227eddb67c62",
+      "excerpt_file": "nbs-gap-7014c7cf34dfd7cf43c075e540f8b3a411f7f8f8262baad7d15a227eddb67c62.html",
+      "original_bytes": 321349,
+      "excerpt_bytes": 18905,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940629.html",
+      "original_sha256": "6ad778883ae5e065f8e58367aa046e342d7f9931075752753bc783c305f70287",
+      "excerpt_sha256": "4412efe2035657f52455e924f75d093ab3edf19e8d09c50f38324fa27da5e47f",
+      "excerpt_file": "nbs-gap-4412efe2035657f52455e924f75d093ab3edf19e8d09c50f38324fa27da5e47f.html",
+      "original_bytes": 322931,
+      "excerpt_bytes": 19014,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901463.html",
+      "original_sha256": "6b5512b25ffc3ad6fe65716fcecc31f460824881082f9bdec7bf645637670112",
+      "excerpt_sha256": "5be3741e09b69abe085a90cbb05cb7ee7489dedeaf7f6f4e549898d370e05e46",
+      "excerpt_file": "nbs-gap-5be3741e09b69abe085a90cbb05cb7ee7489dedeaf7f6f4e549898d370e05e46.html",
+      "original_bytes": 309759,
+      "excerpt_bytes": 19177,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901515.html",
+      "original_sha256": "6be097d7b2441758848d1fa543bc1f8602b3fc758c527625205d106089b71af7",
+      "excerpt_sha256": "2aea9b9e4e6e31937782eb1e945598fbbfe7b9e113d134361aa14ddd73e4d9fb",
+      "excerpt_file": "nbs-gap-2aea9b9e4e6e31937782eb1e945598fbbfe7b9e113d134361aa14ddd73e4d9fb.html",
+      "original_bytes": 240314,
+      "excerpt_bytes": 15080,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250416_1959321.html",
+      "original_sha256": "6c364efa8dbdcebbddc072b1e680fad8d68ec343d3e724b858b54b86aea735f8",
+      "excerpt_sha256": "ce0f1e80b1da910e15f998bfe8af45bc96b252a7be97b255c3014f0822933aac",
+      "excerpt_file": "nbs-gap-ce0f1e80b1da910e15f998bfe8af45bc96b252a7be97b255c3014f0822933aac.html",
+      "original_bytes": 258239,
+      "excerpt_bytes": 47861,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202602/t20260211_1962588.html",
+      "original_sha256": "6c9e3d14a0bad085f76a86ab12ddf8f51c847639a13f5a45d7440575e68ba2c9",
+      "excerpt_sha256": "c318cd1b2b92893a481c006be5ee9c0dcebde6db76b7be7f248ced59895d23c6",
+      "excerpt_file": "nbs-gap-c318cd1b2b92893a481c006be5ee9c0dcebde6db76b7be7f248ced59895d23c6.html",
+      "original_bytes": 75457,
+      "excerpt_bytes": 13939,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954519.html",
+      "original_sha256": "6dbf0a556f9f5051094cc82e27ee2b3ad1b144f609988a3f0d94e5ca8e15de26",
+      "excerpt_sha256": "4e3fc77a8b610d9e678df0fc79dfc7e3311af59742eaf239ea48f448ec38ca4b",
+      "excerpt_file": "nbs-gap-4e3fc77a8b610d9e678df0fc79dfc7e3311af59742eaf239ea48f448ec38ca4b.html",
+      "original_bytes": 79974,
+      "excerpt_bytes": 14601,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202602/t20260211_1962587.html",
+      "original_sha256": "6f1f7997c7d192019ea231918e3ae9477a627fceba08226d8e46cce6e70eb126",
+      "excerpt_sha256": "ff7ffb7bbeb5d6ada4899d260009748dd4ee8b72079be45b7610acb9cd35ef11",
+      "excerpt_file": "nbs-gap-ff7ffb7bbeb5d6ada4899d260009748dd4ee8b72079be45b7610acb9cd35ef11.html",
+      "original_bytes": 85206,
+      "excerpt_bytes": 14319,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202301/t20230117_1892123.html",
+      "original_sha256": "6f4efdde91f2805fcd648d918fb4fbe2a0713d693fcc20b76b900672464706ce",
+      "excerpt_sha256": "e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49",
+      "excerpt_file": "nbs-gap-e519b581c7dd8f2cfeb43c3ae2f4350807c20d6b0b0abdbfa0511cb3eb26ab49.html",
+      "original_bytes": 633639,
+      "excerpt_bytes": 78768,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965008.html",
+      "original_sha256": "70508698d7405307e5daa26307152c87a206ae1f693ea3a677207c4ebda6e54c",
+      "excerpt_sha256": "dc586911d6bca967fcb7656537ab679b03ce5c48c1000d566c085fb115093394",
+      "excerpt_file": "nbs-gap-dc586911d6bca967fcb7656537ab679b03ce5c48c1000d566c085fb115093394.html",
+      "original_bytes": 92681,
+      "excerpt_bytes": 15367,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901504.html",
+      "original_sha256": "7127f51d879357cefaaf20a2e3acf2b920a5e9e258065ab2b24c3d2d97f1374f",
+      "excerpt_sha256": "7c45b6d7910db5f238e6ead09db6e9263ac25ef347cf00bf90fd14e2b69153b7",
+      "excerpt_file": "nbs-gap-7c45b6d7910db5f238e6ead09db6e9263ac25ef347cf00bf90fd14e2b69153b7.html",
+      "original_bytes": 314621,
+      "excerpt_bytes": 16165,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901483.html",
+      "original_sha256": "716b58b227945dc86c65bc606456a0cba1e09939d2d8ac949efcaabed2250154",
+      "excerpt_sha256": "b650544f1cda677d8ef5e43c2010fef1e23f2b1477f6d906ca25839bdfcabce2",
+      "excerpt_file": "nbs-gap-b650544f1cda677d8ef5e43c2010fef1e23f2b1477f6d906ca25839bdfcabce2.html",
+      "original_bytes": 308156,
+      "excerpt_bytes": 15677,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901329.html",
+      "original_sha256": "725246ce1d3505896466e9822340cfa1712111876e71b0b2c6798cdbb7ad1c40",
+      "excerpt_sha256": "2381249cd290c12a61ff7652edd30acafa1b49cfa418259b51b4bec1486e8299",
+      "excerpt_file": "nbs-gap-2381249cd290c12a61ff7652edd30acafa1b49cfa418259b51b4bec1486e8299.html",
+      "original_bytes": 309060,
+      "excerpt_bytes": 15893,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901460.html",
+      "original_sha256": "7255030afe2521a31ff04ee0b2e1d8845880359c3d70a1c7869bc1abfdbabd78",
+      "excerpt_sha256": "e3a911be9398e28e18351425949c5222198ee9b74152eae9ca6a1d18e4fd60bc",
+      "excerpt_file": "nbs-gap-e3a911be9398e28e18351425949c5222198ee9b74152eae9ca6a1d18e4fd60bc.html",
+      "original_bytes": 806510,
+      "excerpt_bytes": 47296,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240322_1948131.html",
+      "original_sha256": "728add7576f302567b461774850479d29727664ea86f9693ebfcbabede9d7f97",
+      "excerpt_sha256": "914739daebc922f1694769b1aa9f27fb6f6129745ab8164a7b5f98f597105452",
+      "excerpt_file": "nbs-gap-914739daebc922f1694769b1aa9f27fb6f6129745ab8164a7b5f98f597105452.html",
+      "original_bytes": 190512,
+      "excerpt_bytes": 13870,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944382.html",
+      "original_sha256": "739f1dc6062e027416ab9a8082e661bf84deb5578b85e79762318b826504c0c7",
+      "excerpt_sha256": "dca5eb7017bbddcef570939b98978256abcf242ad42fba00dd876e57e54cba2c",
+      "excerpt_file": "nbs-gap-dca5eb7017bbddcef570939b98978256abcf242ad42fba00dd876e57e54cba2c.html",
+      "original_bytes": 325236,
+      "excerpt_bytes": 16224,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230715_1941271.html",
+      "original_sha256": "7561aa5212cc62e06bf650f42217c70438dd10ca5975ac2e7701d9057d5e7d87",
+      "excerpt_sha256": "da47a0f23165a27c0d90e5bf58327d541d66286e86f6b45e8a689867e781462d",
+      "excerpt_file": "nbs-gap-da47a0f23165a27c0d90e5bf58327d541d66286e86f6b45e8a689867e781462d.html",
+      "original_bytes": 1249389,
+      "excerpt_bytes": 68532,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963923.html",
+      "original_sha256": "7650dd27e9a4bb890069f168b832b10f333484638c28d8915e8d9db218bd8d19",
+      "excerpt_sha256": "f54e2a4521c2df4446a6e77a9a29ddab9258ca6b08eda0cf32fd030f10c62f98",
+      "excerpt_file": "nbs-gap-f54e2a4521c2df4446a6e77a9a29ddab9258ca6b08eda0cf32fd030f10c62f98.html",
+      "original_bytes": 93435,
+      "excerpt_bytes": 15842,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250709_1960370.html",
+      "original_sha256": "770924ac3dff337e04bc6211e9d3ee89134d8747db4991f36ce333ca0a273c71",
+      "excerpt_sha256": "f0dab40489e9dd8cab18fc9442579a90885c67af168d19b4ac8adfd380fcea61",
+      "excerpt_file": "nbs-gap-f0dab40489e9dd8cab18fc9442579a90885c67af168d19b4ac8adfd380fcea61.html",
+      "original_bytes": 82682,
+      "excerpt_bytes": 14885,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202404/t20240411_1948448.html",
+      "original_sha256": "77ac3b9bf20a2e14db2b20f89ef2960cd30e9ddd855f03679d6ee071ea05c58b",
+      "excerpt_sha256": "c426822100953ac0bab41f096d0b160c2e0dbfe24742a0f1d199b361bb8310ea",
+      "excerpt_file": "nbs-gap-c426822100953ac0bab41f096d0b160c2e0dbfe24742a0f1d199b361bb8310ea.html",
+      "original_bytes": 81959,
+      "excerpt_bytes": 14523,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901240.html",
+      "original_sha256": "785b7105b09d6f2f9683ff0aaec77396f2881e7d17c3ffd8db510ad332e161d1",
+      "excerpt_sha256": "5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196",
+      "excerpt_file": "nbs-gap-5b6ed72c5f7712cb94aa26ca7afd6e6fbe7d49a93d7917b341d5dadc3f701196.html",
+      "original_bytes": 1236582,
+      "excerpt_bytes": 71776,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957689.html",
+      "original_sha256": "78af3a86df2521f047221e7b94f2b91bccae8afa8f27d6bac8d70b78908695c2",
+      "excerpt_sha256": "b47f1c647a912b0ddf71324901e768355b655e0ffdec76421a7b871391a4d807",
+      "excerpt_file": "nbs-gap-b47f1c647a912b0ddf71324901e768355b655e0ffdec76421a7b871391a4d807.html",
+      "original_bytes": 98975,
+      "excerpt_bytes": 14872,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942695.html",
+      "original_sha256": "79903cdb6b0f79a6633822a22c22d04d8f53f123a2ebf77ef30b0a43ad5f0b9b",
+      "excerpt_sha256": "6fa282de7af87dcce4a538b372172f54e568b61b19852b96189c972fe7931e0f",
+      "excerpt_file": "nbs-gap-6fa282de7af87dcce4a538b372172f54e568b61b19852b96189c972fe7931e0f.html",
+      "original_bytes": 321593,
+      "excerpt_bytes": 15847,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240815_1955983.html",
+      "original_sha256": "80348840478b587944281d537cbdaced739fc6f9e30eadab1a1e585e41f9df44",
+      "excerpt_sha256": "9459bfc7573ce65374ed96f0abd7c4b33b625c76dc281daf5d815bade591117f",
+      "excerpt_file": "nbs-gap-9459bfc7573ce65374ed96f0abd7c4b33b625c76dc281daf5d815bade591117f.html",
+      "original_bytes": 70445,
+      "excerpt_bytes": 13651,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230715_1941270.html",
+      "original_sha256": "82b178245b6a3cf3d69acf6c7fcb185a617ac04e0a9a0c5008a6c8b9c6ed0f8b",
+      "excerpt_sha256": "6782e6ecde507390e1536e056073177096d758bf88665f639f1ce520ea1f640c",
+      "excerpt_file": "nbs-gap-6782e6ecde507390e1536e056073177096d758bf88665f639f1ce520ea1f640c.html",
+      "original_bytes": 246738,
+      "excerpt_bytes": 15485,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202304/t20230418_1938732.html",
+      "original_sha256": "8373db9f61a6d800b84b8cefef59a7846fe56e88fcd2e4bf3c810f6b280489c6",
+      "excerpt_sha256": "f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa",
+      "excerpt_file": "nbs-gap-f4b1fbef26b670fab292ae9fdc9d35849cb6c871391045ce19013751d3f2b9aa.html",
+      "original_bytes": 656166,
+      "excerpt_bytes": 72204,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901307.html",
+      "original_sha256": "86d15fd7951d064052ee90e4b1c8ef12d6a356c261c40e73c94973ef83e76674",
+      "excerpt_sha256": "e8e17724e8037b7bf980a0c066da16757d64ec6884b0d37a305cf652bcfd843b",
+      "excerpt_file": "nbs-gap-e8e17724e8037b7bf980a0c066da16757d64ec6884b0d37a305cf652bcfd843b.html",
+      "original_bytes": 335576,
+      "excerpt_bytes": 22358,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955948.html",
+      "original_sha256": "86fd730d0c04e4f6bbb3d669bc8001cf736418dc7e9f9e6aa7110165dac0567b",
+      "excerpt_sha256": "4b1355d50e8526af82fbd33e202198c94c52755b6d99e95f3473ae704d8bcf14",
+      "excerpt_file": "nbs-gap-4b1355d50e8526af82fbd33e202198c94c52755b6d99e95f3473ae704d8bcf14.html",
+      "original_bytes": 81327,
+      "excerpt_bytes": 14890,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948077.html",
+      "original_sha256": "878c33461e6063cbc1558eb2625276868c81182e5304ce9337d80537c5d3d927",
+      "excerpt_sha256": "83bdb6cd0d6144d076d4f61d9bc630bddda93efcc2acb11cbc1a650f260d0c75",
+      "excerpt_file": "nbs-gap-83bdb6cd0d6144d076d4f61d9bc630bddda93efcc2acb11cbc1a650f260d0c75.html",
+      "original_bytes": 220405,
+      "excerpt_bytes": 14521,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html",
+      "original_sha256": "892a7d39195d3dda01f9d642f792faee9b05a5f7d6c5a9abfb94fbd7f887a4cc",
+      "excerpt_sha256": "39b38fe4818d3f2455c5e50e6723fda717d3274f587555d1d013cd99b2e12880",
+      "excerpt_file": "nbs-gap-39b38fe4818d3f2455c5e50e6723fda717d3274f587555d1d013cd99b2e12880.html",
+      "original_bytes": 108819,
+      "excerpt_bytes": 16448,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961822.html",
+      "original_sha256": "8a4e77f3066952a378cabefd9c0f5d11f887c7e6297fd86840c3bed91ce11255",
+      "excerpt_sha256": "ba1ff8b6a57fc0832b40fb7eb93423fc0b7e1a3d4d058af93b02ae6a7223cb81",
+      "excerpt_file": "nbs-gap-ba1ff8b6a57fc0832b40fb7eb93423fc0b7e1a3d4d058af93b02ae6a7223cb81.html",
+      "original_bytes": 88768,
+      "excerpt_bytes": 15404,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901654.html",
+      "original_sha256": "8ba1694724dec8baf88e5127309c87c7da834844bc039c1ec425f2d8ad9b5356",
+      "excerpt_sha256": "954a69c788bd5b0485aaed83c2ea0228ebc35266e3c4b668df53f761ebf07522",
+      "excerpt_file": "nbs-gap-954a69c788bd5b0485aaed83c2ea0228ebc35266e3c4b668df53f761ebf07522.html",
+      "original_bytes": 311880,
+      "excerpt_bytes": 19297,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901513.html",
+      "original_sha256": "8bfc4ab46e954db01b6249d7a3759485f6bfe5b35efddb26dfec62d4871bc6ae",
+      "excerpt_sha256": "a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31",
+      "excerpt_file": "nbs-gap-a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31.html",
+      "original_bytes": 1813384,
+      "excerpt_bytes": 95242,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963659.html",
+      "original_sha256": "8ca665f2a669932c144ae5a1df3da8c1888125aceb5d8eaab01874709f536a72",
+      "excerpt_sha256": "6dbc5f07532eb7eca18cd3e16140d45b7143e5b2c0c41f221689cbcc978ded87",
+      "excerpt_file": "nbs-gap-6dbc5f07532eb7eca18cd3e16140d45b7143e5b2c0c41f221689cbcc978ded87.html",
+      "original_bytes": 94121,
+      "excerpt_bytes": 15886,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945394.html",
+      "original_sha256": "8cf8757a481f00550f1cfb51e8dfca3af6272f226a4c8a31dacb88d075b14649",
+      "excerpt_sha256": "71d1d75f953b9577f08b634fd47ef5ed8bb59b57cd481ed9e37165d33c5b395d",
+      "excerpt_file": "nbs-gap-71d1d75f953b9577f08b634fd47ef5ed8bb59b57cd481ed9e37165d33c5b395d.html",
+      "original_bytes": 325908,
+      "excerpt_bytes": 16351,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961826.html",
+      "original_sha256": "8d82737c1747885f57aaf63c065b79c9f63524d8b441d91b06538d5b2aff69e5",
+      "excerpt_sha256": "61f16ede2e042ba337309dd41071ae01a2b2a16e6a64f07760816ee495c32c37",
+      "excerpt_file": "nbs-gap-61f16ede2e042ba337309dd41071ae01a2b2a16e6a64f07760816ee495c32c37.html",
+      "original_bytes": 81891,
+      "excerpt_bytes": 15111,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901614.html",
+      "original_sha256": "8f698b7b9b7cd8c136e2c2ad89817880b275bdd80fcdaf7dc30beca8599f5dd1",
+      "excerpt_sha256": "8bd16971d21217955ef1f33d9c294be472172e5682789ddd94279969cee05a4e",
+      "excerpt_file": "nbs-gap-8bd16971d21217955ef1f33d9c294be472172e5682789ddd94279969cee05a4e.html",
+      "original_bytes": 307542,
+      "excerpt_bytes": 15695,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901551.html",
+      "original_sha256": "94a857fa0d301dac5ac89bda6088bc82cab2dd56deb246c4e4886257b515c403",
+      "excerpt_sha256": "fc450175a3c7c2f17ff88f45172f7a6e2bf434ba28024482b43b1269a953f32e",
+      "excerpt_file": "nbs-gap-fc450175a3c7c2f17ff88f45172f7a6e2bf434ba28024482b43b1269a953f32e.html",
+      "original_bytes": 325619,
+      "excerpt_bytes": 19282,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956311.html",
+      "original_sha256": "9587e91211a8e4bd49fb3ad06f6de713d147fe989fd90c985947c2adf628405e",
+      "excerpt_sha256": "79b044e9699158a0872a8287806b9825f7bc2e667fe473c5065ebf5088dc548a",
+      "excerpt_file": "nbs-gap-79b044e9699158a0872a8287806b9825f7bc2e667fe473c5065ebf5088dc548a.html",
+      "original_bytes": 98773,
+      "excerpt_bytes": 14755,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240520_1950419.html",
+      "original_sha256": "98f618676f34bcbff742a7efa734b121e3098e9ae2beeab759b05c7d40c33b98",
+      "excerpt_sha256": "da65789411b9b78e35da09ea7a0b5c6745e0cbaf1d67a0ae232b3a0771a7ca44",
+      "excerpt_file": "nbs-gap-da65789411b9b78e35da09ea7a0b5c6745e0cbaf1d67a0ae232b3a0771a7ca44.html",
+      "original_bytes": 70958,
+      "excerpt_bytes": 13430,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958646.html",
+      "original_sha256": "9924c7b3abb095a945efd30e39e63be7eaef0407b4625f25f657be157c326594",
+      "excerpt_sha256": "adab7a293b2e49d35b5e9c10925193ceadd1dcc3f15c928d8c0f7f76026db67e",
+      "excerpt_file": "nbs-gap-adab7a293b2e49d35b5e9c10925193ceadd1dcc3f15c928d8c0f7f76026db67e.html",
+      "original_bytes": 64976,
+      "excerpt_bytes": 12749,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960094.html",
+      "original_sha256": "9953f374e3ca411b0ba4c97c5d1385b66090fc266b26080ad3eb77cfa6bb920c",
+      "excerpt_sha256": "6a731ab44d7714e46604c91171b3b69443d9a97ec87ba7b5afbf6447b7f2f69a",
+      "excerpt_file": "nbs-gap-6a731ab44d7714e46604c91171b3b69443d9a97ec87ba7b5afbf6447b7f2f69a.html",
+      "original_bytes": 101351,
+      "excerpt_bytes": 15003,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901280.html",
+      "original_sha256": "9a3cad93779b1079b6ca900d337dcef7cc8c34e09f83e58fec91709f471b17b3",
+      "excerpt_sha256": "e55dd289541626280046586632df2310e2f5928089624e45d1903c4e681fc3af",
+      "excerpt_file": "nbs-gap-e55dd289541626280046586632df2310e2f5928089624e45d1903c4e681fc3af.html",
+      "original_bytes": 239853,
+      "excerpt_bytes": 15427,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957688.html",
+      "original_sha256": "9be72178c8bf5f6f4b5294d3088df14bc4f592ec2c65227e2098e0494161a4ad",
+      "excerpt_sha256": "60e74347515549eaa70b46a64b66ec948dead4d3b92f414125fc60138774034e",
+      "excerpt_file": "nbs-gap-60e74347515549eaa70b46a64b66ec948dead4d3b92f414125fc60138774034e.html",
+      "original_bytes": 107741,
+      "excerpt_bytes": 15417,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230418_1938709.html",
+      "original_sha256": "9c5b76cd44e930db333bb9777993f0e3071b02236a21f22da213a694f5fc37cf",
+      "excerpt_sha256": "bebd0e2a4d2eacb46d29778a9dd4d3dc930f9d434be1356b0a93eebd7778123d",
+      "excerpt_file": "nbs-gap-bebd0e2a4d2eacb46d29778a9dd4d3dc930f9d434be1356b0a93eebd7778123d.html",
+      "original_bytes": 326765,
+      "excerpt_bytes": 18202,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240117_1946624.html",
+      "original_sha256": "9ca2a1a7edc683e0011444db2249bd8487ae9ecf590153d4a6c4abd4854bfbbe",
+      "excerpt_sha256": "209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7",
+      "excerpt_file": "nbs-gap-209d80230fd509093d6e6f0bb6cf2a18d47a241de51c16434749ed2b7f576fa7.html",
+      "original_bytes": 1432635,
+      "excerpt_bytes": 80132,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230309_1936953.html",
+      "original_sha256": "9e1e11bbb21a3281dae46253509ecd8ebf7029b7f1b52d0aa8bbd4dc4f83aae2",
+      "excerpt_sha256": "8a296c74fa627d507eb4234c5ef52d0b1b56540340375b68c075e2ea746fb316",
+      "excerpt_file": "nbs-gap-8a296c74fa627d507eb4234c5ef52d0b1b56540340375b68c075e2ea746fb316.html",
+      "original_bytes": 309928,
+      "excerpt_bytes": 15995,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901680.html",
+      "original_sha256": "9f08525592998a25fec61a91eff2de40853f07756ed1702ba5ce344feeb0748e",
+      "excerpt_sha256": "7fad744692f91297ed6a01748dd46451e512322cb98327ac119a85d5ef324e39",
+      "excerpt_file": "nbs-gap-7fad744692f91297ed6a01748dd46451e512322cb98327ac119a85d5ef324e39.html",
+      "original_bytes": 237369,
+      "excerpt_bytes": 14878,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901653.html",
+      "original_sha256": "a09f7857bd1bab41589a71dec2b708ee3f381d61b14128d44b5f95790178f430",
+      "excerpt_sha256": "81dc867ef01134f5bdbe89c8180c978a09867e7c0027e4a6ac5f05a120fc0338",
+      "excerpt_file": "nbs-gap-81dc867ef01134f5bdbe89c8180c978a09867e7c0027e4a6ac5f05a120fc0338.html",
+      "original_bytes": 237251,
+      "excerpt_bytes": 14839,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202508/t20250809_1960635.html",
+      "original_sha256": "a2f9a037a101778f3029061f1392fb0bac37645f3c02219239a33a24ca0c0791",
+      "excerpt_sha256": "8f992aa480110975b4aef32a9244ba67a44f4028a98c8a862a5bbb3fb2c0d98e",
+      "excerpt_file": "nbs-gap-8f992aa480110975b4aef32a9244ba67a44f4028a98c8a862a5bbb3fb2c0d98e.html",
+      "original_bytes": 86769,
+      "excerpt_bytes": 14939,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230710_1941147.html",
+      "original_sha256": "a4368693909db0bb86f6c414f6d7b2671eb576a6c6ea29f0bf08b9f500f81d8c",
+      "excerpt_sha256": "fcf4581721c470f0ee4d70faceb9072eea81aefd43373aec8f0f9d12d0bbc499",
+      "excerpt_file": "nbs-gap-fcf4581721c470f0ee4d70faceb9072eea81aefd43373aec8f0f9d12d0bbc499.html",
+      "original_bytes": 333245,
+      "excerpt_bytes": 16110,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230516_1939488.html",
+      "original_sha256": "a7723d0f8e3cf16edaee501d4ed6562ac5433fd6f7d78c478c91507b8bce94cb",
+      "excerpt_sha256": "8fdf84f1b05083965acd42908cec4819fa05769d86d4939dd4643c212f06dfee",
+      "excerpt_file": "nbs-gap-8fdf84f1b05083965acd42908cec4819fa05769d86d4939dd4643c212f06dfee.html",
+      "original_bytes": 247814,
+      "excerpt_bytes": 15564,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901581.html",
+      "original_sha256": "a7870a9d807b56c5f8ab18d5c7af11d711618325f4636db8217c268fee4e289a",
+      "excerpt_sha256": "484cc3caa38667db12eee6fdf8d54a1594f5441b6221b7d79c99f8df8baa4c8c",
+      "excerpt_file": "nbs-gap-484cc3caa38667db12eee6fdf8d54a1594f5441b6221b7d79c99f8df8baa4c8c.html",
+      "original_bytes": 238420,
+      "excerpt_bytes": 14980,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901613.html",
+      "original_sha256": "ab4ce587d1a17ea81de4f0fb6114600bb891b07180e8a8e2e8a51719fa0451cf",
+      "excerpt_sha256": "fa9753d63c02c414ca5a2306ee94e6a773477ce1c1550988429af10cd625285c",
+      "excerpt_file": "nbs-gap-fa9753d63c02c414ca5a2306ee94e6a773477ce1c1550988429af10cd625285c.html",
+      "original_bytes": 317077,
+      "excerpt_bytes": 16265,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940479.html",
+      "original_sha256": "ab9359fd345c2416c5cf0360486376e87372aa640009cef63406f2d63a7da411",
+      "excerpt_sha256": "eb996218251fad718541f9d560227830130e55f88f780b3172365eb35cd37eaf",
+      "excerpt_file": "nbs-gap-eb996218251fad718541f9d560227830130e55f88f780b3172365eb35cd37eaf.html",
+      "original_bytes": 323489,
+      "excerpt_bytes": 16038,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html",
+      "original_sha256": "abc018326fbd23f3194c6ba3c6e82d6d14b5689ea1ccd3770009968fea583c98",
+      "excerpt_sha256": "0c3d02884b2bd71a6c2fc14d6823b1fed8ffcd258b28a87d94437b37fa5687fb",
+      "excerpt_file": "nbs-gap-0c3d02884b2bd71a6c2fc14d6823b1fed8ffcd258b28a87d94437b37fa5687fb.html",
+      "original_bytes": 252408,
+      "excerpt_bytes": 16414,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901297.html",
+      "original_sha256": "ac424b807c03ea42a7a131f0a6a9102767ba73e58068b7be9c07ad8df83e05a2",
+      "excerpt_sha256": "aa05d63bb237c3e6a34fcfb81ba9a9ebc5f71e554f9f13585ec456b8311ea44b",
+      "excerpt_file": "nbs-gap-aa05d63bb237c3e6a34fcfb81ba9a9ebc5f71e554f9f13585ec456b8311ea44b.html",
+      "original_bytes": 308242,
+      "excerpt_bytes": 16094,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901489.html",
+      "original_sha256": "afe50e4918b1d93e89f9af7ab484fcf9d93edce2919ba4272b6c21e3476c4184",
+      "excerpt_sha256": "5c7885f61b5256d413ca6284f18fc24136957b1dd1a5343d97a8884986a07caf",
+      "excerpt_file": "nbs-gap-5c7885f61b5256d413ca6284f18fc24136957b1dd1a5343d97a8884986a07caf.html",
+      "original_bytes": 310183,
+      "excerpt_bytes": 19167,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901681.html",
+      "original_sha256": "b0384d1b785d4b855ebea1164cfd05f6c8725f3f46d7e5a375c70b5c4f0bb98e",
+      "excerpt_sha256": "288c23b3f59bf6b12fe9c8e41e356a620950977094394d1a39c2f10c01a4679a",
+      "excerpt_file": "nbs-gap-288c23b3f59bf6b12fe9c8e41e356a620950977094394d1a39c2f10c01a4679a.html",
+      "original_bytes": 311112,
+      "excerpt_bytes": 19320,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240131_1947009.html",
+      "original_sha256": "b0dc7bd0a4655b8d71ca6c336e9c22b5673aba8fe0f0d7fd6ccb22324807d7f9",
+      "excerpt_sha256": "8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742",
+      "excerpt_file": "nbs-gap-8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742.html",
+      "original_bytes": 576995,
+      "excerpt_bytes": 30607,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901243.html",
+      "original_sha256": "b21c91dc0a8c1e81372a7f51f7a3055c570a722f161bc8e718f0aeb4acad6fdb",
+      "excerpt_sha256": "d31d624fad542c6bdedd1f5bb6de05b8c2d17f7ee2dae3ca84c25728cb7f7913",
+      "excerpt_file": "nbs-gap-d31d624fad542c6bdedd1f5bb6de05b8c2d17f7ee2dae3ca84c25728cb7f7913.html",
+      "original_bytes": 334523,
+      "excerpt_bytes": 22331,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901486.html",
+      "original_sha256": "b24182e712e4f8ce071758b26b7514c094c047f0a8d9b66f461ac9125810300c",
+      "excerpt_sha256": "d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a",
+      "excerpt_file": "nbs-gap-d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a.html",
+      "original_bytes": 862845,
+      "excerpt_bytes": 52580,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901368.html",
+      "original_sha256": "b439cca92002e318cd03ea53916391333d9de3cc336194f0b71b8d18697348d4",
+      "excerpt_sha256": "7969c251a2b72f61c05623683ecc2b8880e53b3e3fbca15e215d45a00b67f9f9",
+      "excerpt_file": "nbs-gap-7969c251a2b72f61c05623683ecc2b8880e53b3e3fbca15e215d45a00b67f9f9.html",
+      "original_bytes": 253582,
+      "excerpt_bytes": 13396,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959771.html",
+      "original_sha256": "b4641ce5b6e9f779f853f43137d9fee2073ae6e9cd1cd5fbd1222680004a444c",
+      "excerpt_sha256": "c94ac3ac597cc0faf57ea799a0d480c18d137a57270eba842035b65c34157a9f",
+      "excerpt_file": "nbs-gap-c94ac3ac597cc0faf57ea799a0d480c18d137a57270eba842035b65c34157a9f.html",
+      "original_bytes": 79948,
+      "excerpt_bytes": 14634,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901571.html",
+      "original_sha256": "bb2b69f3dbde0fabd0aa8057689156e9e753ae1de02703024cc4acbed95c7c59",
+      "excerpt_sha256": "ccef6f4ed69d0166c538cd2ce557338ad4bf3219e87af15d53ab0b16d22b44f5",
+      "excerpt_file": "nbs-gap-ccef6f4ed69d0166c538cd2ce557338ad4bf3219e87af15d53ab0b16d22b44f5.html",
+      "original_bytes": 309258,
+      "excerpt_bytes": 15366,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963263.html",
+      "original_sha256": "bba5cd965fcfcc208f0d0de5878a9856c09ce64e2233829328b142d7c9723583",
+      "excerpt_sha256": "9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374",
+      "excerpt_file": "nbs-gap-9380e46267cbc0394de6e5a18b310f18d7fcd299da00f8189216ab8e7dbde374.html",
+      "original_bytes": 265500,
+      "excerpt_bytes": 16591,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955508.html",
+      "original_sha256": "bceeb1a8d536646a4aacb28dd356d89b28c58f8c02173e15742ad95e3df87ff1",
+      "excerpt_sha256": "5413888f4f24488f84bc7f0159119fff831bea5648a6171fd24a51191cca283b",
+      "excerpt_file": "nbs-gap-5413888f4f24488f84bc7f0159119fff831bea5648a6171fd24a51191cca283b.html",
+      "original_bytes": 81448,
+      "excerpt_bytes": 14855,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901704.html",
+      "original_sha256": "be6d13c724b6456351f0e23072b28214afc2eba7a8a629321ac86dbb4eb949f1",
+      "excerpt_sha256": "29946972e7abc9a64ca88931a54dbfa2b3e2d96b825a6a0d49bfad4a9e7193d4",
+      "excerpt_file": "nbs-gap-29946972e7abc9a64ca88931a54dbfa2b3e2d96b825a6a0d49bfad4a9e7193d4.html",
+      "original_bytes": 314215,
+      "excerpt_bytes": 16035,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961108.html",
+      "original_sha256": "bfee1562912c4df1f439cf2e9dc1790c718a5f6113b16586c63415083f25d881",
+      "excerpt_sha256": "773d0a3de59ea8a38d7b076092fd80313386ddd65d99c38751f77b6f235ca104",
+      "excerpt_file": "nbs-gap-773d0a3de59ea8a38d7b076092fd80313386ddd65d99c38751f77b6f235ca104.html",
+      "original_bytes": 90995,
+      "excerpt_bytes": 15292,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901273.html",
+      "original_sha256": "c0cc620f1c13d8f3c72c11bf8e88ae88dd86317d510975b0a90167426604a0be",
+      "excerpt_sha256": "59ba392fc124ea10d1783db0ac8467e4b545032d349d0b5dec0759e21e4addbe",
+      "excerpt_file": "nbs-gap-59ba392fc124ea10d1783db0ac8467e4b545032d349d0b5dec0759e21e4addbe.html",
+      "original_bytes": 311428,
+      "excerpt_bytes": 15888,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230418_1938708.html",
+      "original_sha256": "c1c1c26febe1b1539cd542c3b992b79d7932503c5dc677ef8bb3c68a9a0b8857",
+      "excerpt_sha256": "2104a5e89798dab81dfece96f1173dd89fe9a760ecb38575b6a5bad3590de814",
+      "excerpt_file": "nbs-gap-2104a5e89798dab81dfece96f1173dd89fe9a760ecb38575b6a5bad3590de814.html",
+      "original_bytes": 250578,
+      "excerpt_bytes": 14874,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250109_1958170.html",
+      "original_sha256": "c2030edc0ed49efcb9e924b1ce24c1f423577209367ef784c3c6d282f4fa3d95",
+      "excerpt_sha256": "c913f374e1fc7ed87289139f96c5a08d0a59ad8a14f65971dca586916669ef8c",
+      "excerpt_file": "nbs-gap-c913f374e1fc7ed87289139f96c5a08d0a59ad8a14f65971dca586916669ef8c.html",
+      "original_bytes": 97551,
+      "excerpt_bytes": 14346,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901367.html",
+      "original_sha256": "c22b4af63bf21e3b607f8ac4e49b9634964027f2e96633c98d200b111b8d21d8",
+      "excerpt_sha256": "10fbc0931887fce6c78591a2d4e30b7c3f9639100757de326a92ca3fe22ed69d",
+      "excerpt_file": "nbs-gap-10fbc0931887fce6c78591a2d4e30b7c3f9639100757de326a92ca3fe22ed69d.html",
+      "original_bytes": 263679,
+      "excerpt_bytes": 14226,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901488.html",
+      "original_sha256": "c34dbdf61384eaddb6db41d026c315812d5b01a74c2622bdb04308f3e3068c18",
+      "excerpt_sha256": "dbd3858589f503f336a9fbf15c4d167729625e488875baf90a82ea91f59f7da3",
+      "excerpt_file": "nbs-gap-dbd3858589f503f336a9fbf15c4d167729625e488875baf90a82ea91f59f7da3.html",
+      "original_bytes": 237602,
+      "excerpt_bytes": 14810,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946466.html",
+      "original_sha256": "c476cef1df1aa47e13498b318cee075d5e7b6a84fb58c7ff39520cc704b3e91f",
+      "excerpt_sha256": "60cc243b2878059bdbbf6b0d2bd21e4841e177dd38d19802398c74f3261dc5cf",
+      "excerpt_file": "nbs-gap-60cc243b2878059bdbbf6b0d2bd21e4841e177dd38d19802398c74f3261dc5cf.html",
+      "original_bytes": 319777,
+      "excerpt_bytes": 16139,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230516_1939489.html",
+      "original_sha256": "c4bf901414c79392449e709ed62f3a417b17349bc776947eb5a7051004c8f031",
+      "excerpt_sha256": "a4717723b3dcb18367d77ae9ff70ed89b9d91910c7bb495d7274868dc4aba401",
+      "excerpt_file": "nbs-gap-a4717723b3dcb18367d77ae9ff70ed89b9d91910c7bb495d7274868dc4aba401.html",
+      "original_bytes": 330087,
+      "excerpt_bytes": 19012,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230915_1942846.html",
+      "original_sha256": "cbd8746fcb1901ee0b9ff98026694030f5213a0c01d1f5acb23756b6aec674f3",
+      "excerpt_sha256": "bee67211d9a03c4e6c923bbde89665b085bc9cc2fc66191500d9e76f0f634ebe",
+      "excerpt_file": "nbs-gap-bee67211d9a03c4e6c923bbde89665b085bc9cc2fc66191500d9e76f0f634ebe.html",
+      "original_bytes": 251114,
+      "excerpt_bytes": 15792,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938507.html",
+      "original_sha256": "d225669224f3225bcc3c5cfc594515637fa6750e64d877dfbcf0b094e8ee3e0f",
+      "excerpt_sha256": "294fb4ef456b50aab7ed735a89a89ed165fda2fdd10ea22e9efc6b1ac57d0636",
+      "excerpt_file": "nbs-gap-294fb4ef456b50aab7ed735a89a89ed165fda2fdd10ea22e9efc6b1ac57d0636.html",
+      "original_bytes": 339707,
+      "excerpt_bytes": 16019,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959261.html",
+      "original_sha256": "d31158d5ab3632f2e42aedcaf44225c258d6a9bcad84c0f9ddf5a4ac39de7cc6",
+      "excerpt_sha256": "c5433af7168f31219343728a95eee19f691c3c5c93ed76fd9b5dd7c4d9488d43",
+      "excerpt_file": "nbs-gap-c5433af7168f31219343728a95eee19f691c3c5c93ed76fd9b5dd7c4d9488d43.html",
+      "original_bytes": 81672,
+      "excerpt_bytes": 14642,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955509.html",
+      "original_sha256": "d4d5a689048fc842e31acc75fe6964b24385b506503f692fab0357ec30c7bb8d",
+      "excerpt_sha256": "3b3935a9024e9618f990e9f97bdea577230a82766aadceb5dec9ab3b892fdb84",
+      "excerpt_file": "nbs-gap-3b3935a9024e9618f990e9f97bdea577230a82766aadceb5dec9ab3b892fdb84.html",
+      "original_bytes": 97949,
+      "excerpt_bytes": 15408,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901670.html",
+      "original_sha256": "d606417b9601d24111b7c381200912427964d2ce3730a281c90f64c0884c8c16",
+      "excerpt_sha256": "097c870435718f03cdd2f9f5bbd32f0fff7432f748794b4fd7cad9336e21f28e",
+      "excerpt_file": "nbs-gap-097c870435718f03cdd2f9f5bbd32f0fff7432f748794b4fd7cad9336e21f28e.html",
+      "original_bytes": 315376,
+      "excerpt_bytes": 16109,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961521.html",
+      "original_sha256": "d74a7bb9ac35d4f9dc6a414ca4655c2e1eae3f597449d6175a2d87890d83cf31",
+      "excerpt_sha256": "a80cf9ad3e0f6e094354997bc8bfc181a3f55d57acf9b7a1c66530d55ed38110",
+      "excerpt_file": "nbs-gap-a80cf9ad3e0f6e094354997bc8bfc181a3f55d57acf9b7a1c66530d55ed38110.html",
+      "original_bytes": 82933,
+      "excerpt_bytes": 14933,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202604/t20260416_1963330.html",
+      "original_sha256": "d7e8ffb9bfda3bfe63b83a754cda650a773eb534f740ce3fc631f2e401b9a92f",
+      "excerpt_sha256": "e63ad68190c42f9419a042a838b198ce97642703f17ec5ebe5f8b19a7faf41e5",
+      "excerpt_file": "nbs-gap-e63ad68190c42f9419a042a838b198ce97642703f17ec5ebe5f8b19a7faf41e5.html",
+      "original_bytes": 553831,
+      "excerpt_bytes": 47277,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962272.html",
+      "original_sha256": "d805321d8d4871c85e5026754b165f2938f03962f13a190cc443b00241085f74",
+      "excerpt_sha256": "89bfca7908c5c486b6967b211ac1906b17d69b755ad6cfbfac2d13b5e52d1a46",
+      "excerpt_file": "nbs-gap-89bfca7908c5c486b6967b211ac1906b17d69b755ad6cfbfac2d13b5e52d1a46.html",
+      "original_bytes": 105999,
+      "excerpt_bytes": 15517,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913661.html",
+      "original_sha256": "d832d70da25119f02e15ab0e4c3abec46cb73ab6cdaa7607b61d3285befe76d5",
+      "excerpt_sha256": "8256ee2a3c53c470eb683308f57ef790c7c4286a0c0cda242ed25a9960a8f68a",
+      "excerpt_file": "nbs-gap-8256ee2a3c53c470eb683308f57ef790c7c4286a0c0cda242ed25a9960a8f68a.html",
+      "original_bytes": 264447,
+      "excerpt_bytes": 14059,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901233.html",
+      "original_sha256": "da6d25e5c05c0147a8a0bcfbcda8b3c805ae7a9b7367761d136fc6b697c81804",
+      "excerpt_sha256": "0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc",
+      "excerpt_file": "nbs-gap-0ed927eb25b9887ed45e05ddfc2fea5c0a4ed159b6508c70cc8bb7fe8615c0cc.html",
+      "original_bytes": 553745,
+      "excerpt_bytes": 30961,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901422.html",
+      "original_sha256": "dc8fbbecfc9b8211eb370b66150ed810d92b74e6411183bbe46477cd76eb0ba9",
+      "excerpt_sha256": "5d76635164d8e078dd71e877940b6bda6c0171f3cf88c5c10130de195fe52653",
+      "excerpt_file": "nbs-gap-5d76635164d8e078dd71e877940b6bda6c0171f3cf88c5c10130de195fe52653.html",
+      "original_bytes": 305298,
+      "excerpt_bytes": 15528,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901341.html",
+      "original_sha256": "ddb03dcd7c45915e289135b0202e3810a281e151b9f2f834e4e3fa9eb7887657",
+      "excerpt_sha256": "1ad811d6c422f56f28cc88c6eb10be06b5fdffa03abaa32ecce9fe58c81d1d14",
+      "excerpt_file": "nbs-gap-1ad811d6c422f56f28cc88c6eb10be06b5fdffa03abaa32ecce9fe58c81d1d14.html",
+      "original_bytes": 289161,
+      "excerpt_bytes": 15613,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250317_1959015.html",
+      "original_sha256": "ddc96eba6d9bf80dd6e0d0891ccb654a17da6bc01940899f25a6069a9f2fc238",
+      "excerpt_sha256": "b1d8eaa35028459dc6c69f05cb1a19a975dee6692b55b09ae5a687b744b49463",
+      "excerpt_file": "nbs-gap-b1d8eaa35028459dc6c69f05cb1a19a975dee6692b55b09ae5a687b744b49463.html",
+      "original_bytes": 70480,
+      "excerpt_bytes": 13540,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901296.html",
+      "original_sha256": "de14484e242d2c89ff7dedc27f52abe05a2fe0d4b97f49b075ba8924b6fca03b",
+      "excerpt_sha256": "cdd37439eb87c4cb2c5fd310fef381ae72cddbce5ad7b017e329d7be075904e2",
+      "excerpt_file": "nbs-gap-cdd37439eb87c4cb2c5fd310fef381ae72cddbce5ad7b017e329d7be075904e2.html",
+      "original_bytes": 316668,
+      "excerpt_bytes": 16962,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901362.html",
+      "original_sha256": "de36ee7e2a638f3898955cc9f3afc44986284c21989d0d5ccc838557cc4cbc17",
+      "excerpt_sha256": "90fd5feec65d643831493fc8b3c05f37f62006049f4e61f03f3d533a0c07a636",
+      "excerpt_file": "nbs-gap-90fd5feec65d643831493fc8b3c05f37f62006049f4e61f03f3d533a0c07a636.html",
+      "original_bytes": 558259,
+      "excerpt_bytes": 31360,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901398.html",
+      "original_sha256": "df0d951e2ff874c37e1ba03a721186ac06cca64b9e3b5d87c24de4539ec8ebff",
+      "excerpt_sha256": "4dad50577dfd4c46b4a0dc47338301b4f388b0e95088a2f3db9a3ac1a95a6f8b",
+      "excerpt_file": "nbs-gap-4dad50577dfd4c46b4a0dc47338301b4f388b0e95088a2f3db9a3ac1a95a6f8b.html",
+      "original_bytes": 314423,
+      "excerpt_bytes": 16117,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962014.html",
+      "original_sha256": "df9b70adeca688c93c3b3790d08d0146769ebf0c2911dd32a8a9880bb3918975",
+      "excerpt_sha256": "7af733be65db367eaa1802b8bba0066c0eb7806ef446398a147fbd4f9f5fd8f2",
+      "excerpt_file": "nbs-gap-7af733be65db367eaa1802b8bba0066c0eb7806ef446398a147fbd4f9f5fd8f2.html",
+      "original_bytes": 104500,
+      "excerpt_bytes": 15346,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901405.html",
+      "original_sha256": "e05aa97cabac15a3d287d072fa313140bda19747b1de0916cd2b2c04f407b97a",
+      "excerpt_sha256": "168053ef91ac8b2494d683c572830035e6929ba1edd09e3e14f34ab154970bac",
+      "excerpt_file": "nbs-gap-168053ef91ac8b2494d683c572830035e6929ba1edd09e3e14f34ab154970bac.html",
+      "original_bytes": 310765,
+      "excerpt_bytes": 19307,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901542.html",
+      "original_sha256": "e073fe50f9f9b12ec680c8a9e3feaa44855cf52a5aa471e33c9b83c5a64a0569",
+      "excerpt_sha256": "abf5045df862d005aba9beb55052d2c9b7135a20e597ff23b3f133bf7c1d6b15",
+      "excerpt_file": "nbs-gap-abf5045df862d005aba9beb55052d2c9b7135a20e597ff23b3f133bf7c1d6b15.html",
+      "original_bytes": 315599,
+      "excerpt_bytes": 16093,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947623.html",
+      "original_sha256": "e42c30e7c6ee1b407940f8f9bc40b7bef111f8a91b796c5bac428320feaad44a",
+      "excerpt_sha256": "68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4",
+      "excerpt_file": "nbs-gap-68c75c5d2ccd3fcdffac2ee0698d9b7c14ede7a5268cb65937835b79b3ac1dc4.html",
+      "original_bytes": 257088,
+      "excerpt_bytes": 15478,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901703.html",
+      "original_sha256": "e4b671b6e2f62efb21c732c42c57aa209369571fe1405c0d5855cf6fae5b2f28",
+      "excerpt_sha256": "b4cd56157c428b84374cdb95b0f014c41ea0c889551f1b67e5f714eccd290254",
+      "excerpt_file": "nbs-gap-b4cd56157c428b84374cdb95b0f014c41ea0c889551f1b67e5f714eccd290254.html",
+      "original_bytes": 317494,
+      "excerpt_bytes": 16063,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230809_1941864.html",
+      "original_sha256": "e50fae3853334f4da635585e06caebb9f089a360c0f3aa3cd50a473be51a5e96",
+      "excerpt_sha256": "86b2d259a5c4c2c6d0710697b4bdbcd94352faf3ca2246c0a5692125a8285bcc",
+      "excerpt_file": "nbs-gap-86b2d259a5c4c2c6d0710697b4bdbcd94352faf3ca2246c0a5692125a8285bcc.html",
+      "original_bytes": 322134,
+      "excerpt_bytes": 16518,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240617_1954714.html",
+      "original_sha256": "e647389f040a61862bf9912b234bb4d4bc8aa0796d97eaa4e000415471cacc3e",
+      "excerpt_sha256": "94180d8e07afdf8f466d39d0f7bfe7b6f7fdb4ff6199c16b23fe4d2257936a53",
+      "excerpt_file": "nbs-gap-94180d8e07afdf8f466d39d0f7bfe7b6f7fdb4ff6199c16b23fe4d2257936a53.html",
+      "original_bytes": 70214,
+      "excerpt_bytes": 13658,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901647.html",
+      "original_sha256": "e6b220b9e1bb0001393bf541095008619d42fbbf65a8a5f27a27a4e2571cd57b",
+      "excerpt_sha256": "d52c2e9d65c850c2bd2964a693555402f7e2fafe744315105fded11e59a87685",
+      "excerpt_file": "nbs-gap-d52c2e9d65c850c2bd2964a693555402f7e2fafe744315105fded11e59a87685.html",
+      "original_bytes": 318552,
+      "excerpt_bytes": 16234,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241013_1956899.html",
+      "original_sha256": "e71dbe1c46eecfde5a989583177d64205b1beababf1499362bbf35c973a459ba",
+      "excerpt_sha256": "3c0e9fb96eb20f9b9395660cca46cb8be9604055aa1dd8951e48ed32b19aab3b",
+      "excerpt_file": "nbs-gap-3c0e9fb96eb20f9b9395660cca46cb8be9604055aa1dd8951e48ed32b19aab3b.html",
+      "original_bytes": 99191,
+      "excerpt_bytes": 14965,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940630.html",
+      "original_sha256": "e7578d72e15c41fd05a7db81b3076928c3faf727edf340c68e416b5db56ac90d",
+      "excerpt_sha256": "d9412abdde270c1bebb08381b904a76881ff98a7cff786606d82b39ad08d2f3d",
+      "excerpt_file": "nbs-gap-d9412abdde270c1bebb08381b904a76881ff98a7cff786606d82b39ad08d2f3d.html",
+      "original_bytes": 246148,
+      "excerpt_bytes": 15586,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/t20260715_1964121.html",
+      "original_sha256": "ea93f74e5ea15904f8ce2a8826cb862ccf8cd3291f22850bbdedd3dedb053bb9",
+      "excerpt_sha256": "27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef",
+      "excerpt_file": "nbs-gap-27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef.html",
+      "original_bytes": 236860,
+      "excerpt_bytes": 48476,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901427.html",
+      "original_sha256": "f1cc1efd7e654b5085609f308bbb8bf11534b78973de63c17d4f90245bb0980d",
+      "excerpt_sha256": "4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07",
+      "excerpt_file": "nbs-gap-4d22627a8b7e94aa375de5c1d3bcacd2ea8417176dabc241cd066b04e6a08d07.html",
+      "original_bytes": 1199325,
+      "excerpt_bytes": 66801,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901278.html",
+      "original_sha256": "f281a463c4fb9e955ce69e616d25685268920d38a00440e10cce28d626b48138",
+      "excerpt_sha256": "146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b",
+      "excerpt_file": "nbs-gap-146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b.html",
+      "original_bytes": 816038,
+      "excerpt_bytes": 48863,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202603/t20260309_1962729.html",
+      "original_sha256": "f39bd00f5cb6a4e26bd58f8bbfc9388d51535cd93938c914dd55feaf108b53ee",
+      "excerpt_sha256": "1a316965c3a3c214e87294f035235c9df8337f0ee221ddd3db5b9537283d2bcd",
+      "excerpt_file": "nbs-gap-1a316965c3a3c214e87294f035235c9df8337f0ee221ddd3db5b9537283d2bcd.html",
+      "original_bytes": 108276,
+      "excerpt_bytes": 16381,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913662.html",
+      "original_sha256": "f463f0b89f0ec70dfb21dda68da4f5caaaf373a74798f2195b46f4a5a0efef7d",
+      "excerpt_sha256": "5245f0fbe8c1df342e517d9e5839b329265a8c10818af62108343f05f0e8a22a",
+      "excerpt_file": "nbs-gap-5245f0fbe8c1df342e517d9e5839b329265a8c10818af62108343f05f0e8a22a.html",
+      "original_bytes": 256068,
+      "excerpt_bytes": 13842,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231115_1944529.html",
+      "original_sha256": "f52c7f12496f6116a8bb85ea6f354ad4f7fed67ca788f6ebec8805cd58930e1f",
+      "excerpt_sha256": "68eaa68f643f53d8100f2dc5ed34e94190c040c43bde3a00f15367e88f79a923",
+      "excerpt_file": "nbs-gap-68eaa68f643f53d8100f2dc5ed34e94190c040c43bde3a00f15367e88f79a923.html",
+      "original_bytes": 321346,
+      "excerpt_bytes": 18977,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231018_1943657.html",
+      "original_sha256": "f8232480b5767557026f37d90058cc90cc6d5bcf313e162c699962c9754eabb9",
+      "excerpt_sha256": "398716764c7379beedd7afca0b7284bdc55ca6b4c42c161ba9103e69d8e2513d",
+      "excerpt_file": "nbs-gap-398716764c7379beedd7afca0b7284bdc55ca6b4c42c161ba9103e69d8e2513d.html",
+      "original_bytes": 251870,
+      "excerpt_bytes": 15862,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901429.html",
+      "original_sha256": "f87347c6b4947d71e9467c05a2d270507d651aec0adf4d734dc2cf4a5a49d04f",
+      "excerpt_sha256": "2b4fc099a4c5d144bdb8877ddd10f8a45958785206cbeb8a49f873c14e37ea04",
+      "excerpt_file": "nbs-gap-2b4fc099a4c5d144bdb8877ddd10f8a45958785206cbeb8a49f873c14e37ea04.html",
+      "original_bytes": 236728,
+      "excerpt_bytes": 14855,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240715_1955618.html",
+      "original_sha256": "f89c72f7c2e83c5c073eb762de14cc97adfac0e029a170c6dc2aff9fb0dd7f43",
+      "excerpt_sha256": "81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490",
+      "excerpt_file": "nbs-gap-81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490.html",
+      "original_bytes": 308638,
+      "excerpt_bytes": 48236,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901399.html",
+      "original_sha256": "f9a12e1aa890eec213e38a724013fb07b36e55db67c055f01ee0aedb6e24e3ec",
+      "excerpt_sha256": "bfe48b95ccc54e4ec343b5d079ce6f865dbec3375b9da59da1722b07505e7851",
+      "excerpt_file": "nbs-gap-bfe48b95ccc54e4ec343b5d079ce6f865dbec3375b9da59da1722b07505e7851.html",
+      "original_bytes": 308734,
+      "excerpt_bytes": 15688,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1901336.html",
+      "original_sha256": "fb63ace59650e37ba95ecbe944617fca3bda4bb918577b20cd7e3271a4903547",
+      "excerpt_sha256": "8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414",
+      "excerpt_file": "nbs-gap-8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414.html",
+      "original_bytes": 1225273,
+      "excerpt_bytes": 78158,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250709_1960367.html",
+      "original_sha256": "fbc2ef131164cdb5e50446c240d6e80924d8da7af4e19b0a3de4d1718691f74c",
+      "excerpt_sha256": "d7888bf4fc647cbb0061984b2c781ac1cec9ab4120ba77f20391c4ca8f4f7508",
+      "excerpt_file": "nbs-gap-d7888bf4fc647cbb0061984b2c781ac1cec9ab4120ba77f20391c4ca8f4f7508.html",
+      "original_bytes": 90122,
+      "excerpt_bytes": 15423,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940480.html",
+      "original_sha256": "fcd0d7c7f14d4f9a214e2366aaafce2c0d6d64a3378a5e7ec501ab3e460fc63e",
+      "excerpt_sha256": "d9f0269987f25d7cc6175166d7d8ea2867584f9863da75a58a21c67af3761731",
+      "excerpt_file": "nbs-gap-d9f0269987f25d7cc6175166d7d8ea2867584f9863da75a58a21c67af3761731.html",
+      "original_bytes": 321578,
+      "excerpt_bytes": 16266,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901456.html",
+      "original_sha256": "fdfde738830be5b0a8a915cd30014383c62ac488031bc8752f59939a7abbb213",
+      "excerpt_sha256": "927c917651e5f9ac2346e66107dd9f46c934fc5f993b64caa96d80e8dd3b6e75",
+      "excerpt_file": "nbs-gap-927c917651e5f9ac2346e66107dd9f46c934fc5f993b64caa96d80e8dd3b6e75.html",
+      "original_bytes": 316559,
+      "excerpt_bytes": 16384,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901404.html",
+      "original_sha256": "fe1b5508f895951c3b6827045a7ba2b952ed525673327672b0b92da769e0b9b5",
+      "excerpt_sha256": "f1e9705f21ab8e0b94beee05bceb9ea17ea0a2cc159bc82dc2e737de2ae7d876",
+      "excerpt_file": "nbs-gap-f1e9705f21ab8e0b94beee05bceb9ea17ea0a2cc159bc82dc2e737de2ae7d876.html",
+      "original_bytes": 236583,
+      "excerpt_bytes": 14964,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240715_1955598.html",
+      "original_sha256": "ffa8a4ec928758accb24c19bc3887f5ace38aa4cd06305ae907f594397430d65",
+      "excerpt_sha256": "fea451db5f4c7fd9fefe310e077aee4ebcf3a3e6a0bea001f793cac0ff673687",
+      "excerpt_file": "nbs-gap-fea451db5f4c7fd9fefe310e077aee4ebcf3a3e6a0bea001f793cac0ff673687.html",
+      "original_bytes": 70398,
+      "excerpt_bytes": 13658,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/adc58e98876a43ac8f9a3f3ae9020178/index.html",
+      "original_sha256": "008200a0241eae57d1cf508b33b72dfbce439a2292327be2b6554d9bd5e19ac0",
+      "excerpt_sha256": "adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995",
+      "excerpt_file": "pbc-adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995-financial_report.html",
+      "original_bytes": 30088,
+      "excerpt_bytes": 4102,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/f30cb865aa774555bccb5ae49470007c/index.html",
+      "original_sha256": "06afa7188db6d59cfa54b43a9fbfe44716f85e9641629e86002d3675a1a1a5be",
+      "excerpt_sha256": "8e32b927153eef1d30d2a012d8b8bdba2b26476db5585080774052327a16554e",
+      "excerpt_file": "pbc-8e32b927153eef1d30d2a012d8b8bdba2b26476db5585080774052327a16554e-financial_report.html",
+      "original_bytes": 37829,
+      "excerpt_bytes": 5471,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025080618505068053/index.html",
+      "original_sha256": "099bef22626630ef7b93129bc02d02119f5cf23423d1e5c8352b07d6e3c16e80",
+      "excerpt_sha256": "d7d36759e7ec21b83a572656808e2837d85ba321764ebd3a887f1beab2f1b706",
+      "excerpt_file": "pbc-d7d36759e7ec21b83a572656808e2837d85ba321764ebd3a887f1beab2f1b706-financial_report.html",
+      "original_bytes": 41348,
+      "excerpt_bytes": 5105,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026041317011944771/index.html",
+      "original_sha256": "0d50495161d327868abe90f1a3d084249145fd63318ce0f7eaaafd00da830abb",
+      "excerpt_sha256": "8fc3818c7f912cccbbb5d93ae85f470cc2edff0ab7b67a0c17a8b05f203468df",
+      "excerpt_file": "pbc-8fc3818c7f912cccbbb5d93ae85f470cc2edff0ab7b67a0c17a8b05f203468df-financial_report.html",
+      "original_bytes": 44833,
+      "excerpt_bytes": 7946,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/5e5f733aaa0f44228c7a1aa1d807871d/index.html",
+      "original_sha256": "10aed68ddec3a0e78def8f85dd8add2ed004d02f3fef2821b3240aad91f8f840",
+      "excerpt_sha256": "74cfa3a51e505dacea80ee118f98c16ebb4e71e2b107f6711db3612d4d445a17",
+      "excerpt_file": "pbc-74cfa3a51e505dacea80ee118f98c16ebb4e71e2b107f6711db3612d4d445a17-financial_report.html",
+      "original_bytes": 30455,
+      "excerpt_bytes": 4429,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/356bd109230b48ae9013b790520a3425/index.html",
+      "original_sha256": "15f13e3181bf3be208a0a40ab43a8f3b4a649e1fd91f100b5ea814e5602b541b",
+      "excerpt_sha256": "249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63",
+      "excerpt_file": "pbc-249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63-financial_report.html",
+      "original_bytes": 30651,
+      "excerpt_bytes": 4581,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/28034b83163d40d2bf5aacb2112e2062/index.html",
+      "original_sha256": "1bd74a9ca3787ed3999f462fe9ab637354d30f06219277d8f2197561c2dde70e",
+      "excerpt_sha256": "2c0065f36f4d3d508929769dd59aab5b5b2c943904c13746f815c39e139dd99f",
+      "excerpt_file": "pbc-2c0065f36f4d3d508929769dd59aab5b5b2c943904c13746f815c39e139dd99f-financial_report.html",
+      "original_bytes": 29823,
+      "excerpt_bytes": 3865,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091417325051118.htm",
+      "original_sha256": "1d1b3690eeaeb01cd70ad1b3d56ea5890498604098c6f923fbcd28d6363a2079",
+      "excerpt_sha256": "aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd",
+      "excerpt_file": "pbc-aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd-tsf_table.html",
+      "original_bytes": 57335,
+      "excerpt_bytes": 9756,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/25bd40fd26ae4b1488369f7df33ffc94/index.html",
+      "original_sha256": "1eb7aa1eab315a47fd50b554aaddf00aba969ddca0c4ece042b5bc26ecff2858",
+      "excerpt_sha256": "f5e0a374a43acbd5de46e7d3d20a8f1c347f2a9797466954233fc10571d15011",
+      "excerpt_file": "pbc-f5e0a374a43acbd5de46e7d3d20a8f1c347f2a9797466954233fc10571d15011-financial_report.html",
+      "original_bytes": 38760,
+      "excerpt_bytes": 5140,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/a46e2ace126b4c4391b512bf4bde01f9/index.html",
+      "original_sha256": "1fc855817f7e1676ab49ab3b3b43cfb42e125ec5542387a87bfdd21b6fe9feb4",
+      "excerpt_sha256": "be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025",
+      "excerpt_file": "pbc-be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025-financial_report.html",
+      "original_bytes": 38345,
+      "excerpt_bytes": 4949,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/b120f9b0d55f4bf995f9b77bcce41757/index.html",
+      "original_sha256": "21358a98713acf4883f51ab9e00b4183afdb36d5b25ddfd3b77237d7de838dfa",
+      "excerpt_sha256": "3929040c90692641f27f6d86eb4afb5da96cd2522ae7111aeab1a8bbcb43acc1",
+      "excerpt_file": "pbc-3929040c90692641f27f6d86eb4afb5da96cd2522ae7111aeab1a8bbcb43acc1-financial_report.html",
+      "original_bytes": 30409,
+      "excerpt_bytes": 4383,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026091417020862747/index.html",
+      "original_sha256": "2be3b50ac4c72068c9b17e28b184cb2186b3f6a6ffe606c2a5b58334bf642998",
+      "excerpt_sha256": "8a582bf32758440fc3a0d63dc7c43513678c8db6803c5ddd0ef8e4a9c9989fa8",
+      "excerpt_file": "pbc-8a582bf32758440fc3a0d63dc7c43513678c8db6803c5ddd0ef8e4a9c9989fa8-financial_report.html",
+      "original_bytes": 44710,
+      "excerpt_bytes": 7836,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/f8157ada86814e82a99d8629e07e0cba/index.html",
+      "original_sha256": "2c76ad6f8a0696b81acc93a0a0608c6933a26e3752afbb1821e07571ba601f5d",
+      "excerpt_sha256": "42b9cda893d70fff043c17d2ce3c9a0f754955382d92bdec7f9f266b72d6c349",
+      "excerpt_file": "pbc-42b9cda893d70fff043c17d2ce3c9a0f754955382d92bdec7f9f266b72d6c349-financial_report.html",
+      "original_bytes": 29789,
+      "excerpt_bytes": 3806,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/5fb867cbec1b4772b8f6f98b5d0ede52/index.html",
+      "original_sha256": "2e77920bd183a9099e0939cb011ac3d9a09924be1fdc06add914a18e258db264",
+      "excerpt_sha256": "c58eda84ab08835bb7b8b5473468765a632f03910c10f0e4b7e6af4be168a598",
+      "excerpt_file": "pbc-c58eda84ab08835bb7b8b5473468765a632f03910c10f0e4b7e6af4be168a598-financial_report.html",
+      "original_bytes": 38697,
+      "excerpt_bytes": 5103,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/0755aafdab32428daa12f2cf682c81ba/index.html",
+      "original_sha256": "31c4d3f99601b711ef3772670e2aeb5d4bab0bf851e1d109b8f480892a4cec18",
+      "excerpt_sha256": "0d46fac235cbb00e525dfe12c16a2257aff09d2c3d8d90bcc1eb492719c40865",
+      "excerpt_file": "pbc-0d46fac235cbb00e525dfe12c16a2257aff09d2c3d8d90bcc1eb492719c40865-financial_report.html",
+      "original_bytes": 37743,
+      "excerpt_bytes": 5241,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/11a114b756b34c2dbf62b7ccebf6f8a9/index.html",
+      "original_sha256": "33d38b9c5e42d09dab058781deeb13353abd906af727c7175a1f402a6f4db40b",
+      "excerpt_sha256": "66a4923abf09580922297e0d1915d5f3035aec75b62ea4f46f36b1a41c90d552",
+      "excerpt_file": "pbc-66a4923abf09580922297e0d1915d5f3035aec75b62ea4f46f36b1a41c90d552-financial_report.html",
+      "original_bytes": 29877,
+      "excerpt_bytes": 3880,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026031317020260950/index.html",
+      "original_sha256": "377f455aa92273c23d57540d2b33e5b4b99f01e6ebfa7beacae157c21c5632cc",
+      "excerpt_sha256": "4093a62d5aa02dab7a53a5dd1ebffb7d22714c3b91edef276a9189cae3e30cd6",
+      "excerpt_file": "pbc-4093a62d5aa02dab7a53a5dd1ebffb7d22714c3b91edef276a9189cae3e30cd6-financial_report.html",
+      "original_bytes": 44639,
+      "excerpt_bytes": 7786,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/e15a1be918ed495488bf16af0fb7214f/index.html",
+      "original_sha256": "3902891b3302de8fff3cf3231be7e3e8175b230806798d4751ea279cb266f397",
+      "excerpt_sha256": "1b6bd086c0608f6ef63a3ca61030fa2273dca622ff53d9da572d51fc30aac0a1",
+      "excerpt_file": "pbc-1b6bd086c0608f6ef63a3ca61030fa2273dca622ff53d9da572d51fc30aac0a1-financial_report.html",
+      "original_bytes": 29997,
+      "excerpt_bytes": 4012,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/b21be1ab65c94424a612a7666d605a1b/index.html",
+      "original_sha256": "3d5ff1cd071a9150b6eea9b70860700170ca962fa536d6641edf90304324e027",
+      "excerpt_sha256": "420785e04990e3cdeaded2da30bbfbd2c7fb173b09cd07917fb7f15bc1511653",
+      "excerpt_file": "pbc-420785e04990e3cdeaded2da30bbfbd2c7fb173b09cd07917fb7f15bc1511653-financial_report.html",
+      "original_bytes": 37921,
+      "excerpt_bytes": 5547,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/fb30cb8791924291b5365d3e092bc803/index.html",
+      "original_sha256": "3efa89b11f732297cfa98120c0f81bc1c22639fc65ea8d51324896701e415fb1",
+      "excerpt_sha256": "d6268a75d89177bf130b3054484cf882110c666bd8898f6da5fdd0dedce636e4",
+      "excerpt_file": "pbc-d6268a75d89177bf130b3054484cf882110c666bd8898f6da5fdd0dedce636e4-financial_report.html",
+      "original_bytes": 30092,
+      "excerpt_bytes": 4072,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026051417030520490/index.html",
+      "original_sha256": "4434210d0447e96bcbeab8f02d6ac0436fb76a28e41a66f4f133ff46d8b1182e",
+      "excerpt_sha256": "d0c86af1805ef9e1d5ba9dda39a26b290b95879a30e7e21b79109de00b6023e8",
+      "excerpt_file": "pbc-d0c86af1805ef9e1d5ba9dda39a26b290b95879a30e7e21b79109de00b6023e8-financial_report.html",
+      "original_bytes": 44650,
+      "excerpt_bytes": 7793,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417020995044.htm",
+      "original_sha256": "45661912146270937cc80a946892c58018ac6b098d98a49e571418d85dff8eaf",
+      "excerpt_sha256": "cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8",
+      "excerpt_file": "pbc-cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8-tsf_table.html",
+      "original_bytes": 84567,
+      "excerpt_bytes": 17257,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026011515015720511/index.html",
+      "original_sha256": "47761677bcf626cfe3ab7ab444940e9c0bdcb4326621edfe7e4e54192ee0bb33",
+      "excerpt_sha256": "9356a9520db76d48054ec5a03d8770a78a539a2ea16dbdbddd3ca80d578fa168",
+      "excerpt_file": "pbc-9356a9520db76d48054ec5a03d8770a78a539a2ea16dbdbddd3ca80d578fa168-financial_report.html",
+      "original_bytes": 44707,
+      "excerpt_bytes": 9060,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/4eb6a532bbe14e14924f09dac64d6d0e/index.html",
+      "original_sha256": "4ea50933a26bddb163d6f47fc5b372768575b647015ee3060deed0073746de2b",
+      "excerpt_sha256": "a7bb6f41d3eab7bb8373395c4427f4c1f48e884e789abdd82bac6c898109fdb5",
+      "excerpt_file": "pbc-a7bb6f41d3eab7bb8373395c4427f4c1f48e884e789abdd82bac6c898109fdb5-financial_report.html",
+      "original_bytes": 30467,
+      "excerpt_bytes": 4444,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025080618505010475/index.html",
+      "original_sha256": "54e2d8a768f0e9f16abf1e82ef8a5d3acbc3373434fa389a10a432913ab5fd98",
+      "excerpt_sha256": "e6c7b656eca64f5af16e278cc9ffb80197b2656211755104fc6724ea257d083c",
+      "excerpt_file": "pbc-e6c7b656eca64f5af16e278cc9ffb80197b2656211755104fc6724ea257d083c-financial_report.html",
+      "original_bytes": 41353,
+      "excerpt_bytes": 5110,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/02a6abaaea894de8b591846e295826e6/index.html",
+      "original_sha256": "56defe8d4373b64d43bb57b54ebce1ef7adc308cb07bd8d9953c3e0b1a7a1bc5",
+      "excerpt_sha256": "3a75440d0d1aff4c9a51562c760672213c2e1bb839304edcfe64b65082d0e2f6",
+      "excerpt_file": "pbc-3a75440d0d1aff4c9a51562c760672213c2e1bb839304edcfe64b65082d0e2f6-financial_report.html",
+      "original_bytes": 38789,
+      "excerpt_bytes": 5161,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/6a9d1d8c3460445bb190bff0d58e4484/index.html",
+      "original_sha256": "5beb398f6e37c20312003b6fb85f914d90c3a390d769e90e8161914d245c465a",
+      "excerpt_sha256": "8435ed81c0feb8fd84cab2be0f7f4b25cd9c3790afcf8edefa5fd86140eaf55b",
+      "excerpt_file": "pbc-8435ed81c0feb8fd84cab2be0f7f4b25cd9c3790afcf8edefa5fd86140eaf55b-financial_report.html",
+      "original_bytes": 38519,
+      "excerpt_bytes": 4939,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/6bfd794fa2a0407d9a1dbddb6fa3f77f/index.html",
+      "original_sha256": "5ef05d405e9a4e6af58c98389360912d0087e57d5cf1d1afa0fbfe013070a6ab",
+      "excerpt_sha256": "47a7c8a90834fabeb95176e7303635f28fd05ddcfd81c90ee183a197546c4698",
+      "excerpt_file": "pbc-47a7c8a90834fabeb95176e7303635f28fd05ddcfd81c90ee183a197546c4698-financial_report.html",
+      "original_bytes": 38555,
+      "excerpt_bytes": 4976,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025080618505081124/index.html",
+      "original_sha256": "5f4a4e3ac36cae871ab683de3e067abd98d3640fbeadb24bcce60c74c39d5eed",
+      "excerpt_sha256": "939a7b092a119d09319dd6c87ba4e34e669272549344a2d71f44afd93f2f73ac",
+      "excerpt_file": "pbc-939a7b092a119d09319dd6c87ba4e34e669272549344a2d71f44afd93f2f73ac-financial_report.html",
+      "original_bytes": 41355,
+      "excerpt_bytes": 5119,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/568387ff70be457590732b5e044f8e18/index.html",
+      "original_sha256": "6061c0028cace705425b7b0d7b7f0075aca4e5e0ddc95042bb049367b2120ca1",
+      "excerpt_sha256": "2443fb871328153f577935ce33a256d51858ac544fe4c52e7b25d6d75b38eb53",
+      "excerpt_file": "pbc-2443fb871328153f577935ce33a256d51858ac544fe4c52e7b25d6d75b38eb53-financial_report.html",
+      "original_bytes": 37841,
+      "excerpt_bytes": 5480,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/33ed4f226f484e66a50446175026c639/index.html",
+      "original_sha256": "633005d7cb86259172bca7fbdf4b19ce00eb676f6b65e06b87b1a7627a8c9038",
+      "excerpt_sha256": "fd4afc17919def96561f6c2fd282e1686cbb6707e207f3e0f558c17afdb22564",
+      "excerpt_file": "pbc-fd4afc17919def96561f6c2fd282e1686cbb6707e207f3e0f558c17afdb22564-financial_report.html",
+      "original_bytes": 38159,
+      "excerpt_bytes": 5758,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/6ad95be1e9524d7f857544a295f07c82/index.html",
+      "original_sha256": "6505e539411477fed090c4cfe0935f55aa8417126211bc21663af1f68f2f2cd6",
+      "excerpt_sha256": "536d706c99be2f30fcc2bf9d71d3354c7bd741c8f61249f9e4d84a9911a3fa09",
+      "excerpt_file": "pbc-536d706c99be2f30fcc2bf9d71d3354c7bd741c8f61249f9e4d84a9911a3fa09-financial_report.html",
+      "original_bytes": 29770,
+      "excerpt_bytes": 3812,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/cbf663c7555049f291d3f8e0e2bae83f/index.html",
+      "original_sha256": "66bdf5389bb593133bdcbc219a1f55665a9a347a849a1e8aa247c08dd97b8818",
+      "excerpt_sha256": "57b91e3c0eaf4675b80c830e9597a7f39f8b310cb8dfc836f3aab433bcd4a211",
+      "excerpt_file": "pbc-57b91e3c0eaf4675b80c830e9597a7f39f8b310cb8dfc836f3aab433bcd4a211-financial_report.html",
+      "original_bytes": 29854,
+      "excerpt_bytes": 3868,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/13726e91dd8d4423b12ec14955d6601a/index.html",
+      "original_sha256": "69da8217eb1b5993021c1a94d7c17cfc32014523e6ca9e728a973d39480f5270",
+      "excerpt_sha256": "7631a63eca40797a201d809583202365103ad1fbf312d9ee9c831c22f5f3a2ff",
+      "excerpt_file": "pbc-7631a63eca40797a201d809583202365103ad1fbf312d9ee9c831c22f5f3a2ff-financial_report.html",
+      "original_bytes": 38284,
+      "excerpt_bytes": 5788,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/41425ee3179143a29c4656e31b6df3d8/index.html",
+      "original_sha256": "6a73b31453129d53f6aedaa6fc11c78e856904665fa7f275367a9530d0ce30f8",
+      "excerpt_sha256": "0ec483e09d797c24a2c012a5d5f094cacd15948268bdcacdc13f3e3150e64a98",
+      "excerpt_file": "pbc-0ec483e09d797c24a2c012a5d5f094cacd15948268bdcacdc13f3e3150e64a98-financial_report.html",
+      "original_bytes": 38553,
+      "excerpt_bytes": 4976,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/755eb247554443c3aea852f0f11546a2/index.html",
+      "original_sha256": "6bfbeab346d36b1823018407f581e675c6b9845afe4dc03a98a273771d93aa43",
+      "excerpt_sha256": "5b3a2469c80afa1f588d6f199effaac6d9c9dd919c989517b9af666cd020fd9f",
+      "excerpt_file": "pbc-5b3a2469c80afa1f588d6f199effaac6d9c9dd919c989517b9af666cd020fd9f-financial_report.html",
+      "original_bytes": 37904,
+      "excerpt_bytes": 4443,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025080618505039987/index.html",
+      "original_sha256": "6d3500a14c1602edcaace8469e0018485714a6c7931bbcbc53ff82c176b69f17",
+      "excerpt_sha256": "d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5",
+      "excerpt_file": "pbc-d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5-financial_report.html",
+      "original_bytes": 41560,
+      "excerpt_bytes": 5289,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/1a6fe9c99e0b4b3ba35bbd038ef8535c/index.html",
+      "original_sha256": "6ea1bc81cd6df9e4d63e35575ddef81ffbd4c618dc4c4d7b4ddde568c5d978cb",
+      "excerpt_sha256": "aa92cb0513cfa9bb12f7b1dce93460d508b1921b48b86931bbb693cbe0ea68e5",
+      "excerpt_file": "pbc-aa92cb0513cfa9bb12f7b1dce93460d508b1921b48b86931bbb693cbe0ea68e5-financial_report.html",
+      "original_bytes": 37846,
+      "excerpt_bytes": 5458,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/a0e7f0189181456d9fcde9ee5e423584/index.html",
+      "original_sha256": "6f919be1b766c93c38de5307c5130a640caf57084ff867fd25a2a418c40b8afd",
+      "excerpt_sha256": "c4970cf0cab1098910da8873667dc6a76b9fb1779d3e3a545fc46b4fa8c3e98c",
+      "excerpt_file": "pbc-c4970cf0cab1098910da8873667dc6a76b9fb1779d3e3a545fc46b4fa8c3e98c-financial_report.html",
+      "original_bytes": 29544,
+      "excerpt_bytes": 3587,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/f294561578884c22878d115780ba7c08/index.html",
+      "original_sha256": "72d75cc14f8c6e7649d2deaec386b6b8252aeb8232a0e3586cdcffc365b3778a",
+      "excerpt_sha256": "3410e93565a5af9ab5564aca7370abcf61679aae0f4129cb7ef239c89153c4c7",
+      "excerpt_file": "pbc-3410e93565a5af9ab5564aca7370abcf61679aae0f4129cb7ef239c89153c4c7-financial_report.html",
+      "original_bytes": 44174,
+      "excerpt_bytes": 7829,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000696359.htm",
+      "original_sha256": "76dcbb21e3724efcf1d330c836ffedbd9a61a6a2d72756dcd29acb90ad0c7ae6",
+      "excerpt_sha256": "f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488",
+      "excerpt_file": "pbc-f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488-tsf_table.html",
+      "original_bytes": 92955,
+      "excerpt_bytes": 20678,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/532709cd6dc346c6abd925556437511d/index.html",
+      "original_sha256": "78235b37d49da0de67b734c2f4bde85f6f52b5da309849a793866206b2c7a9e9",
+      "excerpt_sha256": "08d273c3282c2f7d57b7b1fd44dd3e952990a81291c3e8f1ab80a561314cd790",
+      "excerpt_file": "pbc-08d273c3282c2f7d57b7b1fd44dd3e952990a81291c3e8f1ab80a561314cd790-financial_report.html",
+      "original_bytes": 38248,
+      "excerpt_bytes": 5847,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025111416272086731.htm",
+      "original_sha256": "7ac519ac2c6840f0c8add9a5f5609330adc3ed3bf107bb0c53bea245027bd0bb",
+      "excerpt_sha256": "d724414b8b0d70a68805b66ccb7a441d4e281e82828b1b1b036cc0034b99e416",
+      "excerpt_file": "pbc-d724414b8b0d70a68805b66ccb7a441d4e281e82828b1b1b036cc0034b99e416-tsf_table.html",
+      "original_bytes": 60421,
+      "excerpt_bytes": 11374,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/49c49e1c0f3945a58821af20b1d49e7b/index.html",
+      "original_sha256": "7db976d4b2f63bd6f6ab30890f2d0400dc1f5fb42169a1ac3d7716514146935a",
+      "excerpt_sha256": "0dec43fc839ae4d82638a49d6abe81d2df4aba654dfde6995103ae415ca6317e",
+      "excerpt_file": "pbc-0dec43fc839ae4d82638a49d6abe81d2df4aba654dfde6995103ae415ca6317e-financial_report.html",
+      "original_bytes": 29806,
+      "excerpt_bytes": 3849,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/d3af357ad35b4fb78426c435987af0aa/index.html",
+      "original_sha256": "7ebf31bf81d02207f730e4684cf241ea02d18b5e1fefe9ded5bec3fc70bcf598",
+      "excerpt_sha256": "b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb",
+      "excerpt_file": "pbc-b274d56deffbaf90054e3149ca0850fd442670a681926ae79779c507049515cb-financial_report.html",
+      "original_bytes": 30744,
+      "excerpt_bytes": 4703,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/588b2401df5344f68b78d51b7396d743/index.html",
+      "original_sha256": "806c03f7d9facde119c76b299408b7f5ee6ae537f9f36d778ecee2ac930b1ee0",
+      "excerpt_sha256": "5536dc08675bb6e49fb92875769870267e04285ce62bf4170c953b38c01a53db",
+      "excerpt_file": "pbc-5536dc08675bb6e49fb92875769870267e04285ce62bf4170c953b38c01a53db-financial_report.html",
+      "original_bytes": 37547,
+      "excerpt_bytes": 5206,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/8980a8a6f1414f649d3443cc09352c2b/index.html",
+      "original_sha256": "8658c76f6a2746ed12f3c570f5250bbabef62ba180ff042f336d3241f94be03b",
+      "excerpt_sha256": "649d3cb234b0dd891df4a2308d5fac69c23650c4ea01a729e41e96177b70f4cf",
+      "excerpt_file": "pbc-649d3cb234b0dd891df4a2308d5fac69c23650c4ea01a729e41e96177b70f4cf-financial_report.html",
+      "original_bytes": 38553,
+      "excerpt_bytes": 4976,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025121217132789688/index.html",
+      "original_sha256": "86dac86009ce1615c6cec1293dbf036603fbd6fdf0f52417e1fb9fcb0902089f",
+      "excerpt_sha256": "91a0dd6b0ab7c2bdfbbf16643a2cb769267171db4f88154c8db776439087a4b5",
+      "excerpt_file": "pbc-91a0dd6b0ab7c2bdfbbf16643a2cb769267171db4f88154c8db776439087a4b5-financial_report.html",
+      "original_bytes": 45807,
+      "excerpt_bytes": 8925,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/1421ef5774954fd795d2e2312daf0470/index.html",
+      "original_sha256": "8779a48f0b358491bfc6045d9b076be06dacfbf3bf4afcd4fc6568de867d641d",
+      "excerpt_sha256": "34d9c7808bc38e09c21117bbc0374619615da3afdaeeb724ca95c9aaeebf2920",
+      "excerpt_file": "pbc-34d9c7808bc38e09c21117bbc0374619615da3afdaeeb724ca95c9aaeebf2920-financial_report.html",
+      "original_bytes": 37581,
+      "excerpt_bytes": 5223,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/92d0ec2dadd140219750ffd27571ca1a/index.html",
+      "original_sha256": "8c7fa06c588887b088a8b82c254e112744f8c3f7058061bc08f5fa156bc3f2e6",
+      "excerpt_sha256": "30421be4ad1c528586c110def1ca2f14ca742ef23f7861de5de97f37440b3cdb",
+      "excerpt_file": "pbc-30421be4ad1c528586c110def1ca2f14ca742ef23f7861de5de97f37440b3cdb-financial_report.html",
+      "original_bytes": 38387,
+      "excerpt_bytes": 4884,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026061217051611931/index.html",
+      "original_sha256": "8f71dd1e651d2e5d8e7120555a000c54a517c41fb01d94b39948183badab9769",
+      "excerpt_sha256": "d2d86e17404daff41b2a97b3864a8a19453c62e945633f92c0db06a9743dbe59",
+      "excerpt_file": "pbc-d2d86e17404daff41b2a97b3864a8a19453c62e945633f92c0db06a9743dbe59-financial_report.html",
+      "original_bytes": 44651,
+      "excerpt_bytes": 7793,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2972dbe4d53540e5a9d0b5781c71480d/index.html",
+      "original_sha256": "910cd3161aa2c0af086e00f820366878366269db4bee55a9064cb5fd8099f95b",
+      "excerpt_sha256": "019b0e07729200dac43501f987591ca1f2e76642f2604b4008f92bf197406bab",
+      "excerpt_file": "pbc-019b0e07729200dac43501f987591ca1f2e76642f2604b4008f92bf197406bab-financial_report.html",
+      "original_bytes": 41406,
+      "excerpt_bytes": 5156,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026081416320925645/index.html",
+      "original_sha256": "933f3546fc3f8232014dc9e2cab854a331ff5da5a9509d3063ada2d3678dfcef",
+      "excerpt_sha256": "d8fcc25eb3341e05b682ef727b40d7e5d46257cced44f43f0b7c07701a6eda29",
+      "excerpt_file": "pbc-d8fcc25eb3341e05b682ef727b40d7e5d46257cced44f43f0b7c07701a6eda29-financial_report.html",
+      "original_bytes": 44692,
+      "excerpt_bytes": 7818,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/03855a5cd8494b8fa37f81b058a844fd/index.html",
+      "original_sha256": "9583455fddba859addbdafeebdf07e2a5c2ff689f67575cf1b575507ced96bdb",
+      "excerpt_sha256": "1dac6bc9b25a2911a52e7325763f8c16915e7245073a153576040d9b2c1f4052",
+      "excerpt_file": "pbc-1dac6bc9b25a2911a52e7325763f8c16915e7245073a153576040d9b2c1f4052-financial_report.html",
+      "original_bytes": 30195,
+      "excerpt_bytes": 4170,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/565787bbb7074e018bdee0080de52024/index.html",
+      "original_sha256": "978f23e2ad659b46c7e3eebff16f752ef2eacf09f01cea9a33812a54e18dadbf",
+      "excerpt_sha256": "55b47bf3467ed2c6abb6824e2d1ff015c33ee182adbb061fc5958dc657e3d1b0",
+      "excerpt_file": "pbc-55b47bf3467ed2c6abb6824e2d1ff015c33ee182adbb061fc5958dc657e3d1b0-financial_report.html",
+      "original_bytes": 30454,
+      "excerpt_bytes": 4414,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/216996c140a74b30a2595ec8a8f58ce3/index.html",
+      "original_sha256": "9d7bd56db49dab868961a33b8279a6aa2daf951a7ce2d32b19b749a47b4dcf2a",
+      "excerpt_sha256": "032aa0e744c2b153d5ef96a671ebfcb3d31ec910116306a897d1cf843b7ee1a2",
+      "excerpt_file": "pbc-032aa0e744c2b153d5ef96a671ebfcb3d31ec910116306a897d1cf843b7ee1a2-financial_report.html",
+      "original_bytes": 30361,
+      "excerpt_bytes": 4390,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026071515025183948/index.html",
+      "original_sha256": "9ebce7e21c93d92980814be8f754dcc255ebe29dbbdf2531973e09361832c168",
+      "excerpt_sha256": "4f85ba9389ed31f75fece03f8830c0d37b442e5b0409ef668c9baf84a8900014",
+      "excerpt_file": "pbc-4f85ba9389ed31f75fece03f8830c0d37b442e5b0409ef668c9baf84a8900014-financial_report.html",
+      "original_bytes": 44903,
+      "excerpt_bytes": 7972,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212554572702/index.html",
+      "original_sha256": "9f5a0ba19bebd26782dc9b71455b516113e7a28009553ba94aabe29d5b7ff660",
+      "excerpt_sha256": "e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702",
+      "excerpt_file": "pbc-e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702-financial_report.html",
+      "original_bytes": 36824,
+      "excerpt_bytes": 5072,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/02/2026021416101539242.htm",
+      "original_sha256": "a34395206d1b0c2aaa292df1a3e0e2d17c37e1c497563962e43fba8732a71a86",
+      "excerpt_sha256": "2fcd0340fa0eb2df1c3c1d57a946fb532993d1b1f93a440d924eb593a2a28342",
+      "excerpt_file": "pbc-2fcd0340fa0eb2df1c3c1d57a946fb532993d1b1f93a440d924eb593a2a28342-tsf_table.html",
+      "original_bytes": 57555,
+      "excerpt_bytes": 9968,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/e3120f58ec724fe1811d9dadf67232d2/index.html",
+      "original_sha256": "a3e044cb1cb5c2d4e548339b355449e7b0871eb8f3e87c150024a30fc3363482",
+      "excerpt_sha256": "62ce9e635a26d459d6146cb6b9e981b7659fab74baf8f40857519c0ae03ae486",
+      "excerpt_file": "pbc-62ce9e635a26d459d6146cb6b9e981b7659fab74baf8f40857519c0ae03ae486-financial_report.html",
+      "original_bytes": 41428,
+      "excerpt_bytes": 5164,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/1bb8759c90de4353b2a93e00438375e3/index.html",
+      "original_sha256": "a48db0d71709831a9292c6aa6e1684d7b34ab8b4efb509a8f17b7763015aad69",
+      "excerpt_sha256": "742ddf99cc9d677851e5ffeba1d910a8e098899b7e49928f157a4524b80c8fd4",
+      "excerpt_file": "pbc-742ddf99cc9d677851e5ffeba1d910a8e098899b7e49928f157a4524b80c8fd4-financial_report.html",
+      "original_bytes": 37549,
+      "excerpt_bytes": 5191,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/dded7449c74144a19171f582bec9ed36/index.html",
+      "original_sha256": "b3c5ecfe4fb6599279e3401b3ce0ef25dc5745a8f77cff7e84c9a14e1a4cd157",
+      "excerpt_sha256": "0953bb3cd289e7768abd8c8d27cf94fd3544a0020d886e1db09cfc2a0e38dd7a",
+      "excerpt_file": "pbc-0953bb3cd289e7768abd8c8d27cf94fd3544a0020d886e1db09cfc2a0e38dd7a-financial_report.html",
+      "original_bytes": 44461,
+      "excerpt_bytes": 8067,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/8393556d383747a3bc6ad513618ae523/index.html",
+      "original_sha256": "bdc8ad4a48e35e8d3d2d9eba9596a7223f7574fd7447b76d64d587becbf67425",
+      "excerpt_sha256": "aa5cae229382abd19c5555ae8ba2b356c254b5e6e82c8fbe3672edc3be64f58e",
+      "excerpt_file": "pbc-aa5cae229382abd19c5555ae8ba2b356c254b5e6e82c8fbe3672edc3be64f58e-financial_report.html",
+      "original_bytes": 37862,
+      "excerpt_bytes": 5502,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/b59c04b2e581418f9109dcdff76de699/index.html",
+      "original_sha256": "c0a4cda42f7d42b3e0cc0ee9ea0560c9eb02760d313a4e1529c987bb6719e63c",
+      "excerpt_sha256": "5b3b2a73259d442d1ff7a5da1d54f833eb2f4e03f03e88a65f9a6618ae294e62",
+      "excerpt_file": "pbc-5b3b2a73259d442d1ff7a5da1d54f833eb2f4e03f03e88a65f9a6618ae294e62-financial_report.html",
+      "original_bytes": 38536,
+      "excerpt_bytes": 4959,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011515582640595.htm",
+      "original_sha256": "c94755c94d4000b9b81f99f02d78cdcf8ee27068547f8e0ed142985667228bfa",
+      "excerpt_sha256": "92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329",
+      "excerpt_file": "pbc-92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329-m1_backcast.html",
+      "original_bytes": 57355,
+      "excerpt_bytes": 5807,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025080618505071886/index.html",
+      "original_sha256": "cf31e072f283a84717a8e63bdb22ef47a229e82d378e829d7bc13bc55481f96f",
+      "excerpt_sha256": "3bc6024569f49cb765e36b1048d56f71013013ac35c4e78d2b612471b45bd0f2",
+      "excerpt_file": "pbc-3bc6024569f49cb765e36b1048d56f71013013ac35c4e78d2b612471b45bd0f2-financial_report.html",
+      "original_bytes": 41600,
+      "excerpt_bytes": 5321,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/de29861e7a2848368ce269dfc31e6be6/index.html",
+      "original_sha256": "d035e332be31a9268dbe493b74cc5ceab5330f85b482de6c7057ed097c35f348",
+      "excerpt_sha256": "52c0880f22e7c1528058027263f844bffe0ea45030930c5461a6907abe227d1c",
+      "excerpt_file": "pbc-52c0880f22e7c1528058027263f844bffe0ea45030930c5461a6907abe227d1c-financial_report.html",
+      "original_bytes": 29906,
+      "excerpt_bytes": 3908,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110510031398134.htm",
+      "original_sha256": "d1bef133592ec4ae872a91976382d127a18da0014fe6b6b5e28cbb49d53b4e6b",
+      "excerpt_sha256": "0740b88c53186aac44e18b3ab66fea7183f4a3540ca321897a30caabc08f3a2a",
+      "excerpt_file": "pbc-0740b88c53186aac44e18b3ab66fea7183f4a3540ca321897a30caabc08f3a2a-tsf_table.html",
+      "original_bytes": 84952,
+      "excerpt_bytes": 18191,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/5e836772302043d99354efa62c01029d/index.html",
+      "original_sha256": "de360412abe85b7c6ec3b39f0236b713afbb5c91f1d3210e5fb9fe4a8d7814a2",
+      "excerpt_sha256": "3699c174cd2d98747e84a204963bc3dd39adad3f1acb4fac0f01cbe827874423",
+      "excerpt_file": "pbc-3699c174cd2d98747e84a204963bc3dd39adad3f1acb4fac0f01cbe827874423-financial_report.html",
+      "original_bytes": 38588,
+      "excerpt_bytes": 5071,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2026021317031040775/index.html",
+      "original_sha256": "e5e5bcd61b540d1c7c4e4d68c2a6350bf090bb37c381fec2a9de359487705ad0",
+      "excerpt_sha256": "10eef62b5a4aff2e5476554f2db6038fc7207c4ddf51fc9d92a8e73dee0fde69",
+      "excerpt_file": "pbc-10eef62b5a4aff2e5476554f2db6038fc7207c4ddf51fc9d92a8e73dee0fde69-financial_report.html",
+      "original_bytes": 44631,
+      "excerpt_bytes": 7754,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/88fe2f6caa7d46e8ba029def777c7831/index.html",
+      "original_sha256": "e61f59508c264b023ebe26eb07cbd7dbd71e51e7ef3006a94e84ffedc12d628e",
+      "excerpt_sha256": "bd60d88c1c7198d3d26a90d9643b0b96e7ef9f39f8255759dc9e8d6aa5b3b9a9",
+      "excerpt_file": "pbc-bd60d88c1c7198d3d26a90d9643b0b96e7ef9f39f8255759dc9e8d6aa5b3b9a9-financial_report.html",
+      "original_bytes": 37870,
+      "excerpt_bytes": 5512,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/b2dfd3ad0adc4d3ca62f1adacea5fc09/index.html",
+      "original_sha256": "e96056f2f59b53ec243c879319c5d5981c06d67b6e170e0e4dd2af9fda1b6427",
+      "excerpt_sha256": "ed6cb4c216f1a9a866c922cbc9ca128c90e89da7eb21c2275c146ee73800da85",
+      "excerpt_file": "pbc-ed6cb4c216f1a9a866c922cbc9ca128c90e89da7eb21c2275c146ee73800da85-financial_report.html",
+      "original_bytes": 30003,
+      "excerpt_bytes": 4005,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/e8f0ed951dcb44aca265fb31ff7eeff6/index.html",
+      "original_sha256": "ec188bfeff3b263c1dd55a573b8dd3cc5682fc7b4b195a443e985a3a1f616630",
+      "excerpt_sha256": "a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75",
+      "excerpt_file": "pbc-a75f64f702b8ea5d257dab1fd9111408e0ce3675249db521803b396f0e7bed75-financial_report.html",
+      "original_bytes": 29885,
+      "excerpt_bytes": 3874,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/8547a25bf7384b908b4679dd352cee24/index.html",
+      "original_sha256": "f6b9871154561655045929e64b49ab32d969eac722b332ad28f642566a75d367",
+      "excerpt_sha256": "9b31e920ba603c044a41791a8178b2c65dae86d7c17ea13cf435e9586866832d",
+      "excerpt_file": "pbc-9b31e920ba603c044a41791a8178b2c65dae86d7c17ea13cf435e9586866832d-financial_report.html",
+      "original_bytes": 29882,
+      "excerpt_bytes": 3896,
+      "replay_unchanged": true
+    },
+    {
+      "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/89a04f538b414573a827dd0666294e69/index.html",
+      "original_sha256": "f8f203d70a57566ad11f64f849a602a5f669835c1fe21663a74d4aa76eb393ba",
+      "excerpt_sha256": "e6b46a3fb9b0da31910cdfecdc49630f4a9c7aa7b2815739b716f99e0d53bde8",
+      "excerpt_file": "pbc-e6b46a3fb9b0da31910cdfecdc49630f4a9c7aa7b2815739b716f99e0d53bde8-financial_report.html",
+      "original_bytes": 29977,
+      "excerpt_bytes": 3980,
+      "replay_unchanged": true
+    }
+  ]
+}

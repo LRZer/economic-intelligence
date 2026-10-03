@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "raw_trade_rows": 89207221,
+  "country_sector_candidates": 153994,
+  "eligible_rows": 56527,
+  "year_counts": {
+    "2019": 7938,
+    "2020": 7954,
+    "2021": 7846,
+    "2022": 8158,
+    "2023": 8290,
+    "2024": 8248,
+    "2025": 8093
+  },
+  "train_boundaries": [
+    {
+      "target_year": 2021,
+      "train_first_label_year": 2019,
+      "train_last_label_year": 2020,
+      "train_n": 15892,
+      "evaluation_n": 7846
+    },
+    {
+      "target_year": 2022,
+      "train_first_label_year": 2019,
+      "train_last_label_year": 2021,
+      "train_n": 23738,
+      "evaluation_n": 8158
+    },
+    {
+      "target_year": 2023,
+      "train_first_label_year": 2019,
+      "train_last_label_year": 2022,
+      "train_n": 31896,
+      "evaluation_n": 8290
+    },
+    {
+      "target_year": 2024,
+      "train_first_label_year": 2019,
+      "train_last_label_year": 2023,
+      "train_n": 40186,
+      "evaluation_n": 8248
+    }
+  ],
+  "protocol_sha256": "d72de5a2729a3985340771453179e1a27ff256af821ed241520c5d319f5787f1",
+  "dataset_hash": "5e873ed2b6d1c66a5142407607211367af62571920ff07ca0402e5edec0d492e",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "same_comparison_rows": true,
+  "future_macro_perturbation_early_features_unchanged": true,
+  "label_unreported_sector_rows": 9,
+  "limits": "统计年度边界检查通过；当前修订版本仍不能证明首次发布日期可用性；没有重新拟合或调整留出。"
+}

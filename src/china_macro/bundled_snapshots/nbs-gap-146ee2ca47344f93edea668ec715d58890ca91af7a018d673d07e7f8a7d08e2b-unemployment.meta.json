@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "146ee2ca47344f93edea668ec715d58890ca91af7a018d673d07e7f8a7d08e2b",
+  "key": "unemployment",
+  "period": "2021-10",
+  "value": 4.9,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901278.html",
+  "source_title": "10月份经济运行总体平稳持续恢复",
+  "published": "2021-11-15",
+  "original_sha256": "f281a463c4fb9e955ce69e616d25685268920d38a00440e10cce28d626b48138",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

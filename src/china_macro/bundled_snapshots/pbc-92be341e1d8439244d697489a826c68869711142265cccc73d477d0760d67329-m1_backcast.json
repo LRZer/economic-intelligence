@@ -1,0 +1,76 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/01/2026011515582640595.htm",
+  "source_title": "2025年货币供应量（含2024年M1新口径官方回溯）",
+  "year": 2025,
+  "published": "",
+  "kind": "m1_backcast",
+  "sha256": "92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329",
+  "file": "pbc-92be341e1d8439244d697489a826c68869711142265cccc73d477d0760d67329-m1_backcast.html",
+  "record_count": 12,
+  "fetched_at": "2026-10-03T19:06:45+00:00",
+  "rows": [
+    {
+      "key": "m1_yoy",
+      "period": "2024-01",
+      "value": 3.3
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-02",
+      "value": 2.6
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-03",
+      "value": 2.3
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-04",
+      "value": 0.6
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-05",
+      "value": -0.8
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-06",
+      "value": -1.7
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-07",
+      "value": -2.6
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-08",
+      "value": -3.0
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-09",
+      "value": -3.3
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-10",
+      "value": -2.3
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-11",
+      "value": -0.7
+    },
+    {
+      "key": "m1_yoy",
+      "period": "2024-12",
+      "value": 1.2
+    }
+  ],
+  "original_sha256": "c94755c94d4000b9b81f99f02d78cdcf8ee27068547f8e0ed142985667228bfa",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

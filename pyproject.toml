@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "guanlan-economic-intelligence"
+version = "1.0.0"
+description = "观澜：可复现的AI宏观研究、全球比较与中国官方数据审计系统"
+requires-python = ">=3.11"
+dependencies = [
+  "streamlit>=1.65,<2",
+  "pandas>=2.0,<3",
+  "pyarrow>=15,<25",
+  "plotly>=5.20,<7",
+  "requests>=2.31,<3",
+  "beautifulsoup4>=4.12,<5",
+  "numpy>=1.26,<3",
+  "scikit-learn>=1.2,<2",
+  "duckdb>=1.2,<2",
+  "Babel>=2.12,<3",
+  "pycountry>=24.6,<25",
+  "mistune>=2.0.4,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1", "mypy>=1.14,<2", "bandit>=1.8,<2", "pip-audit>=2.9,<3", "build>=1.2,<2", "playwright>=1.50,<2"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "--import-mode=importlib"
+
+[tool.setuptools.package-data]
+china_macro = ["demo_data.json", "web/*", "bundled_snapshots/*"]
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]
+
+[tool.mypy]
+files = ["src/guanlan/forecast.py", "src/guanlan/sector_network.py", "src/guanlan/sector_risk.py", "src/guanlan/sector_report.py", "src/guanlan/ui/sector.py"]
+ignore_missing_imports = true
+check_untyped_defs = true

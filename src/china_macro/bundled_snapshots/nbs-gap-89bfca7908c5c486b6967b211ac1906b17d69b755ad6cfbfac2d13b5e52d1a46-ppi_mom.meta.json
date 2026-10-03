@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:37+00:00",
+  "sha256": "89bfca7908c5c486b6967b211ac1906b17d69b755ad6cfbfac2d13b5e52d1a46",
+  "key": "ppi_mom",
+  "period": "2025-12",
+  "value": 0.2,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962272.html",
+  "source_title": "2025年12月份工业生产者出厂价格同比降幅收窄 环比涨幅扩大",
+  "published": "2026-01-09",
+  "original_sha256": "d805321d8d4871c85e5026754b165f2938f03962f13a190cc443b00241085f74",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

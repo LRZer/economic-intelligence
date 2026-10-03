@@ -1,0 +1,7 @@
+{
+  "initial_sha256": "01f810d0ab2b008b57af531542f5eb5607f3494a39c3af683df95826ca211391",
+  "executed_sha256": "d72de5a2729a3985340771453179e1a27ff256af821ed241520c5d319f5787f1",
+  "initial_copy": "docs/validation/sector-protocol-initial.md",
+  "executed_copy": "docs/SECTOR_RISK_PROTOCOL.md",
+  "scope": "Execution clarification was recorded before sector model score evaluation. No holdout-based model retuning."
+}

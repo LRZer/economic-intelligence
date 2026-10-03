@@ -1,0 +1,216 @@
+{
+  "provider": "BLS + Federal Reserve Board (direct official sources)",
+  "source_url": "https://www.federalreserve.gov/releases/",
+  "downloaded_at_utc": "2026-10-03T20:02:44.524068+00:00",
+  "series": {
+    "CPI_SA": {
+      "name": "全城市消费者价格指数",
+      "unit": "1982—1984=100",
+      "origin": "美国劳工统计局",
+      "native_code": "CUSR0000SA0",
+      "seasonal_adjustment": "SA",
+      "source_url": "https://www.bls.gov/cpi/"
+    },
+    "UNEMP_SA": {
+      "name": "U-3失业率",
+      "unit": "%",
+      "origin": "美国劳工统计局",
+      "native_code": "LNS14000000",
+      "seasonal_adjustment": "SA",
+      "source_url": "https://www.bls.gov/cps/"
+    },
+    "IP_SA": {
+      "name": "总工业产出指数",
+      "unit": "2017=100",
+      "origin": "美联储理事会",
+      "native_code": "B50001",
+      "seasonal_adjustment": "SA",
+      "source_url": "https://www.federalreserve.gov/releases/g17/"
+    },
+    "EFFR": {
+      "name": "有效联邦基金利率（月均）",
+      "unit": "% / 年",
+      "origin": "美联储理事会",
+      "native_code": "RIFSPFF_N.M",
+      "seasonal_adjustment": "NSA",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    "UST2Y": {
+      "name": "2年期国债固定期限市场收益率（月均）",
+      "unit": "% / 年",
+      "origin": "美联储理事会",
+      "native_code": "RIFLGFCY02_N.M",
+      "seasonal_adjustment": "NSA",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    },
+    "UST10Y": {
+      "name": "10年期国债固定期限市场收益率（月均）",
+      "unit": "% / 年",
+      "origin": "美联储理事会",
+      "native_code": "RIFLGFCY10_N.M",
+      "seasonal_adjustment": "NSA",
+      "source_url": "https://www.federalreserve.gov/releases/h15/"
+    }
+  },
+  "start_year": 1990,
+  "rows": 2644,
+  "observed_values": 2642,
+  "frequency": "monthly",
+  "latest_observation": {
+    "CPI_SA": "2026-08-01",
+    "EFFR": "2026-09-01",
+    "IP_SA": "2026-08-01",
+    "UNEMP_SA": "2026-09-01",
+    "UST10Y": "2026-09-01",
+    "UST2Y": "2026-09-01"
+  },
+  "missing_months": {
+    "CPI_SA": [
+      "2025-10"
+    ],
+    "EFFR": [],
+    "IP_SA": [],
+    "UNEMP_SA": [
+      "2025-10"
+    ],
+    "UST10Y": [],
+    "UST2Y": []
+  },
+  "raw_manifest": [
+    {
+      "file": "bls-1990-1999.json",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "request_json": {
+        "seriesid": [
+          "CUSR0000SA0",
+          "LNS14000000"
+        ],
+        "startyear": "1990",
+        "endyear": "1999"
+      },
+      "retrieved_at_utc": "2026-10-03T20:02:39.987566+00:00",
+      "sha256": "2fba48a1fe4a9bb7dfba6fd44003c9cfa33d1da80a1de3c73f0f280ea2852e4f",
+      "bytes": 20721
+    },
+    {
+      "file": "bls-2000-2009.json",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "request_json": {
+        "seriesid": [
+          "CUSR0000SA0",
+          "LNS14000000"
+        ],
+        "startyear": "2000",
+        "endyear": "2009"
+      },
+      "retrieved_at_utc": "2026-10-03T20:02:40.372528+00:00",
+      "sha256": "7d76a590eaed643e4c221f44914a2513a93958d79bd2b6b0f3f8b9be6652f018",
+      "bytes": 20698
+    },
+    {
+      "file": "bls-2010-2019.json",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "request_json": {
+        "seriesid": [
+          "CUSR0000SA0",
+          "LNS14000000"
+        ],
+        "startyear": "2010",
+        "endyear": "2019"
+      },
+      "retrieved_at_utc": "2026-10-03T20:02:40.727695+00:00",
+      "sha256": "5c130c193cccb419dbcfa772965b70ea32f51b5d1e8637e01fd9d4aabdba17fe",
+      "bytes": 20840
+    },
+    {
+      "file": "bls-2020-2026.json",
+      "url": "https://api.bls.gov/publicAPI/v2/timeseries/data/",
+      "request_json": {
+        "seriesid": [
+          "CUSR0000SA0",
+          "LNS14000000"
+        ],
+        "startyear": "2020",
+        "endyear": "2026"
+      },
+      "retrieved_at_utc": "2026-10-03T20:02:41.103320+00:00",
+      "sha256": "fcce2dc8d03a328822e2413ac13f3d3411d02ed9771eeccfa3018e61dd9b761b",
+      "bytes": 14365
+    },
+    {
+      "file": "g17-ip-sa.txt",
+      "url": "https://www.federalreserve.gov/releases/g17/Current/ipdisk/ip_sa.txt",
+      "request_json": null,
+      "retrieved_at_utc": "2026-10-03T20:02:42.887156+00:00",
+      "sha256": "637cb682c1ffc0de6a9dd9e51f3dc5ee8320741d2235cfba9e04bc473756167d",
+      "bytes": 2749546
+    },
+    {
+      "file": "h15-monthly.csv",
+      "url": "https://www.federalreserve.gov/datadownload/Output.aspx?rel=H15&series=d7e27b7b09a3a7feae95b9c61781fcd8&lastobs=1000&from=&to=&filetype=csv&label=include&layout=seriescolumn&type=package",
+      "request_json": null,
+      "retrieved_at_utc": "2026-10-03T20:02:43.176890+00:00",
+      "sha256": "1710bb8ad3071e28f94eb2480438b67e8fd2d5ba2d78c8f5149767a1648e86a3",
+      "bytes": 110460
+    },
+    {
+      "file": "fed-disclaimer.html",
+      "url": "https://www.federalreserve.gov/disclaimer.htm",
+      "request_json": null,
+      "retrieved_at_utc": "2026-10-03T20:02:44.226158+00:00",
+      "sha256": "716f1b61ed394e1a9c19b036613356eda070ef5b807135987fa06ce50372dfe3",
+      "bytes": 85130,
+      "publication_status": "完整政策页本机保留，不发布整站HTML；许可URL与原始SHA保留"
+    },
+    {
+      "file": "g17-series-documentation.txt",
+      "url": "https://www.federalreserve.gov/releases/g17/Current/ipdisk/g17tab1.txt",
+      "request_json": null,
+      "retrieved_at_utc": "2026-10-03T20:02:44.484226+00:00",
+      "sha256": "974f37d31a72fbd0fc4716fa10bfc78f583aa634dc960e62382b5ce979df20d7",
+      "bytes": 17813
+    }
+  ],
+  "bls_footnotes": [
+    {
+      "date": "2025-10-01",
+      "series_code": "CPI_SA",
+      "code": "X",
+      "text": "Data unavailable due to the 2025 lapse in appropriations"
+    },
+    {
+      "date": "2026-01-01",
+      "series_code": "UNEMP_SA",
+      "code": "12",
+      "text": "January 2026 estimates were revised to incorporate updated population controls. For more information, see www.bls.gov/cps/documentation.htm#pop."
+    },
+    {
+      "date": "2025-10-01",
+      "series_code": "UNEMP_SA",
+      "code": "9",
+      "text": "Data unavailable due to the 2025 lapse in appropriations."
+    }
+  ],
+  "policy_urls": {
+    "bls-copyright.html": "https://www.bls.gov/bls/linksite.htm",
+    "bls-api-terms.html": "https://www.bls.gov/developers/termsOfService.htm",
+    "fed-disclaimer.html": "https://www.federalreserve.gov/disclaimer.htm",
+    "g17-series-documentation.txt": "https://www.federalreserve.gov/releases/g17/Current/ipdisk/g17tab1.txt"
+  },
+  "policy_fetch_failures": [
+    {
+      "url": "https://www.bls.gov/bls/linksite.htm",
+      "error_type": "HTTPError",
+      "status": 403
+    },
+    {
+      "url": "https://www.bls.gov/developers/termsOfService.htm",
+      "error_type": "HTTPError",
+      "status": 403
+    }
+  ],
+  "source_disclaimer": "BLS.gov cannot vouch for the data or analyses derived from these data after the data have been retrieved from BLS.gov.",
+  "method": "BLS monthly SA observations; G.17 B50001 SA; H.15 official monthly averages, no local daily aggregation or interpolation.",
+  "release_date_limit": "Per-observation first publication dates and real-time vintages are not supplied; retrieval time is not a release date.",
+  "parquet_sha256": "94121403ce39d5e250e349a422b119786da8f678028b7b085d71e3a2f52d0b51"
+}

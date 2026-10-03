@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:42+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202406/t20240624_3937803.htm",
+  "source_title": "2024年5月财政收支情况",
+  "period": "2024-05",
+  "published": "2024-06-24",
+  "sha256": "9213fd9cd6e3731c9d338479f650a507678d9e5982d7dce882be2c79cc8083b3",
+  "observation_count": 10,
+  "original_sha256": "5d38906c4e13a18dfd7e82c59b4a4d3f23d61555b49e36c6652403881439118c",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:31+00:00",
+  "sha256": "60e74347515549eaa70b46a64b66ec948dead4d3b92f414125fc60138774034e",
+  "key": "ppi_mom",
+  "period": "2024-11",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957688.html",
+  "source_title": "2024年11月份工业生产者出厂价格同比降幅收窄 环比由降转涨",
+  "published": "2024-12-09",
+  "original_sha256": "9be72178c8bf5f6f4b5294d3088df14bc4f592ec2c65227e2098e0494161a4ad",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

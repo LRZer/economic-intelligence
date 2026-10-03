@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:51+00:00",
+  "sha256": "eb996218251fad718541f9d560227830130e55f88f780b3172365eb35cd37eaf",
+  "key": "cpi_mom",
+  "period": "2023-05",
+  "value": -0.2,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940479.html",
+  "source_title": "2023年5月份居民消费价格同比上涨0.2% 环比下降0.2%",
+  "published": "2023-06-09",
+  "original_sha256": "ab9359fd345c2416c5cf0360486376e87372aa640009cef63406f2d63a7da411",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

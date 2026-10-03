@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:46+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202305/t20230518_3885232.htm",
+  "source_title": "2023年4月财政收支情况",
+  "period": "2023-04",
+  "published": "2023-05-18",
+  "sha256": "489cac1dadb3bcdab6639052c8f74c4e2edcdfcb616da6c71cd72c0ff73125af",
+  "observation_count": 10,
+  "original_sha256": "2a9a9d7d6abcde2d0231cf5d9106a742745262283684780b03fda4cfe1deba12",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

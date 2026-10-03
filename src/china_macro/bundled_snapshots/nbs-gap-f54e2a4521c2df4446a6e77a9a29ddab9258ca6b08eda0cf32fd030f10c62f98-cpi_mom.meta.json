@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:09+00:00",
+  "sha256": "f54e2a4521c2df4446a6e77a9a29ddab9258ca6b08eda0cf32fd030f10c62f98",
+  "key": "cpi_mom",
+  "period": "2026-05",
+  "value": -0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963923.html",
+  "source_title": "2026年5月份居民消费价格同比上涨1.2%",
+  "published": "2026-06-10",
+  "original_sha256": "7650dd27e9a4bb890069f168b832b10f333484638c28d8915e8d9db218bd8d19",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

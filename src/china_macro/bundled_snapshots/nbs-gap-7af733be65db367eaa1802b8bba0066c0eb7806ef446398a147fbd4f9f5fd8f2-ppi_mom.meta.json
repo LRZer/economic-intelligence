@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:36+00:00",
+  "sha256": "7af733be65db367eaa1802b8bba0066c0eb7806ef446398a147fbd4f9f5fd8f2",
+  "key": "ppi_mom",
+  "period": "2025-11",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962014.html",
+  "source_title": "2025年11月份工业生产者出厂价格环比继续上涨",
+  "published": "2025-12-10",
+  "original_sha256": "df9b70adeca688c93c3b3790d08d0146769ebf0c2911dd32a8a9880bb3918975",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

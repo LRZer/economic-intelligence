@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:46+00:00",
+  "sha256": "fa9753d63c02c414ca5a2306ee94e6a773477ce1c1550988429af10cd625285c",
+  "key": "cpi_mom",
+  "period": "2022-09",
+  "value": 0.3,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901613.html",
+  "source_title": "2022年9月份居民消费价格同比上涨2.8% 环比上涨0.3%",
+  "published": "2022-10-14",
+  "original_sha256": "ab4ce587d1a17ea81de4f0fb6114600bb891b07180e8a8e2e8a51719fa0451cf",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

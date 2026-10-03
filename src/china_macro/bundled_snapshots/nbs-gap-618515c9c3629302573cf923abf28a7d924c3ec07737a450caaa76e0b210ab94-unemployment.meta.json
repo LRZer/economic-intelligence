@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "618515c9c3629302573cf923abf28a7d924c3ec07737a450caaa76e0b210ab94",
+  "key": "unemployment",
+  "period": "2025-12",
+  "value": 5.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202601/t20260119_1962330.html",
+  "source_title": "2025年经济发展向新向优 预期目标圆满实现",
+  "published": "2026-01-19",
+  "original_sha256": "13edb6f7dbc08cfddc86119715c7a867e36229e51ead5028f6d8e94b9d1cdc77",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

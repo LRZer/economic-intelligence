@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:45+00:00",
+  "sha256": "abf5045df862d005aba9beb55052d2c9b7135a20e597ff23b3f133bf7c1d6b15",
+  "key": "cpi_mom",
+  "period": "2022-07",
+  "value": 0.5,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901542.html",
+  "source_title": "2022年7月份居民消费价格同比上涨2.7% 环比上涨0.5%",
+  "published": "2022-08-10",
+  "original_sha256": "e073fe50f9f9b12ec680c8a9e3feaa44855cf52a5aa471e33c9b83c5a64a0569",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

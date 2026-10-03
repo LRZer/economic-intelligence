@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+*.py[cod]
+*.egg-info/
+build/
+dist/
+reports/
+output/
+tmp/
+*.local.json
+data/private/
+data/china/
+data/processed/release_catalog.sqlite*
+data/processed/releases/
+data/processed/.staging-*/
+# Complete BACI is stored in audited Git-safe parts; reconstructed duplicate stays local.
+data/raw/BACI_HS17_V202601.zip
+*.reconstructing

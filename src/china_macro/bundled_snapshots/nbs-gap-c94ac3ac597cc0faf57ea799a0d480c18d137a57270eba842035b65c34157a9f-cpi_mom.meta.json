@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:02+00:00",
+  "sha256": "c94ac3ac597cc0faf57ea799a0d480c18d137a57270eba842035b65c34157a9f",
+  "key": "cpi_mom",
+  "period": "2025-04",
+  "value": 0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959771.html",
+  "source_title": "2025年4月份居民消费价格同比下降0.1%",
+  "published": "2025-05-10",
+  "original_sha256": "b4641ce5b6e9f779f853f43137d9fee2073ae6e9cd1cd5fbd1222680004a444c",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

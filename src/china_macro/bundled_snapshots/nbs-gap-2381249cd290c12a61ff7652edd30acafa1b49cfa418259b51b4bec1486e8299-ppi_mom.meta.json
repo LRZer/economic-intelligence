@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:12+00:00",
+  "sha256": "2381249cd290c12a61ff7652edd30acafa1b49cfa418259b51b4bec1486e8299",
+  "key": "ppi_mom",
+  "period": "2021-12",
+  "value": -1.2,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901329.html",
+  "source_title": "2021年12月份工业生产者出厂价格同比上涨10.3% 环比下降1.2%",
+  "published": "2022-01-12",
+  "original_sha256": "725246ce1d3505896466e9822340cfa1712111876e71b0b2c6798cdbb7ad1c40",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

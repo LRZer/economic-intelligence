@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:57+00:00",
+  "sha256": "5413888f4f24488f84bc7f0159119fff831bea5648a6171fd24a51191cca283b",
+  "key": "cpi_mom",
+  "period": "2024-06",
+  "value": -0.2,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955508.html",
+  "source_title": "2024年6月份居民消费价格同比上涨0.2%",
+  "published": "2024-07-10",
+  "original_sha256": "bceeb1a8d536646a4aacb28dd356d89b28c58f8c02173e15742ad95e3df87ff1",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:24+00:00",
+  "sha256": "a8e7beaf9319ccce835ec1f212f3bc1bdbe71c9dc4f36926ef048b2663aed38d",
+  "key": "ppi_mom",
+  "period": "2023-08",
+  "value": 0.2,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942696.html",
+  "source_title": "2023年8月份工业生产者出厂价格同比下降3.0%　环比上涨0.2%",
+  "published": "2023-09-09",
+  "original_sha256": "34399dcc0a4e7148dd536bbd85ddd54c736707153ead9343fe1eb210339d46b3",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

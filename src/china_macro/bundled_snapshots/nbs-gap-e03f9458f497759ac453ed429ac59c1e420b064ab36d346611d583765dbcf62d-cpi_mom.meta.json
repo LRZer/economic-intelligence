@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:53+00:00",
+  "sha256": "e03f9458f497759ac453ed429ac59c1e420b064ab36d346611d583765dbcf62d",
+  "key": "cpi_mom",
+  "period": "2023-09",
+  "value": 0.2,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943548.html",
+  "source_title": "2023年9月份居民消费价格同比持平 环比上涨0.2%",
+  "published": "2023-10-13",
+  "original_sha256": "4e552baca76bfb856a8e282e21f8e1f17d2f2baeb9b891e24ffb06d32808afcc",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

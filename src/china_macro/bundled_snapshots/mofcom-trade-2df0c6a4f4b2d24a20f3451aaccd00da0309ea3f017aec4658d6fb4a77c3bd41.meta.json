@@ -1,0 +1,14 @@
+{
+  "fetched_at": "2026-09-26T22:28:22+00:00",
+  "source_page": "https://data.mofcom.gov.cn/hwmy/imexmonth.shtml",
+  "request_url": "https://data.mofcom.gov.cn/datamofcom/front/totalmonth/query",
+  "requested_range": [
+    "202101",
+    "202609"
+  ],
+  "sha256": "2df0c6a4f4b2d24a20f3451aaccd00da0309ea3f017aec4658d6fb4a77c3bd41",
+  "path": "C:\\Users\\Lenovo\\Desktop\\经济数据获取与分析系统\\data\\source_snapshots\\mofcom-trade-2df0c6a4f4b2d24a20f3451aaccd00da0309ea3f017aec4658d6fb4a77c3bd41.json",
+  "observation_count": 272,
+  "first_period": "2021-01",
+  "last_period": "2026-08"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "27bc72b696dbc3e2807d2ba994c3042398bbb59d1cf990a3f4f3872e9ff850ef",
+  "key": "export_yoy",
+  "period": "2026-06",
+  "value": 20.8,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/t20260715_1964121.html",
+  "source_title": "上半年经济运行在合理区间 新动能快速成长",
+  "published": "2026-07-15",
+  "original_sha256": "ea93f74e5ea15904f8ce2a8826cb862ccf8cd3291f22850bbdedd3dedb053bb9",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

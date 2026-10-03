@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "d38eaf2aa90c52a26e8c8b34dac55b8adb67c4b5ecd94efd4cc74e4e8d481c2a",
+  "key": "import_yoy",
+  "period": "2022-05",
+  "value": 2.8,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901486.html",
+  "source_title": "5月份国民经济运行呈现恢复势头",
+  "published": "2022-06-15",
+  "original_sha256": "b24182e712e4f8ce071758b26b7514c094c047f0a8d9b66f461ac9125810300c",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

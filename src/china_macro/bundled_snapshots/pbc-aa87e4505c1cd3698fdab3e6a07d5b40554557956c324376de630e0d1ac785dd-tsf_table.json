@@ -1,0 +1,56 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2026/09/2026091417325051118.htm",
+  "source_title": "2026年社会融资规模存量统计表",
+  "year": 2026,
+  "published": "",
+  "kind": "tsf_table",
+  "sha256": "aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd",
+  "file": "pbc-aa87e4505c1cd3698fdab3e6a07d5b40554557956c324376de630e0d1ac785dd-tsf_table.html",
+  "record_count": 8,
+  "fetched_at": "2026-10-03T19:06:45+00:00",
+  "rows": [
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-01",
+      "value": 8.2
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-02",
+      "value": 8.2
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-03",
+      "value": 7.9
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-04",
+      "value": 7.8
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-05",
+      "value": 7.7
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-06",
+      "value": 7.4
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-07",
+      "value": 7.4
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2026-08",
+      "value": 7.2
+    }
+  ],
+  "original_sha256": "1d1b3690eeaeb01cd70ad1b3d56ea5890498604098c6f923fbcd28d6363a2079",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

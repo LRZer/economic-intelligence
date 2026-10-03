@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:29+00:00",
+  "sha256": "98641e7f8fcf3ab50f566ab4d69b0a158a46f011e8fc7011875b3f2f1bec2683",
+  "key": "ppi_mom",
+  "period": "2024-07",
+  "value": -0.2,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955949.html",
+  "source_title": "2024年7月份工业生产者出厂价格降幅与上月相同",
+  "published": "2024-08-09",
+  "original_sha256": "5a98724211b296a9df74423c50aa4362cbd0c2112ad4a4eb27f476259dcd9d1d",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

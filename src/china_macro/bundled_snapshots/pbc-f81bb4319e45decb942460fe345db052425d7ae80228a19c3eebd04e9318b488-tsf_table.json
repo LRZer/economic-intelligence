@@ -1,0 +1,76 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110416000696359.htm",
+  "source_title": "2023年社会融资规模存量统计表",
+  "year": 2023,
+  "published": "",
+  "kind": "tsf_table",
+  "sha256": "f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488",
+  "file": "pbc-f81bb4319e45decb942460fe345db052425d7ae80228a19c3eebd04e9318b488-tsf_table.html",
+  "record_count": 12,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-01",
+      "value": 9.4
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-02",
+      "value": 9.9
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-03",
+      "value": 10.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-04",
+      "value": 10.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-05",
+      "value": 9.5
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-06",
+      "value": 9.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-07",
+      "value": 8.9
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-08",
+      "value": 9.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-09",
+      "value": 9.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-10",
+      "value": 9.3
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-11",
+      "value": 9.4
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2023-12",
+      "value": 9.5
+    }
+  ],
+  "original_sha256": "76dcbb21e3724efcf1d330c836ffedbd9a61a6a2d72756dcd29acb90ad0c7ae6",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "indicator_code": "NY.GDP.MKTP.CD",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "ea4ac3b5768ae975ed136923c0c71db42d68a4d7686c499bd0ba9fed396b8871"
+  },
+  {
+    "indicator_code": "NY.GDP.MKTP.KD.ZG",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "a3f4fe424058bdb6a57e76d4010991b80dbc94f085e6ecf00c6cacfde81e5ca3"
+  },
+  {
+    "indicator_code": "NY.GDP.PCAP.CD",
+    "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "ef530dd5703b9da615f6943a752967c8d75286b0d2497f00dc08346c2220de50"
+  },
+  {
+    "indicator_code": "FP.CPI.TOTL.ZG",
+    "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "bf31f1a57c82c04ed5743d74b2b4ab895b285cbee0c21ee9955c8c095f3ab242"
+  },
+  {
+    "indicator_code": "SL.UEM.TOTL.ZS",
+    "url": "https://data.worldbank.org/indicator/SL.UEM.TOTL.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "1da1980c3e9346b560062126350131d74c37baff56a0d0dea556704b8e248538"
+  },
+  {
+    "indicator_code": "NE.EXP.GNFS.ZS",
+    "url": "https://data.worldbank.org/indicator/NE.EXP.GNFS.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "fe53ae5961e18c1c5ce3fec5a58bda23dce7db675b9004873d9b16c88e792df7"
+  },
+  {
+    "indicator_code": "NE.IMP.GNFS.ZS",
+    "url": "https://data.worldbank.org/indicator/NE.IMP.GNFS.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "a8db9389d59586a1e95daf992fbb2623b81268cc69fb551bbb169b44263f48df"
+  },
+  {
+    "indicator_code": "BX.KLT.DINV.WD.GD.ZS",
+    "url": "https://data.worldbank.org/indicator/BX.KLT.DINV.WD.GD.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "12dd63370e8e54ae013ab433c223b7afe9d1e4104cd36d4cd2a6838e24761ad5"
+  },
+  {
+    "indicator_code": "NV.IND.MANF.ZS",
+    "url": "https://data.worldbank.org/indicator/NV.IND.MANF.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "1a99cd2a9858b8c3d528f4cfcce77f41e84e03625089f02f7ea5da0d2f7cac63"
+  },
+  {
+    "indicator_code": "SP.POP.TOTL",
+    "url": "https://data.worldbank.org/indicator/SP.POP.TOTL",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "0547d58de240c478585bdf0ab47502c8b05a6e90199069d1e8a1645a66c4ad94"
+  },
+  {
+    "indicator_code": "BN.CAB.XOKA.GD.ZS",
+    "url": "https://data.worldbank.org/indicator/BN.CAB.XOKA.GD.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "89e3619d40c6e57233c2ced0b1435e136aba39ff188d62b4c94393a24620fe47"
+  },
+  {
+    "indicator_code": "NE.GDI.TOTL.ZS",
+    "url": "https://data.worldbank.org/indicator/NE.GDI.TOTL.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "ba5602a72a00d4f1f4f9fbbadaba6ea10f933c96bbe73a4418583eccb5fc1368"
+  },
+  {
+    "indicator_code": "FR.INR.RINR",
+    "url": "https://data.worldbank.org/indicator/FR.INR.RINR",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "e0069c83654271a136e2b6f4a2ad4b4d8027199021f0c828f7bee772c398586e"
+  },
+  {
+    "indicator_code": "GC.DOD.TOTL.GD.ZS",
+    "url": "https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS",
+    "license": "CC BY-4.0",
+    "retrieved_at_utc": "2026-10-03/04 UTC",
+    "page_sha256": "d5a71cdf4387c97c5f12dec23fe62f38b8574857eae169acb3574f5c71f32975"
+  },
+  {
+    "provider": "CEPII BACI",
+    "url": "https://www.cepii.fr/CEPII/fr/bdd_modele/bdd_modele_item.asp?id=37",
+    "license_links": [
+      "https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf"
+    ],
+    "page_sha256": "c8ada77849a82e6ceff0fbec2501b2feb1acceef78acd5594c545f8f530f5317"
+  }
+]

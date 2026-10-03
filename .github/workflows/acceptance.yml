@@ -1,0 +1,36 @@
+name: Research acceptance
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      ENABLE_PAID_AI: "0"
+      AUTO_REFRESH: "0"
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # official v7
+        with:
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/data/raw/baci/*
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # official v7
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements.lock.txt
+      - run: python -m pip install --no-deps --no-build-isolation -e .
+      - run: python -m pip check
+      - run: python -m ruff check src scripts tests app.py
+      - run: python -m mypy
+      - run: python -m pytest -q --junitxml=reports/ci-tests.xml
+      - run: node --test tests/china/test_chart_model.js
+      - run: node --check src/china_macro/web/app.js
+      - run: python -m bandit -r src -ll
+      - run: python -m pip_audit
+      - run: python -m build --no-isolation

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "eb27fdb069deb466eef49db59713a1fe1383d3b1dbf2d6b982d5ad86719be879",
+  "key": "manufacturing_pmi",
+  "period": "2021-10",
+  "value": 49.2,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901269.html",
+  "source_title": "2021年10月中国采购经理指数运行情况",
+  "published": "2021-10-31",
+  "original_sha256": "3963d19332cdb0d1616ac50d01f631599c654ba96f7dd012fa2b8dbd22b2423f",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

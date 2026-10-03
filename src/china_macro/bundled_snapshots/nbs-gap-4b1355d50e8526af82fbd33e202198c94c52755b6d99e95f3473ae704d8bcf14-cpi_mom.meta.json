@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:58+00:00",
+  "sha256": "4b1355d50e8526af82fbd33e202198c94c52755b6d99e95f3473ae704d8bcf14",
+  "key": "cpi_mom",
+  "period": "2024-07",
+  "value": 0.5,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955948.html",
+  "source_title": "2024年7月份居民消费价格上涨0.5%",
+  "published": "2024-08-09",
+  "original_sha256": "86fd730d0c04e4f6bbb3d669bc8001cf736418dc7e9f9e6aa7110165dac0567b",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

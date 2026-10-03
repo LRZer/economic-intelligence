@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:49+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202209/t20220916_3840932.htm",
+  "source_title": "2022年8月财政收支情况",
+  "period": "2022-08",
+  "published": "2022-09-16",
+  "sha256": "4fb395e8ad474bc1b0e625f5d365b838bb1693c1f745f25aeced69eba52fe7f3",
+  "observation_count": 10,
+  "original_sha256": "5fa1917a8255800e656e121ea17650bf733b8f3014b1572ae7a53d7bad4e1396",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

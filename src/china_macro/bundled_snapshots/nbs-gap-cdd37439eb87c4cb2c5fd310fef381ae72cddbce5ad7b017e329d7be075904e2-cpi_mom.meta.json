@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:40+00:00",
+  "sha256": "cdd37439eb87c4cb2c5fd310fef381ae72cddbce5ad7b017e329d7be075904e2",
+  "key": "cpi_mom",
+  "period": "2021-11",
+  "value": 0.4,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901296.html",
+  "source_title": "2021年11月份居民消费价格同比上涨2.3% 环比上涨0.4%",
+  "published": "2021-12-09",
+  "original_sha256": "de14484e242d2c89ff7dedc27f52abe05a2fe0d4b97f49b075ba8924b6fca03b",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

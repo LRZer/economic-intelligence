@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:21+00:00",
+  "sha256": "500295d1a5f81164b9dac5c6a926d1402c78b1225278536136df3c1baca8de5e",
+  "key": "ppi_mom",
+  "period": "2023-04",
+  "value": -0.5,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939348.html",
+  "source_title": "2023年4月份工业生产者出厂价格同比下降3.6% 环比下降0.5%",
+  "published": "2023-05-11",
+  "original_sha256": "4859a5fd193c701437ca372b1502899b122d52a053d3692378e15d1e0ac4589f",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

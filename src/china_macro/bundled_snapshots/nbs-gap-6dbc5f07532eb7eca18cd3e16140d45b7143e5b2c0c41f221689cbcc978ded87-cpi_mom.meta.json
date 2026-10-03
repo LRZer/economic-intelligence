@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:08+00:00",
+  "sha256": "6dbc5f07532eb7eca18cd3e16140d45b7143e5b2c0c41f221689cbcc978ded87",
+  "key": "cpi_mom",
+  "period": "2026-04",
+  "value": 0.3,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963659.html",
+  "source_title": "2026年4月份居民消费价格同比上涨1.2%",
+  "published": "2026-05-11",
+  "original_sha256": "8ca665f2a669932c144ae5a1df3da8c1888125aceb5d8eaab01874709f536a72",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:28+00:00",
+  "sha256": "e55dd289541626280046586632df2310e2f5928089624e45d1903c4e681fc3af",
+  "key": "private_fai_ytd_yoy",
+  "period": "2021-10",
+  "value": 8.5,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901280.html",
+  "source_title": "2021年1—10月份全国固定资产投资（不含农户）增长6.1%",
+  "published": "2021-11-15",
+  "original_sha256": "9a3cad93779b1079b6ca900d337dcef7cc8c34e09f83e58fec91709f471b17b3",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "provider": "World Bank WDI",
+  "source_url": "https://api.worldbank.org/v2/",
+  "source_last_updated": "2026-07-13",
+  "downloaded_at_utc": "2026-09-26T20:46:52.866725+00:00",
+  "start_year": 2000,
+  "end_year": 2025,
+  "countries": 217,
+  "indicators": 14,
+  "rows": 78988,
+  "observed_values": 63462,
+  "parquet_sha256": "357dc277373c51cb2136a1d04c771d51163860479e30c345feb634b94f94837a"
+}

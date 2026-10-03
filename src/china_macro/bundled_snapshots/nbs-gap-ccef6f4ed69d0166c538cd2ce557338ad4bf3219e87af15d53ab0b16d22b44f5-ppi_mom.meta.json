@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:17+00:00",
+  "sha256": "ccef6f4ed69d0166c538cd2ce557338ad4bf3219e87af15d53ab0b16d22b44f5",
+  "key": "ppi_mom",
+  "period": "2022-08",
+  "value": -1.2,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901571.html",
+  "source_title": "2022年8月份工业生产者出厂价格同比上涨2.3% 环比下降1.2%",
+  "published": "2022-09-09",
+  "original_sha256": "bb2b69f3dbde0fabd0aa8057689156e9e753ae1de02703024cc4acbed95c7c59",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

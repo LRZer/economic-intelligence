@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:33+00:00",
+  "sha256": "484cc3caa38667db12eee6fdf8d54a1594f5441b6221b7d79c99f8df8baa4c8c",
+  "key": "private_fai_ytd_yoy",
+  "period": "2022-08",
+  "value": 2.3,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901581.html",
+  "source_title": "2022年1—8月份全国固定资产投资（不含农户）增长5.8%",
+  "published": "2022-09-16",
+  "original_sha256": "a7870a9d807b56c5f8ab18d5c7af11d711618325f4636db8217c268fee4e289a",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,271 @@
+{
+  "created_at": "2026-10-03T21:37:14+00:00",
+  "database_integrity": "ok",
+  "observation_count": 2225,
+  "source_count": 640,
+  "dated_count": 1873,
+  "undated_count": 352,
+  "publisher_counts": {
+    "www.stats.gov.cn": 1057,
+    "data.mofcom.gov.cn": 272,
+    "fdi.mofcom.gov.cn": 4,
+    "gks.mof.gov.cn": 620,
+    "www.pbc.gov.cn": 272
+  },
+  "errors": [],
+  "warnings": [],
+  "snapshot_count": 1,
+  "snapshot_checked_observations": 272,
+  "snapshot_errors": [],
+  "fiscal_snapshot_count": 62,
+  "fiscal_snapshot_checked_observations": 620,
+  "fiscal_snapshot_errors": [],
+  "nbs_gap_snapshot_count": 246,
+  "nbs_gap_snapshot_checked_observations": 246,
+  "nbs_gap_snapshot_errors": [],
+  "finance_snapshot_count": 75,
+  "finance_snapshot_checked_observations": 272,
+  "finance_snapshot_errors": [],
+  "cny_snapshot_count": 2,
+  "cny_snapshot_checked_observations": 4,
+  "cny_snapshot_errors": [],
+  "coverage_as_of": "2026-10-04T04:00:00+08:00",
+  "coverage_24m_pct": 99.3,
+  "coverage_60m_pct": 98.6,
+  "indicator_60m": [
+    {
+      "key": "industrial_yoy",
+      "observed": 49,
+      "expected": 49,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "retail_yoy",
+      "observed": 49,
+      "expected": 49,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "fai_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "private_fai_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "manufacturing_fai_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "infrastructure_fai_ytd_yoy",
+      "observed": 7,
+      "expected": 7,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "infrastructure_ex_utilities_ytd_yoy",
+      "observed": 47,
+      "expected": 47,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "real_estate_fai_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "housing_sales_area_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "industrial_profit_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "export_yoy",
+      "observed": 48,
+      "expected": 59,
+      "coverage_pct": 81.4
+    },
+    {
+      "key": "import_yoy",
+      "observed": 48,
+      "expected": 59,
+      "coverage_pct": 81.4
+    },
+    {
+      "key": "export_usd",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "import_usd",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "export_usd_yoy",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "import_usd_yoy",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "unemployment",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "cpi_yoy",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "cpi_mom",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "ppi_yoy",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "ppi_mom",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "manufacturing_pmi",
+      "observed": 60,
+      "expected": 60,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "manufacturing_new_orders_pmi",
+      "observed": 60,
+      "expected": 60,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "nonmanufacturing_pmi",
+      "observed": 60,
+      "expected": 60,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "m1_yoy",
+      "observed": 32,
+      "expected": 32,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "m1_legacy_yoy",
+      "observed": 39,
+      "expected": 39,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "m2_yoy",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "observed": 59,
+      "expected": 59,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "loans_ytd",
+      "observed": 52,
+      "expected": 59,
+      "coverage_pct": 88.1
+    },
+    {
+      "key": "fiscal_revenue_ytd",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "fiscal_revenue_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "fiscal_spending_ytd",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "fiscal_spending_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "tax_revenue_ytd",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "tax_revenue_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "fund_revenue_ytd",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "fund_revenue_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "land_revenue_ytd",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    },
+    {
+      "key": "land_revenue_ytd_yoy",
+      "observed": 54,
+      "expected": 54,
+      "coverage_pct": 100.0
+    }
+  ]
+}

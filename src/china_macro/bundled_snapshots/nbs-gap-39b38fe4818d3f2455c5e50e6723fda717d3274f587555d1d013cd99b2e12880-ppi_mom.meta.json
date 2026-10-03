@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:40+00:00",
+  "sha256": "39b38fe4818d3f2455c5e50e6723fda717d3274f587555d1d013cd99b2e12880",
+  "key": "ppi_mom",
+  "period": "2026-08",
+  "value": 0.4,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html",
+  "source_title": "2026年8月份工业生产者出厂价格同比上涨3.8% 环比上涨0.4%",
+  "published": "2026-09-09",
+  "original_sha256": "892a7d39195d3dda01f9d642f792faee9b05a5f7d6c5a9abfb94fbd7f887a4cc",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

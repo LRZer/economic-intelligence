@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:33+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202608/t20260814_3995497.htm",
+  "source_title": "2026年1-7月财政收支情况",
+  "period": "2026-07",
+  "published": "2026-08-14",
+  "sha256": "5d47e31b9a3290cc673c7da2fcf37afc07a7ccc2173ec064bab3a1055f30b082",
+  "observation_count": 10,
+  "original_sha256": "bae0004667b3392febc60a83b241b9f07c813834c3ab0f6be150553a06976a9f",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:32+00:00",
+  "sha256": "2aea9b9e4e6e31937782eb1e945598fbbfe7b9e113d134361aa14ddd73e4d9fb",
+  "key": "private_fai_ytd_yoy",
+  "period": "2022-06",
+  "value": 3.5,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901515.html",
+  "source_title": "2022年1—6月份全国固定资产投资（不含农户）增长6.1%",
+  "published": "2022-07-15",
+  "original_sha256": "6be097d7b2441758848d1fa543bc1f8602b3fc758c527625205d106089b71af7",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

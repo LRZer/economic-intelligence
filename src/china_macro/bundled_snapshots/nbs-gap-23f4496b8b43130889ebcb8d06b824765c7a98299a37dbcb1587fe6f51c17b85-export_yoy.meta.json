@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "23f4496b8b43130889ebcb8d06b824765c7a98299a37dbcb1587fe6f51c17b85",
+  "key": "export_yoy",
+  "period": "2023-09",
+  "value": -0.6,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231018_1943654.html",
+  "source_title": "前三季度国民经济持续恢复向好　高质量发展稳步推进",
+  "published": "2023-10-18",
+  "original_sha256": "414cd23c475f282dd24d55f3e337e9c24c0aee0e978fe42de768855032fb4a77",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

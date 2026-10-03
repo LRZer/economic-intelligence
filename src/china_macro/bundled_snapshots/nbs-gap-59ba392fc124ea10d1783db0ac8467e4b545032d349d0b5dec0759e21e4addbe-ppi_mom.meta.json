@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:11+00:00",
+  "sha256": "59ba392fc124ea10d1783db0ac8467e4b545032d349d0b5dec0759e21e4addbe",
+  "key": "ppi_mom",
+  "period": "2021-10",
+  "value": 2.5,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901273.html",
+  "source_title": "2021年10月份工业生产者出厂价格同比上涨13.5% 环比上涨2.5%",
+  "published": "2021-11-10",
+  "original_sha256": "c0cc620f1c13d8f3c72c11bf8e88ae88dd86317d510975b0a90167426604a0be",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

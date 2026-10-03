@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:21:05+00:00",
+  "sha256": "ff55a3542eeb26e1a68fe652d2006a04f87155b80fc0924bb4ab12e6bf2608f6",
+  "key": "ppi_mom",
+  "period": "2024-12",
+  "value": -0.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202501/t20250109_1958169.html",
+  "source_title": "2024年12月份工业生产者出厂价格同比降幅收窄",
+  "published": "2025-01-09",
+  "original_sha256": "1b1fb7ae10098104837a35e26e74a7b36ee3ac8abe1ce33583046f200e21956f",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,40 @@
+{
+  "provider": "Bank for International Settlements (BIS)",
+  "source_url": "https://data.bis.org/static/bulk/WS_EER_csv_flat.zip",
+  "methodology_url": "https://data.bis.org/topics/EER",
+  "terms_url": "https://data.bis.org/help/legal",
+  "downloaded_at_utc": "2026-09-26T23:41:52.748987+00:00",
+  "archive_last_modified_http": "Wed, 23 Sep 2026 10:52:49 GMT",
+  "source_archive_sha256": "0e7175770d94e1bec446821f304448c54c40d12646159ee94d27fec66b729f47",
+  "rows": 50176,
+  "countries": 63,
+  "first_date": "1994-01-01",
+  "last_date": "2026-08-01",
+  "excluded_euro_area_rows": 0,
+  "frequency": "monthly",
+  "basket": "broad",
+  "base": "2020 = 100",
+  "aggregate_areas": 1,
+  "areas": 64,
+  "series_definition_rows": 271,
+  "measures": {
+    "nominal": "trade-weighted nominal effective exchange rate index",
+    "real": "CPI-adjusted real effective exchange rate index"
+  },
+  "measure_coverage": {
+    "nominal": {
+      "rows": 25088,
+      "areas": 64,
+      "first_date": "1994-01-01",
+      "last_date": "2026-08-01"
+    },
+    "real": {
+      "rows": 25088,
+      "areas": 64,
+      "first_date": "1994-01-01",
+      "last_date": "2026-08-01"
+    }
+  },
+  "missing_observations": 0,
+  "parquet_sha256": "3f9130c87f56e3a9fe54ae247d3079a16a69bf4c0a663191151e4b1be70c5893"
+}

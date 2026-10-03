@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/a46e2ace126b4c4391b512bf4bde01f9/index.html",
+  "source_title": "2024年1月金融统计数据报告",
+  "published": "2024-02-09",
+  "kind": "financial_report",
+  "sha256": "be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025",
+  "file": "pbc-be1c5d3de31da0d9d2269727f2d4000ead3ab821b4d06c20f7d8f099af1b4025-financial_report.html",
+  "record_count": 3,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_legacy_yoy",
+      "period": "2024-01",
+      "value": 5.9
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2024-01",
+      "value": 8.7
+    },
+    {
+      "key": "loans_ytd",
+      "period": "2024-01",
+      "value": 4.92
+    }
+  ],
+  "original_sha256": "1fc855817f7e1676ab49ab3b3b43cfb42e125ec5542387a87bfdd21b6fe9feb4",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

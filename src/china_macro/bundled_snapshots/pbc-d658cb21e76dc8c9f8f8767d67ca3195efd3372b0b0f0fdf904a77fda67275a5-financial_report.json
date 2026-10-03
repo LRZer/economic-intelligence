@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/2025080618505039987/index.html",
+  "source_title": "2025年3月金融统计数据报告",
+  "published": "2025-04-13",
+  "kind": "financial_report",
+  "sha256": "d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5",
+  "file": "pbc-d658cb21e76dc8c9f8f8767d67ca3195efd3372b0b0f0fdf904a77fda67275a5-financial_report.html",
+  "record_count": 3,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_yoy",
+      "period": "2025-03",
+      "value": 1.6
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2025-03",
+      "value": 7.0
+    },
+    {
+      "key": "loans_ytd",
+      "period": "2025-03",
+      "value": 9.78
+    }
+  ],
+  "original_sha256": "6d3500a14c1602edcaace8469e0018485714a6c7931bbcbc53ff82c176b69f17",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

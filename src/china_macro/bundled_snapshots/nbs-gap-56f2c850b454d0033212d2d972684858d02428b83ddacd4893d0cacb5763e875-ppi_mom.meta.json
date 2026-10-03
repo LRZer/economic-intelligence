@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:15:30+00:00",
+  "sha256": "56f2c850b454d0033212d2d972684858d02428b83ddacd4893d0cacb5763e875",
+  "key": "ppi_mom",
+  "period": "2024-08",
+  "value": -0.7,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956310.html",
+  "source_title": "2024年8月份工业生产者出厂价格同比下降1.8%",
+  "published": "2024-09-09",
+  "original_sha256": "5fdfbe8965b4fcc3fd0d7ecde0c9b4b5132080b33aa54bb3fd81935a6ff58437",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

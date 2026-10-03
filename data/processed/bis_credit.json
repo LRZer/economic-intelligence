@@ -1,0 +1,43 @@
+{
+  "provider": "Bank for International Settlements (BIS)",
+  "source_url": "https://data.bis.org/static/bulk/WS_CREDIT_GAP_csv_flat.zip",
+  "methodology_url": "https://data.bis.org/topics/CREDIT_GAPS",
+  "terms_url": "https://data.bis.org/help/legal",
+  "downloaded_at_utc": "2026-09-26T23:03:16.572106+00:00",
+  "archive_last_modified_http": null,
+  "source_archive_sha256": "859c8ea587dbbcc9bcdfdb7ad03dba6a845e0deb9cf19db5209c4413a9af5e29",
+  "rows": 24373,
+  "countries": 43,
+  "first_date": "1947-12-31",
+  "last_date": "2026-03-31",
+  "excluded_euro_area_rows": 247,
+  "frequency": "quarterly",
+  "measures": {
+    "ratio": "private non-financial sector credit / GDP, percent",
+    "trend": "one-sided HP filtered credit / GDP trend, percent",
+    "gap": "ratio minus trend, percentage points"
+  },
+  "measure_coverage": {
+    "gap": {
+      "rows": 7551,
+      "countries": 43,
+      "first_date": "1957-12-31",
+      "last_date": "2026-03-31"
+    },
+    "ratio": {
+      "rows": 9271,
+      "countries": 43,
+      "first_date": "1947-12-31",
+      "last_date": "2026-03-31"
+    },
+    "trend": {
+      "rows": 7551,
+      "countries": 43,
+      "first_date": "1957-12-31",
+      "last_date": "2026-03-31"
+    }
+  },
+  "reconciled_country_quarters": 7551,
+  "max_reconciliation_error_pp": 9.94308699964197e-05,
+  "parquet_sha256": "723229c88b98a913c2ffff58dd75f888e026b0ebc24872eb874cbc8ed47415b9"
+}

@@ -1,0 +1,76 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/attachDir/2025/11/2025110417020995044.htm",
+  "source_title": "2022年社会融资规模存量统计表",
+  "year": 2022,
+  "published": "",
+  "kind": "tsf_table",
+  "sha256": "cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8",
+  "file": "pbc-cca1a8f641214841b0e4e7eb7c3b93da6d8a6488059b5d8a8e7afc3e2dcadeb8-tsf_table.html",
+  "record_count": 12,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-01",
+      "value": 10.5
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-02",
+      "value": 10.2
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-03",
+      "value": 10.5
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-04",
+      "value": 10.2
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-05",
+      "value": 10.5
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-06",
+      "value": 10.8
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-07",
+      "value": 10.7
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-08",
+      "value": 10.5
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-09",
+      "value": 10.6
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-10",
+      "value": 10.3
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-11",
+      "value": 10.0
+    },
+    {
+      "key": "tsf_stock_yoy",
+      "period": "2022-12",
+      "value": 9.6
+    }
+  ],
+  "original_sha256": "45661912146270937cc80a946892c58018ac6b098d98a49e571418d85dff8eaf",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

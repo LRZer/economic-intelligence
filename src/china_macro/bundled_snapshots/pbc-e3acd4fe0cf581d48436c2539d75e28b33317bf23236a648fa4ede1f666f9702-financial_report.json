@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.pbc.gov.cn/goutongjiaoliu/113456/113469/2025092212554572702/index.html",
+  "source_title": "2025年1月金融统计数据报告",
+  "published": "2025-02-14",
+  "kind": "financial_report",
+  "sha256": "e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702",
+  "file": "pbc-e3acd4fe0cf581d48436c2539d75e28b33317bf23236a648fa4ede1f666f9702-financial_report.html",
+  "record_count": 3,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_yoy",
+      "period": "2025-01",
+      "value": 0.4
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2025-01",
+      "value": 7.0
+    },
+    {
+      "key": "loans_ytd",
+      "period": "2025-01",
+      "value": 5.13
+    }
+  ],
+  "original_sha256": "9f5a0ba19bebd26782dc9b71455b516113e7a28009553ba94aabe29d5b7ff660",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

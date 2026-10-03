@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:21:05+00:00",
+  "sha256": "b82d57772c0cec2bf4b3dc5d56c9fe2e4945166e10d0e4fa1d5ece91cad71e39",
+  "key": "ppi_yoy",
+  "period": "2025-01",
+  "value": -2.3,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958645.html",
+  "source_title": "2025年1月份工业生产者出厂价格同比下降2.3%",
+  "published": "2025-02-09",
+  "original_sha256": "1fb9457f1074ec380189857fba2e4bfd05ae80ac00f227501c29ce5434531d7f",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

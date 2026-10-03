@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "6a6c5e4f0202fc0c0662a3d31fc17ddf3acf8e1a5355c1257a3d28c83cad3f13",
+  "key": "import_yoy",
+  "period": "2024-09",
+  "value": -0.5,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241018_1957044.html",
+  "source_title": "前三季度国民经济运行稳中有进 向好因素累积增多",
+  "published": "2024-10-18",
+  "original_sha256": "3237df1a86dc4c913a200b86f82a16e96f51744947bbd15da66359850a9776e7",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

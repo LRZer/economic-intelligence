@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:39+00:00",
+  "sha256": "077ebeea5156f907666306c33310eb239a86490101d40f77f66994c2c9c4c7e1",
+  "key": "cpi_mom",
+  "period": "2021-10",
+  "value": 0.7,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901272.html",
+  "source_title": "2021年10月份居民消费价格同比上涨1.5% 环比上涨0.7%",
+  "published": "2021-11-10",
+  "original_sha256": "386583705663bd93625282211d5898303eec91728fcdc2c3b74fa5335d704f45",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

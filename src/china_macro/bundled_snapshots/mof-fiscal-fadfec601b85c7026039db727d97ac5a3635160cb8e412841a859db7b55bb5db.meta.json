@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:34+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202604/t20260424_3988324.htm",
+  "source_title": "2026年一季度财政收支情况",
+  "period": "2026-03",
+  "published": "2026-04-24",
+  "sha256": "fadfec601b85c7026039db727d97ac5a3635160cb8e412841a859db7b55bb5db",
+  "observation_count": 10,
+  "original_sha256": "0c4652ea0de48d8d45491192a1ebdc28e860868ee347dd15ba719492c0fbce7e",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

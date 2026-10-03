@@ -1,0 +1,30 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/adc58e98876a43ac8f9a3f3ae9020178/index.html",
+  "source_title": "2022年5月金融统计数据报告",
+  "published": "2022-06-10",
+  "kind": "financial_report",
+  "sha256": "adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995",
+  "file": "pbc-adc2f01d8515260f0fc7908c1a2a96e858895973c8623074c71193d296fff995-financial_report.html",
+  "record_count": 3,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_legacy_yoy",
+      "period": "2022-05",
+      "value": 4.6
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2022-05",
+      "value": 11.1
+    },
+    {
+      "key": "loans_ytd",
+      "period": "2022-05",
+      "value": 10.87
+    }
+  ],
+  "original_sha256": "008200a0241eae57d1cf508b33b72dfbce439a2292327be2b6554d9bd5e19ac0",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

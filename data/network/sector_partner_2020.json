@@ -1,0 +1,11 @@
+{
+  "year": 2020,
+  "rows": 874154,
+  "raw_rows": 10985158,
+  "raw_total_usd": 17160716192204.11,
+  "included_total_usd": 17160716192199.0,
+  "excluded_nonstandard_hs_usd": 5.109375,
+  "sha256": "1044efb7306c4cabe848b0868e540a07b2c95935709933d6acbdc72a1713628f",
+  "raw_zip_sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+  "file": "sector_partner_2020.parquet"
+}

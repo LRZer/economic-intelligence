@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "81e50ba4f4bf98d81222eef2884c040cccc7ad658e818aecc79a1f84b2170490",
+  "key": "import_yoy",
+  "period": "2024-06",
+  "value": -0.6,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240715_1955618.html",
+  "source_title": "上半年国民经济运行总体平稳，稳中有进",
+  "published": "2024-07-15",
+  "original_sha256": "f89c72f7c2e83c5c073eb762de14cc97adfac0e029a170c6dc2aff9fb0dd7f43",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

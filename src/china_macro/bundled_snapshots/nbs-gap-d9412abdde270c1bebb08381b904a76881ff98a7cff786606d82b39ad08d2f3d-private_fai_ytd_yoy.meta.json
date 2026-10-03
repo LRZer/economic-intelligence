@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:37+00:00",
+  "sha256": "d9412abdde270c1bebb08381b904a76881ff98a7cff786606d82b39ad08d2f3d",
+  "key": "private_fai_ytd_yoy",
+  "period": "2023-05",
+  "value": -0.1,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940630.html",
+  "source_title": "2023年1—5月份全国固定资产投资增长4.0%",
+  "published": "2023-06-15",
+  "original_sha256": "e7578d72e15c41fd05a7db81b3076928c3faf727edf340c68e416b5db56ac90d",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

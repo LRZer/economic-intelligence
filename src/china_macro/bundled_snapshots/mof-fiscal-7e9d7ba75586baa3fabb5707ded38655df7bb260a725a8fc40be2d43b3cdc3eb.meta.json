@@ -1,0 +1,12 @@
+{
+  "fetched_at": "2026-09-26T22:34:47+00:00",
+  "source_url": "https://gks.mof.gov.cn/tongjishuju/202303/t20230317_3873328.htm",
+  "source_title": "2023年1-2月财政收支情况",
+  "period": "2023-02",
+  "published": "2023-03-17",
+  "sha256": "7e9d7ba75586baa3fabb5707ded38655df7bb260a725a8fc40be2d43b3cdc3eb",
+  "observation_count": 10,
+  "original_sha256": "1c09f915d4d0e383d3b949e30b91d7ea3dd0c05fc526ade5897047803fee853e",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

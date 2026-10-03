@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T22:45:56+00:00",
+  "sha256": "4412efe2035657f52455e924f75d093ab3edf19e8d09c50f38324fa27da5e47f",
+  "key": "housing_sales_area_ytd_yoy",
+  "period": "2023-05",
+  "value": -0.9,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230615_1940629.html",
+  "source_title": "2023年1—5月份全国房地产市场基本情况",
+  "published": "2023-06-15",
+  "original_sha256": "6ad778883ae5e065f8e58367aa046e342d7f9931075752753bc783c305f70287",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

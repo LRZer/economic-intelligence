@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:57+00:00",
+  "sha256": "4e3fc77a8b610d9e678df0fc79dfc7e3311af59742eaf239ea48f448ec38ca4b",
+  "key": "cpi_mom",
+  "period": "2024-05",
+  "value": -0.1,
+  "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954519.html",
+  "source_title": "2024年5月份居民消费价格同比上涨0.3%",
+  "published": "2024-06-12",
+  "original_sha256": "6dbf0a556f9f5051094cc82e27ee2b3ad1b144f609988a3f0d94e5ca8e15de26",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

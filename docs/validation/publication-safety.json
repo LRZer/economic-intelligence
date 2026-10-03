@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "tracked_files": 998,
+  "tracked_bytes": 898923896,
+  "data_files": 802,
+  "data_bytes": 878607126,
+  "issues": [],
+  "limits": "启发式文件/凭据形状检查；不等于证明不存在所有秘密。没有输出任何匹配内容。"
+}

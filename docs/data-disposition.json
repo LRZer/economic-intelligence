@@ -1,0 +1,232 @@
+{
+  "private_destination": "LRZer/guanlan-economic-intelligence",
+  "records": [
+    {
+      "stem": "macro",
+      "rows": 78988,
+      "provider": "World Bank WDI",
+      "source_url": "https://api.worldbank.org/v2/",
+      "status": "included"
+    },
+    {
+      "stem": "weo",
+      "rows": 17190,
+      "provider": "IMF WEO DataMapper",
+      "source_url": "https://data.imf.org/Datasets/WEO",
+      "status": "included"
+    },
+    {
+      "stem": "bis_policy",
+      "rows": 24764,
+      "provider": "Bank for International Settlements (BIS)",
+      "source_url": "https://data.bis.org/static/bulk/WS_CBPOL_csv_flat.zip",
+      "status": "included"
+    },
+    {
+      "stem": "bis_credit",
+      "rows": 24373,
+      "provider": "Bank for International Settlements (BIS)",
+      "source_url": "https://data.bis.org/static/bulk/WS_CREDIT_GAP_csv_flat.zip",
+      "status": "included"
+    },
+    {
+      "stem": "bis_eer",
+      "rows": 50176,
+      "provider": "Bank for International Settlements (BIS)",
+      "source_url": "https://data.bis.org/static/bulk/WS_EER_csv_flat.zip",
+      "status": "included"
+    },
+    {
+      "stem": "baci_partner",
+      "rows": 482342,
+      "provider": "CEPII BACI",
+      "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+      "status": "included"
+    },
+    {
+      "stem": "baci_chapter",
+      "rows": 322747,
+      "provider": "CEPII BACI",
+      "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+      "status": "included"
+    },
+    {
+      "stem": "us_monthly",
+      "rows": 2644,
+      "provider": "BLS + Federal Reserve Board (direct official sources)",
+      "source_url": "https://www.federalreserve.gov/releases/",
+      "status": "included"
+    },
+    {
+      "stem": "us_cycle_backtest",
+      "rows": 295,
+      "provider": "Guanlan / direct official US retrospective backtest",
+      "source_url": null,
+      "status": "included"
+    },
+    {
+      "stem": "sector_features",
+      "rows": 56527,
+      "provider": "CEPII BACI × World Bank WDI",
+      "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+      "status": "included"
+    },
+    {
+      "stem": "sector_backtest",
+      "rows": 32542,
+      "provider": "CEPII BACI × World Bank WDI",
+      "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+      "status": "included"
+    },
+    {
+      "stem": "sector_latest",
+      "rows": 8093,
+      "provider": "CEPII BACI × World Bank WDI",
+      "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+      "status": "included"
+    },
+    {
+      "file": "data/raw/bis/WS_CBPOL_csv_flat.zip",
+      "bytes": 4135361,
+      "sha256": "74c91ec036c342c1c645df841e067e7dfc833fb75b6e67052beee79aed272065",
+      "status": "included",
+      "provider": "BIS"
+    },
+    {
+      "file": "data/raw/bis/WS_CREDIT_GAP_csv_flat.zip",
+      "bytes": 254119,
+      "sha256": "859c8ea587dbbcc9bcdfdb7ad03dba6a845e0deb9cf19db5209c4413a9af5e29",
+      "status": "included",
+      "provider": "BIS"
+    },
+    {
+      "file": "data/raw/bis/WS_EER_csv_flat.zip",
+      "bytes": 6608837,
+      "sha256": "0e7175770d94e1bec446821f304448c54c40d12646159ee94d27fec66b729f47",
+      "status": "included",
+      "provider": "BIS"
+    },
+    {
+      "file": "fred.* / cycle_backtest.*",
+      "status": "preserved_locally_excluded",
+      "reason": "FRED许可限制；美国研究已从BLS/Fed原始发布独立重建"
+    },
+    {
+      "file": "trade.*",
+      "status": "preserved_locally_excluded",
+      "reason": "UN Comtrade再分发许可未获确认；功能使用完整许可BACI"
+    },
+    {
+      "file": "完整中国网站HTML",
+      "status": "preserved_locally_excluded",
+      "reason": "仅发布已逐份重放一致的统计摘录；原版式/程序/标志不发布"
+    },
+    {
+      "file": "BACI_HS17_Y2024_V202601.csv",
+      "status": "included_in_official_zip",
+      "reason": "已完整包含于分块原包，避免重复文件"
+    },
+    {
+      "file": "本机数据库、日志、迁移清单、源项目路径、密钥",
+      "status": "excluded",
+      "reason": "运行或本机管理信息；公开统计值由可复现快照提供"
+    }
+  ],
+  "baci_archive": {
+    "filename": "BACI_HS17_V202601.zip",
+    "bytes": 794583540,
+    "sha256": "16aaa22d3b000cc87744c2c28ac97ce44394c3adf315ec259451d5bb4fcae609",
+    "parts": [
+      {
+        "file": "BACI_HS17_V202601.zip.part001",
+        "bytes": 47185920,
+        "sha256": "712dd41a89c53e1f165c3ca7a8b1efadd656c3ead9de48e31864e57e430bb755"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part002",
+        "bytes": 47185920,
+        "sha256": "100f844db8822f472dee3c347e99e301e2127807317a988211a030bbb735f972"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part003",
+        "bytes": 47185920,
+        "sha256": "7d9181e6cc85521f3b940dc20aa4b00949f4a9bec6ff206706e255990510ba70"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part004",
+        "bytes": 47185920,
+        "sha256": "8bfd67fde0330741ccf2798bf2e53508edbefebaf53ab81de0fab6c2aabc9d25"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part005",
+        "bytes": 47185920,
+        "sha256": "7d9cf131f948dc7d2e2906e05930a5f84b844bb606e4b41d6d2fa64d21528036"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part006",
+        "bytes": 47185920,
+        "sha256": "1de2b2d3f3fe64f5397027a9c91529fb952766ed7e5e950a486d6bc13522eecc"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part007",
+        "bytes": 47185920,
+        "sha256": "6aa94b9e5797331ae4c94a0b5de9692b6fb59f9ff896d3f699f2d0851734f107"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part008",
+        "bytes": 47185920,
+        "sha256": "fb961a7cf71b4034c6c4accb3367688f8a2833eeaec94138d0ec80b2c6f52242"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part009",
+        "bytes": 47185920,
+        "sha256": "dd5762a8e56de34b7584319de14f79592ad5ad24b4d23930175577211f86f6a2"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part010",
+        "bytes": 47185920,
+        "sha256": "5b7b0c55d8d5f44a9889756b1304ba9b4244f00efac5837ce508a7b8ef5e30f2"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part011",
+        "bytes": 47185920,
+        "sha256": "bfcb9be507bd796e727e1bd603446b76678aa9a4ed345439047354d2674c0e04"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part012",
+        "bytes": 47185920,
+        "sha256": "bf7689e7f432058084f303bbcc57a8c2fc42af50768ff8f9896d910959171e77"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part013",
+        "bytes": 47185920,
+        "sha256": "59e2ca333c4016cefa76859a8a903034f883c122a5c7b882412f54728b8e0afc"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part014",
+        "bytes": 47185920,
+        "sha256": "addc95b49d2bdd0bc4709e6dfbd55a5c0ce92d1a27914bd936fcf2964b7db474"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part015",
+        "bytes": 47185920,
+        "sha256": "fba42de8c1d5d5ed45edd05323df7857475aea7fec9446becb6efcfd16129e19"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part016",
+        "bytes": 47185920,
+        "sha256": "62710b4682388921a0e94c95adc0c7d90974d3ea3e4acfff07cae977c903066e"
+      },
+      {
+        "file": "BACI_HS17_V202601.zip.part017",
+        "bytes": 39608820,
+        "sha256": "1cef3908b2eb920405187297fb97e771657c6015a4e0bc34c37681272da2f6f4"
+      }
+    ],
+    "source_url": "https://www.cepii.fr/DATA_DOWNLOAD/baci/data/BACI_HS17_V202601.zip",
+    "license": "Etalab 2.0",
+    "release": "HS17 V202601",
+    "citation": "Gaulier and Zignago (2010), CEPII Working Paper 2010-23",
+    "modification": "字节分块，顺序拼接后与官方原始ZIP完全一致。原包内2024 CSV可完整解压，无需重复存储。"
+  }
+}

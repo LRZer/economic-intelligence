@@ -1,0 +1,6 @@
+{
+  "pytest": 0,
+  "mypy": 0,
+  "ruff": 0,
+  "build": 0
+}

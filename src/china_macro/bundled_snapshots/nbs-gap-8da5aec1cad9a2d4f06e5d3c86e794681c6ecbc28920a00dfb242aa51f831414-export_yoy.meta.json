@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "8da5aec1cad9a2d4f06e5d3c86e794681c6ecbc28920a00dfb242aa51f831414",
+  "key": "export_yoy",
+  "period": "2021-12",
+  "value": 17.3,
+  "source_url": "https://www.stats.gov.cn/sj/xwfbh/fbhwd/202302/t20230203_1901336.html",
+  "source_title": "2021年国民经济持续恢复 发展预期目标较好完成",
+  "published": "2022-01-17",
+  "original_sha256": "fb63ace59650e37ba95ecbe944617fca3bda4bb918577b20cd7e3271a4903547",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

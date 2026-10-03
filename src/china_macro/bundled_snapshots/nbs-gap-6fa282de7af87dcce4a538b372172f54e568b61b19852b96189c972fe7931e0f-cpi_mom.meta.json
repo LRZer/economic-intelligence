@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:14:52+00:00",
+  "sha256": "6fa282de7af87dcce4a538b372172f54e568b61b19852b96189c972fe7931e0f",
+  "key": "cpi_mom",
+  "period": "2023-08",
+  "value": 0.3,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942695.html",
+  "source_title": "2023年8月份居民消费价格同比上涨0.1%　环比上涨0.3%",
+  "published": "2023-09-09",
+  "original_sha256": "79903cdb6b0f79a6633822a22c22d04d8f53f123a2ebf77ef30b0a43ad5f0b9b",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#152c35">
+  <meta name="description" content="中国宏观经济观察、指标查询与官方数据核验。">
+  <title>经纬 · 中国宏观经济</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#pageTitle">跳到页面内容</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="/" aria-label="经纬总览"><span class="brand-mark"><i></i><i></i><i></i></span><span><strong>经纬</strong><small>MACRO ATLAS</small></span></a>
+      <nav aria-label="主导航">
+        <div class="sidebar-label">观察与查询</div>
+        <a class="nav-link active" href="/" aria-current="page"><span class="nav-icon" aria-hidden="true">◫</span>总览</a>
+        <a class="nav-link" href="/trends"><span class="nav-icon" aria-hidden="true">⌁</span>趋势分析</a>
+        <a class="nav-link" href="/data"><span class="nav-icon" aria-hidden="true">▤</span>指标数据</a>
+        <a class="nav-link" href="/insights"><span class="nav-icon" aria-hidden="true">✳</span>本期观察</a>
+        <div class="sidebar-label auxiliary-label">核验与方法</div>
+        <a class="nav-link auxiliary" href="/quality"><span class="nav-icon" aria-hidden="true">◉</span>数据状态</a>
+        <a class="nav-link auxiliary" href="/sources"><span class="nav-icon" aria-hidden="true">◈</span>来源与方法</a>
+      </nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span>官方来源 · 保留缺口<p>读数、比较与证据</p></div>
+    </aside>
+    <main>
+      <header class="topbar"><div class="breadcrumb">中国宏观经济 <span>/</span> <strong id="breadcrumbPage">总览</strong></div><div class="top-actions"><span id="syncStatus" class="sync-status">读取数据…</span><button id="refreshBtn" class="button button-outline" type="button">↻ 同步数据</button></div></header>
+      <div class="content">
+        <div class="page-header"><h1 id="pageTitle" tabindex="-1">总览</h1><span id="pageContext" class="page-context"></span></div>
+        <div id="notice" class="notice" role="status" hidden></div>
+
+        <section id="overview" class="page-view" aria-labelledby="pageTitle" hidden>
+          <div id="dataFreshness" class="freshness-strip">正在核对各类指标期别…</div>
+          <div class="overview-lead"><div><span id="overviewLeadPeriod" class="muted"></span><h2 id="overviewHeadline">正在整理本期变化</h2><p>按同一指标的连续月份读数比较；增速差不等于环比增长。</p></div><a href="/insights" data-page-link class="text-link">查看本期观察 →</a></div>
+          <div id="featuredMetrics" class="core-grid" aria-live="polite"></div>
+          <div class="region-heading"><h2>主题速查</h2><a href="/data" data-page-link class="text-link">全部指标 →</a></div>
+          <div id="themeMetrics" class="theme-grid"></div>
+        </section>
+
+        <section id="quality" class="page-view" aria-labelledby="pageTitle" hidden>
+          <div id="qualityStats" class="status-summary"></div>
+          <p id="qualityMeta" class="secondary-line"></p>
+          <div class="table-panel">
+            <div class="table-tools"><div id="qualityFilters" class="filters" role="group" aria-label="记录状态筛选"><button data-quality-filter="issues" class="active" type="button">需关注</button><button data-quality-filter="missing" type="button">待补录</button><button data-quality-filter="pending" type="button">待发布</button><button data-quality-filter="all" type="button">全部指标</button></div><span id="qualityWindow" class="muted"></span></div>
+            <div class="status-legend"><span><i class="recorded"></i>已收录</span><span><i class="missing"></i>待补录</span><span><i class="pending"></i>待发布</span><span><i class="unconfirmed"></i>发布时间待确认</span><span><i class="inactive"></i>不单列 / 口径结束</span></div>
+            <div class="table-scroll"><table class="quality-table"><thead><tr><th>指标</th><th>最新期别</th><th>近24个月记录状态 <small>点击月份核验</small></th><th>关注事项 / 覆盖</th></tr></thead><tbody id="qualityRows"></tbody></table></div>
+          </div>
+          <dialog id="qualityDetail" class="quality-detail" aria-labelledby="periodDetailTitle"><div class="region-heading"><h2 id="periodDetailTitle">期别核验</h2><button id="closeQualityDetail" type="button" class="button button-text">关闭</button></div><div id="qualityDetailBody"></div></dialog>
+          <p class="method-note">覆盖率衡量收录完整性。待发布、发布时间待确认和不单列期别不进入预期分母；“待补录”不代表已经核实实际发布。<a href="/sources" data-page-link>查看判定方法 →</a></p>
+          <details class="audit-details"><summary>最近修订与采集记录</summary><div id="revisionNote"></div><div id="ingestionNote" aria-live="polite"></div></details>
+        </section>
+
+        <section id="trends" class="page-view" aria-labelledby="pageTitle" hidden>
+          <div class="trend-controls"><label>指标<select id="metricSelect"></select></label><div class="segmented" role="group" aria-label="时间范围"><button data-range="6" type="button">6个月</button><button data-range="12" class="selected" type="button" aria-pressed="true">12个月</button><button data-range="24" type="button">24个月</button><button data-range="all" type="button">全部</button><button data-range="custom" type="button">自定义</button></div></div>
+          <form id="customRangeForm" class="custom-range" hidden><label>开始<input id="chartStart" type="month" required></label><label>结束<input id="chartEnd" type="month" required></label><button class="button button-outline" type="submit">应用区间</button><span id="rangeError" role="status"></span></form>
+          <div class="chart-panel">
+            <div class="chart-heading"><div><h2 id="chartTitle">选择指标</h2><p id="chartSubtitle"></p></div><div id="chartLatest" class="chart-latest"></div></div>
+            <div id="chart" class="chart" role="img" aria-label="指标趋势图"></div>
+            <div class="chart-footer"><span id="chartTakeaway"></span><span id="chartCount"></span></div>
+            <div class="chart-key"><span>折线不填充面积，纵轴随数值范围调整</span><span><i class="chart-key-missing"></i>待补录期别</span><span>缺口不连线</span></div>
+            <details class="chart-detail"><summary>逐月记录与原始出处</summary><div class="chart-detail-actions"><span id="chartDetailNote"></span><button id="chartExportBtn" class="button button-outline" type="button">↓ 导出区间记录</button></div><div class="table-scroll"><table class="chart-detail-table"><thead><tr><th>统计期别</th><th>状态</th><th class="num">数值</th><th>发布日期</th><th>官方原文 / 判定依据</th></tr></thead><tbody id="chartDetailRows"></tbody></table></div></details>
+          </div>
+          <div class="compare-panel"><div class="compare-header"><div><h2 id="compareTitle">同口径比较</h2><p id="compareDescription"></p></div><div id="comparePresets" class="compare-presets" role="group" aria-label="比较主题"></div></div><div id="compareLegend" class="compare-legend"></div><div id="compareChart" class="compare-chart" role="img" aria-label="同口径比较图"></div><p class="method-note">最近24个自然月；缺失期别留白。虚线为增速0%或PMI 50。价格同比、价格环比、累计财政同比与不同币种分别比较。</p></div>
+        </section>
+
+        <section id="data" class="page-view" aria-labelledby="pageTitle" hidden>
+          <div class="table-panel"><div class="table-tools data-tools"><label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="搜索指标、口径或来源" aria-label="搜索指标、口径或来源"></label><label class="group-select"><span class="sr-only">指标分类</span><select id="groupSelect"></select></label><div class="export-actions"><button id="exportDataBtn" class="button button-outline" type="button">↓ 导出当前列表</button><a href="/api/export.csv" class="text-link" download>全部历史 CSV</a></div></div><div class="table-scroll"><table class="data-table"><thead><tr><th>指标 <small>展开发布记录</small></th><th class="num">最新值</th><th>统计口径</th><th>期别</th><th>较上期变化</th><th>发布记录</th></tr></thead><tbody id="dataRows"></tbody></table></div><div id="tableCount" class="table-count"></div></div>
+          <p class="method-note">较上期变化只对比上个自然月的同口径读数，累计金额及跨年累计同比不计算。数值方向不作好坏评价。展开指标可核查原文标题、发布日期及当前入库版本。</p>
+        </section>
+
+        <section id="insights" class="page-view" aria-labelledby="pageTitle" hidden>
+          <p id="observationContext" class="secondary-line">由公布读数自动比较，先查看变化与证据。</p>
+          <div id="observationList" class="observation-list"></div>
+          <details class="research-panel"><summary>查看统计依据：去年同期差与历史分位 <span id="researchVersion"></span></summary><div id="researchBreadth" class="research-breadth"></div><div class="table-scroll"><table class="research-table"><thead><tr><th>指标 / 口径</th><th class="num">最新值</th><th>去年同期差</th><th>近五年分位</th><th>原始证据</th></tr></thead><tbody id="researchRows"></tbody></table></div><p id="researchMethod" class="method-note"></p></details>
+          <div class="ai-panel"><div class="ai-heading"><div><h2>AI 辅助观察摘要</h2><p id="aiMeta">正在检查生成状态</p></div><button id="analyzeBtn" type="button" class="button button-primary">生成观察摘要</button></div><p id="aiNotice" class="ai-notice" role="status"></p><details id="aiResult" class="ai-result" hidden><summary>阅读生成摘要 <span>AI 辅助生成 · 未人工审核</span></summary><div id="aiContent" class="ai-content"></div></details></div>
+        </section>
+
+        <section id="sources" class="page-view" aria-labelledby="pageTitle" hidden>
+          <div class="region-heading"><h2>来源与发布栏目</h2><span class="muted">按预设指标收录，保留每条读数原文</span></div>
+          <div class="table-scroll source-table-wrap"><table class="source-table"><thead><tr><th>机构 / 发布栏目</th><th>收录内容</th><th>发布频率与日期</th><th>使用限制</th></tr></thead><tbody>
+            <tr><td><a href="https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/" target="_blank" rel="noopener noreferrer">国家统计局 ↗</a><small>数据发布及专题报告</small></td><td>生产、消费、投资、房地产、就业、价格、景气及人民币外贸</td><td>月度或累计；<a href="https://www.stats.gov.cn/xxgk/sjfb/fbrcb/202512/t20251224_1962137.html" target="_blank" rel="noopener noreferrer">2026年发布计划 ↗</a></td><td>1—2月合并值不拆成单月；计划发布时间可能调整</td></tr>
+            <tr><td><a href="https://www.pbc.gov.cn/diaochatongjisi/116219/116225/index.html" target="_blank" rel="noopener noreferrer">中国人民银行 ↗</a><small>金融报告与年度统计表</small></td><td>M1、M2、社融存量同比与累计贷款增加额</td><td>月度；本系统尚未核实固定发布日</td><td>M1新旧口径分列；2024年新口径为央行官方回溯</td></tr>
+            <tr><td><a href="https://fdi.mofcom.gov.cn/come-datatongji-list.html" target="_blank" rel="noopener noreferrer">商务部中国投资指南网 ↗</a><small>转载海关全国统计表</small></td><td>补录人民币进出口单月同比</td><td>月度；日期取该网页的转载日期</td><td>明确取单月同比列；不以累计值或美元增速替代</td></tr>
+            <tr><td><a href="https://data.mofcom.gov.cn/hwmy/imexmonth.shtml" target="_blank" rel="noopener noreferrer">商务部数据中心 ↗</a><small>月度进出口表，来源为海关总署</small></td><td>美元进出口金额及官方单月同比</td><td>月度；源表未提供逐月独立发布日期</td><td>抓取时间不代替发布日期；人民币与美元口径不拼接</td></tr>
+            <tr><td><a href="https://www.mof.gov.cn/zhengwuxinxi/redianzhuanti/quanguocaizhengshouzhiqingkuang/" target="_blank" rel="noopener noreferrer">财政部 ↗</a><small>全国财政收支情况</small></td><td>预算收入、支出、税收、基金与土地收入累计金额及同比</td><td>月度累计；1月不单列；本系统未核实固定发布日</td><td>2022年收入同比取自然口径；不同预算科目不直接推算赤字</td></tr>
+          </tbody></table></div>
+          <div class="methods-grid">
+            <section><h2>期别与状态如何判定</h2><p>数据期别描述经济活动发生的月份；发布日期是官方公布日；同步时间是本机读取数据的时间。三者分别保存和展示。</p><dl><dt>已收录</dt><dd>已保存官方读数及对应原文。</dd><dt>待发布</dt><dd>尚未到已核实的官方计划时间，不计入缺失。</dd><dt>发布时间待确认</dt><dd>近期数据没有核实到发布计划，暂不计入缺失。</dd><dt>待补录</dt><dd>已到计划时间或缺少历史月度记录，实际发布情况仍需核验。</dd><dt>不单列 / 口径结束</dt><dd>合并发布期别或已结束口径不进入预期分母。</dd></dl></section>
+            <section><h2>比较口径与解释边界</h2><p>单月同比、单月环比、累计同比、累计金额与月末存量同比分别展示。增速较上月的百分点变化，不是产出或消费的环比增长。</p><p>2025年起M1纳入个人活期存款及非银行支付机构客户备付金；央行公布的2024年新口径回溯值与旧口径分别保存。2026年基础设施投资口径与此前不含公用事业的口径分列；<a href="https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260211_1962589.html" target="_blank" rel="noopener noreferrer">2026年CPI/PPI采用2025年基期 ↗</a>；商品房销售面积的历年名称及定义以原文为准。</p><p>变化方向不自动判断好坏。历史分位仅描述已收录样本，不能充当预测或因果证据。</p></section>
+            <section><h2>修订、版本与来源核验</h2><p>再次收录的数值变化保留原值与新值、来源及发现时间。展开指标可查看当前入库版本，数据状态页提供最近修订记录。</p><p>定向历史回填保留HTML原文与SHA-256摘要，可离线重放核对。原文快照审计与覆盖率分别衡量可复核性和完整性，不等于人工审核通过。</p></section>
+            <section><h2>观察如何生成</h2><p>本期观察优先展示连续自然月的同指标读数与两期原文，缺失时停止比较。统计依据中的同期差对比12个月前的同指标；历史分位至少需要24期且五年覆盖不低于70%。</p><p>AI摘要由DeepSeek基于精选入库读数辅助生成，保留模型、生成时间、数据快照和审核状态。数据或摘要规则更新后，旧摘要不用于当前面板。</p></section>
+          </div>
+        </section>
+        <footer><span>经纬 · 中国宏观经济</span><span>官方读数 / 同口径比较 / 原文核验</span></footer>
+      </div>
+    </main>
+  </div>
+  <script src="/chart_model.js" defer></script><script src="/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "a55737077f676820f8c80ea0fc4f16113b859e420443e455e21a37ddf2b14c31",
+  "key": "export_yoy",
+  "period": "2022-06",
+  "value": 22.0,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901513.html",
+  "source_title": "有力应对超预期因素影响 国民经济企稳回升",
+  "published": "2022-07-15",
+  "original_sha256": "8bfc4ab46e954db01b6249d7a3759485f6bfe5b35efddb26dfec62d4871bc6ae",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "59be3012661679118209e59d9ca0328248fa7476a3f8740fb9b39759228545d0",
+  "key": "unemployment",
+  "period": "2025-09",
+  "value": 5.2,
+  "source_url": "https://www.stats.gov.cn/zwfwck/sjfb/202510/t20251020_1961612.html",
+  "source_title": "前三季度经济运行稳中有进 高质量发展取得积极成效",
+  "published": "2025-10-20",
+  "original_sha256": "4c86aaee59ee2ca43a45e8c2c632572d89a06193309bdffc45b31a2439773f0e",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

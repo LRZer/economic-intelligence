@@ -1,0 +1,13 @@
+{
+  "fetched_at": "2026-09-26T23:47:11+00:00",
+  "sha256": "8ecf6828e389ddcea487d497a62d9757187e5daccb7d6eec9195646eb588f742",
+  "key": "nonmanufacturing_pmi",
+  "period": "2024-01",
+  "value": 50.7,
+  "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240131_1947009.html",
+  "source_title": "2024年1月中国采购经理指数运行情况",
+  "published": "2024-01-31",
+  "original_sha256": "b0dc7bd0a4655b8d71ca6c336e9c22b5673aba8fe0f0d7fd6ccb22324807d7f9",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

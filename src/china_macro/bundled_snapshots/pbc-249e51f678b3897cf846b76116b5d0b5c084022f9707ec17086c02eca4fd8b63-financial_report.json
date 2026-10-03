@@ -1,0 +1,25 @@
+{
+  "source_url": "https://www.pbc.gov.cn/diaochatongjisi/116219/116225/356bd109230b48ae9013b790520a3425/index.html",
+  "source_title": "2022年4月金融统计数据报告",
+  "published": "2022-05-13",
+  "kind": "financial_report",
+  "sha256": "249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63",
+  "file": "pbc-249e51f678b3897cf846b76116b5d0b5c084022f9707ec17086c02eca4fd8b63-financial_report.html",
+  "record_count": 2,
+  "fetched_at": "2026-10-03T19:06:44+00:00",
+  "rows": [
+    {
+      "key": "m1_legacy_yoy",
+      "period": "2022-04",
+      "value": 5.1
+    },
+    {
+      "key": "m2_yoy",
+      "period": "2022-04",
+      "value": 10.5
+    }
+  ],
+  "original_sha256": "15f13e3181bf3be208a0a40ab43a8f3b4a649e1fd91f100b5ea814e5602b541b",
+  "content_form": "statistical_excerpt",
+  "modification": "移除网页程序、图像、标志、CSS、导航；只保留统计正文/表格与来源标注。原始页保留在发布目录之外。"
+}

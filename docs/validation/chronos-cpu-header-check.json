@@ -1,0 +1,9 @@
+{
+  "method": "HEAD_only",
+  "url": "https://download.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp311-cp311-win_amd64.whl",
+  "status": 200,
+  "bytes_header": "123978347",
+  "wheel_downloaded": false,
+  "installed": false,
+  "note": "No response body/weight/wheel retrieved; transitive resolution not performed."
+}

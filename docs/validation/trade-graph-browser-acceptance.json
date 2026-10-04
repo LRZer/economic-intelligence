@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "browser": "headless Edge",
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "cases": [
+    {
+      "id": "real-default-scope",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "multi-market-real-paths-three-downloads",
+      "status": "passed",
+      "overflow_px": 0,
+      "path_count": 20102,
+      "selection_driver_attempts": 1,
+      "layout": {
+        "node_count": 23,
+        "all_labels_inside": true,
+        "overlapping_nodes": 0
+      }
+    },
+    {
+      "id": "repeat-download-keeps-scope-tab-fingerprint",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "unsubmitted-parameters-do-not-change-report",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "applied-zero-pressure",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "question",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "wrong-scope",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "causal",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "unsafe",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "changed-year-country-industry",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "existing-evidence-tools-domain-integration",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "mobile-actual-path-chart-download",
+      "status": "passed",
+      "overflow_px": 0,
+      "layout": {
+        "node_count": 22,
+        "all_labels_inside": true,
+        "overlapping_nodes": 0
+      }
+    },
+    {
+      "id": "offline-html-mobile",
+      "status": "passed",
+      "overflow_px": 0,
+      "script_elements": 0
+    }
+  ],
+  "page_errors": [],
+  "paid_api_requests": 0,
+  "source_hashes": {
+    "src/guanlan/trade_graph.py": "39bb5495736707480f7819234024c7663f5c024dde9c9fac1ede2c4f8ebc8038",
+    "src/guanlan/trade_graph_data.py": "a93a88b495d69e79762037cb44ae894a02809353e22f8084180335a8e7ef10cb",
+    "src/guanlan/ui/trade_graph.py": "6ce5ada7a8be758f569030577fd4f20ae65ec8d234a5865abdc20f09c2d5c88a"
+  },
+  "screenshots": [
+    "trade-graph-paths-desktop.png",
+    "trade-graph-mobile.png",
+    "trade-graph-paths-mobile.png",
+    "trade-graph-offline-mobile.png"
+  ]
+}

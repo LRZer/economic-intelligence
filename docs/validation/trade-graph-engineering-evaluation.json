@@ -1,0 +1,234 @@
+{
+  "mode": "deterministic_engineering_audit",
+  "cases": [
+    {
+      "year": 2024,
+      "hs2": "85",
+      "origin": "CHN",
+      "shocks_pct": {
+        "USA": 10.0,
+        "DEU": 5.0
+      },
+      "alpha": 0.5,
+      "status": "passed",
+      "oracle": {
+        "direct": 1.4457212711689815,
+        "indirect": 1.517143668369294,
+        "mass": 1.0,
+        "hhi": 0.05683141594976837,
+        "path_count": 20102
+      },
+      "actual": {
+        "direct": 1.4457212711689813,
+        "indirect": 1.5171436683692938,
+        "blended": 1.4695287369024188,
+        "unit": "条件压力指数点",
+        "two_hop_retained_mass": 1.0,
+        "two_hop_unreported_onward_mass": 0.0,
+        "direct_shocked_market_weight": 0.17064633544263097,
+        "two_hop_shocked_endpoint_weight": 0.17585792141289278,
+        "cycle_return_coefficient": 0.08496890644134676
+      },
+      "analysis_id": "16966b881407830782aee1ab0b7bf8407748717adc60cb013a541318713e6c2f",
+      "report_id": "3c32bf060a6f728d435fed69ad504de5efb38eeae13c253f46388124be999dfb",
+      "graph_nodes": 226,
+      "graph_edges": 20749,
+      "report_bytes": {
+        "html": 17779096,
+        "json": 13083548,
+        "csv": 3150091
+      }
+    },
+    {
+      "year": 2023,
+      "hs2": "85",
+      "origin": "USA",
+      "shocks_pct": {
+        "CHN": 20.0
+      },
+      "alpha": 1.0,
+      "status": "passed",
+      "oracle": {
+        "direct": 1.4020643057296407,
+        "indirect": 1.2956721930240038,
+        "mass": 1.0,
+        "hhi": 0.0955081765566933,
+        "path_count": 21541
+      },
+      "actual": {
+        "direct": 1.402064305729641,
+        "indirect": 1.295672193024004,
+        "blended": 1.3488682493768225,
+        "unit": "条件压力指数点",
+        "two_hop_retained_mass": 1.0,
+        "two_hop_unreported_onward_mass": 0.0,
+        "direct_shocked_market_weight": 0.07010321528648204,
+        "two_hop_shocked_endpoint_weight": 0.0647836096512002,
+        "cycle_return_coefficient": 0.35307120549451326
+      },
+      "analysis_id": "86c1b6496f1d56f96b60b6634c96b0dce0643dd872651967f848d981cee4db5a",
+      "report_id": "87cbd4b17600d9965cee9469788b40f4b64cecb011144deb818dd369cf9781bb",
+      "graph_nodes": 226,
+      "graph_edges": 22061,
+      "report_bytes": {
+        "html": 18990431,
+        "json": 13973695,
+        "csv": 3356073
+      }
+    },
+    {
+      "year": 2022,
+      "hs2": "87",
+      "origin": "DEU",
+      "shocks_pct": {
+        "USA": 15.0,
+        "GBR": 10.0
+      },
+      "alpha": 0.25,
+      "status": "passed",
+      "oracle": {
+        "direct": 2.566988284748327,
+        "indirect": 1.9662220981439138,
+        "mass": 1.0,
+        "hhi": 0.0526332165109778,
+        "path_count": 16156
+      },
+      "actual": {
+        "direct": 2.5669882847483274,
+        "indirect": 1.9662220981439136,
+        "blended": 2.4468350474274443,
+        "unit": "条件压力指数点",
+        "two_hop_retained_mass": 1.0,
+        "two_hop_unreported_onward_mass": 0.0,
+        "direct_shocked_market_weight": 0.19457001742964952,
+        "two_hop_shocked_endpoint_weight": 0.1460790138714348,
+        "cycle_return_coefficient": 0.1340164406225606
+      },
+      "analysis_id": "daf939337ceabe6ceaaafabf3725926cbe2262a8922cb82eb5001d0686a5e02b",
+      "report_id": "418fffd769709c714d07369f1140168d93d16438f94d50bfd4baf9a9b0b47e25",
+      "graph_nodes": 226,
+      "graph_edges": 16637,
+      "report_bytes": {
+        "html": 14227171,
+        "json": 10452691,
+        "csv": 2490414
+      }
+    },
+    {
+      "year": 2021,
+      "hs2": "27",
+      "origin": "JPN",
+      "shocks_pct": {
+        "CHN": 10.0
+      },
+      "alpha": 0.75,
+      "status": "passed",
+      "oracle": {
+        "direct": 1.2826908382539413,
+        "indirect": 1.2951725109100876,
+        "mass": 1.0,
+        "hhi": 0.09086021521619982,
+        "path_count": 10339
+      },
+      "actual": {
+        "direct": 1.2826908382539413,
+        "indirect": 1.2951725109100876,
+        "blended": 1.2880401265351469,
+        "unit": "条件压力指数点",
+        "two_hop_retained_mass": 1.0,
+        "two_hop_unreported_onward_mass": 0.0,
+        "direct_shocked_market_weight": 0.12826908382539412,
+        "two_hop_shocked_endpoint_weight": 0.12951725109100876,
+        "cycle_return_coefficient": 0.08172743586689324
+      },
+      "analysis_id": "c7a2028e2dcbae3921fa5192106b2abe4e2328f2e34fa5b9af588b26dfd3ef30",
+      "report_id": "407d4d9bb32cb8b6c52ef1cf46b2bdab98f6a8c65c025b65402884b9bf84b8f0",
+      "graph_nodes": 226,
+      "graph_edges": 11174,
+      "report_bytes": {
+        "html": 9167504,
+        "json": 6706157,
+        "csv": 1543355
+      }
+    },
+    {
+      "year": 2020,
+      "hs2": "10",
+      "origin": "BRA",
+      "shocks_pct": {
+        "CHN": 20.0
+      },
+      "alpha": 0.0,
+      "status": "passed",
+      "oracle": {
+        "direct": 0.010695782749552395,
+        "indirect": 0.8580652109534362,
+        "mass": 0.9898503002482465,
+        "hhi": 0.060977953206718866,
+        "path_count": 5812
+      },
+      "actual": {
+        "direct": 0.010695782749552393,
+        "indirect": 0.8580652109534361,
+        "blended": 0.010695782749552393,
+        "unit": "条件压力指数点",
+        "two_hop_retained_mass": 0.9898503002482465,
+        "two_hop_unreported_onward_mass": 0.010149699751753505,
+        "direct_shocked_market_weight": 0.0005347891374776197,
+        "two_hop_shocked_endpoint_weight": 0.04290326054767181,
+        "cycle_return_coefficient": 0.006048526374172758
+      },
+      "analysis_id": "7e0ae2118a6395aa222226e3ee35e681dd2672ce10c563e9f4cc13073bade5c1",
+      "report_id": "22a35ce155ac035beabae701f4231bc0dd4f50357bab7bed545ef32d546602c7",
+      "graph_nodes": 225,
+      "graph_edges": 6925,
+      "report_bytes": {
+        "html": 5309961,
+        "json": 3868565,
+        "csv": 873904
+      }
+    },
+    {
+      "year": 2017,
+      "hs2": "85",
+      "origin": "IND",
+      "shocks_pct": {},
+      "alpha": 0.5,
+      "status": "passed",
+      "oracle": {
+        "direct": 0.0,
+        "indirect": 0.0,
+        "mass": 1.0,
+        "hhi": 0.04071605318188803,
+        "path_count": 17665
+      },
+      "actual": {
+        "direct": 0.0,
+        "indirect": 0.0,
+        "blended": 0.0,
+        "unit": "条件压力指数点",
+        "two_hop_retained_mass": 1.0,
+        "two_hop_unreported_onward_mass": 0.0,
+        "direct_shocked_market_weight": 0.0,
+        "two_hop_shocked_endpoint_weight": 0.0,
+        "cycle_return_coefficient": 0.02733752805050066
+      },
+      "analysis_id": "2566db6288c8c50152733ee6d74cfd67bc981b93083d6703957cf22a9f77f6bf",
+      "report_id": "d2176ccecc479c14859deb39ef3bb0f4c0cfa10bbd285ec465aee7f051a56074",
+      "graph_nodes": 226,
+      "graph_edges": 18336,
+      "report_bytes": {
+        "html": 15615182,
+        "json": 11478727,
+        "csv": 2741019
+      }
+    }
+  ],
+  "case_count": 6,
+  "all_passed": true,
+  "protocol_sha256": "0baaed958a52c307b7046bf9474f2af0c23863e46bd83678ac4d91a5d951db67",
+  "llm_used": false,
+  "new_ml_training": false,
+  "network_requests": 0,
+  "limits": "Known public snapshots and explicit deterministic oracle; no unseen/sealed predictive or real-user/LLM quality inference."
+}

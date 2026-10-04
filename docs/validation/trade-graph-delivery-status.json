@@ -1,0 +1,23 @@
+{
+  "local_full_tests": {
+    "passed": 301,
+    "subtests_passed": 10,
+    "seconds": 258.45,
+    "scope": "Before final assert-to-explicit-error hardening and its added counterexample; ordinary graph numerical behavior unchanged."
+  },
+  "final_affected_tests": 33,
+  "final_core_tests": 31,
+  "final_ui_tests": 2,
+  "related_ui_and_core_before_hardening": 32,
+  "mypy_files": 19,
+  "browser_cases_passed": 13,
+  "screenshot_count": 4,
+  "six_independent_real_data_cases_passed": true,
+  "new_paid_api_calls": 0,
+  "new_model_training": false,
+  "dependency_changes": false,
+  "first_sealed_v1_results_unchanged": "144/150 with six preserved valley wording failures; source freeze verified without reexecution",
+  "initial_low_findings": "Two new B101 assert findings fixed with explicit exceptions; first scan retained outside Git. Final scan only original B404/B603 LOW.",
+  "browser_initial_driver_failures": "Dynamic popup synchronization/ARIA lookup. Screenshot/DOM review then caught clipped narrow Sankey labels, overlapping manually positioned nodes, unwrapped offline provenance and lost question-tab visibility. Fixed compact labels, automatic node spacing, stable tab key and CSS wrapping. Logs and first screenshots retained outside Git; final source-hashed browser checks passed. No scientific metric retuning.",
+  "ci_scope": "Exact final commit CI validates the complete updated suite separately; local earlier full run is not substituted for it."
+}

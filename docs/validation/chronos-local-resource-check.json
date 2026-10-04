@@ -1,0 +1,15 @@
+{
+  "observed_date_utc": "2026-10-04",
+  "mode": "read_only_system_information",
+  "cpu": "13th Gen Intel Core i9-13900HX",
+  "cores": 24,
+  "logical_processors": 32,
+  "total_memory_bytes": 16978403328,
+  "free_memory_kib_at_check": 4788036,
+  "disk_free_bytes_at_check": {
+    "C": 4817711104,
+    "D": 40719437824,
+    "F": 105439502336
+  },
+  "limits": "Point-in-time free resources vary. No GPU inventory or runtime inference benchmark performed. Personal hostname/serials not collected."
+}

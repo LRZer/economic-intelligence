@@ -61,11 +61,31 @@ python scripts/verify_assistant_report.py assets/demo/assistant-cpi/cpi-differen
 python -m pytest -q tests/test_evidence_assistant.py tests/test_evidence_assistant_ui.py
 ```
 
+## 真实贸易图：从出口伙伴到两跳市场关联
+
+在 **风险研究→真实贸易图与情景**，或 **证据问答与工具→真实贸易图** 选择统计年、出口国、HS2及最多五个压力市场，显式应用假设。查看直接伙伴、完整两跳路径、HHI/有效伙伴、断点、市场组合与α敏感性，下载HTML/JSON/CSV离线重算。问题“当前图的两跳路径如何分解？”只核查上方已应用范围；未提交参数不改变报告。
+
+这是真实BACI出口国→进口国金额图，涵盖2017—2024、226个来源贸易代码和96章，包含原ML合格样本之外的已报告流；`S19`保留为“其他亚洲，未另列明”。它与模型特征聚合、peer对照区别明确。同HS2两条出口连接不证明同货物再出口、供应链或投入产出关系。
+
+按全部同业出口归一化W，需求压力s为0—100假设；D=W s、I=W² s、混合=(D+αI)/(1+α)。断点不重分配，循环仅算两跳，α不是已估计参数；各值不等于GDP/出口/信贷损失或新概率。2024中国HS85、美国10%和德国5%假设、α=.5：直接1.445721、两跳1.517144、混合1.469529指数点。
+
+![真实两跳市场关联与可追踪贡献](assets/screenshots/trade-graph-paths-desktop.png)
+
+独立Decimal金标准、六个真实工程例通过；本机301项＋10子测试通过，最终安全异常及窄屏修正后33项受影响测试及19文件类型检查通过，准确提交CI覆盖完整更新套件。真实桌面/390px浏览器13场景通过。没有新图神经网络依赖、ML训练或付费请求。
+
+[公式、完整验收与局限](docs/TRADE_GRAPH_ACCEPTANCE.md) · [可离线打开的真实情景](assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.html) · [Chronos synthetic只读可行性及待授权步骤](docs/CHRONOS_SYNTH_FEASIBILITY.md)
+
+```powershell
+python scripts/verify_trade_graph.py assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.json
+python scripts/evaluate_trade_graph.py
+python scripts/check_assistant_freeze.py
+```
+
 ## 功能
 
 | 工作区 | 能做什么 |
 |---|---|
-| 风险研究 | 宏观×行业下行概率、伙伴暴露、校准、开发期置换解释；中国月度预测与异常核查、证据问答与受限工具；全球 GDP 回测；美国周期实验 |
+| 风险研究 | 宏观×行业下行概率、伙伴暴露、校准、开发期置换解释；中国月度预测与异常核查、证据问答与受限工具；真实贸易图/两跳路径/市场压力敏感性；全球 GDP 回测；美国周期实验 |
 | 中国观察 | 官方全国月度观测、口径与发布日期、覆盖和缺口、原文摘录重放核验 |
 | 经济体概览／跨国比较 | WDI 14 指标、同地区／同收入组参照、严格同年比较、IMF 固定版预测 |
 | 金融条件 | BIS 政策利率、信贷与有效汇率；来源隔离，单一快照失败不会阻断其他模块 |
@@ -267,7 +287,7 @@ node --test tests/china/test_chart_model.js
 node --check src/china_macro/web/app.js
 ```
 
-`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 15 个核心文件／脚本，包含月度核验、证据问答与严格计划适配；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
+`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 19 个核心文件／脚本，包含月度核验、证据问答与严格计划适配；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
 
 关键测试包含：年度／同组切换、重复下载、训练期发生率区间与未来标签扰动、伙伴证据与固定输入核对、真实解析约定、币值单位、自然年／月边界、重复键、来源哈希破坏、缺失宏观不借相邻年、未来数据扰动、训练标签截止、同样本基线、无重叠地理诊断、情景边界、报告转义／范围、付费请求 mock、事务失败回滚、UI 空／异常／重复操作。
 
@@ -277,7 +297,7 @@ node --check src/china_macro/web/app.js
 
 本项目发布在 [LRZer/economic-intelligence 私有仓库](https://github.com/LRZer/economic-intelligence)。每次 main 推送触发固定官方 action SHA 的 [Research acceptance](https://github.com/LRZer/economic-intelligence/actions/workflows/acceptance.yml)；交付时须核对具体提交的 CI，截图提交不能替代功能提交验收。
 
-当前证据问答阶段：最终全量 **269项＋10 subtests**、15文件类型检查与13个浏览器场景通过；依赖审计无已知漏洞、中高风险扫描为零，完整低风险项保留。截图、首轮失败和独立复算见[阶段二验收](docs/ASSISTANT_ACCEPTANCE.md)。后续图工具与基础模型实验见[路线](ROADMAP.md)。
+阶段二证据问答验收：最终全量 **269项＋10 subtests**、15文件类型检查与13个浏览器场景通过；依赖审计无已知漏洞、中高风险扫描为零，完整低风险项保留。截图、首轮失败和独立复算见[阶段二验收](docs/ASSISTANT_ACCEPTANCE.md)。后续图工具与基础模型实验见[路线](ROADMAP.md)。
 
 ## 局限与下一步验证条件
 

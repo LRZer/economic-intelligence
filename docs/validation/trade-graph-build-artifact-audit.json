@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "statistical_excerpts": 342,
+  "python_sources_match": 66,
+  "javascript_matches": true,
+  "sdist_readme_and_changed_sources_match": true,
+  "isolated_wheel_smoke": "Independent installed wheel: approved actual 2024 CHN HS85 graph, multi-market scenario, scoped path tool, JSON export and offline demo recomputation passed; no network or credential access.",
+  "files": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1812949,
+      "sha256": "82db5a19ec8f0f81f3e3ac7b5f6f5993221dcf5727e825337bf13f3ab021a7c0"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1129451,
+      "sha256": "3cafc101fefd9fa3a63b9d7f7bf9adeadd5b41b2efd12d20c7b61c9213e011ab"
+    }
+  ],
+  "limits": "Wheel contains library code and bundled China observations/excerpts. Full BACI data, graph demo, app scripts and evaluation protocols require the Git checkout."
+}

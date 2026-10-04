@@ -28,3 +28,12 @@ scripts/evaluate_assistant.py -text
 docs/ASSISTANT_EVAL_PROTOCOL.md -text
 requirements.lock.txt -text
 src/china_macro/demo_data.json -text
+
+# Preserve byte hashes in the post-development graph reproducibility record.
+src/guanlan/trade_graph.py -text
+src/guanlan/trade_graph_data.py -text
+src/guanlan/ui/trade_graph.py -text
+scripts/verify_trade_graph.py -text
+scripts/evaluate_trade_graph.py -text
+docs/TRADE_GRAPH_PROTOCOL.md -text
+docs/validation/trade-graph-protocol-initial.md -text

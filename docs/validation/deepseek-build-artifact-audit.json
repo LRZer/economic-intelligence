@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "statistical_excerpts": 342,
+  "python_sources_match": 58,
+  "javascript_matches": true,
+  "sdist_readme_and_changed_sources_match": true,
+  "isolated_wheel_smoke": "isolated wheel: bounded DeepSeek request builder imports; no key lookup or HTTP",
+  "files": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1775591,
+      "sha256": "305a11c9c223c9abad04483ea834b13cec37ddf654ecd4bdb36c6a5126e225e2"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1086524,
+      "sha256": "2c4405fb94aad6045f97850d7da0cbd0de28424e3bee686d0d2e6039f587ff80"
+    }
+  ]
+}

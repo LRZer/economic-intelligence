@@ -472,17 +472,17 @@ function renderAI() {
   const button=$('#analyzeBtn');
   const busy=state.analyzing||data.ai_analyzing;
   button.disabled=!data.ai_ready||busy||data.refreshing;
-  button.textContent=busy?'生成中…':data.refreshing?'数据同步中…':data.ai_ready?'生成观察摘要':'需配置 API Key';
-  button.title=data.ai_ready?'基于当前已收录数据生成解读':'服务端未配置 DEEPSEEK_API_KEY';
+  button.textContent=busy?'生成中…':data.refreshing?'数据同步中…':data.ai_ready?'生成观察摘要':!data.ai_paid_enabled?'付费摘要默认关闭':'需配置 API Key';
+  button.title=data.ai_ready?'基于当前已收录数据生成解读':!data.ai_paid_enabled?'付费摘要默认关闭':'服务端未配置 DEEPSEEK_API_KEY';
   const current=analysis?.snapshot_hash===data.snapshot_hash && analysis?.recipe_version===data.ai_recipe_version;
   const suffix=current?'':' · 旧版本未用于当前页面';
-  const keyStatus=data.ai_ready?'':' · 当前未配置 API Key';
+  const keyStatus=data.ai_ready?'':!data.ai_paid_enabled?' · 付费摘要默认关闭':' · 当前未配置 API Key';
   $('#aiMeta').textContent=analysis ? `${analysis.model} · 生成于${dateTime(analysis.created_at)} · 数据快照${analysis.snapshot_hash} · 未人工审核${suffix}${keyStatus}` : `DeepSeek · 当前快照${data.snapshot_hash} · AI辅助生成，未人工审核${keyStatus}`;
   $('#aiResult').hidden=!(analysis?.content&&current);
   if(analysis?.content&&current){$('#aiContent').innerHTML=renderAIText(analysis.content);$('#aiNotice').textContent='生成内容需结合上方原文证据复核；涉及原因的解释需要额外材料。';}
   else {
     $('#aiContent').textContent='';
-    $('#aiNotice').textContent=!data.ai_ready?'服务端缺少API Key。请在本机 .env 配置 DEEPSEEK_API_KEY，重启后刷新页面。':analysis?'数据或摘要规则已更新，旧摘要已收起。可生成当前版本；上方变化观察仍可使用。':'可按当前读数生成观察摘要；上方变化观察和统计依据无需模型即可使用。';
+    $('#aiNotice').textContent=!data.ai_paid_enabled?'付费摘要默认关闭；本人确认费用与发送范围后才能启用。':!data.ai_ready?'服务端缺少API Key。请在本机安全配置并重启。':analysis?'数据或摘要规则已更新，旧摘要已收起。可生成当前版本；上方变化观察仍可使用。':'可按当前读数生成观察摘要；上方变化观察和统计依据无需模型即可使用。';
   }
 }
 

@@ -114,7 +114,7 @@ def render(store):
     evidence = [{"id":f"{key}:{r['period']}", "label":spec["name"], "period":r["period"],
                  "value":r["value"], "unit":spec["unit"], "source_url":r["source_url"],
                  "kind":"official_observation"} for r in rows[-4:]]
-    st.caption("只发送下表四期公共观测；模型输出独立展示，不发送密钥或完整数据集。生成内容必须通过引用核验，仍需人工审阅。")
+    st.caption("只发送下表四期公共观测；模型输出独立展示，证据正文不含密钥或完整数据集；服务端授权头会向DeepSeek传递密钥用于认证。生成内容必须通过引用核验，仍需人工审阅。")
     with st.expander("查看将发送的证据"):
         st.dataframe(pd.DataFrame(evidence), hide_index=True, width="stretch")
     enabled = os.getenv("ENABLE_PAID_AI", "0") == "1"

@@ -265,7 +265,8 @@ def dashboard() -> dict:
         "snapshot_hash": signature, "last_refresh": meta.get("last_refresh"),
         "demo_captured_at": meta.get("demo_captured_at"),
         "refreshing": STATE["refreshing"], "last_error": STATE["last_error"],
-        "last_result": STATE["last_result"], "ai_ready": bool(os.getenv("DEEPSEEK_API_KEY", "").strip()),
+        "last_result": STATE["last_result"], "ai_ready": os.getenv("ENABLE_PAID_AI", "0") == "1" and bool(os.getenv("DEEPSEEK_API_KEY", "").strip()),
+        "ai_paid_enabled": os.getenv("ENABLE_PAID_AI", "0") == "1",
         "ai_analyzing": STATE["analyzing"], "ai_recipe_version": AI_RECIPE_VERSION,
         "analysis": dict(analysis) if analysis else None,
         "quality": recent_quality, "quality_60m": long_quality,
@@ -290,6 +291,8 @@ def analyze() -> dict:
 
 
 def _analyze() -> dict:
+    if os.getenv("ENABLE_PAID_AI", "0") != "1":
+        return {"ok": False, "message": "付费摘要默认关闭；本人确认发送内容和费用后设置 ENABLE_PAID_AI=1。"}
     key = os.getenv("DEEPSEEK_API_KEY", "").strip()
     if not key:
         return {"ok": False, "message": "请在 .env 中配置 DEEPSEEK_API_KEY 后重启服务。"}
@@ -331,18 +334,23 @@ def _analyze() -> dict:
             headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
             json={"model": model, "messages": [
                 {"role": "system", "content": "你是严谨的宏观数据分析员。只依据给定数据，不把推断写成事实。"},
-                {"role": "user", "content": prompt}], "stream": False, "temperature": 0.2},
-            timeout=70,
+                {"role": "user", "content": prompt}], "stream": False, "temperature": 0.2, "thinking": {"type": "disabled"}, "max_tokens": 2000},
+            timeout=70, allow_redirects=False,
         )
         response.raise_for_status()
-        content = response.json()["choices"][0]["message"]["content"].strip()
+        if not 200 <= response.status_code < 300:
+            raise ValueError("服务未返回成功状态")
+        choice = response.json()["choices"][0]
+        if choice.get("finish_reason", "stop") != "stop":
+            raise ValueError("模型输出未完整结束")
+        content = choice["message"]["content"].strip()
         if not content:
             raise ValueError("模型返回空内容")
         with connect() as db:
             db.execute("INSERT INTO analyses (created_at, snapshot_hash, content, model, recipe_version) VALUES (?, ?, ?, ?, ?)",
                        (now(), data["snapshot_hash"], content, model, AI_RECIPE_VERSION))
         return {"ok": True, "content": content}
-    except (requests.RequestException, KeyError, IndexError, ValueError) as exc:
+    except (requests.RequestException, KeyError, IndexError, TypeError, AttributeError, ValueError) as exc:
         return {"ok": False, "message": f"DeepSeek 请求失败：{type(exc).__name__}。请检查密钥、余额、网络与模型名称。"}
 
 

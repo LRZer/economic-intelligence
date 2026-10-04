@@ -1,0 +1,10 @@
+chart calendar and status tests passed
+✔ tests\china\test_chart_model.js (224.8672ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 1
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 240.4313

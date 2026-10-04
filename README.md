@@ -177,12 +177,15 @@ $env:PIP_CACHE_DIR='D:\research-artifacts\pip-cache'
 ```dotenv
 ENABLE_PAID_AI=0
 DEEPSEEK_API_KEY=
-DEEPSEEK_MODEL=deepseek-chat
+DEEPSEEK_MODEL=deepseek-flash
 AUTO_REFRESH=0
 # CHINA_DATA_DIR=/your/local/runtime/china
 ```
 
 只有主动将 `ENABLE_PAID_AI` 设为 `1`、在本机安全配置凭据并点击生成按钮，才会请求付费服务。金额由服务商决定；本项目不提供免费额度承诺。数据刷新也须主动执行，不在页面启动时采集。
+
+如需核验真实接口，使用 [一次性 DeepSeek 测试](docs/DEEPSEEK_TEST.md)：Windows 双击根目录 `test-deepseek-once.cmd`，本人在本机窗口按回车后，才会临时读取桌面 `api_key.md` 并发送一次合成材料。默认 `python scripts/deepseek_live_check.py` 仅生成预检，不读密钥、不联网。结果保存在被 Git 忽略的 `reports/deepseek-live-check.json`，不保存模型原文或密钥；非交互调用、重复／并发触发被阻止，超时不自动重发。没有真实成功回执前，不称 API 已通过。
+
 
 ## 复现数据、评估和报告
 
@@ -229,13 +232,13 @@ node --test tests/china/test_chart_model.js
 node --check src/china_macro/web/app.js
 ```
 
-`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告与行业 UI 共 6 个核心文件；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
+`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 8 个核心文件／脚本；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
 
 关键测试包含：年度／同组切换、重复下载、训练期发生率区间与未来标签扰动、伙伴证据与固定输入核对、真实解析约定、币值单位、自然年／月边界、重复键、来源哈希破坏、缺失宏观不借相邻年、未来数据扰动、训练标签截止、同样本基线、无重叠地理诊断、情景边界、报告转义／范围、付费请求 mock、事务失败回滚、UI 空／异常／重复操作。
 
 本机浏览器验收使用已安装 Edge 的独立 headless 进程：先启动 8610 服务，再运行 `python scripts/browser_acceptance.py`；它检查七个页面/任务、实际图表、重复导航、移动端溢出、页面异常和默认付费请求为零，保存截图。CI 使用小 fixture 和已有轻量快照，不下载 BACI 原包、不重新跑巨大实验、不请求付费接口。年度与下载场景另运行 `python scripts/browser_research_scenarios.py`：美国 HS85 按 2023→2024→2025→2023 往返，切换跨国同行并逐轮实际下载三种文件，核对范围、时间和页签状态。
 
-本机完整测试 **168 项＋10 subtests** 通过；最后的页签／下载修复又运行 **14 项专项测试**通过。全部 8 个主导航在桌面与 390 px 窄屏完成 16 组实际渲染巡检，截图经过目视检查；这不代表所有国家、行业和设备逐一覆盖。具体命令、修复后的下载结果、扫描及局限见 [验收记录](docs/ACCEPTANCE.md) 和 [开发阶段功能验收](docs/DEVELOPMENT_ACCEPTANCE.md)。
+前一轮研究功能的前一轮研究功能的本机完整测试 **168 项＋10 subtests** 通过；最后的页签／下载修复又运行 **14 项专项测试**通过。全部 8 个主导航在桌面与 390 px 窄屏完成 16 组实际渲染巡检，截图经过目视检查；这不代表所有国家、行业和设备逐一覆盖。具体命令、修复后的下载结果、扫描及局限见 [验收记录](docs/ACCEPTANCE.md) 和 [开发阶段功能验收](docs/DEVELOPMENT_ACCEPTANCE.md)。
 
 本项目发布在 [LRZer/economic-intelligence 私有仓库](https://github.com/LRZer/economic-intelligence)。每次 main 推送触发固定官方 action SHA 的 [Research acceptance](https://github.com/LRZer/economic-intelligence/actions/workflows/acceptance.yml)；交付时须核对具体提交的 CI，截图提交不能替代功能提交验收。
 

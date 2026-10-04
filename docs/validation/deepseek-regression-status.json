@@ -1,0 +1,13 @@
+{
+  "local_related_tests": 43,
+  "prior_related_and_existing_ui_tests": 44,
+  "local_mypy_files": 8,
+  "ruff_passed": true,
+  "javascript_passed": true,
+  "bandit_medium_high": 0,
+  "bandit_reviewed_low": 2,
+  "live_api_status": "not_run_by_assistant_requires_local_user_trigger",
+  "real_key_file_read_by_assistant": false,
+  "new_dependencies": false,
+  "build_audit": "docs/validation/deepseek-build-artifact-audit.json"
+}

@@ -57,7 +57,7 @@ python backfill_finance.py --offline bundled_snapshots
 
 ## DeepSeek 接入
 
-将 `.env.example` 复制为 `.env`，填入自己的 `DEEPSEEK_API_KEY`，然后重启服务。在“本期观察”页点击“生成观察摘要”。密钥仅由 Python 服务端读取，不进入版本控制；浏览器只接收生成的文字。可通过 `DEEPSEEK_MODEL` 覆盖默认的 `deepseek-flash`。
+付费摘要默认关闭。仅在本人确认费用与发送范围后，才设置进程 `ENABLE_PAID_AI=1` 并安全提供 `DEEPSEEK_API_KEY`，然后重启服务；不自动迁移原项目凭据。在“本期观察”页点击“生成观察摘要”。密钥仅由 Python 服务端读取，不进入版本控制；浏览器只接收生成的文字。可通过 `DEEPSEEK_MODEL` 覆盖默认的 `deepseek-flash`。
 
 DeepSeek 请求只包含筛选后的指标名称、数值、统计期别、口径、覆盖信息、允许的连续月份比较和官方出处，不发送网页全文。摘要明确标注模型、生成时间、数据快照及“未人工审核”；引用可跳转两期原文。数据或摘要规则更新后，旧版本收起并提示重新生成，历史内容仍保存在 SQLite。重复同步相同数值和出处不使摘要失效，数值、出处或发布日期修订会改变快照。同步及重复生成时禁止启动新的生成请求。
 

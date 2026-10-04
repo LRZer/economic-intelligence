@@ -49,7 +49,7 @@ def render(store):
                 st.write(f"{change['name']}：{b['period']} 的 {b['value']} → {a['period']} 的 {a['value']} {change['unit']}")
                 st.markdown(f"[本期原文]({a['source_url']}) · [比较期原文]({b['source_url']})")
             st.caption(observation["boundary"])
-        st.page_link("app.py", label="打开 AI 研究工作区", icon="🧠")
+        st.page_link("app.py", label="打开 研究与风险分析", icon="📊")
         return
     specs = {s["key"]: s for s in data["catalog"]}
     keys = [k for k in specs if data["series"].get(k)]

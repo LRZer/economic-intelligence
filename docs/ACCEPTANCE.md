@@ -1,6 +1,6 @@
 # 观澜整合系统验收记录
 
-本记录依据实际执行日志、数据指纹和浏览器下载，状态截至 **2026-10-03 UTC**。本地实现已通过以下检查；GitHub 私有仓库发布、远端提交和对应 CI 尚未完成，不能据此称整个交付完成。
+本记录依据实际执行日志、数据指纹和浏览器下载，状态截至 **2026-10-04 UTC**。本地功能及视觉增强已通过以下检查；数据和初始版本已发布到授权私有仓库，并核验初始版本 CI。最终功能提交须再按实际 SHA 核对，已发布截图不能替代功能交付。
 
 ## 交付范围与原项目保护
 
@@ -13,22 +13,24 @@
 
 | 检查 | 实际结果 | 证据与范围 |
 |---|---|---|
-| Python 全量测试 | **161 passed，10 subtests passed，56.03 秒** | [日志](validation/final-tests.log)、[JUnit XML](validation/final-tests.xml)；合并后的全部测试目录 |
+| Python 全量测试 | **168 passed，10 subtests passed，188.43 秒**；最终下载修复后14项专项测试通过 | [日志](validation/final-tests.log)、[JUnit XML](validation/final-tests.xml)；合并后的全部测试目录 |
 | Ruff | 通过 | [日志](validation/lint-final.log)；`E9/F63/F7/F82` 规则，不表示全风格检查 |
-| mypy | 通过，5 个核心文件 | [日志](validation/typecheck-final.log)；预测、行业网络、风险模型、报告、行业 UI，不宣称全仓库类型覆盖 |
+| mypy | 通过，6 个核心文件 | [日志](validation/typecheck-final.log)；预测、行业网络、研究对照、风险模型、报告、行业 UI，不宣称全仓库类型覆盖 |
 | 独立依赖环境 | Python 3.11.7，固定依赖安装，`pip check` 通过 | [日志](validation/pip-check-final.log)；不继承系统 site-packages |
 | 前端脚本 | Node 测试与语法检查通过 | [测试日志](validation/javascript-tests.log)；`node --check` 成功时无输出 |
 | Bandit 中高风险门槛 | 中风险 0，高风险 0 | [门槛日志](validation/bandit-threshold.log)、[全量扫描](validation/bandit-final.json)；低风险 2 项已审阅，见下文 |
 | pip-audit | 未发现已知依赖漏洞 | [JSON](validation/dependency-audit-final.json)、[日志](validation/dependency-audit-final.log)；本地项目不在 PyPI，依赖已扫描 |
 | wheel / sdist 构建 | 通过；核对实际压缩包和独立安装导入 | [产物审计](validation/build-artifact-audit.json)；两种包精确包含 342 份统计摘录，没有旧 FRED 模块或凭据文件 |
 | 中国源数据审计 | 数据库完整，2,225 条观察，640 个来源，错误/警告为 0 | [审计 JSON](validation/china-source-audit.json)；1873 条有日期、352 条缺发布日期；60 月覆盖 98.6%，24 月 99.3%，不能宣称日期完备 |
-| 发布文件检查 | 必须通过后才创建本地提交 | [发布扫描](validation/publication-safety.json)、[数据文件 SHA256 清单](data-file-manifest.json)；检查 Git 跟踪文件、大小、凭据形状和个人路径 |
+| 发布文件检查 | 扫描通过；覆盖已跟踪文件并再次核对历史与数据指纹 | [发布扫描](validation/publication-safety.json)、[数据文件 SHA256 清单](data-file-manifest.json)；检查 Git 跟踪文件、大小、凭据形状和个人路径 |
 
 最后的测试、lint、类型检查、构建均成功退出。验收时仅保留本地预览服务；没有挂起的训练、安装、测试或构建命令。
 
 Bandit 的两个低风险结果为 `china_macro/cny_trade.py` 的 `B404`（导入 subprocess）和 `B603`（curl 回退）。已核查 URL 来自严格允许范围，参数为列表，无 shell 拼接，TLS 校验开启，无 `-k`，有超时和响应大小限制，Windows 启动隐藏窗口。保留完整告警，不使用 `nosec` 隐藏；全量 Bandit 退出码为 1 是这两项低风险结果，`-ll` 的中高风险门槛退出码为 0。
 
 ## UI 与真实导出
+
+本轮新增2023／2024历史留出和2025待核验年份切换、双向同组对照、特征同组分布、训练期发生率区间、伙伴证据核对，以及页签／重复下载状态修复。8个主导航在桌面和390px窄屏共16组实际巡检均无异常或页面水平溢出，截图已目视检查。美国HS85按2023→2024→2025→2023连续切换，同行对象数依次144／145／134／144；每轮实际下载HTML／JSON／CSV并核对年份、训练边界与报告范围。见[开发功能验收](DEVELOPMENT_ACCEPTANCE.md)、[年度场景](validation/research-scenario-browser.json)、[巡检结果](validation/visual-survey.json)、[下载修复测试](validation/download-state-tests.log)。
 
 独立 headless Edge 访问本地应用，检查七个页面/任务：中国 AI、行业 AI、全球 AI、美国 AI、中国观察、经济体概览、贸易结构。各页面真实图表均加载；页面异常和浏览器脚本错误为 0，重复导航两轮通过。行业测试还覆盖切换国家、修改情景、往返任务、数据缺失、网络损坏、失败后继续导航。
 
@@ -65,17 +67,17 @@ Bandit 的两个低风险结果为 `china_macro/cny_trade.py` 的 `B404`（导�
 - 342 份中国 HTML 均为去除程序、图片、导航和版式后的统计摘录；重放的每条解析结果与原页一致。包装审计发现并移出了残留完整原页，加入回归测试，最终 wheel 和 sdist 均核对为精确 342 份摘录。
 - 旧 FRED/Comtrade 缓存、未获再分发确认的完整网页、个人路径、运行数据库和密钥不进入发布，原文件保留在本地归档。[数据处置表](data-disposition.json)、[摘录原始/新指纹](source-excerpt-manifest.json)。
 
-构建后的 wheel 1,767,994 字节，SHA256 `7f5e72d99facb667cc403bc386cb5cd1df09c2c0b82538578eb58486f6254a9e`；sdist 1,072,485 字节，SHA256 `5cab958208caa7ba60183c1e4beaf6ac0513f13267abaccaccaeaaca127cc913`。安装包不携带 794 MB 原始贸易归档；完整研究数据在授权私有仓库中随源项目保存。
+构建后的 wheel 1,774,328 字节，SHA256 `f3f25294e65bc14512e084fa150a5eba457a7f91b554cca7d70fa680aac3b5a4`；sdist 1,081,622 字节，SHA256 `52e887ddd240bc6eabe42a092c22a4c34447731548518638711a5b4e1dfc7289`。wheel内58个Python源文件逐字节匹配最终工作区；sdist中的README和最终变更模块也已核对。安装包不携带 794 MB 原始贸易归档；完整研究数据在授权私有仓库中随源项目保存。
 
 ## 未运行、未完成与复现边界
 
 | 项目 | 状态与原因 |
 |---|---|
-| GitHub 发布 | **待办**：目标为已授权的 `LRZer/economic-intelligence` 私有新仓库，已于 2026-10-04 核实目标为可访问的空私有仓库，等待本轮推送及 CI；未上传、未覆盖旧仓库、未强推 |
-| 远端可见性、提交 SHA、CI | **未核验**：空私有仓库已核实；待推送后确认提交与 CI，已准备了固定官方 action SHA 的 Linux CI，不冒充已通过 |
-| Linux/macOS 本地启动 | 未在这些系统实测；README 提供命令，Linux CI 待执行 |
+| GitHub 发布 | 初始版本和全部许可内数据已上传授权的 `LRZer/economic-intelligence`，可见性核验为private；正常追加提交，未覆盖旧仓库、未强推 |
+| 已核验远端版本与CI | 初始版本 `fa100e600ed9aec169cc5f079921e81d9c12570a` 已核对远端，[CI 37194852970](https://github.com/LRZer/economic-intelligence/actions/runs/37194852970) 全部步骤成功。最终功能提交的 SHA／CI 另外在交付时核对，不借用这个旧版本结果 |
+| Linux／macOS | Linux初始版本CI已成功执行依赖、完整测试和构建；未在Linux做浏览器桌面启动，macOS未实测 |
 | 实际付费 LLM API | 未运行，无实际费用；授权范围内仅 mock，不以 mock 成功宣称真实服务可用 |
 | 首次公开历史版本与实时预测 | 未具备；不能声称该快照无修订偏差或已验证实时表现 |
-| 完整 UI 视觉自动化 | 浏览器实测七个页面/任务和行业导出；其余导航/数据缺失/错误处理通过组件测试，不声称每种浏览器、每种屏宽或全部国家行业逐一视觉覆盖 |
+| UI覆盖边界 | 8导航×2屏宽巡检、7任务端到端、4轮年份与下载场景均通过；不声称所有浏览器、屏宽或全部国家行业逐一覆盖 |
 
-在独立 Python 3.11 环境安装锁定依赖后，执行 README 中的测试命令、`scripts/audit_sector_research.py` 和启动命令。重算大贸易网络需先重组官方 ZIP，并保证至少 8 GiB 可用空间；日常使用已有验证快照即可，无需每次训练。复现时先对齐协议、软件版本、数据 SHA、筛选样本和时间划分，再比较数值容差。发布获准目标可访问后，仍须继续核对实际远端提交和对应 CI，才能完成最终 GitHub 交付。
+在独立 Python 3.11 环境安装锁定依赖后，执行 README 中的测试命令、`scripts/audit_sector_research.py` 和启动命令。重算大贸易网络需先重组官方 ZIP，并保证至少 8 GiB 可用空间；日常使用已有验证快照即可，无需每次训练。复现时先对齐协议、软件版本、数据 SHA、筛选样本和时间划分，再比较数值容差。最终交付须核对实际远端提交和对应CI；最新工作流记录可在仓库Actions查看。

@@ -5,7 +5,7 @@ import streamlit as st
 sys.path.insert(0, str(Path(__file__).resolve().parent / 'src'))
 from guanlan.ui.common import DataStore, run_module
 from guanlan.ui import overview, compare, financial, trade, research, methods, china, intelligence
-st.set_page_config(page_title='观澜｜AI宏观研究系统', page_icon='🌐', layout='wide')
+st.set_page_config(page_title='观澜｜宏观与行业研究', page_icon='🌐', layout='wide')
 st.markdown(f"<style>{(Path(__file__).parent / 'assets/guanlan.css').read_text(encoding='utf-8')}</style>", unsafe_allow_html=True)
 # 仅声明中文语言和翻译策略；不替换文本，不修改 React 节点方法，不吞前端错误。
 st.iframe('''<script>
@@ -19,7 +19,7 @@ try {
  if (window.frameElement) { window.frameElement.setAttribute('aria-hidden', 'true'); }
 } catch (e) { console.info('Guanlan locale metadata unavailable in this embed'); }
 </script>''', height=1, tab_index=-1, alt='中文语言设置')
-PAGES = {'AI研究': ('intelligence', intelligence.render), '中国观察': ('china', china.render),
+PAGES = {'风险研究': ('intelligence', intelligence.render), '中国观察': ('china', china.render),
          '经济体概览': ('overview', overview.render), '跨国比较': ('compare', compare.render),
          '金融条件': ('financial', financial.render), '贸易结构': ('trade', trade.render),
          '研究': ('research', research.render), '数据与方法': ('methods', methods.render)}
@@ -30,7 +30,7 @@ if 'research_navigation' not in st.session_state:
  requested = st.session_state['initial_query'].get('view', 'intelligence')
  requested = LEGACY.get(requested, requested)
  st.session_state['research_navigation'] = next((label for label, (slug, _) in PAGES.items() if slug == requested), '经济体概览')
-st.markdown('<div class="top-brand" translate="no"><div class="brand-mark">观</div><div class="brand">观澜 <span>GUANLAN</span></div><div class="top-brand-divider"></div><div class="brand-sub">AI宏观研究系统</div><div class="top-brand-note">ECONOMIC INTELLIGENCE</div></div>', unsafe_allow_html=True)
+st.markdown('<div class="top-brand" translate="no"><div class="brand-mark">观</div><div class="brand">观澜 <span>GUANLAN</span></div><div class="top-brand-divider"></div><div class="brand-sub">宏观与行业研究</div><div class="top-brand-note">ECONOMIC INTELLIGENCE</div></div>', unsafe_allow_html=True)
 page = st.radio('研究工作区', list(PAGES), horizontal=True, label_visibility='collapsed', key='research_navigation', width='stretch')
 store = DataStore()
 with st.empty().container():

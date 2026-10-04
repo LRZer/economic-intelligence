@@ -33,7 +33,7 @@ h3 { font-size: 18px !important; color: var(--ink); padding-top: .3rem; }
 [data-testid="stMetricValue"] { color: #153543; font-size: 26px; font-weight: 700; }
 [data-testid="stMetricValue"] p { font-size: 26px !important; line-height: 1.35; }
 [data-testid="stPlotlyChart"], [data-testid="stDataFrame"] { border: 1px solid var(--line); border-radius: 6px; background: white; overflow: hidden; }
-[data-testid="stPlotlyChart"] { padding: .2rem; box-shadow: 0 3px 14px #173b4809; }
+[data-testid="stPlotlyChart"] { padding: .2rem; box-shadow: none; }
 [data-testid="stExpander"] { background: #ffffff90; border-radius: 5px; }
 .research-brief { padding: .85rem 1rem; border: 1px solid var(--line); border-left: 3px solid var(--accent); border-radius: 5px; background: white; }
 .brief-eyebrow { display: block; color: var(--muted); font-size: 14px; margin-bottom: .4rem; }
@@ -54,4 +54,21 @@ h3 { font-size: 18px !important; color: var(--ink); padding-top: .3rem; }
  .brand-sub, .top-brand-divider { display: none; }
  div[role="radiogroup"][aria-label="研究工作区"] label { padding: .5rem .7rem; }
  .page-heading h1 { font-size: 25px; }
+}
+
+/* Compact research readouts; keep the chart layout independent of KPI grids. */
+.research-stats { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); background:#fff; border:1px solid var(--line); }
+.research-stats > div { padding:12px 16px; border-right:1px solid var(--line); }
+.research-stats > div:last-child { border-right:0; }
+.research-stats span { display:block; font-size:13px; color:var(--muted); }
+.research-stats strong { display:block; margin-top:4px; font-size:22px; font-variant-numeric:tabular-nums; }
+[data-testid="stMetric"] { padding:.6rem .8rem; border-radius:3px; }
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] p { font-size:23px !important; font-variant-numeric:tabular-nums; }
+@media(max-width:700px) {
+ .research-stats { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .research-stats > div { padding:10px; border-bottom:1px solid var(--line); }
+ .research-stats > div:nth-child(even) { border-right:0; }
+ .research-stats > div:nth-child(n+3) { border-bottom:0; }
+ .research-stats strong { font-size:20px; }
+ [data-testid="stHorizontalBlock"]:has([data-testid="stMetric"]):not(:has([data-testid="stPlotlyChart"])) { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); }
 }

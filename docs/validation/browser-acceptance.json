@@ -10,7 +10,7 @@
     {
       "name": "ai-sector",
       "view": "intelligence",
-      "charts": 4,
+      "charts": 5,
       "errors": [],
       "screenshot": "assets/screenshots/ai-sector.png"
     },

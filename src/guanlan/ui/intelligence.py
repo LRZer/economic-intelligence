@@ -20,8 +20,8 @@ def model_result(rows):
 
 
 def render(store):
-    header("AI 研究工作区", "本地机器学习 · 时间顺序评估 · 基线比较 · 来源证据")
-    task = radio("AI研究任务", ["宏观与行业风险研究", "中国月度预测与异常", "全球年度GDP研究", "美国周期风险研究"], "ai_task", initial_query("ai_task", "宏观与行业风险研究"))
+    header("研究与风险分析", "本地机器学习 · 时间顺序评估 · 基线比较 · 来源证据")
+    task = radio("研究任务", ["宏观与行业风险研究", "中国月度预测与异常", "全球年度GDP研究", "美国周期风险研究"], "ai_task", initial_query("ai_task", "宏观与行业风险研究"))
     if task == "宏观与行业风险研究":
         return sector.render(store)
     if task == "全球年度GDP研究":

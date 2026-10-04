@@ -1,0 +1,11 @@
+{
+  "ruff": 0,
+  "mypy": 0,
+  "pip-check": 0,
+  "javascript-tests": 0,
+  "javascript-check": 0,
+  "bandit-all": 1,
+  "bandit-threshold": 0,
+  "dependency-audit": 0,
+  "build": 0
+}

@@ -1,15 +1,18 @@
 {
-  "recorded_at_utc": "2026-10-03T22:03:11.173785+00:00",
+  "recorded_at_utc": "2026-10-04T11:05:31.499171+00:00",
   "local_status": "passed_with_documented_model_limitations",
   "tests": {
-    "passed": 161,
+    "passed": 168,
     "subtests_passed": 10,
-    "duration_seconds": 56.03
+    "duration_seconds": 188.43,
+    "final_download_fix_targeted_passed": 14,
+    "targeted_duration_seconds": 61.85,
+    "scope_note": "Full local suite before final tab/download-only fix; 14 relevant tests and actual browser scenarios after fix; final remote CI runs full suite."
   },
   "typecheck": {
     "passed": true,
-    "files": 5,
-    "scope": "forecast, sector_network, sector_risk, sector_report, sector UI"
+    "files": 6,
+    "scope": "forecast, sector_network, sector_analysis, sector_risk, sector_report, sector UI"
   },
   "lint": {
     "passed": true,
@@ -45,7 +48,7 @@
       {
         "name": "ai-sector",
         "view": "intelligence",
-        "charts": 4,
+        "charts": 5,
         "errors": [],
         "screenshot": "assets/screenshots/ai-sector.png"
       },
@@ -97,17 +100,19 @@
     "status": "passed",
     "statistical_excerpts_in_wheel": 342,
     "sdist_matches": true,
-    "wheel_install_and_import": "wheel imports and packaged evidence OK",
+    "packaged_python_sources_match_worktree": 58,
+    "sdist_readme_and_final_changed_sources_match": true,
+    "wheel_install_and_import": "wheel imports new research analysis and reports; packaged evidence OK",
     "files": [
       {
         "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
-        "bytes": 1767994,
-        "sha256": "7f5e72d99facb667cc403bc386cb5cd1df09c2c0b82538578eb58486f6254a9e"
+        "bytes": 1774328,
+        "sha256": "f3f25294e65bc14512e084fa150a5eba457a7f91b554cca7d70fa680aac3b5a4"
       },
       {
         "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
-        "bytes": 1072485,
-        "sha256": "5cab958208caa7ba60183c1e4beaf6ac0513f13267abaccaccaeaaca127cc913"
+        "bytes": 1081622,
+        "sha256": "52e887ddd240bc6eabe42a092c22a4c34447731548518638711a5b4e1dfc7289"
       }
     ]
   },
@@ -116,11 +121,56 @@
   "remote": {
     "repository": "LRZer/economic-intelligence",
     "required_visibility": "private",
-    "published": false,
-    "commit_verified": false,
-    "ci_verified": false,
-    "blocker": "Preflight passed: authorized empty private repository. Upload and CI verification pending execution.",
+    "published": true,
     "private_preflight_verified": true,
-    "repository_id": 1404207801
+    "repository_id": 1404207801,
+    "commit_verified": true,
+    "ci_verified": true,
+    "verified_initial_commit": "fa100e600ed9aec169cc5f079921e81d9c12570a",
+    "verified_initial_ci_run": 37194852970,
+    "verified_initial_ci_url": "https://github.com/LRZer/economic-intelligence/actions/runs/37194852970",
+    "verification_scope": "Initial published version verified. Final functional commit must be verified separately at delivery; these initial CI results do not certify the final changes."
+  },
+  "research_scenarios": [
+    {
+      "country": "USA",
+      "hs2": "85",
+      "target_year": 2023,
+      "peer_count": 144,
+      "last_label_year": 2022,
+      "status": "passed"
+    },
+    {
+      "country": "USA",
+      "hs2": "85",
+      "target_year": 2024,
+      "peer_count": 145,
+      "last_label_year": 2023,
+      "status": "passed"
+    },
+    {
+      "country": "USA",
+      "hs2": "85",
+      "target_year": 2025,
+      "peer_count": 134,
+      "last_label_year": 2024,
+      "status": "passed"
+    },
+    {
+      "country": "USA",
+      "hs2": "85",
+      "target_year": 2023,
+      "peer_count": 144,
+      "last_label_year": 2022,
+      "status": "passed"
+    }
+  ],
+  "visual_survey": {
+    "cases": 16,
+    "desktop_width": 1440,
+    "narrow_width": 390,
+    "errors": 0,
+    "horizontal_overflow_px": 0,
+    "pixels_visually_reviewed": true
   }
 }

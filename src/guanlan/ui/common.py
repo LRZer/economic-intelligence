@@ -4,6 +4,7 @@ import hashlib
 import html
 import json
 import logging
+import re
 from pathlib import Path
 
 import pandas as pd
@@ -162,7 +163,7 @@ def multi(label, options, key, defaults, *, format_func=str, limit=6):
     _restore(key, [x for x in defaults if x in options])
     st.session_state[key] = [x for x in st.session_state[key] if x in options]
     value = st.multiselect(label, options, key=key, format_func=format_func,
-                           on_change=_remember, args=(key,))
+                           on_change=_remember, args=(key,), wrap=True)
     _remember(key)
     if not value or len(value) > limit:
         st.info(f"请选择 1—{limit} 项。")
@@ -237,6 +238,9 @@ def chart(fig, *, key=None):
     if not any(t.type == "choropleth" for t in fig.data):
         fig.update_xaxes(tickfont=dict(size=12, color="#506673"), showgrid=False, linecolor="#cbd9de")
         fig.update_yaxes(tickfont=dict(size=12, color="#506673"), gridcolor="#e6edef", zerolinecolor="#a9bec6")
+    if not fig.layout.xaxis.tickformat and fig.data and getattr(fig.data[0],'x',None) is not None and len(fig.data[0].x):
+        if re.match(r'^\d{4}-\d{2}',str(fig.data[0].x[0])):
+            fig.update_xaxes(tickformat='%Y-%m')
     st.plotly_chart(fig, width="stretch", key=key,
                     config={"displaylogo": False, "responsive": True,
                             "modeBarButtonsToRemove": ["lasso2d", "select2d", "autoScale2d"]})
@@ -281,7 +285,7 @@ def download(frame, filename, label="下载当前数据 · CSV", meta=None):
     if meta:
         for field in ("provider", "source_url", "parquet_sha256", "downloaded_at_utc"):
             exported[field] = meta.get(field)
-    st.download_button(label, csv_bytes(exported), file_name=filename, mime="text/csv")
+    st.download_button(label, csv_bytes(exported), file_name=filename, mime="text/csv", on_click="ignore")
 
 
 def number(value, precision=2, suffix="", missing="本期无有效值"):

@@ -1,0 +1,114 @@
+[
+  {
+    "view": "intelligence",
+    "width": 1440,
+    "screenshot": "intelligence-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "intelligence",
+    "width": 390,
+    "screenshot": "intelligence-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "china",
+    "width": 1440,
+    "screenshot": "china-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "china",
+    "width": 390,
+    "screenshot": "china-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "overview",
+    "width": 1440,
+    "screenshot": "overview-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "overview",
+    "width": 390,
+    "screenshot": "overview-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "compare",
+    "width": 1440,
+    "screenshot": "compare-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "compare",
+    "width": 390,
+    "screenshot": "compare-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "financial",
+    "width": 1440,
+    "screenshot": "financial-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "financial",
+    "width": 390,
+    "screenshot": "financial-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "trade",
+    "width": 1440,
+    "screenshot": "trade-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "trade",
+    "width": 390,
+    "screenshot": "trade-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "research",
+    "width": 1440,
+    "screenshot": "research-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "research",
+    "width": 390,
+    "screenshot": "research-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "methods",
+    "width": 1440,
+    "screenshot": "methods-desktop.png",
+    "errors": [],
+    "overflow_px": 0
+  },
+  {
+    "view": "methods",
+    "width": 390,
+    "screenshot": "methods-narrow.png",
+    "errors": [],
+    "overflow_px": 0
+  }
+]

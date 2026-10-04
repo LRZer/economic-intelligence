@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "commits_scanned": 3,
+  "unique_blobs": 1007,
+  "text_blobs_scanned": 945,
+  "archive_text_members_scanned": 11,
+  "licensed_data_files_verified": 802,
+  "issues": [],
+  "limits": "Heuristic credential/path scan plus original official data fingerprints. No matched contents or credentials output.",
+  "through_commit": "28e734bc26233243b99f1849b6ba9abf1450b4b9",
+  "recorded_at_utc": "2026-10-04T11:10:22.441054+00:00"
+}

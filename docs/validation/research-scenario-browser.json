@@ -1,0 +1,34 @@
+[
+  {
+    "country": "USA",
+    "hs2": "85",
+    "target_year": 2023,
+    "peer_count": 144,
+    "last_label_year": 2022,
+    "status": "passed"
+  },
+  {
+    "country": "USA",
+    "hs2": "85",
+    "target_year": 2024,
+    "peer_count": 145,
+    "last_label_year": 2023,
+    "status": "passed"
+  },
+  {
+    "country": "USA",
+    "hs2": "85",
+    "target_year": 2025,
+    "peer_count": 134,
+    "last_label_year": 2024,
+    "status": "passed"
+  },
+  {
+    "country": "USA",
+    "hs2": "85",
+    "target_year": 2023,
+    "peer_count": 144,
+    "last_label_year": 2022,
+    "status": "passed"
+  }
+]

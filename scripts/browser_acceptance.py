@@ -19,10 +19,10 @@ with sync_playwright() as p:
     page.on('request', lambda request: report['paid_api_requests'].append(request.url)
             if 'api.deepseek.com' in request.url else None)
     for view, extra, name, title in [
-        ('intelligence','&ai_task=中国月度预测与异常','ai-china','AI 研究工作区'),
-        ('intelligence','&ai_task=宏观与行业风险研究','ai-sector','AI 研究工作区'),
-        ('intelligence','&ai_task=全球年度GDP研究','ai-global','AI 研究工作区'),
-        ('intelligence','&ai_task=美国周期风险研究','ai-us','AI 研究工作区'),
+        ('intelligence','&ai_task=中国月度预测与异常','ai-china','研究与风险分析'),
+        ('intelligence','&ai_task=宏观与行业风险研究','ai-sector','研究与风险分析'),
+        ('intelligence','&ai_task=全球年度GDP研究','ai-global','研究与风险分析'),
+        ('intelligence','&ai_task=美国周期风险研究','ai-us','研究与风险分析'),
         ('china','','china-observation','中国经济观察'),
         ('overview','','global-overview','经济体概览'),
         ('trade','','trade-structure','贸易结构'),
@@ -66,8 +66,8 @@ with sync_playwright() as p:
     for _ in range(2):
         page.get_by_text('中国观察',exact=True).click()
         page.get_by_text('数据质量',exact=True).click()
-        page.get_by_text('官方观测',exact=True).wait_for()
-        page.get_by_text('AI研究',exact=True).click()
+        page.get_by_role('paragraph').filter(has_text=re.compile('^官方观测$')).wait_for()
+        page.get_by_text('风险研究',exact=True).click()
         page.get_by_text('中国月度预测与异常',exact=True).click()
         page.get_by_text('留出期模型 MAE',exact=True).wait_for()
     page.set_viewport_size({'width':390,'height':844})

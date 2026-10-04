@@ -2,17 +2,19 @@
   "status": "passed",
   "statistical_excerpts_in_wheel": 342,
   "sdist_matches": true,
-  "wheel_install_and_import": "wheel imports and packaged evidence OK",
+  "packaged_python_sources_match_worktree": 58,
+  "sdist_readme_and_final_changed_sources_match": true,
+  "wheel_install_and_import": "wheel imports new research analysis and reports; packaged evidence OK",
   "files": [
     {
       "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
-      "bytes": 1767994,
-      "sha256": "7f5e72d99facb667cc403bc386cb5cd1df09c2c0b82538578eb58486f6254a9e"
+      "bytes": 1774328,
+      "sha256": "f3f25294e65bc14512e084fa150a5eba457a7f91b554cca7d70fa680aac3b5a4"
     },
     {
       "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
-      "bytes": 1072485,
-      "sha256": "5cab958208caa7ba60183c1e4beaf6ac0513f13267abaccaccaeaaca127cc913"
+      "bytes": 1081622,
+      "sha256": "52e887ddd240bc6eabe42a092c22a4c34447731548518638711a5b4e1dfc7289"
     }
   ]
 }

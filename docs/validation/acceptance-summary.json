@@ -1,5 +1,5 @@
 {
-  "recorded_at_utc": "2026-10-04T11:05:31.499171+00:00",
+  "recorded_at_utc": "2026-10-04T11:17:55.234392+00:00",
   "local_status": "passed_with_documented_model_limitations",
   "tests": {
     "passed": 168,
@@ -7,7 +7,7 @@
     "duration_seconds": 188.43,
     "final_download_fix_targeted_passed": 14,
     "targeted_duration_seconds": 61.85,
-    "scope_note": "Full local suite before final tab/download-only fix; 14 relevant tests and actual browser scenarios after fix; final remote CI runs full suite."
+    "scope_note": "168 local tests and 10 subtests passed; final download-state fix verified by 14 tests and actual browser exports. Complete final functional suite also passed in the linked exact-commit Linux CI."
   },
   "typecheck": {
     "passed": true,
@@ -121,15 +121,17 @@
   "remote": {
     "repository": "LRZer/economic-intelligence",
     "required_visibility": "private",
-    "published": true,
-    "private_preflight_verified": true,
+    "visibility_verified": "private",
     "repository_id": 1404207801,
+    "published": true,
     "commit_verified": true,
     "ci_verified": true,
-    "verified_initial_commit": "fa100e600ed9aec169cc5f079921e81d9c12570a",
-    "verified_initial_ci_run": 37194852970,
-    "verified_initial_ci_url": "https://github.com/LRZer/economic-intelligence/actions/runs/37194852970",
-    "verification_scope": "Initial published version verified. Final functional commit must be verified separately at delivery; these initial CI results do not certify the final changes."
+    "verified_functional_commit": "01c4960cc4edaed957ce6a2fa09ec5df4fd8c195",
+    "verified_functional_ci_run": 37197991379,
+    "verified_functional_ci_url": "https://github.com/LRZer/economic-intelligence/actions/runs/37197991379",
+    "all_remote_blob_objects_match": true,
+    "remote_files_verified": 1010,
+    "verification_scope": "Verified functional code commit. This subsequent evidence-only commit keeps README, packaged source and model data unchanged; final repository HEAD CI is independently checked at delivery."
   },
   "research_scenarios": [
     {

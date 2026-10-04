@@ -18,7 +18,7 @@
 
 ## 验证范围
 
-完整本机 Python 测试 168 passed、10 subtests passed，188.43 秒；最终下载状态修复后 14 项专项测试通过，61.85 秒。远端 CI 在最终功能提交执行完整测试、Ruff、6文件 mypy、Node、Bandit中高门槛、依赖审计及构建；交付回执按最终实际 SHA 核对，不能以旧版或纯截图提交的成功替代。
+完整本机 Python 测试 168 passed、10 subtests passed，188.43 秒；最终下载状态修复后 14 项专项测试通过，61.85 秒。功能提交 `01c4960cc4edaed957ce6a2fa09ec5df4fd8c195` 的 [CI 37197991379](https://github.com/LRZer/economic-intelligence/actions/runs/37197991379) 已通过完整测试、Ruff、6文件 mypy、Node、Bandit中高门槛、依赖审计及构建；证据整理后的最终仓库HEAD另在交付回执核对，未以旧版或纯截图提交替代。
 
 Ruff仅启用 E9/F63/F7/F82，mypy不是全仓库覆盖；Bandit保留2项已审阅低风险结果，中高风险为0。浏览器实测为 Windows Edge，未覆盖所有浏览器、屏宽、国家和行业组合。未运行真实付费 LLM 请求。
 

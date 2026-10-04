@@ -1,6 +1,6 @@
 # 观澜整合系统验收记录
 
-本记录依据实际执行日志、数据指纹和浏览器下载，状态截至 **2026-10-04 UTC**。本地功能及视觉增强已通过以下检查；数据和初始版本已发布到授权私有仓库，并核验初始版本 CI。最终功能提交须再按实际 SHA 核对，已发布截图不能替代功能交付。
+本记录依据实际执行日志、数据指纹和浏览器下载，状态截至 **2026-10-04 UTC**。本地功能及视觉增强已通过以下检查；最终功能提交 `01c4960cc4edaed957ce6a2fa09ec5df4fd8c195` 已发布到授权私有仓库，对应 [CI 37197991379](https://github.com/LRZer/economic-intelligence/actions/runs/37197991379) 全部步骤成功。远端1010个文件对象的SHA、大小及模式逐个匹配本地提交。本文记录该功能提交；随后证据整理提交保持代码和README不变，交付时另核对仓库HEAD及其CI。
 
 ## 交付范围与原项目保护
 
@@ -73,11 +73,11 @@ Bandit 的两个低风险结果为 `china_macro/cny_trade.py` 的 `B404`（导�
 
 | 项目 | 状态与原因 |
 |---|---|
-| GitHub 发布 | 初始版本和全部许可内数据已上传授权的 `LRZer/economic-intelligence`，可见性核验为private；正常追加提交，未覆盖旧仓库、未强推 |
-| 已核验远端版本与CI | 初始版本 `fa100e600ed9aec169cc5f079921e81d9c12570a` 已核对远端，[CI 37194852970](https://github.com/LRZer/economic-intelligence/actions/runs/37194852970) 全部步骤成功。最终功能提交的 SHA／CI 另外在交付时核对，不借用这个旧版本结果 |
-| Linux／macOS | Linux初始版本CI已成功执行依赖、完整测试和构建；未在Linux做浏览器桌面启动，macOS未实测 |
+| GitHub 发布 | 最终功能版本和全部许可内数据已上传授权的 `LRZer/economic-intelligence`，可见性核验为private；正常追加提交，未覆盖旧仓库、未强推 |
+| 已核验功能提交与CI | `01c4960cc4edaed957ce6a2fa09ec5df4fd8c195` 已核对远端，[CI 37197991379](https://github.com/LRZer/economic-intelligence/actions/runs/37197991379) 全部17步骤成功，包括最终代码的完整测试、Ruff、mypy、Node、安全／依赖审计和构建。见[发布证据](validation/github-publication.json) |
+| Linux／macOS | Linux最终功能提交CI已成功执行依赖、完整测试和构建；未在Linux做浏览器桌面启动，macOS未实测 |
 | 实际付费 LLM API | 未运行，无实际费用；授权范围内仅 mock，不以 mock 成功宣称真实服务可用 |
 | 首次公开历史版本与实时预测 | 未具备；不能声称该快照无修订偏差或已验证实时表现 |
 | UI覆盖边界 | 8导航×2屏宽巡检、7任务端到端、4轮年份与下载场景均通过；不声称所有浏览器、屏宽或全部国家行业逐一覆盖 |
 
-在独立 Python 3.11 环境安装锁定依赖后，执行 README 中的测试命令、`scripts/audit_sector_research.py` 和启动命令。重算大贸易网络需先重组官方 ZIP，并保证至少 8 GiB 可用空间；日常使用已有验证快照即可，无需每次训练。复现时先对齐协议、软件版本、数据 SHA、筛选样本和时间划分，再比较数值容差。最终交付须核对实际远端提交和对应CI；最新工作流记录可在仓库Actions查看。
+在独立 Python 3.11 环境安装锁定依赖后，执行 README 中的测试命令、`scripts/audit_sector_research.py` 和启动命令。重算大贸易网络需先重组官方 ZIP，并保证至少 8 GiB 可用空间；日常使用已有验证快照即可，无需每次训练。复现时先对齐协议、软件版本、数据 SHA、筛选样本和时间划分，再比较数值容差。功能代码提交和对应CI已核对通过；证据整理后的最终仓库HEAD也在交付时独立核对，最新工作流记录可在仓库Actions查看。

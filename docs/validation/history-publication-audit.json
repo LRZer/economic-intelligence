@@ -1,12 +1,14 @@
 {
   "status": "passed",
-  "commits_scanned": 3,
-  "unique_blobs": 1007,
-  "text_blobs_scanned": 945,
+  "through_commit": "01c4960cc4edaed957ce6a2fa09ec5df4fd8c195",
+  "recorded_at_utc": "2026-10-04T11:12:03.551445+00:00",
+  "commits_scanned": 4,
+  "unique_blobs": 1055,
+  "text_blobs_scanned": 984,
   "archive_text_members_scanned": 11,
   "licensed_data_files_verified": 802,
+  "data_and_frozen_model_snapshots_unchanged": true,
+  "frozen_protocol_git_blob_sha256_verified": true,
   "issues": [],
-  "limits": "Heuristic credential/path scan plus original official data fingerprints. No matched contents or credentials output.",
-  "through_commit": "28e734bc26233243b99f1849b6ba9abf1450b4b9",
-  "recorded_at_utc": "2026-10-04T11:10:22.441054+00:00"
+  "limits": "Heuristic shape scan over all historical Git text blobs and full ZIP text members; cannot prove absence of every secret. No matched content output."
 }

@@ -1,0 +1,111 @@
+{
+  "repository": "LRZer/economic-intelligence",
+  "repository_id": "1404207801",
+  "visibility": "private",
+  "commit": "01c4960cc4edaed957ce6a2fa09ec5df4fd8c195",
+  "run_id": 37197991379,
+  "ci_url": "https://github.com/LRZer/economic-intelligence/actions/runs/37197991379",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 111423717366,
+      "name": "verify",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install -r requirements.lock.txt",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip install --no-deps --no-build-isolation -e .",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip check",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m ruff check src scripts tests app.py",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m mypy",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pytest -q --junitxml=reports/ci-tests.xml",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node --test tests/china/test_chart_model.js",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run node --check src/china_macro/web/app.js",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m bandit -r src -ll",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m pip_audit",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Run python -m build --no-isolation",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ],
+  "recorded_at_utc": "2026-10-04T11:17:55.230401+00:00",
+  "remote_files_verified": 1010,
+  "all_remote_blob_sha_size_mode_match": true,
+  "licensed_data_files_verified": 802,
+  "frozen_data_models_and_protocols_unchanged": true,
+  "verification_scope": "Verified functional code commit. This subsequent evidence-only commit keeps README, packaged source and model data unchanged; final repository HEAD CI is independently checked at delivery."
+}

@@ -1,0 +1,86 @@
+{
+  "recorded_at_utc": "2026-10-04T21:23:48.718848+00:00",
+  "first_run_released_after_completion": true,
+  "files": [
+    {
+      "file": "evaluation/assistant-v1/development-evaluation.json",
+      "bytes": 73331,
+      "sha256": "e81fefd32ad34f4f47c42556e812dba37c71712d7475f9f702513cbb92da186d"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-gold.json",
+      "bytes": 30908,
+      "sha256": "fac67469293f04d57acc569f6d9125568d273b4b8cf515d93168f5d089e3a6c1"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-initial/development-evaluation.json",
+      "bytes": 76896,
+      "sha256": "648c901756f62a2128dbfbf027004e8fac3dff60951ba573842e9a727259f339"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-initial/development-keyword-answers.json",
+      "bytes": 376941,
+      "sha256": "26259a029c1495700dc3c7dd713e314d5ca667f582aadf96bae8d328e8b76b33"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-initial/development-tfidf-answers.json",
+      "bytes": 390030,
+      "sha256": "c0e5032db9541a3b2edb1c497bea70aa07b1426a7249223997b6f5c44c86dcd9"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-keyword-answers.json",
+      "bytes": 376993,
+      "sha256": "854f61ca86c548b3f436edf476b2559d60189c587c014802e9938e629dba65f9"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-questions.json",
+      "bytes": 9983,
+      "sha256": "e2eb0445a96a450a8e9ea6a425a9fb38956ede60f308d0905f0311fb6dba6177"
+    },
+    {
+      "file": "evaluation/assistant-v1/development-tfidf-answers.json",
+      "bytes": 404309,
+      "sha256": "0d92fe39622138aa43cb01c19bbd2dcf080985410eae9967fb6f368bf6c7d236"
+    },
+    {
+      "file": "evaluation/assistant-v1/manifest.json",
+      "bytes": 818,
+      "sha256": "2abf28dbf709a19718aeffb1ce5fa3363954b7ef5920a254898fc2eceb35ce07"
+    },
+    {
+      "file": "evaluation/assistant-v1/sealed-attempt.json",
+      "bytes": 75,
+      "sha256": "8e61c2e04dba0b182394a1fb7789423480802c1f1f475853f647dc79d670eb86"
+    },
+    {
+      "file": "evaluation/assistant-v1/sealed-evaluation.json",
+      "bytes": 207057,
+      "sha256": "97750f8e5bb52bb090a8327297784dc51efa474f606445fa6c6cc13f7a103d74"
+    },
+    {
+      "file": "evaluation/assistant-v1/sealed-gold.json",
+      "bytes": 69763,
+      "sha256": "5f4196250c52df1c1622711f65a009c6aee287e83baded4e927ebe1e16d71e69"
+    },
+    {
+      "file": "evaluation/assistant-v1/sealed-keyword-answers.json",
+      "bytes": 380708,
+      "sha256": "832bd8c50cb3f40d0f4d5cf9ff7c923feaa84d63d367b4d05ba725a4a54925be"
+    },
+    {
+      "file": "evaluation/assistant-v1/sealed-questions.json",
+      "bytes": 34901,
+      "sha256": "5eb89d4c1d3854e15d999b3c79142f3c4a4e1dca15a1585d03fad38bb7314c18"
+    },
+    {
+      "file": "evaluation/assistant-v1/sealed-tfidf-answers.json",
+      "bytes": 645503,
+      "sha256": "0c8dadc10c0e27a9702374f69d70a3c07ae0532444c2f41b4d769ad657265201"
+    },
+    {
+      "file": "evaluation/assistant-v1/source-freeze.json",
+      "bytes": 1470,
+      "sha256": "f1ced526d7f01d908988cf596d55bfe782d1eff4384d185316506027ec9310bf"
+    }
+  ]
+}

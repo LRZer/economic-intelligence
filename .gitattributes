@@ -13,3 +13,18 @@
 # Preserve the exact bytes of the two pre-evaluation protocol fingerprints.
 docs/SECTOR_RISK_PROTOCOL.md -text
 docs/validation/sector-protocol-initial.md -text
+
+# Preserve stage-two pre-evaluation byte fingerprints across operating systems.
+src/guanlan/evidence_assistant.py -text
+src/guanlan/assistant_plans.py -text
+src/guanlan/ai.py -text
+src/guanlan/ui/evidence_assistant.py -text
+src/guanlan/forecast.py -text
+src/guanlan/monthly_review.py -text
+src/china_macro/catalog.py -text
+scripts/assistant_worker.py -text
+scripts/create_assistant_cases.py -text
+scripts/evaluate_assistant.py -text
+docs/ASSISTANT_EVAL_PROTOCOL.md -text
+requirements.lock.txt -text
+src/china_macro/demo_data.json -text

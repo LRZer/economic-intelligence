@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "statistical_excerpts": 342,
+  "python_sources_match": 63,
+  "javascript_matches": true,
+  "sdist_readme_and_changed_sources_match": true,
+  "isolated_wheel_smoke": "Independent installed wheel: real approved CPI evidence, difference tool, JSON export/offline recomputation and request preparation passed; no network or credential access.",
+  "files": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1798408,
+      "sha256": "190e3605fa8dddbe253aecc15f7a417d3b93413e5d2034c8d66a7fe3657249e2"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1113887,
+      "sha256": "84fee86f128a1a78b5ddbb205f78b95d4761eccb954a2c1e50f62df4555cda9a"
+    }
+  ],
+  "limits": "wheel contains library code and bundled China observations/excerpts; full research data and frozen application evaluation require the Git repository."
+}

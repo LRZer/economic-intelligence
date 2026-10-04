@@ -171,3 +171,18 @@ def generate_review_plan(bundle: dict, *, api_key: str | None = None, model: str
         return validate_plan(plan, bundle)
     except (ValueError, TypeError):
         raise ValueError("外部编排未通过核验；保留本地完整声明") from None
+
+
+def propose_assistant_plan(question: str, store, *, api_key: str | None = None, request_metadata: dict | None = None) -> dict:
+    """Future separately authorized one-request proposal; not wired to the UI."""
+    from guanlan.assistant_plans import prepare_tool_plan_request, validate_tool_plan
+    if os.getenv("ENABLE_PAID_AI", "0") != "1":
+        raise ValueError("新评测须另行确认预算，付费计划默认关闭")
+    if not api_key:
+        raise ValueError("须显式提供本次凭据，不读取密钥文件或持久配置")
+    payload = prepare_tool_plan_request(question, store)
+    body = _post(payload, api_key, max_attempts=1, metadata=request_metadata)
+    try:
+        return validate_tool_plan(question, json.loads(_content(body)), store)
+    except (ValueError, TypeError, RecursionError):
+        raise ValueError("外部工具计划未通过批准范围核验") from None

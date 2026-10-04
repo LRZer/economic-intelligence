@@ -40,6 +40,6 @@ china_macro = ["demo_data.json", "web/*", "bundled_snapshots/*"]
 select = ["E9", "F63", "F7", "F82"]
 
 [tool.mypy]
-files = ["src/guanlan/forecast.py", "src/guanlan/sector_network.py", "src/guanlan/sector_analysis.py", "src/guanlan/sector_risk.py", "src/guanlan/sector_report.py", "src/guanlan/ui/sector.py", "src/guanlan/ai.py", "scripts/deepseek_live_check.py", "src/guanlan/monthly_review.py", "src/guanlan/ui/monthly_review.py", "scripts/verify_monthly_review.py"]
+files = ["src/guanlan/forecast.py", "src/guanlan/sector_network.py", "src/guanlan/sector_analysis.py", "src/guanlan/sector_risk.py", "src/guanlan/sector_report.py", "src/guanlan/ui/sector.py", "src/guanlan/ai.py", "scripts/deepseek_live_check.py", "src/guanlan/monthly_review.py", "src/guanlan/ui/monthly_review.py", "scripts/verify_monthly_review.py", "src/guanlan/evidence_assistant.py", "src/guanlan/ui/evidence_assistant.py", "scripts/verify_assistant_report.py", "src/guanlan/assistant_plans.py"]
 ignore_missing_imports = true
 check_untyped_defs = true

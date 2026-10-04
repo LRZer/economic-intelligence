@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "browser": "headless Edge",
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "cases": [
+    {
+      "id": "observation",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "observation",
+      "overflow_px": 0,
+      "answer_id": "efa72c2822df93584e76898c9d305573d92c86c29dde02752b4b87d25559795b"
+    },
+    {
+      "id": "difference",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "difference",
+      "overflow_px": 0,
+      "answer_id": "55c1290a3bf5f6373992842ef10dcff9ac79a0367a327078ac22d593aba8f30b"
+    },
+    {
+      "id": "mean",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "mean",
+      "overflow_px": 0,
+      "answer_id": "7d0b9658e9a83ed24d5299ba0229fc12e49019116891acf1c299fbae111802e0"
+    },
+    {
+      "id": "extrema",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "extrema",
+      "overflow_px": 0,
+      "answer_id": "46d3383762eeca626922b4326a2f696c27a3fc21fb47a13e898abf7a016394f4"
+    },
+    {
+      "id": "evaluation",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "evaluation",
+      "overflow_px": 0,
+      "answer_id": "02c897384daaf4b65564f9d278f7eefbb5dd9b40cfbebd9996629c15ddc03327"
+    },
+    {
+      "id": "forecast",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "forecast",
+      "overflow_px": 0,
+      "answer_id": "fc076365c4a3e4a4b10746933b5a0c7ec2c1f802f1867287ec5fa804dc1f7970"
+    },
+    {
+      "id": "cause",
+      "status": "passed",
+      "answer_status": "refused",
+      "tool": null,
+      "overflow_px": 0,
+      "answer_id": "3501318ea1a5b500d80ff6e8d4e845edff6143a520224d5cb27c2135a4152476"
+    },
+    {
+      "id": "unsafe",
+      "status": "passed",
+      "answer_status": "refused",
+      "tool": null,
+      "overflow_px": 0,
+      "answer_id": "d7a2cc71e16b56f8180c9c6487a61fa8653ed37071edb9665b5c5279f8103c76"
+    },
+    {
+      "id": "ambiguous",
+      "status": "passed",
+      "answer_status": "clarify",
+      "tool": null,
+      "overflow_px": 0,
+      "answer_id": "f588c971dfc18254e361b220e7babd70f243702064b4e100fa5abf488adfb18a"
+    },
+    {
+      "id": "repeat",
+      "status": "passed",
+      "answer_status": "answered",
+      "tool": "observation",
+      "overflow_px": 0,
+      "answer_id": "efa72c2822df93584e76898c9d305573d92c86c29dde02752b4b87d25559795b"
+    },
+    {
+      "id": "edit-does-not-rewrite-completed-answer",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "mobile-download",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "offline-html-mobile",
+      "status": "passed",
+      "overflow_px": 0,
+      "script_elements": 0
+    }
+  ],
+  "page_errors": [],
+  "paid_api_requests": 0,
+  "screenshots": [
+    "assistant-difference-desktop.png",
+    "assistant-cause-desktop.png",
+    "assistant-mobile.png",
+    "assistant-offline-mobile.png"
+  ]
+}

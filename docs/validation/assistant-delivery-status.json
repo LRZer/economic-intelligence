@@ -1,0 +1,33 @@
+{
+  "recorded_at_utc": "2026-10-04T21:30:54.260656+00:00",
+  "scope": "Phase two restricted China monthly evidence tools; not whole roadmap completion",
+  "release_parent": "60e97b259f6a66f6cbff5cd2d287cef35d111761",
+  "local_pytest": {
+    "passed": 269,
+    "subtests_passed": 10,
+    "seconds": 182.34
+  },
+  "typechecked_files": 15,
+  "browser_cases_passed": 13,
+  "related_tests_passed": 31,
+  "sealed_first_run": {
+    "correct": 144,
+    "total": 150,
+    "answerable_answered": 72,
+    "answerable_total": 78,
+    "numeric_correct_answered": 72,
+    "citation_support_answered": 72,
+    "refusal_correct": 72,
+    "refusal_total": 72,
+    "failure_count_preserved": 6
+  },
+  "new_paid_requests": 0,
+  "real_llm_business_quality_evaluated": false,
+  "original_budget_available": false,
+  "source_frozen_after_development": true,
+  "sealed_runs": 1,
+  "frozen_sources_unchanged_after_sealed": true,
+  "local_checks": "docs/validation/assistant-static-status.json",
+  "package_audit": "docs/validation/assistant-build-artifact-audit.json",
+  "ci_scope": "Exact remote commit and CI verified separately after normal authorized private push; local evidence alone does not establish CI success."
+}

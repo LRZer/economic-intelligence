@@ -8,13 +8,15 @@ from guanlan.forecast import MODEL_KEYS
 from .china import load_dashboard
 from .common import header, select, radio, sync_query, initial_query, chart
 from .research import cycle_view
-from . import global_ai, sector
+from . import global_ai, sector, evidence_assistant
 from .monthly_review import render_review
 
 
 def render(store):
     header("研究与风险分析", "本地机器学习 · 时间顺序评估 · 基线比较 · 来源证据")
-    task = radio("研究任务", ["宏观与行业风险研究", "中国月度预测与异常", "全球年度GDP研究", "美国周期风险研究"], "ai_task", initial_query("ai_task", "宏观与行业风险研究"))
+    task = radio("研究任务", ["宏观与行业风险研究", "中国月度预测与异常", "全球年度GDP研究", "美国周期风险研究", "证据问答与工具"], "ai_task", initial_query("ai_task", "宏观与行业风险研究"))
+    if task == "证据问答与工具":
+        return evidence_assistant.render(store)
     if task == "宏观与行业风险研究":
         return sector.render(store)
     if task == "全球年度GDP研究":

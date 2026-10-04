@@ -1,0 +1,19 @@
+{
+  "files": {
+    "src/guanlan/evidence_assistant.py": "32ca3e1c30a980970dae9c34b6d24795e3596c26d21180daaa762be6aa78b1e9",
+    "src/guanlan/assistant_plans.py": "eae06011c64cb148ed34fe63465c4412eac76a8e1053832fc125032596a37380",
+    "src/guanlan/ai.py": "4aa5d477e0e599d13c3ec31e970113803b9b10afb1f39de811278e190a0936be",
+    "src/guanlan/ui/evidence_assistant.py": "dc2a1f39e6f2a0694ae460e4e51b23fbf44eca1fd751a353fc34939abceebf9d",
+    "src/guanlan/forecast.py": "d0cfa860ff04c6c1cb6d61c30fc51146dd072af634dfa99ad17ec7bdfc1351f4",
+    "src/guanlan/monthly_review.py": "10b25df1e3798b79dfd85d5526caab15a2304d53067d9ba999c4c072582bf77e",
+    "src/china_macro/catalog.py": "a133d673c26ad93f064731c611896a406d5722629c0b6f1649b1b8b7b7b5ce4d",
+    "scripts/assistant_worker.py": "86678d2892314a41b7501ec74064b221ce646c7827efd30104484c6e37ec31ca",
+    "scripts/create_assistant_cases.py": "db17e66a056822f0a754bb7426ccdd15fe5216da6cbf445b9e5304f7c6e200c6",
+    "scripts/evaluate_assistant.py": "ade483fcd54d1a4c5983708ebc005dfc1cd9ff55b267cb96c0a74f52b6dd7e76",
+    "docs/ASSISTANT_EVAL_PROTOCOL.md": "5ce0da0cae560ee1915cbe8d8657ee5bf17edc642a2a19c746ab26c64e2e9c7c",
+    "requirements.lock.txt": "a21be2d14b2267d5dd6804d1970c85f946835e0c8d1a32b18a51ab7687500a5e",
+    "src/china_macro/demo_data.json": "90e4e0d4237d2c414578c29786c9585bddbc27192cdd7c65c937f563326bb6c2"
+  },
+  "threshold": 0.08,
+  "recorded_at_utc": "2026-10-04T21:15:26.778061+00:00"
+}

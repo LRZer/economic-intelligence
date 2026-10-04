@@ -1,0 +1,2 @@
+﻿answer_id,status,question,answer,numbers_json,evidence_ids_json
+55c1290a3bf5f6373992842ef10dcff9ac79a0367a327078ac22d593aba8f30b,answered,CPI同比在2026-07与2026-08的差值是多少？,2026-08读数 0.8% 减 2026-07读数 0.5% = +0.300 百分点。这是读数差，不是重新计算的增长率。,"{""current"":0.8,""delta"":0.30000000000000004,""reference"":0.5}","[""obs:cpi_yoy:2026-07"",""obs:cpi_yoy:2026-08""]"

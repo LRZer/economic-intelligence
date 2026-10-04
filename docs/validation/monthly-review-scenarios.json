@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "protocol_sha256": "eaf3600d104fb7abde31eeab04386ce3ac67bd629441542a9eb184390b10185b",
+  "task_count": 29,
+  "completed_count": 29,
+  "unsafe_plan_accepted": 0,
+  "rehash_forgery_accepted": 0,
+  "network_model_requests": 0,
+  "elapsed_seconds": 16.534,
+  "evaluation_scope": "Fixed engineering checks on already-viewed licensed data; no LLM business-quality or predictive-generalization claim.",
+  "cases": [
+    {
+      "id": "workflow:cpi_yoy:previous_month",
+      "status": "passed",
+      "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:cpi_yoy:previous_year",
+      "status": "passed",
+      "review_id": "6f9b02c084fe51ffd2e9d70d9280d93d70f9fea363d81b3efa3948e9a0e98356",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:ppi_yoy:previous_month",
+      "status": "passed",
+      "review_id": "efd1a744f77cf1ecf7c3830da824dedda775e56adfd96c8a1fc93e083bedc7e5",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:ppi_yoy:previous_year",
+      "status": "passed",
+      "review_id": "e53ef182b46f25ded5622f353343122f139aee48fc1505553221e76b2e9b3346",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:cpi_mom:previous_month",
+      "status": "passed",
+      "review_id": "8fb5ae31f58a9e97af2989d0e51c764f4a609e9cd5ef9870d56b1a7022a32ef1",
+      "ridge_gate_passed": false,
+      "default_method": "seasonal"
+    },
+    {
+      "id": "workflow:cpi_mom:previous_year",
+      "status": "passed",
+      "review_id": "ef3f460511e0c2578242b7b85c0df5a3b390b3cce1e19ef6e98fe9170eba9aee",
+      "ridge_gate_passed": false,
+      "default_method": "seasonal"
+    },
+    {
+      "id": "workflow:ppi_mom:previous_month",
+      "status": "passed",
+      "review_id": "a29d8241d799e7c0639215803533139bdd75bb9646a057be93b07a8f14b0fd7c",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:ppi_mom:previous_year",
+      "status": "passed",
+      "review_id": "9600c54d9c0f1c092b8d3acb214557f184db5b1ed65a68483c62a05a2634b3ee",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:manufacturing_pmi:previous_month",
+      "status": "passed",
+      "review_id": "c9c6e6fffbd90da9a264ca8d6e626ea78e108b06179d834da5d21c09ee6305ea",
+      "ridge_gate_passed": false,
+      "default_method": "seasonal"
+    },
+    {
+      "id": "workflow:manufacturing_pmi:previous_year",
+      "status": "passed",
+      "review_id": "b1d55961a0f20bbcfda067270a4f402350c196fa8824f8ffd584d7556dac55f4",
+      "ridge_gate_passed": false,
+      "default_method": "seasonal"
+    },
+    {
+      "id": "workflow:manufacturing_new_orders_pmi:previous_month",
+      "status": "passed",
+      "review_id": "0234869d837b6cd30aae14c99035e8ee2a259642a7717892366e7f74dfd5c2df",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:manufacturing_new_orders_pmi:previous_year",
+      "status": "passed",
+      "review_id": "8f567ac83b9b676d5bbe6fd7aaa8023574fe1093c10e276215dbdc9077cddca5",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:nonmanufacturing_pmi:previous_month",
+      "status": "passed",
+      "review_id": "5a224a2c52cb4986321307bfc8dead2d5f6a6335929cf5876e6edf234feef919",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "workflow:nonmanufacturing_pmi:previous_year",
+      "status": "passed",
+      "review_id": "2e268733f3fd84fd8323a72edcc349836597abac227c5322a2f4651e3315115b",
+      "ridge_gate_passed": false,
+      "default_method": "persistence"
+    },
+    {
+      "id": "rejection:extra_prose",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:extra_number",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:invented_id",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:missing_limits",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:duplicate_id",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:stale_id",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:wrong_type",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "rejection:arbitrary_tool",
+      "status": "passed",
+      "unsafe_plan_accepted": false
+    },
+    {
+      "id": "tamper:cpi_yoy",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    },
+    {
+      "id": "tamper:ppi_yoy",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    },
+    {
+      "id": "tamper:cpi_mom",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    },
+    {
+      "id": "tamper:ppi_mom",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    },
+    {
+      "id": "tamper:manufacturing_pmi",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    },
+    {
+      "id": "tamper:manufacturing_new_orders_pmi",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    },
+    {
+      "id": "tamper:nonmanufacturing_pmi",
+      "status": "passed",
+      "rehash_forgery_accepted": false
+    }
+  ]
+}

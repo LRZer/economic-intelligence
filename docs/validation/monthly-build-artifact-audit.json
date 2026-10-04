@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "statistical_excerpts": 342,
+  "python_sources_match": 60,
+  "javascript_matches": true,
+  "sdist_readme_and_changed_sources_match": true,
+  "isolated_wheel_smoke": "Independent installed wheel: offline model/evidence workflow imports and verifies synthetic insufficient-data case; no HTTP or key lookup.",
+  "files": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1784631,
+      "sha256": "e303a78b82a14f0016b0260a6003e34e3a0be729003836f8508670c0e0fbb52b"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1097945,
+      "sha256": "9983b4edff038a5f50f69f4dcaaa2e8f6475c4c4d201e285b983f1d6246d7f2b"
+    }
+  ]
+}

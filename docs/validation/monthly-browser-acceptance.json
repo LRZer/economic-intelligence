@@ -1,0 +1,85 @@
+{
+  "status": "passed",
+  "browser": "headless Edge",
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "cases": [
+    {
+      "id": "cpi-month-desktop",
+      "status": "passed",
+      "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "selected-0-ppi_yoy",
+      "status": "passed",
+      "review_id": "e53ef182b46f25ded5622f353343122f139aee48fc1505553221e76b2e9b3346",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "selected-1-manufacturing_pmi",
+      "status": "passed",
+      "review_id": "b1d55961a0f20bbcfda067270a4f402350c196fa8824f8ffd584d7556dac55f4",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "selected-2-cpi_yoy",
+      "status": "passed",
+      "review_id": "6f9b02c084fe51ffd2e9d70d9280d93d70f9fea363d81b3efa3948e9a0e98356",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "accepted-plan",
+      "status": "passed",
+      "review_id": "6f9b02c084fe51ffd2e9d70d9280d93d70f9fea363d81b3efa3948e9a0e98356",
+      "planner": "imported_untrusted",
+      "overflow_px": 0
+    },
+    {
+      "id": "stale-plan-fallback",
+      "status": "passed",
+      "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "unsafe-plan-fallback",
+      "status": "passed",
+      "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "repeated-download",
+      "status": "passed",
+      "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19",
+      "planner": "local",
+      "overflow_px": 0
+    },
+    {
+      "id": "mobile-download",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "offline-html-mobile",
+      "status": "passed",
+      "overflow_px": 0,
+      "script_elements": 0
+    }
+  ],
+  "page_errors": [],
+  "paid_api_requests": 0,
+  "screenshots": [
+    "monthly-review-desktop.png",
+    "monthly-review-plan-rejection.png",
+    "monthly-review-mobile.png",
+    "monthly-review-offline-mobile.png"
+  ]
+}

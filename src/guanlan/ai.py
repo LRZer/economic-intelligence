@@ -149,3 +149,25 @@ def generate_grounded_brief(evidence: list[dict], *, api_key: str | None = None,
         raise ValueError("摘要未通过结构与证据引用核验，拒绝展示") from None
     return {"summary": result['summary'], "observations": items, "limitations": result['limitations'],
             "model": model_name, "evidence": safe}
+
+
+def generate_review_plan(bundle: dict, *, api_key: str | None = None, model: str | None = None,
+                         request_metadata: dict | None = None) -> dict:
+    """Optional future opt-in: one request, only validated IDs, no generated prose.
+
+    This is not wired to a UI button and has no automatic key-file access.
+    A fresh call requires separate budget authorization; preparation is offline.
+    """
+    from guanlan.monthly_review import build_review_payload, validate_plan
+    if os.getenv("ENABLE_PAID_AI", "0") != "1":
+        raise ValueError("付费编排默认关闭，须另行确认本次预算和发送范围")
+    if not api_key:
+        raise ValueError("编排须显式提供凭据；不读取文件或建立持久配置")
+    model_name = model or DEFAULT_DEEPSEEK_MODEL
+    payload = build_review_payload(bundle, model_name)
+    body = _post(payload, api_key, max_attempts=1, metadata=request_metadata)
+    try:
+        plan = json.loads(_content(body))
+        return validate_plan(plan, bundle)
+    except (ValueError, TypeError):
+        raise ValueError("外部编排未通过核验；保留本地完整声明") from None

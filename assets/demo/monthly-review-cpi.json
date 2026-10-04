@@ -1,0 +1,1659 @@
+{
+  "bundle": {
+    "schema_version": "monthly-review-v1",
+    "selection": {
+      "indicator_key": "cpi_yoy",
+      "latest_period": "2026-08",
+      "comparison": "previous_month",
+      "reference_period": "2026-07"
+    },
+    "indicator": {
+      "key": "cpi_yoy",
+      "name": "居民消费价格 CPI",
+      "basis": "单月同比",
+      "unit": "%"
+    },
+    "input_sha256": "b7c49099df54a2ac002cdc41a18f9030b575bad380815b9a741b6e70e12e2559",
+    "model_snapshot_hash": "1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc",
+    "default_method": "persistence",
+    "source_rows": [
+      {
+        "key": "cpi_yoy",
+        "period": "2021-09",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901240.html",
+        "published": "2021-10-18"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2021-10",
+        "value": 1.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901272.html",
+        "published": "2021-11-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2021-11",
+        "value": 2.3,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901296.html",
+        "published": "2021-12-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2021-12",
+        "value": 1.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901328.html",
+        "published": "2022-01-12"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-01",
+        "value": 0.9,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901367.html",
+        "published": "2022-02-16"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-02",
+        "value": 0.9,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901398.html",
+        "published": "2022-03-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-03",
+        "value": 1.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901421.html",
+        "published": "2022-04-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-04",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901456.html",
+        "published": "2022-05-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-05",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901482.html",
+        "published": "2022-06-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-06",
+        "value": 2.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901504.html",
+        "published": "2022-07-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-07",
+        "value": 2.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901542.html",
+        "published": "2022-08-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-08",
+        "value": 2.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901570.html",
+        "published": "2022-09-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-09",
+        "value": 2.8,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901613.html",
+        "published": "2022-10-14"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-10",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901647.html",
+        "published": "2022-11-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-11",
+        "value": 1.6,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901670.html",
+        "published": "2022-12-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2022-12",
+        "value": 1.8,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901703.html",
+        "published": "2023-01-12"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-01",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913661.html",
+        "published": "2023-02-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-02",
+        "value": 1.0,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230309_1936952.html",
+        "published": "2023-03-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-03",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938507.html",
+        "published": "2023-04-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-04",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939347.html",
+        "published": "2023-05-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-05",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940479.html",
+        "published": "2023-06-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-06",
+        "value": 0.0,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230710_1941147.html",
+        "published": "2023-07-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-07",
+        "value": -0.3,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230809_1941863.html",
+        "published": "2023-08-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-08",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942695.html",
+        "published": "2023-09-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-09",
+        "value": 0.0,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943548.html",
+        "published": "2023-10-13"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-10",
+        "value": -0.2,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944382.html",
+        "published": "2023-11-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-11",
+        "value": -0.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945394.html",
+        "published": "2023-12-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2023-12",
+        "value": -0.3,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946465.html",
+        "published": "2024-01-12"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-01",
+        "value": -0.8,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947623.html",
+        "published": "2024-02-08"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-02",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948077.html",
+        "published": "2024-03-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-03",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202404/t20240416_1948561.html",
+        "published": "2024-04-16"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-04",
+        "value": 0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950302.html",
+        "published": "2024-05-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-05",
+        "value": 0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954519.html",
+        "published": "2024-06-12"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-06",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955508.html",
+        "published": "2024-07-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-07",
+        "value": 0.5,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955948.html",
+        "published": "2024-08-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-08",
+        "value": 0.6,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956311.html",
+        "published": "2024-09-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-09",
+        "value": 0.4,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241018_1957044.html",
+        "published": "2024-10-18"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-10",
+        "value": 0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957353.html",
+        "published": "2024-11-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-11",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957689.html",
+        "published": "2024-12-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2024-12",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250109_1958170.html",
+        "published": "2025-01-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-01",
+        "value": 0.5,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958646.html",
+        "published": "2025-02-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-02",
+        "value": -0.7,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250309_1958915.html",
+        "published": "2025-03-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-03",
+        "value": -0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250416_1959321.html",
+        "published": "2025-04-16"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-04",
+        "value": -0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959771.html",
+        "published": "2025-05-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-05",
+        "value": -0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960094.html",
+        "published": "2025-06-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-06",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250709_1960370.html",
+        "published": "2025-07-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-07",
+        "value": 0.0,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202508/t20250809_1960635.html",
+        "published": "2025-08-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-08",
+        "value": -0.4,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961112.html",
+        "published": "2025-09-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-09",
+        "value": -0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961521.html",
+        "published": "2025-10-15"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-10",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961826.html",
+        "published": "2025-11-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-11",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962015.html",
+        "published": "2025-12-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2025-12",
+        "value": 0.8,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962273.html",
+        "published": "2026-01-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-01",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202602/t20260211_1962588.html",
+        "published": "2026-02-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-02",
+        "value": 1.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202603/t20260309_1962732.html",
+        "published": "2026-03-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-03",
+        "value": 1.0,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202604/t20260410_1963264.html",
+        "published": "2026-04-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-04",
+        "value": 1.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963659.html",
+        "published": "2026-05-11"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-05",
+        "value": 1.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963923.html",
+        "published": "2026-06-10"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-06",
+        "value": 1.0,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/t20260715_1964121.html",
+        "published": "2026-07-15"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-07",
+        "value": 0.5,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965008.html",
+        "published": "2026-08-09"
+      },
+      {
+        "key": "cpi_yoy",
+        "period": "2026-08",
+        "value": 0.8,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965263.html",
+        "published": "2026-09-09"
+      }
+    ],
+    "model": {
+      "version": "china-monthly-v1",
+      "snapshot_hash": "1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc",
+      "status": "evaluated",
+      "observation_count": 60,
+      "feature_names": [
+        "上月读数",
+        "前两月读数",
+        "前三月读数",
+        "去年同月读数",
+        "月份正弦",
+        "月份余弦"
+      ],
+      "limits": "当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。",
+      "backtest": [
+        {
+          "period": "2024-09",
+          "actual": 0.4,
+          "ridge": 0.7644013953456406,
+          "persistence": 0.6,
+          "seasonal": 0.0,
+          "train_start": "2022-09",
+          "train_end": "2024-08",
+          "latest_feature_period": "2024-08",
+          "train_n": 24,
+          "split": "validation"
+        },
+        {
+          "period": "2024-10",
+          "actual": 0.3,
+          "ridge": 0.7873383197203858,
+          "persistence": 0.4,
+          "seasonal": -0.2,
+          "train_start": "2022-09",
+          "train_end": "2024-09",
+          "latest_feature_period": "2024-09",
+          "train_n": 25,
+          "split": "validation"
+        },
+        {
+          "period": "2024-11",
+          "actual": 0.2,
+          "ridge": 0.6866792781509783,
+          "persistence": 0.3,
+          "seasonal": -0.5,
+          "train_start": "2022-09",
+          "train_end": "2024-10",
+          "latest_feature_period": "2024-10",
+          "train_n": 26,
+          "split": "validation"
+        },
+        {
+          "period": "2024-12",
+          "actual": 0.1,
+          "ridge": 0.4608154658460587,
+          "persistence": 0.2,
+          "seasonal": -0.3,
+          "train_start": "2022-09",
+          "train_end": "2024-11",
+          "latest_feature_period": "2024-11",
+          "train_n": 27,
+          "split": "validation"
+        },
+        {
+          "period": "2025-01",
+          "actual": 0.5,
+          "ridge": 0.35688202226162924,
+          "persistence": 0.1,
+          "seasonal": -0.8,
+          "train_start": "2022-09",
+          "train_end": "2024-12",
+          "latest_feature_period": "2024-12",
+          "train_n": 28,
+          "split": "validation"
+        },
+        {
+          "period": "2025-02",
+          "actual": -0.7,
+          "ridge": 0.2621419008317722,
+          "persistence": 0.5,
+          "seasonal": 0.7,
+          "train_start": "2022-09",
+          "train_end": "2025-01",
+          "latest_feature_period": "2025-01",
+          "train_n": 29,
+          "split": "validation"
+        },
+        {
+          "period": "2025-03",
+          "actual": -0.1,
+          "ridge": -0.026556658202469385,
+          "persistence": -0.7,
+          "seasonal": 0.1,
+          "train_start": "2022-09",
+          "train_end": "2025-02",
+          "latest_feature_period": "2025-02",
+          "train_n": 30,
+          "split": "validation"
+        },
+        {
+          "period": "2025-04",
+          "actual": -0.1,
+          "ridge": -0.10826291932995818,
+          "persistence": -0.1,
+          "seasonal": 0.3,
+          "train_start": "2022-09",
+          "train_end": "2025-03",
+          "latest_feature_period": "2025-03",
+          "train_n": 31,
+          "split": "validation"
+        },
+        {
+          "period": "2025-05",
+          "actual": -0.1,
+          "ridge": -0.14286052951925282,
+          "persistence": -0.1,
+          "seasonal": 0.3,
+          "train_start": "2022-09",
+          "train_end": "2025-04",
+          "latest_feature_period": "2025-04",
+          "train_n": 32,
+          "split": "validation"
+        },
+        {
+          "period": "2025-06",
+          "actual": 0.1,
+          "ridge": 0.0328005902864546,
+          "persistence": -0.1,
+          "seasonal": 0.2,
+          "train_start": "2022-09",
+          "train_end": "2025-05",
+          "latest_feature_period": "2025-05",
+          "train_n": 33,
+          "split": "validation"
+        },
+        {
+          "period": "2025-07",
+          "actual": 0.0,
+          "ridge": 0.11015397169391261,
+          "persistence": 0.1,
+          "seasonal": 0.5,
+          "train_start": "2022-09",
+          "train_end": "2025-06",
+          "latest_feature_period": "2025-06",
+          "train_n": 34,
+          "split": "validation"
+        },
+        {
+          "period": "2025-08",
+          "actual": -0.4,
+          "ridge": 0.14719212357602293,
+          "persistence": 0.0,
+          "seasonal": 0.6,
+          "train_start": "2022-09",
+          "train_end": "2025-07",
+          "latest_feature_period": "2025-07",
+          "train_n": 35,
+          "split": "validation"
+        },
+        {
+          "period": "2025-09",
+          "actual": -0.3,
+          "ridge": 0.03662112867625217,
+          "persistence": -0.4,
+          "seasonal": 0.4,
+          "train_start": "2022-09",
+          "train_end": "2025-08",
+          "latest_feature_period": "2025-08",
+          "train_n": 36,
+          "split": "test"
+        },
+        {
+          "period": "2025-10",
+          "actual": 0.2,
+          "ridge": -0.0808372889767785,
+          "persistence": -0.3,
+          "seasonal": 0.3,
+          "train_start": "2022-09",
+          "train_end": "2025-09",
+          "latest_feature_period": "2025-09",
+          "train_n": 37,
+          "split": "test"
+        },
+        {
+          "period": "2025-11",
+          "actual": 0.7,
+          "ridge": 0.032401868917777354,
+          "persistence": 0.2,
+          "seasonal": 0.2,
+          "train_start": "2022-09",
+          "train_end": "2025-10",
+          "latest_feature_period": "2025-10",
+          "train_n": 38,
+          "split": "test"
+        },
+        {
+          "period": "2025-12",
+          "actual": 0.8,
+          "ridge": 0.36510509239305416,
+          "persistence": 0.7,
+          "seasonal": 0.1,
+          "train_start": "2022-09",
+          "train_end": "2025-11",
+          "latest_feature_period": "2025-11",
+          "train_n": 39,
+          "split": "test"
+        },
+        {
+          "period": "2026-01",
+          "actual": 0.2,
+          "ridge": 0.5476717862275432,
+          "persistence": 0.8,
+          "seasonal": 0.5,
+          "train_start": "2022-09",
+          "train_end": "2025-12",
+          "latest_feature_period": "2025-12",
+          "train_n": 40,
+          "split": "test"
+        },
+        {
+          "period": "2026-02",
+          "actual": 1.3,
+          "ridge": 0.5219643129260959,
+          "persistence": 0.2,
+          "seasonal": -0.7,
+          "train_start": "2022-09",
+          "train_end": "2026-01",
+          "latest_feature_period": "2026-01",
+          "train_n": 41,
+          "split": "test"
+        },
+        {
+          "period": "2026-03",
+          "actual": 1.0,
+          "ridge": 0.6866868353978297,
+          "persistence": 1.3,
+          "seasonal": -0.1,
+          "train_start": "2022-09",
+          "train_end": "2026-02",
+          "latest_feature_period": "2026-02",
+          "train_n": 42,
+          "split": "test"
+        },
+        {
+          "period": "2026-04",
+          "actual": 1.2,
+          "ridge": 0.7626364357311479,
+          "persistence": 1.0,
+          "seasonal": -0.1,
+          "train_start": "2022-09",
+          "train_end": "2026-03",
+          "latest_feature_period": "2026-03",
+          "train_n": 43,
+          "split": "test"
+        },
+        {
+          "period": "2026-05",
+          "actual": 1.2,
+          "ridge": 0.9792991861890159,
+          "persistence": 1.2,
+          "seasonal": -0.1,
+          "train_start": "2022-09",
+          "train_end": "2026-04",
+          "latest_feature_period": "2026-04",
+          "train_n": 44,
+          "split": "test"
+        },
+        {
+          "period": "2026-06",
+          "actual": 1.0,
+          "ridge": 0.9866830585827504,
+          "persistence": 1.2,
+          "seasonal": 0.1,
+          "train_start": "2022-09",
+          "train_end": "2026-05",
+          "latest_feature_period": "2026-05",
+          "train_n": 45,
+          "split": "test"
+        },
+        {
+          "period": "2026-07",
+          "actual": 0.5,
+          "ridge": 0.9942331152777879,
+          "persistence": 1.0,
+          "seasonal": 0.0,
+          "train_start": "2022-09",
+          "train_end": "2026-06",
+          "latest_feature_period": "2026-06",
+          "train_n": 46,
+          "split": "test"
+        },
+        {
+          "period": "2026-08",
+          "actual": 0.8,
+          "ridge": 0.8250208419646539,
+          "persistence": 0.5,
+          "seasonal": -0.4,
+          "train_start": "2022-09",
+          "train_end": "2026-07",
+          "latest_feature_period": "2026-07",
+          "train_n": 47,
+          "split": "test"
+        }
+      ],
+      "test_start": "2025-09",
+      "validation_n": 12,
+      "test_n": 12,
+      "baseline": "persistence",
+      "metrics": {
+        "validation": {
+          "ridge": {
+            "n": 12,
+            "mae": 0.3044672194386191,
+            "rmse": 0.4089518544799869
+          },
+          "persistence": {
+            "n": 12,
+            "mae": 0.2833333333333334,
+            "rmse": 0.43204937989385733
+          },
+          "seasonal": {
+            "n": 12,
+            "mae": 0.6083333333333334,
+            "rmse": 0.7262919523166975
+          }
+        },
+        "test": {
+          "ridge": {
+            "n": 12,
+            "mae": 0.3624672809154454,
+            "rmse": 0.4219449060714338
+          },
+          "persistence": {
+            "n": 12,
+            "mae": 0.3666666666666667,
+            "rmse": 0.4654746681256314
+          },
+          "seasonal": {
+            "n": 12,
+            "mae": 0.8833333333333334,
+            "rmse": 1.0173494974687902
+          }
+        }
+      },
+      "passes_research_gate": false,
+      "paired_mae_difference_95": [
+        -0.10203802043999284,
+        0.09347600352212254
+      ],
+      "interval_radius": 0.9621419008317722,
+      "test_interval_coverage": 1.0,
+      "interval_calibration_n": 12,
+      "forecast": {
+        "period": "2026-09",
+        "ridge": 0.7809719792998313,
+        "baseline": 0.8,
+        "lower": -0.1811699215319409,
+        "upper": 1.7431138801316035,
+        "train_end": "2026-08",
+        "train_n": 48,
+        "intercept": 0.45624999999999993,
+        "contributions": {
+          "上月读数": 0.09992669569327049,
+          "前两月读数": -0.009130463349449511,
+          "前三月读数": 0.06654555093734778,
+          "去年同月读数": 0.14326481088126072,
+          "月份正弦": 0.04021856384072742,
+          "月份余弦": -0.01610317870332563
+        }
+      }
+    },
+    "anomaly": {
+      "status": "scored",
+      "period": "2026-08",
+      "flag": false,
+      "score": 0.13964029562588426,
+      "train_n": 47,
+      "train_end": "2026-07",
+      "inputs": {
+        "本期读数": 0.8,
+        "较上月差": 0.30000000000000004,
+        "较去年同月差": 1.2000000000000002
+      },
+      "limits": "无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。"
+    },
+    "evidence": [
+      {
+        "id": "obs:cpi_yoy:2021-09",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2021-09",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901240.html",
+        "published": "2021-10-18"
+      },
+      {
+        "id": "obs:cpi_yoy:2021-10",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2021-10",
+        "value": 1.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901272.html",
+        "published": "2021-11-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2021-11",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2021-11",
+        "value": 2.3,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901296.html",
+        "published": "2021-12-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2021-12",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2021-12",
+        "value": 1.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901328.html",
+        "published": "2022-01-12"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-01",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-01",
+        "value": 0.9,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901367.html",
+        "published": "2022-02-16"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-02",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-02",
+        "value": 0.9,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901398.html",
+        "published": "2022-03-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-03",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-03",
+        "value": 1.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901421.html",
+        "published": "2022-04-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-04",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-04",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901456.html",
+        "published": "2022-05-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-05",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-05",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901482.html",
+        "published": "2022-06-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-06",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-06",
+        "value": 2.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901504.html",
+        "published": "2022-07-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-07",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-07",
+        "value": 2.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901542.html",
+        "published": "2022-08-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-08",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-08",
+        "value": 2.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901570.html",
+        "published": "2022-09-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-09",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-09",
+        "value": 2.8,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901613.html",
+        "published": "2022-10-14"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-10",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-10",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901647.html",
+        "published": "2022-11-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-11",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-11",
+        "value": 1.6,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901670.html",
+        "published": "2022-12-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2022-12",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2022-12",
+        "value": 1.8,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901703.html",
+        "published": "2023-01-12"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-01",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-01",
+        "value": 2.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913661.html",
+        "published": "2023-02-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-02",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-02",
+        "value": 1.0,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202303/t20230309_1936952.html",
+        "published": "2023-03-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-03",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-03",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938507.html",
+        "published": "2023-04-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-04",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-04",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939347.html",
+        "published": "2023-05-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-05",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-05",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940479.html",
+        "published": "2023-06-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-06",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-06",
+        "value": 0.0,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202307/t20230710_1941147.html",
+        "published": "2023-07-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-07",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-07",
+        "value": -0.3,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202308/t20230809_1941863.html",
+        "published": "2023-08-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-08",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-08",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942695.html",
+        "published": "2023-09-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-09",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-09",
+        "value": 0.0,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943548.html",
+        "published": "2023-10-13"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-10",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-10",
+        "value": -0.2,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944382.html",
+        "published": "2023-11-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-11",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-11",
+        "value": -0.5,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945394.html",
+        "published": "2023-12-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2023-12",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2023-12",
+        "value": -0.3,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946465.html",
+        "published": "2024-01-12"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-01",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-01",
+        "value": -0.8,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947623.html",
+        "published": "2024-02-08"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-02",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-02",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948077.html",
+        "published": "2024-03-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-03",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-03",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202404/t20240416_1948561.html",
+        "published": "2024-04-16"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-04",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-04",
+        "value": 0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950302.html",
+        "published": "2024-05-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-05",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-05",
+        "value": 0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954519.html",
+        "published": "2024-06-12"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-06",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-06",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955508.html",
+        "published": "2024-07-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-07",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-07",
+        "value": 0.5,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955948.html",
+        "published": "2024-08-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-08",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-08",
+        "value": 0.6,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956311.html",
+        "published": "2024-09-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-09",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-09",
+        "value": 0.4,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241018_1957044.html",
+        "published": "2024-10-18"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-10",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-10",
+        "value": 0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957353.html",
+        "published": "2024-11-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-11",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-11",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957689.html",
+        "published": "2024-12-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2024-12",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2024-12",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202501/t20250109_1958170.html",
+        "published": "2025-01-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-01",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-01",
+        "value": 0.5,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958646.html",
+        "published": "2025-02-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-02",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-02",
+        "value": -0.7,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250309_1958915.html",
+        "published": "2025-03-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-03",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-03",
+        "value": -0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250416_1959321.html",
+        "published": "2025-04-16"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-04",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-04",
+        "value": -0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959771.html",
+        "published": "2025-05-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-05",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-05",
+        "value": -0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960094.html",
+        "published": "2025-06-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-06",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-06",
+        "value": 0.1,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250709_1960370.html",
+        "published": "2025-07-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-07",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-07",
+        "value": 0.0,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202508/t20250809_1960635.html",
+        "published": "2025-08-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-08",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-08",
+        "value": -0.4,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961112.html",
+        "published": "2025-09-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-09",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-09",
+        "value": -0.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961521.html",
+        "published": "2025-10-15"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-10",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-10",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961826.html",
+        "published": "2025-11-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-11",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-11",
+        "value": 0.7,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962015.html",
+        "published": "2025-12-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2025-12",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2025-12",
+        "value": 0.8,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962273.html",
+        "published": "2026-01-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-01",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-01",
+        "value": 0.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202602/t20260211_1962588.html",
+        "published": "2026-02-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-02",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-02",
+        "value": 1.3,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202603/t20260309_1962732.html",
+        "published": "2026-03-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-03",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-03",
+        "value": 1.0,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202604/t20260410_1963264.html",
+        "published": "2026-04-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-04",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-04",
+        "value": 1.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963659.html",
+        "published": "2026-05-11"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-05",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-05",
+        "value": 1.2,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963923.html",
+        "published": "2026-06-10"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-06",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-06",
+        "value": 1.0,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202607/t20260715_1964121.html",
+        "published": "2026-07-15"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-07",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-07",
+        "value": 0.5,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965008.html",
+        "published": "2026-08-09"
+      },
+      {
+        "id": "obs:cpi_yoy:2026-08",
+        "kind": "official_observation",
+        "key": "cpi_yoy",
+        "period": "2026-08",
+        "value": 0.8,
+        "source_url": "https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965263.html",
+        "published": "2026-09-09"
+      },
+      {
+        "id": "model:1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc",
+        "kind": "model_evaluation",
+        "snapshot_hash": "1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc",
+        "method_version": "china-monthly-v1",
+        "source_ids": [
+          "obs:cpi_yoy:2021-09",
+          "obs:cpi_yoy:2021-10",
+          "obs:cpi_yoy:2021-11",
+          "obs:cpi_yoy:2021-12",
+          "obs:cpi_yoy:2022-01",
+          "obs:cpi_yoy:2022-02",
+          "obs:cpi_yoy:2022-03",
+          "obs:cpi_yoy:2022-04",
+          "obs:cpi_yoy:2022-05",
+          "obs:cpi_yoy:2022-06",
+          "obs:cpi_yoy:2022-07",
+          "obs:cpi_yoy:2022-08",
+          "obs:cpi_yoy:2022-09",
+          "obs:cpi_yoy:2022-10",
+          "obs:cpi_yoy:2022-11",
+          "obs:cpi_yoy:2022-12",
+          "obs:cpi_yoy:2023-01",
+          "obs:cpi_yoy:2023-02",
+          "obs:cpi_yoy:2023-03",
+          "obs:cpi_yoy:2023-04",
+          "obs:cpi_yoy:2023-05",
+          "obs:cpi_yoy:2023-06",
+          "obs:cpi_yoy:2023-07",
+          "obs:cpi_yoy:2023-08",
+          "obs:cpi_yoy:2023-09",
+          "obs:cpi_yoy:2023-10",
+          "obs:cpi_yoy:2023-11",
+          "obs:cpi_yoy:2023-12",
+          "obs:cpi_yoy:2024-01",
+          "obs:cpi_yoy:2024-02",
+          "obs:cpi_yoy:2024-03",
+          "obs:cpi_yoy:2024-04",
+          "obs:cpi_yoy:2024-05",
+          "obs:cpi_yoy:2024-06",
+          "obs:cpi_yoy:2024-07",
+          "obs:cpi_yoy:2024-08",
+          "obs:cpi_yoy:2024-09",
+          "obs:cpi_yoy:2024-10",
+          "obs:cpi_yoy:2024-11",
+          "obs:cpi_yoy:2024-12",
+          "obs:cpi_yoy:2025-01",
+          "obs:cpi_yoy:2025-02",
+          "obs:cpi_yoy:2025-03",
+          "obs:cpi_yoy:2025-04",
+          "obs:cpi_yoy:2025-05",
+          "obs:cpi_yoy:2025-06",
+          "obs:cpi_yoy:2025-07",
+          "obs:cpi_yoy:2025-08",
+          "obs:cpi_yoy:2025-09",
+          "obs:cpi_yoy:2025-10",
+          "obs:cpi_yoy:2025-11",
+          "obs:cpi_yoy:2025-12",
+          "obs:cpi_yoy:2026-01",
+          "obs:cpi_yoy:2026-02",
+          "obs:cpi_yoy:2026-03",
+          "obs:cpi_yoy:2026-04",
+          "obs:cpi_yoy:2026-05",
+          "obs:cpi_yoy:2026-06",
+          "obs:cpi_yoy:2026-07",
+          "obs:cpi_yoy:2026-08"
+        ]
+      },
+      {
+        "id": "anomaly:2321f5eaa064019da313c19de92b745d0f2dd4c5856346257b609643b0c60198",
+        "kind": "anomaly_diagnostic",
+        "source_ids": [
+          "obs:cpi_yoy:2021-09",
+          "obs:cpi_yoy:2021-10",
+          "obs:cpi_yoy:2021-11",
+          "obs:cpi_yoy:2021-12",
+          "obs:cpi_yoy:2022-01",
+          "obs:cpi_yoy:2022-02",
+          "obs:cpi_yoy:2022-03",
+          "obs:cpi_yoy:2022-04",
+          "obs:cpi_yoy:2022-05",
+          "obs:cpi_yoy:2022-06",
+          "obs:cpi_yoy:2022-07",
+          "obs:cpi_yoy:2022-08",
+          "obs:cpi_yoy:2022-09",
+          "obs:cpi_yoy:2022-10",
+          "obs:cpi_yoy:2022-11",
+          "obs:cpi_yoy:2022-12",
+          "obs:cpi_yoy:2023-01",
+          "obs:cpi_yoy:2023-02",
+          "obs:cpi_yoy:2023-03",
+          "obs:cpi_yoy:2023-04",
+          "obs:cpi_yoy:2023-05",
+          "obs:cpi_yoy:2023-06",
+          "obs:cpi_yoy:2023-07",
+          "obs:cpi_yoy:2023-08",
+          "obs:cpi_yoy:2023-09",
+          "obs:cpi_yoy:2023-10",
+          "obs:cpi_yoy:2023-11",
+          "obs:cpi_yoy:2023-12",
+          "obs:cpi_yoy:2024-01",
+          "obs:cpi_yoy:2024-02",
+          "obs:cpi_yoy:2024-03",
+          "obs:cpi_yoy:2024-04",
+          "obs:cpi_yoy:2024-05",
+          "obs:cpi_yoy:2024-06",
+          "obs:cpi_yoy:2024-07",
+          "obs:cpi_yoy:2024-08",
+          "obs:cpi_yoy:2024-09",
+          "obs:cpi_yoy:2024-10",
+          "obs:cpi_yoy:2024-11",
+          "obs:cpi_yoy:2024-12",
+          "obs:cpi_yoy:2025-01",
+          "obs:cpi_yoy:2025-02",
+          "obs:cpi_yoy:2025-03",
+          "obs:cpi_yoy:2025-04",
+          "obs:cpi_yoy:2025-05",
+          "obs:cpi_yoy:2025-06",
+          "obs:cpi_yoy:2025-07",
+          "obs:cpi_yoy:2025-08",
+          "obs:cpi_yoy:2025-09",
+          "obs:cpi_yoy:2025-10",
+          "obs:cpi_yoy:2025-11",
+          "obs:cpi_yoy:2025-12",
+          "obs:cpi_yoy:2026-01",
+          "obs:cpi_yoy:2026-02",
+          "obs:cpi_yoy:2026-03",
+          "obs:cpi_yoy:2026-04",
+          "obs:cpi_yoy:2026-05",
+          "obs:cpi_yoy:2026-06",
+          "obs:cpi_yoy:2026-07",
+          "obs:cpi_yoy:2026-08"
+        ]
+      }
+    ],
+    "claims": [
+      {
+        "id": "latest",
+        "kind": "official_observation",
+        "text": "2026-08，居民消费价格 CPI（单月同比）官方读数为 0.8%。",
+        "evidence_ids": [
+          "obs:cpi_yoy:2026-08"
+        ],
+        "values": {
+          "period": "2026-08",
+          "value": 0.8,
+          "unit": "%"
+        }
+      },
+      {
+        "id": "comparison",
+        "kind": "computed_observation",
+        "text": "与上个自然月 2026-07 的 0.5% 比较，本期读数上升；差值 +0.300 百分点。这比较的是读数，不是重新计算增长率。",
+        "evidence_ids": [
+          "obs:cpi_yoy:2026-08",
+          "obs:cpi_yoy:2026-07"
+        ],
+        "values": {
+          "current": 0.8,
+          "reference": 0.5,
+          "reference_period": "2026-07",
+          "delta": 0.30000000000000004,
+          "direction": "上升",
+          "unit": "百分点"
+        }
+      },
+      {
+        "id": "evaluation",
+        "kind": "model_evaluation",
+        "text": "固定协议留出从 2025-09 开始，共 12 个月：Ridge MAE 0.362，上一月值 0.367，去年同月值 0.883；越低越好。",
+        "evidence_ids": [
+          "model:1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc"
+        ],
+        "values": {
+          "metrics": {
+            "ridge": {
+              "n": 12,
+              "mae": 0.3624672809154454,
+              "rmse": 0.4219449060714338
+            },
+            "persistence": {
+              "n": 12,
+              "mae": 0.3666666666666667,
+              "rmse": 0.4654746681256314
+            },
+            "seasonal": {
+              "n": 12,
+              "mae": 0.8833333333333334,
+              "rmse": 1.0173494974687902
+            }
+          },
+          "test_start": "2025-09",
+          "test_n": 12
+        }
+      },
+      {
+        "id": "method",
+        "kind": "model_decision",
+        "text": "Ridge 未通过固定研究门槛，不能称为有效优势。默认研究参考保留开发验证期选定的上一月值基线；不根据留出成绩另选赢家。",
+        "evidence_ids": [
+          "model:1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc"
+        ],
+        "values": {
+          "gate_passed": false,
+          "default_method": "persistence",
+          "baseline_selection_split": "validation"
+        }
+      },
+      {
+        "id": "forecast",
+        "kind": "model_forecast",
+        "text": "下一统计期 2026-09：默认上一月值基线估计 0.800%；Ridge 实验估计 0.781%。它们是研究估计，不是已经发布的官方观察。",
+        "evidence_ids": [
+          "model:1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc"
+        ],
+        "values": {
+          "period": "2026-09",
+          "train_end": "2026-08",
+          "reference": 0.8,
+          "experimental": 0.7809719792998313
+        }
+      },
+      {
+        "id": "interval",
+        "kind": "model_diagnostic",
+        "text": "Ridge 开发期残差经验带 [-0.181, 1.743]%；名义 90%，固定留出实际覆盖 100.0%。该经验带不属于默认基线，且不保证未来覆盖。",
+        "evidence_ids": [
+          "model:1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc"
+        ],
+        "values": {
+          "lower": -0.1811699215319409,
+          "upper": 1.7431138801316035,
+          "nominal_coverage": 0.9,
+          "test_coverage": 1.0,
+          "applies_to": "ridge"
+        }
+      },
+      {
+        "id": "anomaly",
+        "kind": "anomaly_diagnostic",
+        "text": "2026-08 IsolationForest 分数 0.1396：未触发异常阈值，不能据此排除风险。训练截至 2026-07，本期未参与训练；无异常真值标签，不报告准确率或原因。",
+        "evidence_ids": [
+          "anomaly:2321f5eaa064019da313c19de92b745d0f2dd4c5856346257b609643b0c60198",
+          "obs:cpi_yoy:2026-08"
+        ],
+        "values": {
+          "score": 0.13964029562588426,
+          "flag": false,
+          "train_end": "2026-07"
+        }
+      },
+      {
+        "id": "limits",
+        "kind": "limitation",
+        "text": "使用当前修订历史快照，缺少逐期首次公开版本；时序检查不能证明当时实时可得。 读数差是同一指标数值的百分点变化，不是价格水平变化或新的同比/环比增长率；基期变化需人工核对。 模型关系与无监督异常不证明经济原因，不构成资产收益预测或交易建议。 经验带属于实验模型，不能转用为基线预测区间，也不保证未来覆盖。",
+        "evidence_ids": [
+          "model:1a0adf84ff0781bb42714a92ce53f5dec6a75926800885a00b2cf35fb84dd6fc",
+          "anomaly:2321f5eaa064019da313c19de92b745d0f2dd4c5856346257b609643b0c60198"
+        ],
+        "values": {}
+      }
+    ],
+    "required_claim_ids": [
+      "latest",
+      "method",
+      "limits"
+    ],
+    "limitations": [
+      "使用当前修订历史快照，缺少逐期首次公开版本；时序检查不能证明当时实时可得。",
+      "读数差是同一指标数值的百分点变化，不是价格水平变化或新的同比/环比增长率；基期变化需人工核对。",
+      "模型关系与无监督异常不证明经济原因，不构成资产收益预测或交易建议。",
+      "经验带属于实验模型，不能转用为基线预测区间，也不保证未来覆盖。"
+    ],
+    "network_requests": 0,
+    "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19"
+  },
+  "plan": {
+    "review_id": "5fdfdc1cedd49e13fb43c35912818f148e7475bab6dc45e937baad8697720d19",
+    "claim_ids": [
+      "latest",
+      "comparison",
+      "evaluation",
+      "method",
+      "forecast",
+      "interval",
+      "anomaly",
+      "limits"
+    ]
+  },
+  "planner": "local",
+  "rendering": "deterministic_templates; no model-supplied prose",
+  "report_id": "37d5fa5617a09ab6736e59adaba2c4099cf82b4e1a37ebd54d809b099598f716"
+}

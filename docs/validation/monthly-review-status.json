@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "engineering_cases": 29,
+  "browser_cases": 10,
+  "local_full_tests": 238,
+  "local_subtests": 10,
+  "final_related_api_and_workflow_tests": 74,
+  "final_monthly_tests": 38,
+  "mypy_files": 11,
+  "full_local_test_scope": "After workflow implementation; before final HTML link-label refinement. Final affected tests rerun. This local status does not substitute for exact release CI.",
+  "new_model_or_dependency": false,
+  "frozen_models_and_data_changed": false,
+  "paid_api_requests": 0,
+  "llm_business_quality_evaluated": false,
+  "causal_or_real_time_claim": false,
+  "production_certification": false,
+  "protocol_sha256": "eaf3600d104fb7abde31eeab04386ce3ac67bd629441542a9eb184390b10185b",
+  "final_package_audit": "docs/validation/monthly-build-artifact-audit.json"
+}

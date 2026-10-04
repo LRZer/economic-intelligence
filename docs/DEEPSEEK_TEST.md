@@ -46,4 +46,4 @@ Windows：桌面已有 `api_key.md` 时，双击项目根目录 `test-deepseek-o
 
 覆盖预检／非交互／取消不读key，合成文件解析、单次发送、并发防重复、只授权头含凭据、不跳转、不重试、错误脱敏、原文件与环境不变、输出上限，以及旧轻量应用默认付费关闭和官方请求参数。真实请求目前尚未由用户触发；未把mock结果计为真实通过。
 
-本轮本机：43项最终接口回归通过，另一次含既有摘要UI的44项回归通过；Ruff、8文件mypy、Node和Bandit中高门槛通过。测试使用合成凭据与mock HTTP，真人真实接口仍未触发。见[机器可读状态](validation/deepseek-regression-status.json)、[最终日志](validation/deepseek-final-tests.log)和[安装包审计](validation/deepseek-build-artifact-audit.json)。
+本轮本机：43项最终接口回归通过，另一次含既有摘要UI的44项回归通过；Ruff、8文件mypy、Node和Bandit中高门槛通过。测试使用合成凭据与mock HTTP，此后用户本人已触发一次合成材料连通检查成功；助手未触发、不重试，不作为业务生成质量证据。那次预算已结束，本阶段无新增付费请求，真实密钥与本地回执不发布。见[机器可读状态](validation/deepseek-regression-status.json)、[最终日志](validation/deepseek-final-tests.log)和[安装包审计](validation/deepseek-build-artifact-audit.json)。

@@ -26,6 +26,24 @@
 
 ![同年跨国同行对照：美国 HS85，2025 年](assets/screenshots/sector-comparison.png)
 
+## 中国月度研究：证据约束闭环
+
+在 **风险研究 → 中国月度预测与异常** 选择七个已定义指标之一，再选“上个自然月／去年同月”。月度核验单把官方读数、同口径百分点差、固定回测、默认基线、下一统计期实验估计、异常提示和局限分别标记；每条声明带官方观察或本地模型证据依赖。
+
+Ridge 与 IsolationForest 是实际运行的本地机器学习；解释文字是确定性模板，**不是大模型经济判断**。七个指标的 Ridge 固定门槛失败结论保留，默认参考仍为开发期选定的基线。经验带明确属于 Ridge，不混作基线区间；缺自然月拒绝插值或以最近记录代替。
+
+连续下载 **核验单 HTML／核验包 JSON／声明与证据 CSV**；文件名绑定指标、期别、比较范围和核验指纹。JSON包含同一份来源记录、完整逐月回测、模型结果、声明和编排。使用锁定环境离线重算：
+
+```powershell
+python scripts/verify_monthly_review.py path/to/monthly-review.json
+python scripts/evaluate_monthly_review.py
+python -m pytest -q tests/test_monthly_review.py tests/test_monthly_review_ui.py
+```
+
+可下载受限编排示例并重新导入。导入内容只能选择／排序已核验声明ID，不能写入新数字、正文、来源或任意工具；最新读数、方法决策及局限不可隐藏。过期／矛盾／越权计划拒绝后继续展示当前本地核验单。可选 `generate_review_plan` 的API适配仅以mock验证，未接入付费UI按钮；真实编排质量与费用需另行授权和评估，既有单次测试预算不延续。助手不读取密钥文件或建立持久凭据。
+
+SHA256与离线重算用于一致性核验，**不是来源真实性数字签名**。复算会重跑固定模型；单纯重新计算篡改文件的SHA仍不能通过。[本阶段实测验收](docs/MONTHLY_REVIEW_ACCEPTANCE.md)与[预定协议](docs/MONTHLY_REVIEW_PROTOCOL.md)明确区分29例工程任务与尚未开展的语言模型商业质量评测；[阶段路线](ROADMAP.md)说明后续研究范围。
+
 ## 功能
 
 | 工作区 | 能做什么 |
@@ -184,7 +202,7 @@ AUTO_REFRESH=0
 
 只有主动将 `ENABLE_PAID_AI` 设为 `1`、在本机安全配置凭据并点击生成按钮，才会请求付费服务。金额由服务商决定；本项目不提供免费额度承诺。数据刷新也须主动执行，不在页面启动时采集。
 
-如需核验真实接口，使用 [一次性 DeepSeek 测试](docs/DEEPSEEK_TEST.md)：Windows 双击根目录 `test-deepseek-once.cmd`，本人在本机窗口按回车后，才会临时读取桌面 `api_key.md` 并发送一次合成材料。默认 `python scripts/deepseek_live_check.py` 仅生成预检，不读密钥、不联网。结果保存在被 Git 忽略的 `reports/deepseek-live-check.json`，不保存模型原文或密钥；非交互调用、重复／并发触发被阻止，超时不自动重发。没有真实成功回执前，不称 API 已通过。
+如需核验真实接口，使用 [一次性 DeepSeek 测试](docs/DEEPSEEK_TEST.md)：Windows 双击根目录 `test-deepseek-once.cmd`，本人在本机窗口按回车后，才会临时读取桌面 `api_key.md` 并发送一次合成材料。默认 `python scripts/deepseek_live_check.py` 仅生成预检，不读密钥、不联网。结果保存在被 Git 忽略的 `reports/deepseek-live-check.json`，不保存模型原文或密钥；非交互调用、重复／并发触发被阻止，超时不自动重发。该入口此前已由用户本人触发一次并确认连通；合成材料成功不证明业务质量，既有预算已结束。本阶段不重新测试或读取密钥。
 
 
 ## 复现数据、评估和报告

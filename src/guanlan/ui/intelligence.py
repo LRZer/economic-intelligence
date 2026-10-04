@@ -1,22 +1,15 @@
 from __future__ import annotations
 
-import json
-import os
 import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-from guanlan.forecast import MODEL_KEYS, analyze_series, anomaly
-from guanlan.ai import generate_grounded_brief
+from guanlan.forecast import MODEL_KEYS
 from .china import load_dashboard
 from .common import header, select, radio, sync_query, initial_query, chart
-from .research import configured_key, cycle_view
+from .research import cycle_view
 from . import global_ai, sector
-
-
-@st.cache_data(show_spinner=False, max_entries=32)
-def model_result(rows):
-    return analyze_series(rows), anomaly(rows)
+from .monthly_review import render_review
 
 
 def render(store):
@@ -35,16 +28,19 @@ def render(store):
     keys = [k for k in MODEL_KEYS if data["series"].get(k)]
     if not keys:
         st.info("暂无可评估的中国月度数据。安装真实来源快照后可离线运行模型。")
-        sync_query(view="intelligence")
+        sync_query(view="intelligence", ai_task=task)
         return
     key = select("建模指标", keys, "ai_indicator", initial_query("ai_indicator", "cpi_yoy"), format_func=lambda k: catalog[k]["name"])
-    sync_query(view="intelligence", ai_indicator=key)
+    sync_query(view="intelligence", ai_task=task, ai_indicator=key)
     spec = catalog[key]
     rows = data["series"][key]
-    with st.spinner("计算时间顺序回测与异常分数…"):
-        result, abnormal = model_result(rows)
     st.caption(f"{spec['basis']} · {spec['unit']} · {len(rows)} 个真实观测 · 最新 {rows[-1]['period']}")
     st.warning("使用当前修订版历史数据，不是逐期实时版本回测。结果用于研究核查，不能作为交易信号。")
+    bundle = render_review(spec, rows)
+    if bundle is None:
+        return
+    result, abnormal = bundle["model"], bundle["anomaly"]
+    st.subheader("回测与模型细节")
     if result["status"] != "evaluated":
         st.info(result["reason"])
         return
@@ -106,36 +102,4 @@ def render(store):
         st.dataframe(backtest, hide_index=True, width="stretch")
         st.code(result["snapshot_hash"], language=None)
         st.write("固定参数：Ridge alpha=10；每期训练内标准化；自然月滞后1/2/3/12；末12自然月留出；缺失不插值。IsolationForest 200棵树、阈值10%、seed=42。")
-    st.download_button("下载逐期回测 CSV", backtest.to_csv(index=False).encode("utf-8-sig"), file_name=f"backtest-{key}.csv", mime="text/csv")
-    st.download_button("下载模型与来源审计 JSON", json.dumps({"indicator": spec, "model": result, "anomaly": abnormal,
-                                                              "source_rows": rows}, ensure_ascii=False, indent=2).encode(),
-                       file_name=f"research-{key}.json", mime="application/json")
-    st.subheader("DeepSeek 证据摘要")
-    evidence = [{"id":f"{key}:{r['period']}", "label":spec["name"], "period":r["period"],
-                 "value":r["value"], "unit":spec["unit"], "source_url":r["source_url"],
-                 "kind":"official_observation"} for r in rows[-4:]]
-    st.caption("只发送下表四期公共观测；模型输出独立展示，证据正文不含密钥或完整数据集；服务端授权头会向DeepSeek传递密钥用于认证。生成内容必须通过引用核验，仍需人工审阅。")
-    with st.expander("查看将发送的证据"):
-        st.dataframe(pd.DataFrame(evidence), hide_index=True, width="stretch")
-    enabled = os.getenv("ENABLE_PAID_AI", "0") == "1"
-    secret = configured_key()
-    if not enabled or not secret:
-        st.info("付费摘要未启用或未配置安全凭据。本地预测、异常核查和全部导出可离线使用。")
-    if st.button("生成有据摘要", disabled=not enabled or not secret, key="grounded_generate"):
-        try:
-            with st.spinner("请求证据摘要…"):
-                brief = generate_grounded_brief(evidence, api_key=secret)
-            st.session_state["grounded_brief"] = {"snapshot":result["snapshot_hash"], "brief":brief}
-        except (ValueError, RuntimeError):
-            st.error("摘要未生成或未通过引用核验，请检查服务配置；来源数据与本地研究仍可用。")
-    saved = st.session_state.get("grounded_brief")
-    if saved and saved["snapshot"] == result["snapshot_hash"]:
-        brief = saved["brief"]
-        st.write(brief["summary"])
-        evidence_map = {r["id"]:r for r in brief["evidence"]}
-        for observation in brief["observations"]:
-            st.write(observation["interpretation"])
-            st.markdown(" · ".join(f"[{evidence_map[i]['period']} 原文]({evidence_map[i]['source_url']})" for i in observation["evidence_ids"]))
-        st.caption("；".join(brief["limitations"]) + f" · 模型 {brief['model']} · 未人工审核")
-    elif saved:
-        st.caption("此前摘要对应其他指标或旧快照，当前不展示；可主动重新生成。")
+    st.download_button("下载逐期回测 CSV", backtest.to_csv(index=False).encode("utf-8-sig"), file_name=f"backtest-{key}.csv", mime="text/csv", on_click="ignore")

@@ -71,8 +71,8 @@ Bandit 的两个低风险结果为 `china_macro/cny_trade.py` 的 `B404`（导�
 
 | 项目 | 状态与原因 |
 |---|---|
-| GitHub 发布 | **待办**：目标为已授权的 `LRZer/guanlan-economic-intelligence` 私有新仓库，等待用户建立可访问的空仓库；未上传、未覆盖旧仓库、未强推 |
-| 远端可见性、提交 SHA、CI | **未核验**：仓库尚未可用；准备了固定官方 action SHA 的 Linux CI，不冒充已通过 |
+| GitHub 发布 | **待办**：目标为已授权的 `LRZer/economic-intelligence` 私有新仓库，已于 2026-10-04 核实目标为可访问的空私有仓库，等待本轮推送及 CI；未上传、未覆盖旧仓库、未强推 |
+| 远端可见性、提交 SHA、CI | **未核验**：空私有仓库已核实；待推送后确认提交与 CI，已准备了固定官方 action SHA 的 Linux CI，不冒充已通过 |
 | Linux/macOS 本地启动 | 未在这些系统实测；README 提供命令，Linux CI 待执行 |
 | 实际付费 LLM API | 未运行，无实际费用；授权范围内仅 mock，不以 mock 成功宣称真实服务可用 |
 | 首次公开历史版本与实时预测 | 未具备；不能声称该快照无修订偏差或已验证实时表现 |

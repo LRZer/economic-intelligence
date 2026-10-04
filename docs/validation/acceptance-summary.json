@@ -114,11 +114,13 @@
   "platform_verified": "Windows, Python 3.11.7, independent virtualenv, Edge headless",
   "live_paid_api_calls": 0,
   "remote": {
-    "repository": "LRZer/guanlan-economic-intelligence",
+    "repository": "LRZer/economic-intelligence",
     "required_visibility": "private",
     "published": false,
     "commit_verified": false,
     "ci_verified": false,
-    "blocker": "Awaiting creation/access to the authorized empty private repository. No new credentials requested or read."
+    "blocker": "Preflight passed: authorized empty private repository. Upload and CI verification pending execution.",
+    "private_preflight_verified": true,
+    "repository_id": 1404207801
   }
 }

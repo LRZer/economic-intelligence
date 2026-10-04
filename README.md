@@ -8,6 +8,8 @@
 
 ![行业研究工作区](assets/screenshots/ai-sector.png)
 
+当前属于开发阶段的专业研究平台；私有仓库发布与 CI 通过均不等同于金融机构生产部署认证。功能验收继续以真实研究工作流、证据和模型局限为准。
+
 ## 从一个问题到一份可核查报告
 
 以“中国 HS85 电气设备行业”为例：
@@ -132,8 +134,8 @@ flowchart LR
 Windows PowerShell：
 
 ```powershell
-git clone https://github.com/LRZer/guanlan-economic-intelligence.git
-cd guanlan-economic-intelligence
+git clone https://github.com/LRZer/economic-intelligence.git
+cd economic-intelligence
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.lock.txt
 .\.venv\Scripts\python.exe -m pip install --no-deps --no-build-isolation -e .

@@ -1,0 +1,15 @@
+{
+  "recorded_at_utc": "2026-10-05T14:58:21.222444+00:00",
+  "before_first_actual_model_load": true,
+  "before_actual_audit": true,
+  "scientific_preparation_freeze": "D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-preparation-v1\\preparation-freeze.json",
+  "files": {
+    "scripts\\chronos_cpu_backend.py": "c7feee8b7efe6734322b26916d5c78ddb93b0eb882f92efc4b53f043818a5106",
+    "scripts\\run_chronos_frozen_audit.py": "1c28c36a9d377000e05a0e59d744b5fa65e1f2f5663133297b6ae096926bb874",
+    "requirements-cpu.lock.txt": "efbe299f880593507852de664f9acbe19599ac68854fcdfb121475a367911f0a"
+  },
+  "protocol_sha256": "cd1abcfa04b3d3183cfbd4cb0a365f62aca3d90503b85d09136a4ae21d712261",
+  "model_fixture_repetitions_planned": 2,
+  "audit_model_predictions_planned": 84,
+  "scientific_tuning_allowed": false
+}

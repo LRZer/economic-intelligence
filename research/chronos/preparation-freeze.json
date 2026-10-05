@@ -1,0 +1,46 @@
+{
+  "kind": "preauthorization_preparation_freeze_not_unseen_or_actual_model_eval",
+  "recorded_at_utc": "2026-10-04T23:37:12.259738+00:00",
+  "protocol_locked_before_fixtures": true,
+  "checks": {
+    "mypy": 0,
+    "ruff": 0,
+    "security": 0,
+    "pytest": 0,
+    "fixture-smoke": 0
+  },
+  "files": {
+    "chronos_audit_core.py": "98b41483d8ca0f3e5ac04a7da4a4fe675986e091f809e66eabd15e1c0e6fed72",
+    "chronos_resource_guard.py": "68db515963f51f2a07d2992d51de436b6e374b8277d857041a61a7ec3caea9aa",
+    "chronos_fixture_cli.py": "f452455500a69a8344181f4d4580aa2f98893a42badc951918f1ca2bf193d0d4",
+    "test_chronos_preparation.py": "6133b2fa2ad53ebcf427b3a27ebeadddd9dfd7a2c518873c33a82489408b0193",
+    "protocol.json": "cd1abcfa04b3d3183cfbd4cb0a365f62aca3d90503b85d09136a4ae21d712261",
+    "protocol-lock.json": "8345db416da55d56fb043483a639dc48d8ad3368ae86e0d28c30e3db15e8b331",
+    "PROTOCOL.md": "124637cf3634ab97fb2084daea2aa87cd991ca3ef138e2b7afe767c49f4e5d74",
+    "real-data-plan.json": "a5aa5c8a5ef132d1244582733926a6edbc519168fd809a38faa1ef13c289d7ea"
+  },
+  "new_model_packages_in_application_environment": {
+    "torch": null,
+    "chronos-forecasting": null,
+    "transformers": null,
+    "accelerate": null,
+    "einops": null
+  },
+  "actual_chronos_executed": false,
+  "real_observations_fitted_or_scored": false,
+  "existing_ridge_fitted_on_synthetic_fixtures_only": true,
+  "new_downloads": 0,
+  "application_worktree_clean": true,
+  "application_head": "10981d934329e9d3ed68febbacbb9657f1a63c63",
+  "authorization": "pending; not inferred from time or fixture success",
+  "fixture_report": "reports/fixture-smoke/fixture-report.json",
+  "fixture_runtime": "reports/fixture-smoke/run-status.json",
+  "initial_type_errors": "5 annotation/heterogeneous interval-output findings fixed before any actual evaluation",
+  "package_versions": {
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "pandas": "2.3.3",
+    "pytest": "9.1.1",
+    "mypy": "1.20.2"
+  }
+}

@@ -1,0 +1,1 @@
+{"elapsed_seconds": 9.562000000005355, "event": "error", "error_type": "OSError", "detail": "[WinError 1114] 动态链接库(DLL)初始化例程失败。 Error loading \"D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Lib\\site-packages\\torch\\lib\\c10.dll\" or one of its dependencies."}

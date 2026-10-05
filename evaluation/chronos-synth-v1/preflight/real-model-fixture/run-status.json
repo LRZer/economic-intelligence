@@ -1,0 +1,49 @@
+{
+  "status": "incomplete",
+  "recorded_at_utc": "2026-10-05T15:01:14.074105+00:00",
+  "stop_reason": "loading: RuntimeError: Backend error: OSError",
+  "elapsed_seconds": 12.562000000005355,
+  "budget": {
+    "cpu_threads": 4,
+    "interop_threads": 1,
+    "blas_threads": 1,
+    "batch_size": 1,
+    "max_wall_seconds": 1800.0,
+    "max_load_seconds": 120.0,
+    "max_origin_seconds": 45.0,
+    "start_available_bytes": 4294967296,
+    "min_available_bytes": 1610612736,
+    "max_working_set_bytes": 2684354560,
+    "max_private_bytes": 3221225472,
+    "poll_seconds": 0.25
+  },
+  "initial_resources": {
+    "total_physical_bytes": 16978403328,
+    "available_bytes": 4501053440,
+    "working_set_bytes": 167157760,
+    "peak_working_set_bytes": 167157760,
+    "private_bytes": 134311936
+  },
+  "initial_disk": {
+    "free_bytes": 38631391232,
+    "logical_research_bytes": 1593222468
+  },
+  "final_disk": {
+    "free_bytes": 38631387136,
+    "logical_research_bytes": 1593223005
+  },
+  "resource_probe_scope": "entire isolated D research root; aggregate host and owned model worker memory",
+  "sampled_peak_combined_working_set_bytes": 253308928,
+  "sampled_peak_combined_private_bytes": 173473792,
+  "minimum_available_bytes": 4415193088,
+  "worker_exit_code": 1,
+  "completed_origins": 0,
+  "actual_model_predictions": 0,
+  "last_origin": null,
+  "model_ready": null,
+  "prediction_seconds": [],
+  "paid_api_called": false,
+  "data_uploaded": false,
+  "production_default_changed": false,
+  "protocol_changed": false
+}

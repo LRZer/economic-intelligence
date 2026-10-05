@@ -26,7 +26,7 @@ jobs:
       - run: python -m pip install -r requirements.lock.txt
       - run: python -m pip install --no-deps --no-build-isolation -e .
       - run: python -m pip check
-      - run: python -m ruff check src scripts tests app.py
+      - run: python -m ruff check src scripts tests research/chronos app.py
       - run: python -m mypy
       - run: python -m pytest -q --junitxml=reports/ci-tests.xml
       - run: node --test tests/china/test_chart_model.js
@@ -36,4 +36,7 @@ jobs:
       - run: python scripts/check_assistant_freeze.py
       - run: python scripts/verify_assistant_report.py assets/demo/assistant-cpi/cpi-difference.json
       - run: python scripts/verify_trade_graph.py assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.json
+      - run: python scripts/check_chronos_evidence.py
+      - run: python scripts/verify_chronos_report.py assets/demo/chronos-synth-v1/chronos-synth-audit.json
+      - run: python -m pip_audit --disable-pip --no-deps -r research/chronos/requirements-audit.txt
       - run: python -m build --no-isolation

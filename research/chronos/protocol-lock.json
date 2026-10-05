@@ -1,0 +1,8 @@
+{
+  "protocol_file_sha256": "cd1abcfa04b3d3183cfbd4cb0a365f62aca3d90503b85d09136a4ae21d712261",
+  "protocol_id": "d45987af7f5ba8815ad28abf477b6a0a719bfbe8468fb7afa988646a1167fc55",
+  "plan_id": "eafb4e489e4d83b1fc1300d866f5af8d3d2abaf84acce8b850a972c21acc7028",
+  "recorded_before_fixture_tests": true,
+  "before_actual_model_execution": true,
+  "not_sealed_unseen_eval": true
+}

@@ -1,0 +1,16 @@
+{
+  "recorded_at_utc": "2026-10-05T15:16:31.203537+00:00",
+  "before_actual_audit": true,
+  "scientific_changes": false,
+  "monitoring_changes": "Disk scanning in independent owned monitor thread; memory poll remains 0.25 s. Origin budget includes baseline calculation. Supervisor and backend times use separate fields.",
+  "prior_operational_errata_retained": [
+    "execution-source-freeze-runtime-erratum.json",
+    "execution-source-freeze-monitor-erratum.json"
+  ],
+  "files": {
+    "scripts/chronos_cpu_backend.py": "e2339dc4835f59291ec7ba110cccf086f562421e5bd8051a3a33b08919c4dfc0",
+    "scripts/chronos_runtime_resources.py": "65f39f3151a13fc8eca7a08787b6b18776030772180217f4c8654bb702610055",
+    "scripts/run_chronos_frozen_audit.py": "d5072f14fcf0fd7c14ed8d51488113ba4a2cefc3303af38b9c88ccbcebdbaf1e"
+  },
+  "economic_predictions_so_far": 0
+}

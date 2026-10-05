@@ -1,0 +1,3 @@
+{"elapsed": 5.219000000011874, "phase": "loading", "combined_host_backend": {"working_set_bytes": 383578112, "peak_working_set_bytes": 384053248, "private_bytes": 329957376, "available_bytes": 4204650496}}
+{"elapsed": 10.219000000011874, "phase": "loading", "combined_host_backend": {"working_set_bytes": 435806208, "peak_working_set_bytes": 435810304, "private_bytes": 379469824, "available_bytes": 4123959296}}
+{"elapsed": 15.219000000011874, "phase": "loading", "combined_host_backend": {"working_set_bytes": 890744832, "peak_working_set_bytes": 890744832, "private_bytes": 867033088, "available_bytes": 3717677056}}

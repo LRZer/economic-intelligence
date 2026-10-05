@@ -1,0 +1,7 @@
+{
+  "attempt1": "Driver checked inner_text of input instead of actual input.value; no product selection defect.",
+  "attempt2": "390px offline HTML overflow caused by unbroken model revision text; CSS wrapping repaired.",
+  "original_outputs_retained": true,
+  "model_rerun": false,
+  "scientific_report_changed": false
+}

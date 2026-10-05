@@ -1,0 +1,127 @@
+{
+  "version": "chronos-synth-retrospective-protocol-v1",
+  "status": "preauthorization_locked_plan_not_real_model_results",
+  "created_at_utc": "2026-10-04T23:31:24.915677+00:00",
+  "model": {
+    "id": "autogluon/chronos-2-synth",
+    "revision": "3607918a9fd027d5c465d8213e46b98e2c041cea",
+    "weights_sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+    "provider_training_claim": "synthetic-only; independently unaudited",
+    "code_candidate": "chronos-forecasting==2.3.2",
+    "device": "cpu",
+    "dtype": "float32",
+    "fine_tuning": false,
+    "external_covariates": false,
+    "cross_indicator_grouping": false,
+    "prediction_length": 1,
+    "point": "p50",
+    "quantiles": [
+      0.1,
+      0.5,
+      0.9
+    ],
+    "context": "all available fixed-snapshot prefix; 36..59 monthly observations",
+    "trust_remote_code": false,
+    "weights_downloaded": false,
+    "executed": false
+  },
+  "source": {
+    "file": "src/china_macro/demo_data.json",
+    "sha256": "90e4e0d4237d2c414578c29786c9585bddbc27192cdd7c65c937f563326bb6c2",
+    "captured_at": "2026-10-03T19:08:02+00:00",
+    "repository_commit": "10981d934329e9d3ed68febbacbb9657f1a63c63",
+    "indicator_keys": [
+      "cpi_yoy",
+      "ppi_yoy",
+      "cpi_mom",
+      "ppi_mom",
+      "manufacturing_pmi",
+      "manufacturing_new_orders_pmi",
+      "nonmanufacturing_pmi"
+    ],
+    "all_seven_rows": 423,
+    "eligible_rows": 420,
+    "excluded_rows": "Three 2026-09 PMI rows only; snapshot retained unchanged."
+  },
+  "common_end": "2026-08",
+  "splits": {
+    "development": [
+      "2024-09",
+      "2025-08"
+    ],
+    "audit": [
+      "2025-09",
+      "2026-08"
+    ]
+  },
+  "issue_boundary": "target statistical month day 20; all context publication dates strictly earlier; target publication strictly later",
+  "real_time_vintage_verified": false,
+  "already_seen_historical_labels": true,
+  "baselines": [
+    "persistence",
+    "seasonal",
+    "drift",
+    "ridge"
+  ],
+  "ridge": "Existing frozen StandardScaler+Ridge(alpha=10), lags1/2/3/12 and month sin/cos; past labeled samples only; min24/max120; no tuning.",
+  "audit_reference_selection": "Minimum development MAE among four; ties use declared baseline order; distinct from unchanged production reference.",
+  "metrics": {
+    "point": [
+      "MAE",
+      "RMSE",
+      "seasonal_MASE"
+    ],
+    "mase_denominator": "Mean absolute 12-month difference inside each origin prefix; <=1e-12 undefined, no epsilon replacement or dropping.",
+    "macro": "Equal mean of seven per-indicator MASE; do not pool raw percent/index-point MAE across indicators.",
+    "uncertainty": "Paired circular 3-month blocks, 2000 resamples, seed42; descriptive 95% only, not significance or unseen-population inference.",
+    "quantiles": "Uncalibrated p10/p50/p90; 80% coverage, mean width, pinball at0.1/0.5/0.9; no posthoc calibration.",
+    "slices": {
+      "2025_sep_dec": [
+        "2025-09",
+        "2025-12"
+      ],
+      "2026_jan_aug": [
+        "2026-01",
+        "2026-08"
+      ]
+    }
+  },
+  "descriptive_screen": {
+    "required": "All84 complete ordered finite quantiles, defined MASE; challenger macro MASE below each of4 baselines; macro paired95 upper<0 vs development reference; >=5/7 per-indicator MASE wins with1e-8 tolerance.",
+    "production_default_change_allowed": false,
+    "prospective_validation_required_even_if_passed": true
+  },
+  "resource_budget": {
+    "cpu_threads": 4,
+    "interop_threads": 1,
+    "blas_threads": 1,
+    "batch_size": 1,
+    "max_wall_seconds": 1800.0,
+    "max_load_seconds": 120.0,
+    "max_origin_seconds": 45.0,
+    "start_available_bytes": 4294967296,
+    "min_available_bytes": 1610612736,
+    "max_working_set_bytes": 2684354560,
+    "max_private_bytes": 3221225472,
+    "poll_seconds": 0.25
+  },
+  "disk_budget": {
+    "research_root": "Separate D research environment; never modify application .venv or lock",
+    "max_total_research_bytes": 5368709120,
+    "min_D_free_start_bytes": 8589934592,
+    "min_D_free_during_bytes": 3221225472,
+    "cache_and_temp": "D only, including pip and HF caches; no new C artifacts"
+  },
+  "stops": [
+    "No execution authorization: stop before download/install/actual backend.",
+    "Unresolved full dependency hashes/licenses/security or unsupported CPU adapter: stop before real scoring.",
+    "Data SHA/schema/gap/publication/lag mismatch: stop, no imputation or substituted date range.",
+    "Resource probe error or budget threshold exceeded: terminate only owned experiment worker and preserve partial log.",
+    "Missing/invalid/crossed quantiles, OOM, timeout, worker crash or any failed origin: incomplete result, no selective metric dropping or automatic rerun.",
+    "No observed advantage: retain full negative results/model identity and keep production default unchanged."
+  ],
+  "no_paid_api": true,
+  "no_secret_reads": true,
+  "new_software_or_model_downloads": false,
+  "authorization": "Awaiting user approval. Passage of time or fixture success never implies approval."
+}

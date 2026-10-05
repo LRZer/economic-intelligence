@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-10-05T15:24:40.733622+00:00",
+  "before_actual_audit": true,
+  "kind": "Windows_venv_actual_process_binding_correction",
+  "finding": "Windows venv python.exe is a small launcher that creates the actual base interpreter child; Popen.pid sampled only launcher memory",
+  "prior_resource_evidence_not_accepted": [
+    "reports/real-model-fixture-runtime-repair/run-status.json",
+    "reports/real-model-fixture-monitor-repair/run-status.json"
+  ],
+  "fix": "Backend reports actual PID before Torch import; native Windows parent verification binds it to our launcher; retain handle to prevent PID reuse, sample actual worker, terminate only its handle and owned launcher",
+  "scientific_protocol_or_models_or_data_or_scoring_changed": false,
+  "economic_predictions_so_far": 0,
+  "previous_synthetic_outputs_retained": true,
+  "files": {
+    "scripts/chronos_cpu_backend.py": "09a317beaa3f34933a4bd02ac4f145f62f52857e9905ead5338eda960e33a579",
+    "scripts/chronos_owned_process.py": "3e8a38c32d188149df56be8be18b0ef9f62802077be86b514ccb8afd911c5833",
+    "scripts/chronos_runtime_resources.py": "65f39f3151a13fc8eca7a08787b6b18776030772180217f4c8654bb702610055",
+    "scripts/run_chronos_frozen_audit.py": "7181aeb0d565f2fc1354ebe2d5ec85d3f78ddffa1865c88a0aaf4147d6285a77"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-10-05T15:14:45.810657+00:00",
+  "kind": "resource_monitor_correctness_repair_before_actual_economic_predictions",
+  "prior_successful_synthetic_fixture": "reports/real-model-fixture-runtime-repair/run-status.json",
+  "prior_fixture_limit": "Full disk scan blocked subsequent memory polling; recorded peaks did not cover completed model load, so prior fixture is not accepted as capacity evidence",
+  "correction": "Same entire-tree logical-byte accounting using cached scandir stat; reject all links/reparse points; keep existing budget and memory thresholds; log sampling count and maximum gap",
+  "comparison": {
+    "identical_logical_bytes": 1593236354,
+    "original_scan_seconds": 39.42200000002049,
+    "fast_scan_seconds": 0.9849999999860302
+  },
+  "scientific_protocol_or_model_or_evaluator_changed": false,
+  "economic_model_predictions_so_far": 0,
+  "before_first_actual_audit": true,
+  "shared_environments_changed": false,
+  "current_files": {
+    "scripts/chronos_cpu_backend.py": "e2339dc4835f59291ec7ba110cccf086f562421e5bd8051a3a33b08919c4dfc0",
+    "scripts/chronos_runtime_resources.py": "65f39f3151a13fc8eca7a08787b6b18776030772180217f4c8654bb702610055",
+    "scripts/run_chronos_frozen_audit.py": "b0f30d66ec98914fdb4fdd7ee89a3c676a59e1ae662726dff1a268b58627b7bd"
+  },
+  "next_fixture": "Explicit synthetic model check in separate monitor-repair directory; neither economic labels nor audit metrics used for this repair"
+}

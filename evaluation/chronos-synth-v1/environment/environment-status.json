@@ -1,0 +1,16 @@
+{
+  "status": "environment_installed_verified",
+  "recorded_at_utc": "2026-10-05T14:40:54.841678+00:00",
+  "package_count": 44,
+  "known_vulnerable_packages": 0,
+  "all_wheel_hashes_verified": true,
+  "requirements_sha256": "efbe299f880593507852de664f9acbe19599ac68854fcdfb121475a367911f0a",
+  "python": "D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Scripts\\python.exe",
+  "disk": {
+    "free_bytes": 39107616768,
+    "logical_research_bytes": 1117249267
+  },
+  "shared_Conda_modified": false,
+  "application_environment_modified": false,
+  "actual_model_loaded": false
+}

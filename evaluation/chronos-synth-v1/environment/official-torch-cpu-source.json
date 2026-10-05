@@ -1,0 +1,8 @@
+{
+  "index": "https://download.pytorch.org/whl/cpu/torch/",
+  "wheel_url": "https://download-r2.pytorch.org/whl/cpu/torch-2.14.1%2Bcpu-cp311-cp311-win_amd64.whl#sha256=d14b0c8a66345b7ba43adfa86fc20d89087a0a92e440004755d49d2468ddc6e0",
+  "sha256": "d14b0c8a66345b7ba43adfa86fc20d89087a0a92e440004755d49d2468ddc6e0",
+  "filename": "torch-2.14.1+cpu-cp311-cp311-win_amd64.whl",
+  "version": "2.14.1+cpu",
+  "only_official_cpu_source": true
+}

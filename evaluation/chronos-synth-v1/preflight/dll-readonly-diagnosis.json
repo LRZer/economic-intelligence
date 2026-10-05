@@ -1,0 +1,76 @@
+{
+  "recorded_at_utc": "2026-10-05T15:05:54.241874+00:00",
+  "shared_files_changed": false,
+  "new_software_downloaded": false,
+  "records": [
+    {
+      "configuration": "unchanged_import_only",
+      "before_relevant_loaded_modules": [
+        "F:\\Anaconda\\python311.dll",
+        "F:\\Anaconda\\VCRUNTIME140.dll",
+        "C:\\WINDOWS\\System32\\msvcp_win.dll"
+      ],
+      "system_preloads": [],
+      "after_relevant_loaded_modules": [
+        "F:\\Anaconda\\python311.dll",
+        "F:\\Anaconda\\VCRUNTIME140.dll",
+        "C:\\WINDOWS\\System32\\msvcp_win.dll",
+        "F:\\Anaconda\\msvcp140.dll",
+        "F:\\Anaconda\\VCRUNTIME140_1.dll"
+      ],
+      "status": "failed",
+      "error_type": "OSError",
+      "detail": "[WinError 1114] 动态链接库(DLL)初始化例程失败。 Error loading \"D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Lib\\site-packages\\torch\\lib\\c10.dll\" or one of its dependencies.",
+      "actual_model_loaded": false
+    },
+    {
+      "configuration": "system_runtime_preload",
+      "before_relevant_loaded_modules": [
+        "F:\\Anaconda\\python311.dll",
+        "F:\\Anaconda\\VCRUNTIME140.dll",
+        "C:\\WINDOWS\\System32\\msvcp_win.dll"
+      ],
+      "system_preloads": [
+        {
+          "file": "C:\\WINDOWS\\System32\\vcruntime140.dll",
+          "status": "loaded"
+        },
+        {
+          "file": "C:\\WINDOWS\\System32\\vcruntime140_1.dll",
+          "status": "loaded"
+        },
+        {
+          "file": "C:\\WINDOWS\\System32\\msvcp140.dll",
+          "status": "loaded"
+        },
+        {
+          "file": "C:\\WINDOWS\\System32\\msvcp140_atomic_wait.dll",
+          "status": "loaded"
+        },
+        {
+          "file": "C:\\WINDOWS\\System32\\concrt140.dll",
+          "status": "loaded"
+        }
+      ],
+      "after_relevant_loaded_modules": [
+        "F:\\Anaconda\\python311.dll",
+        "F:\\Anaconda\\VCRUNTIME140.dll",
+        "C:\\WINDOWS\\System32\\msvcp_win.dll",
+        "C:\\WINDOWS\\System32\\vcruntime140.dll",
+        "C:\\WINDOWS\\System32\\vcruntime140_1.dll",
+        "C:\\WINDOWS\\System32\\msvcp140.dll",
+        "C:\\WINDOWS\\System32\\msvcp140_atomic_wait.dll",
+        "C:\\WINDOWS\\System32\\concrt140.dll",
+        "D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Lib\\site-packages\\torch\\lib\\c10.dll",
+        "D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll",
+        "D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Lib\\site-packages\\torch\\lib\\libiompstubs5md.dll",
+        "C:\\WINDOWS\\SYSTEM32\\VCRUNTIME140_THREADS.dll",
+        "D:\\Documents\\ChatGPT\\guanlan-economic-intelligence-artifacts\\chronos-synth-research-v1\\.venv\\Lib\\site-packages\\numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll"
+      ],
+      "status": "passed",
+      "torch_version": "2.14.1+cpu",
+      "known_sum": 3680.0,
+      "actual_model_loaded": false
+    }
+  ]
+}

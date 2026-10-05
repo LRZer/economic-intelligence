@@ -37,3 +37,8 @@ scripts/verify_trade_graph.py -text
 scripts/evaluate_trade_graph.py -text
 docs/TRADE_GRAPH_PROTOCOL.md -text
 docs/validation/trade-graph-protocol-initial.md -text
+
+# Retain frozen scientific and unique audit bytes across platforms.
+research/chronos/** -text
+evaluation/chronos-synth-v1/** -text
+src/guanlan/resources/chronos-synth-v1/*.json -text

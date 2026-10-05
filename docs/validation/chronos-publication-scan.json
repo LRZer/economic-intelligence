@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "recorded_at_utc": "2026-10-05T16:12:17.753327+00:00",
+  "target_repository": "LRZer/economic-intelligence",
+  "visibility_confirmed_by_connector": "private",
+  "base_commit": "10981d934329e9d3ed68febbacbb9657f1a63c63",
+  "staged_files": 100,
+  "staged_bytes": 1918977,
+  "licensed_data_files_reverified": 802,
+  "data_and_frozen_application_sources_unchanged": true,
+  "credential_shape_findings": [],
+  "local_task_path_metadata_files": [
+    "research/chronos/PROTOCOL.md"
+  ],
+  "path_metadata_limit": "Task-owned scientific error logs may retain working-directory paths to preserve exact original evidence. Existing repository is private. No unrelated personal files read or uploaded.",
+  "limits": "Heuristic credential/signed-URL shape scan cannot prove absence of every secret; no matched values emitted."
+}

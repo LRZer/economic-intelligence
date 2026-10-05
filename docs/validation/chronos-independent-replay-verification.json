@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "report_id": "455996a5bb7290873a66592398e2e7b469a4f396e6527d0fb3edd0475f02bb1a",
+  "paired_audit_origins": 84,
+  "baseline_refit_origins": 168,
+  "new_model_predictions": 0,
+  "mode": "saved_quantile_replay_with_independent_baseline_and_metric_recomputation",
+  "limit": "Checks completeness and consistency; does not independently prove weights were executed.",
+  "production_default_changed": false
+}

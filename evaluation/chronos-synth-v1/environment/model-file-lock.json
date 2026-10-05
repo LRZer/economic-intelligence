@@ -1,0 +1,45 @@
+{
+  "status": "verified_fixed_files",
+  "recorded_at_utc": "2026-10-05T14:58:29.050637+00:00",
+  "model_id": "autogluon/chronos-2-synth",
+  "revision": "3607918a9fd027d5c465d8213e46b98e2c041cea",
+  "license": "Apache-2.0",
+  "files": [
+    {
+      "name": "config.json",
+      "bytes": 971,
+      "sha256": "01fd2b164b1ea49588624d369c37fcd67acfc12735c1082d79f5ec14a4d7cf37",
+      "git_blob_verified": true,
+      "official_revision_url": "https://huggingface.co/autogluon/chronos-2-synth/resolve/3607918a9fd027d5c465d8213e46b98e2c041cea/config.json"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1265,
+      "sha256": "3b86d1695d4f98bc2b149f7afbe14c93df991284fd0bcb9bd40253f951866a48",
+      "git_blob_verified": true,
+      "official_revision_url": "https://huggingface.co/autogluon/chronos-2-synth/resolve/3607918a9fd027d5c465d8213e46b98e2c041cea/README.md"
+    },
+    {
+      "name": "model.safetensors",
+      "bytes": 475963368,
+      "sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+      "git_blob_verified": null,
+      "official_revision_url": "https://huggingface.co/autogluon/chronos-2-synth/resolve/3607918a9fd027d5c465d8213e46b98e2c041cea/model.safetensors"
+    }
+  ],
+  "parameter_metadata": {
+    "parameters": {
+      "F32": 118985888
+    },
+    "total": 118985888
+  },
+  "trust_remote_code": false,
+  "pickle_files_downloaded": false,
+  "credentials_used": false,
+  "paid_api_called": false,
+  "economic_data_uploaded": false,
+  "disk": {
+    "free_bytes": 38631395328,
+    "logical_research_bytes": 1593220850
+  }
+}

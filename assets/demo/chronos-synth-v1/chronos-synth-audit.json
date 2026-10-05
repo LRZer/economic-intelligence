@@ -1,0 +1,4878 @@
+{
+  "version": "chronos-synth-review-v1",
+  "report": {
+    "version": "chronos-synth-retrospective-preparation-v1",
+    "status": "retrospective_complete",
+    "not_economic_evidence": false,
+    "plan_id": "eafb4e489e4d83b1fc1300d866f5af8d3d2abaf84acce8b850a972c21acc7028",
+    "protocol_id": "d45987af7f5ba8815ad28abf477b6a0a719bfbe8468fb7afa988646a1167fc55",
+    "backend_identity": "autogluon/chronos-2-synth@3607918a9fd027d5c465d8213e46b98e2c041cea",
+    "model_predictions": 84,
+    "development_challenger_predictions": 0,
+    "development_metrics": {
+      "cpi_yoy": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.2833333333333333,
+          "rmse": 0.43204937989385733,
+          "mase": 0.23197095766531942,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.6083333333333333,
+          "rmse": 0.7262919523166975,
+          "mase": 0.49915660055554184,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.28638792823870396,
+          "rmse": 0.4348712764899312,
+          "mase": 0.23450250539937323,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.3044672194386191,
+          "rmse": 0.4089518544799868,
+          "mase": 0.24594164934082488,
+          "mase_undefined_n": 0
+        }
+      },
+      "ppi_yoy": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.32499999999999996,
+          "rmse": 0.4368447474027052,
+          "mase": 0.060307519647729506,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.9416666666666665,
+          "rmse": 1.3388427838995882,
+          "mase": 0.1890780651184916,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.3962706316365079,
+          "rmse": 0.4906630713966673,
+          "mase": 0.07318934989515363,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.3378673843533961,
+          "rmse": 0.46441501392851336,
+          "mase": 0.06173509725976936,
+          "mase_undefined_n": 0
+        }
+      },
+      "cpi_mom": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.43333333333333335,
+          "rmse": 0.48304589153964794,
+          "mase": 1.2035369235057314,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.2916666666666667,
+          "rmse": 0.4330127018922193,
+          "mase": 0.8154654593721191,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.43825371734041124,
+          "rmse": 0.48945157795838734,
+          "mase": 1.217237749777661,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.25763594402577455,
+          "rmse": 0.3167077259398059,
+          "mase": 0.7155791846954807,
+          "mase_undefined_n": 0
+        }
+      },
+      "ppi_mom": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.15833333333333335,
+          "rmse": 0.21015867021530818,
+          "mase": 0.24977070162894513,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.3166666666666667,
+          "rmse": 0.43204937989385733,
+          "mase": 0.5126810924053725,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.17984094546183335,
+          "rmse": 0.22698141012682707,
+          "mase": 0.2848273443778964,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.1146155723614683,
+          "rmse": 0.13740803240482438,
+          "mase": 0.18476253478607055,
+          "mase_undefined_n": 0
+        }
+      },
+      "manufacturing_pmi": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.5416666666666666,
+          "rmse": 0.687386354243376,
+          "mase": 0.5107229335002801,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.5416666666666673,
+          "rmse": 0.7041543391425872,
+          "mase": 0.5085665507128809,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.5475602343961103,
+          "rmse": 0.6962529969606366,
+          "mase": 0.5163262971847712,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.5327647177882948,
+          "rmse": 0.629100523142488,
+          "mase": 0.4997677093044532,
+          "mase_undefined_n": 0
+        }
+      },
+      "manufacturing_new_orders_pmi": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.9166666666666661,
+          "rmse": 1.1888369666751322,
+          "mase": 0.4517963469079016,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.9833333333333337,
+          "rmse": 1.2335585379975555,
+          "mase": 0.4840936438440339,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.917239037309154,
+          "rmse": 1.203586761893889,
+          "mase": 0.452157620676098,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 1.0261695194437568,
+          "rmse": 1.1780319078334889,
+          "mase": 0.5034067959067622,
+          "mase_undefined_n": 0
+        }
+      },
+      "nonmanufacturing_pmi": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.5666666666666664,
+          "rmse": 0.8953584012375532,
+          "mase": 0.1411436332946255,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.7916666666666684,
+          "rmse": 1.0688779163215996,
+          "mase": 0.1954367904958005,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.5731545089663784,
+          "rmse": 0.9097599176668334,
+          "mase": 0.1429742150266526,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 1.1396058390110522,
+          "rmse": 1.3716474267227878,
+          "mase": 0.2965249173986799,
+          "mase_undefined_n": 0
+        }
+      }
+    },
+    "audit_references": {
+      "cpi_yoy": "persistence",
+      "ppi_yoy": "persistence",
+      "cpi_mom": "ridge",
+      "ppi_mom": "ridge",
+      "manufacturing_pmi": "ridge",
+      "manufacturing_new_orders_pmi": "persistence",
+      "nonmanufacturing_pmi": "persistence"
+    },
+    "audit_metrics": {
+      "cpi_yoy": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.3666666666666667,
+          "rmse": 0.4654746681256314,
+          "mase": 0.34822197466419463,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.8833333333333333,
+          "rmse": 1.0173494974687902,
+          "mase": 0.8393263192360728,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.37487616272099644,
+          "rmse": 0.47225011254744675,
+          "mase": 0.3558689239682007,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.3624672809154454,
+          "rmse": 0.4219449060714338,
+          "mase": 0.3429626017972966,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 0.3299930264552434,
+          "rmse": 0.4325222047698003,
+          "mase": 0.31237694787786535,
+          "mase_undefined_n": 0
+        }
+      },
+      "ppi_yoy": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.6749999999999999,
+          "rmse": 0.9105858919765156,
+          "mase": 0.16356918054582886,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 3.4499999999999997,
+          "rmse": 4.558142896692321,
+          "mase": 0.8340499895979919,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.8450284051925857,
+          "rmse": 1.0537450004939297,
+          "mase": 0.2036613807885557,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 1.0536498753263237,
+          "rmse": 1.4577239233708479,
+          "mase": 0.25708479073300816,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 0.4166273395220439,
+          "rmse": 0.5209249319311706,
+          "mase": 0.10073272893390506,
+          "mase_undefined_n": 0
+        }
+      },
+      "cpi_mom": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.4666666666666666,
+          "rmse": 0.6595452979136459,
+          "mase": 1.2878365510454826,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.39166666666666666,
+          "rmse": 0.4856267428111155,
+          "mase": 1.108245428622418,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.470546727382241,
+          "rmse": 0.6655371834555651,
+          "mase": 1.29842551479706,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.3043286970282661,
+          "rmse": 0.4126651851758122,
+          "mase": 0.8529040568603787,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 0.22769440164168675,
+          "rmse": 0.2990977397391573,
+          "mase": 0.6390993813450067,
+          "mase_undefined_n": 0
+        }
+      },
+      "ppi_mom": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.43333333333333335,
+          "rmse": 0.6027713773341709,
+          "mase": 0.7598298877062328,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.6333333333333334,
+          "rmse": 0.85146931829632,
+          "mase": 1.1467950348633946,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.4459837613867124,
+          "rmse": 0.6095427339512102,
+          "mase": 0.7830822080684964,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.5381395088174733,
+          "rmse": 0.6660032977693241,
+          "mase": 0.9731101869759883,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 0.4864502261392772,
+          "rmse": 0.5983983694787953,
+          "mase": 0.8663859601218168,
+          "mase_undefined_n": 0
+        }
+      },
+      "manufacturing_pmi": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.5999999999999984,
+          "rmse": 0.7129749878735796,
+          "mase": 0.6686337390495982,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.5499999999999984,
+          "rmse": 0.7291547618075774,
+          "mase": 0.615422280495684,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.6069665677640756,
+          "rmse": 0.7197242861050664,
+          "mase": 0.6763975214630126,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 0.503849404252529,
+          "rmse": 0.570762260765912,
+          "mase": 0.5637100705767624,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 0.5605818430582671,
+          "rmse": 0.6046361170319211,
+          "mase": 0.6283684809205423,
+          "mase_undefined_n": 0
+        }
+      },
+      "manufacturing_new_orders_pmi": {
+        "persistence": {
+          "n": 12,
+          "mae": 1.341666666666668,
+          "rmse": 1.5908593065803571,
+          "mase": 0.8069156230062426,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.8666666666666659,
+          "rmse": 1.1313708498984754,
+          "mase": 0.5181087148169996,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 1.3549682865054968,
+          "rmse": 1.6047402227353886,
+          "mase": 0.8149322839240462,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 1.0584832433402713,
+          "rmse": 1.1972728984430105,
+          "mase": 0.6372508760249337,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 1.0612673441569012,
+          "rmse": 1.2360673149895234,
+          "mase": 0.6394254057076224,
+          "mase_undefined_n": 0
+        }
+      },
+      "nonmanufacturing_pmi": {
+        "persistence": {
+          "n": 12,
+          "mae": 0.4916666666666683,
+          "rmse": 0.6048415770541371,
+          "mase": 0.16688415537113743,
+          "mase_undefined_n": 0
+        },
+        "seasonal": {
+          "n": 12,
+          "mae": 0.7416666666666659,
+          "rmse": 0.923309265630969,
+          "mase": 0.25410323547044505,
+          "mase_undefined_n": 0
+        },
+        "drift": {
+          "n": 12,
+          "mae": 0.5072155671667721,
+          "rmse": 0.6020748245315604,
+          "mase": 0.17243891751664944,
+          "mase_undefined_n": 0
+        },
+        "ridge": {
+          "n": 12,
+          "mae": 1.0739848941235184,
+          "rmse": 1.305493293712594,
+          "mase": 0.3698211406035327,
+          "mase_undefined_n": 0
+        },
+        "challenger": {
+          "n": 12,
+          "mae": 0.47292512257893965,
+          "rmse": 0.5189667444007197,
+          "mase": 0.16206347285883113,
+          "mase_undefined_n": 0
+        }
+      }
+    },
+    "macro_equal_indicator_mase": {
+      "persistence": 0.6002701587698167,
+      "seasonal": 0.7594358575861436,
+      "drift": 0.6149723929322887,
+      "ridge": 0.5709776747959857,
+      "challenger": 0.47835033968079854
+    },
+    "paired_block_descriptive_95": {
+      "indicator_vs_baselines": {
+        "cpi_yoy": {
+          "persistence": [
+            -0.13992340297481584,
+            0.06572303934798217
+          ],
+          "seasonal": [
+            -0.914123931190876,
+            -0.11518824835373416
+          ],
+          "drift": [
+            -0.1455737883200525,
+            0.05708365228231898
+          ],
+          "ridge": [
+            -0.15154508948533654,
+            0.06170953362637155
+          ]
+        },
+        "ppi_yoy": {
+          "persistence": [
+            -0.14087669520888949,
+            -0.0026827136857321653
+          ],
+          "seasonal": [
+            -1.3280319167730088,
+            -0.18624425069036243
+          ],
+          "drift": [
+            -0.1855743329391977,
+            -0.030572421302675123
+          ],
+          "ridge": [
+            -0.33345487584621475,
+            -0.021144678254163937
+          ]
+        },
+        "cpi_mom": {
+          "persistence": [
+            -1.5157969260700497,
+            -0.03524037007625688
+          ],
+          "seasonal": [
+            -0.8210514117455895,
+            -0.13019530085118314
+          ],
+          "drift": [
+            -1.5345906354706387,
+            -0.03973834656058466
+          ],
+          "ridge": [
+            -0.5259235867607369,
+            0.09369221273778676
+          ]
+        },
+        "ppi_mom": {
+          "persistence": [
+            -0.1680894410658119,
+            0.32646928003495085
+          ],
+          "seasonal": [
+            -0.7771510578520204,
+            0.13359781307492444
+          ],
+          "drift": [
+            -0.18066849039829316,
+            0.293461487626084
+          ],
+          "ridge": [
+            -0.417808101523154,
+            0.16668785200684386
+          ]
+        },
+        "manufacturing_pmi": {
+          "persistence": [
+            -0.1421982232352993,
+            0.11330952382035253
+          ],
+          "seasonal": [
+            -0.2413864563386231,
+            0.2550053653225981
+          ],
+          "drift": [
+            -0.14961380094311474,
+            0.10566702387344348
+          ],
+          "ridge": [
+            -0.030164384124965467,
+            0.20831221616125653
+          ]
+        },
+        "manufacturing_new_orders_pmi": {
+          "persistence": [
+            -0.26966582482458396,
+            -0.06489470178972973
+          ],
+          "seasonal": [
+            -0.10831329823605806,
+            0.3183172471021751
+          ],
+          "drift": [
+            -0.2774927764628065,
+            -0.07259728040277934
+          ],
+          "ridge": [
+            -0.08490672226961153,
+            0.1223225417644704
+          ]
+        },
+        "nonmanufacturing_pmi": {
+          "persistence": [
+            -0.03542686546653525,
+            0.03101416376724875
+          ],
+          "seasonal": [
+            -0.1793129130729399,
+            -0.00822689057969687
+          ],
+          "drift": [
+            -0.041690753215280714,
+            0.023843834998433042
+          ],
+          "ridge": [
+            -0.3686089429102634,
+            -0.049215652163438206
+          ]
+        }
+      },
+      "macro_vs_development_reference": [
+        -0.1827450872065223,
+        0.011344073295617535
+      ]
+    },
+    "interval_diagnostics": {
+      "cpi_yoy": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.5833333333333334,
+        "mean_width": 0.9779810309410095,
+        "pinball_loss": {
+          "0.1": 0.06850644752383232,
+          "0.5": 0.1649965132276217,
+          "0.9": 0.1029463668167591
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      },
+      "ppi_yoy": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.8333333333333334,
+        "mean_width": 1.3103033639490604,
+        "pinball_loss": {
+          "0.1": 0.08368824213743209,
+          "0.5": 0.20831366976102195,
+          "0.9": 0.10358819884558516
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      },
+      "cpi_mom": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.6666666666666666,
+        "mean_width": 0.6638504937291145,
+        "pinball_loss": {
+          "0.1": 0.07024990362425644,
+          "0.5": 0.11384720082084338,
+          "0.9": 0.04502043209969997
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      },
+      "ppi_mom": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.3333333333333333,
+        "mean_width": 0.8790317972501119,
+        "pinball_loss": {
+          "0.1": 0.08878415645410619,
+          "0.5": 0.2432251130696386,
+          "0.9": 0.135863306534787
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      },
+      "manufacturing_pmi": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.9166666666666666,
+        "mean_width": 1.7121890385945637,
+        "pinball_loss": {
+          "0.1": 0.10003578186035174,
+          "0.5": 0.28029092152913354,
+          "0.9": 0.07632908503214524
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      },
+      "manufacturing_new_orders_pmi": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.6666666666666666,
+        "mean_width": 2.8155714670817056,
+        "pinball_loss": {
+          "0.1": 0.18575127283732107,
+          "0.5": 0.5306336720784506,
+          "0.9": 0.18259150822957348
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      },
+      "nonmanufacturing_pmi": {
+        "n": 12,
+        "nominal_coverage": 0.8,
+        "coverage": 0.9166666666666666,
+        "mean_width": 2.029124895731608,
+        "pinball_loss": {
+          "0.1": 0.07803373336791998,
+          "0.5": 0.23646256128946982,
+          "0.9": 0.12790699005126946
+        },
+        "calibration_fitted": false,
+        "limits": "Twelve revised-snapshot months; model quantiles are not guaranteed economic confidence bands."
+      }
+    },
+    "time_slices": {
+      "cpi_yoy": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.30000000000000004,
+            "rmse": 0.36055512754639896,
+            "mase": 0.27752829781968263,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.5,
+            "rmse": 0.5567764362830022,
+            "mase": 0.46418443151148125,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.31361041757128383,
+            "rmse": 0.3730965613137582,
+            "mase": 0.2899666023861055,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.4299878640855498,
+            "rmse": 0.45469885980669417,
+            "mase": 0.3996420910137988,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.38584449887275696,
+            "rmse": 0.46200079476419703,
+            "mase": 0.3587085890002348,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 0.4,
+            "rmse": 0.5099019513592785,
+            "mase": 0.38356881308645063,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 1.075,
+            "rmse": 1.182159041753689,
+            "mase": 1.0268972630983686,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 0.40550903529585275,
+            "rmse": 0.5147132514026997,
+            "mase": 0.38882008475924834,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 0.3287069893303931,
+            "rmse": 0.40457475092335254,
+            "mase": 0.3146228571890455,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 0.3020672902464867,
+            "rmse": 0.417002181345636,
+            "mase": 0.28921112731668064,
+            "mase_undefined_n": 0
+          }
+        }
+      },
+      "ppi_yoy": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.30000000000000004,
+            "rmse": 0.35355339059327384,
+            "mase": 0.06701325200500086,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.4999999999999999,
+            "rmse": 0.5338539126015655,
+            "mase": 0.11226182940584674,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.5198548813142279,
+            "rmse": 0.580948707094512,
+            "mase": 0.11641113303627158,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.21218779092637385,
+            "rmse": 0.23466198043572972,
+            "mase": 0.04754680703207047,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.1696838974952699,
+            "rmse": 0.217778339520641,
+            "mase": 0.038846520016785915,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 0.8624999999999998,
+            "rmse": 1.0868532559642077,
+            "mase": 0.21184714481624287,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 4.925,
+            "rmse": 5.569784555977008,
+            "mase": 1.1949440696940645,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 1.0076151671317646,
+            "rmse": 1.2234447633471384,
+            "mase": 0.24728650466469776,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 1.4743809175262985,
+            "rmse": 1.7776122841104967,
+            "mase": 0.361853782583477,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 0.5400990605354309,
+            "rmse": 0.6191368786294822,
+            "mase": 0.13167583339246464,
+            "mase_undefined_n": 0
+          }
+        }
+      },
+      "cpi_mom": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.2,
+            "rmse": 0.22360679774997902,
+            "mase": 0.5736759576419903,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.325,
+            "rmse": 0.37080992435478316,
+            "mase": 0.9377860510468707,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.20099957482993197,
+            "rmse": 0.22542033677557932,
+            "mase": 0.5765194655066046,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.14733005481669192,
+            "rmse": 0.17602855028246603,
+            "mase": 0.4242737051708988,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.1693151541054249,
+            "rmse": 0.17758589685310391,
+            "mase": 0.4862830883840926,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 0.6,
+            "rmse": 0.7921489758877429,
+            "mase": 1.6449168477472287,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 0.425,
+            "rmse": 0.5338539126015656,
+            "mase": 1.1934751174101916,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 0.6053203036583955,
+            "rmse": 0.799376287943883,
+            "mase": 1.6593785394422877,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 0.3828280181340532,
+            "rmse": 0.48984263526872346,
+            "mase": 1.0672192327051189,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 0.2568840254098177,
+            "rmse": 0.34412325044240816,
+            "mase": 0.7155075278254636,
+            "mase_undefined_n": 0
+          }
+        }
+      },
+      "ppi_mom": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.05,
+            "rmse": 0.07071067811865477,
+            "mase": 0.09133670804151353,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.275,
+            "rmse": 0.35,
+            "mase": 0.49798085020428684,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.07374522362136343,
+            "rmse": 0.08897307930330613,
+            "mase": 0.13440764585207898,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.23202739968960764,
+            "rmse": 0.24960193758324595,
+            "mase": 0.4234020621403733,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.20915876366198063,
+            "rmse": 0.22380842927611214,
+            "mase": 0.380981252749811,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 0.625,
+            "rmse": 0.7365459931328118,
+            "mase": 1.0940764775385925,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 0.8125,
+            "rmse": 1.0130399794677405,
+            "mase": 1.4712021271929485,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 0.6321030302693869,
+            "rmse": 0.7438786274310598,
+            "mase": 1.107419489176705,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 0.6911955633814061,
+            "rmse": 0.796360487051415,
+            "mase": 1.247964249393796,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 0.6250959573779256,
+            "rmse": 0.7155947221610854,
+            "mase": 1.1090883138078198,
+            "mase_undefined_n": 0
+          }
+        }
+      },
+      "manufacturing_pmi": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.5749999999999993,
+            "rmse": 0.642261628933255,
+            "mase": 0.6200637808128862,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.5499999999999989,
+            "rmse": 0.7778174593052007,
+            "mase": 0.5969855036031493,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.5821667209436985,
+            "rmse": 0.6480004412706245,
+            "mase": 0.6277926095581596,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.38379521009999706,
+            "rmse": 0.44047099043783655,
+            "mase": 0.413303968668117,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.394461441040038,
+            "rmse": 0.42532510383456,
+            "mase": 0.4260389472610766,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 0.612499999999998,
+            "rmse": 0.7458216945088131,
+            "mase": 0.6929187181679544,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 0.549999999999998,
+            "rmse": 0.7035623639735135,
+            "mase": 0.6246406689419514,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 0.6193664911742642,
+            "rmse": 0.7530287418622938,
+            "mase": 0.7006999774154392,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 0.563876501328795,
+            "rmse": 0.6258170585428923,
+            "mase": 0.638913121531085,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 0.6436420440673816,
+            "rmse": 0.6767026888177843,
+            "mase": 0.7295332477502752,
+            "mase_undefined_n": 0
+          }
+        }
+      },
+      "manufacturing_new_orders_pmi": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.7750000000000021,
+            "rmse": 0.9447221813845589,
+            "mase": 0.44069699993445105,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.7999999999999989,
+            "rmse": 1.0099504938362063,
+            "mase": 0.4541527362001885,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.7790705239542639,
+            "rmse": 0.9484272261373061,
+            "mase": 0.4430297144184422,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.5644443441162181,
+            "rmse": 0.682600317853928,
+            "mase": 0.31938776271809544,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.5705738067626953,
+            "rmse": 0.780091158744483,
+            "mase": 0.32486388519523957,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 1.6250000000000009,
+            "rmse": 1.8303005217723134,
+            "mase": 0.9900249345421385,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 0.8999999999999995,
+            "rmse": 1.1874342087037915,
+            "mase": 0.5500867041254052,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 1.6429171677811132,
+            "rmse": 1.8474386788356425,
+            "mase": 1.0008835686768482,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 1.305502692952298,
+            "rmse": 1.3846378562830244,
+            "mase": 0.7961824326783528,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 1.306614112854004,
+            "rmse": 1.4097951988861572,
+            "mase": 0.7967061659638138,
+            "mase_undefined_n": 0
+          }
+        }
+      },
+      "nonmanufacturing_pmi": {
+        "2025_sep_dec": {
+          "persistence": {
+            "n": 4,
+            "mae": 0.4250000000000007,
+            "rmse": 0.4873397172404493,
+            "mase": 0.13504671139510152,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 4,
+            "mae": 0.6500000000000004,
+            "rmse": 1.0319883720275147,
+            "mase": 0.21017133661173173,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 4,
+            "mae": 0.4289248082211632,
+            "rmse": 0.4928802555772516,
+            "mase": 0.1365447832139281,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 4,
+            "mae": 0.2576007217443852,
+            "rmse": 0.35619463683859043,
+            "mase": 0.08116986825791217,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 4,
+            "mae": 0.3437932968139652,
+            "rmse": 0.3992949221003738,
+            "mase": 0.10888504023966801,
+            "mase_undefined_n": 0
+          }
+        },
+        "2026_jan_aug": {
+          "persistence": {
+            "n": 8,
+            "mae": 0.5250000000000021,
+            "rmse": 0.6557438524302024,
+            "mase": 0.1828028773591554,
+            "mase_undefined_n": 0
+          },
+          "seasonal": {
+            "n": 8,
+            "mae": 0.7874999999999988,
+            "rmse": 0.8638576271585491,
+            "mase": 0.2760691848998017,
+            "mase_undefined_n": 0
+          },
+          "drift": {
+            "n": 8,
+            "mae": 0.5463609466395765,
+            "rmse": 0.6498274142671386,
+            "mase": 0.1903859846680101,
+            "mase_undefined_n": 0
+          },
+          "ridge": {
+            "n": 8,
+            "mae": 1.4821769803130849,
+            "rmse": 1.5789337542267405,
+            "mase": 0.5141467767763429,
+            "mase_undefined_n": 0
+          },
+          "challenger": {
+            "n": 8,
+            "mae": 0.5374910354614268,
+            "rmse": 0.5694484219692343,
+            "mase": 0.18865268916841266,
+            "mase_undefined_n": 0
+          }
+        }
+      }
+    },
+    "descriptive_retrospective_screen": false,
+    "indicators_beating_development_reference": 6,
+    "production_default_changed": false,
+    "prospective_validation_required": true,
+    "records": {
+      "development": [
+        {
+          "key": "cpi_yoy",
+          "target": "2024-09",
+          "actual": 0.4,
+          "predictions": {
+            "persistence": 0.6,
+            "seasonal": 0.0,
+            "drift": 0.5971428571428571,
+            "ridge": 0.7644013953456406
+          },
+          "quantiles": null,
+          "mase_scale": 1.3541666666666667,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "bc1b64b3cc3eee9df7f470fcee8d18587d64adde140a0730e41d71b06feba7d5",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2024-10",
+          "actual": 0.3,
+          "predictions": {
+            "persistence": 0.4,
+            "seasonal": -0.2,
+            "drift": 0.3916666666666667,
+            "ridge": 0.7873383197203858
+          },
+          "quantiles": null,
+          "mase_scale": 1.3159999999999998,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "3797111943f03d79683d807175ec49d5516aa5bdecb8b76a680cf4a5601b5699",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2024-11",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": 0.3,
+            "seasonal": -0.5,
+            "drift": 0.2891891891891892,
+            "ridge": 0.6866792781509783
+          },
+          "quantiles": null,
+          "mase_scale": 1.2846153846153845,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "510cc7670d546951d6a2d1a3495fdee58bcde997e2b0a4d7689f8e8c6faed5b6",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2024-12",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": -0.3,
+            "drift": 0.18684210526315792,
+            "ridge": 0.4608154658460587
+          },
+          "quantiles": null,
+          "mase_scale": 1.262962962962963,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "ef244451155b6e0ecfa3a131eb41db5f42db14787c59213d894eab9fdc4eac76",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-01",
+          "actual": 0.5,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": -0.8,
+            "drift": 0.08461538461538462,
+            "ridge": 0.35688202226162924
+          },
+          "quantiles": null,
+          "mase_scale": 1.2321428571428572,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "961f412ead08390751918275ccdc9caed58397855de85e65406186da9c27b022",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-02",
+          "actual": -0.7,
+          "predictions": {
+            "persistence": 0.5,
+            "seasonal": 0.7,
+            "drift": 0.495,
+            "ridge": 0.2621419008317722
+          },
+          "quantiles": null,
+          "mase_scale": 1.2344827586206895,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "85611814a7e41a5476929c5dcd68609775ead12bd68d8d54308717fb0f2bb62d",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-03",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.7,
+            "seasonal": 0.1,
+            "drift": -0.7341463414634146,
+            "ridge": -0.026556658202469385
+          },
+          "quantiles": null,
+          "mase_scale": 1.24,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "62ef28aa52ec7bdff75a8a637fb5d9058729869ab993d54dd06a77164475765e",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-04",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": 0.3,
+            "drift": -0.11904761904761905,
+            "ridge": -0.10826291932995818
+          },
+          "quantiles": null,
+          "mase_scale": 1.2064516129032257,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "7b96c61c2fe48b09e7ddc63f3f41d70a4b432db508bf466037310e47441440d0",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-05",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": 0.3,
+            "drift": -0.1186046511627907,
+            "ridge": -0.14286052951925282
+          },
+          "quantiles": null,
+          "mase_scale": 1.18125,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "2db9455f65fb919093188bd0eef7a31f09624ef6e467040a742fe2656a2cce83",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-06",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": 0.2,
+            "drift": -0.1181818181818182,
+            "ridge": 0.0328005902864546
+          },
+          "quantiles": null,
+          "mase_scale": 1.1575757575757577,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "1b69576159304b29613387457276f1d9f1314891e9b5f9d238baff4a6a9b75c6",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-07",
+          "actual": 0.0,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": 0.5,
+            "drift": 0.08666666666666667,
+            "ridge": 0.11015397169391261
+          },
+          "quantiles": null,
+          "mase_scale": 1.1264705882352941,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "a8e02e7460de50c4c7976cd263d9ab09e4fd4e2ce6f4aeab909571333de4e0a2",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-08",
+          "actual": -0.4,
+          "predictions": {
+            "persistence": 0.0,
+            "seasonal": 0.6,
+            "drift": -0.015217391304347825,
+            "ridge": 0.14719212357602293
+          },
+          "quantiles": null,
+          "mase_scale": 1.1085714285714285,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "114c9f28b511d058a016c52c40e9f11b3e987c12982161b117c4e83fca69d024",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2024-09",
+          "actual": -2.8,
+          "predictions": {
+            "persistence": -1.8,
+            "seasonal": -2.5,
+            "drift": -2.157142857142857,
+            "ridge": -1.654605179669978
+          },
+          "quantiles": null,
+          "mase_scale": 6.420833333333333,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "3251450dcce2c2e0f300f2eb98c49158f243084b16513c860d1f06500b162cbd",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2024-10",
+          "actual": -2.9,
+          "predictions": {
+            "persistence": -2.8,
+            "seasonal": -2.6,
+            "drift": -3.175,
+            "ridge": -2.221587145160328
+          },
+          "quantiles": null,
+          "mase_scale": 6.176,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "b16e96967105965214cf0595244fee38d67f5183de04c8e52f9e7eddd9f348d8",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2024-11",
+          "actual": -2.5,
+          "predictions": {
+            "persistence": -2.9,
+            "seasonal": -3.0,
+            "drift": -3.2675675675675673,
+            "ridge": -2.417420443083334
+          },
+          "quantiles": null,
+          "mase_scale": 5.950000000000001,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "cf89df08f379c5701da24fe69bff4af6a1191a7b0223867728ff012c4a85d170",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2024-12",
+          "actual": -2.3,
+          "predictions": {
+            "persistence": -2.5,
+            "seasonal": -2.7,
+            "drift": -2.8473684210526313,
+            "ridge": -2.297005622716337
+          },
+          "quantiles": null,
+          "mase_scale": 5.7481481481481485,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "9c2408f7187f3178666f4bdaf6581260c00797637037012c864f8416e78fec43",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-01",
+          "actual": -2.3,
+          "predictions": {
+            "persistence": -2.3,
+            "seasonal": -2.5,
+            "drift": -2.6333333333333333,
+            "ridge": -2.2384878460873
+          },
+          "quantiles": null,
+          "mase_scale": 5.557142857142857,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "b6ea3b9ea79db1d6bac00c740996136dcc490d12ef8e65f77b70aec96ea2a55f",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-02",
+          "actual": -2.2,
+          "predictions": {
+            "persistence": -2.3,
+            "seasonal": -2.7,
+            "drift": -2.625,
+            "ridge": -2.302102835677803
+          },
+          "quantiles": null,
+          "mase_scale": 5.372413793103449,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "d3a83aed3492be33a4a3f77a95f3be5b697b5baf493635c7f791a0bb2a922bd8",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-03",
+          "actual": -2.5,
+          "predictions": {
+            "persistence": -2.2,
+            "seasonal": -2.8,
+            "drift": -2.5146341463414634,
+            "ridge": -2.3298117939379868
+          },
+          "quantiles": null,
+          "mase_scale": 5.21,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "2a166d2b3d26d35a5fb065e593fa8b665f3cda01053330af8391de3cbe9d8749",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-04",
+          "actual": -2.7,
+          "predictions": {
+            "persistence": -2.5,
+            "seasonal": -2.5,
+            "drift": -2.814285714285714,
+            "ridge": -2.5610788933144875
+          },
+          "quantiles": null,
+          "mase_scale": 5.051612903225807,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "ab02761371fe0e7e8af3f45fc50a396d6d8563d5307a372aec4a98668a209f37",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-05",
+          "actual": -3.3,
+          "predictions": {
+            "persistence": -2.7,
+            "seasonal": -1.4,
+            "drift": -3.011627906976744,
+            "ridge": -2.7484074763994446
+          },
+          "quantiles": null,
+          "mase_scale": 4.9,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "5bac19149787cb80fe9324e4d9d349e88b886a4b52de1706fb72933353aab7cf",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-06",
+          "actual": -3.6,
+          "predictions": {
+            "persistence": -3.3,
+            "seasonal": -0.8,
+            "drift": -3.618181818181818,
+            "ridge": -3.1031758291841127
+          },
+          "quantiles": null,
+          "mase_scale": 4.8090909090909095,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "df1df5d65e0bd5fc07dfe9c285e2f944c5cbf2663cb73d14df780d1cbf87d82e",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-07",
+          "actual": -3.6,
+          "predictions": {
+            "persistence": -3.6,
+            "seasonal": -0.8,
+            "drift": -3.917777777777778,
+            "ridge": -3.265732797407562
+          },
+          "quantiles": null,
+          "mase_scale": 4.75,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "07c7b910f9d584a3b96712c500638d639b7a80f47c2d849714cfb0e94b8163a1",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-08",
+          "actual": -2.9,
+          "predictions": {
+            "persistence": -3.6,
+            "seasonal": -1.8,
+            "drift": -3.9108695652173915,
+            "ridge": -3.189618803523821
+          },
+          "quantiles": null,
+          "mase_scale": 4.694285714285715,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "c0bb0925be0cc97e95d50e38ac6b2d66c61550d2d2612fa996dd54beea0a3635",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2024-09",
+          "actual": 0.0,
+          "predictions": {
+            "persistence": 0.4,
+            "seasonal": 0.2,
+            "drift": 0.4114285714285715,
+            "ridge": -0.0049234296365077285
+          },
+          "quantiles": null,
+          "mase_scale": 0.37916666666666665,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "245cd72eafbe11a1aea9975b265cf1756cfe8f545952b482557f05505a85b53a",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2024-10",
+          "actual": -0.3,
+          "predictions": {
+            "persistence": 0.0,
+            "seasonal": -0.1,
+            "drift": 0.0,
+            "ridge": -0.007953593272004775
+          },
+          "quantiles": null,
+          "mase_scale": 0.37200000000000005,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "2e883b589466a36b76c390395135112f1f5c2d5299b470e9b88b27404c3ec053",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2024-11",
+          "actual": -0.6,
+          "predictions": {
+            "persistence": -0.3,
+            "seasonal": -0.5,
+            "drift": -0.30810810810810807,
+            "ridge": 0.06209647150872194
+          },
+          "quantiles": null,
+          "mase_scale": 0.36538461538461536,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "f95a50fe1ad96ff974da7f6f2d3d7d055f6c4bb295075816065008cc0e3760da",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2024-12",
+          "actual": 0.0,
+          "predictions": {
+            "persistence": -0.6,
+            "seasonal": 0.1,
+            "drift": -0.6157894736842106,
+            "ridge": 0.20392956810747134
+          },
+          "quantiles": null,
+          "mase_scale": 0.35555555555555557,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "d18ebb40276276607e7b6e6269f4e31aa3f91b0a3e6a7d827fc80e996439034b",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-01",
+          "actual": 0.7,
+          "predictions": {
+            "persistence": 0.0,
+            "seasonal": 0.3,
+            "drift": 0.0,
+            "ridge": 0.17815181935026206
+          },
+          "quantiles": null,
+          "mase_scale": 0.3464285714285714,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "0bdc27ad9a20dd2b2b0dea79706f3bfc5833623fc476e6ad3d4aac9279cb24d9",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-02",
+          "actual": -0.2,
+          "predictions": {
+            "persistence": 0.7,
+            "seasonal": 1.0,
+            "drift": 0.7174999999999999,
+            "ridge": 0.20689267175015225
+          },
+          "quantiles": null,
+          "mase_scale": 0.3482758620689655,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "26f4a6edc69f46f492e06f16cdaedef5211c55f77f006fc75619d2ae6deb18b8",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-03",
+          "actual": -0.4,
+          "predictions": {
+            "persistence": -0.2,
+            "seasonal": -1.0,
+            "drift": -0.20487804878048782,
+            "ridge": -0.3156510677398963
+          },
+          "quantiles": null,
+          "mase_scale": 0.3766666666666667,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "083c13cb6ebae0d8bdc1d5fb4bd5f187b7b8546ebb384077fd872ceeda7ab76b",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-04",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": -0.4,
+            "seasonal": 0.1,
+            "drift": -0.40952380952380957,
+            "ridge": -0.07308059112422803
+          },
+          "quantiles": null,
+          "mase_scale": 0.3838709677419355,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "da4922d7ea32bb7762c5c00463894bac9566c5187cce8887d4b27b8dce64c4d8",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-05",
+          "actual": -0.2,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": -0.1,
+            "drift": 0.10232558139534884,
+            "ridge": 0.049921927661729294
+          },
+          "quantiles": null,
+          "mase_scale": 0.371875,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "37b5226fca465a62addaf0b43e2857499656a7e465715cac87c7365de9c85000",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-06",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.2,
+            "seasonal": -0.2,
+            "drift": -0.20454545454545456,
+            "ridge": 0.025449005898172845
+          },
+          "quantiles": null,
+          "mase_scale": 0.36363636363636365,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "9be6dc7cb682a29f9978634a0bb0f3b591d320c7a30cd3288f8f4c7db12cfe4d",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-07",
+          "actual": 0.4,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": 0.5,
+            "drift": -0.10222222222222223,
+            "ridge": 0.12202101498764546
+          },
+          "quantiles": null,
+          "mase_scale": 0.3558823529411765,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "147608d745258c9125ab6473e1da3f37c3d1195be2a0a49b0dee73866b760eff",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-08",
+          "actual": 0.0,
+          "predictions": {
+            "persistence": 0.4,
+            "seasonal": 0.4,
+            "drift": 0.40869565217391307,
+            "ridge": 0.08911515797211988
+          },
+          "quantiles": null,
+          "mase_scale": 0.34857142857142853,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "ad64fde69da5167e552d6ce2852dc95b02768606f0e827248b2eca265efae624",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2024-09",
+          "actual": -0.6,
+          "predictions": {
+            "persistence": -0.7,
+            "seasonal": 0.4,
+            "drift": -0.7542857142857142,
+            "ridge": -0.3012947562053715
+          },
+          "quantiles": null,
+          "mase_scale": 0.6791666666666667,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "fcb0e5409e6744a484fd15d7ba0c8b7510b9371c0e1bd2b9fdd78ff4b9f4cc19",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2024-10",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.6,
+            "seasonal": 0.0,
+            "drift": -0.65,
+            "ridge": -0.18099077013223897
+          },
+          "quantiles": null,
+          "mase_scale": 0.6920000000000001,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "a33266742bb6ef76591e31a7e336a188c610a15a16d06d36a41da512c2497ca8",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2024-11",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": -0.3,
+            "drift": -0.13513513513513514,
+            "ridge": 0.07163515995947081
+          },
+          "quantiles": null,
+          "mase_scale": 0.6692307692307692,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "cb3939e226373435afa2d2587fec861a0f70a21fa59a0b0f22f194a140ce6525",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2024-12",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": -0.3,
+            "drift": 0.07105263157894738,
+            "ridge": -0.002767943407888912
+          },
+          "quantiles": null,
+          "mase_scale": 0.6592592592592593,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "7d950aa461ee9a23291b37b8d2c17af104bf42b8037cc6c6dbf4a5800ffd3fc3",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-01",
+          "actual": -0.2,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": -0.2,
+            "drift": -0.13333333333333333,
+            "ridge": -0.23674972797571853
+          },
+          "quantiles": null,
+          "mase_scale": 0.6428571428571429,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "1f434aeca7b9335a6715528ee3d5a0b64a3f78a93f00bef5c068a811671a8962",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-02",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.2,
+            "seasonal": -0.2,
+            "drift": -0.23500000000000001,
+            "ridge": -0.2887610324483222
+          },
+          "quantiles": null,
+          "mase_scale": 0.6206896551724138,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "821846a326f71edd568578bd8c9fddfacce9701ec8072ac8d0df06a68a75d9e7",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-03",
+          "actual": -0.4,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": -0.1,
+            "drift": -0.13170731707317074,
+            "ridge": -0.21972664153194013
+          },
+          "quantiles": null,
+          "mase_scale": 0.6033333333333334,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "54c26eebd9160a7c82fcf87d3c23f76c59dac939a9122cb09089bb6f13d5ca77",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-04",
+          "actual": -0.4,
+          "predictions": {
+            "persistence": -0.4,
+            "seasonal": -0.2,
+            "drift": -0.4380952380952381,
+            "ridge": -0.34012918911414214
+          },
+          "quantiles": null,
+          "mase_scale": 0.5935483870967742,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "73af6ca1a53091c18f46b9186fed8949dc4c3f66b07ee0800ab2bcf91431fb64",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-05",
+          "actual": -0.4,
+          "predictions": {
+            "persistence": -0.4,
+            "seasonal": 0.2,
+            "drift": -0.4372093023255814,
+            "ridge": -0.3331516575151959
+          },
+          "quantiles": null,
+          "mase_scale": 0.58125,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "984e0281060e1d5aa2ac3e0ef2661e8be81d1dd1c871c20dddcaacfbb3b76599",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-06",
+          "actual": -0.4,
+          "predictions": {
+            "persistence": -0.4,
+            "seasonal": -0.2,
+            "drift": -0.4363636363636364,
+            "ridge": -0.26237690389923585
+          },
+          "quantiles": null,
+          "mase_scale": 0.5818181818181818,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "fc40025f89070a8bc3c555b0b889cede4d52161fbf26c94fa7d9918cd030ee31",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-07",
+          "actual": -0.2,
+          "predictions": {
+            "persistence": -0.4,
+            "seasonal": -0.2,
+            "drift": -0.4355555555555556,
+            "ridge": -0.2549169531965439
+          },
+          "quantiles": null,
+          "mase_scale": 0.5705882352941177,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "962a5de6c33a8834690632612ce9b977cad18b41d94d11784ccd4072c07e2150",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-08",
+          "actual": 0.0,
+          "predictions": {
+            "persistence": -0.2,
+            "seasonal": -0.7,
+            "drift": -0.23043478260869565,
+            "ridge": -0.1450506362180411
+          },
+          "quantiles": null,
+          "mase_scale": 0.5542857142857144,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "2f7cb6976482685f460027aa8f760dd2206085e24d6b290defcef43da5b7ebbf",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2024-09",
+          "actual": 49.8,
+          "predictions": {
+            "persistence": 49.1,
+            "seasonal": 50.2,
+            "drift": 49.08571428571429,
+            "ridge": 49.224845204177306
+          },
+          "quantiles": null,
+          "mase_scale": 1.1458333333333337,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "5f6674abcf03825c25f6b95d06ecfa490a3cc73c6dfeabf7b392933da72558ae",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2024-10",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 49.8,
+            "seasonal": 49.5,
+            "drift": 49.80555555555555,
+            "ridge": 49.51109972752486
+          },
+          "quantiles": null,
+          "mase_scale": 1.1160000000000005,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "060c68ce32e4e88e8d1e93d0164b7a8dc1e0f0816c5d90d8d6663443bf79392a",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2024-11",
+          "actual": 50.3,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 49.4,
+            "drift": 50.11351351351352,
+            "ridge": 49.51185496304225
+          },
+          "quantiles": null,
+          "mase_scale": 1.0961538461538467,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "546228e290519aaa9648a6dac08a75d7ca5206f76275146b0a7b9e6fec411788",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2024-12",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 50.3,
+            "seasonal": 49.0,
+            "drift": 50.31842105263158,
+            "ridge": 49.44824782485338
+          },
+          "quantiles": null,
+          "mase_scale": 1.0888888888888895,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "6a877949851d4bf268922f531819cb9e081dbe12b70ba41bfa8cd02d5ec98b7e",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-01",
+          "actual": 49.1,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 49.2,
+            "drift": 50.11282051282051,
+            "ridge": 49.452382194794986
+          },
+          "quantiles": null,
+          "mase_scale": 1.0892857142857149,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "8d5391d90a1e42b3fbb320506b39672b5cec81b1f89cdc2e32d9f1a415c78c26",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-02",
+          "actual": 50.2,
+          "predictions": {
+            "persistence": 49.1,
+            "seasonal": 49.1,
+            "drift": 49.0875,
+            "ridge": 49.241183208470545
+          },
+          "quantiles": null,
+          "mase_scale": 1.055172413793104,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "5dd810445577faba53cf2f93f2146862980b68cda9eca11714dba5c908a5f8de",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-03",
+          "actual": 50.5,
+          "predictions": {
+            "persistence": 50.2,
+            "seasonal": 50.8,
+            "drift": 50.21463414634147,
+            "ridge": 50.17121060719251
+          },
+          "quantiles": null,
+          "mase_scale": 1.0566666666666673,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "a0c0ed1f550a5e4ee16cab04f96344ea4a25a41fc4412ec9ad1b30190084198d",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-04",
+          "actual": 49.0,
+          "predictions": {
+            "persistence": 50.5,
+            "seasonal": 50.4,
+            "drift": 50.52142857142857,
+            "ridge": 50.22140144883717
+          },
+          "quantiles": null,
+          "mase_scale": 1.0322580645161294,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "8a0284184b9f0f1efcb7e421d4d05e6b569c8425387becf72d8cd4df75bf45e4",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-05",
+          "actual": 49.5,
+          "predictions": {
+            "persistence": 49.0,
+            "seasonal": 49.5,
+            "drift": 48.986046511627904,
+            "ridge": 49.229123845609365
+          },
+          "quantiles": null,
+          "mase_scale": 1.0437500000000004,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "eba80d83df8520c1f04b2e547d592754042d880f7672660f1fee60da9018ed24",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-06",
+          "actual": 49.7,
+          "predictions": {
+            "persistence": 49.5,
+            "seasonal": 49.5,
+            "drift": 49.497727272727275,
+            "ridge": 49.77350695477976
+          },
+          "quantiles": null,
+          "mase_scale": 1.0121212121212124,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "b319decbbcb5a69269e88d07781ae1ed3288b945f2ca7e4a15866931e9b3656e",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-07",
+          "actual": 49.3,
+          "predictions": {
+            "persistence": 49.7,
+            "seasonal": 49.4,
+            "drift": 49.702222222222225,
+            "ridge": 49.84983207850761
+          },
+          "quantiles": null,
+          "mase_scale": 0.9882352941176475,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "1d9db967f3e8936ed22ab2b8c31613066892a1b023db7949ddaaa655ae4a78d1",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-08",
+          "actual": 49.4,
+          "predictions": {
+            "persistence": 49.3,
+            "seasonal": 49.1,
+            "drift": 49.29347826086956,
+            "ridge": 49.366380682589764
+          },
+          "quantiles": null,
+          "mase_scale": 0.9628571428571433,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "7f2f4c32e9e38350982d9fe81de95de7d9a4c117c8d0991dc6becc09fc50b1bd",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2024-09",
+          "actual": 49.9,
+          "predictions": {
+            "persistence": 48.9,
+            "seasonal": 50.5,
+            "drift": 48.888571428571424,
+            "ridge": 48.99375449998905
+          },
+          "quantiles": null,
+          "mase_scale": 2.2250000000000005,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "aa6c87b008bba95c223accf38679ea68b2621e0e29d9621b15c28d83ef30f347",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2024-10",
+          "actual": 50.0,
+          "predictions": {
+            "persistence": 49.9,
+            "seasonal": 49.5,
+            "drift": 49.916666666666664,
+            "ridge": 49.19812704635136
+          },
+          "quantiles": null,
+          "mase_scale": 2.1600000000000006,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "3226a53b52044942bd5a8012f51c6b79ecf15a45deeb7c20d4703eb1a6b3fb04",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2024-11",
+          "actual": 50.8,
+          "predictions": {
+            "persistence": 50.0,
+            "seasonal": 49.4,
+            "drift": 50.01891891891892,
+            "ridge": 49.17497453264498
+          },
+          "quantiles": null,
+          "mase_scale": 2.0961538461538467,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "23e0626289e8fa277e79a26bd8c378fb1159b346fb543a09a3e67cd7dd402184",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2024-12",
+          "actual": 51.0,
+          "predictions": {
+            "persistence": 50.8,
+            "seasonal": 48.7,
+            "drift": 50.839473684210525,
+            "ridge": 49.34467439291823
+          },
+          "quantiles": null,
+          "mase_scale": 2.070370370370371,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "7a37d9a157feba5bd5ce58f50731553b54ff5ab05e10f28605be02d81ce65ec5",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-01",
+          "actual": 49.2,
+          "predictions": {
+            "persistence": 51.0,
+            "seasonal": 49.0,
+            "drift": 51.04358974358974,
+            "ridge": 49.70213469355704
+          },
+          "quantiles": null,
+          "mase_scale": 2.0785714285714287,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "e50d28319b0a32b42ba85418988aaae3382e0c20d13a1e92b0c7f505ea64d3f5",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-02",
+          "actual": 51.1,
+          "predictions": {
+            "persistence": 49.2,
+            "seasonal": 49.0,
+            "drift": 49.197500000000005,
+            "ridge": 49.14284806648891
+          },
+          "quantiles": null,
+          "mase_scale": 2.0137931034482763,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "37060b4195d9f9d00c1b29a1c0bf9d1ed1c6d5d997f916ac23cf99568e83aa67",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-03",
+          "actual": 51.8,
+          "predictions": {
+            "persistence": 51.1,
+            "seasonal": 53.0,
+            "drift": 51.143902439024394,
+            "ridge": 50.79001782487234
+          },
+          "quantiles": null,
+          "mase_scale": 2.016666666666667,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "7061fd6c03d691f11b190693778dc48dee85c7712fd8ba492368f9ab4e6cf240",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-04",
+          "actual": 49.2,
+          "predictions": {
+            "persistence": 51.8,
+            "seasonal": 51.1,
+            "drift": 51.85952380952381,
+            "ridge": 51.131327144825995
+          },
+          "quantiles": null,
+          "mase_scale": 1.9903225806451619,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "52ce13ce645e73bc2f8ad52fd04487c7f4b9e64ee5eb98cfbaaa3af7c016dc53",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-05",
+          "actual": 49.8,
+          "predictions": {
+            "persistence": 49.2,
+            "seasonal": 49.6,
+            "drift": 49.197674418604656,
+            "ridge": 49.32091087086753
+          },
+          "quantiles": null,
+          "mase_scale": 1.9875000000000005,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "c073b5e665edac72d20f7a524a6d4f1c6cffb47aeb561d49bd1d1aa5c96c212a",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-06",
+          "actual": 50.2,
+          "predictions": {
+            "persistence": 49.8,
+            "seasonal": 49.5,
+            "drift": 49.81136363636363,
+            "ridge": 49.70101161279447
+          },
+          "quantiles": null,
+          "mase_scale": 1.9333333333333336,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "08001b097270dd20945d10aa778bcd9bf3d4a2c4c09fbef0268b7f665293c734",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-07",
+          "actual": 49.4,
+          "predictions": {
+            "persistence": 50.2,
+            "seasonal": 49.3,
+            "drift": 50.220000000000006,
+            "ridge": 50.029217157919476
+          },
+          "quantiles": null,
+          "mase_scale": 1.8970588235294121,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "c2e0fbcacaaa7d03bc6161c3c31a645b49bdbd891402c38f323d70bdbfa1e454",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-08",
+          "actual": 49.5,
+          "predictions": {
+            "persistence": 49.4,
+            "seasonal": 48.9,
+            "drift": 49.40217391304348,
+            "ridge": 49.18232591605055
+          },
+          "quantiles": null,
+          "mase_scale": 1.8457142857142863,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "a1789b060801180b25f13973c0cef213e916dd9e62def7b2169f801d2ab825f4",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2024-09",
+          "actual": 50.0,
+          "predictions": {
+            "persistence": 50.3,
+            "seasonal": 51.7,
+            "drift": 50.21714285714285,
+            "ridge": 50.1092098259476
+          },
+          "quantiles": null,
+          "mase_scale": 4.574999999999999,
+          "context_n": 36,
+          "context_end": "2024-08",
+          "context_sha256": "196e5fb2f553ff97988d33aaac27c49ffe33d39218aab7f01370b21e398573a5",
+          "ridge_train_n": 24,
+          "ridge_train_end": "2024-08"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2024-10",
+          "actual": 50.2,
+          "predictions": {
+            "persistence": 50.0,
+            "seasonal": 50.6,
+            "drift": 49.91111111111111,
+            "ridge": 49.93249890904361
+          },
+          "quantiles": null,
+          "mase_scale": 4.459999999999999,
+          "context_n": 37,
+          "context_end": "2024-09",
+          "context_sha256": "784289e2359cd105cbd45dbf080ecb68c42178ad03c424cee5e3ce4e0879cb72",
+          "ridge_train_n": 25,
+          "ridge_train_end": "2024-09"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2024-11",
+          "actual": 50.0,
+          "predictions": {
+            "persistence": 50.2,
+            "seasonal": 50.2,
+            "drift": 50.11891891891892,
+            "ridge": 50.165599626017645
+          },
+          "quantiles": null,
+          "mase_scale": 4.303846153846153,
+          "context_n": 38,
+          "context_end": "2024-10",
+          "context_sha256": "a052f49af1220500e44f5e3dde3f628b1e3c11b547dddaf90dbcc8fc8689eedc",
+          "ridge_train_n": 26,
+          "ridge_train_end": "2024-10"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2024-12",
+          "actual": 52.2,
+          "predictions": {
+            "persistence": 50.0,
+            "seasonal": 50.4,
+            "drift": 49.915789473684214,
+            "ridge": 50.591756534289594
+          },
+          "quantiles": null,
+          "mase_scale": 4.151851851851852,
+          "context_n": 39,
+          "context_end": "2024-11",
+          "context_sha256": "5e628675a28e06ee3050a032e0b8a1e54f9e466f891cc7707621e57332b234c5",
+          "ridge_train_n": 27,
+          "ridge_train_end": "2024-11"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-01",
+          "actual": 50.2,
+          "predictions": {
+            "persistence": 52.2,
+            "seasonal": 50.7,
+            "drift": 52.174358974358974,
+            "ridge": 51.956972098692816
+          },
+          "quantiles": null,
+          "mase_scale": 4.067857142857142,
+          "context_n": 40,
+          "context_end": "2024-12",
+          "context_sha256": "4ccd0881b4e5b3f3461fa2a4bcf94548a4a5391f5f15b12df36d133a670ee1a8",
+          "ridge_train_n": 28,
+          "ridge_train_end": "2024-12"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-02",
+          "actual": 50.4,
+          "predictions": {
+            "persistence": 50.2,
+            "seasonal": 51.4,
+            "drift": 50.125,
+            "ridge": 51.96668345158347
+          },
+          "quantiles": null,
+          "mase_scale": 3.9448275862068964,
+          "context_n": 41,
+          "context_end": "2025-01",
+          "context_sha256": "00b53151f595b002d642f6442772c0b7343fb204848d629d4109d48032f33332",
+          "ridge_train_n": 29,
+          "ridge_train_end": "2025-01"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-03",
+          "actual": 50.8,
+          "predictions": {
+            "persistence": 50.4,
+            "seasonal": 53.0,
+            "drift": 50.33170731707317,
+            "ridge": 51.876790283121004
+          },
+          "quantiles": null,
+          "mase_scale": 3.8466666666666662,
+          "context_n": 42,
+          "context_end": "2025-02",
+          "context_sha256": "03ea14b71c646bedb78cc3d4cac32fab13fb4aa08bfe2c992074b900ef3ae799",
+          "ridge_train_n": 30,
+          "ridge_train_end": "2025-02"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-04",
+          "actual": 50.4,
+          "predictions": {
+            "persistence": 50.8,
+            "seasonal": 51.2,
+            "drift": 50.74285714285714,
+            "ridge": 52.82844883192777
+          },
+          "quantiles": null,
+          "mase_scale": 3.793548387096774,
+          "context_n": 43,
+          "context_end": "2025-03",
+          "context_sha256": "dccc8ee04f49366cacce51bcfaa092a9e7899f73484ce4a93e9d7fcada7e032f",
+          "ridge_train_n": 31,
+          "ridge_train_end": "2025-03"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-05",
+          "actual": 50.3,
+          "predictions": {
+            "persistence": 50.4,
+            "seasonal": 51.1,
+            "drift": 50.33488372093023,
+            "ridge": 52.377726381019045
+          },
+          "quantiles": null,
+          "mase_scale": 3.7,
+          "context_n": 44,
+          "context_end": "2025-04",
+          "context_sha256": "ee5043b0bd79c7c0082df6e7108875d6c0f7e3ed3e5a92dd351585cb1160321f",
+          "ridge_train_n": 32,
+          "ridge_train_end": "2025-04"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-06",
+          "actual": 50.5,
+          "predictions": {
+            "persistence": 50.3,
+            "seasonal": 50.5,
+            "drift": 50.23409090909091,
+            "ridge": 51.75003116637193
+          },
+          "quantiles": null,
+          "mase_scale": 3.6121212121212123,
+          "context_n": 45,
+          "context_end": "2025-05",
+          "context_sha256": "1b2fa1e8a296b897ddd3420a18d506ab52f51166e878486193dbbb814b0f9e8d",
+          "ridge_train_n": 33,
+          "ridge_train_end": "2025-05"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-07",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 50.5,
+            "seasonal": 50.2,
+            "drift": 50.44,
+            "ridge": 51.26674967013995
+          },
+          "quantiles": null,
+          "mase_scale": 3.5058823529411764,
+          "context_n": 46,
+          "context_end": "2025-06",
+          "context_sha256": "8e1dfadc2dc2c4679c4f834210f0add44083780091858d5206282602a5bd2464",
+          "ridge_train_n": 34,
+          "ridge_train_end": "2025-06"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-08",
+          "actual": 50.3,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 50.3,
+            "drift": 50.03260869565217,
+            "ridge": 50.50131417664458
+          },
+          "quantiles": null,
+          "mase_scale": 3.408571428571429,
+          "context_n": 47,
+          "context_end": "2025-07",
+          "context_sha256": "370842cca747741b5df7be1d4a93738f5248c54698793b90082aad3c3f964255",
+          "ridge_train_n": 35,
+          "ridge_train_end": "2025-07"
+        }
+      ],
+      "audit": [
+        {
+          "key": "cpi_yoy",
+          "target": "2025-09",
+          "actual": -0.3,
+          "predictions": {
+            "persistence": -0.4,
+            "seasonal": 0.4,
+            "drift": -0.42340425531914894,
+            "ridge": 0.03662112867625217,
+            "challenger": -0.2426546812057495
+          },
+          "quantiles": {
+            "p10": -0.6038625240325928,
+            "p50": -0.2426546812057495,
+            "p90": 0.15714234113693237
+          },
+          "mase_scale": 1.1055555555555554,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "33338fc490dd5cbba6142b73555318e936007fd3fb05c904ab81fd8a08e2bf2a",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-10",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": -0.3,
+            "seasonal": 0.3,
+            "drift": -0.3208333333333333,
+            "ridge": -0.0808372889767785,
+            "challenger": -0.3000052571296692
+          },
+          "quantiles": {
+            "p10": -0.6177194714546204,
+            "p50": -0.3000052571296692,
+            "p90": 0.04012036323547363
+          },
+          "mase_scale": 1.0945945945945945,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "78c0b3e29f0b175abd1c5b75aff53c0429f1eda8e84fb2fed4e2ce4d1538fade",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-11",
+          "actual": 0.7,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": 0.2,
+            "drift": 0.18979591836734694,
+            "ridge": 0.032401868917777354,
+            "challenger": -0.032137274742126465
+          },
+          "quantiles": {
+            "p10": -0.4289318323135376,
+            "p50": -0.032137274742126465,
+            "p90": 0.44409307837486267
+          },
+          "mase_scale": 1.068421052631579,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "daccce8e27c9a7fda3fb09150303ea8bb7504ad0562d841f55b5ca3ffe1c320a",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2025-12",
+          "actual": 0.8,
+          "predictions": {
+            "persistence": 0.7,
+            "seasonal": 0.1,
+            "drift": 0.7,
+            "ridge": 0.36510509239305416,
+            "challenger": 0.5461098551750183
+          },
+          "quantiles": {
+            "p10": 0.10548549890518188,
+            "p50": 0.5461098551750183,
+            "p90": 1.0787522792816162
+          },
+          "mase_scale": 1.0538461538461539,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "04c81a6294d18a6e862bafd852adc5509dd03901b0e6ba95b967e0b22804ba8a",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-01",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": 0.8,
+            "seasonal": 0.5,
+            "drift": 0.8019607843137255,
+            "ridge": 0.5476717862275432,
+            "challenger": 0.7007929682731628
+          },
+          "quantiles": {
+            "p10": 0.22145482897758484,
+            "p50": 0.7007929682731628,
+            "p90": 1.2587158679962158
+          },
+          "mase_scale": 1.045,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "39620bdc44ea053de682e134af0d4649554ab855729a815dbb41551b85e6b57d",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-02",
+          "actual": 1.3,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": -0.7,
+            "drift": 0.1903846153846154,
+            "ridge": 0.5219643129260959,
+            "challenger": 0.4812467694282532
+          },
+          "quantiles": {
+            "p10": 0.054383695125579834,
+            "p50": 0.4812467694282532,
+            "p90": 1.0032860040664673
+          },
+          "mase_scale": 1.026829268292683,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "18a348ee26572e9c55eb7db0429004d38eb1acad5d43ddc7e8a5de519c40be69",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-03",
+          "actual": 1.0,
+          "predictions": {
+            "persistence": 1.3,
+            "seasonal": -0.1,
+            "drift": 1.3113207547169812,
+            "ridge": 0.6866868353978297,
+            "challenger": 1.0379078388214111
+          },
+          "quantiles": {
+            "p10": 0.4712424874305725,
+            "p50": 1.0379078388214111,
+            "p90": 1.6979320049285889
+          },
+          "mase_scale": 1.05,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "89b7c627527ca50ed87a3f06a9e395b32e9fc25273995aadacbbfdf4172890ad",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-04",
+          "actual": 1.2,
+          "predictions": {
+            "persistence": 1.0,
+            "seasonal": -0.1,
+            "drift": 1.0055555555555555,
+            "ridge": 0.7626364357311479,
+            "challenger": 1.1588284969329834
+          },
+          "quantiles": {
+            "p10": 0.5908514261245728,
+            "p50": 1.1588284969329834,
+            "p90": 1.763669490814209
+          },
+          "mase_scale": 1.0511627906976744,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "819d940d385202a17ffe13b9627871820055a0b99c8b930f828fbd1a9227a1dd",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-05",
+          "actual": 1.2,
+          "predictions": {
+            "persistence": 1.2,
+            "seasonal": -0.1,
+            "drift": 1.209090909090909,
+            "ridge": 0.9792991861890159,
+            "challenger": 1.2058238983154297
+          },
+          "quantiles": {
+            "p10": 0.6484944224357605,
+            "p50": 1.2058238983154297,
+            "p90": 1.7704315185546875
+          },
+          "mase_scale": 1.0568181818181819,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "c96fa21dbb689d9eb585a33ee2e1813011ddce0227171fe480fad7f97f6c1e74",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-06",
+          "actual": 1.0,
+          "predictions": {
+            "persistence": 1.2,
+            "seasonal": 0.1,
+            "drift": 1.2089285714285714,
+            "ridge": 0.9866830585827504,
+            "challenger": 1.287180781364441
+          },
+          "quantiles": {
+            "p10": 0.8073621988296509,
+            "p50": 1.287180781364441,
+            "p90": 1.7683826684951782
+          },
+          "mase_scale": 1.0622222222222222,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "c24a6ee2be1417f3392b0ba97cd993b60b4beb1bf2217f8c54a4258114e3fe78",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-07",
+          "actual": 0.5,
+          "predictions": {
+            "persistence": 1.0,
+            "seasonal": 0.0,
+            "drift": 1.0052631578947369,
+            "ridge": 0.9942331152777879,
+            "challenger": 1.1090219020843506
+          },
+          "quantiles": {
+            "p10": 0.6499011516571045,
+            "p50": 1.1090219020843506,
+            "p90": 1.6111394166946411
+          },
+          "mase_scale": 1.058695652173913,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "e3c918e0d135ff267db4935c8c4bb3f222c8480898c445c43a68cf7747fed168",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "cpi_yoy",
+          "target": "2026-08",
+          "actual": 0.8,
+          "predictions": {
+            "persistence": 0.5,
+            "seasonal": -0.4,
+            "drift": 0.496551724137931,
+            "ridge": 0.8250208419646539,
+            "challenger": 0.6841138005256653
+          },
+          "quantiles": {
+            "p10": 0.1941242218017578,
+            "p50": 0.6841138005256653,
+            "p90": 1.2348934412002563
+          },
+          "mase_scale": 1.0468085106382978,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "b2efd6459f249fcdcdb59df0befe76609981158dee5f3fbbd0ee19ccf7d8e09a",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-09",
+          "actual": -2.3,
+          "predictions": {
+            "persistence": -2.9,
+            "seasonal": -2.8,
+            "drift": -3.1893617021276595,
+            "ridge": -2.674454755485507,
+            "challenger": -2.4312047958374023
+          },
+          "quantiles": {
+            "p10": -2.7748851776123047,
+            "p50": -2.4312047958374023,
+            "p90": -1.9845590591430664
+          },
+          "mase_scale": 4.594444444444445,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "b3c2bc9fda620cdba3e7ed6b3b1a436d946d9df1a115c791ebeeac731cfbc6cf",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-10",
+          "actual": -2.1,
+          "predictions": {
+            "persistence": -2.3,
+            "seasonal": -2.9,
+            "drift": -2.5708333333333333,
+            "ridge": -2.2001125799819174,
+            "challenger": -2.056978702545166
+          },
+          "quantiles": {
+            "p10": -2.4312076568603516,
+            "p50": -2.056978702545166,
+            "p90": -1.589095115661621
+          },
+          "mase_scale": 4.4837837837837835,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "bce0d17eb0573f6c2b09a507b0cd5312caa03ef4e7a4d686768db01729a350ff",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-11",
+          "actual": -2.2,
+          "predictions": {
+            "persistence": -2.1,
+            "seasonal": -2.5,
+            "drift": -2.3612244897959185,
+            "ridge": -2.016016060645937,
+            "challenger": -2.0950191020965576
+          },
+          "quantiles": {
+            "p10": -2.4775407314300537,
+            "p50": -2.0950191020965576,
+            "p90": -1.6176447868347168
+          },
+          "mase_scale": 4.386842105263159,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "df186535adb796e42c1ce2fa2e4373683367586882a4bfea7757fd760a2ae6be",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2025-12",
+          "actual": -1.9,
+          "predictions": {
+            "persistence": -2.2,
+            "seasonal": -2.3,
+            "drift": -2.458,
+            "ridge": -2.090199888884008,
+            "challenger": -2.2995285987854004
+          },
+          "quantiles": {
+            "p10": -2.6775612831115723,
+            "p50": -2.2995285987854004,
+            "p90": -1.8193552494049072
+          },
+          "mase_scale": 4.282051282051282,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "a4c0b2386f13b9b83be5ac11aec2586c6d6b2971a56977358e3881bdf8cba9f3",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-01",
+          "actual": -1.4,
+          "predictions": {
+            "persistence": -1.9,
+            "seasonal": -2.3,
+            "drift": -2.1470588235294117,
+            "ridge": -2.0017606865282738,
+            "challenger": -1.8658413887023926
+          },
+          "quantiles": {
+            "p10": -2.3019015789031982,
+            "p50": -1.8658413887023926,
+            "p90": -1.2758609056472778
+          },
+          "mase_scale": 4.1850000000000005,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "ca88c9c87b9f216c0d9ef28333618e22d538f8edf8906137dff305bae71e39f5",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-02",
+          "actual": -0.9,
+          "predictions": {
+            "persistence": -1.4,
+            "seasonal": -2.2,
+            "drift": -1.6326923076923077,
+            "ridge": -1.8022569930629018,
+            "challenger": -1.046523094177246
+          },
+          "quantiles": {
+            "p10": -1.6088476181030273,
+            "p50": -1.046523094177246,
+            "p90": -0.2973168194293976
+          },
+          "mase_scale": 4.104878048780488,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "f34de89d61ade2c912db65ad96e7b1d885d8bd0ce00c43f27bee9264d1972bc0",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-03",
+          "actual": 0.5,
+          "predictions": {
+            "persistence": -0.9,
+            "seasonal": -2.5,
+            "drift": -1.118867924528302,
+            "ridge": -1.5577669402440115,
+            "challenger": -0.39428961277008057
+          },
+          "quantiles": {
+            "p10": -1.0989736318588257,
+            "p50": -0.39428961277008057,
+            "p90": 0.23718954622745514
+          },
+          "mase_scale": 4.038095238095238,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "d7fcb9b3304a2a0e47176c8e793ae5f3e19c8f3fa1f8027e2e62dfc25b8da6d5",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-04",
+          "actual": 2.8,
+          "predictions": {
+            "persistence": 0.5,
+            "seasonal": -2.7,
+            "drift": 0.3111111111111111,
+            "ridge": -0.6253832142290443,
+            "challenger": 1.7357960939407349
+          },
+          "quantiles": {
+            "p10": 0.7491164803504944,
+            "p50": 1.7357960939407349,
+            "p90": 2.38785719871521
+          },
+          "mase_scale": 4.013953488372093,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "706989dbf7c312efe0456e3337b204c7eadd5612fc4e92d8be1111b1fdc132c7",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-05",
+          "actual": 3.9,
+          "predictions": {
+            "persistence": 2.8,
+            "seasonal": -3.3,
+            "drift": 2.6563636363636363,
+            "ridge": 1.5236575537807937,
+            "challenger": 4.248426914215088
+          },
+          "quantiles": {
+            "p10": 3.380790948867798,
+            "p50": 4.248426914215088,
+            "p90": 5.0989227294921875
+          },
+          "mase_scale": 4.047727272727273,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "f92253c4f73419d4af5ccfbff1bbcc506f7b62248722f5732d561c8ac057b42f",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-06",
+          "actual": 4.1,
+          "predictions": {
+            "persistence": 3.9,
+            "seasonal": -3.6,
+            "drift": 3.7785714285714285,
+            "ridge": 2.934220232097406,
+            "challenger": 4.351633071899414
+          },
+          "quantiles": {
+            "p10": 3.4399213790893555,
+            "p50": 4.351633071899414,
+            "p90": 5.149196147918701
+          },
+          "mase_scale": 4.117777777777778,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "fc7041fceb7bf802ca93507b7d8d2d7c5f33eead0c0de5af2f8727656f597bb2",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-07",
+          "actual": 3.5,
+          "predictions": {
+            "persistence": 4.1,
+            "seasonal": -3.6,
+            "drift": 3.984210526315789,
+            "ridge": 3.272268401853524,
+            "challenger": 4.233140468597412
+          },
+          "quantiles": {
+            "p10": 3.2244253158569336,
+            "p50": 4.233140468597412,
+            "p90": 4.942115306854248
+          },
+          "mase_scale": 4.195652173913044,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "9bb0d380d6a4d881e462a266903c073f1920ec3230bdba8f37be60ee643d5044",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "ppi_yoy",
+          "target": "2026-08",
+          "actual": 3.8,
+          "predictions": {
+            "persistence": 3.5,
+            "seasonal": -2.9,
+            "drift": 3.3758620689655174,
+            "ridge": 2.7619743061221183,
+            "challenger": 3.383265972137451
+          },
+          "quantiles": {
+            "p10": 2.3340744972229004,
+            "p50": 3.383265972137451,
+            "p90": 4.249602317810059
+          },
+          "mase_scale": 4.257446808510638,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "a8726bd146a17c23ccb31a8d464d53bb53114232a0aef6a5ff4fba91efd10a69",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-09",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": 0.0,
+            "seasonal": 0.0,
+            "drift": 0.0,
+            "ridge": -0.007220745273709231,
+            "challenger": -0.08963461220264435
+          },
+          "quantiles": {
+            "p10": -0.5143316984176636,
+            "p50": -0.08963461220264435,
+            "p90": 0.35836243629455566
+          },
+          "mase_scale": 0.35,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "eb4b2594222b943d44f0f3c577d9a2e677dd1d43c2c8e4bdc5c50918419856b4",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-10",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": -0.3,
+            "drift": 0.10208333333333335,
+            "ridge": -0.068848477339709,
+            "challenger": 0.010148812085390091
+          },
+          "quantiles": {
+            "p10": -0.40023815631866455,
+            "p50": 0.010148812085390091,
+            "p90": 0.44285616278648376
+          },
+          "mase_scale": 0.34324324324324323,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "6c59ad22e4ad46d058282745ffd812d73dd0a958d09ef07217408cf8f569098b",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-11",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": -0.6,
+            "drift": 0.20408163265306123,
+            "ridge": -0.08672978081284044,
+            "challenger": -0.17886126041412354
+          },
+          "quantiles": {
+            "p10": -0.5954732298851013,
+            "p50": -0.17886126041412354,
+            "p90": 0.2130686193704605
+          },
+          "mase_scale": 0.34736842105263155,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "df060326503aebb42ebca61fdc8cc84c92dccc09794e61865db01c302a0418cc",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2025-12",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": 0.0,
+            "drift": -0.10200000000000001,
+            "ridge": 1.922253381012734e-05,
+            "challenger": -0.01891355589032173
+          },
+          "quantiles": {
+            "p10": -0.4045118987560272,
+            "p50": -0.01891355589032173,
+            "p90": 0.3617655336856842
+          },
+          "mase_scale": 0.35128205128205126,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "d2e789646d25ea1c93d928f40f95c5c0eb7683399ca03f12c9e7190a2276c995",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-01",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": 0.7,
+            "drift": 0.20392156862745098,
+            "ridge": 0.06435053409405073,
+            "challenger": 0.23719501495361328
+          },
+          "quantiles": {
+            "p10": -0.10699020326137543,
+            "p50": 0.23719501495361328,
+            "p90": 0.6294721364974976
+          },
+          "mase_scale": 0.34750000000000003,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "3ae3f8df187c9da29123cdacf3ce344ff0fbabb1a5b015478bdec703b2f044d5",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-02",
+          "actual": 1.0,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": -0.2,
+            "drift": 0.20384615384615384,
+            "ridge": -0.13859589490983487,
+            "challenger": 0.41940486431121826
+          },
+          "quantiles": {
+            "p10": -0.010411374270915985,
+            "p50": 0.41940486431121826,
+            "p90": 0.8427696228027344
+          },
+          "mase_scale": 0.351219512195122,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "8e85788fd08126b6a41740d921368f486e44fbbacd042657c37b13fcec730999",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-03",
+          "actual": -0.7,
+          "predictions": {
+            "persistence": 1.0,
+            "seasonal": -0.4,
+            "drift": 1.0188679245283019,
+            "ridge": -0.3071880028056945,
+            "challenger": -0.3079967200756073
+          },
+          "quantiles": {
+            "p10": -0.6455838680267334,
+            "p50": -0.3079967200756073,
+            "p90": 0.0007833763957023621
+          },
+          "mase_scale": 0.37142857142857144,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "5e1287abd44a450c9e650a6a73d2cdb8e691cc5d0ce2f961eada409be90f71e6",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-04",
+          "actual": 0.3,
+          "predictions": {
+            "persistence": -0.7,
+            "seasonal": 0.1,
+            "drift": -0.7129629629629629,
+            "ridge": -0.11925873125934544,
+            "challenger": 0.15632593631744385
+          },
+          "quantiles": {
+            "p10": -0.04318846017122269,
+            "p50": 0.15632593631744385,
+            "p90": 0.3631662130355835
+          },
+          "mase_scale": 0.3697674418604651,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "eafb5f91c465dbf000c11241ace45a4d10ccd1788db2635343a4eed64e9bbd7b",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-05",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": 0.3,
+            "seasonal": -0.2,
+            "drift": 0.3054545454545454,
+            "ridge": -0.2048437544895637,
+            "challenger": -0.12283100932836533
+          },
+          "quantiles": {
+            "p10": -0.313671350479126,
+            "p50": -0.12283100932836533,
+            "p90": 0.06613356620073318
+          },
+          "mase_scale": 0.36590909090909096,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "45489bbcaf41c26d0b89f0fee9c0213f9e4533bbd5fb83b6e151d2a91532cf7b",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-06",
+          "actual": -0.3,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": -0.1,
+            "drift": -0.10178571428571428,
+            "ridge": 0.06410605489760406,
+            "challenger": -0.0489388182759285
+          },
+          "quantiles": {
+            "p10": -0.26859304308891296,
+            "p50": -0.0489388182759285,
+            "p90": 0.1518648862838745
+          },
+          "mase_scale": 0.36,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "4bdec16290fbf5e0e3fe910e5f66628169c04b59a7bd74625ea7f92a2afff993",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-07",
+          "actual": -0.1,
+          "predictions": {
+            "persistence": -0.3,
+            "seasonal": 0.4,
+            "drift": -0.30526315789473685,
+            "ridge": 0.11893510889353663,
+            "challenger": 0.5088300108909607
+          },
+          "quantiles": {
+            "p10": 0.2435699701309204,
+            "p50": 0.5088300108909607,
+            "p90": 0.7684013247489929
+          },
+          "mase_scale": 0.3565217391304348,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "163e3cb1a9758bd19676bf18a2758fb177090ec1773fe438a9b5caf366e03b11",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "cpi_mom",
+          "target": "2026-08",
+          "actual": 0.4,
+          "predictions": {
+            "persistence": -0.1,
+            "seasonal": 0.0,
+            "drift": -0.10172413793103449,
+            "ridge": 0.11157686247771402,
+            "challenger": 0.38111749291419983
+          },
+          "quantiles": {
+            "p10": 0.02336546778678894,
+            "p50": 0.38111749291419983,
+            "p90": 0.7315042018890381
+          },
+          "mase_scale": 0.35957446808510635,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "172258a87b81727ad3f5e0577308b55f67b377ec772a1fbe1abe6ebb92aa7ff1",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-09",
+          "actual": 0.0,
+          "predictions": {
+            "persistence": 0.0,
+            "seasonal": -0.6,
+            "drift": -0.02553191489361702,
+            "ridge": -0.08754961990510102,
+            "challenger": -0.08143305033445358
+          },
+          "quantiles": {
+            "p10": -0.2939479947090149,
+            "p50": -0.08143305033445358,
+            "p90": 0.14098787307739258
+          },
+          "mase_scale": 0.5583333333333333,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "5d05f649ffa4d72edeec10ad811c06248216c28b9cbdb7f42339bfc45c7a2175",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-10",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": 0.0,
+            "seasonal": -0.1,
+            "drift": -0.024999999999999998,
+            "ridge": -0.1567965903239818,
+            "challenger": -0.17297211289405823
+          },
+          "quantiles": {
+            "p10": -0.3323971927165985,
+            "p50": -0.17297211289405823,
+            "p90": 0.0020545348525047302
+          },
+          "mase_scale": 0.5594594594594594,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "d8c3a4fd24b703e7e90f97b8b992c3dcc97f900c55a241f5e524eb45f94e807b",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-11",
+          "actual": 0.1,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": 0.1,
+            "drift": 0.07755102040816328,
+            "ridge": -0.1408658274188644,
+            "challenger": -0.10275544971227646
+          },
+          "quantiles": {
+            "p10": -0.2831466794013977,
+            "p50": -0.10275544971227646,
+            "p90": 0.08510985970497131
+          },
+          "mase_scale": 0.5499999999999999,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "bf0dcbfc61cbd6d9b9eca8de6077c2d5cc95b9bbb23edf4688099772933b83bc",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2025-12",
+          "actual": 0.2,
+          "predictions": {
+            "persistence": 0.1,
+            "seasonal": -0.1,
+            "drift": 0.07800000000000001,
+            "ridge": -0.14289756111048332,
+            "challenger": -0.07947444170713425
+          },
+          "quantiles": {
+            "p10": -0.27101409435272217,
+            "p50": -0.07947444170713425,
+            "p90": 0.12260082364082336
+          },
+          "mase_scale": 0.5358974358974359,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "e0989e5e13a998a35edff6faba66e04f6c4a40e00fc78814f306243261348018",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-01",
+          "actual": 0.4,
+          "predictions": {
+            "persistence": 0.2,
+            "seasonal": -0.2,
+            "drift": 0.18039215686274512,
+            "ridge": -0.13153634878667675,
+            "challenger": 0.05688417702913284
+          },
+          "quantiles": {
+            "p10": -0.14738118648529053,
+            "p50": 0.05688417702913284,
+            "p90": 0.2943873703479767
+          },
+          "mase_scale": 0.53,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "f3e3476f750a3a3f3a9a96a755c12d6f6225d8832ab3a438f8c2d4c28a1d16d1",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-02",
+          "actual": 0.4,
+          "predictions": {
+            "persistence": 0.4,
+            "seasonal": -0.1,
+            "drift": 0.38461538461538464,
+            "ridge": -0.08825871557731019,
+            "challenger": 0.24508851766586304
+          },
+          "quantiles": {
+            "p10": 0.0070366039872169495,
+            "p50": 0.24508851766586304,
+            "p90": 0.536952555179596
+          },
+          "mase_scale": 0.5317073170731708,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "33afbf4056fc70c2f036063660f32cf61e2da88b5d010f4c58e4da6d9f3135b4",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-03",
+          "actual": 1.0,
+          "predictions": {
+            "persistence": 0.4,
+            "seasonal": -0.4,
+            "drift": 0.3849056603773585,
+            "ridge": -0.13559163521866002,
+            "challenger": 0.1444166898727417
+          },
+          "quantiles": {
+            "p10": -0.06712587177753448,
+            "p50": 0.1444166898727417,
+            "p90": 0.40690478682518005
+          },
+          "mase_scale": 0.530952380952381,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "1f8c8b1314ca2304239c81771975499e3b144693a373b5ca6d63f90674c4cc9b",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-04",
+          "actual": 1.7,
+          "predictions": {
+            "persistence": 1.0,
+            "seasonal": -0.4,
+            "drift": 0.9962962962962963,
+            "ridge": 0.2761045269805725,
+            "challenger": 0.8687135577201843
+          },
+          "quantiles": {
+            "p10": 0.3672674596309662,
+            "p50": 0.8687135577201843,
+            "p90": 1.5829253196716309
+          },
+          "mase_scale": 0.5511627906976744,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "7dff9a0403edb0dbe3709d7b4f4743d98e0f2027d1f0565bdf5b9e8baff97b27",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-05",
+          "actual": 0.5,
+          "predictions": {
+            "persistence": 1.7,
+            "seasonal": -0.4,
+            "drift": 1.709090909090909,
+            "ridge": 1.0333456276098854,
+            "challenger": 1.7408573627471924
+          },
+          "quantiles": {
+            "p10": 0.8973819613456726,
+            "p50": 1.7408573627471924,
+            "p90": 3.3199543952941895
+          },
+          "mase_scale": 0.5863636363636364,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "f4d351614b30386a975d1f353546f10b178a4893d25f3170c537300a542b8757",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-06",
+          "actual": -0.3,
+          "predictions": {
+            "persistence": 0.5,
+            "seasonal": -0.4,
+            "drift": 0.4875,
+            "ridge": -0.10666583609200397,
+            "challenger": 0.01198541559278965
+          },
+          "quantiles": {
+            "p10": -0.6554009318351746,
+            "p50": 0.01198541559278965,
+            "p90": 0.7148692607879639
+          },
+          "mase_scale": 0.5933333333333333,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "3285b5992411d8202ea59e877de948550197c90646be8304ca2e6e543a9db127",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-07",
+          "actual": -0.7,
+          "predictions": {
+            "persistence": -0.3,
+            "seasonal": -0.2,
+            "drift": -0.3263157894736842,
+            "ridge": -0.3755215524216149,
+            "challenger": -0.2888709008693695
+          },
+          "quantiles": {
+            "p10": -0.9425817131996155,
+            "p50": -0.2888709008693695,
+            "p90": 0.2988877594470978
+          },
+          "mase_scale": 0.5826086956521739,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "4c71abebf755596b8cbbcd40b80247b6739e84896e1aea4361efda7374dd8c4a",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "ppi_mom",
+          "target": "2026-08",
+          "actual": 0.4,
+          "predictions": {
+            "persistence": -0.7,
+            "seasonal": 0.0,
+            "drift": -0.7327586206896551,
+            "ridge": -0.49912409535290775,
+            "challenger": -0.4518987238407135
+          },
+          "quantiles": {
+            "p10": -1.158969521522522,
+            "p50": -0.4518987238407135,
+            "p90": 0.1624678671360016
+          },
+          "mase_scale": 0.5808510638297872,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "20caf5a51532db12132fc5b8ddfc30435ebe8f534fba210be309e1266e860840",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-09",
+          "actual": 49.8,
+          "predictions": {
+            "persistence": 49.4,
+            "seasonal": 49.8,
+            "drift": 49.39574468085106,
+            "ridge": 49.406496194848685,
+            "challenger": 49.579708099365234
+          },
+          "quantiles": {
+            "p10": 48.85432052612305,
+            "p50": 49.579708099365234,
+            "p90": 50.312599182128906
+          },
+          "mase_scale": 0.9444444444444449,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "b5d02ef8ae55eabb0035a95192415ca6c92e41224d64dd7e1856102e8964288c",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-10",
+          "actual": 49.0,
+          "predictions": {
+            "persistence": 49.8,
+            "seasonal": 50.1,
+            "drift": 49.80416666666667,
+            "ridge": 49.58999507508956,
+            "challenger": 49.63022232055664
+          },
+          "quantiles": {
+            "p10": 48.809967041015625,
+            "p50": 49.63022232055664,
+            "p90": 50.405860900878906
+          },
+          "mase_scale": 0.9189189189189193,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "922133138e520d3317ce0f11d2e3295406ccb50476dafe19f88edaf01d1d2f4c",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-11",
+          "actual": 49.2,
+          "predictions": {
+            "persistence": 49.0,
+            "seasonal": 50.3,
+            "drift": 48.987755102040815,
+            "ridge": 49.170068401388654,
+            "challenger": 49.48183822631836
+          },
+          "quantiles": {
+            "p10": 48.67055892944336,
+            "p50": 49.48183822631836,
+            "p90": 50.293235778808594
+          },
+          "mase_scale": 0.9236842105263162,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "abe6afab2c85974bb69a1fa7982569f6cb4f04b51986301229625d4509cc404e",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2025-12",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 49.2,
+            "seasonal": 50.1,
+            "drift": 49.192,
+            "ridge": 49.578249638452235,
+            "challenger": 49.65450668334961
+          },
+          "quantiles": {
+            "p10": 48.8383674621582,
+            "p50": 49.65450668334961,
+            "p90": 50.5965690612793
+          },
+          "mase_scale": 0.9282051282051285,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "3b7ed5971b8924607145461396e17f9ca1966576abd692aae72b02c6aca212cb",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-01",
+          "actual": 49.3,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 49.1,
+            "drift": 50.10980392156863,
+            "ridge": 50.159274272575544,
+            "challenger": 50.07426071166992
+          },
+          "quantiles": {
+            "p10": 49.361751556396484,
+            "p50": 50.07426071166992,
+            "p90": 50.99068832397461
+          },
+          "mase_scale": 0.9050000000000002,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "97213cca0f27ebd67ca88281d1c2c58810e818b54f3d1ee4d7e3041726ddc68d",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-02",
+          "actual": 49.0,
+          "predictions": {
+            "persistence": 49.3,
+            "seasonal": 50.2,
+            "drift": 49.294230769230765,
+            "ridge": 49.579904618395524,
+            "challenger": 49.53953170776367
+          },
+          "quantiles": {
+            "p10": 48.72232437133789,
+            "p50": 49.53953170776367,
+            "p90": 50.42915725708008
+          },
+          "mase_scale": 0.8878048780487806,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "49cd791ab70ace45955c906345948325d6b1a3b4f9962edc290e39e441451e46",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-03",
+          "actual": 50.4,
+          "predictions": {
+            "persistence": 49.0,
+            "seasonal": 50.5,
+            "drift": 48.988679245283016,
+            "ridge": 49.663745045943294,
+            "challenger": 49.52354431152344
+          },
+          "quantiles": {
+            "p10": 48.603206634521484,
+            "p50": 49.52354431152344,
+            "p90": 50.45838165283203
+          },
+          "mase_scale": 0.8952380952380954,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "5d2dd0f6cb17c84a5dad4b6d51d2397dc0cc47c6c786fc7be340a2ebdd3be6ad",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-04",
+          "actual": 50.3,
+          "predictions": {
+            "persistence": 50.4,
+            "seasonal": 49.0,
+            "drift": 50.41481481481481,
+            "ridge": 50.48145792795749,
+            "challenger": 49.93380355834961
+          },
+          "quantiles": {
+            "p10": 49.05018997192383,
+            "p50": 49.93380355834961,
+            "p90": 50.933536529541016
+          },
+          "mase_scale": 0.8767441860465118,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "81669f2dd2a95027c2989f4d1e94ec86b888def73d413ec218505bc0af884c83",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-05",
+          "actual": 50.0,
+          "predictions": {
+            "persistence": 50.3,
+            "seasonal": 49.5,
+            "drift": 50.31272727272727,
+            "ridge": 49.87491348330048,
+            "challenger": 49.20354080200195
+          },
+          "quantiles": {
+            "p10": 48.27396011352539,
+            "p50": 49.20354080200195,
+            "p90": 50.02568435668945
+          },
+          "mase_scale": 0.8863636363636366,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "5119c66e3422aa14085da6f04e6464412e5cf75005c117819f04f12b623db683",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-06",
+          "actual": 50.3,
+          "predictions": {
+            "persistence": 50.0,
+            "seasonal": 49.7,
+            "drift": 50.00714285714286,
+            "ridge": 49.47289092732117,
+            "challenger": 49.94620132446289
+          },
+          "quantiles": {
+            "p10": 49.212074279785156,
+            "p50": 49.94620132446289,
+            "p90": 50.74410629272461
+          },
+          "mase_scale": 0.877777777777778,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "4776809dc4a5598f02868b0cec6316a07d99e86916cd26aea21033b74e66cfee",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-07",
+          "actual": 49.2,
+          "predictions": {
+            "persistence": 50.3,
+            "seasonal": 49.3,
+            "drift": 50.31228070175438,
+            "ridge": 49.62565051285894,
+            "challenger": 49.733154296875
+          },
+          "quantiles": {
+            "p10": 48.90941619873047,
+            "p50": 49.733154296875,
+            "p90": 50.55286407470703
+          },
+          "mase_scale": 0.8717391304347827,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "5888a9bdd792938d12b1dd7efdde7d75b44eef966e6c9f652a1db19b90ee2724",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "manufacturing_pmi",
+          "target": "2026-08",
+          "actual": 49.8,
+          "predictions": {
+            "persistence": 49.2,
+            "seasonal": 49.4,
+            "drift": 49.19310344827586,
+            "ridge": 49.023725864592194,
+            "challenger": 48.89072036743164
+          },
+          "quantiles": {
+            "p10": 47.70708465576172,
+            "p50": 48.89072036743164,
+            "p90": 49.81680679321289
+          },
+          "mase_scale": 0.8553191489361701,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "981b6c8620dbf216587753848041279204476ceee6d494e9d83b7fb8208d19fc",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-09",
+          "actual": 49.7,
+          "predictions": {
+            "persistence": 49.5,
+            "seasonal": 49.9,
+            "drift": 49.50425531914894,
+            "ridge": 49.19537828124676,
+            "challenger": 49.66359329223633
+          },
+          "quantiles": {
+            "p10": 48.76169967651367,
+            "p50": 49.66359329223633,
+            "p90": 50.86319351196289
+          },
+          "mase_scale": 1.8111111111111116,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "fb442b2f4e7217d5965bc4093f890612b536dfb6288c20f21a6e4eb35f3bb8bd",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-10",
+          "actual": 48.8,
+          "predictions": {
+            "persistence": 49.7,
+            "seasonal": 50.0,
+            "drift": 49.708333333333336,
+            "ridge": 49.38301997518368,
+            "challenger": 49.587520599365234
+          },
+          "quantiles": {
+            "p10": 48.474220275878906,
+            "p50": 49.587520599365234,
+            "p90": 50.69656753540039
+          },
+          "mase_scale": 1.7675675675675677,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "568ec0698bcf7a96a6692b89d09ea7b23e4099402e1fe1ac7e7a85ac85ec116a",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-11",
+          "actual": 49.2,
+          "predictions": {
+            "persistence": 48.8,
+            "seasonal": 50.8,
+            "drift": 48.789795918367346,
+            "ridge": 49.155583917021296,
+            "challenger": 49.31712341308594
+          },
+          "quantiles": {
+            "p10": 48.13429260253906,
+            "p50": 49.31712341308594,
+            "p90": 50.533687591552734
+          },
+          "mase_scale": 1.752631578947369,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "5b0c395acb409123a965ed39b48714f32da459764ccf7ba9d25f50f8b444c01a",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2025-12",
+          "actual": 50.8,
+          "predictions": {
+            "persistence": 49.2,
+            "seasonal": 51.0,
+            "drift": 49.198,
+            "ridge": 49.674280400450755,
+            "challenger": 49.45875549316406
+          },
+          "quantiles": {
+            "p10": 48.38192367553711,
+            "p50": 49.45875549316406,
+            "p90": 50.73086929321289
+          },
+          "mase_scale": 1.7487179487179492,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "ff07b6f5a3341b8e003640b3907ab29c5ee4dedab332e92def7bd4e5579602df",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-01",
+          "actual": 49.2,
+          "predictions": {
+            "persistence": 50.8,
+            "seasonal": 49.2,
+            "drift": 50.82941176470588,
+            "ridge": 50.464928759325666,
+            "challenger": 49.94661331176758
+          },
+          "quantiles": {
+            "p10": 48.981346130371094,
+            "p50": 49.94661331176758,
+            "p90": 51.12886428833008
+          },
+          "mase_scale": 1.7100000000000002,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "93634bc947b8e8b40c15ee43e58082f163e57c7557317be8377303efcd8aee31",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-02",
+          "actual": 48.6,
+          "predictions": {
+            "persistence": 49.2,
+            "seasonal": 51.1,
+            "drift": 49.198076923076925,
+            "ridge": 49.93099944686769,
+            "challenger": 49.64762496948242
+          },
+          "quantiles": {
+            "p10": 48.3899040222168,
+            "p50": 49.64762496948242,
+            "p90": 51.09414291381836
+          },
+          "mase_scale": 1.6682926829268294,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "8fc88890b9c44f84943fb7a456a2234a8d74ad2f15a45e5592e4c01b2f146f2f",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-03",
+          "actual": 51.6,
+          "predictions": {
+            "persistence": 48.6,
+            "seasonal": 51.8,
+            "drift": 48.58679245283019,
+            "ridge": 49.96178417737348,
+            "challenger": 49.311981201171875
+          },
+          "quantiles": {
+            "p10": 47.41551971435547,
+            "p50": 49.311981201171875,
+            "p90": 50.96076202392578
+          },
+          "mase_scale": 1.6880952380952383,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "3f3395529fba22564d1c5a20f88a373e422d2952fa01ccca845a0b56bf1df281",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-04",
+          "actual": 50.6,
+          "predictions": {
+            "persistence": 51.6,
+            "seasonal": 49.2,
+            "drift": 51.64259259259259,
+            "ridge": 51.31974172133025,
+            "challenger": 49.706722259521484
+          },
+          "quantiles": {
+            "p10": 47.82992935180664,
+            "p50": 49.706722259521484,
+            "p90": 51.63652038574219
+          },
+          "mase_scale": 1.6534883720930234,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "338ece79eb2357ad2eebd547010db61f333aaee3088fbcd50242fcf63cf7ee35",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-05",
+          "actual": 49.9,
+          "predictions": {
+            "persistence": 50.6,
+            "seasonal": 49.8,
+            "drift": 50.623636363636365,
+            "ridge": 50.33217161726267,
+            "challenger": 49.10466766357422
+          },
+          "quantiles": {
+            "p10": 47.632694244384766,
+            "p50": 49.10466766357422,
+            "p90": 50.48421859741211
+          },
+          "mase_scale": 1.6477272727272727,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "e08b9b036fcb4d97814bddbf96195f692613a913c68d995ab225330789e8cee7",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-06",
+          "actual": 51.2,
+          "predictions": {
+            "persistence": 49.9,
+            "seasonal": 50.2,
+            "drift": 49.910714285714285,
+            "ridge": 49.59206451992861,
+            "challenger": 49.81203842163086
+          },
+          "quantiles": {
+            "p10": 48.53224182128906,
+            "p50": 49.81203842163086,
+            "p90": 51.27779769897461
+          },
+          "mase_scale": 1.6133333333333335,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "4984de48344e4f85ff5cf4ef53a209290e5eecfdfe9598ae5a2060c445a31010",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-07",
+          "actual": 48.5,
+          "predictions": {
+            "persistence": 51.2,
+            "seasonal": 49.4,
+            "drift": 51.233333333333334,
+            "ridge": 50.082160214694554,
+            "challenger": 49.809574127197266
+          },
+          "quantiles": {
+            "p10": 48.578857421875,
+            "p50": 49.809574127197266,
+            "p90": 51.23285675048828
+          },
+          "mase_scale": 1.6,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "996aba5443a8b71664a3a170b785af86c59271abe0b62ce23e5e7e248a6e1a3d",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "manufacturing_new_orders_pmi",
+          "target": "2026-08",
+          "actual": 50.6,
+          "predictions": {
+            "persistence": 48.5,
+            "seasonal": 49.5,
+            "drift": 48.48620689655172,
+            "ridge": 48.73213151856035,
+            "challenger": 48.6154899597168
+          },
+          "quantiles": {
+            "p10": 46.085792541503906,
+            "p50": 48.6154899597168,
+            "p90": 50.34579849243164
+          },
+          "mase_scale": 1.5851063829787233,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "6bc8eb75c3981ac15bf44e5572339df79c35967fcbbb3302fe0930ada2677dce",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-09",
+          "actual": 50.0,
+          "predictions": {
+            "persistence": 50.3,
+            "seasonal": 50.0,
+            "drift": 50.238297872340425,
+            "ridge": 50.17780736961805,
+            "challenger": 50.28106689453125
+          },
+          "quantiles": {
+            "p10": 49.556915283203125,
+            "p50": 50.28106689453125,
+            "p90": 51.28947448730469
+          },
+          "mase_scale": 3.313888888888889,
+          "context_n": 48,
+          "context_end": "2025-08",
+          "context_sha256": "a9e0e78c8a2d764519dbb65ffa1305231ed1071259a25d9f6fbc68785d142543",
+          "ridge_train_n": 36,
+          "ridge_train_end": "2025-08"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-10",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 50.0,
+            "seasonal": 50.2,
+            "drift": 49.93333333333333,
+            "ridge": 49.99804474661481,
+            "challenger": 50.15689468383789
+          },
+          "quantiles": {
+            "p10": 49.2805290222168,
+            "p50": 50.15689468383789,
+            "p90": 51.59056091308594
+          },
+          "mase_scale": 3.2243243243243245,
+          "context_n": 49,
+          "context_end": "2025-09",
+          "context_sha256": "ce0cded99c59f851b4f39e797c8960c5246c2f6475300612be6d914ee129964f",
+          "ridge_train_n": 37,
+          "ridge_train_end": "2025-09"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-11",
+          "actual": 49.5,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 50.0,
+            "drift": 50.036734693877555,
+            "ridge": 50.17843540702065,
+            "challenger": 50.112430572509766
+          },
+          "quantiles": {
+            "p10": 49.18592071533203,
+            "p50": 50.112430572509766,
+            "p90": 51.38493728637695
+          },
+          "mase_scale": 3.142105263157895,
+          "context_n": 50,
+          "context_end": "2025-10",
+          "context_sha256": "e3374c4e027e830f85897c8b2df6bc9b10b183bfc8faabf8cd787cbbcbd3afce",
+          "ridge_train_n": 38,
+          "ridge_train_end": "2025-10"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2025-12",
+          "actual": 50.2,
+          "predictions": {
+            "persistence": 49.5,
+            "seasonal": 52.2,
+            "drift": 49.426,
+            "ridge": 50.127795143046356,
+            "challenger": 49.77521896362305
+          },
+          "quantiles": {
+            "p10": 48.636573791503906,
+            "p50": 49.77521896362305,
+            "p90": 51.096092224121094
+          },
+          "mase_scale": 3.0743589743589745,
+          "context_n": 51,
+          "context_end": "2025-11",
+          "context_sha256": "e0ec9b8aba99f074de6c551f227138472bcf5f24d09726d08531edc286cb077a",
+          "ridge_train_n": 39,
+          "ridge_train_end": "2025-11"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-01",
+          "actual": 49.4,
+          "predictions": {
+            "persistence": 50.2,
+            "seasonal": 50.2,
+            "drift": 50.141176470588235,
+            "ridge": 51.0783733764811,
+            "challenger": 49.99977111816406
+          },
+          "quantiles": {
+            "p10": 49.26138687133789,
+            "p50": 49.99977111816406,
+            "p90": 50.77351379394531
+          },
+          "mase_scale": 3.0475000000000003,
+          "context_n": 52,
+          "context_end": "2025-12",
+          "context_sha256": "7c42e045c98bbdbe7ccb79b81cb5d1626c23f4644f299bc15be2dc0e5f68ff88",
+          "ridge_train_n": 40,
+          "ridge_train_end": "2025-12"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-02",
+          "actual": 49.5,
+          "predictions": {
+            "persistence": 49.4,
+            "seasonal": 50.4,
+            "drift": 49.32692307692307,
+            "ridge": 51.305724595946394,
+            "challenger": 49.77616882324219
+          },
+          "quantiles": {
+            "p10": 48.97581481933594,
+            "p50": 49.77616882324219,
+            "p90": 50.662235260009766
+          },
+          "mase_scale": 2.9926829268292687,
+          "context_n": 53,
+          "context_end": "2026-01",
+          "context_sha256": "1334c610297f995bd156bc34f55a5183919b7769f0c7b22d05d7484d7984b988",
+          "ridge_train_n": 41,
+          "ridge_train_end": "2026-01"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-03",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 49.5,
+            "seasonal": 50.8,
+            "drift": 49.43018867924528,
+            "ridge": 51.40529562316009,
+            "challenger": 49.61812210083008
+          },
+          "quantiles": {
+            "p10": 48.87221145629883,
+            "p50": 49.61812210083008,
+            "p90": 50.49657440185547
+          },
+          "mase_scale": 2.942857142857143,
+          "context_n": 54,
+          "context_end": "2026-02",
+          "context_sha256": "199353bc35e2569befa9474155a2ada51848904ca2443fd981d6a272ec82ef2a",
+          "ridge_train_n": 42,
+          "ridge_train_end": "2026-02"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-04",
+          "actual": 49.4,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 50.4,
+            "drift": 50.04259259259259,
+            "ridge": 51.87564585251064,
+            "challenger": 49.87543487548828
+          },
+          "quantiles": {
+            "p10": 49.10914993286133,
+            "p50": 49.87543487548828,
+            "p90": 50.739376068115234
+          },
+          "mase_scale": 2.890697674418605,
+          "context_n": 55,
+          "context_end": "2026-03",
+          "context_sha256": "68f1500a575dfab793a54fe9991186cd9c5ce75afd0aa0222311aaf43e959aa4",
+          "ridge_train_n": 43,
+          "ridge_train_end": "2026-03"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-05",
+          "actual": 50.1,
+          "predictions": {
+            "persistence": 49.4,
+            "seasonal": 50.3,
+            "drift": 49.33090909090909,
+            "ridge": 51.304657350094,
+            "challenger": 49.462032318115234
+          },
+          "quantiles": {
+            "p10": 48.533451080322266,
+            "p50": 49.462032318115234,
+            "p90": 50.62052917480469
+          },
+          "mase_scale": 2.847727272727273,
+          "context_n": 56,
+          "context_end": "2026-04",
+          "context_sha256": "c5f566b88cea8224334f5c5e8c0460eb2bd7a40557701a82c11decf8bb50f532",
+          "ridge_train_n": 44,
+          "ridge_train_end": "2026-04"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-06",
+          "actual": 50.2,
+          "predictions": {
+            "persistence": 50.1,
+            "seasonal": 50.5,
+            "drift": 50.04464285714286,
+            "ridge": 51.04705627044885,
+            "challenger": 49.78337478637695
+          },
+          "quantiles": {
+            "p10": 48.816585540771484,
+            "p50": 49.78337478637695,
+            "p90": 50.95680618286133
+          },
+          "mase_scale": 2.7888888888888888,
+          "context_n": 57,
+          "context_end": "2026-05",
+          "context_sha256": "aea034574e281fe61a1f57cee4180b7627ee1d0739568083a38858a038009888",
+          "ridge_train_n": 45,
+          "ridge_train_end": "2026-05"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-07",
+          "actual": 49.0,
+          "predictions": {
+            "persistence": 50.2,
+            "seasonal": 50.1,
+            "drift": 50.14736842105263,
+            "ridge": 50.835074479860644,
+            "challenger": 49.953392028808594
+          },
+          "quantiles": {
+            "p10": 49.036338806152344,
+            "p50": 49.953392028808594,
+            "p90": 51.10441589355469
+          },
+          "mase_scale": 2.734782608695652,
+          "context_n": 58,
+          "context_end": "2026-06",
+          "context_sha256": "075618e0620fcfc96307f2b1f64f753742126237701d70be720af24e32da6385",
+          "ridge_train_n": 46,
+          "ridge_train_end": "2026-06"
+        },
+        {
+          "key": "nonmanufacturing_pmi",
+          "target": "2026-08",
+          "actual": 49.0,
+          "predictions": {
+            "persistence": 49.0,
+            "seasonal": 50.3,
+            "drift": 48.92758620689655,
+            "ridge": 49.705588294002965,
+            "challenger": 49.45869064331055
+          },
+          "quantiles": {
+            "p10": 48.23446273803711,
+            "p50": 49.45869064331055,
+            "p90": 51.13432312011719
+          },
+          "mase_scale": 2.7,
+          "context_n": 59,
+          "context_end": "2026-07",
+          "context_sha256": "3b85c9c545f3068f56bda59cf32cdaba79b9505f6cf4077b7c5eb51fa65f6cde",
+          "ridge_train_n": 47,
+          "ridge_train_end": "2026-07"
+        }
+      ]
+    },
+    "failures_dropped": 0,
+    "fine_tuning": false,
+    "real_time_vintage_verified": false,
+    "report_id": "455996a5bb7290873a66592398e2e7b469a4f396e6527d0fb3edd0475f02bb1a"
+  },
+  "protocol": {
+    "version": "chronos-synth-retrospective-protocol-v1",
+    "status": "preauthorization_locked_plan_not_real_model_results",
+    "created_at_utc": "2026-10-04T23:31:24.915677+00:00",
+    "model": {
+      "id": "autogluon/chronos-2-synth",
+      "revision": "3607918a9fd027d5c465d8213e46b98e2c041cea",
+      "weights_sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+      "provider_training_claim": "synthetic-only; independently unaudited",
+      "code_candidate": "chronos-forecasting==2.3.2",
+      "device": "cpu",
+      "dtype": "float32",
+      "fine_tuning": false,
+      "external_covariates": false,
+      "cross_indicator_grouping": false,
+      "prediction_length": 1,
+      "point": "p50",
+      "quantiles": [
+        0.1,
+        0.5,
+        0.9
+      ],
+      "context": "all available fixed-snapshot prefix; 36..59 monthly observations",
+      "trust_remote_code": false,
+      "weights_downloaded": false,
+      "executed": false
+    },
+    "source": {
+      "file": "src/china_macro/demo_data.json",
+      "sha256": "90e4e0d4237d2c414578c29786c9585bddbc27192cdd7c65c937f563326bb6c2",
+      "captured_at": "2026-10-03T19:08:02+00:00",
+      "repository_commit": "10981d934329e9d3ed68febbacbb9657f1a63c63",
+      "indicator_keys": [
+        "cpi_yoy",
+        "ppi_yoy",
+        "cpi_mom",
+        "ppi_mom",
+        "manufacturing_pmi",
+        "manufacturing_new_orders_pmi",
+        "nonmanufacturing_pmi"
+      ],
+      "all_seven_rows": 423,
+      "eligible_rows": 420,
+      "excluded_rows": "Three 2026-09 PMI rows only; snapshot retained unchanged."
+    },
+    "common_end": "2026-08",
+    "splits": {
+      "development": [
+        "2024-09",
+        "2025-08"
+      ],
+      "audit": [
+        "2025-09",
+        "2026-08"
+      ]
+    },
+    "issue_boundary": "target statistical month day 20; all context publication dates strictly earlier; target publication strictly later",
+    "real_time_vintage_verified": false,
+    "already_seen_historical_labels": true,
+    "baselines": [
+      "persistence",
+      "seasonal",
+      "drift",
+      "ridge"
+    ],
+    "ridge": "Existing frozen StandardScaler+Ridge(alpha=10), lags1/2/3/12 and month sin/cos; past labeled samples only; min24/max120; no tuning.",
+    "audit_reference_selection": "Minimum development MAE among four; ties use declared baseline order; distinct from unchanged production reference.",
+    "metrics": {
+      "point": [
+        "MAE",
+        "RMSE",
+        "seasonal_MASE"
+      ],
+      "mase_denominator": "Mean absolute 12-month difference inside each origin prefix; <=1e-12 undefined, no epsilon replacement or dropping.",
+      "macro": "Equal mean of seven per-indicator MASE; do not pool raw percent/index-point MAE across indicators.",
+      "uncertainty": "Paired circular 3-month blocks, 2000 resamples, seed42; descriptive 95% only, not significance or unseen-population inference.",
+      "quantiles": "Uncalibrated p10/p50/p90; 80% coverage, mean width, pinball at0.1/0.5/0.9; no posthoc calibration.",
+      "slices": {
+        "2025_sep_dec": [
+          "2025-09",
+          "2025-12"
+        ],
+        "2026_jan_aug": [
+          "2026-01",
+          "2026-08"
+        ]
+      }
+    },
+    "descriptive_screen": {
+      "required": "All84 complete ordered finite quantiles, defined MASE; challenger macro MASE below each of4 baselines; macro paired95 upper<0 vs development reference; >=5/7 per-indicator MASE wins with1e-8 tolerance.",
+      "production_default_change_allowed": false,
+      "prospective_validation_required_even_if_passed": true
+    },
+    "resource_budget": {
+      "cpu_threads": 4,
+      "interop_threads": 1,
+      "blas_threads": 1,
+      "batch_size": 1,
+      "max_wall_seconds": 1800.0,
+      "max_load_seconds": 120.0,
+      "max_origin_seconds": 45.0,
+      "start_available_bytes": 4294967296,
+      "min_available_bytes": 1610612736,
+      "max_working_set_bytes": 2684354560,
+      "max_private_bytes": 3221225472,
+      "poll_seconds": 0.25
+    },
+    "disk_budget": {
+      "research_root": "Separate D research environment; never modify application .venv or lock",
+      "max_total_research_bytes": 5368709120,
+      "min_D_free_start_bytes": 8589934592,
+      "min_D_free_during_bytes": 3221225472,
+      "cache_and_temp": "D only, including pip and HF caches; no new C artifacts"
+    },
+    "stops": [
+      "No execution authorization: stop before download/install/actual backend.",
+      "Unresolved full dependency hashes/licenses/security or unsupported CPU adapter: stop before real scoring.",
+      "Data SHA/schema/gap/publication/lag mismatch: stop, no imputation or substituted date range.",
+      "Resource probe error or budget threshold exceeded: terminate only owned experiment worker and preserve partial log.",
+      "Missing/invalid/crossed quantiles, OOM, timeout, worker crash or any failed origin: incomplete result, no selective metric dropping or automatic rerun.",
+      "No observed advantage: retain full negative results/model identity and keep production default unchanged."
+    ],
+    "no_paid_api": true,
+    "no_secret_reads": true,
+    "new_software_or_model_downloads": false,
+    "authorization": "Awaiting user approval. Passage of time or fixture success never implies approval."
+  },
+  "provenance": {
+    "model_id": "autogluon/chronos-2-synth",
+    "revision": "3607918a9fd027d5c465d8213e46b98e2c041cea",
+    "weights_sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+    "protocol_sha256": "cd1abcfa04b3d3183cfbd4cb0a365f62aca3d90503b85d09136a4ae21d712261",
+    "requirements_sha256": "efbe299f880593507852de664f9acbe19599ac68854fcdfb121475a367911f0a",
+    "model_code_version": "chronos-forecasting==2.3.2",
+    "torch_version": "2.14.1+cpu",
+    "audit_elapsed_seconds": 21.73499999998603,
+    "model_load_seconds": 15.078000000008615,
+    "audit_model_predictions": 84,
+    "development_model_predictions": 0,
+    "audit_attempts": 1,
+    "trained_here": false,
+    "fine_tuned_here": false,
+    "provider_training_claim": "synthetic-only; independently unaudited",
+    "sampled_peak_combined_working_set_bytes": 1033523200,
+    "sampled_peak_combined_private_bytes": 1055674368,
+    "minimum_available_bytes": 3417325568,
+    "actual_worker_process_parent_verified": true,
+    "max_memory_sample_gap_seconds": 0.5159999999741558,
+    "scientific_source": "research/chronos/chronos_audit_core.py (original pre-execution freeze)",
+    "packaged_verifier_note": "Only local variable names differ for static type narrowing; independent replay refits baselines and rechecks all scores without new model predictions.",
+    "real_time_vintage_verified": false,
+    "previously_seen_historical_labels": true,
+    "production_default_changed": false,
+    "economic_data_uploaded": false,
+    "network_access_in_model_worker": false
+  },
+  "verification_limit": "数据和指标可离线重算；模型执行的依据是另存的本机运行记录与文件哈希。"
+}

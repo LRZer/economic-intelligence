@@ -26,6 +26,26 @@
 
 ![同年跨国同行对照：美国 HS85，2025 年](assets/screenshots/sector-comparison.png)
 
+
+## 时序基础模型：实际零样本预测与固定审计
+
+新增“研究与风险分析 → 时序基础模型审计”，展示本机实际运行的 **Chronos-2-Synth**。官方固定权重、118,985,888参数，CPU float32，不微调；7个NBS月度指标、2025-09—2026-08同窗84/84单步预测，开发期只选参考、不运行模型。普通界面读取已验证结果，不需要PyTorch、模型下载或付费API。
+
+七项等权MASE **0.478350**，固定Ridge **0.570978**，6/7项胜过开发期预选参考；但配对描述性95%区间 **[-0.182745, 0.011344]** 仍跨零，**未通过预先固定的研究门槛**。原生80%分位数带覆盖33.3%—91.7%，未事后校准。全部正负结果保留，原生产默认参考和证据助手首测不变；当前修订历史已查看，不称盲测或实时版本验证。
+
+独立D研究环境44个依赖完整哈希/许可/安全核查，原Conda及应用环境未修改；Windows DLL和资源监控修正均在首次经济预测前完成，原记录保留。单次真实审计监督记录约21.73秒，合计峰值工作集0.96GiB，目录约1.48GiB；不是通用性能承诺。
+
+本地验收：345项测试与10个子测试通过，最后展示/重试补充后17项相关回归通过；Ruff、23文件mypy、前端检查、依赖一致性和安全扫描通过，Edge桌面/移动/离线12项通过。完整报告和失败勘误均保留，最终提交CI另行核对。
+
+![固定基础模型审计桌面界面](assets/demo/chronos-synth-v1/chronos-overview-desktop.png)
+
+[完整方法、指标、局限及复现](docs/CHRONOS_SYNTH_ACCEPTANCE.md) · [直接打开离线报告](assets/demo/chronos-synth-v1/chronos-synth-audit.html) · [可重算JSON](assets/demo/chronos-synth-v1/chronos-synth-audit.json) · [独立研究环境复现](research/chronos/REPRODUCE.md)
+
+```powershell
+.\.venv\Scripts\python.exe scripts/verify_chronos_report.py assets/demo/chronos-synth-v1/chronos-synth-audit.json
+.\.venv\Scripts\python.exe scripts/check_chronos_evidence.py
+```
+
 ## 中国月度研究：证据约束闭环
 
 在 **风险研究 → 中国月度预测与异常** 选择七个已定义指标之一，再选“上个自然月／去年同月”。月度核验单把官方读数、同口径百分点差、固定回测、默认基线、下一统计期实验估计、异常提示和局限分别标记；每条声明带官方观察或本地模型证据依赖。
@@ -73,7 +93,7 @@ python -m pytest -q tests/test_evidence_assistant.py tests/test_evidence_assista
 
 独立Decimal金标准、六个真实工程例通过；本机301项＋10子测试通过，最终安全异常及窄屏修正后33项受影响测试及19文件类型检查通过，准确提交CI覆盖完整更新套件。真实桌面/390px浏览器13场景通过。没有新图神经网络依赖、ML训练或付费请求。
 
-[公式、完整验收与局限](docs/TRADE_GRAPH_ACCEPTANCE.md) · [可离线打开的真实情景](assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.html) · [Chronos synthetic只读可行性及待授权步骤](docs/CHRONOS_SYNTH_FEASIBILITY.md)
+[公式、完整验收与局限](docs/TRADE_GRAPH_ACCEPTANCE.md) · [可离线打开的真实情景](assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.html) · [Chronos实验前可行性历史记录](docs/CHRONOS_SYNTH_FEASIBILITY.md) · [真实基础模型审计](docs/CHRONOS_SYNTH_ACCEPTANCE.md)
 
 ```powershell
 python scripts/verify_trade_graph.py assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.json

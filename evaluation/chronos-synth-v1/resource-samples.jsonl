@@ -1,0 +1,4 @@
+{"elapsed": 5.0, "phase": "loading", "combined_host_backend": {"working_set_bytes": 377057280, "peak_working_set_bytes": 377548800, "private_bytes": 325505024, "available_bytes": 4227747840}}
+{"elapsed": 10.015999999974156, "phase": "loading", "combined_host_backend": {"working_set_bytes": 435376128, "peak_working_set_bytes": 435380224, "private_bytes": 379080704, "available_bytes": 4130435072}}
+{"elapsed": 15.030999999988126, "phase": "loading", "combined_host_backend": {"working_set_bytes": 828760064, "peak_working_set_bytes": 828760064, "private_bytes": 804581376, "available_bytes": 3766988800}}
+{"elapsed": 20.046999999991385, "phase": "origin", "combined_host_backend": {"working_set_bytes": 1018630144, "peak_working_set_bytes": 1032785920, "private_bytes": 1026850816, "available_bytes": 3566256128}}

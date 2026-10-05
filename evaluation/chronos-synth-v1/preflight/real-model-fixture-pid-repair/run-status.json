@@ -1,0 +1,99 @@
+{
+  "status": "complete",
+  "recorded_at_utc": "2026-10-05T15:26:13.203815+00:00",
+  "stop_reason": null,
+  "elapsed_seconds": 16.40600000001723,
+  "budget": {
+    "cpu_threads": 4,
+    "interop_threads": 1,
+    "blas_threads": 1,
+    "batch_size": 1,
+    "max_wall_seconds": 1800.0,
+    "max_load_seconds": 120.0,
+    "max_origin_seconds": 45.0,
+    "start_available_bytes": 4294967296,
+    "min_available_bytes": 1610612736,
+    "max_working_set_bytes": 2684354560,
+    "max_private_bytes": 3221225472,
+    "poll_seconds": 0.25
+  },
+  "initial_resources": {
+    "total_physical_bytes": 16978403328,
+    "available_bytes": 4412248064,
+    "working_set_bytes": 167084032,
+    "peak_working_set_bytes": 167084032,
+    "private_bytes": 134066176
+  },
+  "initial_disk": {
+    "free_bytes": 38631882752,
+    "logical_research_bytes": 1593252905
+  },
+  "final_disk": {
+    "free_bytes": 38631870464,
+    "logical_research_bytes": 1593256439
+  },
+  "resource_probe_scope": "entire isolated D research root; aggregate host and owned model worker memory",
+  "sampled_peak_combined_working_set_bytes": 1024229376,
+  "sampled_peak_combined_private_bytes": 985640960,
+  "minimum_available_bytes": 3586306048,
+  "worker_exit_code": 0,
+  "actual_model_worker_pid": 41220,
+  "launcher_pid": 42616,
+  "worker_parent_verified_by_Windows": true,
+  "memory_sample_count": 60,
+  "max_memory_sample_gap_seconds": 0.48399999999674037,
+  "max_disk_scan_seconds": 1.0160000000032596,
+  "disk_monitor_independent_from_memory": true,
+  "completed_origins": 0,
+  "actual_model_predictions": 2,
+  "last_origin": null,
+  "model_ready": {
+    "event": "model_ready",
+    "torch_version": "2.14.1+cpu",
+    "cpu_threads": 4,
+    "interop_threads": 1,
+    "device": "cpu",
+    "dtype": "float32",
+    "parameter_count": 118985888,
+    "weights_sha256": "920a3344726a8026c9335d38ae1a2bfa9b7d659c1b8fe0b0af8d5f775863422e",
+    "load_seconds": 15.23399999999674,
+    "local_files_only": true,
+    "trust_remote_code": false,
+    "use_safetensors": true,
+    "model_eval": true,
+    "cross_learning": false,
+    "quantiles_native": true,
+    "network_access_disabled": true,
+    "blocked_network_attempts": 0,
+    "existing_system_runtime_preloads": [
+      {
+        "name": "vcruntime140.dll",
+        "sha256": "d1f4225df2cd877dbf130d5668a021dce3f94118455ff5ec952061c30afc9ce7"
+      },
+      {
+        "name": "vcruntime140_1.dll",
+        "sha256": "a7146c08f89fe5b04541ab507cdb59ff7b44534d4ba3c668a426c6450a03434e"
+      },
+      {
+        "name": "msvcp140.dll",
+        "sha256": "7c26614e1d733892c2deac7e245ce115504b1d80592dd0a01b08e3e5a55f89ca"
+      },
+      {
+        "name": "msvcp140_atomic_wait.dll",
+        "sha256": "3d0cbfaa1bf3eecf5a3f4491d2960ee803cb994f30292c6adc4a07c498f60e2b"
+      },
+      {
+        "name": "concrt140.dll",
+        "sha256": "54716f0738af891f283d213b5c8d11b25896bb8ee3097d301eae718560cf974e"
+      }
+    ]
+  },
+  "prediction_seconds": [
+    0.07800000000861473,
+    0.0629999999946449
+  ],
+  "paid_api_called": false,
+  "data_uploaded": false,
+  "production_default_changed": false,
+  "protocol_changed": false
+}

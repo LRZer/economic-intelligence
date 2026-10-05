@@ -1,0 +1,24 @@
+{
+  "recorded_at_utc": "2026-10-05T15:08:22.878746+00:00",
+  "kind": "operational_runtime_loader_repair_before_any_actual_prediction",
+  "first_failure_retained": "reports/real-model-fixture/run-status.json",
+  "first_failure_model_predictions": 0,
+  "diagnostic": "reports/dll-readonly-diagnosis.json",
+  "original_runtime": "Anaconda 14.27/14.29 MSVC DLLs; import failed",
+  "repair": "Explicitly load existing System32 Microsoft 14.51 DLLs in owned worker only; same Torch 2.14.1+cpu then passed known 3680 CPU check",
+  "new_downloads_for_repair": 0,
+  "system_or_Conda_or_application_environment_modified": false,
+  "model_weights_or_scientific_protocol_or_evaluator_changed": false,
+  "before_first_successful_actual_model_load": true,
+  "before_real_audit": true,
+  "fixture_retry": "Explicit two-synthetic-input check in separate runtime-repair directory; not an audit rerun",
+  "current_files": {
+    "scripts/chronos_cpu_backend.py": "e2339dc4835f59291ec7ba110cccf086f562421e5bd8051a3a33b08919c4dfc0",
+    "scripts/run_chronos_frozen_audit.py": "4875471754660645dd2f4e99991f51f7a5964d99c3207741c04756a845db3306"
+  },
+  "supersedes_operational_hashes_only": {
+    "scripts\\chronos_cpu_backend.py": "c7feee8b7efe6734322b26916d5c78ddb93b0eb882f92efc4b53f043818a5106",
+    "scripts\\run_chronos_frozen_audit.py": "1c28c36a9d377000e05a0e59d744b5fa65e1f2f5663133297b6ae096926bb874",
+    "requirements-cpu.lock.txt": "efbe299f880593507852de664f9acbe19599ac68854fcdfb121475a367911f0a"
+  }
+}

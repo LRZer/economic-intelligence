@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "browser": "actual headless Microsoft Edge",
+  "cases": [
+    {
+      "id": "actual-full-audit-and-three-downloads",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "repeat-download-keeps-report-and-page",
+      "status": "passed"
+    },
+    {
+      "id": "indicator-cpi_yoy",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "indicator-ppi_yoy",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "indicator-cpi_mom",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "indicator-ppi_mom",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "indicator-manufacturing_pmi",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "indicator-manufacturing_new_orders_pmi",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "indicator-nonmanufacturing_pmi",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "boundary-and-year-slice-evidence",
+      "status": "passed"
+    },
+    {
+      "id": "mobile-actual-chart-and-download",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "offline-html-mobile-no-script",
+      "status": "passed",
+      "overflow_px": 0
+    }
+  ],
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "page_errors": [],
+  "paid_api_requests": 0,
+  "first_attempt_failure": "Driver read inner_text of an input-based Streamlit selector; actual selected value is input.value. First screenshots and downloads retained.",
+  "second_attempt_failure": "Offline HTML fixed revision text overflowed a 390px viewport; wrap-anywhere CSS added. Previous exports retained.",
+  "third_attempt_failure": "Existing preview retained imported old exporter code; inspected downloaded CSS and restarted only the owned preview.",
+  "artifact_directory": "reports\\chronos-browser-final",
+  "screenshots": [
+    "chronos-overview-desktop.png",
+    "chronos-desktop.png",
+    "chronos-boundaries-desktop.png",
+    "chronos-mobile.png",
+    "chronos-offline-mobile.png"
+  ]
+}

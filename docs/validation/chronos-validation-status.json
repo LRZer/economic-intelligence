@@ -1,0 +1,71 @@
+{
+  "status": "local_engineering_passed_remote_ci_pending",
+  "recorded_at_utc": "2026-10-05T16:10:11.450429+00:00",
+  "python_full_suite": {
+    "passed": 345,
+    "subtests_passed": 10,
+    "seconds": 296.87,
+    "failures": 0
+  },
+  "final_presentation_and_retry_regression": {
+    "passed": 17,
+    "seconds": 19.37
+  },
+  "ruff": "passed: src scripts tests research/chronos app.py",
+  "mypy": {
+    "status": "passed",
+    "source_files": 23
+  },
+  "javascript_node_test": "passed: 1 file",
+  "javascript_syntax_check": "passed",
+  "pip_check": "passed",
+  "bandit_medium_high": 0,
+  "app_dependency_packages_queried": 91,
+  "package_registry_skip": [
+    {
+      "name": "guanlan-economic-intelligence",
+      "reason": "Local project not published on PyPI; reviewed via source scanning/tests, not vulnerability-registry query."
+    }
+  ],
+  "model_dependency_packages": 44,
+  "known_dependency_vulnerabilities_at_check": 0,
+  "actual_edge_browser_cases": 12,
+  "viewports": [
+    1440,
+    390
+  ],
+  "browser_page_errors": 0,
+  "paid_api_requests": 0,
+  "original_source_worktrees_and_uncommitted_changes_preserved": true,
+  "assistant_frozen_files": 13,
+  "chronos_frozen_preparation_files": 8,
+  "unique_audit_frozen_evidence_files": 40,
+  "new_model_predictions_during_verification": 0,
+  "real_audit_model_predictions": 84,
+  "economic_audit_attempts": 1,
+  "scientific_gate_passed": false,
+  "production_default_changed": false,
+  "execution_report_id": "455996a5bb7290873a66592398e2e7b469a4f396e6527d0fb3edd0475f02bb1a",
+  "remaining_checks": [
+    "private GitHub exact commit and CI"
+  ],
+  "not_run": [
+    "New empty directory model download was not replayed: existing immutable files verified; original successful transfer logs preserved.",
+    "Linux foundation-model inference, GPU inference, paid API and online deployment were not requested or run.",
+    "New prospective periods, unrevised real-time vintages and general production capability certification remain future research."
+  ],
+  "limits": "Full local suite passed before final HTML/context-wording polish; final 17 report/UI regressions passed afterward. Exact final commit full suite will be checked in GitHub CI.",
+  "build": "passed: final source distribution and wheel exact source/resources, isolated installed wheel replay without Torch",
+  "build_artifacts": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1857156,
+      "sha256": "730afc0a777b4964c27b8db8ec517cee78d4b2b28609a62147599682fd20843e"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1179086,
+      "sha256": "e5969a52935c20cd4eea98dea07ff39a5d95cf308f7e8757c5b3507591d8be34"
+    }
+  ]
+}

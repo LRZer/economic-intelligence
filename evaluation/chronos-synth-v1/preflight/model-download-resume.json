@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-05T14:49:55.971865+00:00",
+  "original_failure": "HTTP body ended after 95226314 bytes; partial file retained",
+  "retained_prefix_bytes": 94371840,
+  "action": "Resume fixed public revision with validated HTTP ranges; full SHA-256 required",
+  "actual_model_executed_before_resume": false,
+  "model_or_protocol_or_data_changed": false
+}

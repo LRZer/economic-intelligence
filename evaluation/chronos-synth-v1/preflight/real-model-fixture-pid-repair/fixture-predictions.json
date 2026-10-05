@@ -1,0 +1,24 @@
+{
+  "status": "synthetic_real_model_smoke_only",
+  "not_economic_evidence": true,
+  "records": [
+    {
+      "synthetic_label": "flat",
+      "context_n": 36,
+      "quantiles": {
+        "p10": 2.0,
+        "p50": 2.0,
+        "p90": 2.0
+      }
+    },
+    {
+      "synthetic_label": "linear-seasonal",
+      "context_n": 48,
+      "quantiles": {
+        "p10": 9.6566162109375,
+        "p50": 9.781381607055664,
+        "p90": 9.956138610839844
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-05T14:33:19.309067+00:00",
+  "original_error": "ZIP directory entry was written as an empty file during license archival",
+  "correction": "Skip ZipInfo.is_dir(); remove only verified zero-byte artifact; reuse verified existing wheel bytes",
+  "dependency_versions_changed": false,
+  "protocol_changed": false,
+  "actual_model_or_scientific_predictions_before_correction": false
+}

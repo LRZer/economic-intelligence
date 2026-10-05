@@ -99,7 +99,7 @@ Copy-Item research/chronos/chronos_cpu_backend.py, research/chronos/chronos_owne
 
 ## 工程验证记录
 
-本地完整Python回归 **345 passed、10 subtests passed，296.87秒**。最后离线HTML表格可读性、历史边界文案与异常重试验收补充后，相关 **17 tests passed，19.37秒**；Ruff与23文件mypy再次通过。Node前端测试及语法检查、pip check、安全扫描也通过；Bandit扫描src/scripts/research未发现中高危，应用91项可查询依赖和模型44项锁当次查询均无已知漏洞。本地guanlan项目未发布到PyPI，注册库查询明确跳过，项目源码另由扫描和测试检查；不称全部代码无漏洞。
+本地完整Python回归 **345 passed、10 subtests passed，296.87秒**。最后离线HTML表格可读性、历史边界文案与异常重试验收补充后，相关 **17 tests passed，19.37秒**；随后将UI文案精确区分为Chronos审计48—59月/开发期基线36—47月，**2项UI测试再次通过，11.86秒**，12项Edge检查重做通过且新增明确文案断言；Ruff与23文件mypy再次通过。Node前端测试及语法检查、pip check、安全扫描也通过；Bandit扫描src/scripts/research未发现中高危，应用91项可查询依赖和模型44项锁当次查询均无已知漏洞。本地guanlan项目未发布到PyPI，注册库查询明确跳过，项目源码另由扫描和测试检查；不称全部代码无漏洞。
 
 实际Microsoft Edge执行12项验收：七指标控件切换与URL状态、三种下载、重复下载、训练边界/年份展开、1440px桌面/390px移动曲线与下载、无脚本离线HTML。页面异常、付费接口请求及整体横向溢出均为0；离线数据表格使用局部横向滚动，数字保持完整。最初脚本误读input控件、长revision文本溢出、旧预览导出器未重载的失败与原截图保留，最终截图逐一目视检查，来源见 `docs/validation/chronos-browser-acceptance.json`。
 

@@ -70,7 +70,7 @@
   "first_attempt_failure": "Driver read inner_text of an input-based Streamlit selector; actual selected value is input.value. First screenshots and downloads retained.",
   "second_attempt_failure": "Offline HTML fixed revision text overflowed a 390px viewport; wrap-anywhere CSS added. Previous exports retained.",
   "third_attempt_failure": "Existing preview retained imported old exporter code; inspected downloaded CSS and restarted only the owned preview.",
-  "artifact_directory": "reports\\chronos-browser-final",
+  "artifact_directory": "reports\\chronos-browser-context-final",
   "screenshots": [
     "chronos-overview-desktop.png",
     "chronos-desktop.png",

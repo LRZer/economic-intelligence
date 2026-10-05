@@ -71,7 +71,7 @@ def render(store):
     macro_lo, macro_hi = report['paired_block_descriptive_95']['macro_vs_development_reference']
     st.caption(f'模型减参考的归一化绝对误差：当前指标描述性 95% 区间 [{lo:.3f}, {hi:.3f}]；七项等权 [{macro_lo:.3f}, {macro_hi:.3f}]。三月循环块、2000 次、seed42；小样本描述，不是显著性检验。')
     with st.expander('训练边界、时间切片与复现证据'):
-        st.write('每次模型只收到统计期之前的 36—59 个历史观测；目标实际值在预测返回后加入评分。每项独立、horizon=1、batch=1；无协变量、跨指标学习或微调。')
+        st.write('Chronos 审计预测只收到统计期之前的 48—59 个历史观测；开发期基线使用 36—47 个。目标实际值在预测返回后加入评分。每项独立、horizon=1、batch=1；无协变量、跨指标学习或微调。')
         st.dataframe(pd.DataFrame(csv_rows(report, key=key)), hide_index=True, width='stretch')
         st.dataframe(pd.DataFrame([{'切片': label, '方法': METHODS[method], **metric}
                                    for label, metrics in report['time_slices'][key].items() for method, metric in metrics.items()]), hide_index=True, width='stretch')

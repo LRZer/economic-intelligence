@@ -8,7 +8,7 @@ from playwright.sync_api import sync_playwright, expect
 from guanlan.chronos_report import KEYS, LABELS, load_packaged_audit, strict_json, verify_report
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / 'reports/chronos-browser-final'
+OUT = ROOT / 'reports/chronos-browser-context-final'
 
 
 def main():
@@ -71,6 +71,7 @@ def main():
             results.append({'id': 'indicator-' + key, 'status': 'passed', 'overflow_px': healthy(page)})
         page.get_by_text('训练边界、时间切片与复现证据', exact=True).click()
         healthy(page)
+        expect(page.get_by_text('Chronos 审计预测只收到统计期之前的 48—59 个历史观测；开发期基线使用 36—47 个。', exact=False)).to_be_visible()
         page.screenshot(path=str(OUT / 'chronos-boundaries-desktop.png'), full_page=True)
         results.append({'id': 'boundary-and-year-slice-evidence', 'status': 'passed'})
         mobile = browser.new_page(viewport={'width': 390, 'height': 900}); attach(mobile)

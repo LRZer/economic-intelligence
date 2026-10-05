@@ -10,6 +10,8 @@ from .common import header, select, radio, sync_query, initial_query, chart
 from .research import cycle_view
 from . import global_ai, sector, evidence_assistant, trade_graph, chronos_research
 from .monthly_review import render_review
+from .workflow import navigate
+from guanlan.evidence_assistant import ALIASES
 
 
 def render(store):
@@ -41,6 +43,10 @@ def render(store):
         return
     key = select("建模指标", keys, "ai_indicator", initial_query("ai_indicator", "cpi_yoy"), format_func=lambda k: catalog[k]["name"])
     sync_query(view="intelligence", ai_task=task, ai_indicator=key)
+    a, b, c = st.columns(3)
+    a.button("核对该指标官方历史", key="monthly_open_source", on_click=navigate, args=("china",), kwargs={"china_view":"指标趋势","china_indicator":key})
+    b.button("查看固定基础模型审计", key="monthly_open_chronos", on_click=navigate, args=("intelligence",), kwargs={"task":"时序基础模型审计","chronos_indicator":key})
+    c.button("用证据工具核查当前读数", key="monthly_open_assistant", on_click=navigate, args=("intelligence",), kwargs={"task":"证据问答与工具","evidence_domain":"中国月度","assistant_question":ALIASES[key][0]+"最新官方读数是多少？"})
     spec = catalog[key]
     rows = data["series"][key]
     st.caption(f"{spec['basis']} · {spec['unit']} · {len(rows)} 个真实观测 · 最新 {rows[-1]['period']}")

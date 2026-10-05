@@ -18,6 +18,7 @@ from guanlan.sector_report import clean_records, export_bundle, scenario
 from guanlan.sector_risk import LABELS, METHODS
 from guanlan.trade import HS_CHAPTERS, compact_usd
 from .common import ROOT, chart, initial_query, radio, select, sync_query
+from .workflow import sector_to_graph
 
 NAMES={'global_rate':'全样本历史事件率','sector_rate':'同业历史事件率（强基线）',
        'logistic':'逻辑回归对照','joint_hgb':'宏观×网络模型','trade_only_hgb':'仅贸易与集中度（消融）'}
@@ -88,6 +89,7 @@ def render(store):
         st.write(f'本国宏观输入缺失 {int(row.missing_own_features)}/5；GDP未匹配的伙伴不填零。模型为实验研究估计，条件冲击不改变模型概率，不用于推导因果出口损失或投资收益。')
         if bool(row.get('target_sector_unreported',False)):
             st.write('本年行业流未在 BACI 报告；标签的零金额不代表确认的真实经济零值。')
+    sector_to_graph(int(row.feature_year), str(country), str(hs2))
     tabs=st.tabs(['行业证据与情景','同组对照','验证与解释','研究报告'],key='sector_sections',on_change='rerun')
     manifest=ROOT/'data/network/manifest.json'
     network=network_partition(int(row.weight_year),hashlib.sha256(manifest.read_bytes()).hexdigest())

@@ -42,3 +42,9 @@ docs/validation/trade-graph-protocol-initial.md -text
 research/chronos/** -text
 evaluation/chronos-synth-v1/** -text
 src/guanlan/resources/chronos-synth-v1/*.json -text
+
+# Keep independently approved live-pilot preparation bytes exact.
+src/guanlan/llm_business.py -text
+scripts/llm_business_pilot.py -text
+scripts/evaluate_llm_business_pilot.py -text
+evaluation/llm-business-pilot-v1/** -text

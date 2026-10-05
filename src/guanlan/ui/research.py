@@ -111,12 +111,13 @@ def ai_view(macro,trade,meta,trade_meta,weo,weo_meta,country,year,bundle):
         st.caption("临时密钥只保留在当前会话服务端内存，不写入文件；可主动清除，断开会话后由运行服务释放。")
         st.button("清除临时密钥",on_click=clear_key)
         st.json(facts)
-    secret=configured_key()
+    paid_enabled = os.getenv("ENABLE_PAID_AI", "0") == "1"
+    secret=configured_key() if paid_enabled else None
     if not secret:
         st.caption("尚未配置摘要服务。配置可在摘要设置中完成，研究报告和事实摘要可直接阅读。")
-    paid_enabled = os.getenv("ENABLE_PAID_AI", "0") == "1"
     if not paid_enabled:
         st.caption("付费摘要默认关闭。部署者确认费用与发送内容后可启用；本地分析不受影响。")
+    st.caption("可选LLM摘要尚未完成真实业务质量评测；输出须逐项人工核对，连接测试和mock不构成质量验收。")
     if st.button("生成解释性摘要",type="primary",disabled=not bool(secret) or not paid_enabled):
         with st.spinner("正在生成摘要……"):
             try:

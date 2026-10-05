@@ -1,0 +1,55 @@
+{
+  "version": "llm-business-pilot-v1",
+  "prepared_at_utc": "2026-10-05T17:05:31.535674+00:00",
+  "purpose": "Actual API planner -> strict scope validation -> fixed local tools -> official evidence -> independent numeric scoring.",
+  "planned_business_cases": 12,
+  "selected_ids": [
+    "development:00:00",
+    "development:00:01",
+    "development:01:00",
+    "development:01:01",
+    "development:02:00",
+    "development:02:01",
+    "development:03:00",
+    "development:03:01",
+    "development:04:00",
+    "development:04:01",
+    "development:05:00",
+    "development:05:01"
+  ],
+  "source": "Already-seen development questions, first two in the first six wording families. No sealed-test rerun.",
+  "gate": "All 12 planned tasks have exact indicator/tool/period scope, correct numeric outputs and evidence IDs; any request/usage/model/plan/business error stops the first run. Denominator stays 12.",
+  "budget": {
+    "proposed_new_cap_usd": "0.03",
+    "input_tokens_bound_each": 4096,
+    "output_tokens_bound_each": 400,
+    "reviewed_peak_cache_miss_input_usd_per_million": "0.30",
+    "output_usd_per_million": "1.20",
+    "upper_estimate_usd": "0.0205056",
+    "pricing_checked_utc_date": "2026-10-05",
+    "official_pricing": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "authorization": "Not granted for this pilot; existing connectivity budget is expired. User must approve freshly and recheck actual prices."
+  },
+  "api": {
+    "endpoint": "https://api.deepseek.com/chat/completions",
+    "requested_alias": "deepseek-flash",
+    "provider_alias_at_preparation": "DeepSeek-V4.1-Flash",
+    "thinking": "disabled",
+    "temperature": 0,
+    "max_tokens": 400,
+    "retry": false,
+    "first_attempt_only": true,
+    "actual_served_model_and_usage_required": true,
+    "key_entry": "User-local hidden interactive entry only; no key file/environment lookup."
+  },
+  "outbound_scope": "12 public questions, indicator alias, permitted tools, available monthly periods and SHA256 snapshot fingerprint. No raw observed values, IMF content, personal files or private data.",
+  "local_guard_cases": 6,
+  "local_guard_results_are_llm_safety_results": false,
+  "new_live_calls": 0,
+  "limits": [
+    "Small selected already-seen development pilot; not a blind test, prospective validation or unrestricted financial analysis quality.",
+    "Provider usage/model fields and local logs are evidence, not independent provider attestation. Offline rescoring cannot prove a live request occurred.",
+    "Token reservation is conservative under the documented usage bounds, not a guaranteed invoice cap; invalid/missing usage, timeouts and external pricing changes can cause billing uncertainty. No automatic retry.",
+    "No forecast-method improvement, model tuning, data refresh or sealed assistant rerun. Failed first run and incomplete denominator must remain."
+  ]
+}

@@ -7,6 +7,7 @@ import streamlit as st
 
 from guanlan.chronos_report import KEYS, LABELS, METHODS, csv_rows, export_audit, load_packaged_audit
 from .common import chart, initial_query, select, sync_query
+from .workflow import navigate
 
 
 @st.cache_data(show_spinner=False, max_entries=2)
@@ -43,6 +44,7 @@ def render(store):
     st.caption('每项先用该预测时点历史前缀的季节差值归一化，再对七项等权。没有混合百分比与指数点的原始误差。')
     key = select('审计指标', list(KEYS), 'chronos_indicator', initial_query('chronos_indicator', 'cpi_yoy'), format_func=lambda x: LABELS[x])
     sync_query(view='intelligence', ai_task='时序基础模型审计', chronos_indicator=key)
+    st.button("打开该指标当前月度研究", key="chronos_open_monthly", on_click=navigate, args=("intelligence",), kwargs={"task":"中国月度预测与异常","ai_indicator":key})
     reference = report['audit_references'][key]
     scores = report['audit_metrics'][key]
     diagnostic = report['interval_diagnostics'][key]

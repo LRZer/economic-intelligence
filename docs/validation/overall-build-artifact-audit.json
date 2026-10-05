@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "python_sources_match": 71,
+  "statistical_excerpts": 342,
+  "all_library_resources_exact": true,
+  "packaged_chronos_json_files": 4,
+  "standalone_installed_wheel": {
+    "status": "passed",
+    "installed_library_path_verified": true,
+    "paired_audit_origins": 84,
+    "baseline_refit_origins": 168,
+    "new_model_predictions": 0,
+    "torch_imported": false,
+    "production_default_changed": false
+  },
+  "files": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1862116,
+      "sha256": "2c3d6251fb805ed788498840a4bc67a4915df1a7392364936f8ba980c565bb97"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1186575,
+      "sha256": "b4cec1867cbc508a1c1072879e6e2fd14b99ae0312738be3a0f7a298081659f4"
+    }
+  ],
+  "limits": "Library wheel includes China snapshots and saved Chronos audit. Full research execution scripts, protocols, original logs and data graphs require the Git checkout."
+}

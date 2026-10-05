@@ -75,6 +75,8 @@ def render(store,task='真实贸易图与情景'):
     origins=[code for code in graph.nodes if graph.totals[graph.index[code]]>0]
     origin=select('图研究出口国',origins,'graph_country',initial_query('graph_country','CHN'),format_func=label)
     sync_query(view='intelligence',ai_task=task,graph_year=year,graph_hs2=hs2,graph_country=origin)
+    from .workflow import graph_to_sector
+    graph_to_sector(store, year, origin, hs2)
     scope_id=digest({'graph':graph.snapshot_hash,'origin':origin})
     state=st.session_state.get('graph_applied')
     if not state or state['scope_id']!=scope_id:

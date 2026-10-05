@@ -31,8 +31,9 @@ jobs:
       - run: python -m pytest -q --junitxml=reports/ci-tests.xml
       - run: node --test tests/china/test_chart_model.js
       - run: node --check src/china_macro/web/app.js
-      - run: python -m bandit -r src -ll
+      - run: python -m bandit -r src scripts research/chronos -ll
       - run: python -m pip_audit
+      - run: python scripts/llm_business_pilot.py
       - run: python scripts/check_assistant_freeze.py
       - run: python scripts/verify_assistant_report.py assets/demo/assistant-cpi/cpi-difference.json
       - run: python scripts/verify_trade_graph.py assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.json

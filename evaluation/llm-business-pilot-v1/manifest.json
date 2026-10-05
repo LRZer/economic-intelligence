@@ -1,0 +1,24 @@
+{
+  "kind": "pre-live-source-and-input-freeze",
+  "prepared_at_utc": "2026-10-05T17:05:31.540776+00:00",
+  "live_calls_at_freeze": 0,
+  "business_quality_at_freeze": "unmeasured",
+  "files": {
+    "src/guanlan/llm_business.py": "701398088df5e2edab0a6cdfc819c21241bf3811ec65d5eac53e105b4bf0dce8",
+    "scripts/llm_business_pilot.py": "cd8a280427ca3eb22f17d7e6ea880aea007a3d669eb2d32ca2cd1df137706de9",
+    "scripts/evaluate_llm_business_pilot.py": "d45d331cfd43bc45b64e8bff65bab98ed754cfb818a0d74c1340641c4cb26e4d",
+    "src/guanlan/assistant_plans.py": "eae06011c64cb148ed34fe63465c4412eac76a8e1053832fc125032596a37380",
+    "src/guanlan/evidence_assistant.py": "32ca3e1c30a980970dae9c34b6d24795e3596c26d21180daaa762be6aa78b1e9",
+    "src/guanlan/monthly_review.py": "10b25df1e3798b79dfd85d5526caab15a2304d53067d9ba999c4c072582bf77e",
+    "src/guanlan/forecast.py": "d0cfa860ff04c6c1cb6d61c30fc51146dd072af634dfa99ad17ec7bdfc1351f4",
+    "src/china_macro/catalog.py": "a133d673c26ad93f064731c611896a406d5722629c0b6f1649b1b8b7b7b5ce4d",
+    "src/china_macro/demo_data.json": "90e4e0d4237d2c414578c29786c9585bddbc27192cdd7c65c937f563326bb6c2",
+    "requirements.lock.txt": "a21be2d14b2267d5dd6804d1970c85f946835e0c8d1a32b18a51ab7687500a5e",
+    "evaluation/assistant-v1/development-questions.json": "e2eb0445a96a450a8e9ea6a425a9fb38956ede60f308d0905f0311fb6dba6177",
+    "evaluation/assistant-v1/development-gold.json": "fac67469293f04d57acc569f6d9125568d273b4b8cf515d93168f5d089e3a6c1",
+    "evaluation/llm-business-pilot-v1/requests.json": "3e34396541efc17a818af16405bb02673c755ad4f05ae12014fd760e73b9e414",
+    "evaluation/llm-business-pilot-v1/gold.json": "abd0dcc4c60b2c03a8dffa4db2b305ab66ea96656be18e4f6e722f636302604b",
+    "evaluation/llm-business-pilot-v1/protocol.json": "f286ca8c625b3fbbb4c3a0a2bdab86068c3b5fb62a899b059646483fdd486f3d"
+  },
+  "pre_live_errata": "Initial runner apostrophe syntax error corrected before any live request; source/input hash freeze finalized after offline checks."
+}

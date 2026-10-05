@@ -1,0 +1,1663 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>工业生产者出厂价格 PPI 环比 · 2026-08 · 月度研究核验单</title><style>body{font:16px/1.65 system-ui,sans-serif;max-width:940px;margin:40px auto;padding:0 20px;color:#172d3b;background:#f7faf9}h1{font-size:28px;color:#146f7c}article{padding:14px 18px;margin:12px 0;background:white;border-left:3px solid #146f7c}p{margin:0 0 8px}small,code{overflow-wrap:anywhere}a{color:#146f7c}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:12px}@media(max-width:600px){body{margin:20px auto;padding:0 14px}h1{font-size:22px}}</style>
+<h1>观澜 · 工业生产者出厂价格 PPI 环比 · 2026-08 · 月度研究核验单</h1><p>同口径官方观察 → 固定本地模型 → 证据约束声明 → 可离线重算。编排来源：本地完整声明；正文与数值来自本地证据模板。</p>
+<article><p>2026-08，工业生产者出厂价格 PPI 环比（单月环比）官方读数为 0.4%。</p><small><a href="https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html">2026-08 原文</a></small></article><article><p>与上个自然月 2026-07 的 -0.7% 比较，本期读数上升；差值 +1.100 百分点。这比较的是读数，不是重新计算增长率。</p><small><a href="https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html">2026-08 原文</a> · <a href="https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965007.html">2026-07 原文</a></small></article><article><p>固定协议留出从 2025-09 开始，共 12 个月：Ridge MAE 0.538，上一月值 0.433，去年同月值 0.633；越低越好。</p><small><a href="#review-evidence">本地固定模型回测证据</a></small></article><article><p>Ridge 未通过固定研究门槛，不能称为有效优势。默认研究参考保留开发验证期选定的上一月值基线；不根据留出成绩另选赢家。</p><small><a href="#review-evidence">本地固定模型回测证据</a></small></article><article><p>下一统计期 2026-09：默认上一月值基线估计 0.400%；Ridge 实验估计 0.330%。它们是研究估计，不是已经发布的官方观察。</p><small><a href="#review-evidence">本地固定模型回测证据</a></small></article><article><p>Ridge 开发期残差经验带 [0.032, 0.629]%；名义 90%，固定留出实际覆盖 33.3%。该经验带不属于默认基线，且不保证未来覆盖。</p><small><a href="#review-evidence">本地固定模型回测证据</a></small></article><article><p>2026-08 IsolationForest 分数 0.0240：未触发异常阈值，不能据此排除风险。训练截至 2026-07，本期未参与训练；无异常真值标签，不报告准确率或原因。</p><small><a href="#review-evidence">本地异常诊断证据</a> · <a href="https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html">2026-08 原文</a></small></article><article><p>使用当前修订历史快照，缺少逐期首次公开版本；时序检查不能证明当时实时可得。 读数差是同一指标数值的百分点变化，不是价格水平变化或新的同比/环比增长率；基期变化需人工核对。 模型关系与无监督异常不证明经济原因，不构成资产收益预测或交易建议。 经验带属于实验模型，不能转用为基线预测区间，也不保证未来覆盖。</p><small><a href="#review-evidence">本地固定模型回测证据</a> · <a href="#review-evidence">本地异常诊断证据</a></small></article><p>核验包 SHA256：<code>a29d8241d799e7c0639215803533139bdd75bb9646a057be93b07a8f14b0fd7c</code></p><p>报告 SHA256：<code>ef2bed9edebde07c658b802bfa6e397c1851c1ae00c73598609f644003c0b21b</code>。指纹用于一致性核验，不证明来源真实性。</p>
+<details id="review-evidence"><summary>完整证据、逐月回测及编排 JSON</summary><pre>{
+  &quot;bundle&quot;: {
+    &quot;schema_version&quot;: &quot;monthly-review-v1&quot;,
+    &quot;selection&quot;: {
+      &quot;indicator_key&quot;: &quot;ppi_mom&quot;,
+      &quot;latest_period&quot;: &quot;2026-08&quot;,
+      &quot;comparison&quot;: &quot;previous_month&quot;,
+      &quot;reference_period&quot;: &quot;2026-07&quot;
+    },
+    &quot;indicator&quot;: {
+      &quot;key&quot;: &quot;ppi_mom&quot;,
+      &quot;name&quot;: &quot;工业生产者出厂价格 PPI 环比&quot;,
+      &quot;basis&quot;: &quot;单月环比&quot;,
+      &quot;unit&quot;: &quot;%&quot;
+    },
+    &quot;input_sha256&quot;: &quot;01edcf44fc9f7363764b80312594d09dd280a7e48cf5b4f0c8e62781cf888c2e&quot;,
+    &quot;model_snapshot_hash&quot;: &quot;542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;,
+    &quot;default_method&quot;: &quot;persistence&quot;,
+    &quot;source_rows&quot;: [
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-09&quot;,
+        &quot;value&quot;: 1.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901238.html&quot;,
+        &quot;published&quot;: &quot;2021-10-14&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-10&quot;,
+        &quot;value&quot;: 2.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901273.html&quot;,
+        &quot;published&quot;: &quot;2021-11-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-11&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901297.html&quot;,
+        &quot;published&quot;: &quot;2021-12-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-12&quot;,
+        &quot;value&quot;: -1.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901329.html&quot;,
+        &quot;published&quot;: &quot;2022-01-12&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-01&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901368.html&quot;,
+        &quot;published&quot;: &quot;2022-02-16&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-02&quot;,
+        &quot;value&quot;: 0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901399.html&quot;,
+        &quot;published&quot;: &quot;2022-03-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-03&quot;,
+        &quot;value&quot;: 1.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901422.html&quot;,
+        &quot;published&quot;: &quot;2022-04-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-04&quot;,
+        &quot;value&quot;: 0.6,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901457.html&quot;,
+        &quot;published&quot;: &quot;2022-05-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-05&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901483.html&quot;,
+        &quot;published&quot;: &quot;2022-06-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-06&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901505.html&quot;,
+        &quot;published&quot;: &quot;2022-07-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-07&quot;,
+        &quot;value&quot;: -1.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901543.html&quot;,
+        &quot;published&quot;: &quot;2022-08-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-08&quot;,
+        &quot;value&quot;: -1.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901571.html&quot;,
+        &quot;published&quot;: &quot;2022-09-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-09&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901614.html&quot;,
+        &quot;published&quot;: &quot;2022-10-14&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-10&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901648.html&quot;,
+        &quot;published&quot;: &quot;2022-11-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-11&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901671.html&quot;,
+        &quot;published&quot;: &quot;2022-12-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-12&quot;,
+        &quot;value&quot;: -0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901704.html&quot;,
+        &quot;published&quot;: &quot;2023-01-12&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-01&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913662.html&quot;,
+        &quot;published&quot;: &quot;2023-02-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-02&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202303/t20230309_1936953.html&quot;,
+        &quot;published&quot;: &quot;2023-03-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-03&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938508.html&quot;,
+        &quot;published&quot;: &quot;2023-04-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-04&quot;,
+        &quot;value&quot;: -0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939348.html&quot;,
+        &quot;published&quot;: &quot;2023-05-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-05&quot;,
+        &quot;value&quot;: -0.9,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940480.html&quot;,
+        &quot;published&quot;: &quot;2023-06-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-06&quot;,
+        &quot;value&quot;: -0.8,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202307/t20230710_1941148.html&quot;,
+        &quot;published&quot;: &quot;2023-07-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-07&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202308/t20230809_1941864.html&quot;,
+        &quot;published&quot;: &quot;2023-08-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-08&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942696.html&quot;,
+        &quot;published&quot;: &quot;2023-09-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-09&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943549.html&quot;,
+        &quot;published&quot;: &quot;2023-10-13&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-10&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944383.html&quot;,
+        &quot;published&quot;: &quot;2023-11-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-11&quot;,
+        &quot;value&quot;: -0.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945395.html&quot;,
+        &quot;published&quot;: &quot;2023-12-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-12&quot;,
+        &quot;value&quot;: -0.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946466.html&quot;,
+        &quot;published&quot;: &quot;2024-01-12&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-01&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947624.html&quot;,
+        &quot;published&quot;: &quot;2024-02-08&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-02&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948095.html&quot;,
+        &quot;published&quot;: &quot;2024-03-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-03&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202404/t20240411_1948465.html&quot;,
+        &quot;published&quot;: &quot;2024-04-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-04&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950304.html&quot;,
+        &quot;published&quot;: &quot;2024-05-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-05&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954520.html&quot;,
+        &quot;published&quot;: &quot;2024-06-12&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-06&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955509.html&quot;,
+        &quot;published&quot;: &quot;2024-07-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-07&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955949.html&quot;,
+        &quot;published&quot;: &quot;2024-08-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-08&quot;,
+        &quot;value&quot;: -0.7,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956310.html&quot;,
+        &quot;published&quot;: &quot;2024-09-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-09&quot;,
+        &quot;value&quot;: -0.6,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241013_1956898.html&quot;,
+        &quot;published&quot;: &quot;2024-10-13&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-10&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957352.html&quot;,
+        &quot;published&quot;: &quot;2024-11-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-11&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957688.html&quot;,
+        &quot;published&quot;: &quot;2024-12-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-12&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202501/t20250109_1958169.html&quot;,
+        &quot;published&quot;: &quot;2025-01-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-01&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958645.html&quot;,
+        &quot;published&quot;: &quot;2025-02-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-02&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250309_1958914.html&quot;,
+        &quot;published&quot;: &quot;2025-03-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-03&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959260.html&quot;,
+        &quot;published&quot;: &quot;2025-04-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-04&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959770.html&quot;,
+        &quot;published&quot;: &quot;2025-05-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-05&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960093.html&quot;,
+        &quot;published&quot;: &quot;2025-06-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-06&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250709_1960367.html&quot;,
+        &quot;published&quot;: &quot;2025-07-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-07&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202508/t20250809_1960634.html&quot;,
+        &quot;published&quot;: &quot;2025-08-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-08&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961108.html&quot;,
+        &quot;published&quot;: &quot;2025-09-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-09&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961520.html&quot;,
+        &quot;published&quot;: &quot;2025-10-15&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-10&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961822.html&quot;,
+        &quot;published&quot;: &quot;2025-11-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-11&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962014.html&quot;,
+        &quot;published&quot;: &quot;2025-12-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-12&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962272.html&quot;,
+        &quot;published&quot;: &quot;2026-01-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-01&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202602/t20260211_1962587.html&quot;,
+        &quot;published&quot;: &quot;2026-02-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-02&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202603/t20260309_1962729.html&quot;,
+        &quot;published&quot;: &quot;2026-03-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-03&quot;,
+        &quot;value&quot;: 1.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963263.html&quot;,
+        &quot;published&quot;: &quot;2026-04-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-04&quot;,
+        &quot;value&quot;: 1.7,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963658.html&quot;,
+        &quot;published&quot;: &quot;2026-05-11&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-05&quot;,
+        &quot;value&quot;: 0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963922.html&quot;,
+        &quot;published&quot;: &quot;2026-06-10&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-06&quot;,
+        &quot;value&quot;: -0.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html&quot;,
+        &quot;published&quot;: &quot;2026-07-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-07&quot;,
+        &quot;value&quot;: -0.7,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965007.html&quot;,
+        &quot;published&quot;: &quot;2026-08-09&quot;
+      },
+      {
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-08&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html&quot;,
+        &quot;published&quot;: &quot;2026-09-09&quot;
+      }
+    ],
+    &quot;model&quot;: {
+      &quot;version&quot;: &quot;china-monthly-v1&quot;,
+      &quot;snapshot_hash&quot;: &quot;542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;,
+      &quot;status&quot;: &quot;evaluated&quot;,
+      &quot;observation_count&quot;: 60,
+      &quot;feature_names&quot;: [
+        &quot;上月读数&quot;,
+        &quot;前两月读数&quot;,
+        &quot;前三月读数&quot;,
+        &quot;去年同月读数&quot;,
+        &quot;月份正弦&quot;,
+        &quot;月份余弦&quot;
+      ],
+      &quot;limits&quot;: &quot;当前修订版历史快照；没有逐期实时版本。区间不保证未来覆盖率。&quot;,
+      &quot;backtest&quot;: [
+        {
+          &quot;period&quot;: &quot;2024-09&quot;,
+          &quot;actual&quot;: -0.6,
+          &quot;ridge&quot;: -0.3012947562053715,
+          &quot;persistence&quot;: -0.7,
+          &quot;seasonal&quot;: 0.4,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2024-08&quot;,
+          &quot;latest_feature_period&quot;: &quot;2024-08&quot;,
+          &quot;train_n&quot;: 24,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2024-10&quot;,
+          &quot;actual&quot;: -0.1,
+          &quot;ridge&quot;: -0.18099077013223897,
+          &quot;persistence&quot;: -0.6,
+          &quot;seasonal&quot;: 0.0,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2024-09&quot;,
+          &quot;latest_feature_period&quot;: &quot;2024-09&quot;,
+          &quot;train_n&quot;: 25,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2024-11&quot;,
+          &quot;actual&quot;: 0.1,
+          &quot;ridge&quot;: 0.07163515995947081,
+          &quot;persistence&quot;: -0.1,
+          &quot;seasonal&quot;: -0.3,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2024-10&quot;,
+          &quot;latest_feature_period&quot;: &quot;2024-10&quot;,
+          &quot;train_n&quot;: 26,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2024-12&quot;,
+          &quot;actual&quot;: -0.1,
+          &quot;ridge&quot;: -0.002767943407888912,
+          &quot;persistence&quot;: 0.1,
+          &quot;seasonal&quot;: -0.3,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2024-11&quot;,
+          &quot;latest_feature_period&quot;: &quot;2024-11&quot;,
+          &quot;train_n&quot;: 27,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-01&quot;,
+          &quot;actual&quot;: -0.2,
+          &quot;ridge&quot;: -0.23674972797571853,
+          &quot;persistence&quot;: -0.1,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2024-12&quot;,
+          &quot;latest_feature_period&quot;: &quot;2024-12&quot;,
+          &quot;train_n&quot;: 28,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-02&quot;,
+          &quot;actual&quot;: -0.1,
+          &quot;ridge&quot;: -0.2887610324483222,
+          &quot;persistence&quot;: -0.2,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-01&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-01&quot;,
+          &quot;train_n&quot;: 29,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-03&quot;,
+          &quot;actual&quot;: -0.4,
+          &quot;ridge&quot;: -0.21972664153194013,
+          &quot;persistence&quot;: -0.1,
+          &quot;seasonal&quot;: -0.1,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-02&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-02&quot;,
+          &quot;train_n&quot;: 30,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-04&quot;,
+          &quot;actual&quot;: -0.4,
+          &quot;ridge&quot;: -0.34012918911414214,
+          &quot;persistence&quot;: -0.4,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-03&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-03&quot;,
+          &quot;train_n&quot;: 31,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-05&quot;,
+          &quot;actual&quot;: -0.4,
+          &quot;ridge&quot;: -0.3331516575151959,
+          &quot;persistence&quot;: -0.4,
+          &quot;seasonal&quot;: 0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-04&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-04&quot;,
+          &quot;train_n&quot;: 32,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-06&quot;,
+          &quot;actual&quot;: -0.4,
+          &quot;ridge&quot;: -0.26237690389923585,
+          &quot;persistence&quot;: -0.4,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-05&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-05&quot;,
+          &quot;train_n&quot;: 33,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-07&quot;,
+          &quot;actual&quot;: -0.2,
+          &quot;ridge&quot;: -0.2549169531965439,
+          &quot;persistence&quot;: -0.4,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-06&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-06&quot;,
+          &quot;train_n&quot;: 34,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-08&quot;,
+          &quot;actual&quot;: 0.0,
+          &quot;ridge&quot;: -0.1450506362180411,
+          &quot;persistence&quot;: -0.2,
+          &quot;seasonal&quot;: -0.7,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-07&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-07&quot;,
+          &quot;train_n&quot;: 35,
+          &quot;split&quot;: &quot;validation&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-09&quot;,
+          &quot;actual&quot;: 0.0,
+          &quot;ridge&quot;: -0.08754961990510102,
+          &quot;persistence&quot;: 0.0,
+          &quot;seasonal&quot;: -0.6,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-08&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-08&quot;,
+          &quot;train_n&quot;: 36,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-10&quot;,
+          &quot;actual&quot;: 0.1,
+          &quot;ridge&quot;: -0.1567965903239818,
+          &quot;persistence&quot;: 0.0,
+          &quot;seasonal&quot;: -0.1,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-09&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-09&quot;,
+          &quot;train_n&quot;: 37,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-11&quot;,
+          &quot;actual&quot;: 0.1,
+          &quot;ridge&quot;: -0.1408658274188644,
+          &quot;persistence&quot;: 0.1,
+          &quot;seasonal&quot;: 0.1,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-10&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-10&quot;,
+          &quot;train_n&quot;: 38,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2025-12&quot;,
+          &quot;actual&quot;: 0.2,
+          &quot;ridge&quot;: -0.14289756111048332,
+          &quot;persistence&quot;: 0.1,
+          &quot;seasonal&quot;: -0.1,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-11&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-11&quot;,
+          &quot;train_n&quot;: 39,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-01&quot;,
+          &quot;actual&quot;: 0.4,
+          &quot;ridge&quot;: -0.13153634878667675,
+          &quot;persistence&quot;: 0.2,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2025-12&quot;,
+          &quot;latest_feature_period&quot;: &quot;2025-12&quot;,
+          &quot;train_n&quot;: 40,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-02&quot;,
+          &quot;actual&quot;: 0.4,
+          &quot;ridge&quot;: -0.08825871557731019,
+          &quot;persistence&quot;: 0.4,
+          &quot;seasonal&quot;: -0.1,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-01&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-01&quot;,
+          &quot;train_n&quot;: 41,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-03&quot;,
+          &quot;actual&quot;: 1.0,
+          &quot;ridge&quot;: -0.13559163521866002,
+          &quot;persistence&quot;: 0.4,
+          &quot;seasonal&quot;: -0.4,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-02&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-02&quot;,
+          &quot;train_n&quot;: 42,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-04&quot;,
+          &quot;actual&quot;: 1.7,
+          &quot;ridge&quot;: 0.2761045269805725,
+          &quot;persistence&quot;: 1.0,
+          &quot;seasonal&quot;: -0.4,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-03&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-03&quot;,
+          &quot;train_n&quot;: 43,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-05&quot;,
+          &quot;actual&quot;: 0.5,
+          &quot;ridge&quot;: 1.0333456276098854,
+          &quot;persistence&quot;: 1.7,
+          &quot;seasonal&quot;: -0.4,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-04&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-04&quot;,
+          &quot;train_n&quot;: 44,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-06&quot;,
+          &quot;actual&quot;: -0.3,
+          &quot;ridge&quot;: -0.10666583609200397,
+          &quot;persistence&quot;: 0.5,
+          &quot;seasonal&quot;: -0.4,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-05&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-05&quot;,
+          &quot;train_n&quot;: 45,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-07&quot;,
+          &quot;actual&quot;: -0.7,
+          &quot;ridge&quot;: -0.3755215524216149,
+          &quot;persistence&quot;: -0.3,
+          &quot;seasonal&quot;: -0.2,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-06&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-06&quot;,
+          &quot;train_n&quot;: 46,
+          &quot;split&quot;: &quot;test&quot;
+        },
+        {
+          &quot;period&quot;: &quot;2026-08&quot;,
+          &quot;actual&quot;: 0.4,
+          &quot;ridge&quot;: -0.49912409535290775,
+          &quot;persistence&quot;: -0.7,
+          &quot;seasonal&quot;: 0.0,
+          &quot;train_start&quot;: &quot;2022-09&quot;,
+          &quot;train_end&quot;: &quot;2026-07&quot;,
+          &quot;latest_feature_period&quot;: &quot;2026-07&quot;,
+          &quot;train_n&quot;: 47,
+          &quot;split&quot;: &quot;test&quot;
+        }
+      ],
+      &quot;test_start&quot;: &quot;2025-09&quot;,
+      &quot;validation_n&quot;: 12,
+      &quot;test_n&quot;: 12,
+      &quot;baseline&quot;: &quot;persistence&quot;,
+      &quot;metrics&quot;: {
+        &quot;validation&quot;: {
+          &quot;ridge&quot;: {
+            &quot;n&quot;: 12,
+            &quot;mae&quot;: 0.1146155723614683,
+            &quot;rmse&quot;: 0.1374080324048244
+          },
+          &quot;persistence&quot;: {
+            &quot;n&quot;: 12,
+            &quot;mae&quot;: 0.15833333333333333,
+            &quot;rmse&quot;: 0.21015867021530824
+          },
+          &quot;seasonal&quot;: {
+            &quot;n&quot;: 12,
+            &quot;mae&quot;: 0.3166666666666667,
+            &quot;rmse&quot;: 0.43204937989385733
+          }
+        },
+        &quot;test&quot;: {
+          &quot;ridge&quot;: {
+            &quot;n&quot;: 12,
+            &quot;mae&quot;: 0.5381395088174733,
+            &quot;rmse&quot;: 0.666003297769324
+          },
+          &quot;persistence&quot;: {
+            &quot;n&quot;: 12,
+            &quot;mae&quot;: 0.4333333333333333,
+            &quot;rmse&quot;: 0.6027713773341709
+          },
+          &quot;seasonal&quot;: {
+            &quot;n&quot;: 12,
+            &quot;mae&quot;: 0.6333333333333333,
+            &quot;rmse&quot;: 0.8514693182963201
+          }
+        }
+      },
+      &quot;passes_research_gate&quot;: false,
+      &quot;paired_mae_difference_95&quot;: [
+        -0.18934817042203425,
+        0.38516733351598154
+      ],
+      &quot;interval_radius&quot;: 0.2987052437946285,
+      &quot;test_interval_coverage&quot;: 0.3333333333333333,
+      &quot;interval_calibration_n&quot;: 12,
+      &quot;forecast&quot;: {
+        &quot;period&quot;: &quot;2026-09&quot;,
+        &quot;ridge&quot;: 0.3304666272273443,
+        &quot;baseline&quot;: 0.4,
+        &quot;lower&quot;: 0.03176138343271584,
+        &quot;upper&quot;: 0.6291718710219728,
+        &quot;train_end&quot;: &quot;2026-08&quot;,
+        &quot;train_n&quot;: 48,
+        &quot;intercept&quot;: -0.07708333333333332,
+        &quot;contributions&quot;: {
+          &quot;上月读数&quot;: 0.28949638756598656,
+          &quot;前两月读数&quot;: 0.1296031391922323,
+          &quot;前三月读数&quot;: -0.0021500332411708276,
+          &quot;去年同月读数&quot;: -0.003217967167293029,
+          &quot;月份正弦&quot;: 0.017017064739203665,
+          &quot;月份余弦&quot;: -0.02319863052828095
+        }
+      }
+    },
+    &quot;anomaly&quot;: {
+      &quot;status&quot;: &quot;scored&quot;,
+      &quot;period&quot;: &quot;2026-08&quot;,
+      &quot;flag&quot;: false,
+      &quot;score&quot;: 0.02403452239274184,
+      &quot;train_n&quot;: 47,
+      &quot;train_end&quot;: &quot;2026-07&quot;,
+      &quot;inputs&quot;: {
+        &quot;本期读数&quot;: 0.4,
+        &quot;较上月差&quot;: 1.1,
+        &quot;较去年同月差&quot;: 0.4
+      },
+      &quot;limits&quot;: &quot;无监督异常提示；没有异常真值标签，不报告准确率。异常可能是经济冲击、修订或解析问题。&quot;
+    },
+    &quot;evidence&quot;: [
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2021-09&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-09&quot;,
+        &quot;value&quot;: 1.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901238.html&quot;,
+        &quot;published&quot;: &quot;2021-10-14&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2021-10&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-10&quot;,
+        &quot;value&quot;: 2.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901273.html&quot;,
+        &quot;published&quot;: &quot;2021-11-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2021-11&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-11&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901297.html&quot;,
+        &quot;published&quot;: &quot;2021-12-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2021-12&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2021-12&quot;,
+        &quot;value&quot;: -1.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901329.html&quot;,
+        &quot;published&quot;: &quot;2022-01-12&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-01&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-01&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901368.html&quot;,
+        &quot;published&quot;: &quot;2022-02-16&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-02&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-02&quot;,
+        &quot;value&quot;: 0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901399.html&quot;,
+        &quot;published&quot;: &quot;2022-03-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-03&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-03&quot;,
+        &quot;value&quot;: 1.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901422.html&quot;,
+        &quot;published&quot;: &quot;2022-04-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-04&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-04&quot;,
+        &quot;value&quot;: 0.6,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901457.html&quot;,
+        &quot;published&quot;: &quot;2022-05-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-05&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-05&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901483.html&quot;,
+        &quot;published&quot;: &quot;2022-06-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-06&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-06&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901505.html&quot;,
+        &quot;published&quot;: &quot;2022-07-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-07&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-07&quot;,
+        &quot;value&quot;: -1.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901543.html&quot;,
+        &quot;published&quot;: &quot;2022-08-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-08&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-08&quot;,
+        &quot;value&quot;: -1.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901571.html&quot;,
+        &quot;published&quot;: &quot;2022-09-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-09&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-09&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901614.html&quot;,
+        &quot;published&quot;: &quot;2022-10-14&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-10&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-10&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901648.html&quot;,
+        &quot;published&quot;: &quot;2022-11-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-11&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-11&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901671.html&quot;,
+        &quot;published&quot;: &quot;2022-12-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2022-12&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2022-12&quot;,
+        &quot;value&quot;: -0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230203_1901704.html&quot;,
+        &quot;published&quot;: &quot;2023-01-12&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-01&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-01&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202302/t20230220_1913662.html&quot;,
+        &quot;published&quot;: &quot;2023-02-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-02&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-02&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202303/t20230309_1936953.html&quot;,
+        &quot;published&quot;: &quot;2023-03-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-03&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-03&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202304/t20230411_1938508.html&quot;,
+        &quot;published&quot;: &quot;2023-04-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-04&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-04&quot;,
+        &quot;value&quot;: -0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202305/t20230511_1939348.html&quot;,
+        &quot;published&quot;: &quot;2023-05-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-05&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-05&quot;,
+        &quot;value&quot;: -0.9,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202306/t20230609_1940480.html&quot;,
+        &quot;published&quot;: &quot;2023-06-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-06&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-06&quot;,
+        &quot;value&quot;: -0.8,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202307/t20230710_1941148.html&quot;,
+        &quot;published&quot;: &quot;2023-07-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-07&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-07&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202308/t20230809_1941864.html&quot;,
+        &quot;published&quot;: &quot;2023-08-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-08&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-08&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202309/t20230909_1942696.html&quot;,
+        &quot;published&quot;: &quot;2023-09-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-09&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-09&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202310/t20231013_1943549.html&quot;,
+        &quot;published&quot;: &quot;2023-10-13&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-10&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-10&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202311/t20231109_1944383.html&quot;,
+        &quot;published&quot;: &quot;2023-11-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-11&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-11&quot;,
+        &quot;value&quot;: -0.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202312/t20231209_1945395.html&quot;,
+        &quot;published&quot;: &quot;2023-12-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2023-12&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2023-12&quot;,
+        &quot;value&quot;: -0.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202401/t20240112_1946466.html&quot;,
+        &quot;published&quot;: &quot;2024-01-12&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-01&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-01&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202402/t20240208_1947624.html&quot;,
+        &quot;published&quot;: &quot;2024-02-08&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-02&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-02&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202403/t20240321_1948095.html&quot;,
+        &quot;published&quot;: &quot;2024-03-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-03&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-03&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202404/t20240411_1948465.html&quot;,
+        &quot;published&quot;: &quot;2024-04-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-04&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-04&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202405/t20240511_1950304.html&quot;,
+        &quot;published&quot;: &quot;2024-05-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-05&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-05&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202406/t20240612_1954520.html&quot;,
+        &quot;published&quot;: &quot;2024-06-12&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-06&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-06&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202407/t20240710_1955509.html&quot;,
+        &quot;published&quot;: &quot;2024-07-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-07&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-07&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202408/t20240809_1955949.html&quot;,
+        &quot;published&quot;: &quot;2024-08-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-08&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-08&quot;,
+        &quot;value&quot;: -0.7,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202409/t20240909_1956310.html&quot;,
+        &quot;published&quot;: &quot;2024-09-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-09&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-09&quot;,
+        &quot;value&quot;: -0.6,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202410/t20241013_1956898.html&quot;,
+        &quot;published&quot;: &quot;2024-10-13&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-10&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-10&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202411/t20241109_1957352.html&quot;,
+        &quot;published&quot;: &quot;2024-11-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-11&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-11&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202412/t20241209_1957688.html&quot;,
+        &quot;published&quot;: &quot;2024-12-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2024-12&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2024-12&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202501/t20250109_1958169.html&quot;,
+        &quot;published&quot;: &quot;2025-01-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-01&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-01&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202502/t20250209_1958645.html&quot;,
+        &quot;published&quot;: &quot;2025-02-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-02&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-02&quot;,
+        &quot;value&quot;: -0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202503/t20250309_1958914.html&quot;,
+        &quot;published&quot;: &quot;2025-03-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-03&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-03&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202504/t20250410_1959260.html&quot;,
+        &quot;published&quot;: &quot;2025-04-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-04&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-04&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202505/t20250510_1959770.html&quot;,
+        &quot;published&quot;: &quot;2025-05-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-05&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-05&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202506/t20250609_1960093.html&quot;,
+        &quot;published&quot;: &quot;2025-06-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-06&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-06&quot;,
+        &quot;value&quot;: -0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202507/t20250709_1960367.html&quot;,
+        &quot;published&quot;: &quot;2025-07-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-07&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-07&quot;,
+        &quot;value&quot;: -0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202508/t20250809_1960634.html&quot;,
+        &quot;published&quot;: &quot;2025-08-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-08&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-08&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202509/t20250910_1961108.html&quot;,
+        &quot;published&quot;: &quot;2025-09-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-09&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-09&quot;,
+        &quot;value&quot;: 0.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202510/t20251015_1961520.html&quot;,
+        &quot;published&quot;: &quot;2025-10-15&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-10&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-10&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202511/t20251109_1961822.html&quot;,
+        &quot;published&quot;: &quot;2025-11-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-11&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-11&quot;,
+        &quot;value&quot;: 0.1,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202512/t20251210_1962014.html&quot;,
+        &quot;published&quot;: &quot;2025-12-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2025-12&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2025-12&quot;,
+        &quot;value&quot;: 0.2,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202601/t20260109_1962272.html&quot;,
+        &quot;published&quot;: &quot;2026-01-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-01&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-01&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202602/t20260211_1962587.html&quot;,
+        &quot;published&quot;: &quot;2026-02-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-02&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-02&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202603/t20260309_1962729.html&quot;,
+        &quot;published&quot;: &quot;2026-03-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-03&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-03&quot;,
+        &quot;value&quot;: 1.0,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202604/t20260410_1963263.html&quot;,
+        &quot;published&quot;: &quot;2026-04-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-04&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-04&quot;,
+        &quot;value&quot;: 1.7,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202605/t20260511_1963658.html&quot;,
+        &quot;published&quot;: &quot;2026-05-11&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-05&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-05&quot;,
+        &quot;value&quot;: 0.5,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202606/t20260610_1963922.html&quot;,
+        &quot;published&quot;: &quot;2026-06-10&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-06&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-06&quot;,
+        &quot;value&quot;: -0.3,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/sj/zxfb/202607/t20260709_1964083.html&quot;,
+        &quot;published&quot;: &quot;2026-07-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-07&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-07&quot;,
+        &quot;value&quot;: -0.7,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202608/t20260809_1965007.html&quot;,
+        &quot;published&quot;: &quot;2026-08-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;obs:ppi_mom:2026-08&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;key&quot;: &quot;ppi_mom&quot;,
+        &quot;period&quot;: &quot;2026-08&quot;,
+        &quot;value&quot;: 0.4,
+        &quot;source_url&quot;: &quot;https://www.stats.gov.cn/xxgk/sjfb/zxfb2020/202609/t20260909_1965262.html&quot;,
+        &quot;published&quot;: &quot;2026-09-09&quot;
+      },
+      {
+        &quot;id&quot;: &quot;model:542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;,
+        &quot;kind&quot;: &quot;model_evaluation&quot;,
+        &quot;snapshot_hash&quot;: &quot;542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;,
+        &quot;method_version&quot;: &quot;china-monthly-v1&quot;,
+        &quot;source_ids&quot;: [
+          &quot;obs:ppi_mom:2021-09&quot;,
+          &quot;obs:ppi_mom:2021-10&quot;,
+          &quot;obs:ppi_mom:2021-11&quot;,
+          &quot;obs:ppi_mom:2021-12&quot;,
+          &quot;obs:ppi_mom:2022-01&quot;,
+          &quot;obs:ppi_mom:2022-02&quot;,
+          &quot;obs:ppi_mom:2022-03&quot;,
+          &quot;obs:ppi_mom:2022-04&quot;,
+          &quot;obs:ppi_mom:2022-05&quot;,
+          &quot;obs:ppi_mom:2022-06&quot;,
+          &quot;obs:ppi_mom:2022-07&quot;,
+          &quot;obs:ppi_mom:2022-08&quot;,
+          &quot;obs:ppi_mom:2022-09&quot;,
+          &quot;obs:ppi_mom:2022-10&quot;,
+          &quot;obs:ppi_mom:2022-11&quot;,
+          &quot;obs:ppi_mom:2022-12&quot;,
+          &quot;obs:ppi_mom:2023-01&quot;,
+          &quot;obs:ppi_mom:2023-02&quot;,
+          &quot;obs:ppi_mom:2023-03&quot;,
+          &quot;obs:ppi_mom:2023-04&quot;,
+          &quot;obs:ppi_mom:2023-05&quot;,
+          &quot;obs:ppi_mom:2023-06&quot;,
+          &quot;obs:ppi_mom:2023-07&quot;,
+          &quot;obs:ppi_mom:2023-08&quot;,
+          &quot;obs:ppi_mom:2023-09&quot;,
+          &quot;obs:ppi_mom:2023-10&quot;,
+          &quot;obs:ppi_mom:2023-11&quot;,
+          &quot;obs:ppi_mom:2023-12&quot;,
+          &quot;obs:ppi_mom:2024-01&quot;,
+          &quot;obs:ppi_mom:2024-02&quot;,
+          &quot;obs:ppi_mom:2024-03&quot;,
+          &quot;obs:ppi_mom:2024-04&quot;,
+          &quot;obs:ppi_mom:2024-05&quot;,
+          &quot;obs:ppi_mom:2024-06&quot;,
+          &quot;obs:ppi_mom:2024-07&quot;,
+          &quot;obs:ppi_mom:2024-08&quot;,
+          &quot;obs:ppi_mom:2024-09&quot;,
+          &quot;obs:ppi_mom:2024-10&quot;,
+          &quot;obs:ppi_mom:2024-11&quot;,
+          &quot;obs:ppi_mom:2024-12&quot;,
+          &quot;obs:ppi_mom:2025-01&quot;,
+          &quot;obs:ppi_mom:2025-02&quot;,
+          &quot;obs:ppi_mom:2025-03&quot;,
+          &quot;obs:ppi_mom:2025-04&quot;,
+          &quot;obs:ppi_mom:2025-05&quot;,
+          &quot;obs:ppi_mom:2025-06&quot;,
+          &quot;obs:ppi_mom:2025-07&quot;,
+          &quot;obs:ppi_mom:2025-08&quot;,
+          &quot;obs:ppi_mom:2025-09&quot;,
+          &quot;obs:ppi_mom:2025-10&quot;,
+          &quot;obs:ppi_mom:2025-11&quot;,
+          &quot;obs:ppi_mom:2025-12&quot;,
+          &quot;obs:ppi_mom:2026-01&quot;,
+          &quot;obs:ppi_mom:2026-02&quot;,
+          &quot;obs:ppi_mom:2026-03&quot;,
+          &quot;obs:ppi_mom:2026-04&quot;,
+          &quot;obs:ppi_mom:2026-05&quot;,
+          &quot;obs:ppi_mom:2026-06&quot;,
+          &quot;obs:ppi_mom:2026-07&quot;,
+          &quot;obs:ppi_mom:2026-08&quot;
+        ]
+      },
+      {
+        &quot;id&quot;: &quot;anomaly:c2b64376cd816206b6871d7bb1df186713c84072542d6547cff6673564c7487d&quot;,
+        &quot;kind&quot;: &quot;anomaly_diagnostic&quot;,
+        &quot;source_ids&quot;: [
+          &quot;obs:ppi_mom:2021-09&quot;,
+          &quot;obs:ppi_mom:2021-10&quot;,
+          &quot;obs:ppi_mom:2021-11&quot;,
+          &quot;obs:ppi_mom:2021-12&quot;,
+          &quot;obs:ppi_mom:2022-01&quot;,
+          &quot;obs:ppi_mom:2022-02&quot;,
+          &quot;obs:ppi_mom:2022-03&quot;,
+          &quot;obs:ppi_mom:2022-04&quot;,
+          &quot;obs:ppi_mom:2022-05&quot;,
+          &quot;obs:ppi_mom:2022-06&quot;,
+          &quot;obs:ppi_mom:2022-07&quot;,
+          &quot;obs:ppi_mom:2022-08&quot;,
+          &quot;obs:ppi_mom:2022-09&quot;,
+          &quot;obs:ppi_mom:2022-10&quot;,
+          &quot;obs:ppi_mom:2022-11&quot;,
+          &quot;obs:ppi_mom:2022-12&quot;,
+          &quot;obs:ppi_mom:2023-01&quot;,
+          &quot;obs:ppi_mom:2023-02&quot;,
+          &quot;obs:ppi_mom:2023-03&quot;,
+          &quot;obs:ppi_mom:2023-04&quot;,
+          &quot;obs:ppi_mom:2023-05&quot;,
+          &quot;obs:ppi_mom:2023-06&quot;,
+          &quot;obs:ppi_mom:2023-07&quot;,
+          &quot;obs:ppi_mom:2023-08&quot;,
+          &quot;obs:ppi_mom:2023-09&quot;,
+          &quot;obs:ppi_mom:2023-10&quot;,
+          &quot;obs:ppi_mom:2023-11&quot;,
+          &quot;obs:ppi_mom:2023-12&quot;,
+          &quot;obs:ppi_mom:2024-01&quot;,
+          &quot;obs:ppi_mom:2024-02&quot;,
+          &quot;obs:ppi_mom:2024-03&quot;,
+          &quot;obs:ppi_mom:2024-04&quot;,
+          &quot;obs:ppi_mom:2024-05&quot;,
+          &quot;obs:ppi_mom:2024-06&quot;,
+          &quot;obs:ppi_mom:2024-07&quot;,
+          &quot;obs:ppi_mom:2024-08&quot;,
+          &quot;obs:ppi_mom:2024-09&quot;,
+          &quot;obs:ppi_mom:2024-10&quot;,
+          &quot;obs:ppi_mom:2024-11&quot;,
+          &quot;obs:ppi_mom:2024-12&quot;,
+          &quot;obs:ppi_mom:2025-01&quot;,
+          &quot;obs:ppi_mom:2025-02&quot;,
+          &quot;obs:ppi_mom:2025-03&quot;,
+          &quot;obs:ppi_mom:2025-04&quot;,
+          &quot;obs:ppi_mom:2025-05&quot;,
+          &quot;obs:ppi_mom:2025-06&quot;,
+          &quot;obs:ppi_mom:2025-07&quot;,
+          &quot;obs:ppi_mom:2025-08&quot;,
+          &quot;obs:ppi_mom:2025-09&quot;,
+          &quot;obs:ppi_mom:2025-10&quot;,
+          &quot;obs:ppi_mom:2025-11&quot;,
+          &quot;obs:ppi_mom:2025-12&quot;,
+          &quot;obs:ppi_mom:2026-01&quot;,
+          &quot;obs:ppi_mom:2026-02&quot;,
+          &quot;obs:ppi_mom:2026-03&quot;,
+          &quot;obs:ppi_mom:2026-04&quot;,
+          &quot;obs:ppi_mom:2026-05&quot;,
+          &quot;obs:ppi_mom:2026-06&quot;,
+          &quot;obs:ppi_mom:2026-07&quot;,
+          &quot;obs:ppi_mom:2026-08&quot;
+        ]
+      }
+    ],
+    &quot;claims&quot;: [
+      {
+        &quot;id&quot;: &quot;latest&quot;,
+        &quot;kind&quot;: &quot;official_observation&quot;,
+        &quot;text&quot;: &quot;2026-08，工业生产者出厂价格 PPI 环比（单月环比）官方读数为 0.4%。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;obs:ppi_mom:2026-08&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;period&quot;: &quot;2026-08&quot;,
+          &quot;value&quot;: 0.4,
+          &quot;unit&quot;: &quot;%&quot;
+        }
+      },
+      {
+        &quot;id&quot;: &quot;comparison&quot;,
+        &quot;kind&quot;: &quot;computed_observation&quot;,
+        &quot;text&quot;: &quot;与上个自然月 2026-07 的 -0.7% 比较，本期读数上升；差值 +1.100 百分点。这比较的是读数，不是重新计算增长率。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;obs:ppi_mom:2026-08&quot;,
+          &quot;obs:ppi_mom:2026-07&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;current&quot;: 0.4,
+          &quot;reference&quot;: -0.7,
+          &quot;reference_period&quot;: &quot;2026-07&quot;,
+          &quot;delta&quot;: 1.1,
+          &quot;direction&quot;: &quot;上升&quot;,
+          &quot;unit&quot;: &quot;百分点&quot;
+        }
+      },
+      {
+        &quot;id&quot;: &quot;evaluation&quot;,
+        &quot;kind&quot;: &quot;model_evaluation&quot;,
+        &quot;text&quot;: &quot;固定协议留出从 2025-09 开始，共 12 个月：Ridge MAE 0.538，上一月值 0.433，去年同月值 0.633；越低越好。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;model:542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;metrics&quot;: {
+            &quot;ridge&quot;: {
+              &quot;n&quot;: 12,
+              &quot;mae&quot;: 0.5381395088174733,
+              &quot;rmse&quot;: 0.666003297769324
+            },
+            &quot;persistence&quot;: {
+              &quot;n&quot;: 12,
+              &quot;mae&quot;: 0.4333333333333333,
+              &quot;rmse&quot;: 0.6027713773341709
+            },
+            &quot;seasonal&quot;: {
+              &quot;n&quot;: 12,
+              &quot;mae&quot;: 0.6333333333333333,
+              &quot;rmse&quot;: 0.8514693182963201
+            }
+          },
+          &quot;test_start&quot;: &quot;2025-09&quot;,
+          &quot;test_n&quot;: 12
+        }
+      },
+      {
+        &quot;id&quot;: &quot;method&quot;,
+        &quot;kind&quot;: &quot;model_decision&quot;,
+        &quot;text&quot;: &quot;Ridge 未通过固定研究门槛，不能称为有效优势。默认研究参考保留开发验证期选定的上一月值基线；不根据留出成绩另选赢家。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;model:542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;gate_passed&quot;: false,
+          &quot;default_method&quot;: &quot;persistence&quot;,
+          &quot;baseline_selection_split&quot;: &quot;validation&quot;
+        }
+      },
+      {
+        &quot;id&quot;: &quot;forecast&quot;,
+        &quot;kind&quot;: &quot;model_forecast&quot;,
+        &quot;text&quot;: &quot;下一统计期 2026-09：默认上一月值基线估计 0.400%；Ridge 实验估计 0.330%。它们是研究估计，不是已经发布的官方观察。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;model:542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;period&quot;: &quot;2026-09&quot;,
+          &quot;train_end&quot;: &quot;2026-08&quot;,
+          &quot;reference&quot;: 0.4,
+          &quot;experimental&quot;: 0.3304666272273443
+        }
+      },
+      {
+        &quot;id&quot;: &quot;interval&quot;,
+        &quot;kind&quot;: &quot;model_diagnostic&quot;,
+        &quot;text&quot;: &quot;Ridge 开发期残差经验带 [0.032, 0.629]%；名义 90%，固定留出实际覆盖 33.3%。该经验带不属于默认基线，且不保证未来覆盖。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;model:542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;lower&quot;: 0.03176138343271584,
+          &quot;upper&quot;: 0.6291718710219728,
+          &quot;nominal_coverage&quot;: 0.9,
+          &quot;test_coverage&quot;: 0.3333333333333333,
+          &quot;applies_to&quot;: &quot;ridge&quot;
+        }
+      },
+      {
+        &quot;id&quot;: &quot;anomaly&quot;,
+        &quot;kind&quot;: &quot;anomaly_diagnostic&quot;,
+        &quot;text&quot;: &quot;2026-08 IsolationForest 分数 0.0240：未触发异常阈值，不能据此排除风险。训练截至 2026-07，本期未参与训练；无异常真值标签，不报告准确率或原因。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;anomaly:c2b64376cd816206b6871d7bb1df186713c84072542d6547cff6673564c7487d&quot;,
+          &quot;obs:ppi_mom:2026-08&quot;
+        ],
+        &quot;values&quot;: {
+          &quot;score&quot;: 0.02403452239274184,
+          &quot;flag&quot;: false,
+          &quot;train_end&quot;: &quot;2026-07&quot;
+        }
+      },
+      {
+        &quot;id&quot;: &quot;limits&quot;,
+        &quot;kind&quot;: &quot;limitation&quot;,
+        &quot;text&quot;: &quot;使用当前修订历史快照，缺少逐期首次公开版本；时序检查不能证明当时实时可得。 读数差是同一指标数值的百分点变化，不是价格水平变化或新的同比/环比增长率；基期变化需人工核对。 模型关系与无监督异常不证明经济原因，不构成资产收益预测或交易建议。 经验带属于实验模型，不能转用为基线预测区间，也不保证未来覆盖。&quot;,
+        &quot;evidence_ids&quot;: [
+          &quot;model:542697d6b8476298a96a6673da687ef63e9450e7ba64e335f15cc9117b1783ad&quot;,
+          &quot;anomaly:c2b64376cd816206b6871d7bb1df186713c84072542d6547cff6673564c7487d&quot;
+        ],
+        &quot;values&quot;: {}
+      }
+    ],
+    &quot;required_claim_ids&quot;: [
+      &quot;latest&quot;,
+      &quot;method&quot;,
+      &quot;limits&quot;
+    ],
+    &quot;limitations&quot;: [
+      &quot;使用当前修订历史快照，缺少逐期首次公开版本；时序检查不能证明当时实时可得。&quot;,
+      &quot;读数差是同一指标数值的百分点变化，不是价格水平变化或新的同比/环比增长率；基期变化需人工核对。&quot;,
+      &quot;模型关系与无监督异常不证明经济原因，不构成资产收益预测或交易建议。&quot;,
+      &quot;经验带属于实验模型，不能转用为基线预测区间，也不保证未来覆盖。&quot;
+    ],
+    &quot;network_requests&quot;: 0,
+    &quot;review_id&quot;: &quot;a29d8241d799e7c0639215803533139bdd75bb9646a057be93b07a8f14b0fd7c&quot;
+  },
+  &quot;plan&quot;: {
+    &quot;review_id&quot;: &quot;a29d8241d799e7c0639215803533139bdd75bb9646a057be93b07a8f14b0fd7c&quot;,
+    &quot;claim_ids&quot;: [
+      &quot;latest&quot;,
+      &quot;comparison&quot;,
+      &quot;evaluation&quot;,
+      &quot;method&quot;,
+      &quot;forecast&quot;,
+      &quot;interval&quot;,
+      &quot;anomaly&quot;,
+      &quot;limits&quot;
+    ]
+  },
+  &quot;planner&quot;: &quot;local&quot;,
+  &quot;rendering&quot;: &quot;deterministic_templates; no model-supplied prose&quot;,
+  &quot;report_id&quot;: &quot;ef2bed9edebde07c658b802bfa6e397c1851c1ae00c73598609f644003c0b21b&quot;
+}</pre></details></html>

@@ -6,6 +6,8 @@ import streamlit as st
 
 from china_macro import app as china_app
 from .common import header, radio, select, sync_query, initial_query, chart
+from .workflow import navigate
+from guanlan.forecast import MODEL_KEYS
 
 
 def load_dashboard():
@@ -49,11 +51,13 @@ def render(store):
                 st.write(f"{change['name']}：{b['period']} 的 {b['value']} → {a['period']} 的 {a['value']} {change['unit']}")
                 st.markdown(f"[本期原文]({a['source_url']}) · [比较期原文]({b['source_url']})")
             st.caption(observation["boundary"])
-        st.page_link("app.py", label="打开 研究与风险分析", icon="📊")
+        st.button("打开中国月度研究", key="china_open_monthly", on_click=navigate, args=("intelligence",), kwargs={"task":"中国月度预测与异常","ai_indicator":"cpi_yoy"})
         return
     specs = {s["key"]: s for s in data["catalog"]}
     keys = [k for k in specs if data["series"].get(k)]
     key = select("研究指标", keys, "china_indicator", initial_query("china_indicator", "cpi_yoy"), format_func=lambda k: specs[k]["name"])
+    if key in MODEL_KEYS:
+        st.button("分析当前指标：预测与异常核查", key="china_analyze_current", on_click=navigate, args=("intelligence",), kwargs={"task":"中国月度预测与异常","ai_indicator":key})
     window = select("自然月窗口", [12, 24, 60], "china_window", 24, format_func=lambda n: f"近{n}个月")
     sync_query(view="china", china_view=view, china_indicator=key)
     spec = specs[key]

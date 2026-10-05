@@ -1,0 +1,169 @@
+{
+  "status": "passed",
+  "browser": "actual headless Microsoft Edge",
+  "viewport_widths": [
+    1440,
+    390
+  ],
+  "cases": [
+    {
+      "id": "source-to-monthly-same-scope-three-downloads",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "monthly-source-chronos-preserves-indicator",
+      "status": "passed",
+      "fixed_chronos_window": "2025-09—2026-08",
+      "new_model_calls": 0
+    },
+    {
+      "id": "monthly-to-original-assistant-official-number-verified",
+      "status": "passed",
+      "latest_period": "2026-08"
+    },
+    {
+      "id": "sector-target2025-to-input2024-real-graph-three-downloads",
+      "status": "passed",
+      "target_year": 2025,
+      "input_year": 2024
+    },
+    {
+      "id": "graph-sector-roundtrip-keeps-applied-pressure-and-model-probabilities",
+      "status": "passed"
+    },
+    {
+      "id": "desktop-navigation-intelligence",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-china",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-overview",
+      "status": "passed",
+      "visible_charts": 2,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-compare",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-financial",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-trade",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-research",
+      "status": "passed",
+      "visible_charts": 0,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-navigation-methods",
+      "status": "passed",
+      "visible_charts": 0,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-宏观与行业风险研究",
+      "status": "passed",
+      "visible_charts": 2,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-中国月度预测与异常",
+      "status": "passed",
+      "visible_charts": 2,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-全球年度GDP研究",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-美国周期风险研究",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-证据问答与工具",
+      "status": "passed",
+      "visible_charts": 0,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-真实贸易图与情景",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "desktop-task-时序基础模型审计",
+      "status": "passed",
+      "visible_charts": 1,
+      "overflow_px": 0
+    },
+    {
+      "id": "mobile-source-monthly-same-report",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "mobile-chronos-same-indicator",
+      "status": "passed",
+      "overflow_px": 0
+    },
+    {
+      "id": "offline-html-mobile-no-script",
+      "status": "passed",
+      "overflow_px": 0
+    }
+  ],
+  "page_errors": [],
+  "browser_paid_api_requests": 0,
+  "server_paid_api_configuration": "ENABLE_PAID_AI=0; separate regression traps credential lookup and requests",
+  "source_sha256": {
+    "app.py": "17c5417e50a9c8bbaa8550788ab2fb63be2de53fa619e94102622e7beba5642e",
+    "src/guanlan/ui/workflow.py": "a3fb7a7722809892d22a83e7e0ca1c94bc1c841c2c3743e43730c519744e101e",
+    "src/guanlan/ui/china.py": "abea3b89277dfa89bac77b3905932a54ab7ef5ea85e855f880a2fec66e17fcb9",
+    "src/guanlan/ui/intelligence.py": "5dc7a68cba572047016c748f64db6001645fb45aef9b33b451bbb5789e1be501",
+    "src/guanlan/ui/sector.py": "5fdbf90057a10afa86b6a8f404214a311fce6c9b0663aafffc8ec0a02a230148",
+    "src/guanlan/ui/trade_graph.py": "a7758a9e295ffba55ffa5b70e0933b6bf70df5a40cc6c16765b36197abed2a94",
+    "src/guanlan/ui/chronos_research.py": "d9f618d7170bb15c00842211d681a1aad77b2709a645acadcf93986f6c85e780",
+    "src/guanlan/ui/research.py": "7a502c3186b4d499c8f98f2c1edc84e98c7920eb02263798f7e594baf836cb64"
+  },
+  "new_chronos_model_calls": 0,
+  "llm_business_calls": 0,
+  "scope": "Current real-snapshot cross-module handoffs, all 8 navigation pages and 7 risk tasks; mobile handoff and offline HTML. Not every possible economic object/device or production certification.",
+  "selected_screenshots_visually_checked": [
+    "monthly-workflow-desktop.png",
+    "graph-workflow-desktop.png",
+    "monthly-workflow-mobile.png",
+    "chronos-workflow-mobile.png",
+    "workspace-overview.png",
+    "workspace-compare.png",
+    "workspace-research.png",
+    "evidence-workflow-desktop.png"
+  ],
+  "artifacts": "assets/demo/overall-workflows-v1",
+  "prior_evidence_overwritten": false
+}

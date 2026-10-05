@@ -1,0 +1,198 @@
+{
+  "recorded_at_utc": "2026-10-05T17:19:47.533573+00:00",
+  "status": "passed",
+  "commands": [
+    {
+      "name": "ruff",
+      "command": [
+        "python",
+        "-m",
+        "ruff",
+        "check",
+        "src",
+        "scripts",
+        "tests",
+        "research/chronos",
+        "app.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.293238,
+      "log": "reports/overall-final-checks/ruff.log"
+    },
+    {
+      "name": "mypy",
+      "command": [
+        "python",
+        "-m",
+        "mypy"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.007075,
+      "log": "reports/overall-final-checks/mypy.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "python",
+        "-m",
+        "pytest",
+        "-q",
+        "--junitxml=reports/overall-final-checks/tests.xml"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 329.473094,
+      "log": "reports/overall-final-checks/tests.log"
+    },
+    {
+      "name": "node-tests",
+      "command": [
+        "node",
+        "--test",
+        "tests/china/test_chart_model.js"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.276484,
+      "log": "reports/overall-final-checks/node-tests.log"
+    },
+    {
+      "name": "node-syntax",
+      "command": [
+        "node",
+        "--check",
+        "src/china_macro/web/app.js"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.120737,
+      "log": "reports/overall-final-checks/node-syntax.log"
+    },
+    {
+      "name": "bandit",
+      "command": [
+        "python",
+        "-m",
+        "bandit",
+        "-r",
+        "src",
+        "scripts",
+        "research/chronos",
+        "-ll"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.834455,
+      "log": "reports/overall-final-checks/bandit.log"
+    },
+    {
+      "name": "pip-check",
+      "command": [
+        "python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.243205,
+      "log": "reports/overall-final-checks/pip-check.log"
+    },
+    {
+      "name": "pip-audit",
+      "command": [
+        "python",
+        "-m",
+        "pip_audit",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 23.801237,
+      "log": "reports/overall-final-checks/pip-audit.log"
+    },
+    {
+      "name": "model-lock-audit",
+      "command": [
+        "python",
+        "-m",
+        "pip_audit",
+        "--disable-pip",
+        "--no-deps",
+        "-r",
+        "research/chronos/requirements-audit.txt",
+        "--format",
+        "json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 7.937123,
+      "log": "reports/overall-final-checks/model-lock-audit.log"
+    },
+    {
+      "name": "assistant-freeze",
+      "command": [
+        "python",
+        "scripts/check_assistant_freeze.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.186141,
+      "log": "reports/overall-final-checks/assistant-freeze.log"
+    },
+    {
+      "name": "chronos-evidence",
+      "command": [
+        "python",
+        "scripts/check_chronos_evidence.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.205996,
+      "log": "reports/overall-final-checks/chronos-evidence.log"
+    },
+    {
+      "name": "llm-offline-preflight",
+      "command": [
+        "python",
+        "scripts/llm_business_pilot.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.43629,
+      "log": "reports/overall-final-checks/llm-offline-preflight.log"
+    },
+    {
+      "name": "build",
+      "command": [
+        "python",
+        "-m",
+        "build",
+        "--no-isolation"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 49.542974,
+      "log": "reports/overall-final-checks/build.log"
+    }
+  ],
+  "python_tests": {
+    "passed": 359,
+    "subtests_passed": 10,
+    "duration_seconds": 327.79,
+    "failures": 0,
+    "local_skips": 0
+  },
+  "mypy_files": 28,
+  "actual_browser_cases": 23,
+  "llm_business_api_calls": 0,
+  "credential_reads": 0,
+  "chronos_audit_reexecuted": false,
+  "limitations": [
+    "Tests verify engine/UI protections and frozen evidence; no new prospective validation, actual LLM business measurement or production certification."
+  ],
+  "final_build_artifacts": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1862116,
+      "sha256": "2c3d6251fb805ed788498840a4bc67a4915df1a7392364936f8ba980c565bb97"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1186575,
+      "sha256": "b4cec1867cbc508a1c1072879e6e2fd14b99ae0312738be3a0f7a298081659f4"
+    }
+  ],
+  "final_readme_rebuild_and_standalone_package_audit": "passed",
+  "remote_exact_commit_ci": "Verified independently at final delivery, not inferred from earlier run."
+}

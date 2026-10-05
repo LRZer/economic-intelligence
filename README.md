@@ -10,6 +10,14 @@
 
 当前属于开发阶段的专业研究平台；私有仓库发布与 CI 通过均不等同于金融机构生产部署认证。功能验收继续以真实研究工作流、证据和模型局限为准。
 
+## 系统目标与总体验收
+
+工程整合、真实本地机器学习、固定基础模型实验、图计算、证据工具与报告工作流已经建立；预测稳定优势、真实LLM业务质量、实时版本验证与生产认证分别保留为未通过或未测。请先看[目标达成矩阵](docs/OVERALL_ATTAINMENT.md)和[本轮实测验收](docs/OVERALL_ACCEPTANCE.md)，避免把某个阶段的历史测试数或CI当成整体认证。
+
+本轮最终本机 **359项测试＋10子测试**、Ruff、28文件mypy、前端检查、依赖一致性与安全门槛通过；实际Edge **23场景**通过，17张新截图和HTML/JSON/CSV实例保留。模型与付费业务的未通过/未测不因此改变。
+
+可直接从“中国观察”把当前指标带入月度研究，再核对官方历史、固定Chronos审计或用原证据工具问答。行业研究按输入年份进入真实贸易图，例如目标2025明确对应输入2024；返回同对象原模型记录时保留已应用压力情景，压力假设不改写模型概率。
+
 ## 从一个问题到一份可核查报告
 
 以“中国 HS85 电气设备行业”为例：
@@ -31,15 +39,17 @@
 
 新增“研究与风险分析 → 时序基础模型审计”，展示本机实际运行的 **Chronos-2-Synth**。官方固定权重、118,985,888参数，CPU float32，不微调；7个NBS月度指标、2025-09—2026-08同窗84/84单步预测，开发期只选参考、不运行模型。普通界面读取已验证结果，不需要PyTorch、模型下载或付费API。
 
-七项等权MASE **0.478350**，固定Ridge **0.570978**，6/7项胜过开发期预选参考；但配对描述性95%区间 **[-0.182745, 0.011344]** 仍跨零，**未通过预先固定的研究门槛**。原生80%分位数带覆盖33.3%—91.7%，未事后校准。全部正负结果保留，原生产默认参考和证据助手首测不变；当前修订历史已查看，不称盲测或实时版本验证。
+七项等权MASE **0.478350**，固定Ridge **0.570978**，6/7项胜过开发期预选参考；但配对描述性95%区间 **[-0.182745, 0.011344]** 仍跨零，**未通过预先固定的研究门槛**。原生80%分位数带覆盖33.3%—91.7%，未事后校准。全部正负结果保留，原应用默认参考和证据助手首测不变；当前修订历史已查看，不称盲测或实时版本验证。
 
 独立D研究环境44个依赖完整哈希/许可/安全核查，原Conda及应用环境未修改；Windows DLL和资源监控修正均在首次经济预测前完成，原记录保留。单次真实审计监督记录约21.73秒，合计峰值工作集0.96GiB，目录约1.48GiB；不是通用性能承诺。
 
-本地验收：345项测试与10个子测试通过，最后展示/重试补充后17项相关回归通过；Ruff、23文件mypy、前端检查、依赖一致性和安全扫描通过，Edge桌面/移动/离线12项通过。完整报告和失败勘误均保留，最终提交CI另行核对。
+本基础模型阶段的历史验收：345项测试与10个子测试通过，最后展示/重试补充后17项相关回归通过；Ruff、23文件mypy、前端检查、依赖一致性和安全扫描通过，Edge桌面/移动/离线12项通过。完整报告和失败勘误均保留，最终提交CI另行核对。
 
 ![固定基础模型审计桌面界面](assets/demo/chronos-synth-v1/chronos-overview-desktop.png)
 
 [完整方法、指标、局限及复现](docs/CHRONOS_SYNTH_ACCEPTANCE.md) · [直接打开离线报告](assets/demo/chronos-synth-v1/chronos-synth-audit.html) · [可重算JSON](assets/demo/chronos-synth-v1/chronos-synth-audit.json) · [独立研究环境复现](research/chronos/REPRODUCE.md)
+
+离线verifier仅重算保存预测的指标及固定基线，不独立证明真实模型执行；执行证据依赖冻结代码、哈希与唯一运行日志。真实模型仅Windows跑过，Linux应用CI不代表Linux模型执行已测。
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/verify_chronos_report.py assets/demo/chronos-synth-v1/chronos-synth-audit.json
@@ -74,7 +84,7 @@ SHA256与离线重算用于一致性核验，**不是来源真实性数字签名
 
 ![实际证据问答与来源核查](assets/screenshots/assistant-difference-desktop.png)
 
-[完整协议与实测限制](docs/ASSISTANT_ACCEPTANCE.md) · [可离线打开的报告](assets/demo/assistant-cpi/cpi-difference.html) · [可重算JSON](assets/demo/assistant-cpi/cpi-difference.json) · [LLM试点交接（未执行）](docs/ASSISTANT_LLM_PILOT.md)
+[完整协议与实测限制](docs/ASSISTANT_ACCEPTANCE.md) · [可离线打开的报告](assets/demo/assistant-cpi/cpi-difference.html) · [可重算JSON](assets/demo/assistant-cpi/cpi-difference.json) · [LLM可执行业务试点（未执行）](docs/LLM_BUSINESS_PILOT.md)
 
 ```powershell
 python scripts/verify_assistant_report.py assets/demo/assistant-cpi/cpi-difference.json
@@ -91,7 +101,7 @@ python -m pytest -q tests/test_evidence_assistant.py tests/test_evidence_assista
 
 ![真实两跳市场关联与可追踪贡献](assets/screenshots/trade-graph-paths-desktop.png)
 
-独立Decimal金标准、六个真实工程例通过；本机301项＋10子测试通过，最终安全异常及窄屏修正后33项受影响测试及19文件类型检查通过，准确提交CI覆盖完整更新套件。真实桌面/390px浏览器13场景通过。没有新图神经网络依赖、ML训练或付费请求。
+独立Decimal金标准、六个真实工程例通过；本图阶段历史本机301项＋10子测试通过，最终安全异常及窄屏修正后33项受影响测试及19文件类型检查通过，准确提交CI覆盖完整更新套件。真实桌面/390px浏览器13场景通过。没有新图神经网络依赖、ML训练或付费请求。
 
 [公式、完整验收与局限](docs/TRADE_GRAPH_ACCEPTANCE.md) · [可离线打开的真实情景](assets/demo/trade-graph-china-hs85/china-hs85-market-pressure.html) · [Chronos实验前可行性历史记录](docs/CHRONOS_SYNTH_FEASIBILITY.md) · [真实基础模型审计](docs/CHRONOS_SYNTH_ACCEPTANCE.md)
 
@@ -257,7 +267,7 @@ AUTO_REFRESH=0
 # CHINA_DATA_DIR=/your/local/runtime/china
 ```
 
-只有主动将 `ENABLE_PAID_AI` 设为 `1`、在本机安全配置凭据并点击生成按钮，才会请求付费服务。金额由服务商决定；本项目不提供免费额度承诺。数据刷新也须主动执行，不在页面启动时采集。
+网页摘要只有主动将 `ENABLE_PAID_AI` 设为 `1`、在本机安全配置凭据并点击生成按钮，才会请求付费服务。金额由服务商决定；本项目不提供免费额度承诺。独立LLM业务试点须另获新预算，由本人在交互终端显式触发，不由网页启动。数据刷新也须主动执行，不在页面启动时采集。
 
 如需核验真实接口，使用 [一次性 DeepSeek 测试](docs/DEEPSEEK_TEST.md)：Windows 双击根目录 `test-deepseek-once.cmd`，本人在本机窗口按回车后，才会临时读取桌面 `api_key.md` 并发送一次合成材料。默认 `python scripts/deepseek_live_check.py` 仅生成预检，不读密钥、不联网。结果保存在被 Git 忽略的 `reports/deepseek-live-check.json`，不保存模型原文或密钥；非交互调用、重复／并发触发被阻止，超时不自动重发。该入口此前已由用户本人触发一次并确认连通；合成材料成功不证明业务质量，既有预算已结束。本阶段不重新测试或读取密钥。
 
@@ -300,24 +310,28 @@ python scripts/refresh_bis.py
 python -m pytest -q
 python -m ruff check src scripts tests app.py
 python -m mypy
-python -m bandit -r src -ll
+python -m bandit -r src scripts research/chronos -ll
 python -m pip_audit
 python -m build --no-isolation
 node --test tests/china/test_chart_model.js
 node --check src/china_macro/web/app.js
 ```
 
-`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 19 个核心文件／脚本，包含月度核验、证据问答与严格计划适配；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
+`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 28 个核心文件／脚本，包含月度核验、证据问答、严格计划适配、基础模型指标复核、跨模块传递与独立业务试点；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
 
 关键测试包含：年度／同组切换、重复下载、训练期发生率区间与未来标签扰动、伙伴证据与固定输入核对、真实解析约定、币值单位、自然年／月边界、重复键、来源哈希破坏、缺失宏观不借相邻年、未来数据扰动、训练标签截止、同样本基线、无重叠地理诊断、情景边界、报告转义／范围、付费请求 mock、事务失败回滚、UI 空／异常／重复操作。
 
 本机浏览器验收使用已安装 Edge 的独立 headless 进程：先启动 8610 服务，再运行 `python scripts/browser_acceptance.py`；它检查七个页面/任务、实际图表、重复导航、移动端溢出、页面异常和默认付费请求为零，保存截图。CI 使用小 fixture 和已有轻量快照，不下载 BACI 原包、不重新跑巨大实验、不请求付费接口。年度与下载场景另运行 `python scripts/browser_research_scenarios.py`：美国 HS85 按 2023→2024→2025→2023 往返，切换跨国同行并逐轮实际下载三种文件，核对范围、时间和页签状态。
 
-前一轮研究功能的本机完整测试 **168 项＋10 subtests** 通过；最后的页签／下载修复又运行 **14 项专项测试**通过。全部 8 个主导航在桌面与 390 px 窄屏完成 16 组实际渲染巡检，截图经过目视检查；这不代表所有国家、行业和设备逐一覆盖。具体命令、修复后的下载结果、扫描及局限见 [验收记录](docs/ACCEPTANCE.md) 和 [开发阶段功能验收](docs/DEVELOPMENT_ACCEPTANCE.md)。
+第一轮研究功能的历史本机完整测试 **168 项＋10 subtests** 通过；最后的页签／下载修复又运行 **14 项专项测试**通过。全部 8 个主导航在桌面与 390 px 窄屏完成 16 组实际渲染巡检，截图经过目视检查；这不代表所有国家、行业和设备逐一覆盖。具体命令、修复后的下载结果、扫描及局限见 [验收记录](docs/ACCEPTANCE.md) 和 [开发阶段功能验收](docs/DEVELOPMENT_ACCEPTANCE.md)。
 
 本项目发布在 [LRZer/economic-intelligence 私有仓库](https://github.com/LRZer/economic-intelligence)。每次 main 推送触发固定官方 action SHA 的 [Research acceptance](https://github.com/LRZer/economic-intelligence/actions/workflows/acceptance.yml)；交付时须核对具体提交的 CI，截图提交不能替代功能提交验收。
 
-阶段二证据问答验收：最终全量 **269项＋10 subtests**、15文件类型检查与13个浏览器场景通过；依赖审计无已知漏洞、中高风险扫描为零，完整低风险项保留。截图、首轮失败和独立复算见[阶段二验收](docs/ASSISTANT_ACCEPTANCE.md)。后续图工具与基础模型实验见[路线](ROADMAP.md)。
+阶段二证据问答历史验收：当时最终全量 **269项＋10 subtests**、15文件类型检查与13个浏览器场景通过；依赖审计无已知漏洞、中高风险扫描为零，完整低风险项保留。截图、首轮失败和独立复算见[阶段二验收](docs/ASSISTANT_ACCEPTANCE.md)。后续图工具与基础模型实验见[路线](ROADMAP.md)。
+
+## 尚未实测的LLM业务试点
+
+[冻结协议与本地入口](docs/LLM_BUSINESS_PILOT.md)固定12个已查看开发问题，LLM只提议工具计划，本地重新核对并计算数字。建议另批最多12次/$0.03美元，首次异常停止，无重试，旧预算不延续。默认命令 `python scripts/llm_business_pilot.py` 只做零调用、零凭据读取的离线预检；真正运行须用户本人在本机新确认并隐藏输入密钥。当前真实业务质量未测量；6项本地拒绝不证明LLM安全，小试点即使成功也不代表开放式金融分析能力。
 
 ## 局限与下一步验证条件
 

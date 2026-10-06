@@ -1,0 +1,92 @@
+{
+  "kind": "compact_semantic_fingerprints_anchored_to_first_tool_outputs",
+  "prepared_at_utc": "2026-10-06T11:13:13.741407+00:00",
+  "prepared_before_first_portable_acceptance": true,
+  "original_replay_sha256": "471adcb9402d3ee4c1fa5c6bc61b8e8ef6c83954c70c1ea21d8971facd7aa8bf",
+  "original_manifest_sha256": "687dea3224e0f002485093afa36948fa783578344d7b85e094c66f4a54390a1f",
+  "policy": {
+    "version": "first-run-full-tool-semantics-v1",
+    "business_numeric_rel_tol": 1e-09,
+    "business_numeric_abs_tol": 1e-09,
+    "derived_model_float_grid": "1E-9",
+    "rounding": "Decimal.from_float / ROUND_HALF_EVEN",
+    "allowed_derived_paths_regex": [
+      "answer\\.evidence\\[\\d+\\]\\.model\\.(?:backtest\\[\\d+\\]\\.ridge|metrics\\.(?:validation|test)\\.(?:ridge|persistence|seasonal)\\.[^.]+|paired_mae_difference_95\\[\\d+\\]|interval_radius|test_interval_coverage|forecast\\.(?:ridge|lower|upper|intercept|contributions\\.[^.]+))$",
+      "answer\\.(?:numbers|trace\\.numbers)\\.(?:ridge_mae|persistence_mae|seasonal_mae|experimental)$"
+    ],
+    "all_other_floats": "exact IEEE-754 hexadecimal representation",
+    "all_types_structure_sources_scope_counts_decisions_and_text": "exact",
+    "original_top_answer_id": "retained and reported separately; anchored by fixed original replay SHA",
+    "maximum_equal_grid_bucket_span": "strictly less than 1e-9; boundary crossings can reject close values"
+  },
+  "records": [
+    {
+      "id": "development:00:00",
+      "original_answer_id": "8a7fab043df1514f936d15782c5e3b50dd0c2ed712e4e41f0b9f53a04bec6297",
+      "canonical_semantic_sha256": "f548c0520bdf2e9fca81e990caef7c939d0119a237ec1333b5d09b8fd9d909f4"
+    },
+    {
+      "id": "development:00:01",
+      "original_answer_id": "b7ca121f9acefdba6d09c36c7d3372321e4b8518b8ceb8a1ad2540e0d9783f05",
+      "canonical_semantic_sha256": "e350d768f58dd1e41f4ced4a1eb9a510bdf7186cf164a0f82dad7463d70ec1ca"
+    },
+    {
+      "id": "development:01:00",
+      "original_answer_id": "ba9b2fba0cdc43ddc991fb1590d197cff8b5377031d072567597a25f0381022a",
+      "canonical_semantic_sha256": "2ddddd7474a0f37ab701bd48868ad757e76363b07a583c625467b735d1f436b0"
+    },
+    {
+      "id": "development:01:01",
+      "original_answer_id": "cb79c023519e1862fe23d6d55785fc5ed529c37ca423257b59211bf7a3c16efd",
+      "canonical_semantic_sha256": "5870211407a213c7bbdbd192ebb3954916bbdacf7c6044e06ff6a931159f13fb"
+    },
+    {
+      "id": "development:02:00",
+      "original_answer_id": "580d2cff0bbd84c8b0b82645d63110f8be522736d4bc62ba66ed22e658a63b54",
+      "canonical_semantic_sha256": "0782d71a3d8ccc59d35f9f49069839a1e912f2742a88c4f1a8e05c26eed165f8"
+    },
+    {
+      "id": "development:02:01",
+      "original_answer_id": "fce40f1e03802a7eb60f710abf1b8ee1a9bb867b99791fd74bc49590be73e8ee",
+      "canonical_semantic_sha256": "dd654757e8cc906c0beaa8ef4aec54e49d129dbbc866399404b607f82fc3cb5b"
+    },
+    {
+      "id": "development:03:00",
+      "original_answer_id": "87528239bb7be2187f1084904bfc6501143ca171c40202251bddad802b780b40",
+      "canonical_semantic_sha256": "a734b59eaa9bf64318af61defed88f0bf93e7b166a1d7415632b6cca6491727f"
+    },
+    {
+      "id": "development:03:01",
+      "original_answer_id": "ed7df295b502be0dbf62d123146299088c06cb01fb385cb732c3fecb3b82859b",
+      "canonical_semantic_sha256": "458db8d667da5874eec2374998eac6bf6bb842c7420559938e07041f4e8ac6b0"
+    },
+    {
+      "id": "development:04:00",
+      "original_answer_id": "5ca1cd4956fe7b7348af245a0ab41ec256c4da849b362a58a45e62638a815f39",
+      "canonical_semantic_sha256": "5b19f0d07e0368682bc006fff07d7c7755089829d8a6070eb0b7e2162efc8f4a"
+    },
+    {
+      "id": "development:04:01",
+      "original_answer_id": "1e0da6d562afa7d680dc6b841beb1fe9378c2c9ea8c4d11f4d6b52ac1c75743c",
+      "canonical_semantic_sha256": "cebf09a380d15323af936fc17d6c928ebfec608db710ca232fa20c62f72431d8"
+    },
+    {
+      "id": "development:05:00",
+      "original_answer_id": "debc9a2dbbbbe87de89ba354561e949e45e74dd4dd143578149f0b3bf26ac1a9",
+      "canonical_semantic_sha256": "c6b91429d9a2d9301d15cd3076716ef21199249cabda787d3cca45d5d477f8cc"
+    },
+    {
+      "id": "development:05:01",
+      "original_answer_id": "d444899bc2d520c5c50c85c7b6950b1b43fd9e79ea24129d018053ffaabc8791",
+      "canonical_semantic_sha256": "25a83ffd57d3f560566029936567753f5abea6ba57c57188c83864d8e13457fa"
+    }
+  ],
+  "anchoring": {
+    "all_12_full_tool_payload_hashes_match_original_recorded_answer_ids": true,
+    "full_reconstructed_tool_output_included": false,
+    "full_local_reference_sha256": "7afe66983379761ee474c429adb1f7ac8d5cbff6d807d4d5e124616f6b251f33",
+    "new_API_calls": 0,
+    "original_source_or_records_changed": false
+  },
+  "limit": "Compact fingerprints support complete tool semantic checks; private complete reference stays local. This is not a new live run or provider-signed attestation."
+}

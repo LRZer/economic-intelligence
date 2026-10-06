@@ -1,0 +1,256 @@
+{
+  "diagnostic_commit": "a384d96c1af1a77b7c1cc530317c8935ec709056",
+  "Linux_diagnostic_run": 37453291883,
+  "Linux_diagnostic_job": 112234722623,
+  "Windows_environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "python": "3.11.7",
+    "implementation": "CPython",
+    "byteorder": "little",
+    "dependencies": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "2.3.3",
+      "requests": "2.34.2"
+    }
+  },
+  "Linux_environment": {
+    "platform": "Linux-6.17.0-1022-azure-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "python": "3.11.16",
+    "implementation": "CPython",
+    "byteorder": "little",
+    "dependencies": {
+      "numpy": "2.4.6",
+      "scipy": "1.17.1",
+      "scikit-learn": "1.9.1",
+      "pandas": "2.3.3",
+      "requests": "2.34.2"
+    }
+  },
+  "numeric_leaf_differences": 16,
+  "max_absolute_numeric_delta": 7.105427357601002e-15,
+  "max_ULP_distance": 43,
+  "all_numeric_changes_within_original_frozen_rule": true,
+  "all_non_numeric_controls_scope_source_types_and_structure_unchanged": true,
+  "new_paid_calls": 0,
+  "complete_local_tool_output_uploaded": false,
+  "kind": "anonymized_field_difference_summary_not_full_model_payload",
+  "first_failure_commit": "2451e33f7f240edd176b91a948ca556477d7f255",
+  "first_failure_run": 37449892804,
+  "first_failure": "Frozen exact score dict check; only four model-case output fingerprints differed",
+  "exact_business_numbers_scope_and_evidence_cases": 12,
+  "Windows_exact_score_cases": 12,
+  "Linux_exact_score_cases": 8,
+  "full_private_D_diagnosis_SHA256": "24c5d3634f59f0654787142a220c9e67ee09d8bbadffc0938a077ea03b606f6c",
+  "cases": [
+    {
+      "id": "development:00:00",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:00:01",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:01:00",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:01:01",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:02:00",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:02:01",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:03:00",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:03:01",
+      "exact_score_dict_equal": true,
+      "differences": []
+    },
+    {
+      "id": "development:04:00",
+      "exact_score_dict_equal": false,
+      "differences": [
+        {
+          "field": "answer.answer_id",
+          "saved_type": "builtins.str",
+          "Linux_type": "builtins.str",
+          "absolute_delta": null,
+          "neighbor_distance_in_ULPs": null
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.上月读数",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 2.7755575615628914e-17,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.去年同月读数",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 5.204170427930421e-18,
+          "neighbor_distance_in_ULPs": 6
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.月份余弦",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 2.710505431213761e-20,
+          "neighbor_distance_in_ULPs": 1
+        }
+      ]
+    },
+    {
+      "id": "development:04:01",
+      "exact_score_dict_equal": false,
+      "differences": [
+        {
+          "field": "answer.answer_id",
+          "saved_type": "builtins.str",
+          "Linux_type": "builtins.str",
+          "absolute_delta": null,
+          "neighbor_distance_in_ULPs": null
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.月份正弦",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 2.220446049250313e-16,
+          "neighbor_distance_in_ULPs": 2
+        }
+      ]
+    },
+    {
+      "id": "development:05:00",
+      "exact_score_dict_equal": false,
+      "differences": [
+        {
+          "field": "answer.answer_id",
+          "saved_type": "builtins.str",
+          "Linux_type": "builtins.str",
+          "absolute_delta": null,
+          "neighbor_distance_in_ULPs": null
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.月份正弦",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 2.220446049250313e-16,
+          "neighbor_distance_in_ULPs": 2
+        }
+      ]
+    },
+    {
+      "id": "development:05:01",
+      "exact_score_dict_equal": false,
+      "differences": [
+        {
+          "field": "answer.answer_id",
+          "saved_type": "builtins.str",
+          "Linux_type": "builtins.str",
+          "absolute_delta": null,
+          "neighbor_distance_in_ULPs": null
+        },
+        {
+          "field": "answer.evidence[0].model.backtest[17].ridge",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 7.105427357601002e-15,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.backtest[19].ridge",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 7.105427357601002e-15,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.上月读数",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 5.551115123125783e-17,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.前三月读数",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 5.551115123125783e-17,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.前两月读数",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 1.3877787807814457e-17,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.去年同月读数",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 1.3877787807814457e-17,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.月份余弦",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 8.673617379884035e-19,
+          "neighbor_distance_in_ULPs": 4
+        },
+        {
+          "field": "answer.evidence[0].model.forecast.contributions.月份正弦",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 1.1102230246251565e-16,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.metrics.test.ridge.rmse",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 2.220446049250313e-16,
+          "neighbor_distance_in_ULPs": 1
+        },
+        {
+          "field": "answer.evidence[0].model.paired_mae_difference_95[0]",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 5.967448757360216e-16,
+          "neighbor_distance_in_ULPs": 43
+        },
+        {
+          "field": "answer.evidence[0].model.paired_mae_difference_95[1]",
+          "saved_type": "builtins.float",
+          "Linux_type": "builtins.float",
+          "absolute_delta": 6.661338147750939e-16,
+          "neighbor_distance_in_ULPs": 3
+        }
+      ]
+    }
+  ],
+  "method": "Linux emitted field paths/types/SHA only. Local neighbor scalar candidates were accepted only when SHA matched exactly; complete reconstructed Linux tool payload root SHA also matched. Complete values and full reference remain on D.",
+  "limit": "Fingerprints and offline reconstruction are consistency evidence, not provider-signed or independent execution attestations."
+}

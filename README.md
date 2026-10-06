@@ -317,7 +317,7 @@ node --test tests/china/test_chart_model.js
 node --check src/china_macro/web/app.js
 ```
 
-`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 28 个核心文件／脚本，包含月度核验、证据问答、严格计划适配、基础模型指标复核、跨模块传递与独立业务试点；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
+`mypy` 覆盖预测、行业网络、研究对照、分类评估、报告、行业 UI、DeepSeek 请求处理与一次性测试入口，共 32 个核心文件／脚本，包含月度核验、证据问答、严格计划适配、基础模型指标复核、跨模块传递与独立业务试点；Ruff 当前规则验证语法和关键未定义变量类错误，**不等于全部风格规则审查**。Bandit 中高风险必须为零；完整扫描的低风险项逐项记录，不能误称全部零告警。依赖扫描记录执行日期，只代表当次漏洞数据库。
 
 关键测试包含：年度／同组切换、重复下载、训练期发生率区间与未来标签扰动、伙伴证据与固定输入核对、真实解析约定、币值单位、自然年／月边界、重复键、来源哈希破坏、缺失宏观不借相邻年、未来数据扰动、训练标签截止、同样本基线、无重叠地理诊断、情景边界、报告转义／范围、付费请求 mock、事务失败回滚、UI 空／异常／重复操作。
 
@@ -337,10 +337,10 @@ node --check src/china_macro/web/app.js
 
 ```powershell
 # 复算已保存的脱敏首测，不读密钥、不请求API。
-./.venv/Scripts/python.exe scripts/evaluate_llm_business_pilot.py docs/validation/llm-business-first-run-replay.json
+./.venv/Scripts/python.exe scripts/verify_llm_business_replay.py
 ```
 
-预期12/12、`pipeline_gate_passed=true`、`new_live_calls=0`；CI也只复算该记录。默认 `python scripts/llm_business_pilot.py` 仍是零调用预检。首次live已结束，不删除首次标记或沿用预算重跑。
+预期12/12业务与完整工具语义通过、`new_live_calls=0`；CI只复算已保存结果。Linux原逐位身份仅8/12，与本机原环境12/12分开报告；[跨平台失败、精确差异与独立比较层](docs/LLM_REPLAY_PORTABILITY.md)保留原失败与门槛，15个冻结文件及首次原件未改。 本次独立层本机全量 **398项＋10子测试**、32文件类型检查与安全门槛通过；[检查摘要](docs/validation/llm-replay-portability-validation.json)和准确提交CI分别记录。默认 `python scripts/llm_business_pilot.py` 仍是零调用预检。首次live已结束，不删除首次标记或沿用预算重跑。
 
 ## 局限与下一步验证条件
 

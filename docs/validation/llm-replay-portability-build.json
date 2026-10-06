@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "at_utc": "2026-10-06T11:32:28.916824+00:00",
+  "python_library_files_exact": 73,
+  "statistical_HTML_excerpts_exact": 342,
+  "frozen_Chronos_JSON_exact": 4,
+  "all_package_library_bytes_match_current_source": true,
+  "sdist_final_README_and_new_comparison_source_exact": true,
+  "standalone_no_network_no_deps_install_and_import": {
+    "status": "passed",
+    "installed_library_paths_verified": true,
+    "portable_layer_import_and_guard_verified": true,
+    "Torch_or_model_execution": false,
+    "full_replay_requires_Git_checkout": true
+  },
+  "new_Chronos_or_live_predictions": 0,
+  "distribution": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1868730,
+      "sha256": "27101f618786a05a8ec9ddbdcf01aa9b0abbebde0921192afa28b19e309e3b22"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1194362,
+      "sha256": "442f301a1b6b0794b33c9887189c699e02376cc2fc404c602a467a261f8c42eb"
+    }
+  ],
+  "limit": "Wheel includes library and saved audit; full first-run replay source/input manifests and scripts need the Git checkout. No complete private local reference is packaged."
+}

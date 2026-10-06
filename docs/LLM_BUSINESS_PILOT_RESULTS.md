@@ -42,12 +42,12 @@
 - [首次前协议](../evaluation/llm-business-pilot-v1/protocol.json)与[源码/输入清单](../evaluation/llm-business-pilot-v1/manifest.json)：原字节保留。
 
 ```powershell
-./.venv/Scripts/python.exe scripts/evaluate_llm_business_pilot.py docs/validation/llm-business-first-run-replay.json
+./.venv/Scripts/python.exe scripts/verify_llm_business_replay.py
 ./.venv/Scripts/python.exe scripts/check_assistant_freeze.py
 ./.venv/Scripts/python.exe scripts/check_chronos_evidence.py
 ```
 
-第一个命令只重算已保存计划、范围、数字、证据及费用，预期12/12、`pipeline_gate_passed=true`、`new_live_calls=0`。同一条离线复算加入CI；后两条只核对既有冻结，不重跑原150题或Chronos。不要删除首次标记或再次执行live命令。完整原件、独立审核、当日价格与发布验收回执在本机D盘独立归档，未纳入Git。
+第一个命令只重算已保存计划、范围、数字、证据及费用，预期12/12业务与完整工具语义通过、`new_live_calls=0`。CI采用独立可移植比较层，原身份数量另列；后两条只核对既有冻结，不重跑原150题或Chronos。不要删除首次标记或再次执行live命令。完整原件、独立审核、当日价格与发布验收回执在本机D盘独立归档，未纳入Git。
 
 ## 不能推出的结论
 
@@ -59,4 +59,4 @@
 
 10项相关回归全部通过（0失败/0跳过），Ruff、28文件mypy、pip check、Bandit中高风险门槛及发行包构建通过；15个试点文件、13个原助手文件、Chronos准备与40份首次证据冻结均核验一致。脱敏复算在网络/密钥输入阻断下与首测评分逐字段相同，两个原项目状态不变。完整原始日志与本次wheel/sdist归档D盘；[匿名检查摘要](validation/llm-business-publication-checks.json)包含包SHA。
 
-本次只改说明、脱敏证据和一条离线CI步骤，未重新运行本机359项完整套件或浏览器场景；前一工程阶段记录保留。新提交的[Research acceptance](https://github.com/LRZer/economic-intelligence/actions/workflows/acceptance.yml)运行完整应用套件、依赖安全查询、冻结及首测副本复算，交付回执核对该准确提交的CI。模型实测、150题封存评测、live请求及账号账单均不重跑。
+本次只改说明、脱敏证据和一条离线CI步骤，未重新运行本机359项完整套件或浏览器场景；前一工程阶段记录保留。跨平台首轮CI失败及修复说明见[独立比较层](LLM_REPLAY_PORTABILITY.md)。新提交的[Research acceptance](https://github.com/LRZer/economic-intelligence/actions/workflows/acceptance.yml)运行完整应用套件、依赖安全查询、冻结及首测副本复算，交付回执核对该准确提交的CI。模型实测、150题封存评测、live请求及账号账单均不重跑。

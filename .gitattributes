@@ -48,3 +48,8 @@ src/guanlan/llm_business.py -text
 scripts/llm_business_pilot.py -text
 scripts/evaluate_llm_business_pilot.py -text
 evaluation/llm-business-pilot-v1/** -text
+
+# Preserve first-run evidence and the separate portability fingerprint contract.
+docs/validation/llm-business-first-run-replay.json -text
+docs/validation/llm-business-first-run-acceptance.json -text
+docs/validation/llm-business-portable-semantics.json -text

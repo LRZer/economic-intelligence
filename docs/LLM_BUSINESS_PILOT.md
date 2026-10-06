@@ -26,10 +26,10 @@
 
 ```powershell
 ./.venv/Scripts/python.exe scripts/llm_business_pilot.py
-./.venv/Scripts/python.exe scripts/evaluate_llm_business_pilot.py docs/validation/llm-business-first-run-replay.json
+./.venv/Scripts/python.exe scripts/verify_llm_business_replay.py
 ```
 
-第一个命令只核验冻结哈希、12份请求边界、6个本地拦截及预算，写入Git忽略的预检报告；`live_calls=0`、`credential_read=false`。第二个命令复算[已脱敏首测记录](validation/llm-business-first-run-replay.json)，应为12/12且`pipeline_gate_passed=true`、`new_live_calls=0`。CI同时执行这两项离线检查，CI成功不代表又发起真实请求。
+第一个命令只核验冻结哈希、12份请求边界、6个本地拦截及预算，写入Git忽略的预检报告；`live_calls=0`、`credential_read=false`。第二个命令复算[已脱敏首测记录](validation/llm-business-first-run-replay.json)，应为12/12业务与完整工具语义通过、`new_live_calls=0`。CI同时执行这两项离线检查，CI成功不代表又发起真实请求。[跨平台说明](LLM_REPLAY_PORTABILITY.md)保留首次Linux逐位复算失败：业务数字完全一致，16个模型内部浮点末位影响4份完整输出哈希；原Windows环境严格CLI12/12，Linux原身份8/12单列，原评分器未改。
 
 首次本人执行已经结束，**不要再次运行live入口或删除首次标记**。首测原件保存在本机Git忽略的 `reports/llm-business-first-attempt.json`、`reports/llm-business-first-run/run.json` 与 `evaluation.json`，D盘另有完整验收回执。隐藏密钥输入没有记录或提交；不会代读桌面密钥、账户或账单。以后确有新试验时可预先准备安全目录和可复制路径，由用户本人完成秘密输入及实际付费确认，并另立协议。
 

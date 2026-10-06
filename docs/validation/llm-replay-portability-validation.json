@@ -1,0 +1,176 @@
+{
+  "kind": "final_local_acceptance_of_independent_first_run_portability_layer",
+  "status": "passed",
+  "checked_at_utc": "2026-10-06T11:27:10.193669+00:00",
+  "pytest": {
+    "passed": 398,
+    "subtests_passed": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "pytest_reported_seconds": 302.47,
+    "XML_testcase_count_including_plugin_reports": 408
+  },
+  "mypy_source_files": 32,
+  "relevant_regression_tests": 49,
+  "new_portability_guard_tests": 35,
+  "Bandit": {
+    "LOW": 219,
+    "MEDIUM": 0,
+    "HIGH": 0,
+    "full_scan_exit1_for_retained_LOW_is_not_a_zero_warning_claim": true
+  },
+  "application_dependency_audit": {
+    "registered_packages": 91,
+    "local_unregistered_package_explicitly_skipped": 1,
+    "known_vulnerabilities": 0
+  },
+  "CPU_model_lock_dependency_audit": {
+    "packages": 44,
+    "known_vulnerabilities": 0
+  },
+  "checks": [
+    {
+      "check": "ruff",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.266,
+      "log_sha256": "98733c3446b52dc3e6b6943142b19a142025d9727521f6abc3783a20e4b6d3c6"
+    },
+    {
+      "check": "pip-check",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 1.296,
+      "log_sha256": "710ca6b67e60562c14359fdc5efd34f1fb86f04e853305e6ab8ca31575e68b3e"
+    },
+    {
+      "check": "mypy",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 1.703,
+      "log_sha256": "3f22369b0d86c5257320ccd357cb810e5be7e6f678e98092128813fc26204036"
+    },
+    {
+      "check": "bandit-medium-high",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 4.813,
+      "log_sha256": "8a1fb0267a66661832bba4dba57fcd0c29b2f7a7d271f65234b3a265f060ec0d"
+    },
+    {
+      "check": "bandit-full",
+      "exit_code": 1,
+      "accepted_gate": true,
+      "seconds": 4.812,
+      "log_sha256": "3cd9e05b6a3382d41603cd117cc7ee0437be1a0b794cd03d2108729613d6664e"
+    },
+    {
+      "check": "model-lock-dependency-audit",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 13.359,
+      "log_sha256": "7e1ef9c4fac5ea226527c03373c734a2f819d2100a24df4ceb7023f33c31b640"
+    },
+    {
+      "check": "assistant-freeze",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.203,
+      "log_sha256": "4eb5530f6bab8ed6a1305ed25052dea881d8e2976b8dc52f9ea07bcc0db5e138"
+    },
+    {
+      "check": "chronos-evidence-freeze",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.188,
+      "log_sha256": "251f7e537701a09f0b1c4c271b1a1c43da855c60cba1866d8fe7153ddbe8f7e5"
+    },
+    {
+      "check": "original-Windows-strict-replay-network-blocked",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 5.672,
+      "log_sha256": "731385390fbbaffd94c28a0c37961ff400f1fc878c02c3f4536c8e2e7207d348"
+    },
+    {
+      "check": "app-dependency-audit",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 24.86,
+      "log_sha256": "ad617cb3af50ee592a4d9ff8744fc2910f07c2837c2bcabe6fe81ed97264c682"
+    },
+    {
+      "check": "portable-Windows-replay-network-blocked",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 5.828,
+      "log_sha256": "6a7c0c50511aef078acd965720fbe92636bacc6e5b5b66c28ff63404828468f7"
+    },
+    {
+      "check": "original-project-states",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.406,
+      "log_sha256": "ea3561958a464995041b07fd37536b5242752be02b8468250d0e9b590de07060"
+    },
+    {
+      "check": "node-tests",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.297,
+      "log_sha256": "df01804779f9e8dc039cf351d5c2a002dce21b288bf36e53147130dbed85a099"
+    },
+    {
+      "check": "node-syntax",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.109,
+      "log_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "check": "git-diff-whitespace",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 0.11,
+      "log_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "check": "default-preflight-zero-call",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 4.468,
+      "log_sha256": "16f33d6e12c6a2332321adf17eadf6ed8397b8606663118cf768bd649d17a494"
+    },
+    {
+      "check": "pytest-full",
+      "exit_code": 0,
+      "accepted_gate": true,
+      "seconds": 304.235,
+      "log_sha256": "91da8e594d7a896dfa269808f1da7886ee622be88461e6bee8a6590d8c6057b9"
+    }
+  ],
+  "original_Windows_strict_recomputed_cases": 12,
+  "portable_Windows_semantics_cases": 12,
+  "Linux_verified_original_score_identity_cases": 8,
+  "Linux_reconstructed_root_SHA_matches_and_semantics_cases": 12,
+  "actual_final_Linux_gate": "must be verified at exact final commit; reconstruction is not a new CI run",
+  "original_replay_sha256": "471adcb9402d3ee4c1fa5c6bc61b8e8ef6c83954c70c1ea21d8971facd7aa8bf",
+  "frozen15_and_original3_unchanged": true,
+  "source_assistant13_and_chronos8_plus40_freezes_verified": true,
+  "original_projects_status_unchanged": true,
+  "new_paid_calls": 0,
+  "credential_reads": 0,
+  "not_rerun": [
+    "real DeepSeek pilot",
+    "Chronos model execution",
+    "sealed150quality benchmark",
+    "browser scenarios (no UI change)",
+    "provider account bill"
+  ],
+  "limits": [
+    "Small already-seen planner pilot; not open-ended financial quality.",
+    "Semantic and original bit identity gates separately reported; frozen scorer unchanged.",
+    "Heuristic secret scanning and vulnerability database queries cannot prove absence of all vulnerabilities."
+  ]
+}

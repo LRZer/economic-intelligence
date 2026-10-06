@@ -1,0 +1,260 @@
+{
+  "planned_requests": 12,
+  "recorded_requests": 12,
+  "http200_requests": 12,
+  "accepted_plans": 12,
+  "correct_business_tasks": 12,
+  "scope_numeric_and_evidence_matches": 12,
+  "pipeline_gate_passed": true,
+  "independent_cli_recomputed_exactly": true,
+  "usage_totals": {
+    "prompt_tokens": 6529,
+    "completion_tokens": 963,
+    "total_tokens": 7492
+  },
+  "per_request_usage_bounds_satisfied": true,
+  "actual_response_model_field": [
+    "deepseek-flash"
+  ],
+  "response_model_is_alias_only": true,
+  "independent_fixed_provider_model_version_verified": false,
+  "conservative_peak_cache_miss_usage_cost_usd": "0.0031143",
+  "authorized_cap_usd": "0.03",
+  "provider_final_bill_read_or_verified": false,
+  "actual_account_charge_not_claimed": true,
+  "automatic_retry_recorded": false,
+  "local_guard_cases": 6,
+  "local_guards_were_not_remote_llm_refusal_tests": true,
+  "cases": [
+    {
+      "id": "development:00:00",
+      "key": "cpi_yoy",
+      "tool": "observation",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 539,
+        "completion_tokens": 72,
+        "total_tokens": 611
+      },
+      "conservative_cost_usd": "0.0002481"
+    },
+    {
+      "id": "development:00:01",
+      "key": "ppi_yoy",
+      "tool": "observation",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 541,
+        "completion_tokens": 71,
+        "total_tokens": 612
+      },
+      "conservative_cost_usd": "0.0002475"
+    },
+    {
+      "id": "development:01:00",
+      "key": "ppi_yoy",
+      "tool": "difference",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 76,
+        "total_tokens": 620
+      },
+      "conservative_cost_usd": "0.0002544"
+    },
+    {
+      "id": "development:01:01",
+      "key": "cpi_mom",
+      "tool": "difference",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 77,
+        "total_tokens": 619
+      },
+      "conservative_cost_usd": "0.000255"
+    },
+    {
+      "id": "development:02:00",
+      "key": "cpi_mom",
+      "tool": "mean",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 97,
+        "total_tokens": 639
+      },
+      "conservative_cost_usd": "0.000279"
+    },
+    {
+      "id": "development:02:01",
+      "key": "ppi_mom",
+      "tool": "mean",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 96,
+        "total_tokens": 640
+      },
+      "conservative_cost_usd": "0.0002784"
+    },
+    {
+      "id": "development:03:00",
+      "key": "ppi_mom",
+      "tool": "extrema",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 97,
+        "total_tokens": 641
+      },
+      "conservative_cost_usd": "0.0002796"
+    },
+    {
+      "id": "development:03:01",
+      "key": "manufacturing_pmi",
+      "tool": "extrema",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 545,
+        "completion_tokens": 98,
+        "total_tokens": 643
+      },
+      "conservative_cost_usd": "0.0002811"
+    },
+    {
+      "id": "development:04:00",
+      "key": "manufacturing_pmi",
+      "tool": "evaluation",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 68,
+        "total_tokens": 610
+      },
+      "conservative_cost_usd": "0.0002442"
+    },
+    {
+      "id": "development:04:01",
+      "key": "manufacturing_new_orders_pmi",
+      "tool": "evaluation",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 552,
+        "completion_tokens": 71,
+        "total_tokens": 623
+      },
+      "conservative_cost_usd": "0.0002508"
+    },
+    {
+      "id": "development:05:00",
+      "key": "manufacturing_new_orders_pmi",
+      "tool": "forecast",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 550,
+        "completion_tokens": 71,
+        "total_tokens": 621
+      },
+      "conservative_cost_usd": "0.0002502"
+    },
+    {
+      "id": "development:05:01",
+      "key": "nonmanufacturing_pmi",
+      "tool": "forecast",
+      "status": "passed",
+      "scope_matches": true,
+      "numbers_match": true,
+      "evidence_matches": true,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 69,
+        "total_tokens": 613
+      },
+      "conservative_cost_usd": "0.000246"
+    }
+  ],
+  "limits": [
+    "12 selected already-seen development questions; not a blind evaluation or true professional user population.",
+    "LLM proposed tool plans; fixed local tools produced all numeric answers. Correct plans do not establish open-ended financial reasoning quality.",
+    "Response model field is deepseek-flash alias; no immutable provider model revision returned or independently verified.",
+    "Cost is conservatively reconstructed from recorded usage at peak cache-miss rates, not the account invoice. Cache/holiday discounts may reduce charges.",
+    "Offline rescoring proves plan/numeric/evidence consistency, not a cryptographic provider attestation or independent proof of API execution.",
+    "Raw response body was deliberately not saved; its recorded SHA cannot be independently recomputed from the retained files.",
+    "No new requests, retries, model experiments, first-release vintage validation or production/business-value certification."
+  ],
+  "kind": "anonymized_summary_of_first_user_triggered_actual_pilot",
+  "status": "passed_small_development_pipeline_gate",
+  "prepared_base_commit": "f69dc8cbdd1ca2049b2c52e54a297ba8a7a90594",
+  "first_attempt_at_utc": "2026-10-06T09:59:32.524162+00:00",
+  "saved_evaluation_last_write_utc": "2026-10-06T09:59:59.476804+00:00",
+  "record_file_time_span_utc": "2026-10-06 09:59:32 through 09:59:59 UTC",
+  "time_span_basis": "first atomic marker timestamp through saved evaluation file mtime; not independently verified provider timing",
+  "independent_audit_at_utc": "2026-10-06T10:02:46.970143+00:00",
+  "source_input_files_unchanged": 15,
+  "manifest_sha256": "687dea3224e0f002485093afa36948fa783578344d7b85e094c66f4a54390a1f",
+  "frozen_protocol_retained_as_pre_execution_history": true,
+  "original_local_evidence_bytes_unchanged": true,
+  "redacted_replay_relative_path": "docs/validation/llm-business-first-run-replay.json",
+  "redacted_replay_sha256": "471adcb9402d3ee4c1fa5c6bc61b8e8ef6c83954c70c1ea21d8971facd7aa8bf",
+  "original_local_evidence": [
+    {
+      "file": "reports/llm-business-first-attempt.json",
+      "sha256": "150f26357c66bdee65184c9ed3e9223d8f9f9230cf6d97c95c75ce2f791052dc"
+    },
+    {
+      "file": "reports/llm-business-first-run/run.json",
+      "sha256": "45e86bdf61dbf90e70edc2dea4ddeffd554881db46b9f9bafc085069114a4657"
+    },
+    {
+      "file": "reports/llm-business-first-run/evaluation.json",
+      "sha256": "682fe3b9c36cd96f51a7bbe208be3d143f0880a24b40b348784ed404c4bbfc12"
+    }
+  ],
+  "audit_new_paid_calls": 0,
+  "audit_credential_reads": 0,
+  "retries_or_marker_resets": 0,
+  "price_evidence": {
+    "official_source": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "verified_at_utc": "2026-10-06 08:47:52 UTC",
+    "official_html_sha256": "210f102275ccf1a6542f08a3bc9e4b4c7c83278cb74b35217bffa112df6363b2",
+    "input_peak_cache_miss_usd_per_million": "0.30",
+    "output_peak_usd_per_million": "1.20",
+    "billing_verified": false
+  },
+  "publishes_provider_request_ids": false,
+  "publishes_account_identifiers": false
+}

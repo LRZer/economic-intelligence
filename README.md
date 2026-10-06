@@ -12,9 +12,9 @@
 
 ## 系统目标与总体验收
 
-工程整合、真实本地机器学习、固定基础模型实验、图计算、证据工具与报告工作流已经建立；预测稳定优势、真实LLM业务质量、实时版本验证与生产认证分别保留为未通过或未测。请先看[目标达成矩阵](docs/OVERALL_ATTAINMENT.md)和[本轮实测验收](docs/OVERALL_ACCEPTANCE.md)，避免把某个阶段的历史测试数或CI当成整体认证。
+工程整合、真实本地机器学习、固定基础模型实验、图计算、证据工具与报告工作流已经建立；预测稳定优势、开放式LLM金融质量、实时版本验证与生产认证分别保留为未通过或未测。首次12题真实LLM受限计划试点已通过，范围见[首测结果](docs/LLM_BUSINESS_PILOT_RESULTS.md)。请先看[目标达成矩阵](docs/OVERALL_ATTAINMENT.md)和[本轮实测验收](docs/OVERALL_ACCEPTANCE.md)，避免把某个阶段的历史测试数或CI当成整体认证。
 
-本轮最终本机 **359项测试＋10子测试**、Ruff、28文件mypy、前端检查、依赖一致性与安全门槛通过；实际Edge **23场景**通过，17张新截图和HTML/JSON/CSV实例保留。模型与付费业务的未通过/未测不因此改变。
+此前整体工程最终本机 **359项测试＋10子测试**、Ruff、28文件mypy、前端检查、依赖一致性与安全门槛通过；实际Edge **23场景**通过，17张新截图和HTML/JSON/CSV实例保留。模型的未通过结论与开放式金融业务未测边界不因此改变；2026-10-06首测新增实测另行列明。
 
 可直接从“中国观察”把当前指标带入月度研究，再核对官方历史、固定Chronos审计或用原证据工具问答。行业研究按输入年份进入真实贸易图，例如目标2025明确对应输入2024；返回同对象原模型记录时保留已应用压力情景，压力假设不改写模型概率。
 
@@ -84,7 +84,7 @@ SHA256与离线重算用于一致性核验，**不是来源真实性数字签名
 
 ![实际证据问答与来源核查](assets/screenshots/assistant-difference-desktop.png)
 
-[完整协议与实测限制](docs/ASSISTANT_ACCEPTANCE.md) · [可离线打开的报告](assets/demo/assistant-cpi/cpi-difference.html) · [可重算JSON](assets/demo/assistant-cpi/cpi-difference.json) · [LLM可执行业务试点（未执行）](docs/LLM_BUSINESS_PILOT.md)
+[完整协议与实测限制](docs/ASSISTANT_ACCEPTANCE.md) · [可离线打开的报告](assets/demo/assistant-cpi/cpi-difference.html) · [可重算JSON](assets/demo/assistant-cpi/cpi-difference.json) · [LLM受限业务首测（12题通过）](docs/LLM_BUSINESS_PILOT.md)
 
 ```powershell
 python scripts/verify_assistant_report.py assets/demo/assistant-cpi/cpi-difference.json
@@ -214,7 +214,7 @@ flowchart LR
 - **全球 GDP**：WDI 直方图梯度提升，开发 2015—2019、历史留出 2020—2024。1,033 条留出中主模型 MAE 4.816，上一年值 6.390，但五年中位数 **4.652 更好**。2020 年及经验带覆盖门槛失败；90% 经验带实际覆盖约 65.2%。补充对照是已查看历史期的有限重检，2025 额外历史年不能替代失败门槛。
 - **中国月度**：七个指标、岭回归、自然月滞后 1／2／3／12、末 12 个月逐期扩展留出，比较上期值与去年同月值。七项均未通过固定门槛，默认参考取开发期选定基线。IsolationForest 对最新一期评分，最新一期不参与训练；没有异常标签，不能宣称检测准确率。
 - **美国周期**：直接官方数据，三状态高斯混合、六个月标签隔离，295 个评估月。模型 Brier 0.237862，训练事件率基线 0.218742，未通过；默认展示基线，实验概率主动展开。没有使用旧 FRED 内容重命名或继续训练。
-- **可选 DeepSeek**：默认关闭，业务摘要与严格计划适配仅用mock验收，本阶段真实调用0。用户此前本人触发过一次合成材料连通测试；它不证明业务质量，既有预算已结束。未把IMF内容用于LLM训练。
+- **可选 DeepSeek**：默认关闭。2026-10-06用户本人触发首次12题受限工具计划试点，12/12 HTTP 200与本地业务评分通过，独立复算一致；输入6,529／输出963 tokens，保守usage费用$0.0031143，非账单。响应只有`deepseek-flash`别名。网页摘要与月度报告编排仍仅mock验收；小开发试点不证明开放式金融判断，未把IMF内容用于LLM训练。
 
 ## 安装与离线启动
 
@@ -267,7 +267,7 @@ AUTO_REFRESH=0
 # CHINA_DATA_DIR=/your/local/runtime/china
 ```
 
-网页摘要只有主动将 `ENABLE_PAID_AI` 设为 `1`、在本机安全配置凭据并点击生成按钮，才会请求付费服务。金额由服务商决定；本项目不提供免费额度承诺。独立LLM业务试点须另获新预算，由本人在交互终端显式触发，不由网页启动。数据刷新也须主动执行，不在页面启动时采集。
+网页摘要只有主动将 `ENABLE_PAID_AI` 设为 `1`、在本机安全配置凭据并点击生成按钮，才会请求付费服务。金额由服务商决定；本项目不提供免费额度承诺。独立LLM业务首测已由本人另获预算并在交互终端触发；该12次/$0.03授权不延续至新请求。首测不由网页启动，也未给网页证据助手添加付费按钮。数据刷新也须主动执行，不在页面启动时采集。
 
 如需核验真实接口，使用 [一次性 DeepSeek 测试](docs/DEEPSEEK_TEST.md)：Windows 双击根目录 `test-deepseek-once.cmd`，本人在本机窗口按回车后，才会临时读取桌面 `api_key.md` 并发送一次合成材料。默认 `python scripts/deepseek_live_check.py` 仅生成预检，不读密钥、不联网。结果保存在被 Git 忽略的 `reports/deepseek-live-check.json`，不保存模型原文或密钥；非交互调用、重复／并发触发被阻止，超时不自动重发。该入口此前已由用户本人触发一次并确认连通；合成材料成功不证明业务质量，既有预算已结束。本阶段不重新测试或读取密钥。
 
@@ -329,9 +329,18 @@ node --check src/china_macro/web/app.js
 
 阶段二证据问答历史验收：当时最终全量 **269项＋10 subtests**、15文件类型检查与13个浏览器场景通过；依赖审计无已知漏洞、中高风险扫描为零，完整低风险项保留。截图、首轮失败和独立复算见[阶段二验收](docs/ASSISTANT_ACCEPTANCE.md)。后续图工具与基础模型实验见[路线](ROADMAP.md)。
 
-## 尚未实测的LLM业务试点
+## 首次真实LLM受限业务试点
 
-[冻结协议与本地入口](docs/LLM_BUSINESS_PILOT.md)固定12个已查看开发问题，LLM只提议工具计划，本地重新核对并计算数字。建议另批最多12次/$0.03美元，首次异常停止，无重试，旧预算不延续。默认命令 `python scripts/llm_business_pilot.py` 只做零调用、零凭据读取的离线预检；真正运行须用户本人在本机新确认并隐藏输入密钥。当前真实业务质量未测量；6项本地拒绝不证明LLM安全，小试点即使成功也不代表开放式金融分析能力。
+2026-10-06用户本人在新授权最多12次/$0.03美元下完成首测；本机首次标记至评分文件跨度为 **09:59:32—09:59:59 UTC**。12题全部HTTP 200，LLM计划经本地核对执行，范围、数字、证据均12/12正确，独立离线评分一致。输入 **6,529**、输出 **963**，合计 **7,492 tokens**；按峰时cache-miss费率保守重算 **$0.0031143**，不是账号账单。实际响应model仅为 **`deepseek-flash`别名**，未核验不可变版本。
+
+[首测结果与逐题证据](docs/LLM_BUSINESS_PILOT_RESULTS.md)及[执行说明](docs/LLM_BUSINESS_PILOT.md)记录全部边界。15个冻结文件和首次原件未改；公开副本移除服务商请求标识与个人路径。12题都是已查看开发问题，数字由本地工具计算，6项本地拒绝未送LLM；不证明开放式金融分析、LLM安全或专业商业价值。没有重试、扩大评测、重训或新请求。网页证据助手仍用本地TF-IDF与确定性工具。
+
+```powershell
+# 复算已保存的脱敏首测，不读密钥、不请求API。
+./.venv/Scripts/python.exe scripts/evaluate_llm_business_pilot.py docs/validation/llm-business-first-run-replay.json
+```
+
+预期12/12、`pipeline_gate_passed=true`、`new_live_calls=0`；CI也只复算该记录。默认 `python scripts/llm_business_pilot.py` 仍是零调用预检。首次live已结束，不删除首次标记或沿用预算重跑。
 
 ## 局限与下一步验证条件
 

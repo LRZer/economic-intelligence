@@ -1,0 +1,493 @@
+{
+  "mode": "live_user_triggered",
+  "status": "complete",
+  "protocol_manifest_sha256": "687dea3224e0f002485093afa36948fa783578344d7b85e094c66f4a54390a1f",
+  "planned_requests": 12,
+  "automatic_retry": false,
+  "cost_upper_estimate_usd": "0.0031143",
+  "local_cap_usd": "0.03",
+  "input_usd_per_million": "0.30",
+  "output_usd_per_million": "1.20",
+  "evidence_kind": "redacted_replay_of_existing_first_user_run_not_a_new_execution",
+  "redaction": {
+    "provider_request_identifiers_removed": true,
+    "raw_response_body_not_retained": true,
+    "response_fingerprints_removed": true,
+    "credentials_accounts_and_personal_paths_included": false,
+    "request_payload_hash_is_public_frozen_input_fingerprint": true
+  },
+  "records": [
+    {
+      "id": "development:00:00",
+      "status": "passed",
+      "request_payload_sha256": "a7b70e47191084fc7cb9f02b60e8e6d043b73891b62f154d1b585e7854eb1fdf",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 539,
+        "completion_tokens": 72,
+        "total_tokens": 611
+      },
+      "conservative_usage_usd": "0.0002481",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "cpi_yoy",
+        "tool": "observation",
+        "periods": [
+          "2025-10"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "value": 0.2
+        },
+        "evidence_ids": [
+          "obs:cpi_yoy:2025-10"
+        ],
+        "answer_id": "8a7fab043df1514f936d15782c5e3b50dd0c2ed712e4e41f0b9f53a04bec6297"
+      }
+    },
+    {
+      "id": "development:00:01",
+      "status": "passed",
+      "request_payload_sha256": "50ed60f334951f4f90fe4556db0982c59a3e89a95e9c3023d12bee73aab7c297",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 541,
+        "completion_tokens": 71,
+        "total_tokens": 612
+      },
+      "conservative_usage_usd": "0.0002475",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "ppi_yoy",
+        "tool": "observation",
+        "periods": [
+          "2025-08"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "value": -2.9
+        },
+        "evidence_ids": [
+          "obs:ppi_yoy:2025-08"
+        ],
+        "answer_id": "b7ca121f9acefdba6d09c36c7d3372321e4b8518b8ceb8a1ad2540e0d9783f05"
+      }
+    },
+    {
+      "id": "development:01:00",
+      "status": "passed",
+      "request_payload_sha256": "fa784abc811a4dce8bc355a9352cb59562c7b58abb61bdc28d1b074e9c601808",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 76,
+        "total_tokens": 620
+      },
+      "conservative_usage_usd": "0.0002544",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "ppi_yoy",
+        "tool": "difference",
+        "periods": [
+          "2023-12",
+          "2024-03"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "reference": -2.7,
+          "current": -2.8,
+          "delta": -0.09999999999999964
+        },
+        "evidence_ids": [
+          "obs:ppi_yoy:2023-12",
+          "obs:ppi_yoy:2024-03"
+        ],
+        "answer_id": "ba9b2fba0cdc43ddc991fb1590d197cff8b5377031d072567597a25f0381022a"
+      }
+    },
+    {
+      "id": "development:01:01",
+      "status": "passed",
+      "request_payload_sha256": "265b0a98c6347b2c04349ce3333de85b8f039ef19238676be84e61dd14f735dc",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 77,
+        "total_tokens": 619
+      },
+      "conservative_usage_usd": "0.000255",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "cpi_mom",
+        "tool": "difference",
+        "periods": [
+          "2023-04",
+          "2023-07"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "reference": -0.1,
+          "current": 0.2,
+          "delta": 0.30000000000000004
+        },
+        "evidence_ids": [
+          "obs:cpi_mom:2023-04",
+          "obs:cpi_mom:2023-07"
+        ],
+        "answer_id": "cb79c023519e1862fe23d6d55785fc5ed529c37ca423257b59211bf7a3c16efd"
+      }
+    },
+    {
+      "id": "development:02:00",
+      "status": "passed",
+      "request_payload_sha256": "ef2b3c99505dfb3b0b58013d2959ca6fc65262c96e8dd1f65612c0802a16453c",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 97,
+        "total_tokens": 639
+      },
+      "conservative_usage_usd": "0.000279",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "cpi_mom",
+        "tool": "mean",
+        "periods": [
+          "2023-01",
+          "2023-02",
+          "2023-03",
+          "2023-04",
+          "2023-05",
+          "2023-06"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "mean": -0.08333333333333333,
+          "n": 6
+        },
+        "evidence_ids": [
+          "obs:cpi_mom:2023-01",
+          "obs:cpi_mom:2023-02",
+          "obs:cpi_mom:2023-03",
+          "obs:cpi_mom:2023-04",
+          "obs:cpi_mom:2023-05",
+          "obs:cpi_mom:2023-06"
+        ],
+        "answer_id": "580d2cff0bbd84c8b0b82645d63110f8be522736d4bc62ba66ed22e658a63b54"
+      }
+    },
+    {
+      "id": "development:02:01",
+      "status": "passed",
+      "request_payload_sha256": "c31d7c8ac430b5c78beb57737b33331bda52b640a600b78ba554ebebfec39acf",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 96,
+        "total_tokens": 640
+      },
+      "conservative_usage_usd": "0.0002784",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "ppi_mom",
+        "tool": "mean",
+        "periods": [
+          "2023-04",
+          "2023-05",
+          "2023-06",
+          "2023-07",
+          "2023-08",
+          "2023-09"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "mean": -0.3,
+          "n": 6
+        },
+        "evidence_ids": [
+          "obs:ppi_mom:2023-04",
+          "obs:ppi_mom:2023-05",
+          "obs:ppi_mom:2023-06",
+          "obs:ppi_mom:2023-07",
+          "obs:ppi_mom:2023-08",
+          "obs:ppi_mom:2023-09"
+        ],
+        "answer_id": "fce40f1e03802a7eb60f710abf1b8ee1a9bb867b99791fd74bc49590be73e8ee"
+      }
+    },
+    {
+      "id": "development:03:00",
+      "status": "passed",
+      "request_payload_sha256": "82d7b5a77ddb83b29ea76a88f68f588549dd01e21da8d8f4c0b5b64d91c7e3e7",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 97,
+        "total_tokens": 641
+      },
+      "conservative_usage_usd": "0.0002796",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "ppi_mom",
+        "tool": "extrema",
+        "periods": [
+          "2023-04",
+          "2023-05",
+          "2023-06",
+          "2023-07",
+          "2023-08",
+          "2023-09"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "value": 0.4,
+          "n": 6
+        },
+        "evidence_ids": [
+          "obs:ppi_mom:2023-04",
+          "obs:ppi_mom:2023-05",
+          "obs:ppi_mom:2023-06",
+          "obs:ppi_mom:2023-07",
+          "obs:ppi_mom:2023-08",
+          "obs:ppi_mom:2023-09"
+        ],
+        "answer_id": "87528239bb7be2187f1084904bfc6501143ca171c40202251bddad802b780b40"
+      }
+    },
+    {
+      "id": "development:03:01",
+      "status": "passed",
+      "request_payload_sha256": "6fd11629218a32e91b74642ff6879dfbf248cc8403971e8ada346935860bb5de",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 545,
+        "completion_tokens": 98,
+        "total_tokens": 643
+      },
+      "conservative_usage_usd": "0.0002811",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "manufacturing_pmi",
+        "tool": "extrema",
+        "periods": [
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01"
+        ],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "value": 50.3,
+          "n": 6
+        },
+        "evidence_ids": [
+          "obs:manufacturing_pmi:2024-08",
+          "obs:manufacturing_pmi:2024-09",
+          "obs:manufacturing_pmi:2024-10",
+          "obs:manufacturing_pmi:2024-11",
+          "obs:manufacturing_pmi:2024-12",
+          "obs:manufacturing_pmi:2025-01"
+        ],
+        "answer_id": "ed7df295b502be0dbf62d123146299088c06cb01fb385cb732c3fecb3b82859b"
+      }
+    },
+    {
+      "id": "development:04:00",
+      "status": "passed",
+      "request_payload_sha256": "2507a9530dd3a94f1e75830b023e20f7ca948dbc39d680fa9411407898f46821",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 542,
+        "completion_tokens": 68,
+        "total_tokens": 610
+      },
+      "conservative_usage_usd": "0.0002442",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "manufacturing_pmi",
+        "tool": "evaluation",
+        "periods": [],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "ridge_mae": 0.5194355902490552,
+          "persistence_mae": 0.5916666666666656,
+          "seasonal_mae": 0.5749999999999987,
+          "test_n": 12
+        },
+        "evidence_ids": [
+          "model:manufacturing_pmi:b531fada64e50940f74bb23e8f954291b1889b291b6ce01cd8fa5bef48c86d45"
+        ],
+        "answer_id": "5ca1cd4956fe7b7348af245a0ab41ec256c4da849b362a58a45e62638a815f39"
+      }
+    },
+    {
+      "id": "development:04:01",
+      "status": "passed",
+      "request_payload_sha256": "ee65491f4d7e271da555ad40d2b2c6b9c709f9f9e422a158cab36ae78bcf50ea",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 552,
+        "completion_tokens": 71,
+        "total_tokens": 623
+      },
+      "conservative_usage_usd": "0.0002508",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "manufacturing_new_orders_pmi",
+        "tool": "evaluation",
+        "periods": [],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "ridge_mae": 1.0959397958696222,
+          "persistence_mae": 1.3333333333333346,
+          "seasonal_mae": 0.9166666666666661,
+          "test_n": 12
+        },
+        "evidence_ids": [
+          "model:manufacturing_new_orders_pmi:454789ce20db8a619eb59a87de622eb6ca788397f42c868ef828329249579719"
+        ],
+        "answer_id": "1e0da6d562afa7d680dc6b841beb1fe9378c2c9ea8c4d11f4d6b52ac1c75743c"
+      }
+    },
+    {
+      "id": "development:05:00",
+      "status": "passed",
+      "request_payload_sha256": "4d16448d733ec06d5ac850481926c1672bf2cca2505817ba274c07f98a65dcc7",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 550,
+        "completion_tokens": 71,
+        "total_tokens": 621
+      },
+      "conservative_usage_usd": "0.0002502",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "manufacturing_new_orders_pmi",
+        "tool": "forecast",
+        "periods": [],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "reference": 50.5,
+          "experimental": 49.44297952871003
+        },
+        "evidence_ids": [
+          "model:manufacturing_new_orders_pmi:454789ce20db8a619eb59a87de622eb6ca788397f42c868ef828329249579719"
+        ],
+        "answer_id": "debc9a2dbbbbe87de89ba354561e949e45e74dd4dd143578149f0b3bf26ac1a9"
+      }
+    },
+    {
+      "id": "development:05:01",
+      "status": "passed",
+      "request_payload_sha256": "e400154a3933df22fc66159124ec0466df484506d4ea296f8788669dedea1498",
+      "http_status": 200,
+      "usage": {
+        "prompt_tokens": 544,
+        "completion_tokens": 69,
+        "total_tokens": 613
+      },
+      "conservative_usage_usd": "0.000246",
+      "served_model": "deepseek-flash",
+      "validated_plan": {
+        "snapshot_hash": "70a888caaa27f7f3b8e9d7a278e54b02bb6e200ee78c58f6ae14be76e8934e95",
+        "key": "nonmanufacturing_pmi",
+        "tool": "forecast",
+        "periods": [],
+        "direction": "max"
+      },
+      "score": {
+        "status": "passed",
+        "scope_matches": true,
+        "numbers_match": true,
+        "evidence_ids_match": true,
+        "numbers": {
+          "reference": 50.2,
+          "experimental": 50.11567617492617
+        },
+        "evidence_ids": [
+          "model:nonmanufacturing_pmi:f6d8dfdf0fd9ff22a365dd443a7a844a805edb6233357bebe83a2d2dcc779df7"
+        ],
+        "answer_id": "d444899bc2d520c5c50c85c7b6950b1b43fd9e79ea24129d018053ffaabc8791"
+      }
+    }
+  ]
+}

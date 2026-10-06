@@ -1,0 +1,117 @@
+{
+  "kind": "local_validation_of_documentation_and_anonymized_first_run_replay",
+  "status": "passed",
+  "checked_at_utc": "2026-10-06T10:19:20.488228+00:00",
+  "base_commit": "f69dc8cbdd1ca2049b2c52e54a297ba8a7a90594",
+  "pytest": {
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": 10,
+    "files": [
+      "tests/test_llm_business.py",
+      "tests/test_repository_readonly.py"
+    ]
+  },
+  "mypy_source_files": 28,
+  "checks": [
+    {
+      "check": "pytest-relevant",
+      "exit_code": 0,
+      "seconds": 6.547,
+      "log_sha256": "2073e19ff6c75137425905e3ffd254f7d6a2a6270c79cf9cd734efb4f9927103"
+    },
+    {
+      "check": "ruff",
+      "exit_code": 0,
+      "seconds": 1.703,
+      "log_sha256": "98733c3446b52dc3e6b6943142b19a142025d9727521f6abc3783a20e4b6d3c6"
+    },
+    {
+      "check": "mypy",
+      "exit_code": 0,
+      "seconds": 2.484,
+      "log_sha256": "d50f9354dcf920e4cacd752112d13656623a30fa184d0e872ec8e4991cc67944"
+    },
+    {
+      "check": "pip-check",
+      "exit_code": 0,
+      "seconds": 4.031,
+      "log_sha256": "710ca6b67e60562c14359fdc5efd34f1fb86f04e853305e6ab8ca31575e68b3e"
+    },
+    {
+      "check": "bandit-medium-high",
+      "exit_code": 0,
+      "seconds": 6.735,
+      "log_sha256": "254ea4082b7777571d41a4403875a010966b9ed5ec69962ff7c6c34bf8648bae"
+    },
+    {
+      "check": "assistant-freeze",
+      "exit_code": 0,
+      "seconds": 0.266,
+      "log_sha256": "4eb5530f6bab8ed6a1305ed25052dea881d8e2976b8dc52f9ea07bcc0db5e138"
+    },
+    {
+      "check": "chronos-evidence-freeze",
+      "exit_code": 0,
+      "seconds": 0.656,
+      "log_sha256": "251f7e537701a09f0b1c4c271b1a1c43da855c60cba1866d8fe7153ddbe8f7e5"
+    },
+    {
+      "check": "original-project-states",
+      "exit_code": 0,
+      "seconds": 0.421,
+      "log_sha256": "ea3561958a464995041b07fd37536b5242752be02b8468250d0e9b590de07060"
+    },
+    {
+      "check": "git-whitespace",
+      "exit_code": 0,
+      "seconds": 0.109,
+      "log_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "check": "redacted-replay-blocked-network",
+      "exit_code": 0,
+      "seconds": 5.328,
+      "same_as_original_evaluation": true,
+      "new_api_calls": 0,
+      "credential_reads": 0
+    },
+    {
+      "check": "build",
+      "exit_code": 0,
+      "seconds": 73.797,
+      "log_sha256": "2102f6b4f450bb3d0e9025dce697747465459a713bad4873e790654fd5d382f9"
+    }
+  ],
+  "frozen_pilot_source_and_input_files": 15,
+  "frozen_source_and_input_bytes_unchanged": true,
+  "original_first_run_bytes_unchanged": true,
+  "redacted_replay_matches_original_evaluation": true,
+  "redacted_replay_sha256": "471adcb9402d3ee4c1fa5c6bc61b8e8ef6c83954c70c1ea21d8971facd7aa8bf",
+  "new_paid_calls": 0,
+  "credential_reads": 0,
+  "original_projects_unchanged": true,
+  "distribution": [
+    {
+      "file": "guanlan_economic_intelligence-1.0.0-py3-none-any.whl",
+      "bytes": 1862116,
+      "sha256": "ba53f40bb0a5a94a11418611494c38bbe4c3e1c51a3f5858bcaf84b77b084fdc"
+    },
+    {
+      "file": "guanlan_economic_intelligence-1.0.0.tar.gz",
+      "bytes": 1186887,
+      "sha256": "ec6263678196e68fb7f67fba9cdbee0d926e2a9902b5fa4ea323dc9cd4892b7b"
+    }
+  ],
+  "not_rerun": [
+    "full local suite (documentation/CI/evidence change only; exact-head CI runs full suite)",
+    "browser scenarios (no UI change)",
+    "Chronos model execution",
+    "sealed 150-question benchmark",
+    "live DeepSeek requests",
+    "provider account invoice"
+  ],
+  "CI_scope": "Exact new commit must independently pass full application suite, dependencies, frozen evidence and zero-network first-run replay. Local partial suite is not claimed as full-suite rerun."
+}

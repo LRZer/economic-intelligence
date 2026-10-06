@@ -31,4 +31,4 @@ jobs:
       - run: python -m pip install -r requirements.lock.txt
       - run: python -m pip install --no-deps --no-build-isolation -e .
       - name: Print read-only diagnostics (this is not an acceptance gate)
-        run: python scripts/diagnose_llm_business_replay.py docs/validation/llm-business-first-run-replay.json
+        run: python scripts/diagnose_llm_business_replay.py docs/validation/llm-business-first-run-replay.json --tool-fingerprints

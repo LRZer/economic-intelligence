@@ -14,6 +14,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("run", type=Path)
+    parser.add_argument("--tool-fingerprints", action="store_true", help="Print field paths/types/SHA only; never full results or numeric tool values")
     args = parser.parse_args()
     if args.run.stat().st_size > 2 * 1024 * 1024:
         raise ValueError("Run file exceeds bound")
@@ -23,7 +24,7 @@ def main() -> int:
          patch("socket.create_connection", side_effect=AssertionError("Diagnostic network forbidden")), \
          patch("requests.Session.request", side_effect=AssertionError("Diagnostic HTTP forbidden")), \
          patch("getpass.getpass", side_effect=AssertionError("Diagnostic credential input forbidden")):
-        result = diagnose(ROOT, recorded)
+        result = diagnose(ROOT, recorded, include_tool_fingerprints=args.tool_fingerprints)
     print(json.dumps(result, ensure_ascii=False, indent=2, allow_nan=False))
     return 0
 

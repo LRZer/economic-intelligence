@@ -8,6 +8,9 @@ import platform
 import sys
 
 from guanlan.llm_business import load_pilot, score_plan
+from guanlan.assistant_plans import execute_tool_plan
+from guanlan.monthly_review import canonical, digest
+import json
 
 
 def type_name(value: object) -> str:
@@ -50,11 +53,38 @@ def environment() -> dict:
             "dependencies": {name: version(name) for name in ("numpy", "scipy", "scikit-learn", "pandas", "requests")}}
 
 
-def diagnose(root: Path, run: dict) -> dict:
+def validate_tool_reference(run: dict, reference: dict) -> dict[str, dict]:
+    if reference.get("kind") != "offline_reconstruction_of_first_local_tool_outputs_not_provider_response":
+        raise ValueError("Not the local tool output reconstruction")
+    if [row["id"] for row in reference["records"]] != [row["id"] for row in run["records"]]:
+        raise ValueError("Reference does not preserve original case order")
+    answers = {}
+    for first, row in zip(run["records"], reference["records"]):
+        answer = row["answer"]
+        if answer["answer_id"] != first["score"]["answer_id"] or digest({k: v for k, v in answer.items() if k != "answer_id"}) != answer["answer_id"]:
+            raise ValueError("Reference full payload does not match original recorded output fingerprint")
+        answers[row["id"]] = answer
+    return answers
+
+
+def tool_field_fingerprints(value: object, path: str = "answer") -> list[dict]:
+    """Expose paths/types/one-way SHA only; no complete or scalar tool values."""
+    nodes = [{"field": path, "type": type_name(value), "sha256": digest(value)}]
+    if isinstance(value, dict):
+        for key in sorted(value):
+            nodes.extend(tool_field_fingerprints(value[key], f"{path}.{key}"))
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            nodes.extend(tool_field_fingerprints(item, f"{path}[{index}]"))
+    return nodes
+
+
+def diagnose(root: Path, run: dict, reference: dict | None = None, *, include_tool_fingerprints: bool = False) -> dict:
     manifest, _, requests, gold, store = load_pilot(root)
     if [row["id"] for row in run["records"]] != [case["id"] for case in requests]:
         raise ValueError("Diagnostic requires the complete frozen ordered run")
     targets = {row["id"]: row["expected"] for row in gold["business"]}
+    answers = validate_tool_reference(run, reference) if reference is not None else {}
     cases = []
     for case, row in zip(requests, run["records"]):
         rescored = score_plan(case["question"], row["validated_plan"], targets[case["id"]], store)
@@ -64,6 +94,12 @@ def diagnose(root: Path, run: dict) -> dict:
                       "saved_gold_status": row["score"]["status"], "recomputed_gold_status": rescored["status"],
                       "scope_matches": rescored["scope_matches"], "numbers_match": rescored["numbers_match"],
                       "evidence_ids_match": rescored["evidence_ids_match"]})
+        if answers or include_tool_fingerprints:
+            actual = json.loads(canonical(execute_tool_plan(case["question"], row["validated_plan"], store)))
+        if answers:
+            cases[-1]["tool_answer_differences"] = typed_differences(answers[case["id"]], actual, "answer")
+        if include_tool_fingerprints:
+            cases[-1]["tool_field_fingerprints"] = tool_field_fingerprints(actual)
     return {"mode": "diagnostic_only_not_acceptance_or_new_execution", "environment": environment(),
             "frozen_source_input_files_verified": len(manifest["files"]), "cases": cases,
             "exact_equal_cases": sum(case["exact_score_dict_equal"] for case in cases),
